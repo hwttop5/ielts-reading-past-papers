@@ -81,7 +81,7 @@
           </div>
 
           <div class="question-footer">
-            <button class="view-pdf-btn" @click.stop="viewPdf(q)" :title="t('browse.viewPdf')">
+            <button class="view-pdf-btn" @click.stop="viewPdf(q)" :title="t('browse.viewPdf')" :disabled="!q.pdfPath">
               <span class="material-icons" style="font-size: 18px;">picture_as_pdf</span>
             </button>
             <button class="start-button" @click.stop="start(q)">
@@ -151,6 +151,24 @@ onMounted(() => {
   if (route.query.category) {
     category.value = route.query.category as string
   }
+  if (route.query.difficulty) {
+    difficulty.value = route.query.difficulty as string
+  }
+  if (route.query.search) {
+    searchText.value = route.query.search as string
+  }
+  if (route.query.page) {
+    const page = Number(route.query.page)
+    if (Number.isFinite(page) && page > 0) {
+      currentPage.value = page
+    }
+  }
+  if (route.query.pageSize) {
+    const size = Number(route.query.pageSize)
+    if (Number.isFinite(size) && [6, 12, 24, 48].includes(size)) {
+      pageSize.value = size
+    }
+  }
 })
 
 // 检查题目是否已完成
@@ -170,6 +188,14 @@ const getQuestionScore = (questionId: string) => {
 watch(() => route.query.category, (newCategory) => {
   if (newCategory) {
     category.value = newCategory as string
+  }
+})
+
+watch(() => route.query.page, (newPage) => {
+  if (!newPage) return
+  const page = Number(newPage)
+  if (Number.isFinite(page) && page > 0) {
+    currentPage.value = page
   }
 })
 
@@ -238,7 +264,16 @@ const paginatedQuestions = computed(() => {
 })
 
 const start = (q: any) => {
-  router.push({ path: '/practice-mode', query: { id: q.id } })
+  const query: Record<string, string> = {
+    id: q.id,
+    from: 'browse',
+    page: String(currentPage.value),
+    pageSize: String(pageSize.value)
+  }
+  if (category.value !== 'all') query.category = category.value
+  if (difficulty.value !== 'all') query.difficulty = difficulty.value
+  if (searchText.value.trim()) query.search = searchText.value
+  router.push({ path: '/practice-mode', query })
 }
 
 const openPDFSafely = (pdfPath: string, examTitle: string) => {
@@ -260,6 +295,10 @@ message.success(t('browse.pdfOpening'))
 }
 
 const viewPdf = (q: any) => {
+if (q.pdfPath) {
+  openPDFSafely(q.pdfPath, q.title || 'PDF')
+  return
+}
 // PDF 与 HTML 在同一目录，如 public/questionBank/1.P1 高频/
 const parts = q.htmlPath?.split('/').filter(Boolean)
 if (!parts || parts.length < 2) {
@@ -575,6 +614,12 @@ if (!rawName) {
   border-color: #16a34a;
   color: #16a34a;
   transform: translateY(-2px);
+}
+
+.view-pdf-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .start-button {

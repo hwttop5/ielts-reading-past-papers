@@ -2,6 +2,9 @@ import { defineStore } from 'pinia'
 import { scanQuestionBank, type Question as ScannerQuestion } from '@/utils/questionScanner'
 
 export interface Question extends ScannerQuestion {}
+const QUESTIONS_CACHE_KEY = 'ielts_questions'
+const QUESTIONS_CACHE_VERSION_KEY = 'ielts_questions_version'
+const QUESTIONS_CACHE_VERSION = '2026-03-09-index-v1'
 
 export const useQuestionStore = defineStore('question', {
   state: () => ({
@@ -17,11 +20,12 @@ export const useQuestionStore = defineStore('question', {
       }
 
       // 尝试从 localStorage 读取
-      const raw = localStorage.getItem('ielts_questions')
+      const cacheVersion = localStorage.getItem(QUESTIONS_CACHE_VERSION_KEY)
+      const raw = localStorage.getItem(QUESTIONS_CACHE_KEY)
       if (raw) {
         try {
           const parsed = JSON.parse(raw)
-          if (Array.isArray(parsed) && parsed.length > 0) {
+          if (cacheVersion === QUESTIONS_CACHE_VERSION && Array.isArray(parsed) && parsed.length > 0) {
             this.questions = parsed
             this.isLoaded = true
             return
@@ -37,7 +41,8 @@ export const useQuestionStore = defineStore('question', {
 
       // 保存到 localStorage
       if (this.questions.length > 0) {
-        localStorage.setItem('ielts_questions', JSON.stringify(this.questions))
+        localStorage.setItem(QUESTIONS_CACHE_KEY, JSON.stringify(this.questions))
+        localStorage.setItem(QUESTIONS_CACHE_VERSION_KEY, QUESTIONS_CACHE_VERSION)
       }
     },
 
@@ -47,13 +52,15 @@ export const useQuestionStore = defineStore('question', {
       this.isLoaded = true
 
       if (this.questions.length > 0) {
-        localStorage.setItem('ielts_questions', JSON.stringify(this.questions))
+        localStorage.setItem(QUESTIONS_CACHE_KEY, JSON.stringify(this.questions))
+        localStorage.setItem(QUESTIONS_CACHE_VERSION_KEY, QUESTIONS_CACHE_VERSION)
       }
     },
 
     saveQuestions(list: Question[]) {
       this.questions = list
-      localStorage.setItem('ielts_questions', JSON.stringify(list))
+      localStorage.setItem(QUESTIONS_CACHE_KEY, JSON.stringify(list))
+      localStorage.setItem(QUESTIONS_CACHE_VERSION_KEY, QUESTIONS_CACHE_VERSION)
     },
 
     getQuestionById(id: string) {
