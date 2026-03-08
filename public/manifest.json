@@ -1,0 +1,16 @@
+{
+  "name": "IELTS Reading Past Papers",
+  "short_name": "IELTS Reading",
+  "description": "IELTS Reading Past Papers - Practice Online",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

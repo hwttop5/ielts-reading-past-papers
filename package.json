@@ -1,0 +1,27 @@
+{
+  "name": "ielts-reading-past-papers",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "description": "IELTS Reading Past Papers",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate:index": "node scripts/generate-index.mjs",
+    "validate:index": "node scripts/validate-index.mjs"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.0.0",
+    "pinia": "^2.1.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.8.3",
+    "vite": "^5.0.0",
+    "vitest": "^4.0.18"
+  }
+}
