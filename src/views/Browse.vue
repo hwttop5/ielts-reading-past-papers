@@ -81,7 +81,7 @@
           </div>
 
           <div class="question-footer">
-            <button class="view-pdf-btn" @click.stop="viewPdf(q)" :title="t('browse.viewPdf')">
+            <button class="view-pdf-btn" @click.stop="viewPdf(q)" :title="t('browse.viewPdf')" :disabled="!q.pdfPath">
               <span class="material-icons" style="font-size: 18px;">picture_as_pdf</span>
             </button>
             <button class="start-button" @click.stop="start(q)">
@@ -126,7 +126,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch, inject } from 'vue'
+import { ref, computed, onMounted, watch, inject, nextTick } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useQuestionStore } from '@/store/questionStore'
 import { usePracticeStore } from '@/store/practiceStore'
@@ -144,13 +144,39 @@ const difficulty = ref<string>('all')
 const searchText = ref<string>('')
 const currentPage = ref<number>(1)
 const pageSize = ref<number>(12)
+const isRestoring = ref(false)
 
 onMounted(() => {
   store.loadQuestions()
   practiceStore.load()
+  
+  isRestoring.value = true
   if (route.query.category) {
     category.value = route.query.category as string
   }
+  if (route.query.difficulty) {
+    difficulty.value = route.query.difficulty as string
+  }
+  if (route.query.search) {
+    searchText.value = route.query.search as string
+  }
+  if (route.query.pageSize) {
+    const size = Number(route.query.pageSize)
+    if (Number.isFinite(size) && [6, 12, 24, 48].includes(size)) {
+      pageSize.value = size
+    }
+  }
+  // 页码必须在其他筛选条件之后设置，且不受筛选重置影响
+  if (route.query.page) {
+    const page = Number(route.query.page)
+    if (Number.isFinite(page) && page > 0) {
+      currentPage.value = page
+    }
+  }
+  
+  nextTick(() => {
+    isRestoring.value = false
+  })
 })
 
 // 检查题目是否已完成
@@ -173,7 +199,16 @@ watch(() => route.query.category, (newCategory) => {
   }
 })
 
+watch(() => route.query.page, (newPage) => {
+  if (!newPage) return
+  const page = Number(newPage)
+  if (Number.isFinite(page) && page > 0) {
+    currentPage.value = page
+  }
+})
+
 watch([category, difficulty, searchText, pageSize], () => {
+  if (isRestoring.value) return
   currentPage.value = 1
 })
 
@@ -238,7 +273,16 @@ const paginatedQuestions = computed(() => {
 })
 
 const start = (q: any) => {
-  router.push({ path: '/practice-mode', query: { id: q.id } })
+  const query: Record<string, string> = {
+    id: q.id,
+    from: 'browse',
+    page: String(currentPage.value),
+    pageSize: String(pageSize.value)
+  }
+  if (category.value !== 'all') query.category = category.value
+  if (difficulty.value !== 'all') query.difficulty = difficulty.value
+  if (searchText.value.trim()) query.search = searchText.value
+  router.push({ path: '/practice-mode', query })
 }
 
 const openPDFSafely = (pdfPath: string, examTitle: string) => {
@@ -260,6 +304,10 @@ message.success(t('browse.pdfOpening'))
 }
 
 const viewPdf = (q: any) => {
+if (q.pdfPath) {
+  openPDFSafely(q.pdfPath, q.title || 'PDF')
+  return
+}
 // PDF 与 HTML 在同一目录，如 public/questionBank/1.P1 高频/
 const parts = q.htmlPath?.split('/').filter(Boolean)
 if (!parts || parts.length < 2) {
@@ -575,6 +623,12 @@ if (!rawName) {
   border-color: #16a34a;
   color: #16a34a;
   transform: translateY(-2px);
+}
+
+.view-pdf-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .start-button {

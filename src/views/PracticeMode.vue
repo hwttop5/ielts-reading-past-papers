@@ -369,7 +369,15 @@ const goBack = () => {
   if (timer) {
     clearInterval(timer)
   }
-  router.push('/browse')
+  const query: Record<string, string> = {}
+  const keys = ['category', 'difficulty', 'search', 'page', 'pageSize']
+  keys.forEach((key) => {
+    const value = route.query[key]
+    if (typeof value === 'string' && value) {
+      query[key] = value
+    }
+  })
+  router.push({ path: '/browse', query })
 }
 </script>
 

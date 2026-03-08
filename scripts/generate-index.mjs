@@ -73,6 +73,33 @@ function parseFileName(filename, parentDir) {
   return { id, title, titleCN, category, difficulty }
 }
 
+function normalizeQuotes(str) {
+  return str.replace(/[’‘`]/g, "'")
+}
+
+function buildPdfPath(filePath, pdfFilesByDir) {
+  const dir = path.dirname(filePath)
+  const htmlBase = path.basename(filePath, path.extname(filePath))
+  const pdfs = pdfFilesByDir.get(dir) || []
+  const directName = `${htmlBase}.pdf`
+  const noTagName = `${htmlBase.replace(/【高】|【次】|【高频】|【次频】/g, '').trim()}.pdf`
+  const candidates = [directName, noTagName]
+  const quoteVariants = candidates.flatMap(name => {
+    const normalized = normalizeQuotes(name)
+    if (normalized === name) return [name]
+    return [name, normalized]
+  })
+  const directMatch = quoteVariants.find(name => pdfs.includes(name))
+  if (directMatch) return directMatch
+  const numberMatch = htmlBase.match(/^(\d+)\./)
+  if (numberMatch) {
+    const prefix = `${numberMatch[1]}.`
+    const byPrefix = pdfs.find(name => name.startsWith(prefix))
+    if (byPrefix) return byPrefix
+  }
+  return ''
+}
+
 async function main() {
   console.log(`Scanning ${BANK_DIR}...`)
   
@@ -85,6 +112,15 @@ async function main() {
 
   const allFiles = await getFiles(BANK_DIR)
   const htmlFiles = allFiles.filter(f => /\.html?$/i.test(f))
+  const pdfFiles = allFiles.filter(f => /\.pdf$/i.test(f))
+  const pdfFilesByDir = new Map()
+  pdfFiles.forEach(filePath => {
+    const dir = path.dirname(filePath)
+    if (!pdfFilesByDir.has(dir)) {
+      pdfFilesByDir.set(dir, [])
+    }
+    pdfFilesByDir.get(dir).push(path.basename(filePath))
+  })
   
   console.log(`Found ${htmlFiles.length} HTML files. Generating index...`)
   
@@ -95,12 +131,17 @@ async function main() {
     // 生成相对路径 /questionBank/...
     const relativePath = path.relative(PUBLIC_DIR, filePath).split(path.sep).join('/')
     const htmlPath = '/' + relativePath
+    const pdfName = buildPdfPath(filePath, pdfFilesByDir)
+    const pdfPath = pdfName
+      ? '/' + path.relative(PUBLIC_DIR, path.join(path.dirname(filePath), pdfName)).split(path.sep).join('/')
+      : ''
     
     const meta = parseFileName(filename, parentDir)
     
     return {
       ...meta,
-      htmlPath
+      htmlPath,
+      pdfPath
     }
   })
   

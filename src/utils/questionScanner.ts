@@ -9,6 +9,7 @@ export interface Question {
   difficulty: '高频' | '次频'
   totalQuestions: number
   htmlPath: string
+  pdfPath?: string
 }
 
 /**
