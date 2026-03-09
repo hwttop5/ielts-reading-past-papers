@@ -13,12 +13,18 @@
 
 ### 功能特性
 - 题库浏览：按类别（P1/P2/P3）、频率（高频/次频）筛选与搜索
-- 练习模式：内嵌题目 HTML，记录时长、答题与分数
-- 练习记录：展示最近练习、得分、正确率、用时等
-- 成就系统：完成练习自动计算与解锁，首页显示最新成就
+- 练习模式：内嵌题目 HTML，支持全屏沉浸式练习，自动记录时长、答题与分数，包含加载状态提示与超时处理
+- 练习记录：展示最近练习、得分、正确率、用时等，支持全量数据 JSON 导入导出（备份与恢复）
+- 成就系统：完成练习自动计算与解锁，配备精美的成就解锁通知与展示页面
 - 多语言：内置中英文切换（自研 i18n），404 页面也支持
 - 主题风格：浅色/深色主题，CSS 变量驱动
 - PDF 查看：与题目 HTML 同目录，一键打开（浏览器弹窗需允许）
+
+### 数据备份与恢复
+- **全量备份**：支持将所有本地数据（练习记录、成就进度、用户设置）导出为 JSON 文件。
+- **无损恢复**：导入 JSON 文件时，系统会进行版本校验和数据完整性检查，确保能够 100% 还原用户数据。
+- **跨设备迁移**：通过导入导出功能，您可以轻松地将学习进度从一台设备迁移到另一台设备。
+- **数据安全**：所有数据均存储在浏览器本地 (localStorage)，我们不收集任何用户隐私数据。
 
 ### 技术栈
 - Vue 3、TypeScript、Vite
@@ -49,9 +55,10 @@ src/
   store/                   # Pinia stores（practice/achievement/question 等）
   styles/                  # 主题与全局样式
   utils/
+    backup.ts              # 数据全量导入导出工具
     questionIndex.json     # 题目索引（预生成，页面据此展示）
     questionScanner.ts     # 从索引读取并补充元数据
-    eventBus.ts            # PRACTICE_UPDATED 等事件
+    eventBus.ts            # 全局事件总线 (成就解锁、练习更新)
   views/                   # 页面（Home/Browse/Practice/PracticeMode 等）
   i18n/index.ts            # 自研 i18n（t、currentLang、setLocale）
 ```
@@ -68,10 +75,8 @@ src/
 
 ### 成就与练习记录
 - Store：`src/store/practiceStore.ts`、`src/store/achievementStore.ts`
-- 本地存储：
-  - `ielts_practice` 保存练习记录
-  - `ielts_questions` 缓存题目索引展开结果
-- 事件通知：通过 `utils/eventBus.ts` 的 `PRACTICE_UPDATED` 在练习完成后通知首页等页面刷新数据。
+- 本地存储：所有用户数据均存储在 localStorage 中（前缀 `ielts_`），支持一键全量导出。
+- 事件通知：通过 `utils/eventBus.ts` 实现跨组件通信（如解锁成就时触发全局通知）。
 
 ### 主题与样式
 - 主题变量：`src/styles/theme.css`，通过 CSS 变量适配浅/深色模式。
