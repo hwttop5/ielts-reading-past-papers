@@ -10,6 +10,8 @@ An IELTS Reading practice app featuring question bank browsing, practice mode, h
 | Home | Browse |
 | :-: | :-: |
 | ![Home](./docs/images/home.png) | ![Browse](./docs/images/browse.png) |
+| **Practice** | **Achievements** |
+| ![Practice](./docs/images/practice.png) | ![Achievements](./docs/images/achievements.png) |
 
 ### Features
 - Browse by category (P1/P2/P3) and frequency (High/Low), with search and filters

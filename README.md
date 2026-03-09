@@ -10,6 +10,8 @@
 | 首页 | 题库浏览 |
 | :-: | :-: |
 | ![Home](./docs/images/home.png) | ![Browse](./docs/images/browse.png) |
+| **练习模式** | **成就系统** |
+| ![Practice](./docs/images/practice.png) | ![Achievements](./docs/images/achievements.png) |
 
 ### 功能特性
 - 题库浏览：按类别（P1/P2/P3）、频率（高频/次频）筛选与搜索
