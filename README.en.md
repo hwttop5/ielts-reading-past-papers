@@ -13,12 +13,18 @@ An IELTS Reading practice app featuring question bank browsing, practice mode, h
 
 ### Features
 - Browse by category (P1/P2/P3) and frequency (High/Low), with search and filters
-- Practice mode with embedded HTML, time tracking and scoring
-- Practice history with score, accuracy, and duration
-- Achievements with automatic unlock and latest highlights on Home
+- Practice mode with embedded HTML, full-screen immersive experience, automatic time tracking, scoring, and loading state indicators with timeout handling
+- Practice history with score, accuracy, and duration, supporting full data JSON import/export (backup & restore)
+- Achievements with automatic unlock, featuring beautiful notification popups and a dedicated showcase page
 - Internationalization (Chinese/English), including 404 page
 - Light/Dark theme powered by CSS variables
 - PDF viewing (same folder as HTML; allow popups in your browser)
+
+### Data Backup & Restore
+- **Full Backup**: Export all local data (practice history, achievements, settings) as a JSON file.
+- **Lossless Restore**: When importing a JSON file, the system performs version validation and data integrity checks to ensuring 100% restoration of user data.
+- **Cross-Device Migration**: Easily migrate your learning progress from one device to another using the import/export feature.
+- **Data Privacy**: All data is stored locally in your browser (localStorage). We do not collect any personal information.
 
 ### Tech Stack
 - Vue 3, TypeScript, Vite
@@ -48,9 +54,10 @@ src/
   store/                   # Pinia stores
   styles/                  # Themes and globals
   utils/
+    backup.ts              # Full data backup/restore utility
     questionIndex.json     # Prebuilt index of questions
     questionScanner.ts     # Build final question meta from index
-    eventBus.ts            # PRACTICE_UPDATED event
+    eventBus.ts            # Global event bus (achievements, updates)
   views/                   # Pages (Home/Browse/Practice/PracticeMode/...)
   i18n/index.ts            # Lightweight i18n (t, currentLang, setLocale)
 ```
