@@ -45,8 +45,12 @@
       <div class="section-header">
         <h2 class="notion-section-title"><span class="material-icons">history</span> {{ t('practice.history') }}</h2>
         <div class="section-actions">
-          <button class="action-button" @click="exportMd">
-            <span class="material-icons" style="font-size: 18px;">description</span> {{ t('practice.exportMd') }}
+          <input type="file" ref="fileInput" accept=".json" style="display: none" @change="handleImport">
+          <button class="action-button" @click="triggerImport">
+            <span class="material-icons" style="font-size: 18px;">upload_file</span> {{ t('practice.import') }}
+          </button>
+          <button class="action-button" @click="exportData">
+            <span class="material-icons" style="font-size: 18px;">download</span> {{ t('practice.export') }}
           </button>
           <button class="action-button danger" @click="clear">
             <span class="material-icons" style="font-size: 18px;">delete</span> {{ t('practice.clearRecords') }}
@@ -97,15 +101,17 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, inject } from 'vue'
+import { computed, onMounted, onUnmounted, inject, ref } from 'vue'
 import { usePracticeStore } from '@/store/practiceStore'
 import { useAchievementStore } from '@/store/achievementStore'
 import { message } from 'ant-design-vue'
 import { eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
+import { exportBackup, importBackup } from '@/utils/backup'
 
 const store = usePracticeStore()
 const achievementStore = useAchievementStore()
 const t = inject('t', (key: string) => key)
+const fileInput = ref<HTMLInputElement | null>(null)
 
 // 处理数据更新
 const handlePracticeUpdated = (event: CustomEvent) => {
@@ -145,27 +151,39 @@ const format = (ts: number) => {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`
 }
 
-const exportMd = () => {
-  const practiceMd = store.records
-    .map(r =>
-      `- ${format(r.time)} | ${r.questionTitle} | ${t('practice.duration')} ${r.duration}${t('practice.seconds')} | ${t('practice.accuracy')} ${r.accuracy}%`
-    )
-    .join('\n')
+const exportData = () => {
+  try {
+    exportBackup()
+    message.success(t('practice.exportSuccess'))
+  } catch (e) {
+    message.error('Export failed')
+  }
+}
 
-  const achievementMd = achievementStore.unlockedAchievements
-    .map(a => 
-      `- [${t(a.titleKey)}] ${t(a.descKey)} - ${new Date(a.unlockedAt || 0).toLocaleDateString()}`
-    )
-    .join('\n')
+const triggerImport = () => {
+  fileInput.value?.click()
+}
 
-  const md = `# IELTS Reading Practice Records\n\n## Practice History\n${practiceMd}\n\n## Achievements\n${achievementMd}`
-
-  const blob = new Blob([md], { type: 'text/markdown' })
-  const a = document.createElement('a')
-  a.href = URL.createObjectURL(blob)
-  a.download = `ielts_practice_history_${new Date().toISOString().slice(0, 10)}.md`
-  a.click()
-  message.success(t('practice.exportSuccess'))
+const handleImport = async (event: Event) => {
+  const input = event.target as HTMLInputElement
+  if (!input.files || input.files.length === 0) return
+  
+  const file = input.files[0]
+  try {
+    const success = await importBackup(file)
+    if (success) {
+      store.load()
+      achievementStore.load()
+      message.success(t('practice.importSuccess') || 'Import successful')
+    } else {
+      message.error(t('practice.importFailed') || 'Import failed')
+    }
+  } catch (e) {
+    message.error(t('practice.importFailed') || 'Import failed')
+  } finally {
+    // Reset input
+    input.value = ''
+  }
 }
 </script>
 
