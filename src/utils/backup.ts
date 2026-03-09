@@ -57,7 +57,18 @@ export function restoreBackup(backupString: string): boolean {
   }
 }
 
-export function exportBackup(filename: string = `ielts-backup-${new Date().toISOString().slice(0, 10)}.json`): void {
+export function exportBackup(filename?: string): void {
+  if (!filename) {
+    const now = new Date()
+    const timestamp = now.getFullYear() +
+      String(now.getMonth() + 1).padStart(2, '0') +
+      String(now.getDate()).padStart(2, '0') + '_' +
+      String(now.getHours()).padStart(2, '0') +
+      String(now.getMinutes()).padStart(2, '0') +
+      String(now.getSeconds()).padStart(2, '0')
+    filename = `ielts-backup-${timestamp}.json`
+  }
+  
   const backup = createBackup()
   const blob = new Blob([backup], { type: 'application/json' })
   const url = URL.createObjectURL(blob)

@@ -179,7 +179,7 @@ const latestAchievements = computed(() => {
 })
 
 const latestPractices = computed(() => {
-  return [...practiceStore.records].sort((a, b) => b.time - a.time).slice(0, 3)
+  return [...practiceStore.records].sort((a, b) => b.time - a.time).slice(0, 4)
 })
 
 const getIcon = getAchievementIcon

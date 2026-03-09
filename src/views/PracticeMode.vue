@@ -130,11 +130,13 @@ const handleIframeMessage = (event: MessageEvent) => {
     const finalTotal = totalQuestions || question.value?.totalQuestions || 0
     const accuracy = finalTotal > 0 ? Math.round((finalScore / finalTotal) * 100) : 0
     
-    // 显示成绩
-    message.success(t('practiceMode.scoreResult', { score: finalScore.toString(), total: finalTotal.toString(), accuracy: accuracy.toString() }))
+    // 显示合并后的消息
+    const scoreMsg = t('practiceMode.scoreResult', { score: finalScore.toString(), total: finalTotal.toString(), accuracy: accuracy.toString() })
+    const savedMsg = t('practiceMode.recordSaved')
+    message.success(`${savedMsg} | ${scoreMsg}`, 3) // 3秒后消失
     
-    // 自动保存记录
-    savePracticeRecord(finalScore, finalTotal, accuracy)
+    // 自动保存记录（不显示默认消息）
+    savePracticeRecord(finalScore, finalTotal, accuracy, false)
     
     // 验证数据是否保存成功
     setTimeout(() => {
@@ -240,13 +242,18 @@ const onIframeLoad = () => {
               setTimeout(() => {
                 const scoreData = extractScoreFromDOM(doc)
                 if (scoreData) {
-                  savePracticeRecord(scoreData.correct, scoreData.total, scoreData.accuracy)
-                  // 显示更详细的成功消息
-                  message.success(t('practiceMode.scoreResult', { 
+                  const scoreMsg = t('practiceMode.scoreResult', { 
                     score: scoreData.correct.toString(), 
                     total: scoreData.total.toString(), 
                     accuracy: scoreData.accuracy.toString() 
-                  }))
+                  })
+                  const savedMsg = t('practiceMode.recordSaved')
+                  
+                  // 保存记录（不显示默认消息）
+                  savePracticeRecord(scoreData.correct, scoreData.total, scoreData.accuracy, false)
+                  
+                  // 显示合并后的消息
+                  message.success(`${savedMsg} | ${scoreMsg}`, 3)
                 } else {
                   // 如果提取失败，尝试回退方法（虽然不推荐，但至少可以记录完成状态）
                   console.warn('Could not extract score from DOM')
@@ -342,7 +349,7 @@ const finish = () => {
   router.push('/practice')
 }
 
-const savePracticeRecord = (correct: number, totalQuestions: number, accuracy: number) => {
+const savePracticeRecord = (correct: number, totalQuestions: number, accuracy: number, showMessage: boolean = true) => {
   const record = {
     questionId: question.value.id,
     questionTitle: question.value.title,
@@ -357,7 +364,9 @@ const savePracticeRecord = (correct: number, totalQuestions: number, accuracy: n
   practiceStore.add(record)
   achievementStore.check()
   eventBus.emit(PRACTICE_UPDATED, { record, records: practiceStore.records })
-  message.success(t('practiceMode.recordSaved'))
+  if (showMessage) {
+    message.success(t('practiceMode.recordSaved'))
+  }
 }
 
 const goBack = () => {
