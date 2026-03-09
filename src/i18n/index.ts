@@ -315,6 +315,8 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.fullscreen': '全屏',
     'practiceMode.exitFullscreen': '退出全屏',
     'practiceMode.iframeTitle': '题目内容',
+    'practiceMode.loading': '题目加载中...',
+    'practiceMode.loadingTimeout': '加载超时，如果内容未显示请刷新页面',
     
     // Logo/App
     'app.name': 'IELTS Reading',
@@ -648,6 +650,8 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.fullscreen': 'Fullscreen',
     'practiceMode.exitFullscreen': 'Exit Fullscreen',
     'practiceMode.iframeTitle': 'Question Content',
+    'practiceMode.loading': 'Loading question...',
+    'practiceMode.loadingTimeout': 'Loading timed out, please refresh if content is missing',
     
     // Logo/App
     'app.name': 'IELTS Reading',
