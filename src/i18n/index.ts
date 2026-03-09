@@ -161,6 +161,10 @@ const translations: Record<Locale, Record<string, string>> = {
     'practice.clearConfirm': '确认清空所有记录？此操作不可恢复。',
     'practice.recordsCleared': '记录已清空',
     'practice.exportSuccess': '导出成功',
+    'practice.import': '导入数据',
+    'practice.export': '导出数据',
+    'practice.importSuccess': '导入成功',
+    'practice.importFailed': '导入失败',
 
     // 设置页面
     'settings.title': '系统设置',
@@ -490,6 +494,10 @@ const translations: Record<Locale, Record<string, string>> = {
     'practice.clearConfirm': 'Confirm clear all records? This cannot be undone.',
     'practice.recordsCleared': 'Records cleared',
     'practice.exportSuccess': 'Export successful',
+    'practice.import': 'Import Data',
+    'practice.export': 'Export Data',
+    'practice.importSuccess': 'Import successful',
+    'practice.importFailed': 'Import failed',
 
     // Settings
     'settings.title': 'Settings',
