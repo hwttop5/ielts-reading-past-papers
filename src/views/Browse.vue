@@ -84,8 +84,10 @@
             <button class="view-pdf-btn" @click.stop="viewPdf(q)" :title="t('browse.viewPdf')" :disabled="!q.pdfPath">
               <span class="material-icons" style="font-size: 18px;">picture_as_pdf</span>
             </button>
-            <button class="start-button" @click.stop="start(q)">
-              {{ t('browse.startPractice') }} <span class="material-icons" style="font-size: 16px; vertical-align: middle;">arrow_forward</span>
+            <button class="start-button" @click.stop="start(q)" :disabled="isNavigating">
+              {{ t('browse.startPractice') }} 
+              <span v-if="!isNavigating" class="material-icons" style="font-size: 16px; vertical-align: middle;">arrow_forward</span>
+              <span v-else class="material-icons rotating" style="font-size: 16px; vertical-align: middle;">autorenew</span>
             </button>
           </div>
         </div>
@@ -145,6 +147,7 @@ const searchText = ref<string>('')
 const currentPage = ref<number>(1)
 const pageSize = ref<number>(12)
 const isRestoring = ref(false)
+const isNavigating = ref(false)
 
 onMounted(() => {
   store.loadQuestions()
@@ -272,17 +275,25 @@ const paginatedQuestions = computed(() => {
   return filtered.value.slice(start, end)
 })
 
-const start = (q: any) => {
-  const query: Record<string, string> = {
-    id: q.id,
-    from: 'browse',
-    page: String(currentPage.value),
-    pageSize: String(pageSize.value)
+const start = async (q: any) => {
+  if (isNavigating.value) return
+  isNavigating.value = true
+  
+  try {
+    const query: Record<string, string> = {
+      id: q.id,
+      from: 'browse',
+      page: String(currentPage.value),
+      pageSize: String(pageSize.value)
+    }
+    if (category.value !== 'all') query.category = category.value
+    if (difficulty.value !== 'all') query.difficulty = difficulty.value
+    if (searchText.value.trim()) query.search = searchText.value
+    await router.push({ path: '/practice-mode', query })
+  } catch (e) {
+    isNavigating.value = false
+    console.error(e)
   }
-  if (category.value !== 'all') query.category = category.value
-  if (difficulty.value !== 'all') query.difficulty = difficulty.value
-  if (searchText.value.trim()) query.search = searchText.value
-  router.push({ path: '/practice-mode', query })
 }
 
 const openPDFSafely = (pdfPath: string, examTitle: string) => {
@@ -651,6 +662,21 @@ if (!rawName) {
 .start-button:hover {
   background: var(--primary-hover);
   transform: translateX(2px);
+}
+
+.start-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.rotating {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .pagination-section {

@@ -15,3 +15,5 @@ export const eventBus = {
 
 // 练习记录更新事件
 export const PRACTICE_UPDATED = 'practice-updated'
+// 成就解锁事件
+export const ACHIEVEMENT_UNLOCKED = 'achievement-unlocked'

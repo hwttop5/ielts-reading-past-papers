@@ -17,6 +17,12 @@
 
     <div class="practice-section">
       <div class="question-content-wrapper" ref="contentWrapper">
+        <div v-if="isLoading" class="loading-overlay">
+          <div class="loading-content">
+            <span class="material-icons loading-spinner">autorenew</span>
+            <p>{{ t('practiceMode.loading') || 'Loading...' }}</p>
+          </div>
+        </div>
         <iframe 
           ref="questionIframe"
           v-if="question?.htmlPath" 
@@ -55,8 +61,10 @@ const elapsed = ref(0)
 const answers = ref<number[]>([])
 const correctAnswers = ref<number[]>([])
 const isFullscreen = ref(false)
+const isLoading = ref(true)
 
 let timer: number | null = null
+let loadingTimeout: number | null = null
 
 onMounted(() => {
   questionStore.loadQuestions()
@@ -74,6 +82,15 @@ onMounted(() => {
       }, 1000)
     }
   }
+  
+  // 加载超时处理
+  loadingTimeout = window.setTimeout(() => {
+    if (isLoading.value) {
+      isLoading.value = false
+      message.warning(t('practiceMode.loadingTimeout') || 'Loading timed out, please refresh if content is missing')
+    }
+  }, 10000)
+
   // 始终监听 message 事件
   window.addEventListener('message', handleIframeMessage, false)
   document.addEventListener('fullscreenchange', handleFullscreenChange)
@@ -87,6 +104,9 @@ onUnmounted(() => {
   
   if (timer) {
     clearInterval(timer)
+  }
+  if (loadingTimeout) {
+    clearTimeout(loadingTimeout)
   }
   document.removeEventListener('fullscreenchange', handleFullscreenChange)
   if (isFullscreen.value) {
@@ -201,6 +221,11 @@ const saveResultToLocalStorage = (userAnswers: Record<string, string>) => {
 }
 
 const onIframeLoad = () => {
+  isLoading.value = false
+  if (loadingTimeout) {
+    clearTimeout(loadingTimeout)
+    loadingTimeout = null
+  }
   try {
     if (questionIframe.value?.contentWindow) {
       // 监听 message 事件（备用方案）
@@ -502,6 +527,7 @@ const goBack = () => {
 }
 
 .question-content-wrapper {
+  position: relative;
   background: white;
   border: 1px solid var(--border-color);
   border-radius: 12px;
@@ -545,5 +571,35 @@ const goBack = () => {
   .question-iframe {
     height: 60vh;
   }
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.loading-content {
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.loading-spinner {
+  font-size: 48px;
+  color: var(--primary-color);
+  animation: spin 1s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 </style>

@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { usePracticeStore } from './practiceStore'
+import { eventBus, ACHIEVEMENT_UNLOCKED } from '@/utils/eventBus'
 
 export type Rarity = 'common' | 'rare' | 'epic' | 'legendary'
 
@@ -100,7 +101,7 @@ export const useAchievementStore = defineStore('achievement', {
         a.unlockedAt = Date.now()
         this.totalPoints += a.points
         this.save()
-        // Here we could trigger a notification via a global event bus or simple callback
+        eventBus.emit(ACHIEVEMENT_UNLOCKED, { achievement: a })
         return true
       }
       return false
