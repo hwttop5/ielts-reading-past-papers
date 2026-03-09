@@ -126,7 +126,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch, inject } from 'vue'
+import { ref, computed, onMounted, watch, inject, nextTick } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useQuestionStore } from '@/store/questionStore'
 import { usePracticeStore } from '@/store/practiceStore'
@@ -144,10 +144,13 @@ const difficulty = ref<string>('all')
 const searchText = ref<string>('')
 const currentPage = ref<number>(1)
 const pageSize = ref<number>(12)
+const isRestoring = ref(false)
 
 onMounted(() => {
   store.loadQuestions()
   practiceStore.load()
+  
+  isRestoring.value = true
   if (route.query.category) {
     category.value = route.query.category as string
   }
@@ -157,18 +160,23 @@ onMounted(() => {
   if (route.query.search) {
     searchText.value = route.query.search as string
   }
-  if (route.query.page) {
-    const page = Number(route.query.page)
-    if (Number.isFinite(page) && page > 0) {
-      currentPage.value = page
-    }
-  }
   if (route.query.pageSize) {
     const size = Number(route.query.pageSize)
     if (Number.isFinite(size) && [6, 12, 24, 48].includes(size)) {
       pageSize.value = size
     }
   }
+  // 页码必须在其他筛选条件之后设置，且不受筛选重置影响
+  if (route.query.page) {
+    const page = Number(route.query.page)
+    if (Number.isFinite(page) && page > 0) {
+      currentPage.value = page
+    }
+  }
+  
+  nextTick(() => {
+    isRestoring.value = false
+  })
 })
 
 // 检查题目是否已完成
@@ -200,6 +208,7 @@ watch(() => route.query.page, (newPage) => {
 })
 
 watch([category, difficulty, searchText, pageSize], () => {
+  if (isRestoring.value) return
   currentPage.value = 1
 })
 
