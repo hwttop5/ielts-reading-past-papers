@@ -121,7 +121,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'browse.pdfError': '无法打开 PDF，请检查弹窗设置',
     'browse.pdfOpening': '正在打开 PDF...',
     'browse.pdfNotFound': '未找到 PDF 文件',
-    'browse.disclaimer': '网页版可能出现部分错误，如有争议请以PDF版为准。',
+    'browse.disclaimer': '注意：网页版可能出现部分错误，如有争议请以PDF版为准。',
     'browse.allCategories': '全部类别',
     'browse.allFrequency': '全部频率',
     'browse.category': '题目类别',
@@ -470,7 +470,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'browse.pdfError': 'Unable to open PDF, please check popup settings',
     'browse.pdfOpening': 'Opening PDF...',
     'browse.pdfNotFound': 'PDF file not found',
-    'browse.disclaimer': 'The web version may contain errors. Please refer to the PDF version in case of disputes.',
+    'browse.disclaimer': 'Note: The web version may contain errors. Please refer to the PDF version in case of disputes.',
     
     // Practice
     'practice.title': 'Practice Records',

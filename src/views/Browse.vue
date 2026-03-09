@@ -4,7 +4,10 @@
       <div class="header-content">
         <h1 class="page-title"><span class="material-icons title-icon">library_books</span> {{ t('menu.browse') }}</h1>
         <p class="page-subtitle">{{ t('browse.description') }}</p>
-        <p class="page-disclaimer">{{ t('browse.disclaimer') }}</p>
+        <p class="page-disclaimer">
+          <span class="material-icons disclaimer-icon">warning</span>
+          {{ t('browse.disclaimer') }}
+        </p>
       </div>
     </div>
 
@@ -373,8 +376,16 @@ if (!rawName) {
 .page-disclaimer {
   font-size: 13px;
   color: var(--text-tertiary);
-  margin: 4px 0 0 0;
+  margin: 8px 0 0 0;
   font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.disclaimer-icon {
+  font-size: 14px;
+  color: var(--warning-color, #eab308);
 }
 
 .filter-section {
