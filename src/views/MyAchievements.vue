@@ -154,7 +154,7 @@ const formatDate = (ts?: number) => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
   gap: 16px;
   flex-wrap: wrap;
 }
