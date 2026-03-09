@@ -20,7 +20,7 @@
         <div v-if="isLoading" class="loading-overlay">
           <div class="loading-content">
             <span class="material-icons loading-spinner">autorenew</span>
-            <p>{{ t('practiceMode.loading') || 'Loading...' }}</p>
+            <p>{{ t('practiceMode.loading') }}</p>
           </div>
         </div>
         <iframe 
@@ -87,7 +87,7 @@ onMounted(() => {
   loadingTimeout = window.setTimeout(() => {
     if (isLoading.value) {
       isLoading.value = false
-      message.warning(t('practiceMode.loadingTimeout') || 'Loading timed out, please refresh if content is missing')
+      message.warning(t('practiceMode.loadingTimeout'))
     }
   }, 10000)
 
@@ -151,22 +151,21 @@ const collectAnswersFromIframe = () => {
     }
     
     const doc = iframe.contentDocument
-    const userAnswers = {}
+    const userAnswers: Record<string, string> = {}
     
-    // 获取 1-13 题的答案
-    for (let i = 1; i <= 13; i++) {
-      const qName = `q${i}`
-      // 判断题（radio）
-      const selected = doc.querySelector(`input[name="${qName}"]:checked`)
-      if (selected) {
-        userAnswers[qName] = selected.value
-      }
-      // 填空题（input）
-      const input = doc.getElementById(qName)
-      if (input && input.value) {
-        userAnswers[qName] = input.value.trim()
-      }
-    }
+    // 尝试获取所有可能的题目输入
+    // Radio buttons
+    const radios = doc.querySelectorAll('input[type="radio"]:checked')
+    radios.forEach((radio: any) => {
+      if (radio.name) userAnswers[radio.name] = radio.value
+    })
+    
+    // Text inputs
+    const inputs = doc.querySelectorAll('input[type="text"]')
+    inputs.forEach((input: any) => {
+      if (input.id) userAnswers[input.id] = input.value
+      else if (input.name) userAnswers[input.name] = input.value
+    })
     
     return userAnswers
   } catch (error) {
@@ -174,50 +173,28 @@ const collectAnswersFromIframe = () => {
   }
 }
 
-const calculateScore = (userAnswers: Record<string, string>) => {
-  const correctAnswersObj: Record<string, string> = {
-    q1: 'FALSE', q2: 'TRUE', q3: 'TRUE', q4: 'NOT GIVEN', q5: 'FALSE',
-    q6: 'populations', q7: 'records', q8: 'salt', q9: 'glass',
-    q10: 'texture', q11: 'lightweight', q12: 'chisel', q13: 'meat'
-  }
-  
-  let score = 0
-  Object.keys(correctAnswersObj).forEach(key => {
-    if (userAnswers[key] && userAnswers[key].toLowerCase() === correctAnswersObj[key].toLowerCase()) {
-      score++
+const extractScoreFromDOM = (doc: Document) => {
+  try {
+    // 尝试查找包含 "Score:" 的元素
+    // 常见的 id 是 "results" 或包含 score 的文本
+    const resultsDiv = doc.getElementById('results')
+    if (resultsDiv) {
+      const text = resultsDiv.innerText || resultsDiv.textContent || ''
+      // 匹配 "Score: 1/13" 或 "Score: 1 / 13" 格式
+      const match = text.match(/Score:\s*(\d+)\s*\/\s*(\d+)/i)
+      if (match) {
+        const correct = parseInt(match[1], 10)
+        const total = parseInt(match[2], 10)
+        const accuracyMatch = text.match(/Accuracy:\s*(\d+)%/i)
+        const accuracy = accuracyMatch ? parseInt(accuracyMatch[1], 10) : Math.round((correct / total) * 100)
+        return { correct, total, accuracy }
+      }
     }
-  })
-  
-  return { score, total: 13, accuracy: Math.round((score / 13) * 100) }
-}
-
-const saveResultToLocalStorage = (userAnswers: Record<string, string>) => {
-  const { score, total, accuracy } = calculateScore(userAnswers)
-  
-  const record = {
-    questionId: question.value?.id || 'unknown',
-    questionTitle: question.value?.title || 'Unknown Question',
-    category: question.value?.category || 'P1',
-    duration: elapsed.value,
-    correctAnswers: score,
-    totalQuestions: total,
-    accuracy: accuracy,
-    score: score,
-    time: Date.now()
+    return null
+  } catch (e) {
+    console.error('Failed to extract score from DOM', e)
+    return null
   }
-  
-  // 保存到 localStorage
-  const existingRecords = JSON.parse(localStorage.getItem('ielts_practice') || '[]')
-  existingRecords.unshift(record)
-  localStorage.setItem('ielts_practice', JSON.stringify(existingRecords))
-  
-  // 触发更新事件
-  eventBus.emit(PRACTICE_UPDATED, { record, records: existingRecords })
-  
-  // 显示提示
-  message.success(t('practiceMode.scoreResult', { score: score.toString(), total: total.toString(), accuracy: accuracy.toString() }))
-  
-  return record
 }
 
 const onIframeLoad = () => {
@@ -239,7 +216,7 @@ const onIframeLoad = () => {
           
           const doc = iframe.contentDocument
           
-          // 查找 Submit 按钮（使用有效的 CSS 选择器）
+          // 查找 Submit 按钮
           const buttons = doc.querySelectorAll('button')
           let submitBtn: Element | null = null
           
@@ -256,32 +233,26 @@ const onIframeLoad = () => {
           })
           
           if (submitBtn) {
-            // 添加新的点击监听器（使用事件捕获）
-            submitBtn.addEventListener('click', (e) => {
-              // 延迟收集数据，让 grade() 函数先执行
+            // 添加点击监听器
+            submitBtn.addEventListener('click', () => {
+              // 延迟等待 iframe 内部逻辑执行完成并更新 DOM
+              // 增加延迟时间以确保 DOM 已更新
               setTimeout(() => {
-                const answers = collectAnswersFromIframe()
-                if (answers) {
-                  saveResultToLocalStorage(answers)
+                const scoreData = extractScoreFromDOM(doc)
+                if (scoreData) {
+                  savePracticeRecord(scoreData.correct, scoreData.total, scoreData.accuracy)
+                  // 显示更详细的成功消息
+                  message.success(t('practiceMode.scoreResult', { 
+                    score: scoreData.correct.toString(), 
+                    total: scoreData.total.toString(), 
+                    accuracy: scoreData.accuracy.toString() 
+                  }))
+                } else {
+                  // 如果提取失败，尝试回退方法（虽然不推荐，但至少可以记录完成状态）
+                  console.warn('Could not extract score from DOM')
                 }
-              }, 500)
-            }, true)
-          } else {
-            // 监听所有按钮点击作为备用方案
-            doc.addEventListener('click', (e) => {
-              const target = e.target as HTMLElement
-              if (target.tagName === 'BUTTON') {
-                const text = target.textContent?.trim() || ''
-                if (text.includes('Submit') || text.includes('提交')) {
-                  setTimeout(() => {
-                    const answers = collectAnswersFromIframe()
-                    if (answers) {
-                      saveResultToLocalStorage(answers)
-                    }
-                  }, 500)
-                }
-              }
-            }, true)
+              }, 800) // 800ms 延迟
+            })
           }
         } catch (error) {
           // 忽略错误
