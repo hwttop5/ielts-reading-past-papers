@@ -7,11 +7,24 @@
 An IELTS Reading practice app featuring question bank browsing, practice mode, history, achievements, i18n, and theme switching. The question bank is stored as static HTML/PDF under `public/questionBank` and loaded via a prebuilt index.
 
 ### Screenshots
-| Home | Browse |
-| :-: | :-: |
-| ![Home](./docs/images/home.png) | ![Browse](./docs/images/browse.png) |
-| **Practice** | **Achievements** |
-| ![Practice](./docs/images/practice.png) | ![Achievements](./docs/images/achievements.png) |
+<table>
+  <tr>
+    <th width="50%">Home</th>
+    <th width="50%">Browse</th>
+  </tr>
+  <tr>
+    <td><img src="./docs/images/home.png" width="100%" /></td>
+    <td><img src="./docs/images/browse.png" width="100%" /></td>
+  </tr>
+  <tr>
+    <th width="50%">Practice</th>
+    <th width="50%">Achievements</th>
+  </tr>
+  <tr>
+    <td><img src="./docs/images/practice.png" width="100%" /></td>
+    <td><img src="./docs/images/achievements.png" width="100%" /></td>
+  </tr>
+</table>
 
 ### Features
 - Browse by category (P1/P2/P3) and frequency (High/Low), with search and filters
@@ -99,4 +112,3 @@ src/
 
 ### License
 - GNU GPLv3. See [LICENSE](./LICENSE).
-

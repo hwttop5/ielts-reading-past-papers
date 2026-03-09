@@ -9,9 +9,9 @@
 ### 界面预览
 | 首页 | 题库浏览 |
 | :-: | :-: |
-| ![Home](./docs/images/home.png) | ![Browse](./docs/images/browse.png) |
+| <img src="./docs/images/home.png" width="100%" /> | <img src="./docs/images/browse.png" width="100%" /> |
 | **练习模式** | **成就系统** |
-| ![Practice](./docs/images/practice.png) | ![Achievements](./docs/images/achievements.png) |
+| <img src="./docs/images/practice.png" width="100%" /> | <img src="./docs/images/achievements.png" width="100%" /> |
 
 ### 功能特性
 - 题库浏览：按类别（P1/P2/P3）、频率（高频/次频）筛选与搜索
