@@ -130,44 +130,10 @@ export const useAchievementStore = defineStore('achievement', {
       const practice = usePracticeStore()
       const records = practice.records
       
-      // Basic counts
-      if (records.length >= 1) this.unlock('first_practice')
-      if (records.length >= 10) this.unlock('practice_10')
-      if (records.length >= 50) this.unlock('practice_50')
-      if (records.length >= 100) this.unlock('practice_100')
-
-      // Accuracy
-      if (records.length > 0 && practice.avgAccuracy >= 80) this.unlock('accuracy_80')
-      if (records.length > 0 && practice.avgAccuracy >= 90) this.unlock('accuracy_90')
-
-      // Study time (duration is in seconds)
-      const totalSeconds = records.reduce((sum, r) => sum + r.duration, 0)
-      if (totalSeconds >= 3600) this.unlock('study_1h')
-      if (totalSeconds >= 36000) this.unlock('study_10h')
-      if (totalSeconds >= 180000) this.unlock('study_50h')
-
-      // Perfect scores
-      const perfectCount = records.filter(r => r.accuracy === 100).length
-      if (perfectCount >= 1) this.unlock('perfect_score')
-      if (perfectCount >= 3) this.unlock('perfect_3')
-      if (perfectCount >= 10) this.unlock('perfect_10')
-
-      // Time based
-      records.forEach(r => {
-        const date = new Date(r.time)
-        const hour = date.getHours()
-        const day = date.getDay()
-
-        if (hour >= 5 && hour < 8) this.unlock('early_bird')
-        if (hour >= 23 || hour < 2) this.unlock('night_owl')
-        if (day === 0 || day === 6) this.unlock('weekend_warrior')
-        
-        // Speed run: < 10 mins (600s) and > 80% accuracy
-        if (r.duration <= 600 && r.accuracy >= 80) this.unlock('speed_run')
-      })
-
       // Streaks (Simplified check)
       // Sort records by time
+      if (!records || records.length === 0) return
+
       const sortedDates = [...new Set(records.map(r => new Date(r.time).toDateString()))].sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
       
       let maxStreak = 0
@@ -194,6 +160,51 @@ export const useAchievementStore = defineStore('achievement', {
       if (maxStreak >= 7) this.unlock('streak_7')
       if (maxStreak >= 14) this.unlock('streak_14')
       if (maxStreak >= 30) this.unlock('streak_30')
+
+      // Time based
+      const latestRecord = records[0] // Since records are unshifted, index 0 is latest
+      if (latestRecord) {
+        const date = new Date(latestRecord.time)
+        const hour = date.getHours()
+        const day = date.getDay()
+
+        if (hour >= 5 && hour < 8) this.unlock('early_bird')
+        if (hour >= 23 || hour < 2) this.unlock('night_owl')
+        if (day === 0 || day === 6) this.unlock('weekend_warrior')
+        
+        // Speed run: < 10 mins (600s) and > 80% accuracy
+        if (latestRecord.duration <= 600 && latestRecord.accuracy >= 80) this.unlock('speed_run')
+      }
+
+      // Basic counts
+      if (records.length >= 1) this.unlock('first_practice')
+      if (records.length >= 10) this.unlock('practice_10')
+      if (records.length >= 50) this.unlock('practice_50')
+      if (records.length >= 100) this.unlock('practice_100')
+
+      // Accuracy
+      const avgAccuracy = practice.avgAccuracy
+      if (records.length > 0 && avgAccuracy >= 80) this.unlock('accuracy_80')
+      if (records.length > 0 && avgAccuracy >= 90) this.unlock('accuracy_90')
+
+      // Study time (duration is in seconds)
+      const totalSeconds = practice.totalTime
+      if (totalSeconds >= 3600) this.unlock('study_1h')
+      if (totalSeconds >= 36000) this.unlock('study_10h')
+      if (totalSeconds >= 180000) this.unlock('study_50h')
+
+      // Perfect scores
+      const perfectCount = records.filter(r => r.accuracy === 100).length
+      if (perfectCount >= 1) this.unlock('perfect_score')
+      if (perfectCount >= 3) this.unlock('perfect_3')
+      if (perfectCount >= 10) this.unlock('perfect_10')
+
+      // Marathon runner
+      const marathonCount = records.filter(r => r.duration >= 3600).length
+      if (marathonCount >= 1) this.unlock('marathon_runner')
+      
+      // Scholar
+      if (records.length >= 100 && avgAccuracy >= 90) this.unlock('scholar')
 
       // Legend removed
     },
