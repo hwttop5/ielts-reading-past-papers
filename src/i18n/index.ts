@@ -14,7 +14,7 @@ const i18nKey: InjectionKey<I18nContext> = Symbol('i18n')
 const translations: Record<Locale, Record<string, string>> = {
   zh: {
     // 菜单
-    'menu.home': '首页',
+    'menu.home': '首页总览',
     'menu.browse': '民间题库',
     'menu.practice': '练习记录',
     'menu.myAchievements': '我的成就',
@@ -22,7 +22,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'menu.menu': '菜单',
 
     // 面包屑
-    'breadcrumb.home': '首页',
+    'breadcrumb.home': '首页总览',
     'breadcrumb.browse': '民间题库',
     'breadcrumb.practice': '练习记录',
     'breadcrumb.practiceMode': '练习模式',
