@@ -9,15 +9,15 @@
       <div v-if="isOpen" class="assistant-layer">
         <section ref="dialogRef" class="assistant-dialog" :class="{ fullscreen: viewMode === 'fullscreen', compact: isCompactDialog, dragging: isDragging, resizing: isResizing }" :style="dialogStyle" role="dialog" aria-modal="false">
           <header class="assistant-topbar" @pointerdown="startDrag">
-            <div class="assistant-brand">
-              <span class="assistant-brand-icon material-icons">auto_awesome</span>
+              <div class="assistant-brand">
+                <span class="assistant-brand-icon material-icons">auto_awesome</span>
               <div class="assistant-title-block">
-                <p class="assistant-kicker">AI Coach</p>
+                <p class="assistant-kicker">{{ copy.kicker }}</p>
                 <h2 class="assistant-title" :class="{ 'assistant-title--floating': viewMode === 'floating' }" :title="questionTitleTooltip">{{ headerTitle }}</h2>
               </div>
             </div>
             <div class="assistant-header-actions">
-              <button class="icon-btn" type="button" :title="copy.viewTitle" @pointerdown.stop @click="toggleViewMode">
+              <button class="icon-btn" type="button" :title="viewButtonTitle" @pointerdown.stop @click="toggleViewMode">
                 <span class="material-icons">{{ viewMode === 'floating' ? 'open_in_full' : 'picture_in_picture_alt' }}</span>
               </button>
               <button class="icon-btn" type="button" :title="copy.closeTitle" @pointerdown.stop @click="closeDialog">
@@ -65,11 +65,11 @@
                         </div>
                         <div class="review-card-section">
                           <h4>{{ reviewSectionTitle('explanation') }}</h4>
-                          <p>{{ item.explanation || 'Detailed explanation was not extracted.' }}</p>
+                          <p>{{ item.explanation || copy.reviewFallbackExplanation }}</p>
                         </div>
                         <div class="review-card-section review-card-section--evidence">
                           <h4>{{ reviewSectionTitle('evidence') }}</h4>
-                          <blockquote>{{ item.evidence || 'Explicit source evidence was not extracted.' }}</blockquote>
+                          <blockquote>{{ item.evidence || copy.reviewFallbackEvidence }}</blockquote>
                         </div>
                       </article>
                     </div>
@@ -144,7 +144,7 @@
               </div>
             </div>
           </footer>
-          <button v-if="viewMode === 'floating' && !isCompactDialog" class="assistant-resize-handle" type="button" title="Resize window" aria-label="Resize assistant window" @pointerdown.stop.prevent="startResize">
+          <button v-if="viewMode === 'floating' && !isCompactDialog" class="assistant-resize-handle" type="button" :title="copy.resizeTitle" :aria-label="copy.resizeAria" @pointerdown.stop.prevent="startResize">
             <span class="material-icons">drag_handle</span>
           </button>
         </section>
@@ -160,21 +160,157 @@ import { queryPracticeAssistant } from '@/api/assistant'
 import type { AssistantCitation, AssistantHistoryItem, AssistantMode, AssistantQueryResponse, AssistantReviewItem, AttemptContext, RecentPracticeItem, SimilarQuestionRecommendation } from '@/types/assistant'
 
 type ViewMode = 'floating' | 'fullscreen'
-interface Copy { heroTitle: string; heroDescription: string; loading: string; reviewHint: string; closeTitle: string; viewTitle: string; quickActionsTitle: string; modeMenuTitle: string; uploadTitle: string; placeholder: Record<AssistantMode, string>; modeLabels: Record<AssistantMode, string>; actions: Record<AssistantMode, string>; actionDescriptions: Record<AssistantMode, string>; defaultQuery: Record<AssistantMode, string>; chunkTypeLabels: Record<string, string> }
+interface Copy {
+  kicker: string
+  heroTitle: string
+  heroDescription: string
+  loading: string
+  reviewHint: string
+  closeTitle: string
+  expandTitle: string
+  collapseTitle: string
+  quickActionsTitle: string
+  modeMenuTitle: string
+  uploadTitle: string
+  resizeTitle: string
+  resizeAria: string
+  defaultQuestionTitle: string
+  fallbackUnavailable: string
+  reviewFallbackExplanation: string
+  reviewFallbackEvidence: string
+  placeholder: Record<AssistantMode, string>
+  modeLabels: Record<AssistantMode, string>
+  actions: Record<AssistantMode, string>
+  actionDescriptions: Record<AssistantMode, string>
+  defaultQuery: Record<AssistantMode, string>
+  chunkTypeLabels: Record<string, string>
+  reviewSummary: (count: number) => string
+  reviewParagraph: (label: string) => string
+  reviewSelected: (answer: string) => string
+  reviewCorrect: (answer: string) => string
+  reviewSectionTitles: Record<'explanation' | 'evidence', string>
+  attachmentSummary: (names: string[]) => string
+  attachmentNote: (name: string, type: string) => string
+}
 interface Msg { id: string; role: 'user' | 'assistant'; content: string; citations?: AssistantCitation[]; followUps?: string[]; recommendedQuestions?: SimilarQuestionRecommendation[]; reviewItems?: AssistantReviewItem[]; isError?: boolean }
 interface AttachmentItem { id: string; name: string; type: string; icon: string; extractedText?: string; note?: string }
 
 const FLOATING_DIALOG_WIDTH = 500
 const FLOATING_DIALOG_HEIGHT = 760
 const COMPACT_DIALOG_BREAKPOINT = 480
+const FLOATING_DIALOG_MIN_WIDTH = 496
 
 const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
 const router = useRouter()
 const route = useRoute()
 const modes: AssistantMode[] = ['hint', 'explain', 'review', 'similar']
 const modeIcons: Record<AssistantMode, string> = { hint: 'tips_and_updates', explain: 'menu_book', review: 'fact_check', similar: 'route' }
-const zh: Copy = { heroTitle: 'How can I help you today?', heroDescription: 'Ask about the current passage and question set. I can give hints, explain the logic, review wrong answers, or recommend what to practice next.', loading: 'Building context from the current passage...', reviewHint: 'Review and similar mode unlock after you submit this attempt.', closeTitle: 'Close', viewTitle: 'Toggle window view', quickActionsTitle: 'Quick actions', modeMenuTitle: 'Change mode', uploadTitle: 'Upload files', placeholder: { hint: 'For example: point me to the best paragraph to start with, but do not reveal the answer', explain: 'For example: what is the right reasoning flow for this question set?', review: 'For example: why was my answer wrong and where is the evidence?', similar: 'For example: recommend the next two or three similar passages' }, modeLabels: { hint: 'Hint', explain: 'Explain', review: 'Review', similar: 'Similar' }, actions: { hint: 'Give me a hint', explain: 'Explain this set', review: 'Why was I wrong', similar: 'Recommend similar' }, actionDescriptions: { hint: 'Start with strategy, not the answer', explain: 'Break down the locating and reasoning path', review: 'Use your submission to explain the miss', similar: 'Recommend the next best matching set' }, defaultQuery: { hint: 'Give me a strategic hint for the current question set without revealing the final answer.', explain: 'Explain how to reason through the current question set using the passage.', review: 'Review my submitted attempt, explain why I was wrong, and point to the evidence.', similar: 'Recommend similar passages I should practice next.' }, chunkTypeLabels: { passage_paragraph: 'Passage paragraph', question_item: 'Question item', answer_key: 'Answer key', answer_explanation: 'Explanation', question_summary: 'Question summary' } }
-const en: Copy = { heroTitle: 'How can I help you today?', heroDescription: 'Ask about the current passage and question set. I can give hints, explain the logic, review wrong answers, or recommend what to practice next.', loading: 'Building context from the current passage...', reviewHint: 'Review and similar mode unlock after you submit this attempt.', closeTitle: 'Close', viewTitle: 'Toggle window view', quickActionsTitle: 'Quick actions', modeMenuTitle: 'Change mode', uploadTitle: 'Upload files', placeholder: { hint: 'For example: point me to the best paragraph to start with, but do not reveal the answer', explain: 'For example: what is the right reasoning flow for this question set?', review: 'For example: why was my answer wrong and where is the evidence?', similar: 'For example: recommend the next two or three similar passages' }, modeLabels: { hint: 'Hint', explain: 'Explain', review: 'Review', similar: 'Similar' }, actions: { hint: 'Give me a hint', explain: 'Explain this set', review: 'Why was I wrong', similar: 'Recommend similar' }, actionDescriptions: { hint: 'Start with strategy, not the answer', explain: 'Break down the locating and reasoning path', review: 'Use your submission to explain the miss', similar: 'Recommend the next best matching set' }, defaultQuery: { hint: 'Give me a strategic hint for the current question set without revealing the final answer.', explain: 'Explain how to reason through the current question set using the passage.', review: 'Review my submitted attempt, explain why I was wrong, and point to the evidence.', similar: 'Recommend similar passages I should practice next.' }, chunkTypeLabels: { passage_paragraph: 'Passage paragraph', question_item: 'Question item', answer_key: 'Answer key', answer_explanation: 'Explanation', question_summary: 'Question summary' } }
+const zh: Copy = {
+  kicker: 'AI 助教',
+  heroTitle: '今天想让我帮你什么？',
+  heroDescription: '可以直接问当前文章和题组。我可以给提示、解释推理路径、复盘错题，或推荐下一步练习。',
+  loading: '正在结合当前文章整理上下文...',
+  reviewHint: '提交本次作答后，可解锁讲评和相似推荐模式。',
+  closeTitle: '关闭',
+  expandTitle: '切换为大窗口',
+  collapseTitle: '切换为小窗口',
+  quickActionsTitle: '快捷操作',
+  modeMenuTitle: '切换模式',
+  uploadTitle: '上传文件',
+  resizeTitle: '拖动调整窗口大小',
+  resizeAria: '调整小助手窗口大小',
+  defaultQuestionTitle: 'IELTS 阅读',
+  fallbackUnavailable: '小助手暂时不可用。',
+  reviewFallbackExplanation: '暂未提取到详细解析。',
+  reviewFallbackEvidence: '暂未提取到明确证据。',
+  placeholder: {
+    hint: '例如：先告诉我应该从哪一段入手，但不要直接给答案',
+    explain: '例如：这组题的定位和推理顺序应该怎么走？',
+    review: '例如：我为什么错了，证据在哪一段？',
+    similar: '例如：推荐两三篇下一步适合练习的相似文章'
+  },
+  modeLabels: { hint: '提示', explain: '讲解', review: '复盘', similar: '相似' },
+  actions: { hint: '给我一个提示', explain: '讲解这组题', review: '我为什么错了', similar: '推荐相似练习' },
+  actionDescriptions: {
+    hint: '先给策略，不直接揭晓答案',
+    explain: '拆解定位顺序和推理路径',
+    review: '结合我的作答解释错因',
+    similar: '推荐下一组最匹配的练习'
+  },
+  defaultQuery: {
+    hint: '请先给我当前题组的解题策略提示，但不要直接揭晓最终答案。',
+    explain: '请结合文章内容，讲解这组题的定位顺序和推理过程。',
+    review: '请结合我已提交的作答，解释我为什么出错，并指出证据所在。',
+    similar: '请推荐我下一步适合练习的相似文章。'
+  },
+  chunkTypeLabels: {
+    passage_paragraph: '文章段落',
+    question_item: '题目内容',
+    answer_key: '答案',
+    answer_explanation: '答案解析',
+    question_summary: '题目概述'
+  },
+  reviewSummary: (count) => `已生成 ${count} 张讲评卡片。`,
+  reviewParagraph: (label) => `段落 ${label}`,
+  reviewSelected: (answer) => `你的答案：${answer}`,
+  reviewCorrect: (answer) => `正确答案：${answer}`,
+  reviewSectionTitles: { explanation: '解析', evidence: '证据' },
+  attachmentSummary: (names) => `已附加：${names.join('、')}`,
+  attachmentNote: (name, type) => `已附加文件：${name} (${type || '未知类型'})`
+}
+const en: Copy = {
+  kicker: 'AI Coach',
+  heroTitle: 'How can I help you today?',
+  heroDescription: 'Ask about the current passage and question set. I can give hints, explain the logic, review wrong answers, or recommend what to practice next.',
+  loading: 'Building context from the current passage...',
+  reviewHint: 'Review and similar mode unlock after you submit this attempt.',
+  closeTitle: 'Close',
+  expandTitle: 'Expand assistant',
+  collapseTitle: 'Return to floating window',
+  quickActionsTitle: 'Quick actions',
+  modeMenuTitle: 'Change mode',
+  uploadTitle: 'Upload files',
+  resizeTitle: 'Resize window',
+  resizeAria: 'Resize assistant window',
+  defaultQuestionTitle: 'IELTS Reading',
+  fallbackUnavailable: 'Assistant is unavailable.',
+  reviewFallbackExplanation: 'Detailed explanation was not extracted.',
+  reviewFallbackEvidence: 'Explicit source evidence was not extracted.',
+  placeholder: {
+    hint: 'For example: point me to the best paragraph to start with, but do not reveal the answer',
+    explain: 'For example: what is the right reasoning flow for this question set?',
+    review: 'For example: why was my answer wrong and where is the evidence?',
+    similar: 'For example: recommend the next two or three similar passages'
+  },
+  modeLabels: { hint: 'Hint', explain: 'Explain', review: 'Review', similar: 'Similar' },
+  actions: { hint: 'Give me a hint', explain: 'Explain this set', review: 'Why was I wrong', similar: 'Recommend similar' },
+  actionDescriptions: {
+    hint: 'Start with strategy, not the answer',
+    explain: 'Break down the locating and reasoning path',
+    review: 'Use your submission to explain the miss',
+    similar: 'Recommend the next best matching set'
+  },
+  defaultQuery: {
+    hint: 'Give me a strategic hint for the current question set without revealing the final answer.',
+    explain: 'Explain how to reason through the current question set using the passage.',
+    review: 'Review my submitted attempt, explain why I was wrong, and point to the evidence.',
+    similar: 'Recommend similar passages I should practice next.'
+  },
+  chunkTypeLabels: {
+    passage_paragraph: 'Passage paragraph',
+    question_item: 'Question item',
+    answer_key: 'Answer key',
+    answer_explanation: 'Explanation',
+    question_summary: 'Question summary'
+  },
+  reviewSummary: (count) => `${count} review cards are ready below.`,
+  reviewParagraph: (label) => `Paragraph ${label}`,
+  reviewSelected: (answer) => `Your answer: ${answer}`,
+  reviewCorrect: (answer) => `Correct: ${answer}`,
+  reviewSectionTitles: { explanation: 'Explanation', evidence: 'Evidence' },
+  attachmentSummary: (names) => `Attached: ${names.join(', ')}`,
+  attachmentNote: (name, type) => `Attached file: ${name} (${type || 'unknown type'})`
+}
 const copy = computed(() => props.lang === 'en' ? en : zh)
 const modeLabels = computed(() => copy.value.modeLabels)
 const selectedMode = ref<AssistantMode>('hint')
@@ -202,7 +338,8 @@ const isLoading = computed(() => status.value === 'loading')
 const canSubmit = computed(() => draft.value.trim().length > 0 || attachments.value.length > 0)
 const isCompactDialog = computed(() => viewMode.value === 'floating' && dialogSize.value.width <= COMPACT_DIALOG_BREAKPOINT)
 const placeholder = computed(() => copy.value.placeholder[selectedMode.value])
-const fullQuestionTitle = computed(() => props.questionTitle?.trim() || props.questionTitleLocalized?.trim() || 'IELTS Reading')
+const viewButtonTitle = computed(() => viewMode.value === 'floating' ? copy.value.expandTitle : copy.value.collapseTitle)
+const fullQuestionTitle = computed(() => props.questionTitle?.trim() || props.questionTitleLocalized?.trim() || copy.value.defaultQuestionTitle)
 const localizedQuestionTitle = computed(() => props.questionTitleLocalized?.trim() || fullQuestionTitle.value)
 const floatingQuestionTitle = computed(() => props.lang === 'zh' ? localizedQuestionTitle.value : fullQuestionTitle.value)
 const headerTitle = computed(() => viewMode.value === 'fullscreen' ? fullQuestionTitle.value : floatingQuestionTitle.value)
@@ -254,20 +391,20 @@ function defaultQuery(mode: AssistantMode) { return copy.value.defaultQuery[mode
 function formatChunkType(chunkType: string) { return copy.value.chunkTypeLabels[chunkType] || chunkType.replace(/_/g, ' ') }
 function reviewSummaryText(message: Msg) {
   if (!message.reviewItems?.length) return message.content?.trim() ?? ''
-  return `${message.reviewItems.length} review cards are ready below.`
+  return copy.value.reviewSummary(message.reviewItems.length)
 }
 function reviewParagraphLabel(item: AssistantReviewItem) {
   if (!item.paragraphLabel) return ''
-  return `Paragraph ${item.paragraphLabel}`
+  return copy.value.reviewParagraph(item.paragraphLabel)
 }
 function reviewSelectedLabel(item: AssistantReviewItem) {
-  return `Your answer: ${item.selectedAnswer}`
+  return copy.value.reviewSelected(item.selectedAnswer)
 }
 function reviewCorrectLabel(item: AssistantReviewItem) {
-  return `Correct: ${item.correctAnswer}`
+  return copy.value.reviewCorrect(item.correctAnswer)
 }
 function reviewSectionTitle(type: 'explanation' | 'evidence') {
-  return type === 'explanation' ? 'Explanation' : 'Evidence'
+  return copy.value.reviewSectionTitles[type]
 }
 async function focusComposer() { await nextTick(); composerRef.value?.focus() }
 async function scrollToBottom() { await nextTick(); if (messageListRef.value) messageListRef.value.scrollTop = messageListRef.value.scrollHeight }
@@ -286,10 +423,10 @@ function clampPosition(x: number, y: number) {
   }
 }
 function clampSize(width: number, height: number) {
-  const minWidth = 420
-  const minHeight = 560
-  const maxWidth = Math.max(minWidth, window.innerWidth - 24)
-  const maxHeight = Math.max(minHeight, window.innerHeight - 24)
+  const maxWidth = Math.max(320, window.innerWidth - 24)
+  const maxHeight = Math.max(360, window.innerHeight - 24)
+  const minWidth = Math.min(FLOATING_DIALOG_MIN_WIDTH, maxWidth)
+  const minHeight = Math.min(560, maxHeight)
   return {
     width: Math.min(Math.max(width, minWidth), maxWidth),
     height: Math.min(Math.max(height, minHeight), maxHeight)
@@ -407,7 +544,7 @@ async function readAttachment(file: File): Promise<AttachmentItem> {
     const rawText = await file.text()
     extractedText = normalizeAttachmentText(file, rawText).slice(0, 6000)
   } else {
-    note = `Attached file: ${file.name} (${file.type || 'unknown type'})`
+    note = copy.value.attachmentNote(file.name, file.type)
   }
   return {
     id: `${file.name}-${file.lastModified}-${Math.random().toString(36).slice(2, 8)}`,
@@ -463,7 +600,7 @@ async function sendMessage(mode: AssistantMode, userPrompt: string, userBubbleTe
     status.value = 'success'
     attachments.value = []
   } catch (error) {
-    const detail = error instanceof Error ? error.message : 'Assistant is unavailable.'
+    const detail = error instanceof Error ? error.message : copy.value.fallbackUnavailable
     messages.value = [...messages.value, createMessage('assistant', detail, { isError: true })]
     status.value = 'error'
   } finally {
@@ -476,7 +613,7 @@ function sendPreset(mode: AssistantMode) { void sendMessage(mode, defaultQuery(m
 function submitDraft() {
   const value = draft.value.trim()
   if (!value && attachments.value.length === 0) return
-  const attachmentLabel = attachments.value.length > 0 ? `Attached: ${attachments.value.map((attachment) => attachment.name).join(', ')}` : ''
+  const attachmentLabel = attachments.value.length > 0 ? copy.value.attachmentSummary(attachments.value.map((attachment) => attachment.name)) : ''
   const bubbleText = value || attachmentLabel
   const prompt = value || defaultQuery(selectedMode.value)
   draft.value = ''
@@ -539,6 +676,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   pointer-events: auto;
   width: min(500px, calc(100vw - 40px));
   height: min(760px, calc(100vh - 40px));
+  min-width: min(496px, calc(100vw - 24px));
+  min-height: min(560px, calc(100vh - 24px));
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   background: var(--bg-primary);
