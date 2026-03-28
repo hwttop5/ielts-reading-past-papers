@@ -53,10 +53,19 @@ An IELTS Reading practice app featuring question bank browsing, practice mode, h
 ### Quick Start
 ```bash
 npm install
-npm run dev
+npm run dev         # boot frontend + assistant in background
+npm run dev:status  # check ports, urls, and pid state
+npm run dev:logs    # print recent frontend/backend logs
+npm run dev:down    # stop both services
 npm run build
 npm run preview
 ```
+
+### Stable Local Startup
+- `npm run dev` now uses a local dev manager instead of relying on auto-increment ports.
+- Frontend is fixed to `http://localhost:5175`.
+- Assistant is fixed to `http://127.0.0.1:8787`.
+- The dev manager clears stale listeners on those ports before boot, writes logs to `tmp/dev/`, and injects runtime env so backend CORS always matches the frontend origin.
 
 ### Structure (excerpt)
 ```

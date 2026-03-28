@@ -5,7 +5,14 @@
   "description": "IELTS Reading Past Papers",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/dev-manager.mjs up",
+    "dev:up": "node scripts/dev-manager.mjs up",
+    "dev:down": "node scripts/dev-manager.mjs down",
+    "dev:status": "node scripts/dev-manager.mjs status",
+    "dev:logs": "node scripts/dev-manager.mjs logs",
+    "dev:raw": "concurrently \"npm:dev:web\" \"npm:dev:assistant\"",
+    "dev:web": "vite --host localhost --port 5175 --strictPort",
+    "dev:assistant": "npm --prefix server run dev",
     "build": "vite build",
     "preview": "vite preview",
     "generate:index": "node scripts/generate-index.mjs",
@@ -20,6 +27,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
     "@vue/test-utils": "^2.4.6",
+    "concurrently": "^9.2.1",
     "happy-dom": "^20.8.3",
     "vite": "^5.0.0",
     "vitest": "^4.0.18"
