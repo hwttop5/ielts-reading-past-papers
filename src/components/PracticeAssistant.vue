@@ -1014,10 +1014,11 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-context-chip {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
-  width: 100%;
+  align-self: flex-start;
+  width: fit-content;
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
@@ -1036,7 +1037,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-context-chip span:last-child {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
   display: block;
   overflow: hidden;
@@ -1046,8 +1047,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-context-name {
   display: block;
-  width: 0;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
   max-width: 100%;
   overflow: hidden;
