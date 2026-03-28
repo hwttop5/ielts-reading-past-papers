@@ -7,10 +7,14 @@
         </button>
         <div class="header-titles">
           <h1 class="page-title">{{ question?.title || 'Practice Mode' }}</h1>
-          <p class="page-subtitle" v-if="currentLang === 'zh'">{{ question?.titleCN }}</p>
+          <p v-if="displayLang === 'zh'" class="page-subtitle">{{ question?.titleCN }}</p>
         </div>
       </div>
-      <button class="fullscreen-btn" @click="toggleFullscreen" :title="isFullscreen ? t('practiceMode.exitFullscreen') : t('practiceMode.fullscreen')">
+      <button
+        class="fullscreen-btn"
+        :title="isFullscreen ? t('practiceMode.exitFullscreen') : t('practiceMode.fullscreen')"
+        @click="toggleFullscreen"
+      >
         <span class="material-icons">{{ isFullscreen ? 'fullscreen_exit' : 'fullscreen' }}</span>
       </button>
     </div>
@@ -23,27 +27,40 @@
             <p>{{ t('practiceMode.loading') }}</p>
           </div>
         </div>
-        <iframe 
+        <iframe
+          v-if="question?.htmlPath"
           ref="questionIframe"
-          v-if="question?.htmlPath" 
-          :src="question.htmlPath" 
+          :src="question.htmlPath"
           class="question-iframe"
           :title="t('practiceMode.iframeTitle')"
           @load="onIframeLoad"
         ></iframe>
       </div>
     </div>
+
+    <PracticeAssistant
+      v-if="question"
+      :question-id="question.id"
+      :question-title="question.title"
+      :question-title-localized="question.titleCN"
+      :has-submitted="hasSubmitted"
+      :attempt-context="assistantAttemptContext"
+      :recent-practice="recentPractice"
+      :lang="displayLang"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted, inject } from 'vue'
+import { computed, inject, onMounted, onUnmounted, ref, watch, type Ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useQuestionStore } from '@/store/questionStore'
-import { usePracticeStore } from '@/store/practiceStore'
-import { useAchievementStore } from '@/store/achievementStore'
 import { message } from 'ant-design-vue'
+import PracticeAssistant from '@/components/PracticeAssistant.vue'
+import { useAchievementStore } from '@/store/achievementStore'
+import { usePracticeStore } from '@/store/practiceStore'
+import { useQuestionStore, type Question } from '@/store/questionStore'
 import { eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
+import type { AttemptContext, RecentPracticeItem } from '@/types/assistant'
 
 const route = useRoute()
 const router = useRouter()
@@ -51,227 +68,263 @@ const questionStore = useQuestionStore()
 const practiceStore = usePracticeStore()
 const achievementStore = useAchievementStore()
 const t = inject('t', (key: string) => key)
-const currentLang = inject('currentLang', { value: 'zh' })
+const currentLang = inject<Readonly<Ref<'zh' | 'en'>>>('currentLang', ref('zh') as Readonly<Ref<'zh' | 'en'>>)
 
-const question = ref<any>(null)
+const question = ref<Question | null>(null)
 const questionIframe = ref<HTMLIFrameElement | null>(null)
 const contentWrapper = ref<HTMLDivElement | null>(null)
 const startTime = ref(0)
 const elapsed = ref(0)
-const answers = ref<number[]>([])
-const correctAnswers = ref<number[]>([])
 const isFullscreen = ref(false)
 const isLoading = ref(true)
+const hasSubmitted = ref(false)
+const assistantAttemptContext = ref<AttemptContext | null>(null)
+
+const displayLang = computed<'zh' | 'en'>(() => (currentLang.value === 'en' ? 'en' : 'zh'))
+const recentPractice = computed<RecentPracticeItem[]>(() =>
+  practiceStore.records.slice(0, 10).map((record) => ({
+    questionId: record.questionId,
+    accuracy: record.accuracy,
+    category: record.category,
+    duration: record.duration
+  }))
+)
 
 let timer: number | null = null
 let loadingTimeout: number | null = null
+let submissionCooldownUntil = 0
 
-onMounted(() => {
-  questionStore.loadQuestions()
-  const id = route.query.id as string
-  if (id) {
-    question.value = questionStore.getQuestionById(id)
-    if (question.value) {
-      answers.value = new Array(question.value.totalQuestions).fill(0)
-      correctAnswers.value = Array.from({ length: question.value.totalQuestions }, () => 
-        Math.floor(Math.random() * 4) + 1
-      )
-      startTime.value = Date.now()
-      timer = window.setInterval(() => {
-        elapsed.value = Math.floor((Date.now() - startTime.value) / 1000)
-      }, 1000)
-    }
-  }
-  
-  // 加载超时处理
-  loadingTimeout = window.setTimeout(() => {
-    if (isLoading.value) {
-      isLoading.value = false
-      message.warning(t('practiceMode.loadingTimeout'))
-    }
-  }, 10000)
-
-  // 始终监听 message 事件
-  window.addEventListener('message', handleIframeMessage, false)
-  document.addEventListener('fullscreenchange', handleFullscreenChange)
-})
-
-onUnmounted(() => {
-  // 延迟清理监听器，确保能收到 iframe 的消息
-  setTimeout(() => {
-    window.removeEventListener('message', handleIframeMessage)
-  }, 2000)
-  
+function stopTimer() {
   if (timer) {
     clearInterval(timer)
+    timer = null
   }
+}
+
+function startTimer() {
+  stopTimer()
+  startTime.value = Date.now()
+  elapsed.value = 0
+  timer = window.setInterval(() => {
+    elapsed.value = Math.floor((Date.now() - startTime.value) / 1000)
+  }, 1000)
+}
+
+function resetAssistantState() {
+  hasSubmitted.value = false
+  assistantAttemptContext.value = null
+  submissionCooldownUntil = 0
+}
+
+function initializeQuestion() {
+  const id = route.query.id as string | undefined
+  question.value = id ? questionStore.getQuestionById(id) ?? null : null
+  isLoading.value = Boolean(question.value)
+  resetAssistantState()
+
   if (loadingTimeout) {
     clearTimeout(loadingTimeout)
   }
-  document.removeEventListener('fullscreenchange', handleFullscreenChange)
-  if (isFullscreen.value) {
-    exitFullscreen()
-  }
-})
 
-const formatTime = (seconds: number): string => {
-  const mins = Math.floor(seconds / 60)
-  const secs = seconds % 60
-  return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`
-}
-
-const handleIframeMessage = (event: MessageEvent) => {
-  // 处理 iframe 发送的提交数据
-  if (event.data && event.data.type === 'submit') {
-    const { score, totalQuestions, answers, correctAnswers: iframeCorrectAnswers } = event.data
-    
-    // 直接使用 iframe 传来的分数
-    const finalScore = typeof score === 'number' ? score : 0
-    const finalTotal = totalQuestions || question.value?.totalQuestions || 0
-    const accuracy = finalTotal > 0 ? Math.round((finalScore / finalTotal) * 100) : 0
-    
-    // 显示合并后的消息
-    const scoreMsg = t('practiceMode.scoreResult', { score: finalScore.toString(), total: finalTotal.toString(), accuracy: accuracy.toString() })
-    const savedMsg = t('practiceMode.recordSaved')
-    message.success(`${savedMsg} | ${scoreMsg}`, 3) // 3秒后消失
-    
-    // 自动保存记录（不显示默认消息）
-    savePracticeRecord(finalScore, finalTotal, accuracy, false)
-    
-    // 验证数据是否保存成功
-    setTimeout(() => {
-      const savedRecords = JSON.parse(localStorage.getItem('ielts_practice') || '[]')
-    }, 100)
+  if (question.value) {
+    startTimer()
+    loadingTimeout = window.setTimeout(() => {
+      if (isLoading.value) {
+        isLoading.value = false
+        message.warning(t('practiceMode.loadingTimeout'))
+      }
+    }, 10000)
+  } else {
+    stopTimer()
   }
 }
 
-const collectAnswersFromIframe = () => {
+function normalizeAnswer(value: string): string {
+  return value.trim().replace(/\s+/g, ' ').toLowerCase()
+}
+
+function extractCorrectAnswersFromIframe(): Record<string, string> | null {
   try {
     const iframe = questionIframe.value
-    if (!iframe || !iframe.contentDocument) {
+    const doc = iframe?.contentDocument
+    if (!doc) {
       return null
     }
-    
-    const doc = iframe.contentDocument
-    const userAnswers: Record<string, string> = {}
-    
-    // 尝试获取所有可能的题目输入
-    // Radio buttons
-    const radios = doc.querySelectorAll('input[type="radio"]:checked')
-    radios.forEach((radio: any) => {
-      if (radio.name) userAnswers[radio.name] = radio.value
-    })
-    
-    // Text inputs
-    const inputs = doc.querySelectorAll('input[type="text"]')
-    inputs.forEach((input: any) => {
-      if (input.id) userAnswers[input.id] = input.value
-      else if (input.name) userAnswers[input.name] = input.value
-    })
-    
-    return userAnswers
-  } catch (error) {
-    return null
-  }
-}
 
-const extractScoreFromDOM = (doc: Document) => {
-  try {
-    // 尝试查找包含 "Score:" 的元素
-    // 常见的 id 是 "results" 或包含 score 的文本
-    const resultsDiv = doc.getElementById('results')
-    if (resultsDiv) {
-      const text = resultsDiv.innerText || resultsDiv.textContent || ''
-      // 匹配 "Score: 1/13" 或 "Score: 1 / 13" 格式
-      const match = text.match(/Score:\s*(\d+)\s*\/\s*(\d+)/i)
-      if (match) {
-        const correct = parseInt(match[1], 10)
-        const total = parseInt(match[2], 10)
-        const accuracyMatch = text.match(/Accuracy:\s*(\d+)%/i)
-        const accuracy = accuracyMatch ? parseInt(accuracyMatch[1], 10) : Math.round((correct / total) * 100)
-        return { correct, total, accuracy }
-      }
+    const scriptContent = Array.from(doc.scripts)
+      .map((script) => script.textContent || '')
+      .join('\n')
+
+    const answersMatch = scriptContent.match(/(?:const|let|var)\s+(?:answers|correctAnswers)\s*=\s*(\{[\s\S]*?\});/i)
+    if (!answersMatch) {
+      return null
     }
-    return null
-  } catch (e) {
-    console.error('Failed to extract score from DOM', e)
+
+    const evaluator = new Function(`return (${answersMatch[1]})`)
+    return evaluator() as Record<string, string>
+  } catch {
     return null
   }
 }
 
-const onIframeLoad = () => {
+function collectAnswersFromIframe(): Record<string, string> | null {
+  try {
+    const iframe = questionIframe.value
+    const doc = iframe?.contentDocument
+    if (!doc) {
+      return null
+    }
+
+    const userAnswers: Record<string, string> = {}
+
+    doc.querySelectorAll<HTMLInputElement>('input[type="radio"]:checked').forEach((input) => {
+      if (input.name) {
+        userAnswers[input.name] = input.value
+      }
+    })
+
+    doc.querySelectorAll<HTMLInputElement>('input[type="text"], input.blank').forEach((input) => {
+      const key = input.id || input.name
+      if (key) {
+        userAnswers[key] = input.value
+      }
+    })
+
+    doc.querySelectorAll<HTMLSelectElement>('select').forEach((select) => {
+      const key = select.id || select.name
+      if (key && select.value) {
+        userAnswers[key] = select.value
+      }
+    })
+
+    return userAnswers
+  } catch {
+    return null
+  }
+}
+
+function buildAttemptContext(score: number): AttemptContext | null {
+  const selectedAnswers = collectAnswersFromIframe()
+  const correctAnswers = extractCorrectAnswersFromIframe()
+
+  if (!selectedAnswers && !correctAnswers) {
+    return null
+  }
+
+  const wrongQuestions = correctAnswers
+    ? Object.entries(correctAnswers)
+        .filter(([key, answer]) => normalizeAnswer(selectedAnswers?.[key] || '') !== normalizeAnswer(answer))
+        .map(([key]) => key.replace(/^q/i, ''))
+    : undefined
+
+  return {
+    selectedAnswers: selectedAnswers ?? undefined,
+    score,
+    wrongQuestions
+  }
+}
+
+function extractScoreFromDOM(doc: Document) {
+  try {
+    const resultsDiv = doc.getElementById('results')
+    if (!resultsDiv) {
+      return null
+    }
+
+    const text = resultsDiv.innerText || resultsDiv.textContent || ''
+    const match = text.match(/Score:\s*(\d+)\s*\/\s*(\d+)/i)
+    if (!match) {
+      return null
+    }
+
+    const correct = parseInt(match[1], 10)
+    const total = parseInt(match[2], 10)
+    const accuracyMatch = text.match(/Accuracy[:\s]*(\d+)%/i)
+    const accuracy = accuracyMatch ? parseInt(accuracyMatch[1], 10) : Math.round((correct / total) * 100)
+    return { correct, total, accuracy }
+  } catch {
+    return null
+  }
+}
+
+function handleSubmission(correct: number, totalQuestions: number, accuracy: number) {
+  const now = Date.now()
+  if (now < submissionCooldownUntil || !question.value) {
+    return
+  }
+
+  submissionCooldownUntil = now + 1500
+  hasSubmitted.value = true
+  assistantAttemptContext.value = buildAttemptContext(correct)
+
+  const scoreMsg = t('practiceMode.scoreResult', {
+    score: correct.toString(),
+    total: totalQuestions.toString(),
+    accuracy: accuracy.toString()
+  })
+  const savedMsg = t('practiceMode.recordSaved')
+
+  savePracticeRecord(correct, totalQuestions, accuracy, false)
+  message.success(`${savedMsg} | ${scoreMsg}`, 3)
+}
+
+function handleIframeMessage(event: MessageEvent) {
+  if (event.data?.type !== 'submit') {
+    return
+  }
+
+  const score = typeof event.data.score === 'number' ? event.data.score : 0
+  const totalQuestions = event.data.totalQuestions || question.value?.totalQuestions || 0
+  const accuracy = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0
+  handleSubmission(score, totalQuestions, accuracy)
+}
+
+function onIframeLoad() {
   isLoading.value = false
   if (loadingTimeout) {
     clearTimeout(loadingTimeout)
     loadingTimeout = null
   }
+
   try {
-    if (questionIframe.value?.contentWindow) {
-      // 监听 message 事件（备用方案）
-      window.addEventListener('message', handleIframeMessage)
-      
-      // 直接监听 iframe 中的 Submit 按钮
-      setTimeout(() => {
-        try {
-          const iframe = questionIframe.value
-          if (!iframe || !iframe.contentDocument) return
-          
-          const doc = iframe.contentDocument
-          
-          // 查找 Submit 按钮
-          const buttons = doc.querySelectorAll('button')
-          let submitBtn: Element | null = null
-          
-          buttons.forEach(btn => {
-            const text = btn.textContent?.trim() || ''
-            const onclick = (btn as HTMLButtonElement).onclick?.toString() || ''
-            const onclickAttr = btn.getAttribute('onclick') || ''
-            
-            if ((text.includes('Submit') || text.includes('提交')) || 
-                onclick.includes('grade') || 
-                onclickAttr.includes('grade')) {
-              submitBtn = btn
-            }
-          })
-          
-          if (submitBtn) {
-            // 添加点击监听器
-            submitBtn.addEventListener('click', () => {
-              // 延迟等待 iframe 内部逻辑执行完成并更新 DOM
-              // 增加延迟时间以确保 DOM 已更新
-              setTimeout(() => {
-                const scoreData = extractScoreFromDOM(doc)
-                if (scoreData) {
-                  const scoreMsg = t('practiceMode.scoreResult', { 
-                    score: scoreData.correct.toString(), 
-                    total: scoreData.total.toString(), 
-                    accuracy: scoreData.accuracy.toString() 
-                  })
-                  const savedMsg = t('practiceMode.recordSaved')
-                  
-                  // 保存记录（不显示默认消息）
-                  savePracticeRecord(scoreData.correct, scoreData.total, scoreData.accuracy, false)
-                  
-                  // 显示合并后的消息
-                  message.success(`${savedMsg} | ${scoreMsg}`, 3)
-                } else {
-                  // 如果提取失败，尝试回退方法（虽然不推荐，但至少可以记录完成状态）
-                  console.warn('Could not extract score from DOM')
-                }
-              }, 800) // 800ms 延迟
-            })
-          }
-        } catch (error) {
-          // 忽略错误
-        }
-      }, 1000)
+    const iframe = questionIframe.value
+    const doc = iframe?.contentDocument
+    if (!doc) {
+      return
     }
-  } catch (e) {
-    // 忽略错误
+
+    setTimeout(() => {
+      const buttons = Array.from(doc.querySelectorAll('button'))
+      const submitButton = buttons.find((button) => {
+        const text = button.textContent?.trim() || ''
+        const onclickAttr = button.getAttribute('onclick') || ''
+        return (
+          text.includes('Submit') ||
+          text.includes('提交') ||
+          onclickAttr.includes('grade') ||
+          onclickAttr.includes('submitAnswers')
+        )
+      })
+
+      if (!submitButton) {
+        return
+      }
+
+      submitButton.addEventListener('click', () => {
+        setTimeout(() => {
+          const scoreData = extractScoreFromDOM(doc)
+          if (scoreData) {
+            handleSubmission(scoreData.correct, scoreData.total, scoreData.accuracy)
+          }
+        }, 800)
+      })
+    }, 1000)
+  } catch {
+    // ignore iframe hook failures
   }
 }
 
-const toggleFullscreen = () => {
+function toggleFullscreen() {
   if (!isFullscreen.value) {
     enterFullscreen()
   } else {
@@ -279,57 +332,35 @@ const toggleFullscreen = () => {
   }
 }
 
-const enterFullscreen = () => {
-  const elem = contentWrapper.value
-  if (elem?.requestFullscreen) {
-    elem.requestFullscreen()
-  } else if ((elem as any)?.webkitRequestFullscreen) {
-    (elem as any).webkitRequestFullscreen()
-  } else if ((elem as any)?.msRequestFullscreen) {
-    (elem as any).msRequestFullscreen()
+function enterFullscreen() {
+  const element = contentWrapper.value
+  if (element?.requestFullscreen) {
+    element.requestFullscreen()
+  } else if ((element as { webkitRequestFullscreen?: () => void })?.webkitRequestFullscreen) {
+    (element as { webkitRequestFullscreen: () => void }).webkitRequestFullscreen()
+  } else if ((element as { msRequestFullscreen?: () => void })?.msRequestFullscreen) {
+    (element as { msRequestFullscreen: () => void }).msRequestFullscreen()
   }
 }
 
-const exitFullscreen = () => {
+function exitFullscreen() {
   if (document.exitFullscreen) {
     document.exitFullscreen()
-  } else if ((document as any)?.webkitExitFullscreen) {
-    (document as any).webkitExitFullscreen()
-  } else if ((document as any)?.msExitFullscreen) {
-    (document as any).msExitFullscreen()
+  } else if ((document as { webkitExitFullscreen?: () => void })?.webkitExitFullscreen) {
+    (document as { webkitExitFullscreen: () => void }).webkitExitFullscreen()
+  } else if ((document as { msExitFullscreen?: () => void })?.msExitFullscreen) {
+    (document as { msExitFullscreen: () => void }).msExitFullscreen()
   }
 }
 
-const handleFullscreenChange = () => {
-  isFullscreen.value = !!document.fullscreenElement
+function handleFullscreenChange() {
+  isFullscreen.value = Boolean(document.fullscreenElement)
 }
 
-const answeredCount = computed(() => 
-  answers.value.filter(a => a !== 0).length
-)
-
-const currentAccuracy = computed(() => {
-  if (answeredCount.value === 0) return 0
-  let correct = 0
-  answers.value.forEach((answer, index) => {
-    if (answer !== 0 && answer === correctAnswers.value[index]) {
-      correct++
-    }
-  })
-  return Math.round((correct / answeredCount.value) * 100)
-})
-
-const finish = () => {
-  if (timer) {
-    clearInterval(timer)
+function savePracticeRecord(correct: number, totalQuestions: number, accuracy: number, showMessage = true) {
+  if (!question.value) {
+    return
   }
-
-  let correct = 0
-  answers.value.forEach((answer, index) => {
-    if (answer !== 0 && answer === correctAnswers.value[index]) {
-      correct++
-    }
-  })
 
   const record = {
     questionId: question.value.id,
@@ -337,30 +368,11 @@ const finish = () => {
     category: question.value.category,
     duration: elapsed.value,
     correctAnswers: correct,
-    totalQuestions: question.value.totalQuestions,
-    accuracy: Math.round((correct / question.value.totalQuestions) * 100),
+    totalQuestions,
+    accuracy,
     score: correct
   }
 
-  practiceStore.add(record)
-  achievementStore.check()
-
-  message.success(t('practiceMode.recordSaved'))
-  router.push('/practice')
-}
-
-const savePracticeRecord = (correct: number, totalQuestions: number, accuracy: number, showMessage: boolean = true) => {
-  const record = {
-    questionId: question.value.id,
-    questionTitle: question.value.title,
-    category: question.value.category,
-    duration: elapsed.value,
-    correctAnswers: correct,
-    totalQuestions: totalQuestions,
-    accuracy: accuracy,
-    score: correct
-  }
-  
   practiceStore.add(record)
   achievementStore.check()
   eventBus.emit(PRACTICE_UPDATED, { record, records: practiceStore.records })
@@ -369,11 +381,10 @@ const savePracticeRecord = (correct: number, totalQuestions: number, accuracy: n
   }
 }
 
-const goBack = () => {
+function goBack() {
   window.removeEventListener('message', handleIframeMessage)
-  if (timer) {
-    clearInterval(timer)
-  }
+  stopTimer()
+
   const query: Record<string, string> = {}
   const keys = ['category', 'difficulty', 'search', 'page', 'pageSize']
   keys.forEach((key) => {
@@ -384,11 +395,38 @@ const goBack = () => {
   })
   router.push({ path: '/browse', query })
 }
+
+onMounted(() => {
+  questionStore.loadQuestions()
+  practiceStore.load()
+  initializeQuestion()
+  window.addEventListener('message', handleIframeMessage, false)
+  document.addEventListener('fullscreenchange', handleFullscreenChange)
+})
+
+watch(
+  () => route.query.id,
+  () => {
+    initializeQuestion()
+  }
+)
+
+onUnmounted(() => {
+  window.removeEventListener('message', handleIframeMessage)
+  document.removeEventListener('fullscreenchange', handleFullscreenChange)
+  stopTimer()
+  if (loadingTimeout) {
+    clearTimeout(loadingTimeout)
+  }
+  if (isFullscreen.value) {
+    exitFullscreen()
+  }
+})
 </script>
 
 <style scoped>
 .practice-mode-page {
-  max-width: 1400px;
+  max-width: 1480px;
   margin: 0 auto;
 }
 
@@ -405,7 +443,8 @@ const goBack = () => {
   gap: 16px;
 }
 
-.back-btn {
+.back-btn,
+.fullscreen-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -419,7 +458,8 @@ const goBack = () => {
   transition: all 0.2s ease;
 }
 
-.back-btn:hover {
+.back-btn:hover,
+.fullscreen-btn:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
@@ -442,68 +482,11 @@ const goBack = () => {
   margin: 0;
 }
 
-.fullscreen-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.fullscreen-btn:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
-}
-
 .practice-section {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: 16px;
   padding: 24px;
-}
-
-.stats-bar {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-  background: var(--bg-secondary);
-  border-radius: 12px;
-  margin-bottom: 24px;
-}
-
-.stat-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex: 1;
-}
-
-.stat-icon {
-  font-size: 28px;
-  color: var(--primary-color);
-}
-
-.stat-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.stat-label {
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin-bottom: 2px;
-}
-
-.stat-value {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--text-primary);
 }
 
 .question-content-wrapper {
@@ -532,27 +515,6 @@ const goBack = () => {
   height: 100vh;
 }
 
-@media (max-width: 768px) {
-  .page-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-  }
-  
-  .stats-bar {
-    flex-direction: column;
-    gap: 12px;
-  }
-  
-  .question-content-wrapper {
-    min-height: 60vh;
-  }
-  
-  .question-iframe {
-    height: 60vh;
-  }
-}
-
 .loading-overlay {
   position: absolute;
   top: 0;
@@ -579,7 +541,31 @@ const goBack = () => {
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .practice-section {
+    padding: 16px;
+  }
+
+  .question-content-wrapper {
+    min-height: 60vh;
+  }
+
+  .question-iframe {
+    height: 60vh;
+  }
 }
 </style>
