@@ -13,7 +13,7 @@
               <span class="assistant-brand-icon material-icons">auto_awesome</span>
               <div class="assistant-title-block">
                 <p class="assistant-kicker">AI Coach</p>
-                <h2 class="assistant-title">{{ questionTitle }}</h2>
+                <h2 class="assistant-title" :class="{ 'assistant-title--floating': viewMode === 'floating' }" :title="questionTitleTooltip">{{ headerTitle }}</h2>
               </div>
             </div>
             <div class="assistant-header-actions">
@@ -105,9 +105,9 @@
           <footer class="assistant-dock">
             <div class="assistant-composer" :class="{ focused: composerFocused }">
               <input ref="fileInputRef" class="assistant-file-input" type="file" multiple :accept="acceptedFileTypes" @change="handleFileSelection" />
-              <div class="assistant-context-chip">
+              <div class="assistant-context-chip" :title="questionTitleTooltip">
                 <span class="material-icons">description</span>
-                <span class="assistant-context-name" :title="questionTitle">{{ questionTitle }}</span>
+                <span class="assistant-context-name">{{ contextChipTitle }}</span>
               </div>
               <div v-if="attachments.length" class="assistant-attachments">
                 <div v-for="attachment in attachments" :key="attachment.id" class="assistant-attachment-chip">
@@ -164,11 +164,11 @@ interface Copy { heroTitle: string; heroDescription: string; loading: string; re
 interface Msg { id: string; role: 'user' | 'assistant'; content: string; citations?: AssistantCitation[]; followUps?: string[]; recommendedQuestions?: SimilarQuestionRecommendation[]; reviewItems?: AssistantReviewItem[]; isError?: boolean }
 interface AttachmentItem { id: string; name: string; type: string; icon: string; extractedText?: string; note?: string }
 
-const FLOATING_DIALOG_WIDTH = 480
+const FLOATING_DIALOG_WIDTH = 500
 const FLOATING_DIALOG_HEIGHT = 760
-const COMPACT_DIALOG_BREAKPOINT = 520
+const COMPACT_DIALOG_BREAKPOINT = 480
 
-const props = defineProps<{ questionId: string; questionTitle: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
+const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
 const router = useRouter()
 const route = useRoute()
 const modes: AssistantMode[] = ['hint', 'explain', 'review', 'similar']
@@ -190,7 +190,7 @@ const isComposing = ref(false)
 const isDragging = ref(false)
 const isResizing = ref(false)
 const dragOffset = ref({ x: 0, y: 0 })
-const resizeOrigin = ref({ x: 0, y: 0, width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT })
+const resizeOrigin = ref({ x: 0, y: 0, left: 0, top: 0, width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT })
 const dialogPosition = ref<{ x: number; y: number } | null>(null)
 const dialogSize = ref({ width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT })
 const attachments = ref<AttachmentItem[]>([])
@@ -202,7 +202,17 @@ const isLoading = computed(() => status.value === 'loading')
 const canSubmit = computed(() => draft.value.trim().length > 0 || attachments.value.length > 0)
 const isCompactDialog = computed(() => viewMode.value === 'floating' && dialogSize.value.width <= COMPACT_DIALOG_BREAKPOINT)
 const placeholder = computed(() => copy.value.placeholder[selectedMode.value])
-const questionTitle = computed(() => props.questionTitle || 'IELTS Reading')
+const fullQuestionTitle = computed(() => props.questionTitle?.trim() || props.questionTitleLocalized?.trim() || 'IELTS Reading')
+const localizedQuestionTitle = computed(() => props.questionTitleLocalized?.trim() || fullQuestionTitle.value)
+const floatingQuestionTitle = computed(() => props.lang === 'zh' ? localizedQuestionTitle.value : fullQuestionTitle.value)
+const headerTitle = computed(() => viewMode.value === 'fullscreen' ? fullQuestionTitle.value : floatingQuestionTitle.value)
+const contextChipTitle = computed(() => floatingQuestionTitle.value)
+const questionTitleTooltip = computed(() => {
+  if (props.lang === 'zh' && props.questionTitleLocalized?.trim() && props.questionTitle?.trim() && props.questionTitleLocalized.trim() !== props.questionTitle.trim()) {
+    return `${props.questionTitleLocalized.trim()}\n${props.questionTitle.trim()}`
+  }
+  return fullQuestionTitle.value
+})
 const actionCards = computed(() => modes.map((mode) => ({ mode, title: copy.value.actions[mode], description: copy.value.actionDescriptions[mode], icon: modeIcons[mode], disabled: isModeDisabled(mode) })))
 const acceptedFileTypes = 'image/*,.pdf,.html,.htm,.txt,.md,.json,.csv,.xml,.js,.ts,.vue'
 const dialogStyle = computed(() => {
@@ -292,14 +302,16 @@ function handleDragMove(event: PointerEvent) {
 }
 function handleResizeMove(event: PointerEvent) {
   if (!isResizing.value || viewMode.value === 'fullscreen') return
-  dialogSize.value = clampSize(
-    resizeOrigin.value.width + (event.clientX - resizeOrigin.value.x),
-    resizeOrigin.value.height + (event.clientY - resizeOrigin.value.y)
+  const nextSize = clampSize(
+    resizeOrigin.value.width - (event.clientX - resizeOrigin.value.x),
+    resizeOrigin.value.height - (event.clientY - resizeOrigin.value.y)
   )
 
-  if (dialogPosition.value) {
-    dialogPosition.value = clampPosition(dialogPosition.value.x, dialogPosition.value.y)
-  }
+  dialogSize.value = nextSize
+  dialogPosition.value = clampPosition(
+    resizeOrigin.value.left + (resizeOrigin.value.width - nextSize.width),
+    resizeOrigin.value.top + (resizeOrigin.value.height - nextSize.height)
+  )
 }
 function stopDrag() {
   isDragging.value = false
@@ -346,6 +358,8 @@ function startResize(event: PointerEvent) {
   resizeOrigin.value = {
     x: event.clientX,
     y: event.clientY,
+    left: rect.left,
+    top: rect.top,
     width: rect.width,
     height: rect.height
   }
@@ -523,7 +537,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   right: 20px;
   bottom: 20px;
   pointer-events: auto;
-  width: min(480px, calc(100vw - 40px));
+  width: min(500px, calc(100vw - 40px));
   height: min(760px, calc(100vh - 40px));
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
@@ -537,6 +551,15 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-dialog.dragging {
   box-shadow: 0 28px 68px rgba(15, 23, 42, 0.24);
+}
+
+.assistant-dialog:not(.fullscreen):not(.compact) .assistant-topbar {
+  padding-left: 56px;
+}
+
+.assistant-dialog:not(.fullscreen) .assistant-topbar {
+  padding-top: 16px;
+  padding-bottom: 12px;
 }
 
 .assistant-dialog.resizing {
@@ -557,6 +580,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-topbar,
 .assistant-body,
 .assistant-dock {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
   padding-left: 22px;
   padding-right: 22px;
 }
@@ -635,6 +661,14 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   -webkit-box-orient: vertical;
 }
 
+.assistant-title--floating {
+  display: block;
+  font-size: 18px;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .assistant-header-actions,
 .assistant-left-actions,
 .assistant-right-actions {
@@ -683,44 +717,45 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-body {
   overflow-y: auto;
-  padding-top: 24px;
-  padding-bottom: 18px;
+  padding-top: 20px;
+  padding-bottom: 16px;
 }
 
 .assistant-welcome {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 18px;
   min-height: 100%;
-  padding-top: 8px;
+  padding-top: 0;
 }
 
 .assistant-hero-copy h3 {
   margin: 0;
-  font-size: 30px;
-  line-height: 1.1;
+  font-size: 26px;
+  line-height: 1.08;
 }
 
 .assistant-hero-copy p {
-  margin: 12px 0 0;
+  margin: 10px 0 0;
   color: var(--text-secondary);
-  font-size: 15px;
-  line-height: 1.72;
+  font-size: 14px;
+  line-height: 1.62;
+  max-width: 44ch;
 }
 
 .assistant-suggestion-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .assistant-suggestion {
   border: none;
   background: transparent;
-  padding: 10px 0;
+  padding: 8px 0;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   color: var(--text-primary);
   text-align: left;
   cursor: pointer;
@@ -754,7 +789,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-note {
   margin: 0;
   color: var(--text-tertiary);
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 1.55;
 }
 
 .assistant-thread {
@@ -1010,26 +1046,25 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-composer.focused,
 .assistant-composer:hover {
   border-color: rgba(37, 99, 235, 0.35);
-  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.12);
 }
 
 .assistant-context-chip {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   align-self: flex-start;
-  width: fit-content;
-  max-width: 100%;
+  max-width: min(calc(100% - 28px), 360px);
   min-width: 0;
   box-sizing: border-box;
   overflow: hidden;
-  padding: 8px 12px;
+  padding: 7px 11px;
   border-radius: 999px;
   border: 1px solid rgba(37, 99, 235, 0.12);
   background: #ffffff;
   color: var(--text-secondary);
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .assistant-context-chip span:first-child {
@@ -1037,7 +1072,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-context-chip span:last-child {
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   min-width: 0;
   display: block;
   overflow: hidden;
@@ -1047,7 +1082,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-context-name {
   display: block;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   min-width: 0;
   max-width: 100%;
   overflow: hidden;
@@ -1123,8 +1158,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-input {
   width: 100%;
-  min-height: 108px;
-  margin-top: 14px;
+  min-height: 96px;
+  margin-top: 12px;
   border: none;
   resize: none;
   background: transparent;
@@ -1147,7 +1182,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .assistant-left-actions,
@@ -1189,33 +1224,38 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   -webkit-line-clamp: 3;
 }
 
+.assistant-dialog.compact .assistant-title--floating {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
 .assistant-dialog.compact .icon-btn {
   width: 34px;
   height: 34px;
 }
 
 .assistant-dialog.compact .assistant-body {
-  padding-top: 18px;
-  padding-bottom: 14px;
+  padding-top: 16px;
+  padding-bottom: 12px;
 }
 
 .assistant-dialog.compact .assistant-welcome {
-  gap: 18px;
+  gap: 14px;
 }
 
 .assistant-dialog.compact .assistant-hero-copy h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .assistant-dialog.compact .assistant-hero-copy p {
-  margin-top: 10px;
-  font-size: 14px;
-  line-height: 1.62;
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.58;
 }
 
 .assistant-dialog.compact .assistant-suggestion {
   gap: 12px;
-  padding: 8px 0;
+  padding: 6px 0;
 }
 
 .assistant-dialog.compact .assistant-suggestion-text strong {
@@ -1253,7 +1293,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-dialog.compact .assistant-context-chip {
-  padding: 8px 10px;
+  padding: 7px 10px;
   font-size: 12px;
 }
 
@@ -1267,8 +1307,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-dialog.compact .assistant-input {
-  min-height: 92px;
-  margin-top: 12px;
+  min-height: 84px;
+  margin-top: 10px;
   font-size: 15px;
   line-height: 1.62;
 }
@@ -1287,8 +1327,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-dialog.compact .assistant-resize-handle {
-  right: 12px;
-  bottom: 12px;
+  left: 12px;
+  top: 12px;
   width: 22px;
   height: 22px;
 }
@@ -1367,8 +1407,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-resize-handle {
   position: absolute;
-  right: 14px;
-  bottom: 14px;
+  left: 14px;
+  top: 14px;
   z-index: 3;
   width: 24px;
   height: 24px;
@@ -1384,7 +1424,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-resize-handle .material-icons {
   font-size: 18px;
-  transform: rotate(-45deg);
+  transform: rotate(135deg);
 }
 
 .loading-icon {
