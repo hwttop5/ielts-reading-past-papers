@@ -1,128 +1,104 @@
-## IELTS Reading Past Papers
+# IELTS Reading Past Papers
 
-> [中文版](./README.md)
+> [简体中文](./README.md)
 
- | Live Demo: [https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app)
+| Live demo | [https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app) |
 
-An IELTS Reading practice app featuring question bank browsing, practice mode, history, achievements, i18n, and theme switching. Practice uses the **unified reading** pipeline (`src/generated/reading-native` plus runtime assets under `public/`). The catalog is driven by `src/utils/questionIndex.json`. The legacy **`public/questionBank` HTML tree has been removed** from this repo.
+A web app for IELTS Reading prep, built around a **community question bank** and an **AI coach**. Reading material is curated by **Teacher ZYZ** from community sources (authentic passages that often appear in exams), organized by passage, difficulty, and appearance frequency. Practice uses a unified reader with a draggable **AI assistant** (hints, reasoning, mistake review); with LLM and vector retrieval configured, answers can be **RAG-augmented**.
 
-### Screenshots
+---
 
+## Features
 
-| Home     | Browse       |
-| -------- | ------------ |
-|          |              |
-| Practice | Achievements |
-|          |              |
+What you can use in the app, in plain language (no development or deployment detail).
 
+- **Home dashboard**: Questions practiced, average accuracy, total study time, session count; recently unlocked achievements with a shortcut to **My achievements** for the full list.
+- **Community question bank**: Filter by passage type (P1/P2/P3) and frequency; search, sort, and paginate; per-passage progress; start practice or open the PDF; short on-page note about the nature of the bank.
+- **Reading practice**: Passage and questions side by side with adjustable panes; **fullscreen**; timed sessions, submit, and score. Some passages are full on-screen practice; others focus on the PDF.
+- **AI assistant**: Open the side panel while practicing—shortcuts such as hints, reasoning, and mistake review, or free-form questions; file attachments supported.
+- **Practice history**: Past sessions and overall stats; **export** data to a file for backup or **import** a file to restore on this device (e.g. new computer or recovery).
+- **Achievements**: Unlock automatically from sessions, accuracy, study time, streak days, perfect-score runs, and more; tiers and points; unlock notifications; browse everything under **My achievements**.
+- **Interface**: **Chinese or English** UI; **light and dark** themes to reduce eye strain during long reading sessions.
+- **Privacy & data**: Progress stays in **your browser** on your device—nothing is uploaded to our servers; use export/import to move your data between devices.
 
-### Features
+---
 
-- Browse by category (P1/P2/P3) and frequency (High/Low), with search and filters
-- Practice mode with the unified reading UI (structured items and explanations), full-screen immersive experience, automatic time tracking, scoring, and loading state indicators with timeout handling
-- Practice history with score, accuracy, and duration, supporting full data JSON import/export (backup & restore)
-- Achievements with automatic unlock, featuring beautiful notification popups and a dedicated showcase page
-- Internationalization (Chinese/English), including 404 page
-- Light/Dark theme powered by CSS variables
-- PDF viewing from `public/ReadingPractice/PDF/` (allow popups in your browser)
+## Requirements
 
-### Data Backup & Restore
+- Node.js ≥ 18 (npm)
+- For local AI features, configure `LLM_API_KEY` and related keys in `server/.env` (see `server/src/config/env.ts`). For **RAG semantic retrieval**, configure embeddings and **Qdrant** (`OPENAI_API_KEY`, `QDRANT_URL`, etc.). Without them, some behavior falls back to local template-only mode.
 
-- **Full Backup**: Export all local data (practice history, achievements, settings) as a JSON file.
-- **Lossless Restore**: When importing a JSON file, the system performs version validation and data integrity checks to ensuring 100% restoration of user data.
-- **Cross-Device Migration**: Easily migrate your learning progress from one device to another using the import/export feature.
-- **Data Privacy**: All data is stored locally in your browser (localStorage). We do not collect any personal information.
+---
 
-### Tech Stack
-
-- Vue 3, TypeScript, Vite
-- Pinia (state), Vue Router (routing)
-- Ant Design Vue (UI feedback)
-
-### Requirements
-
-- Node.js ≥ 18
-- npm
-
-### Quick Start
+## Quick start
 
 ```bash
 npm install
-npm run dev         # boot frontend + assistant in background
-npm run dev:status  # check ports, urls, and pid state
-npm run dev:logs    # print recent frontend/backend logs
-npm run dev:down    # stop both services
-npm run build
-npm run preview
+cd server && npm install && cd ..
+
+npm run dev          # frontend http://localhost:5175 + assistant http://127.0.0.1:8787
+npm run dev:status   # ports, process state
+npm run dev:logs     # recent logs
+npm run dev:down     # stop both services
+
+npm run build        # production build → dist/
+npm run preview      # preview build (/api proxied to local assistant)
 ```
 
-### Stable Local Startup
+- **Deployment**: Host `dist/` on static hosting; run the assistant as its own Node service (or container). If the frontend and assistant are on **different origins**, set `VITE_ASSISTANT_API_BASE_URL` at build time to the assistant base URL (scheme, host, port).
 
-- `npm run dev` now uses a local dev manager instead of relying on auto-increment ports.
-- Frontend is fixed to `http://localhost:5175`.
-- Assistant is fixed to `http://127.0.0.1:8787`.
-- The dev manager clears stale listeners on those ports before boot, writes logs to `tmp/dev/`, and injects runtime env so backend CORS always matches the frontend origin.
+---
 
-### Structure (excerpt)
+## Project structure
+
+- **Repository root**: Vue 3 + Vite frontend; `npm run build` outputs `dist/` for static hosting.
+- **`server/`**: Fastify assistant API with its own `package.json`, default `http://127.0.0.1:8787`; in development, Vite proxies `/api` to it.
+- **`evals/ragas/`** (optional): Python + Ragas for offline retrieval/answer evaluation.
 
 ```
-public/
-  ReadingPractice/PDF/     # PDFs referenced by questionIndex pdfPath
-  assets/generated/          # Synced reading assets (see npm run generate:index)
-  js/runtime/                # Unified reading runtime scripts
-src/
-  generated/reading-native/  # Prebuilt exam & explanation JSON
-  components/              # Reusable components
-  layouts/                 # Layouts
-  router/                  # Routes
-  store/                   # Pinia stores
-  styles/                  # Themes and globals
-  utils/
-    backup.ts              # Full data backup/restore utility
-    questionIndex.json     # Prebuilt index of questions
-    questionScanner.ts     # Build final question meta from index
-    eventBus.ts            # Global event bus (achievements, updates)
-  views/                   # Pages (Home/Browse/Practice/PracticeMode/...)
-  i18n/index.ts            # Lightweight i18n (t, currentLang, setLocale)
+repo-root/
+  src/            # frontend source
+  server/         # assistant API
+  evals/ragas/    # RAG eval
+  public/         # static assets (PDFs, etc.)
 ```
 
-### Data & Question Bank
+---
 
-- The catalog is `src/utils/questionIndex.json` (`launchMode`, `dataKey`, `pdfPath`, `frequency`, etc.), consumed by `questionScanner.ts`.
-- **Unified** entries (`launchMode: "unified"`): require `src/generated/reading-native/` exam (and optional explanation) JSON; PDFs live under `public/ReadingPractice/PDF/` and must match each `pdfPath` (e.g. `/ReadingPractice/PDF/...pdf`).
-- **PDF-only** entries (`launchMode: "pdf_only"`): PDF viewing only, no structured exam JSON.
-- At build time, the whole `public/` tree is copied to `dist/` (there is no `questionBank` folder anymore).
+## Tech stack
 
-### Syncing & Updating questionIndex.json
+| Layer | Stack |
+| --- | --- |
+| Frontend | Vue 3, TypeScript, Vite, Pinia, Vue Router, Ant Design Vue |
+| Assistant API | Node.js, Fastify, LangChain (OpenRouter or compatible APIs); semantic search uses **Qdrant** (`OPENAI_API_KEY` + `QDRANT_URL`) |
+| Optional eval | `evals/ragas/`: Python + Ragas for offline retrieval/answer quality |
 
-- **Bulk sync (recommended)**: run `npm run generate:index` to copy PDFs and generated assets from a local **reference reading bundle** and regenerate `questionIndex.json` / `questionMeta.json`. Set `READING_REFERENCE_ROOT` to that bundle’s root (see `scripts/generate-index.mjs` for the default path used when unset).
-- **Manual edits**: only after the corresponding `src/generated/reading-native/exams/<dataKey>.json` (and explanations if needed) and `public/ReadingPractice/PDF` files exist. Do **not** add `htmlPath` or rely on `public/questionBank`.
-- **Validate**: `npm run validate:index` checks unified rows, `pdfPath` prefix, and presence of reading-native JSON (missing PDFs or some explanations may warn).
+---
 
-### i18n
+## Assistant configuration
 
-- Use `inject('t')` to get the translation function and `inject('currentLang')` to read current locale.
-- Language persists in `localStorage: ielts-language`. Chinese subtitles are hidden in English mode for a clean UI.
+- Copy from [`server/.env.example`](server/.env.example); field definitions and defaults are in [`server/src/config/env.ts`](server/src/config/env.ts).
+- **Chat and intent routing**: `LLM_API_KEY` and `LLM_*` (e.g. `LLM_PROVIDER`, `LLM_CHAT_MODEL`).
+- **RAG semantic retrieval**: `OPENAI_API_KEY` (embeddings) and **`QDRANT_URL`** (and `QDRANT_API_KEY` if required).
+- **Web search** and other options (e.g. `TAVILY_API_KEY`) are documented in the env file comments.
 
-### Build & Deploy
+---
 
-- `npm run build` outputs to `dist/` (full `public/` copy; no `questionBank` subtree).
-- Deploy the entire `dist` folder to a static host (or platforms like Vercel).
-- `dist/` is ignored by `.gitignore`.
+## Data & build
 
-### Commit Convention
+- **Question catalog**: `src/utils/questionIndex.json` (`launchMode`, `dataKey`, `pdfPath`, `frequency`, …), consumed by `questionScanner.ts` for the browse UI.
+- **Unified reading** (`launchMode: "unified"`): exam/explanation JSON under `src/generated/reading-native/`; PDFs under `public/ReadingPractice/PDF/` matching each `pdfPath`.
+- **PDF-only** (`launchMode: "pdf_only"`): PDF viewing only, no structured items.
+- **Bulk index sync**: `npm run generate:index` (set `READING_REFERENCE_ROOT`, see `scripts/generate-index.mjs`); **validate**: `npm run validate:index`.
 
-- Follow Conventional Commits:
-  - `feat:` new feature
-  - `fix:` bug fix
-  - `docs:` documentation
-  - `style:` formatting
-  - `refactor:` code refactor
-  - `perf:` performance
-  - `test:` tests
-  - `chore:` tooling/build/deps
+---
 
-### License
+## Commit conventions
 
-- GNU GPLv3. See [LICENSE](./LICENSE).
+Prefer [Conventional Commits](https://www.conventionalcommits.org/), e.g. `feat(browse): …`, `fix(store): …`, `docs: …`.
 
+---
+
+## Open-source license
+
+This project is released under the [GNU GPLv3](./LICENSE).

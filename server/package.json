@@ -13,8 +13,7 @@
     "check:index": "tsx src/cli/check-index.ts",
     "eval:rag": "cd ../evals/ragas && python run_eval.py --all",
     "eval:rag:retrieval": "cd ../evals/ragas && python run_eval.py --retrieval",
-    "eval:rag:answer": "cd ../evals/ragas && python run_eval.py --answers",
-    "compare:backends": "tsx src/scripts/compare-vector-backends.ts"
+    "eval:rag:answer": "cd ../evals/ragas && python run_eval.py --answers"
   },
   "dependencies": {
     "@langchain/core": "^0.3.73",
@@ -30,8 +29,5 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
-  },
-  "optionalDependencies": {
-    "chromadb": "^1.9.18"
   }
 }

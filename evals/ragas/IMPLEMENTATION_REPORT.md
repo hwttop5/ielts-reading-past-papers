@@ -73,7 +73,7 @@ npm run eval:rag:answer
 
 ### 已完成内容
 
-#### 1.  provider 接口定义
+#### 1. provider 接口定义
 文件：`server/src/lib/assistant/retrieval/provider.ts`
 
 定义统一的 `VectorStoreProvider` 接口：
@@ -91,63 +91,33 @@ npm run eval:rag:answer
 文件：`server/src/lib/assistant/retrieval/qdrant.ts`
 
 - 实现 `VectorStoreProvider` 接口
-- 保留现有 Qdrant 功能
-- 添加类型注解修复 TypeScript 错误
+- 与 `server/src/lib/qdrant/client.ts` 配合完成向量检索与写入
 
-#### 3. Chroma 实现
-文件：`server/src/lib/assistant/retrieval/chroma.ts`
-
-- 实现 `VectorStoreProvider` 接口
-- 使用动态导入 (`import('chromadb')`) 避免硬依赖
-- 支持 Chroma 的所有核心功能
-
-#### 4. Provider 工厂
+#### 3. Provider 工厂
 文件：`server/src/lib/assistant/retrieval/index.ts`
 
 ```typescript
 export function getVectorStoreProvider(): VectorStoreProvider | null
 ```
 
-根据 `ASSISTANT_VECTOR_BACKEND` 配置自动选择 provider。
+在 `OPENAI_API_KEY` 与 `QDRANT_URL` 已配置时返回 `QdrantAssistantSemanticSearch`；否则返回 `null`。语义检索**仅支持 Qdrant**。
 
-#### 5. 环境变量配置
+#### 4. 环境变量（语义检索）
 文件：`server/src/config/env.ts`
 
-新增配置项：
-- `ASSISTANT_VECTOR_BACKEND`: `'qdrant' | 'chroma'` (默认：`'qdrant'`)
-- `CHROMA_HOST`: Chroma 服务器地址 (使用 Chroma 时必需)
+启用混合检索（嵌入 + 向量库）需至少：
+- `OPENAI_API_KEY`（嵌入）
+- `QDRANT_URL`（及按需 `QDRANT_API_KEY`）
 
-#### 6. A/B 比较脚本
-文件：`server/src/scripts/compare-vector-backends.ts`
+集合名等见 `QDRANT_COLLECTION_CHUNKS`、`QDRANT_COLLECTION_SUMMARIES`。
 
-比较维度：
-- 平均延迟 (avg latency)
-- P95 延迟
-- 错误率
-- 平均结果数量
+### 配置示例（Qdrant）
 
-使用方法：
-```bash
-npm run compare:backends -- --backend=qdrant chroma
-```
-
-### 配置示例
-
-#### 使用 Qdrant (默认)
 ```env
 # server/.env
 OPENAI_API_KEY=sk-...
 QDRANT_URL=https://your-qdrant-instance.com
 QDRANT_API_KEY=your-api-key  # 可选
-ASSISTANT_VECTOR_BACKEND=qdrant
-```
-
-#### 使用 Chroma
-```env
-# server/.env
-OPENAI_API_KEY=sk-...
-CHROMA_HOST=http://localhost:8000
-ASSISTANT_VECTOR_BACKEND=chroma
 ```
 
 ---
@@ -155,7 +125,7 @@ ASSISTANT_VECTOR_BACKEND=chroma
 ## 测试状态
 
 ✅ TypeScript 编译通过 (0 errors)
-✅ 所有 66 个现有测试通过
+✅ 所有现有测试通过
 ✅ 向后兼容性保持
 
 ---
@@ -170,29 +140,24 @@ ASSISTANT_VECTOR_BACKEND=chroma
 - `evals/ragas/README.md`
 - `server/src/lib/assistant/retrieval/provider.ts`
 - `server/src/lib/assistant/retrieval/qdrant.ts`
-- `server/src/lib/assistant/retrieval/chroma.ts`
 - `server/src/lib/assistant/retrieval/index.ts`
-- `server/src/scripts/compare-vector-backends.ts`
 
 ### 修改文件
-- `server/src/config/env.ts` - 新增向量后端配置
+- `server/src/config/env.ts` - 语义检索相关环境变量
 - `server/src/lib/assistant/semantic.ts` - 重构为 provider 包装器
-- `server/package.json` - 新增评估脚本和 chromadb 可选依赖
+- `server/package.json` - 评估脚本
 
 ---
 
 ## 下一步建议
 
 ### 立即可做
-1. 安装 ChromaDB (可选): `npm install chromadb`
-2. 配置 `.env` 文件添加 `ASSISTANT_VECTOR_BACKEND` 变量
-3. 运行 Ragas 基线评估建立性能基准
+1. 运行 Ragas 基线评估建立性能基准
 
 ### 后续优化
 1. 扩展 golden dataset 覆盖更多题型和边缘情况
-2. 实现 hybrid search (Chroma 优势功能)
-3. 添加 retrieval cache 命中率指标
-4. 将 Ragas 评估集成到 CI/CD 流程
+2. 添加 retrieval cache 命中率指标
+3. 将 Ragas 评估集成到 CI/CD 流程
 
 ---
 
@@ -205,15 +170,9 @@ ASSISTANT_VECTOR_BACKEND=chroma
 
 ### 2. Provider 接口抽象
 - 保持现有 API 不变
-- Qdrant 和 Chroma 可无缝切换
-- 便于未来添加其他向量库 (如 Pinecone, Weaviate)
+- 当前实现为 Qdrant；便于未来替换或扩展存储后端
 
-### 3. Chroma 作为可选依赖
-- 不使用 hard require 避免导入错误
-- 在 `package.json` 中声明为 `optionalDependencies`
-- 动态导入时提供清晰的错误信息
-
-### 4. 向后兼容
+### 3. 向后兼容
 - 保留 `AssistantSemanticSearch` 接口 (标记为 deprecated)
 - 现有代码无需修改即可工作
 - 新代码可使用 `VectorStoreProvider` 获取高级功能

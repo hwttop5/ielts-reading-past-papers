@@ -2,7 +2,7 @@
  * Vector Store Provider Interface for AI Assistant
  *
  * This module defines the abstraction layer for vector storage backends.
- * Multiple providers (Qdrant, Chroma, etc.) can implement this interface.
+ * The concrete implementation is Qdrant (`QdrantAssistantSemanticSearch`).
  */
 
 import type { QuestionSummaryDoc, RagChunk, StoredVectorPoint } from '../../../types/question-bank.js'
@@ -44,7 +44,7 @@ export interface CollectionMetadata {
 /**
  * Vector store provider interface
  *
- * All vector backends (Qdrant, Chroma, etc.) must implement this interface.
+ * Implementations must satisfy this contract for chunk/summary search and upserts.
  */
 export interface VectorStoreProvider {
   /**

@@ -1,154 +1,102 @@
-## IELTS Reading Past Papers
+# IELTS Reading Past Papers
 
-> [English Version](./README.en.md)
+> [English README](./README.en.md)
 
- | 在线预览：[https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app)
+| 在线预览 | [https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app) |
 
-一个面向雅思阅读备考的练习应用，包含题库（由 ZYZ 老师民间搜集整理）浏览、练习模式、练习记录、成就系统、多语言和主题切换等功能。练习页使用**统一阅读模式**（`src/generated/reading-native` 预生成数据 + `public` 下运行时脚本与 PDF），题目列表由 `src/utils/questionIndex.json` 驱动；**不再使用**已移除的 `public/questionBank` 静态 HTML 题库。
+面向雅思阅读备考的 Web 应用，**民间题库** 与 **AI 助教** 助力高效备考。题库阅读材料由 **ZYZ 老师** 民间搜集整理（均是抽考概率较高的真实题目），按篇目、难度与出现频率组织；练习页采用统一阅读模式，并内置可拖拽的 **AI 助教**（提示、思路讲解、错题复盘等），在配置 LLM 与向量检索后可启用 RAG 增强回答。
 
-### 界面预览
+---
 
+## 功能概览
 
-| 首页       | 题库浏览     |
-| -------- | -------- |
-|          |          |
-| **练习模式** | **成就系统** |
-|          |          |
+- **首页总览**：汇总展示已练题量、平均正确率、累计学习时长、练习次数等；可看到最近解锁的成就，并进入「我的成就」查看全部。
+- **民间题库**：按阅读篇型（P1/P2/P3）、出现频率筛选，支持搜索、排序与分页；每篇显示练习进度，可进入做题或打开 PDF 对照；页面对题库性质有简要说明。
+- **阅读练习**：文章与题目同屏分栏显示，可拖动调整区域；支持 **全屏**，专注计时作答，交卷后查看得分。部分篇目为完整在线答题，部分篇目以阅读 PDF 为主。
+- **AI 助教**：做题时可打开侧边助教，使用「给提示」「讲思路」「分析错题」等快捷入口，也可自由提问，并支持上传附件辅助说明。
+- **练习记录**：查看历次练习列表与总体统计；支持将学习数据 **导出为文件** 备份，或 **从文件导入** 恢复到本机（便于换电脑或防止误删）。
+- **成就系统**：根据练习次数、正确率、学习时长、连续学习天数、满分场次等条件自动解锁；成就分档与积分，解锁时会有提示；在「我的成就」中浏览已得成就与总进度。
+- **界面功能**：界面支持 **中文 / 英文**；提供 **浅色、深色** 主题，减轻长时间阅读的眼部疲劳。
+- **隐私与数据**：学习记录与成就保存在 **本机浏览器** 中，不上传服务器；通过导出/导入即可在设备间迁移自己的进度。
 
+---
 
-### 功能特性
+## 环境要求
 
-- 题库浏览：按类别（P1/P2/P3）、频率（高频/次频）筛选与搜索
-- 练习模式：统一阅读页（结构化题目与解析），支持全屏沉浸式练习，自动记录时长、答题与分数，包含加载状态提示与超时处理
-- 练习记录：展示最近练习、得分、正确率、用时等，支持全量数据 JSON 导入导出（备份与恢复）
-- 成就系统：完成练习自动计算与解锁，配备精美的成就解锁通知与展示页面
-- 多语言：内置中英文切换（自研 i18n），404 页面也支持
-- 主题风格：浅色/深色主题，CSS 变量驱动
-- PDF 查看：`public/ReadingPractice/PDF/` 下 PDF，一键打开（浏览器弹窗需允许）
+- Node.js ≥ 18（npm）
+- 本地开发 AI 功能时：在 `server/.env` 中配置 `LLM_API_KEY` 等（详见 `server/src/config/env.ts`）；启用 **RAG 语义检索** 时需配置嵌入与 **Qdrant**（`OPENAI_API_KEY`、`QDRANT_URL` 等）。未配置时部分能力会降级为本地模板模式。
 
-### 数据备份与恢复
+---
 
-- **全量备份**：支持将所有本地数据（练习记录、成就进度、用户设置）导出为 JSON 文件。
-- **无损恢复**：导入 JSON 文件时，系统会进行版本校验和数据完整性检查，确保能够 100% 还原用户数据。
-- **跨设备迁移**：通过导入导出功能，您可以轻松地将学习进度从一台设备迁移到另一台设备。
-- **数据安全**：所有数据均存储在浏览器本地 (localStorage)，我们不收集任何用户隐私数据。
-
-### 技术栈
-
-- Vue 3、TypeScript、Vite
-- Pinia（状态管理）、Vue Router（路由）
-- Ant Design Vue
-
-### 开发环境
-
-- Node.js ≥ 18（Vite 5 要求）
-- 包管理：npm
-
-### 评估工具（可选）
-
-RAG 系统质量评估使用 Python + Ragas 实现，位于 `evals/ragas/` 目录。
-
-- **用途**: 离线评估检索和回答质量
-- **依赖**: Python 3.10+, Ragas, HuggingFace Datasets
-- **运行**: `npm run eval:ragas`（从 server 目录）或 `cd evals/ragas && python run_eval.py --all`
-- **说明**: Python 仅用于评估，不参与应用运行时逻辑
-
-### 快速开始
+## 快速开始
 
 ```bash
 npm install
-npm run dev        # 本地开发
-npm run build      # 生产构建（输出到 dist/）
-npm run preview    # 本地预览生产构建
+cd server && npm install && cd ..
+
+npm run dev          # 同时启动前端 http://localhost:5175 与助教 API http://127.0.0.1:8787
+npm run dev:status   # 查看端口与进程状态
+npm run dev:logs     # 查看近期日志
+npm run dev:down     # 停止上述服务
+
+npm run build        # 生产构建，输出 dist/
+npm run preview      # 预览生产构建（若需连本地助教，preview 已配置 /api 代理）
 ```
 
-### 目录结构（摘要）
+- **部署**：前端将 `dist/` 部署到静态托管即可；助教需单独运行 Node 服务（或容器）。若前端与助教 API **不同域**，构建前端时设置 `VITE_ASSISTANT_API_BASE_URL` 为助教服务的根 URL（含协议与端口）。
+
+---
+
+## 项目结构
+
+- **仓库根目录**：Vue 3 + Vite 前端，`npm run build` 产出 `dist/`，可静态托管。
+- **`server/`**：Fastify 助教 API，独立 `package.json`，默认 `http://127.0.0.1:8787`；开发时由 Vite 将 `/api` 代理到该服务。
+- **`evals/ragas/`**（可选）：Python + Ragas，离线评估检索与回答质量。
 
 ```
-public/
-  ReadingPractice/PDF/     # 题目 PDF（与索引中 pdfPath 对应）
-  assets/generated/        # 由 npm run generate:index 从参考包同步的阅读资源
-  js/runtime/              # 统一阅读页运行时脚本（同上）
-src/
-  generated/reading-native/  # 预生成的 exam / explanation JSON（助教与练习逻辑依赖）
-  assets/                  # 静态资源（如有）
-  components/              # 复用组件
-  layouts/                 # 布局
-  router/                  # 路由配置
-  store/                   # Pinia stores（practice/achievement/question 等）
-  styles/                  # 主题与全局样式
-  utils/
-    backup.ts              # 数据全量导入导出工具
-    questionIndex.json     # 题目索引（预生成，页面据此展示）
-    questionScanner.ts     # 从索引读取并补充元数据
-    eventBus.ts            # 全局事件总线 (成就解锁、练习更新)
-  views/                   # 页面（Home/Browse/Practice/PracticeMode 等）
-  i18n/index.ts            # 自研 i18n（t、currentLang、setLocale）
+项目根/
+  src/            # 前端源码
+  server/         # 助教 API
+  evals/ragas/    # RAG 评估
+  public/         # 静态资源（含 PDF 等）
 ```
 
-### 数据与题库
+---
 
-- 题目列表来自 `src/utils/questionIndex.json`（字段含 `launchMode`、`dataKey`、`pdfPath`、`frequency` 等），`questionScanner.ts` 将其转为浏览页可用的题目数据。
-- **统一阅读**（`launchMode: "unified"`）：练习与助教依赖 `src/generated/reading-native/` 下的 exam / explanation JSON；PDF 放在 `public/ReadingPractice/PDF/`，路径与索引中的 `pdfPath`（如 `/ReadingPractice/PDF/xxx.pdf`）一致。
-- **仅 PDF**（`launchMode: "pdf_only"`）：无结构化题目数据，仅提供 PDF 查看。
-- 构建时 Vite 会把 `public/` 整棵拷贝到 `dist/`（**不再**包含已删除的 `public/questionBank`）。
+## 技术栈
 
-### 多语言（i18n）
+| 层级 | 技术 |
+| --- | --- |
+| 前端 | Vue 3、TypeScript、Vite、Pinia、Vue Router、Ant Design Vue |
+| 智能助教 API | Node.js、Fastify、LangChain（OpenRouter / 兼容 API 等）；语义检索使用 **Qdrant**（`OPENAI_API_KEY` + `QDRANT_URL`） |
+| 评估（可选） | `evals/ragas/`：Python + Ragas，离线评估检索与回答质量 |
 
-- 位置：`src/i18n/index.ts`
-- 用法：在组件中通过 `inject('t')` 获取翻译函数 `t(key)`，`inject('currentLang')` 获取当前语言；语言持久化在 `localStorage: ielts-language`。
-- 注意：中文副标题（如题目中文名）在英文模式下默认隐藏以保持界面纯净。
+---
 
-### 成就与练习记录
+## 助教配置
 
-- Store：`src/store/practiceStore.ts`、`src/store/achievementStore.ts`
-- 本地存储：所有用户数据均存储在 localStorage 中（前缀 `ielts_`），支持一键全量导出。
-- 事件通知：通过 `utils/eventBus.ts` 实现跨组件通信（如解锁成就时触发全局通知）。
+- 变量模板见 [`server/.env.example`](server/.env.example)，字段说明与默认值见 [`server/src/config/env.ts`](server/src/config/env.ts)。
+- **对话与意图路由**：`LLM_API_KEY` 及 `LLM_PROVIDER`、`LLM_CHAT_MODEL` 等 `LLM_*`。
+- **RAG 语义检索**：`OPENAI_API_KEY`（嵌入）与 **`QDRANT_URL`**（及按需 `QDRANT_API_KEY`）。
+- **联网搜索**等（如 `TAVILY_API_KEY`）以 env 内注释为准。
 
-### 主题与样式
+---
 
-- 主题变量：`src/styles/theme.css`，通过 CSS 变量适配浅/深色模式。
-- 常用页面容器和组件均使用 `var(--bg-primary)`、`var(--text-primary)` 等变量，避免硬编码颜色。
+## 数据构建
 
-### 构建与部署
+- **题目列表**：`src/utils/questionIndex.json`（含 `launchMode`、`dataKey`、`pdfPath`、`frequency` 等），由 `questionScanner.ts` 转为浏览页数据。
+- **统一阅读**（`launchMode: "unified"`）：依赖 `src/generated/reading-native/` 下的试卷与解析 JSON；PDF 放在 `public/ReadingPractice/PDF/`，路径与索引中 `pdfPath` 一致。
+- **仅 PDF**（`launchMode: "pdf_only"`）：无结构化题目，仅提供 PDF 查看。
+- **批量同步索引**：`npm run generate:index`（需设置 `READING_REFERENCE_ROOT` 等，见 `scripts/generate-index.mjs`）；**校验**：`npm run validate:index`。
 
-- 运行 `npm run build` 产出到 `dist/`（整份 `public/` 会进入 `dist/`，不含已移除的 `questionBank` 目录）。
-- 静态托管：将 dist 整目录部署至静态服务器（或 Vercel 等平台）。
-- 若在仓库中不需要提交构建产物，请确保 `.gitignore` 中忽略 `dist/`（项目已配置）。
+---
 
-### 题库索引与资源同步
+## 提交规范
 
-- **推荐方式（批量）**：使用 `npm run generate:index`，从本地「参考阅读包」同步 PDF、`public/assets/generated` 下的阅读资源、运行时 JS，并**重写** `src/utils/questionIndex.json` 与 `questionMeta.json`。
-  - 通过环境变量 `READING_REFERENCE_ROOT` 指定参考包根目录；未设置时脚本内有默认路径（见 `scripts/generate-index.mjs`），部署前请改为你本机路径或始终传入该变量。
-  - 同步前请确认参考包内已包含对应的 `src/generated/reading-native` 与 `public` 资源；脚本会校验索引条数等约束（见脚本内断言）。
-- **手工增删**：在具备 `src/generated/reading-native/exams/<dataKey>.json`（及需要的 explanation）和 `public/ReadingPractice/PDF` 中 PDF 的前提下，编辑 `questionIndex.json` 中对应条目；**勿再使用** `htmlPath` / `public/questionBank`。
-- **校验**：`npm run validate:index` 会检查统一阅读条目、`pdfPath` 前缀、`reading-native` JSON 是否存在等（PDF 与部分 explanation 缺失可能为警告）。
-- **缓存提示**：开发时若页面未反映索引更新，请清除浏览器 `localStorage` 的 `ielts_questions` 或调用 `questionStore.refreshQuestions()`。
+推荐 [Conventional Commits](https://www.conventionalcommits.org/)，例如：`feat(browse): …`、`fix(store): …`、`docs: …`。
 
-### 常见问题
+---
 
-- PDF 打不开？  
-浏览器可能拦截弹窗。允许弹窗或直接跳转（页面已有降级逻辑）。
+## 开源许可
 
-### 提交规范
-
-- 推荐遵循 Conventional Commits：
-  - `feat:` 新功能
-  - `fix:` 修复缺陷
-  - `docs:` 文档变更
-  - `style:` 代码格式（不影响逻辑）
-  - `refactor:` 重构
-  - `perf:` 性能优化
-  - `test:` 测试相关
-  - `chore:` 构建/工具/依赖变更
-- 示例：`feat(browse): add frequency filter to question cards`
-
-### 贡献
-
-- 分支：建议在 feature 分支开发，合并到 main。
-- 提交：遵循清晰的提交信息（如 feat/ui: …、fix(store): …）。
-
-### 许可证
-
-- 本项目基于 GNU GPLv3 许可证开源，详见 [LICENSE](./LICENSE)。
-
+本项目以 [GNU GPLv3](./LICENSE) 开源。
