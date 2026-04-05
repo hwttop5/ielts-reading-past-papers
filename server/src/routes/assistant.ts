@@ -109,6 +109,16 @@ export function shouldIncludeAssistantEvalRetrieval(request: FastifyRequest): bo
 
 function enforceRateLimit(request: FastifyRequest, reply: FastifyReply) {
   const ip = getClientIp(request)
+  // Offline RAG eval (`evals/ragas/run_eval.py`) sends this header; do not count toward RATE_LIMIT_MAX
+  const rawEval = request.headers['x-assistant-eval']
+  const evalHeader = Array.isArray(rawEval) ? rawEval[0] : rawEval
+  const evalOn =
+    evalHeader === '1' ||
+    evalHeader === 'true' ||
+    (typeof evalHeader === 'string' && evalHeader.toLowerCase() === 'on')
+  if (evalOn) {
+    return
+  }
   // Local dev: avoid 429 while iterating on the assistant UI (see server/.env.example RATE_LIMIT_*)
   if (process.env.NODE_ENV === 'development' && isLocalhostIp(ip)) {
     return

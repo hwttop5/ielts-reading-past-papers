@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-04-06T00:31:17.579216",
+  "total_samples": 8,
+  "successful_evaluations": 8,
+  "failed_evaluations": 0,
+  "avg_latency_ms": 1029.9699306488037,
+  "retrieval_metrics": {
+    "question_hit_rate": 0.4,
+    "avg_noise_penalty": 0.03733333333333333,
+    "heading_list_hit_rate": 0.0,
+    "ragas_metrics": {},
+    "num_samples": 5,
+    "num_errors": 0,
+    "skipped_evidence_metrics": 3,
+    "assistant_route_counts": {
+      "page_grounded": 6,
+      "unrelated_chat": 2
+    },
+    "heading_matching_total": 0,
+    "heading_matching_hits": 0
+  },
+  "answer_metrics": {
+    "avg_answer_score": 1.0,
+    "style_match_rate": 1.0,
+    "style_violations": [],
+    "ragas_metrics": {},
+    "num_samples": 8
+  },
+  "replay_file": "reports/quick_ragas_run\\replay_20260406_003111.jsonl"
+}
