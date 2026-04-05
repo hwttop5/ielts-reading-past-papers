@@ -1,16 +1,15 @@
 /**
  * Vector Store Provider Factory
  *
- * Creates the appropriate vector store provider based on configuration.
+ * Semantic search uses Qdrant when OPENAI_API_KEY and QDRANT_URL are configured.
  */
 
-import { env, hasAssistantSemanticSearchConfig } from '../../../config/env.js'
+import { hasAssistantSemanticSearchConfig } from '../../../config/env.js'
 import type { VectorStoreProvider } from './provider.js'
 import { QdrantAssistantSemanticSearch } from './qdrant.js'
-import { ChromaAssistantSemanticSearch } from './chroma.js'
 
 /**
- * Get the configured vector backend provider.
+ * Get the Qdrant vector store provider.
  * Returns null if no valid configuration is found.
  */
 export function getVectorStoreProvider(): VectorStoreProvider | null {
@@ -18,18 +17,6 @@ export function getVectorStoreProvider(): VectorStoreProvider | null {
     return null
   }
 
-  const backend = env.ASSISTANT_VECTOR_BACKEND
-
-  if (backend === 'chroma') {
-    try {
-      return new ChromaAssistantSemanticSearch()
-    } catch (error) {
-      console.error('Failed to initialize Chroma vector provider:', error)
-      return null
-    }
-  }
-
-  // Default to Qdrant
   try {
     return new QdrantAssistantSemanticSearch()
   } catch (error) {
@@ -46,6 +33,5 @@ export type {
   CollectionMetadata
 } from './provider.js'
 
-// Re-export provider implementations
+// Re-export provider implementation
 export { QdrantAssistantSemanticSearch } from './qdrant.js'
-export { ChromaAssistantSemanticSearch } from './chroma.js'

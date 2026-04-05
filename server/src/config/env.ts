@@ -30,10 +30,6 @@ const envSchema = z.object({
   QDRANT_API_KEY: z.string().trim().optional(),
   QDRANT_COLLECTION_CHUNKS: z.string().trim().default('ielts_question_chunks_v1'),
   QDRANT_COLLECTION_SUMMARIES: z.string().trim().default('ielts_question_summaries_v1'),
-  /** Vector backend provider: 'qdrant' | 'chroma'. Defaults to 'qdrant'. */
-  ASSISTANT_VECTOR_BACKEND: z.enum(['qdrant', 'chroma']).default('qdrant'),
-  /** Chroma host URL (required when ASSISTANT_VECTOR_BACKEND=chroma) */
-  CHROMA_HOST: z.string().trim().optional(),
   FRONTEND_ORIGIN: z.string().trim().default('http://localhost:5175'),
   RATE_LIMIT_MAX: z.coerce.number().int().positive().default(30),
   RATE_LIMIT_WINDOW_MINUTES: z.coerce.number().int().positive().default(60),
@@ -131,13 +127,6 @@ export function hasAssistantLlmConfig() {
 }
 
 export function hasAssistantSemanticSearchConfig() {
-  const vectorBackend = env.ASSISTANT_VECTOR_BACKEND
-
-  if (vectorBackend === 'chroma') {
-    return Boolean(env.OPENAI_API_KEY && env.CHROMA_HOST)
-  }
-
-  // Default to Qdrant
   return Boolean(env.OPENAI_API_KEY && env.QDRANT_URL)
 }
 
@@ -166,16 +155,8 @@ export function requireAssistantEnv() {
     throw new Error('Missing OPENAI_API_KEY in server/.env')
   }
 
-  const vectorBackend = env.ASSISTANT_VECTOR_BACKEND
-
-  if (vectorBackend === 'chroma') {
-    if (!env.CHROMA_HOST) {
-      throw new Error('Missing CHROMA_HOST in server/.env (required when ASSISTANT_VECTOR_BACKEND=chroma)')
-    }
-  } else {
-    if (!env.QDRANT_URL) {
-      throw new Error('Missing QDRANT_URL in server/.env')
-    }
+  if (!env.QDRANT_URL) {
+    throw new Error('Missing QDRANT_URL in server/.env')
   }
 
   return env
