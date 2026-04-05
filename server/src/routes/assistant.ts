@@ -37,7 +37,38 @@ const requestSchema = z.object({
       category: z.string().trim().min(1),
       duration: z.number().min(0)
     })
-  ).max(10).optional()
+  ).max(10).optional(),
+  promptKind: z.enum(['preset', 'freeform', 'followup']).optional(),
+  // New fields for unified protocol
+  surface: z.enum(['chat_widget', 'selection_popover', 'review_workspace']).optional(),
+  action: z.enum([
+    'chat',
+    'translate',
+    'explain_selection',
+    'find_paraphrases',
+    'find_antonyms',
+    'extract_keywords',
+    'locate_evidence',
+    'analyze_mistake',
+    'review_set',
+    'recommend_drills'
+  ]).optional(),
+  selectedContext: z.object({
+    text: z.string().trim().max(2000),
+    scope: z.enum(['passage', 'question']),
+    questionNumbers: z.array(z.string().trim().regex(/^\d{1,3}$/)).optional(),
+    paragraphLabels: z.array(z.string().trim().regex(/^[A-H]$/i)).optional()
+  }).optional(),
+  practiceContext: z.object({
+    submitted: z.boolean().optional(),
+    score: z.number().min(0).optional(),
+    wrongQuestions: z.array(z.string().trim().regex(/^\d{1,3}$/)).max(30).optional(),
+    selectedAnswers: z.record(z.string(), z.string()).optional(),
+    currentQuestionNumbers: z.array(z.string().trim().regex(/^\d{1,3}$/)).max(15).optional()
+  }).optional(),
+  // Search control fields
+  searchMode: z.enum(['auto', 'off', 'required']).optional(),
+  allowWebSearch: z.boolean().optional()
 })
 
 const rateLimitStore = new Map<string, { count: number; resetAt: number }>()
@@ -88,9 +119,10 @@ export async function registerAssistantRoutes(app: FastifyInstance) {
     try {
       payload = requestSchema.parse(request.body)
     } catch (error) {
+      const msg = error instanceof Error ? error.message : 'Invalid assistant request payload.'
       reply.code(400).send({
         error: 'invalid_request',
-        message: error instanceof Error ? error.message : 'Invalid assistant request payload.'
+        message: msg
       })
       return
     }
@@ -100,8 +132,59 @@ export async function registerAssistantRoutes(app: FastifyInstance) {
       reply.send(response)
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Assistant request failed.'
-      const statusCode = message.startsWith('Unknown questionId') ? 404 : 502
+      // Use 400 (not 404) so dev proxies/browsers reliably forward JSON error bodies; message still explains unknown id.
+      const statusCode = message.startsWith('Unknown questionId') ? 400 : 502
       reply.code(statusCode).send({
+        error: 'assistant_unavailable',
+        message
+      })
+    }
+  })
+
+  // Stream endpoint for progressive response
+  app.post('/api/assistant/query/stream', async (request, reply) => {
+    enforceRateLimit(request, reply)
+    if (reply.sent) {
+      return
+    }
+
+    // Check if streaming is enabled
+    if (!env.ASSISTANT_STREAM_ENABLED) {
+      // Fallback to non-streaming endpoint - just process as regular query
+      const payload: AssistantQueryRequest = requestSchema.parse(request.body)
+      const response = await service.query(payload)
+      return reply.send(response)
+    }
+
+    let payload: AssistantQueryRequest
+
+    try {
+      payload = requestSchema.parse(request.body)
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : 'Invalid assistant request payload.'
+      reply.code(400).send({
+        error: 'invalid_request',
+        message: msg
+      })
+      return
+    }
+
+    try {
+      reply.header('Content-Type', 'application/x-ndjson')
+      reply.header('Cache-Control', 'no-cache')
+      reply.header('X-Accel-Buffering', 'no')
+
+      // Start streaming
+      const stream = await service.queryStream(payload)
+
+      for await (const chunk of stream) {
+        reply.raw.write(JSON.stringify(chunk) + '\n')
+      }
+
+      reply.raw.end()
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Assistant stream request failed.'
+      reply.code(502).send({
         error: 'assistant_unavailable',
         message
       })

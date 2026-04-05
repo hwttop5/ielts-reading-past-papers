@@ -1,0 +1,20 @@
+[
+  {
+    "userQuery": "increased的同义替换有哪些？",
+    "locale": "zh",
+    "mode": "hint",
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "userQuery": "段落 D 的内容是什么",
+    "locale": "zh",
+    "mode": "hint",
+    "expectedStyle": "paragraph_focus"
+  },
+  {
+    "userQuery": "How to approach Q1?",
+    "locale": "en",
+    "mode": "hint",
+    "expectedStyle": "full_tutoring"
+  }
+]

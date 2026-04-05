@@ -1,0 +1,2957 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-low-122",
+  "meta": {
+    "title": "Biophilic Design",
+    "category": "P2",
+    "frequency": "low",
+    "pdfFilename": "35. P2 - Biophilic Design 亲自然设计.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/35. P2 - Biophilic Design 亲自然设计/",
+    "legacyFilename": "35. P2 - Biophilic Design 亲自然设计.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Biophilic Design 亲自然设计"
+  },
+  "explanationKey": "p2-low-122",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Biophilic Design"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Biophilic design, a movement related to green architecture, has gained much momentum within the building community in recent years. The premise of biophilic design is to avoid or minimise harmful impacts on the natural environment and, equally importantly, to provide and restore beneficial contacts between people and nature in the built environment."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " People have a psychologically developed need to commune with nature, but this has frequently been neglected. All too often, architects put creative originality before the needs of the people who must live and work in their futuristic constructions, with scant regard for emotional as well as practical considerations. Biophilic design does not advocate tree houses or cave-dwelling, but it does provide nature-based features that maximise human functioning and health. Though not technically a biophilic design, Fallingwater—the stunning house in rural Pennsylvania designed in the 1930s by Frank Lloyd Wright—arguably speaks to the human soul far more than the box-like blocks of flats designed by his contemporary Le Corbusier."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " In the modern world, much of our built environment obstructs the age-old connection between humans and nature. The rate of technological progress far exceeds the rate of psychological evolution, leaving us ill-equipped to cope with our lifestyles, which in turn leads to increased stress. Because biophilia attempts to integrate basic and current needs, it can alleviate the difficulties caused by the brain's constant efforts to function in a modern environment it has not yet evolved to handle. For example, one crucial element of the natural landscape for human health is sunlight. We are evolutionarily programmed to respond positively to sunny areas over dark or overcast ones and sense that they will foster restoration, improve emotional well-being and promote health."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Because of its tremendous impact on human psychology, biophilic design plays a vital role in healthcare and its delivery. The current healthcare system contains many flaws, especially in its physical spaces. Hospitals, clinics and offices are high-stress environments for patients, visitors and healthcare professionals alike. One well-known study looked at the impact of nature on patients after surgery. One group had a view of a tree; the others had a window looking onto a brick wall. The first group had shorter hospital stays, received fewer negative comments from nurses, required fewer analgesics and had slightly fewer post-operative complications."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " As a consequence of this and other studies, nature and nature-based design have been integrated into the physical design of many hospitals. For example, Dartmouth-Hitchcock Medical Center (DHMC) in New Hampshire boasts an atrium design illuminating the entire facility. Natural elements also permeate the building, including wood, stone and numerous live plants. While DHMC was built to incorporate these qualities, other hospitals have had biophilic features added to existing structures. The application of biophilic concepts to hospital interiors has increased substantially as administrators have witnessed patients' positive responses to nature."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Many existing buildings contain biophilic elements, but only a few have been built with the specific idea of biophilic design in mind. One such building is the Adam Joseph Lewis Center for Environmental Studies at Oberlin College in Ohio. The director of Oberlin's Environmental Studies Program, David Orr, explained that the building's goals were “to create not just a place for classes but rather a building that would help to redefine the relationship between humankind and the environment—one that would expand our sense of ecological possibilities”. The Lewis Center is sustainable in a broader sense than in the typical application of the word. It harnesses solar power, utilises both active and passive air systems, and monitors the weather to adapt to conditions. The Centre's “Living Machine” treats wastewater by combining traditional wastewater technology with wetland ecosystems' purification processes, producing water that can be used in the toilets and for irrigation. In their design, Orr and his team of architects engineered a healthy and comfortable space for students while ensuring the surrounding environment was undamaged."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Another example is the University of Guelph-Humber building in Ontario, Canada. It contains a centrally located bio-wall, vertically spanning the building. The wall is covered in dense foliage which not only connects people to nature on the inside of the building, but also functions as a new filtration-system prototype. The wall purifies the air and has the potential to fulfil the building's fresh-air-intake requirements. These examples prove that the built environment need not interfere with biological human needs to commune with nature, nor with existing ecological systems."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Ancient architects built for their cultures, which were almost always more in touch with the earth than Western society is today. They mimicked nature's forms, producing magnificent structures that still awe us—though biophilic design is a novel concept, they certainly employed some of its recommendations. Today we can add another layer to this tradition and ensure maximal benefit for our planet and ourselves."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "table_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–19"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 2 has eight paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A–H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in boxes 14–19 on your answer sheet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " You may use any letter more than once."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {
+                                "style": "width: 50%;"
+                              },
+                              "children": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "G"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "H"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "14"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a description of how rapid change has a negative effect on people"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "15"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a reference to an architect whose designs were uncharacteristic of biophilia"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "16"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a definition of the two main aims of biophilia"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "17"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a positive claim about early forms of architecture"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "18"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a reference to the fact that many architects are too focused on innovation"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "19"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a description of features which conserve energy in a biophilic design"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落匹配（Questions 14–19：Which paragraph contains the following information?）",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 19
+        },
+        "text": "答案：C\n解析：定位 Paragraph C 中 “The rate of technological progress far exceeds the rate of psychological evolution, leaving us ill-equipped to cope with our lifestyles, which in turn leads to increased stress”，明确描述 “技术进步过快导致人类适应困难、压力增加”，与题干对应，因此答案为 C。\n答案：B\n解析：定位 Paragraph B 中 “Le Corbusier... box-like blocks of flats”，指出勒・柯布西耶设计的盒状公寓楼 “缺乏自然元素，不符合亲自然理念”，与题干对应，因此答案为 B。\n答案：A\n解析：定位 Paragraph A 中 “The premise of biophilic design is to avoid or minimise harmful impacts on the natural environment and, equally importantly, to provide and restore beneficial contacts between people and nature in the built environment”，明确定义 “两大目标：减少环境危害、恢复人与自然联系”，与题干对应，因此答案为 A。\n答案：H\n解析：定位 Paragraph H 中 “Ancient architects... were almost always more in touch with the earth than Western society is today. They mimicked nature’s forms, producing magnificent structures that still awe us”，正面评价 “古代建筑与自然联系紧密、形态模仿自然、宏伟壮观”，与题干对应，因此答案为 H。\n答案：B\n解析：定位 Paragraph B 中 “All too often, architects put creative originality before the needs of the people who must live and work in their futuristic constructions”，“creative originality” 对应 “innovation”，指出建筑师 “将创新置于使用者需求之上”，与题干对应，因此答案为 B。\n答案：F\n解析：定位 Paragraph F 中 “It harnesses solar power, utilises both active and passive air systems, and monitors the weather to adapt to conditions”，描述 “利用太阳能、主动 / 被动通风、随天气调整” 等节能特征，与题干对应，因此答案为 F。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "（1）题目 14：a description of how rapid change has a negative effect on people（描述快速变化对人类的负面影响）\n答案：C\n解析：定位 Paragraph C 中 “The rate of technological progress far exceeds the rate of psychological evolution, leaving us ill-equipped to cope with our lifestyles, which in turn leads to increased stress”，明确描述 “技术进步过快导致人类适应困难、压力增加”，与题干对应，因此答案为 C。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "（2）题目 15：a reference to an architect whose designs were uncharacteristic of biophilia（提及一位设计不符合亲自然理念的建筑师）\n答案：B\n解析：定位 Paragraph B 中 “Le Corbusier... box-like blocks of flats”，指出勒・柯布西耶设计的盒状公寓楼 “缺乏自然元素，不符合亲自然理念”，与题干对应，因此答案为 B。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "（3）题目 16：a definition of the two main aims of biophilia（亲自然理念两大核心目标的定义）\n答案：A\n解析：定位 Paragraph A 中 “The premise of biophilic design is to avoid or minimise harmful impacts on the natural environment and, equally importantly, to provide and restore beneficial contacts between people and nature in the built environment”，明确定义 “两大目标：减少环境危害、恢复人与自然联系”，与题干对应，因此答案为 A。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "（4）题目 17：a positive claim about early forms of architecture（对早期建筑的正面评价）\n答案：H\n解析：定位 Paragraph H 中 “Ancient architects... were almost always more in touch with the earth than Western society is today. They mimicked nature’s forms, producing magnificent structures that still awe us”，正面评价 “古代建筑与自然联系紧密、形态模仿自然、宏伟壮观”，与题干对应，因此答案为 H。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "（5）题目 18：a reference to the fact that many architects are too focused on innovation（提及许多建筑师过度关注创新）\n答案：B\n解析：定位 Paragraph B 中 “All too often, architects put creative originality before the needs of the people who must live and work in their futuristic constructions”，“creative originality” 对应 “innovation”，指出建筑师 “将创新置于使用者需求之上”，与题干对应，因此答案为 B。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "（6）题目 19：a description of features which conserve energy in a biophilic design（描述亲自然设计中的节能特征）\n答案：F\n解析：定位 Paragraph F 中 “It harnesses solar power, utilises both active and passive air systems, and monitors the weather to adapt to conditions”，描述 “利用太阳能、主动 / 被动通风、随天气调整” 等节能特征，与题干对应，因此答案为 F。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-10-11-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 20–24"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the sentences below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "20"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the modern world, "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q20_input",
+                        "name": "q7"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " advancements are happening so quickly that humans are unable to adjust to them.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "21"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Biophilia can help us deal with the "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q21_input",
+                        "name": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " caused by the difficulties of our current lifestyles.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "22"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " People instinctively feel more comfortable in places which have plenty of "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q22_input",
+                        "name": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " something which is necessary for health and well-being.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " An experiment designed to test the effect of nature on patient recovery times found that those who could see a "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q23_input",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " made a faster recovery.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " There is a biophilic design feature in the University of Guelph-Humber building which improves the quality of the "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q24_input",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 句子填空（Questions 20–24：ONE WORD ONLY）",
+        "mode": "group",
+        "questionRange": {
+          "start": 20,
+          "end": 24
+        },
+        "text": "题目翻译：现代社会，\\___\\___\\___\\_进步速度过快，人类难以适应。\n答案：technological（技术的）\n解析：定位 Paragraph C 中 “The rate of technological progress far exceeds the rate of psychological evolution, leaving us ill-equipped to cope”，“progress” 对应 “advancements”，明确提到 “技术进步过快”，因此答案为 “technological”。\n题目翻译：亲自然设计可帮助我们应对当前生活方式困境带来的_\\___\\___\\___。\n答案：stress（压力）\n解析：定位 Paragraph C 中 “which in turn leads to increased stress. Because biophilia attempts to integrate basic and current needs, it can alleviate the difficulties”，“alleviate the difficulties” 对应 “deal with”，明确提到亲自然设计缓解 “压力”，因此答案为 “stress”。\n题目翻译：人类本能地在_\\___\\___\\___充足的地方感到更舒适，这对健康和幸福至关重要。\n答案：sunlight（阳光）\n解析：定位 Paragraph C 中 “one crucial element of the natural landscape for human health is sunlight. We are evolutionarily programmed to respond positively to sunny areas”，明确提到 “阳光充足的地方让人舒适”，因此答案为 “sunlight”。\n题目翻译：一项测试自然对患者康复时间影响的实验发现，能看到_\\___\\___\\___的患者恢复更快。\n答案：tree（树）\n解析：定位 Paragraph D 中 “One group had a view of a tree; the others had a window looking onto a brick wall. The first group had shorter hospital stays”，明确提到 “看树的患者恢复更快”，因此答案为 “tree”。\n题目翻译：圭尔夫 - 亨伯大学建筑中有一项亲自然设计特征，可改善_\\___\\___\\___质量。\n答案：air（空气）\n解析：定位 Paragraph G 中 “The wall purifies the air and has the potential to fulfil the building’s fresh-air-intake requirements”，明确提到 “生物墙净化空气，改善空气质量”，因此答案为 “air”。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "（1）题目 20：In the modern world, \\___\\___\\____ advancements are happening so quickly that humans are unable to adjust to them.\n题目翻译：现代社会，\\___\\___\\___\\_进步速度过快，人类难以适应。\n答案：technological（技术的）\n解析：定位 Paragraph C 中 “The rate of technological progress far exceeds the rate of psychological evolution, leaving us ill-equipped to cope”，“progress” 对应 “advancements”，明确提到 “技术进步过快”，因此答案为 “technological”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "（2）题目 21：Biophilia can help us deal with the \\___\\___\\____ caused by the difficulties of our current lifestyles.\n题目翻译：亲自然设计可帮助我们应对当前生活方式困境带来的_\\___\\___\\___。\n答案：stress（压力）\n解析：定位 Paragraph C 中 “which in turn leads to increased stress. Because biophilia attempts to integrate basic and current needs, it can alleviate the difficulties”，“alleviate the difficulties” 对应 “deal with”，明确提到亲自然设计缓解 “压力”，因此答案为 “stress”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "（3）题目 22：People instinctively feel more comfortable in places which have plenty of \\___\\___\\___\\_, something which is necessary for health and well-being.\n题目翻译：人类本能地在_\\___\\___\\___充足的地方感到更舒适，这对健康和幸福至关重要。\n答案：sunlight（阳光）\n解析：定位 Paragraph C 中 “one crucial element of the natural landscape for human health is sunlight. We are evolutionarily programmed to respond positively to sunny areas”，明确提到 “阳光充足的地方让人舒适”，因此答案为 “sunlight”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "（4）题目 23：An experiment designed to test the effect of nature on patient recovery times found that those who could see a \\___\\___\\____ made a faster recovery.\n题目翻译：一项测试自然对患者康复时间影响的实验发现，能看到_\\___\\___\\___的患者恢复更快。\n答案：tree（树）\n解析：定位 Paragraph D 中 “One group had a view of a tree; the others had a window looking onto a brick wall. The first group had shorter hospital stays”，明确提到 “看树的患者恢复更快”，因此答案为 “tree”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "（5）题目 24：There is a biophilic design feature in the University of Guelph-Humber building which improves the quality of the \\___\\___\\___\\_.\n题目翻译：圭尔夫 - 亨伯大学建筑中有一项亲自然设计特征，可改善_\\___\\___\\___质量。\n答案：air（空气）\n解析：定位 Paragraph G 中 “The wall purifies the air and has the potential to fulfil the building’s fresh-air-intake requirements”，明确提到 “生物墙净化空气，改善空气质量”，因此答案为 “air”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "multi_choice",
+      "questionIds": [
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 25 and 26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TWO"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " letters, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TWO"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " of the following statements does the writer make about the Adam Joseph Lewis Center at Oberlin College?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "mcq"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "class": "mcq-item",
+                    "style": "display:block;"
+                  },
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_13",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q13"
+                      ],
+                      "value": "A",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_13",
+                        "value": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It was the first educational establishment designed with biophilic principles."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "class": "mcq-item",
+                    "style": "display:block;"
+                  },
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_13",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q13"
+                      ],
+                      "value": "B",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_13",
+                        "value": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is beneficial for both students and the environment."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "class": "mcq-item",
+                    "style": "display:block;"
+                  },
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_13",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q13"
+                      ],
+                      "value": "C",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_13",
+                        "value": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It has established new concepts for classroom design."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "class": "mcq-item",
+                    "style": "display:block;"
+                  },
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_13",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q13"
+                      ],
+                      "value": "D",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_13",
+                        "value": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It aims to inspire new ways of thinking about the environment."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "class": "mcq-item",
+                    "style": "display:block;"
+                  },
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_13",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q13"
+                      ],
+                      "value": "E",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_13",
+                        "value": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It provides solar power to other buildings in the surrounding area."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q7-8-9-10-11-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q21_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q22_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q23_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q24_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12-13-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q12-13-anchor"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "C",
+    "q2": "B",
+    "q3": "A",
+    "q4": "H",
+    "q5": "B",
+    "q6": "F",
+    "q7": "technological",
+    "q8": "stress",
+    "q9": "sunlight",
+    "q10": "tree",
+    "q11": "air",
+    "q12": "B",
+    "q13": "D"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q2": "q1-2-3-4-5-6-anchor",
+    "q3": "q1-2-3-4-5-6-anchor",
+    "q4": "q1-2-3-4-5-6-anchor",
+    "q5": "q1-2-3-4-5-6-anchor",
+    "q6": "q1-2-3-4-5-6-anchor",
+    "q7": "q7-8-9-10-11-anchor",
+    "q20": "q20_input",
+    "q21": "q21_input",
+    "q8": "q21_input",
+    "q22": "q22_input",
+    "q9": "q22_input",
+    "q23": "q23_input",
+    "q10": "q23_input",
+    "q24": "q24_input",
+    "q11": "q24_input",
+    "q12": "q12-13-anchor",
+    "q13": "q12-13-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q12_13",
+        "inputType": "checkbox",
+        "questionIds": [
+          "q12",
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

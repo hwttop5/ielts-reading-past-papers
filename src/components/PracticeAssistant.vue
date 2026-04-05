@@ -1,25 +1,25 @@
 <template>
   <Teleport to="body">
     <button v-if="!isOpen" class="assistant-fab" type="button" :aria-expanded="isOpen" @click="toggleDialog">
-      <span class="material-icons">auto_awesome</span>
+      <span class="material-icons">smart_toy</span>
       <span v-if="hasSubmitted" class="assistant-fab-badge"></span>
     </button>
 
     <Transition name="assistant-shell">
       <div v-if="isOpen" class="assistant-layer">
         <section ref="dialogRef" class="assistant-dialog" :class="{ fullscreen: viewMode === 'fullscreen', compact: isCompactDialog, dragging: isDragging, resizing: isResizing }" :style="dialogStyle" role="dialog" aria-modal="false">
-          <header class="assistant-topbar" @pointerdown="startDrag">
+          <header class="assistant-topbar" @mousedown="handleHeaderPointerDown" @touchstart="handleHeaderPointerDown">
             <div class="assistant-brand">
-              <span class="assistant-brand-icon material-icons">auto_awesome</span>
+              <span class="assistant-brand-icon material-icons">smart_toy</span>
               <div class="assistant-title-block">
                 <h2 class="assistant-brand-title">{{ copy.kicker }}</h2>
               </div>
             </div>
             <div class="assistant-header-actions">
-              <button class="icon-btn" type="button" :title="viewButtonTitle" @pointerdown.stop @click="toggleViewMode">
+              <button class="icon-btn" type="button" :title="viewButtonTitle" @mousedown.stop @touchstart.stop @click="toggleViewMode">
                 <span class="material-icons">{{ viewMode === 'floating' ? 'open_in_full' : 'picture_in_picture_alt' }}</span>
               </button>
-              <button class="icon-btn" type="button" :title="copy.closeTitle" @pointerdown.stop @click="closeDialog">
+              <button class="icon-btn" type="button" :title="copy.closeTitle" @mousedown.stop @touchstart.stop @click="closeDialog">
                 <span class="material-icons">close</span>
               </button>
             </div>
@@ -47,66 +47,117 @@
               <article v-for="message in messages" :key="message.id" class="assistant-message" :class="[message.role, { error: message.isError }]">
                 <div v-if="message.role === 'user'" class="assistant-user-chip">{{ message.content }}</div>
                 <div v-else class="assistant-response">
-                  <div v-if="message.usedQuestionNumbers?.length || message.usedParagraphLabels?.length || message.confidence || message.missingContext?.length" class="assistant-response-meta">
-                    <span v-if="message.usedQuestionNumbers?.length" class="assistant-meta-chip">Q{{ message.usedQuestionNumbers.join(', ') }}</span>
-                    <span v-if="message.usedParagraphLabels?.length" class="assistant-meta-chip">{{ responseParagraphLabel(message.usedParagraphLabels) }}</span>
-                    <span v-if="message.confidence" class="assistant-meta-chip">{{ confidenceLabel(message.confidence) }}</span>
-                  </div>
-                  <div v-if="message.answerSections?.length" class="assistant-section-list">
-                    <section v-for="(section, sectionIndex) in message.answerSections" :key="`section-${sectionIndex}`" class="assistant-section-card">
-                      <p class="assistant-section-kicker">{{ answerSectionTitle(section.type) }}</p>
-                      <p class="assistant-message-text">{{ section.text }}</p>
-                    </section>
-                  </div>
-                  <p v-else-if="!message.reviewItems?.length" class="assistant-message-text">{{ message.content }}</p>
-                  <div v-else class="review-panel">
-                    <p v-if="reviewSummaryText(message)" class="assistant-message-text assistant-message-text--summary">{{ reviewSummaryText(message) }}</p>
-                    <div class="review-grid">
-                      <article v-for="item in message.reviewItems" :key="`review-${item.questionNumber}`" class="review-card">
-                        <div class="review-card-header">
-                          <div class="review-card-meta">
-                            <span class="review-question-badge">Q{{ item.questionNumber }}</span>
-                            <span v-if="item.paragraphLabel" class="review-paragraph-badge">{{ reviewParagraphLabel(item) }}</span>
-                          </div>
-                          <div class="review-answer-stack">
-                            <span v-if="item.selectedAnswer" class="review-answer-pill review-answer-pill--mine">{{ reviewSelectedLabel(item) }}</span>
-                            <span class="review-answer-pill review-answer-pill--correct">{{ reviewCorrectLabel(item) }}</span>
-                          </div>
-                        </div>
-                        <div class="review-card-section">
-                          <h4>{{ reviewSectionTitle('explanation') }}</h4>
-                          <p>{{ item.explanation || copy.reviewFallbackExplanation }}</p>
-                        </div>
-                        <div class="review-card-section review-card-section--evidence">
-                          <h4>{{ reviewSectionTitle('evidence') }}</h4>
-                          <blockquote>{{ item.evidence || copy.reviewFallbackEvidence }}</blockquote>
-                        </div>
-                      </article>
+                  <div class="assistant-response-content">
+                    <div class="assistant-avatar">
+                      <span class="material-icons">smart_toy</span>
                     </div>
-                  </div>
-                  <div v-if="message.citations?.length" class="citation-list">
-                    <article v-for="(citation, citationIndex) in message.citations" :key="`${citation.chunkType}-${citationIndex}`" class="citation-card">
-                      <div class="citation-meta">
-                        <span>{{ formatChunkType(citation.chunkType) }}</span>
-                        <span v-if="citation.paragraphLabels?.length">{{ citation.paragraphLabels.join(', ') }}</span>
-                        <span v-else-if="citation.questionNumbers?.length">Q{{ citation.questionNumbers.join(', ') }}</span>
+                    <div class="assistant-response-body">
+                      <!-- Hide meta chips for chat/social/clarify/tool_result responses -->
+                      <div v-if="(message.usedQuestionNumbers?.length || message.usedParagraphLabels?.length || message.confidence || message.missingContext?.length) && !['chat', 'social', 'clarify', 'tool_result'].includes(message.responseKind || '')" class="assistant-response-meta">
+                        <span v-if="message.usedQuestionNumbers?.length" class="assistant-meta-chip">Q{{ message.usedQuestionNumbers.join(', ') }}</span>
+                        <span v-if="message.usedParagraphLabels?.length" class="assistant-meta-chip">{{ responseParagraphLabel(message.usedParagraphLabels) }}</span>
+                        <span v-if="message.confidence" class="assistant-meta-chip" :class="`assistant-meta-chip--confidence-${message.confidence}`">{{ confidenceLabel(message.confidence) }}</span>
+                        <span v-if="message.searchUsed" class="assistant-meta-chip assistant-meta-chip--web">联网</span>
                       </div>
-                      <p>{{ citation.excerpt }}</p>
-                    </article>
-                  </div>
-                  <div v-if="message.missingContext?.length" class="missing-context-list">
-                    <p v-for="item in message.missingContext" :key="item" class="missing-context-item">{{ item }}</p>
-                  </div>
-                  <div v-if="message.followUps?.length" class="follow-up-list">
-                    <button v-for="followUp in message.followUps" :key="followUp" class="follow-up-chip" type="button" :disabled="isLoading" @click="sendFollowUp(followUp)">
-                      {{ followUp }}
-                    </button>
-                  </div>
-                  <div v-if="message.recommendedQuestions?.length" class="recommend-list">
-                    <button v-for="recommendation in message.recommendedQuestions" :key="recommendation.questionId" class="recommend-card" type="button" @click="openRecommendedQuestion(recommendation.questionId)">
-                      <strong>{{ recommendation.title }}</strong>
-                      <span>{{ recommendation.reason }}</span>
-                    </button>
+                      <template v-if="message.typewriterPending">
+                        <p class="assistant-message-text">{{ message.content }}</p>
+                      </template>
+                      <template v-else>
+                      <!-- Tool cards for selection tools and review workspace -->
+                      <div v-if="message.toolCards?.length" class="tool-card-list">
+                        <article v-for="(card, cardIndex) in message.toolCards" :key="`tool-${cardIndex}`" class="tool-card" :class="`tool-card--${card.kind}`">
+                          <header class="tool-card-header">
+                            <span class="material-icons tool-card-icon">{{ toolCardIcon(card.kind) }}</span>
+                            <h4 class="tool-card-title">{{ card.title }}</h4>
+                          </header>
+                          <div class="tool-card-content">
+                            <p>{{ card.content }}</p>
+                            <p v-if="card.sourceExcerpt" class="tool-card-source">{{ toolCardSourceLabel(card.sourceExcerpt) }}</p>
+                          </div>
+                        </article>
+                      </div>
+                      <!-- Answer sections for structured responses -->
+                      <div v-if="message.answerSections?.length" class="assistant-section-list">
+                        <section v-for="(section, sectionIndex) in message.answerSections" :key="`section-${sectionIndex}`" class="assistant-section-card">
+                          <p class="assistant-section-kicker">{{ answerSectionTitle(section.type) }}</p>
+                          <p class="assistant-message-text">{{ section.text }}</p>
+                        </section>
+                      </div>
+                      <p v-else-if="!message.reviewItems?.length && !message.toolCards?.length" class="assistant-message-text">{{ message.content }}</p>
+                      <!-- Review panel for review responses -->
+                      <div v-else-if="message.reviewItems?.length" class="review-panel">
+                        <p v-if="reviewSummaryText(message)" class="assistant-message-text assistant-message-text--summary">{{ reviewSummaryText(message) }}</p>
+                        <div class="review-grid">
+                          <article v-for="item in message.reviewItems" :key="`review-${item.questionNumber}`" class="review-card">
+                            <div class="review-card-header">
+                              <div class="review-card-meta">
+                                <span class="review-question-badge">Q{{ item.questionNumber }}</span>
+                                <span v-if="item.paragraphLabel" class="review-paragraph-badge">{{ reviewParagraphLabel(item) }}</span>
+                              </div>
+                              <div class="review-answer-stack">
+                                <span v-if="item.selectedAnswer" class="review-answer-pill review-answer-pill--mine">{{ reviewSelectedLabel(item) }}</span>
+                                <span class="review-answer-pill review-answer-pill--correct">{{ reviewCorrectLabel(item) }}</span>
+                              </div>
+                            </div>
+                            <div class="review-card-section">
+                              <h4>{{ reviewSectionTitle('explanation') }}</h4>
+                              <p>{{ item.explanation || copy.reviewFallbackExplanation }}</p>
+                            </div>
+                            <div class="review-card-section review-card-section--evidence">
+                              <h4>{{ reviewSectionTitle('evidence') }}</h4>
+                              <blockquote>{{ item.evidence || copy.reviewFallbackEvidence }}</blockquote>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                      <!-- Next actions for follow-up interactions -->
+                      <div v-if="message.nextActions?.length" class="next-action-list">
+                        <button v-for="(action, actionIndex) in message.nextActions" :key="`action-${actionIndex}`" class="next-action-chip" type="button" :disabled="isLoading" @click="handleNextAction(action)">
+                          <span v-if="action.icon" class="material-icons">{{ action.icon }}</span>
+                          <span>{{ action.label }}</span>
+                        </button>
+                      </div>
+                      <div v-if="message.citations?.length" class="citation-list">
+                        <article v-for="(citation, citationIndex) in message.citations" :key="`${citation.chunkType}-${citationIndex}`" class="citation-card">
+                          <div class="citation-meta">
+                            <span>{{ formatChunkType(citation.chunkType) }}</span>
+                            <span v-if="citation.paragraphLabels?.length">{{ citation.paragraphLabels.join(', ') }}</span>
+                            <span v-else-if="citation.questionNumbers?.length">Q{{ citation.questionNumbers.join(', ') }}</span>
+                          </div>
+                          <p>{{ citation.excerpt }}</p>
+                        </article>
+                      </div>
+                      <!-- Web citations for search-augmented responses -->
+                      <div v-if="message.webCitations?.length" class="web-citations-list">
+                        <h4 class="web-citations-title">
+                          <span class="material-icons">language</span>
+                          {{ message.lang === 'en' ? 'Sources' : '来源' }}
+                        </h4>
+                        <a v-for="(citation, citationIndex) in message.webCitations" :key="`web-${citationIndex}`" class="web-citation-card" :href="citation.url" target="_blank" rel="noopener noreferrer">
+                          <div class="web-citation-meta">
+                            <span class="web-citation-title">{{ citation.title }}</span>
+                            <span class="web-citation-domain">{{ extractDomain(citation.url) }}</span>
+                          </div>
+                          <p class="web-citation-snippet">{{ citation.snippet }}</p>
+                        </a>
+                      </div>
+                      <!-- Hidden missing context list - kept for internal logging only -->
+                      <!-- <div v-if="message.missingContext?.length" class="missing-context-list">
+                        <p v-for="item in message.missingContext" :key="item" class="missing-context-item">{{ item }}</p>
+                      </div> -->
+                      <div v-if="message.followUps?.length" class="follow-up-list">
+                        <button v-for="followUp in message.followUps" :key="followUp" class="follow-up-chip" type="button" :disabled="isLoading" @click="sendFollowUp(followUp)">
+                          {{ followUp }}
+                        </button>
+                      </div>
+                      <div v-if="message.recommendedQuestions?.length" class="recommend-list">
+                        <button v-for="recommendation in message.recommendedQuestions" :key="recommendation.questionId" class="recommend-card" type="button" @click="openRecommendedQuestion(recommendation.questionId)">
+                          <strong>{{ recommendation.title }}</strong>
+                          <span>{{ recommendation.reason }}</span>
+                        </button>
+                      </div>
+                      </template>
+                    </div>
                   </div>
                 </div>
               </article>
@@ -139,20 +190,9 @@
                   <button class="icon-btn small assistant-upload-trigger" type="button" :title="copy.uploadTitle" @click="triggerFilePicker">
                     <span class="material-icons">add</span>
                   </button>
-                  <div class="menu-wrap">
-                    <button class="icon-btn small" type="button" :title="copy.modeMenuTitle" @click.stop="toggleModeMenu"><span class="material-icons">tune</span></button>
-                    <div v-if="modeMenuOpen" class="assistant-menu up">
-                      <button v-for="item in actionCards" :key="`mode-${item.mode}`" class="assistant-menu-item" :class="{ active: selectedMode === item.mode }" type="button" :disabled="item.disabled" @click="selectMode(item.mode)">
-                        <span class="material-icons">{{ item.icon }}</span>
-                        <span>{{ modeLabels[item.mode] }}</span>
-                        <span v-if="selectedMode === item.mode" class="material-icons">check</span>
-                      </button>
-                    </div>
-                  </div>
                 </div>
                 <div class="assistant-right-actions">
-                  <span class="assistant-mode-badge">{{ modeLabels[selectedMode] }}</span>
-                  <button class="assistant-send" type="button" :disabled="isLoading || isModeDisabled(selectedMode) || !canSubmit" @click="submitDraft">
+                  <button class="assistant-send" type="button" :disabled="isLoading || !canSubmit" @click="submitDraft">
                     <span class="material-icons">arrow_upward</span>
                   </button>
                 </div>
@@ -171,7 +211,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onUnmounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { queryPracticeAssistant } from '@/api/assistant'
+import { queryPracticeAssistant, queryPracticeAssistantStream } from '@/api/assistant'
 import type {
   AssistantAnswerSection,
   AssistantAttachment,
@@ -179,10 +219,15 @@ import type {
   AssistantConfidence,
   AssistantHistoryItem,
   AssistantMode,
+  AssistantNextAction,
   AssistantQueryResponse,
   AssistantReviewItem,
+  AssistantToolCard,
   AttemptContext,
+  PracticeContext,
   RecentPracticeItem,
+  SearchMode,
+  SelectedContext,
   SimilarQuestionRecommendation
 } from '@/types/assistant'
 
@@ -196,8 +241,6 @@ interface Copy {
   closeTitle: string
   expandTitle: string
   collapseTitle: string
-  quickActionsTitle: string
-  modeMenuTitle: string
   uploadTitle: string
   resizeTitle: string
   resizeAria: string
@@ -205,11 +248,6 @@ interface Copy {
   fallbackUnavailable: string
   reviewFallbackExplanation: string
   reviewFallbackEvidence: string
-  placeholder: Record<AssistantMode, string>
-  modeLabels: Record<AssistantMode, string>
-  actions: Record<AssistantMode, string>
-  actionDescriptions: Record<AssistantMode, string>
-  defaultQuery: Record<AssistantMode, string>
   chunkTypeLabels: Record<string, string>
   reviewSummary: (count: number) => string
   reviewParagraph: (label: string) => string
@@ -233,6 +271,15 @@ interface Msg {
   confidence?: AssistantConfidence
   missingContext?: string[]
   isError?: boolean
+  responseKind?: 'chat' | 'grounded' | 'tool_result' | 'review' | 'clarify' | 'social'
+  toolCards?: AssistantToolCard[]
+  nextActions?: AssistantNextAction[]
+  answerSource?: 'local' | 'web' | 'hybrid'
+  searchUsed?: boolean
+  webCitations?: Array<{ title: string; url: string; snippet: string; sourceType?: string }>
+  lang?: 'zh' | 'en'
+  /** When true, main body defers to `content` while typewriter runs (structured fields attached after). */
+  typewriterPending?: boolean
 }
 
 interface AttachmentItem {
@@ -245,12 +292,12 @@ interface AttachmentItem {
   truncated?: boolean
 }
 
-const FLOATING_DIALOG_WIDTH = 500
-const FLOATING_DIALOG_HEIGHT = 760
-const COMPACT_DIALOG_BREAKPOINT = 480
-const FLOATING_DIALOG_MIN_WIDTH = 496
+const FLOATING_DIALOG_WIDTH = 450
+const FLOATING_DIALOG_HEIGHT = 800
+const COMPACT_DIALOG_BREAKPOINT = 420
+const FLOATING_DIALOG_MIN_WIDTH = 450
 
-const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
+const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en'; quickActionContext?: { hintQuestionNumber?: string; explainQuestionNumber?: string; reviewQuestionNumber?: string } }>()
 const router = useRouter()
 const route = useRoute()
 const modes: AssistantMode[] = ['hint', 'explain', 'review', 'similar']
@@ -259,13 +306,11 @@ const zh: Copy = {
   kicker: 'AI 助教',
   heroTitle: '今天想让我帮你什么？',
   heroDescription: '可以直接问当前文章和题组。我可以给提示、解释推理路径、复盘错题，或推荐下一步练习。',
-  loading: '正在结合当前文章整理上下文...',
+  loading: '正在处理你的请求…',
   reviewHint: '提交本次作答后，可解锁讲评和相似推荐模式。',
   closeTitle: '关闭',
   expandTitle: '切换为大窗口',
   collapseTitle: '切换为小窗口',
-  quickActionsTitle: '快捷操作',
-  modeMenuTitle: '切换模式',
   uploadTitle: '上传文件',
   resizeTitle: '拖动调整窗口大小',
   resizeAria: '调整小助手窗口大小',
@@ -273,26 +318,6 @@ const zh: Copy = {
   fallbackUnavailable: '小助手暂时不可用。',
   reviewFallbackExplanation: '暂未提取到详细解析。',
   reviewFallbackEvidence: '暂未提取到明确证据。',
-  placeholder: {
-    hint: '例如：先告诉我应该从哪一段入手，但不要直接给答案',
-    explain: '例如：这组题的定位和推理顺序应该怎么走？',
-    review: '例如：我为什么错了，证据在哪一段？',
-    similar: '例如：推荐两三篇下一步适合练习的相似文章'
-  },
-  modeLabels: { hint: '提示', explain: '讲解', review: '复盘', similar: '相似' },
-  actions: { hint: '给我一个提示', explain: '讲解这组题', review: '我为什么错了', similar: '推荐相似练习' },
-  actionDescriptions: {
-    hint: '先给策略，不直接揭晓答案',
-    explain: '拆解定位顺序和推理路径',
-    review: '结合我的作答解释错因',
-    similar: '推荐下一组最匹配的练习'
-  },
-  defaultQuery: {
-    hint: '请先给我当前题组的解题策略提示，但不要直接揭晓最终答案。',
-    explain: '请结合文章内容，讲解这组题的定位顺序和推理过程。',
-    review: '请结合我已提交的作答，解释我为什么出错，并指出证据所在。',
-    similar: '请推荐我下一步适合练习的相似文章。'
-  },
   chunkTypeLabels: {
     passage_paragraph: '文章段落',
     question_item: '题目内容',
@@ -312,13 +337,11 @@ const en: Copy = {
   kicker: 'AI Coach',
   heroTitle: 'How can I help you today?',
   heroDescription: 'Ask about the current passage and question set. I can give hints, explain the logic, review wrong answers, or recommend what to practice next.',
-  loading: 'Building context from the current passage...',
+  loading: 'Working on your request…',
   reviewHint: 'Review and similar mode unlock after you submit this attempt.',
   closeTitle: 'Close',
   expandTitle: 'Expand assistant',
   collapseTitle: 'Return to floating window',
-  quickActionsTitle: 'Quick actions',
-  modeMenuTitle: 'Change mode',
   uploadTitle: 'Upload files',
   resizeTitle: 'Resize window',
   resizeAria: 'Resize assistant window',
@@ -326,26 +349,6 @@ const en: Copy = {
   fallbackUnavailable: 'Assistant is unavailable.',
   reviewFallbackExplanation: 'Detailed explanation was not extracted.',
   reviewFallbackEvidence: 'Explicit source evidence was not extracted.',
-  placeholder: {
-    hint: 'For example: point me to the best paragraph to start with, but do not reveal the answer',
-    explain: 'For example: what is the right reasoning flow for this question set?',
-    review: 'For example: why was my answer wrong and where is the evidence?',
-    similar: 'For example: recommend the next two or three similar passages'
-  },
-  modeLabels: { hint: 'Hint', explain: 'Explain', review: 'Review', similar: 'Similar' },
-  actions: { hint: 'Give me a hint', explain: 'Explain this set', review: 'Why was I wrong', similar: 'Recommend similar' },
-  actionDescriptions: {
-    hint: 'Start with strategy, not the answer',
-    explain: 'Break down the locating and reasoning path',
-    review: 'Use your submission to explain the miss',
-    similar: 'Recommend the next best matching set'
-  },
-  defaultQuery: {
-    hint: 'Give me a strategic hint for the current question set without revealing the final answer.',
-    explain: 'Explain how to reason through the current question set using the passage.',
-    review: 'Review my submitted attempt, explain why I was wrong, and point to the evidence.',
-    similar: 'Recommend similar passages I should practice next.'
-  },
   chunkTypeLabels: {
     passage_paragraph: 'Passage paragraph',
     question_item: 'Question item',
@@ -362,7 +365,6 @@ const en: Copy = {
   attachmentNote: (name, type) => `Attached file: ${name} (${type || 'unknown type'})`
 }
 const copy = computed(() => props.lang === 'en' ? en : zh)
-const modeLabels = computed(() => copy.value.modeLabels)
 const selectedMode = ref<AssistantMode>('hint')
 const draft = ref('')
 const history = ref<AssistantHistoryItem[]>([])
@@ -370,7 +372,6 @@ const messages = ref<Msg[]>([])
 const status = ref<'idle' | 'loading' | 'success' | 'error'>('idle')
 const isOpen = ref(false)
 const viewMode = ref<ViewMode>('floating')
-const modeMenuOpen = ref(false)
 const composerFocused = ref(false)
 const isComposing = ref(false)
 const isDragging = ref(false)
@@ -385,10 +386,15 @@ const messageListRef = ref<HTMLDivElement | null>(null)
 const composerRef = ref<HTMLTextAreaElement | null>(null)
 const dialogRef = ref<HTMLElement | null>(null)
 const fileInputRef = ref<HTMLInputElement | null>(null)
+const typewriterTimer = ref<number | null>(null)
 const isLoading = computed(() => status.value === 'loading')
 const canSubmit = computed(() => draft.value.trim().length > 0 || attachments.value.length > 0)
 const isCompactDialog = computed(() => viewMode.value === 'floating' && dialogSize.value.width <= COMPACT_DIALOG_BREAKPOINT)
-const placeholder = computed(() => copy.value.placeholder[selectedMode.value])
+const placeholder = computed(() => {
+  return props.lang === 'zh'
+    ? '直接问我某道题、错因、词义，或上传文件让我分析'
+    : 'Ask me about a specific question, error analysis, vocabulary, or upload files'
+})
 const viewButtonTitle = computed(() => viewMode.value === 'floating' ? copy.value.expandTitle : copy.value.collapseTitle)
 const fullQuestionTitle = computed(() => props.questionTitle?.trim() || props.questionTitleLocalized?.trim() || copy.value.defaultQuestionTitle)
 const localizedQuestionTitle = computed(() => props.questionTitleLocalized?.trim() || fullQuestionTitle.value)
@@ -400,7 +406,40 @@ const questionTitleTooltip = computed(() => {
   }
   return fullQuestionTitle.value
 })
-const actionCards = computed(() => modes.map((mode) => ({ mode, title: copy.value.actions[mode], description: copy.value.actionDescriptions[mode], icon: modeIcons[mode], disabled: isModeDisabled(mode) })))
+const actionCards = computed(() => {
+  const { hintQuestionNumber, explainQuestionNumber, reviewQuestionNumber } = props.quickActionContext || {}
+
+  return [
+    {
+      mode: 'hint' as AssistantMode,
+      title: props.lang === 'zh' ? `给我第${hintQuestionNumber || '1'}题的提示` : `Give me a hint for Q${hintQuestionNumber || '1'}`,
+      description: props.lang === 'zh' ? '先给策略，不直接揭晓答案' : 'Start with strategy, not the answer',
+      icon: modeIcons.hint,
+      disabled: isModeDisabled('hint')
+    },
+    {
+      mode: 'explain' as AssistantMode,
+      title: props.lang === 'zh' ? `讲解第${explainQuestionNumber || '1'}题` : `Explain Q${explainQuestionNumber || '1'}`,
+      description: props.lang === 'zh' ? '拆解定位顺序和推理路径' : 'Break down the locating and reasoning path',
+      icon: modeIcons.explain,
+      disabled: isModeDisabled('explain')
+    },
+    {
+      mode: 'review' as AssistantMode,
+      title: props.lang === 'zh' ? `帮我分析第${reviewQuestionNumber || '1'}题为什么错了` : `Analyze why Q${reviewQuestionNumber || '1'} was wrong`,
+      description: props.lang === 'zh' ? '结合我的作答解释错因' : 'Use my submission to explain the miss',
+      icon: modeIcons.review,
+      disabled: isModeDisabled('review') || !reviewQuestionNumber
+    },
+    {
+      mode: 'similar' as AssistantMode,
+      title: props.lang === 'zh' ? (props.hasSubmitted ? '根据我的错题推荐下一组练习' : '推荐下一组相似练习') : (props.hasSubmitted ? 'Recommend similar based on my mistakes' : 'Recommend similar practice'),
+      description: props.lang === 'zh' ? '推荐下一组最匹配的练习' : 'Recommend the next best matching set',
+      icon: modeIcons.similar,
+      disabled: isModeDisabled('similar')
+    }
+  ]
+})
 const acceptedFileTypes = 'image/*,.pdf,.html,.htm,.txt,.md,.json,.csv,.xml,.js,.ts,.vue'
 const dialogStyle = computed(() => {
   if (viewMode.value === 'fullscreen') {
@@ -426,11 +465,10 @@ const dialogStyle = computed(() => {
 })
 
 function isModeDisabled(mode: AssistantMode) { return !props.hasSubmitted && (mode === 'review' || mode === 'similar') }
-function resetMenus() { modeMenuOpen.value = false }
 function createMessage(
   role: 'user' | 'assistant',
   content: string,
-  extra: Partial<Pick<Msg, 'citations' | 'followUps' | 'recommendedQuestions' | 'reviewItems' | 'answerSections' | 'usedQuestionNumbers' | 'usedParagraphLabels' | 'confidence' | 'missingContext' | 'isError'>> = {}
+  extra: Partial<Pick<Msg, 'citations' | 'followUps' | 'recommendedQuestions' | 'reviewItems' | 'answerSections' | 'usedQuestionNumbers' | 'usedParagraphLabels' | 'confidence' | 'missingContext' | 'isError' | 'typewriterPending'>> = {}
 ): Msg {
   return {
     id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
@@ -442,7 +480,6 @@ function createMessage(
 }
 function toggleDialog() {
   isOpen.value = !isOpen.value
-  // 移动端自动全屏显示
   if (isOpen.value && window.innerWidth <= 480) {
     viewMode.value = 'fullscreen'
   }
@@ -453,9 +490,6 @@ function toggleViewMode() {
   stopResize()
   viewMode.value = viewMode.value === 'floating' ? 'fullscreen' : 'floating'
 }
-function toggleModeMenu() { modeMenuOpen.value = !modeMenuOpen.value }
-function selectMode(mode: AssistantMode) { if (!isModeDisabled(mode)) selectedMode.value = mode; resetMenus() }
-function defaultQuery(mode: AssistantMode) { return copy.value.defaultQuery[mode] }
 function formatChunkType(chunkType: string) { return copy.value.chunkTypeLabels[chunkType] || chunkType.replace(/_/g, ' ') }
 function reviewSummaryText(message: Msg) {
   if (!message.reviewItems?.length) return message.content?.trim() ?? ''
@@ -510,9 +544,9 @@ function confidenceLabel(confidence: AssistantConfidence) {
   }[confidence]
 }
 async function focusComposer() { await nextTick(); composerRef.value?.focus() }
+async function scrollToTop() { await nextTick(); if (messageListRef.value) messageListRef.value.scrollTop = 0 }
 async function scrollToBottom() { await nextTick(); if (messageListRef.value) messageListRef.value.scrollTop = messageListRef.value.scrollHeight }
-function handleEscape(event: KeyboardEvent) { if (event.key === 'Escape') { if (modeMenuOpen.value) { resetMenus(); return } closeDialog() } }
-function handleDocumentClick(event: MouseEvent) { const target = event.target as HTMLElement | null; if (!target?.closest('.menu-wrap')) resetMenus() }
+function handleEscape(event: KeyboardEvent) { if (event.key === 'Escape') { closeDialog() } }
 function clampPosition(x: number, y: number) {
   const width = dialogSize.value.width
   const height = dialogSize.value.height
@@ -535,9 +569,19 @@ function clampSize(width: number, height: number) {
     height: Math.min(Math.max(height, minHeight), maxHeight)
   }
 }
-function handleDragMove(event: PointerEvent) {
+function handleDragMove(event: PointerEvent | MouseEvent | TouchEvent) {
   if (!isDragging.value || viewMode.value === 'fullscreen') return
-  const next = clampPosition(event.clientX - dragOffset.value.x, event.clientY - dragOffset.value.y)
+
+  let clientX: number, clientY: number
+  if (event instanceof TouchEvent) {
+    clientX = event.touches[0].clientX
+    clientY = event.touches[0].clientY
+  } else {
+    clientX = (event as PointerEvent | MouseEvent).clientX
+    clientY = (event as PointerEvent | MouseEvent).clientY
+  }
+
+  const next = clampPosition(clientX - dragOffset.value.x, clientY - dragOffset.value.y)
   dialogPosition.value = next
 }
 function handleResizeMove(event: PointerEvent) {
@@ -558,8 +602,16 @@ function stopDrag() {
   if (typeof document !== 'undefined') {
     document.body.style.userSelect = ''
   }
+  // Remove pointer/mouse listeners
   window.removeEventListener('pointermove', handleDragMove)
   window.removeEventListener('pointerup', stopDrag)
+  // Remove mouse listeners
+  window.removeEventListener('mousemove', handleDragMove)
+  window.removeEventListener('mouseup', stopDrag)
+  // Remove touch listeners
+  window.removeEventListener('touchmove', handleDragMove)
+  window.removeEventListener('touchend', stopDrag)
+  window.removeEventListener('touchcancel', stopDrag)
 }
 function stopResize() {
   isResizing.value = false
@@ -569,21 +621,49 @@ function stopResize() {
   window.removeEventListener('pointermove', handleResizeMove)
   window.removeEventListener('pointerup', stopResize)
 }
-function startDrag(event: PointerEvent) {
+function startDrag(event: PointerEvent | MouseEvent | TouchEvent) {
   if (viewMode.value === 'fullscreen') return
   const target = event.target as HTMLElement | null
-  if (target?.closest('button,input,textarea,.assistant-menu')) return
+  if (target?.closest('button,input,textarea')) return
   const rect = dialogRef.value?.getBoundingClientRect()
   if (!rect) return
-  event.preventDefault()
+
+  if (event instanceof TouchEvent) {
+    // Prevent default touch behavior
+    event.preventDefault()
+  } else {
+    event.preventDefault()
+    event.stopPropagation()
+  }
+
   dialogPosition.value = { x: rect.left, y: rect.top }
-  dragOffset.value = { x: event.clientX - rect.left, y: event.clientY - rect.top }
+  dragOffset.value = {
+    x: event instanceof TouchEvent
+      ? event.touches[0].clientX - rect.left
+      : (event as PointerEvent | MouseEvent).clientX - rect.left,
+    y: event instanceof TouchEvent
+      ? event.touches[0].clientY - rect.top
+      : (event as PointerEvent | MouseEvent).clientY - rect.top
+  }
   isDragging.value = true
   if (typeof document !== 'undefined') {
     document.body.style.userSelect = 'none'
   }
-  window.addEventListener('pointermove', handleDragMove)
-  window.addEventListener('pointerup', stopDrag)
+
+  // Use appropriate event listeners based on input type
+  if (event instanceof TouchEvent) {
+    window.addEventListener('touchmove', handleDragMove, { passive: false })
+    window.addEventListener('touchend', stopDrag)
+    window.addEventListener('touchcancel', stopDrag)
+  } else {
+    window.addEventListener('mousemove', handleDragMove)
+    window.addEventListener('mouseup', stopDrag)
+  }
+}
+function handleHeaderPointerDown(event: PointerEvent | MouseEvent | TouchEvent) {
+  if (viewMode.value === 'floating') {
+    startDrag(event)
+  }
 }
 function startResize(event: PointerEvent) {
   if (viewMode.value === 'fullscreen') return
@@ -707,10 +787,12 @@ function extractExplicitFocusQuestionNumbers(value: string): string[] | undefine
 function isWholeSetRequest(value: string): boolean {
   return /(?:question set|whole set|all questions|entire passage|full passage|整组|整套|全部题目|所有题目|整篇|全文)/i.test(value)
 }
-function resolveFocusQuestionNumbers(userPrompt: string): string[] | undefined {
+function resolveFocusQuestionNumbers(userPrompt: string, promptKind?: 'preset' | 'freeform' | 'followup'): string[] | undefined {
   const explicit = extractExplicitFocusQuestionNumbers(userPrompt)
   if (explicit?.length) return explicit
   if (isWholeSetRequest(userPrompt)) return undefined
+  // For preset mode, don't fallback to lastFocusQuestionNumbers - let backend decide
+  if (promptKind === 'preset') return undefined
   return normalizeFocusQuestionNumbers(lastFocusQuestionNumbers.value)
 }
 function trimCitationExcerpt(value: string): string {
@@ -738,57 +820,312 @@ function handleEnterSend() {
   if (isComposing.value) return
   submitDraft()
 }
-function syncListeners(open: boolean) { if (typeof document === 'undefined') return; document.removeEventListener('keydown', handleEscape); document.removeEventListener('click', handleDocumentClick); window.removeEventListener('pointermove', handleDragMove); window.removeEventListener('pointerup', stopDrag); window.removeEventListener('pointermove', handleResizeMove); window.removeEventListener('pointerup', stopResize); if (open) { document.addEventListener('keydown', handleEscape); document.addEventListener('click', handleDocumentClick) } }
+function syncListeners(open: boolean) { if (typeof document === 'undefined') return; document.removeEventListener('keydown', handleEscape); window.removeEventListener('pointermove', handleDragMove); window.removeEventListener('pointerup', stopDrag); window.removeEventListener('pointermove', handleResizeMove); window.removeEventListener('pointerup', stopResize); if (open) { document.addEventListener('keydown', handleEscape) } }
 
-async function sendMessage(mode: AssistantMode, userPrompt: string, userBubbleText?: string) {
+function clearTypewriter() {
+  if (typewriterTimer.value) {
+    window.clearInterval(typewriterTimer.value)
+    typewriterTimer.value = null
+  }
+}
+
+function typewriterEffect(
+  fullText: string,
+  extra: Partial<Pick<Msg, 'citations' | 'followUps' | 'recommendedQuestions' | 'reviewItems' | 'answerSections' | 'usedQuestionNumbers' | 'usedParagraphLabels' | 'confidence' | 'missingContext' | 'isError' | 'responseKind' | 'toolCards' | 'nextActions' | 'answerSource' | 'searchUsed' | 'webCitations' | 'lang'>> = {},
+  speed: number = 30,
+  onComplete?: () => void
+) {
+  clearTypewriter()
+  const targetIndex = messages.value.length - 1
+  if (targetIndex < 0) {
+    return
+  }
+  if (!fullText) {
+    onComplete?.()
+    return
+  }
+
+  let currentIndex = 0
+
+  typewriterTimer.value = window.setInterval(() => {
+    if (currentIndex < fullText.length) {
+      currentIndex++
+      messages.value[targetIndex].content = fullText.slice(0, currentIndex)
+      // Only scroll during typing if near the bottom
+      const container = messageListRef.value
+      if (container) {
+        const isNearBottom = container.scrollHeight - container.scrollTop - container.clientHeight < 100
+        if (isNearBottom) {
+          container.scrollTop = container.scrollHeight - container.clientHeight
+        }
+      }
+    } else {
+      clearTypewriter()
+      // Ensure final content is set
+      messages.value[targetIndex].content = fullText
+      onComplete?.()
+      // Scroll to bottom after typing completes
+      void nextTick(() => {
+        void scrollToBottom()
+      })
+    }
+  }, speed)
+}
+
+async function sendMessage(
+  mode: AssistantMode,
+  userPrompt: string,
+  userBubbleText?: string,
+  promptKind?: 'preset' | 'freeform' | 'followup',
+  action?: AssistantQueryResponse['responseKind'],
+  selectedContext?: SelectedContext,
+  practiceContext?: PracticeContext,
+  searchMode?: SearchMode
+) {
   if (isModeDisabled(mode)) return
+  clearTypewriter()
   isOpen.value = true
-  resetMenus()
   selectedMode.value = mode
   status.value = 'loading'
   const historySeed = history.value.slice(-6)
   const bubbleText = userBubbleText || userPrompt
-  const focusQuestionNumbers = resolveFocusQuestionNumbers(userPrompt)
+  const focusQuestionNumbers = promptKind === 'freeform' ? undefined : resolveFocusQuestionNumbers(userPrompt, promptKind)
   messages.value = [...messages.value, createMessage('user', bubbleText)]
   await scrollToBottom()
-  try {
-    const response: AssistantQueryResponse = await queryPracticeAssistant({
-      questionId: props.questionId,
-      mode,
-      locale: props.lang,
-      userQuery: userPrompt,
-      history: historySeed,
-      attachments: buildRequestAttachments(),
-      focusQuestionNumbers,
-      attemptContext: props.attemptContext ?? undefined,
-      recentPractice: props.recentPractice.slice(0, 10)
-    })
-    messages.value = [...messages.value, createMessage('assistant', response.answer, {
-      citations: response.citations,
-      followUps: response.followUps,
-      recommendedQuestions: response.recommendedQuestions,
-      reviewItems: response.reviewItems,
-      answerSections: response.answerSections,
-      usedQuestionNumbers: response.usedQuestionNumbers,
-      usedParagraphLabels: response.usedParagraphLabels,
-      confidence: response.confidence,
-      missingContext: response.missingContext
-    })]
-    lastFocusQuestionNumbers.value = normalizeFocusQuestionNumbers(response.usedQuestionNumbers) || focusQuestionNumbers
-    history.value = [...historySeed, { role: 'user', content: bubbleText }, { role: 'assistant', content: response.answer }].slice(-6)
-    status.value = 'success'
-  } catch (error) {
-    const detail = error instanceof Error ? error.message : copy.value.fallbackUnavailable
-    messages.value = [...messages.value, createMessage('assistant', detail, { isError: true })]
-    status.value = 'error'
-  } finally {
-    await scrollToBottom()
-    await focusComposer()
+
+  // Try streaming first, fallback to non-streaming if it fails
+  let useStreaming = true
+  let streamingFailed = false
+  let streamingError: unknown = null
+
+  if (useStreaming && !streamingFailed) {
+    // Streaming mode
+    let accumulatedAnswer = ''
+    let finalResponse: AssistantQueryResponse | null = null
+    let hasStarted = false
+
+    try {
+      for await (const event of queryPracticeAssistantStream({
+        questionId: props.questionId,
+        mode,
+        locale: props.lang,
+        userQuery: userPrompt,
+        history: historySeed,
+        attachments: buildRequestAttachments(),
+        focusQuestionNumbers,
+        attemptContext: props.attemptContext ?? undefined,
+        recentPractice: props.recentPractice.slice(0, 10),
+        promptKind,
+        surface: 'chat_widget',
+        action: action || 'chat',
+        selectedContext,
+        practiceContext,
+        searchMode: searchMode || (promptKind === 'freeform' ? 'auto' : undefined)
+      })) {
+        if (event.type === 'start') {
+          hasStarted = true
+          const startPayload = event.payload as { responseKind?: string }
+          messages.value = [
+            ...messages.value,
+            createMessage('assistant', '', {
+              responseKind: startPayload.responseKind as Msg['responseKind'] || 'grounded',
+              lang: props.lang,
+              typewriterPending: true
+            })
+          ]
+        } else if (event.type === 'delta') {
+          const deltaPayload = event.payload as { text: string }
+          if (deltaPayload.text) {
+            accumulatedAnswer += deltaPayload.text
+            const targetIndex = messages.value.length - 1
+            if (targetIndex >= 0 && messages.value[targetIndex].role === 'assistant') {
+              messages.value[targetIndex].content = accumulatedAnswer
+              // Scroll while typing
+              const container = messageListRef.value
+              if (container) {
+                const isNearBottom = container.scrollHeight - container.scrollTop - container.clientHeight < 100
+                if (isNearBottom) {
+                  container.scrollTop = container.scrollHeight - container.clientHeight
+                }
+              }
+            }
+          }
+        } else if (event.type === 'final') {
+          finalResponse = event.payload as AssistantQueryResponse
+          const idx = messages.value.length - 1
+          const m = messages.value[idx]
+          if (!m || m.role !== 'assistant') {
+            return
+          }
+          m.typewriterPending = false
+          m.answerSections = finalResponse.answerSections
+          m.reviewItems = finalResponse.reviewItems
+          m.toolCards = finalResponse.toolCards
+          m.nextActions = finalResponse.nextActions
+          m.citations = normalizeCitationsForDisplay(finalResponse.citations)
+          m.followUps = finalResponse.followUps
+          m.recommendedQuestions = finalResponse.recommendedQuestions
+          m.webCitations = finalResponse.webCitations
+          m.usedQuestionNumbers = finalResponse.usedQuestionNumbers
+          m.usedParagraphLabels = finalResponse.usedParagraphLabels
+          m.confidence = finalResponse.confidence
+          m.missingContext = finalResponse.missingContext
+          m.responseKind = finalResponse.responseKind
+          m.answerSource = finalResponse.answerSource
+          m.searchUsed = finalResponse.searchUsed
+        } else if (event.type === 'error') {
+          const errorPayload = event.payload as { message: string }
+          throw new Error(errorPayload.message)
+        }
+      }
+
+      // Update history with final response
+      if (finalResponse) {
+        history.value = [...historySeed, { role: 'user', content: bubbleText }, { role: 'assistant', content: finalResponse.answer || accumulatedAnswer }].slice(-6)
+        if (finalResponse.responseKind === 'grounded' || finalResponse.responseKind === 'review') {
+          lastFocusQuestionNumbers.value = normalizeFocusQuestionNumbers(finalResponse.usedQuestionNumbers) || focusQuestionNumbers
+        }
+      }
+
+      status.value = 'success'
+    } catch (error) {
+      // Log streaming error and fallback to non-streaming
+      console.warn('Streaming failed, falling back to non-streaming:', error)
+      streamingFailed = true
+      streamingError = error
+
+      // Remove the empty assistant message added for streaming
+      const lastMsg = messages.value[messages.value.length - 1]
+      if (lastMsg && lastMsg.role === 'assistant' && !lastMsg.content && !lastMsg.answerSections?.length) {
+        messages.value = messages.value.slice(0, -1)
+      }
+
+      // Fallback to non-streaming
+      try {
+        const response: AssistantQueryResponse = await queryPracticeAssistant({
+          questionId: props.questionId,
+          mode,
+          locale: props.lang,
+          userQuery: userPrompt,
+          history: historySeed,
+          attachments: buildRequestAttachments(),
+          focusQuestionNumbers,
+          attemptContext: props.attemptContext ?? undefined,
+          recentPractice: props.recentPractice.slice(0, 10),
+          promptKind,
+          surface: 'chat_widget',
+          action: action || 'chat',
+          selectedContext,
+          practiceContext,
+          searchMode: searchMode || (promptKind === 'freeform' ? 'auto' : undefined)
+        })
+        const fullAnswer = (response.answer ?? '').trim()
+        const hasStructuredBody =
+          Boolean(response.answerSections?.length) ||
+          Boolean(response.reviewItems?.length) ||
+          Boolean(response.toolCards?.length)
+        const deferStructuredForTypewriter = Boolean(fullAnswer) && hasStructuredBody
+
+        const sharedMeta = {
+          usedQuestionNumbers: response.usedQuestionNumbers,
+          usedParagraphLabels: response.usedParagraphLabels,
+          confidence: response.confidence,
+          missingContext: response.missingContext,
+          responseKind: response.responseKind,
+          answerSource: response.answerSource,
+          searchUsed: response.searchUsed,
+          lang: props.lang
+        }
+
+        if (deferStructuredForTypewriter) {
+          messages.value = [
+            ...messages.value,
+            createMessage('assistant', '', {
+              ...sharedMeta,
+              typewriterPending: true
+            })
+          ]
+          typewriterEffect(response.answer, {}, 30, () => {
+            const idx = messages.value.length - 1
+            const m = messages.value[idx]
+            if (!m || m.role !== 'assistant') {
+              return
+            }
+            m.typewriterPending = false
+            m.answerSections = response.answerSections
+            m.reviewItems = response.reviewItems
+            m.toolCards = response.toolCards
+            m.nextActions = response.nextActions
+            m.citations = normalizeCitationsForDisplay(response.citations)
+            m.followUps = response.followUps
+            m.recommendedQuestions = response.recommendedQuestions
+            m.webCitations = response.webCitations
+          })
+        } else {
+          messages.value = [
+            ...messages.value,
+            createMessage('assistant', '', {
+              citations: response.citations,
+              followUps: response.followUps,
+              recommendedQuestions: response.recommendedQuestions,
+              reviewItems: response.reviewItems,
+              answerSections: response.answerSections,
+              ...sharedMeta,
+              toolCards: response.toolCards,
+              nextActions: response.nextActions,
+              webCitations: response.webCitations,
+              typewriterPending: false
+            })
+          ]
+          if (fullAnswer) {
+            typewriterEffect(response.answer, {}, 30)
+          }
+        }
+        if (response.responseKind === 'grounded' || response.responseKind === 'review') {
+          lastFocusQuestionNumbers.value = normalizeFocusQuestionNumbers(response.usedQuestionNumbers) || focusQuestionNumbers
+        }
+        history.value = [...historySeed, { role: 'user', content: bubbleText }, { role: 'assistant', content: response.answer }].slice(-6)
+        status.value = 'success'
+      } catch (fallbackError) {
+        const detail = fallbackError instanceof Error ? fallbackError.message : copy.value.fallbackUnavailable
+        messages.value = [...messages.value, createMessage('assistant', detail, { isError: true })]
+        status.value = 'error'
+      }
+    } finally {
+      await scrollToBottom()
+      await focusComposer()
+    }
   }
 }
 
-function sendPreset(mode: AssistantMode) { void sendMessage(mode, defaultQuery(mode), copy.value.actions[mode]) }
-function sendFollowUp(followUp: string) { void sendMessage(selectedMode.value, followUp, followUp) }
+function sendPreset(mode: AssistantMode) {
+  const { hintQuestionNumber, explainQuestionNumber, reviewQuestionNumber } = props.quickActionContext || {}
+
+  const promptMap: Record<AssistantMode, string> = {
+    hint: props.lang === 'zh'
+      ? `请给我第${hintQuestionNumber || '1'}题一个提示，但不要直接给答案。`
+      : `Give me a strategic hint for question ${hintQuestionNumber || '1'} without revealing the final answer.`,
+    explain: props.lang === 'zh'
+      ? `请讲解第${explainQuestionNumber || '1'}题的解题思路和定位过程。`
+      : `Explain the reasoning and locating process for question ${explainQuestionNumber || '1'}.`,
+    review: props.lang === 'zh'
+      ? `请结合我的作答，分析第${reviewQuestionNumber || '1'}题为什么错了，并指出证据。`
+      : `Analyze why my answer for question ${reviewQuestionNumber || '1'} was wrong and point to the evidence.`,
+    similar: props.lang === 'zh'
+      ? `请根据我当前练习情况推荐下一组相似练习。`
+      : `Recommend similar practice based on my current performance.`
+  }
+
+  const titleMap: Record<AssistantMode, string> = {
+    hint: props.lang === 'zh' ? `给我第${hintQuestionNumber || '1'}题的提示` : `Give me a hint for Q${hintQuestionNumber || '1'}`,
+    explain: props.lang === 'zh' ? `讲解第${explainQuestionNumber || '1'}题` : `Explain Q${explainQuestionNumber || '1'}`,
+    review: props.lang === 'zh' ? `帮我分析第${reviewQuestionNumber || '1'}题为什么错了` : `Analyze why Q${reviewQuestionNumber || '1'} was wrong`,
+    similar: props.lang === 'zh' ? (props.hasSubmitted ? '根据我的错题推荐下一组练习' : '推荐下一组相似练习') : (props.hasSubmitted ? 'Recommend similar based on my mistakes' : 'Recommend similar practice')
+  }
+
+  void sendMessage(mode, promptMap[mode], titleMap[mode], 'preset', undefined, undefined, undefined, 'off')
+}
+function sendFollowUp(followUp: string) { void sendMessage(selectedMode.value, followUp, followUp, 'followup') }
 function submitDraft() {
   const value = draft.value.trim()
   if (!value && attachments.value.length === 0) return
@@ -796,13 +1133,56 @@ function submitDraft() {
   const bubbleText = value || attachmentLabel
   const prompt = value || defaultQuery(selectedMode.value)
   draft.value = ''
-  void sendMessage(selectedMode.value, prompt, bubbleText)
+  // Freeform input from text box: promptKind='freeform', action='chat', searchMode='auto'
+  void sendMessage(selectedMode.value, prompt, bubbleText, 'freeform', 'chat', undefined, undefined, 'auto')
+}
+function toolCardIcon(kind: AssistantToolCard['kind']): string {
+  const iconMap: Record<AssistantToolCard['kind'], string> = {
+    vocab: 'translate',
+    evidence: 'fact_check',
+    paraphrase: 'swap_horiz',
+    antonym: 'flip_to_back',
+    drill: 'school',
+    diagnosis: 'assignment'
+  }
+  return iconMap[kind] || 'description'
+}
+function toolCardSourceLabel(excerpt: string): string {
+  if (excerpt.length <= 60) return excerpt
+  return `${excerpt.slice(0, 57).trimEnd()}...`
+}
+function extractDomain(url: string): string {
+  try {
+    const urlObj = new URL(url)
+    return urlObj.hostname.replace(/^www\./, '')
+  } catch {
+    return url
+  }
+}
+function handleNextAction(action: AssistantNextAction) {
+  const userQuery = buildUserQueryFromAction(action)
+  void sendMessage(selectedMode.value, userQuery, action.label, undefined, action.action, action.context as SelectedContext | undefined, undefined)
+}
+function buildUserQueryFromAction(action: AssistantNextAction): string {
+  const actionLabels: Record<AssistantNextAction['action'], string> = {
+    chat: '继续聊聊这个话题',
+    translate: '翻译这段内容',
+    explain_selection: '解释这个选择',
+    find_paraphrases: '找出同义替换',
+    find_antonyms: '找出反义表达',
+    extract_keywords: '提取关键词',
+    locate_evidence: '定位证据',
+    analyze_mistake: '分析这个错题',
+    review_set: '复盘整组题',
+    recommend_drills: '推荐针对性练习'
+  }
+  return actionLabels[action.action] || action.label
 }
 function openRecommendedQuestion(questionId: string) { router.push({ path: route.path, query: { ...route.query, id: questionId } }) }
-watch(isOpen, async (open) => { syncListeners(open); if (open) { await scrollToBottom(); await focusComposer() } else resetMenus() })
-watch(() => props.questionId, () => { history.value = []; messages.value = []; draft.value = ''; attachments.value = []; lastFocusQuestionNumbers.value = undefined; dialogPosition.value = null; dialogSize.value = { width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT }; status.value = 'idle'; selectedMode.value = 'hint'; resetMenus() })
+watch(isOpen, async (open) => { syncListeners(open); if (open) { await scrollToTop(); await focusComposer() } })
+watch(() => props.questionId, () => { clearTypewriter(); history.value = []; messages.value = []; draft.value = ''; attachments.value = []; lastFocusQuestionNumbers.value = undefined; dialogPosition.value = null; dialogSize.value = { width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT }; status.value = 'idle'; selectedMode.value = 'hint' })
 watch(() => props.hasSubmitted, (submitted) => { if (!submitted && (selectedMode.value === 'review' || selectedMode.value === 'similar')) selectedMode.value = 'hint' })
-onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
+onUnmounted(() => { clearTypewriter(); stopDrag(); stopResize(); syncListeners(false) })
 </script>
 
 <style scoped>
@@ -853,10 +1233,10 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   right: 20px;
   bottom: 20px;
   pointer-events: auto;
-  width: min(500px, calc(100vw - 40px));
-  height: min(760px, calc(100vh - 40px));
+  width: min(450px, calc(100vw - 40px));
+  height: min(800px, calc(100vh - 40px));
   max-height: calc(100vh - 40px);
-  min-width: 280px;
+  min-width: 450px;
   min-height: 320px;
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
@@ -864,12 +1244,12 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   color: var(--text-primary);
   border: 1px solid var(--border-color);
   border-radius: 28px;
-  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
   overflow: hidden;
 }
 
 .assistant-dialog.dragging {
-  box-shadow: 0 28px 68px rgba(15, 23, 42, 0.24);
+  box-shadow: 0 28px 68px rgba(0, 0, 0, 0.24);
 }
 
 .assistant-dialog:not(.fullscreen) .assistant-topbar {
@@ -878,7 +1258,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-dialog.resizing {
-  box-shadow: 0 28px 68px rgba(15, 23, 42, 0.24);
+  box-shadow: 0 28px 68px rgba(0, 0, 0, 0.24);
 }
 
 .assistant-dialog.fullscreen {
@@ -909,7 +1289,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   gap: 16px;
   padding-top: 18px;
   padding-bottom: 16px;
-  background: linear-gradient(180deg, rgba(248, 251, 255, 0.98), rgba(255, 255, 255, 0.92));
+  background: var(--bg-primary);
   border-bottom: 1px solid var(--border-light);
   cursor: grab;
   user-select: none;
@@ -935,7 +1315,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   align-items: center;
   justify-content: center;
   color: var(--primary-color);
-  background: linear-gradient(135deg, #eff6ff, #ffffff);
+  background: var(--bg-tertiary);
   border: 1px solid rgba(37, 99, 235, 0.14);
 }
 
@@ -944,7 +1324,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   height: 44px;
   border-radius: 16px;
   font-size: 20px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .assistant-title-block {
@@ -1010,8 +1390,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   padding-top: 0;
 }
 
-.menu-wrap {
-  position: relative;
+.assistant-header-actions .material-icons {
+  font-size: 22px;
 }
 
 .icon-btn,
@@ -1130,6 +1510,11 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-message.user {
   display: flex;
   justify-content: flex-end;
+  max-width: 100%;
+}
+
+.assistant-message.user .assistant-user-chip {
+  max-width: 100%;
 }
 
 .assistant-message.assistant {
@@ -1137,20 +1522,54 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-user-chip {
-  max-width: min(72%, 280px);
-  padding: 14px 18px;
-  border-radius: 999px;
-  background: rgba(37, 99, 235, 0.1);
+  max-width: 100%;
+  width: auto;
+  padding: 12px 18px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(37, 99, 235, 0.08) 100%);
   color: var(--primary-color);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.45;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  box-shadow: 0 1px 2px rgba(37, 99, 235, 0.08);
+  transition: var(--transition);
+  word-break: break-word;
+  white-space: normal;
+}
+
+.assistant-user-chip:hover {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.16) 0%, rgba(37, 99, 235, 0.1) 100%);
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.12);
 }
 
 .assistant-response {
   width: 100%;
   min-width: 0;
-  padding: 2px 0 0;
+  padding: 4px 0 0;
+}
+
+.assistant-response-content {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.assistant-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, rgba(37, 99, 235, 0.8) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.assistant-avatar .material-icons {
+  font-size: 18px;
+  color: white;
 }
 
 .assistant-response-meta {
@@ -1163,33 +1582,184 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-meta-chip {
   display: inline-flex;
   align-items: center;
-  padding: 6px 10px;
+  padding: 4px 8px;
   border-radius: 999px;
-  background: rgba(37, 99, 235, 0.08);
+  background: rgba(100, 116, 139, 0.08);
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.assistant-meta-chip--web {
+  background: rgba(37, 99, 235, 0.12);
   color: var(--primary-color);
-  font-size: 12px;
   font-weight: 700;
+}
+
+.assistant-meta-chip--confidence-high {
+  background: rgba(34, 197, 94, 0.12);
+  color: #16a34a;
+}
+
+.assistant-meta-chip--confidence-medium {
+  background: rgba(245, 158, 11, 0.12);
+  color: #d97706;
+}
+
+.assistant-meta-chip--confidence-low {
+  background: rgba(239, 68, 68, 0.12);
+  color: #dc2626;
 }
 
 .assistant-section-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
 }
 
 .assistant-section-card {
-  padding: 12px 14px;
+  padding: 14px 16px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--border-light);
+  background: transparent;
+  box-shadow: none;
+  transition: background 0.2s ease;
+}
+
+.assistant-section-card:last-child {
+  border-bottom: none;
+}
+
+.assistant-section-card:hover {
+  background: rgba(37, 99, 235, 0.02);
+}
+
+/* Tool cards for selection tools and review workspace */
+.tool-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.tool-card {
   border-radius: 16px;
-  border: 1px solid rgba(37, 99, 235, 0.1);
-  background: linear-gradient(180deg, rgba(250, 252, 255, 0.98), rgba(255, 255, 255, 0.96));
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.04);
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.tool-card--vocab {
+  border-left: 3px solid #3b82f6;
+}
+
+.tool-card--evidence {
+  border-left: 3px solid #22c55e;
+}
+
+.tool-card--paraphrase {
+  border-left: 3px solid #8b5cf6;
+}
+
+.tool-card--antonym {
+  border-left: 3px solid #f59e0b;
+}
+
+.tool-card--drill {
+  border-left: 3px solid #ec4899;
+}
+
+.tool-card--diagnosis {
+  border-left: 3px solid #ef4444;
+}
+
+.tool-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--bg-tertiary);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tool-card-icon {
+  font-size: 18px;
+  color: var(--text-secondary);
+}
+
+.tool-card-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.tool-card-content {
+  padding: 12px 14px;
+}
+
+.tool-card-content p {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.tool-card-source {
+  margin-top: 10px !important;
+  font-size: 12px !important;
+  color: var(--text-tertiary) !important;
+}
+
+/* Next action chips for follow-up interactions */
+.next-action-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.next-action-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(100, 116, 139, 0.25);
+  background: rgba(100, 116, 139, 0.06);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.next-action-chip .material-icons {
+  font-size: 16px;
+}
+
+.next-action-chip:hover:not(:disabled) {
+  background: rgba(100, 116, 139, 0.1);
+  border-color: rgba(100, 116, 139, 0.35);
+}
+
+.next-action-chip:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .assistant-section-kicker {
   margin: 0 0 8px;
-  color: var(--primary-color);
+  color: var(--text-secondary);
   font-size: 11px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1209,7 +1779,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-message.error .assistant-message-text {
-  color: #b91c1c;
+  color: #f87171;
 }
 
 .review-panel {
@@ -1227,11 +1797,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .review-card {
   padding: 16px;
   border-radius: 20px;
-  border: 1px solid rgba(37, 99, 235, 0.14);
-  background:
-    linear-gradient(180deg, rgba(248, 251, 255, 0.98), rgba(255, 255, 255, 0.96)),
-    radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 42%);
-  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.06);
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .review-card-header {
@@ -1262,15 +1830,15 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .review-question-badge {
   padding: 8px 10px;
-  background: rgba(15, 23, 42, 0.92);
-  color: #ffffff;
+  background: var(--bg-primary);
+  color: var(--text-primary);
   letter-spacing: 0.04em;
 }
 
 .review-paragraph-badge {
   padding: 8px 10px;
-  border: 1px solid rgba(15, 23, 42, 0.08);
-  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
   color: var(--text-secondary);
 }
 
@@ -1279,13 +1847,13 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .review-answer-pill--mine {
-  background: rgba(249, 115, 22, 0.1);
-  color: #c2410c;
+  background: rgba(249, 115, 22, 0.12);
+  color: var(--text-primary);
 }
 
 .review-answer-pill--correct {
-  background: rgba(34, 197, 94, 0.12);
-  color: #166534;
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--text-primary);
 }
 
 .review-card-section + .review-card-section {
@@ -1295,10 +1863,10 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .review-card-section h4 {
   margin: 0 0 8px;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: var(--text-secondary);
 }
 
 .review-card-section p,
@@ -1313,9 +1881,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .review-card-section--evidence blockquote {
   padding: 12px 14px;
-  border-left: 3px solid rgba(37, 99, 235, 0.28);
+  border-left: 3px solid var(--border-color);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--bg-tertiary);
   color: var(--text-secondary);
 }
 
@@ -1331,8 +1899,85 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .recommend-card {
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid rgba(37, 99, 235, 0.08);
-  background: rgba(248, 251, 255, 0.9);
+  border: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Web citations for search-augmented responses */
+.web-citations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-light);
+}
+
+.web-citations-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.web-citations-title .material-icons {
+  font-size: 16px;
+}
+
+.web-citation-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  background: rgba(37, 99, 235, 0.04);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+
+.web-citation-card:hover {
+  border-color: rgba(37, 99, 235, 0.25);
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.web-citation-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.web-citation-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.web-citation-domain {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  background: rgba(100, 116, 139, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.web-citation-snippet {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .citation-meta {
@@ -1340,9 +1985,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 8px;
-  color: var(--primary-color);
+  color: var(--text-tertiary);
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -1369,20 +2014,21 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .follow-up-chip {
-  border: 1px solid rgba(37, 99, 235, 0.16);
+  border: 1px solid rgba(100, 116, 139, 0.25);
   border-radius: 999px;
-  background: rgba(37, 99, 235, 0.06);
-  color: var(--primary-color);
-  padding: 10px 14px;
+  background: rgba(100, 116, 139, 0.06);
+  color: var(--text-secondary);
+  padding: 8px 12px;
   font: inherit;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
   transition: var(--transition);
 }
 
 .follow-up-chip:hover:not(:disabled) {
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(100, 116, 139, 0.1);
+  border-color: rgba(100, 116, 139, 0.35);
 }
 
 .follow-up-chip:disabled {
@@ -1401,8 +2047,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   margin: 0;
   padding: 10px 12px;
   border-radius: 14px;
-  background: rgba(249, 115, 22, 0.1);
-  color: #c2410c;
+  background: rgba(249, 115, 22, 0.12);
+  color: var(--text-primary);
   font-size: 13px;
   line-height: 1.6;
 }
@@ -1435,7 +2081,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   padding-top: 14px;
   padding-bottom: 22px;
   border-top: 1px solid var(--border-light);
-  background: rgba(255, 255, 255, 0.88);
+  background: var(--bg-primary);
   backdrop-filter: blur(10px);
   flex-shrink: 0;
 }
@@ -1470,7 +2116,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   padding: 7px 11px;
   border-radius: 999px;
   border: 1px solid rgba(37, 99, 235, 0.12);
-  background: #ffffff;
+  background: var(--bg-tertiary);
   color: var(--text-secondary);
   font-size: 12px;
   font-weight: 700;
@@ -1530,13 +2176,19 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   align-items: center;
   gap: 8px;
   max-width: 100%;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: #ffffff;
-  border: 1px solid rgba(37, 99, 235, 0.12);
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
   color: var(--text-secondary);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.assistant-attachment-chip:hover {
+  border-color: rgba(37, 99, 235, 0.3);
+  background: rgba(37, 99, 235, 0.04);
 }
 
 .assistant-attachment-name {
@@ -1715,14 +2367,6 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   padding-right: 6px;
 }
 
-.assistant-dialog.compact .assistant-mode-badge {
-  font-size: 12px;
-}
-
-.assistant-dialog.compact .assistant-menu {
-  min-width: 200px;
-}
-
 .assistant-dialog.compact .assistant-resize-handle {
   left: 12px;
   top: 12px;
@@ -1732,12 +2376,6 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-dialog.compact .assistant-resize-handle .material-icons {
   font-size: 16px;
-}
-
-.assistant-mode-badge {
-  color: var(--text-secondary);
-  font-size: 13px;
-  font-weight: 700;
 }
 
 .assistant-send {
@@ -1751,55 +2389,6 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-send:disabled {
   background: #d1d5db;
   cursor: not-allowed;
-}
-
-.assistant-menu {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  z-index: 4;
-  min-width: 220px;
-  padding: 8px;
-  border-radius: 18px;
-  border: 1px solid var(--border-color);
-  background: var(--bg-primary);
-  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.18);
-}
-
-.assistant-menu.up {
-  top: auto;
-  bottom: calc(100% + 10px);
-  left: 0;
-  right: auto;
-}
-
-.assistant-menu-item {
-  width: 100%;
-  border: none;
-  background: transparent;
-  color: var(--text-primary);
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px;
-  border-radius: 12px;
-  font-size: 14px;
-  text-align: left;
-  cursor: pointer;
-}
-
-.assistant-menu-item:hover,
-.assistant-menu-item.active {
-  background: var(--bg-secondary);
-}
-
-.assistant-menu-item:disabled {
-  opacity: 0.38;
-  cursor: not-allowed;
-}
-
-.assistant-menu-item .material-icons:last-child {
-  margin-left: auto;
 }
 
 .assistant-resize-handle {
@@ -1860,6 +2449,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
     max-height: calc(100vh - 20px);
     min-height: unset;
     border-radius: 24px;
+    min-width: unset;
   }
 
   .assistant-topbar,
@@ -2029,6 +2619,11 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   .recommend-card {
     padding: 12px;
     font-size: 13px;
+  }
+
+  /* 移动端隐藏切换小窗口图标 */
+  .assistant-header-actions .icon-btn:first-child {
+    display: none;
   }
 }
 </style>

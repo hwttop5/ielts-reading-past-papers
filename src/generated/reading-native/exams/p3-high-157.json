@@ -1,0 +1,2083 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-157",
+  "meta": {
+    "title": "Flower Power ()",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "67. P3 - Flower Power 鲜花的力量(花之力)【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/67. P3 - Flower Power 鲜花的力量(花之力)【高】/",
+    "legacyFilename": "67. P3 - Flower Power 鲜花的力量(花之力)【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Flower Power 鲜花的力量(花之力)"
+  },
+  "explanationKey": "p3-high-157",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Flower Power"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Question 27 (A):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "A",
+                "id": "q1-dropzone",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Why do we give people flowers? To offer condolence to those who are grieving. To celebrate. To woo. To ask for forgiveness. We all know intuitively that there is a universal emotional response. In the US alone, the flower industry is now worth about $5 billion a year, which suggests that, at the very least, they service a compelling human need."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Question 28 (B):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "B",
+                "id": "q2-dropzone",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Recent studies at the Department of Psychology at Rutgers State University of New Jersey investigated claims that flowers are unique among living organisms in their ability to induce profound changes in our emotional state. As the first part of their research, the Rutgers team visited 150 women in their homes. Each was presented with a variety of gifts such as flowers, fruit or sweets. The women were unaware that the study was about the effect of the flowers on their emotions. They were told that it was a study about their daily moods, and that they would receive a gift in return for taking part. Following the presentation of the gift, those receiving flowers were assessed as displaying a much more positive mood than those who got other gifts, and this effect lasted for several days. After receiving flowers, they were also more willing to answer questions concerning their social circle and intimate conversations with friends and family. The results suggest that flowers influence our secondary socio-emotional behaviours, as well as having a strong effect on our immediate emotional expression."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Question 29 (C):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "C",
+                "id": "q3-dropzone",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " In the second study, the psychologists observed participants being handed single flowers, or alternative gifts, in a constrained and stressful situation – inside an elevator. Contrary to predictions regarding gender differences, both men and women presented with flowers were more likely to smile, to stand closer and to initiate conversation. Several subjects who were given the alternative gift then learnt that flowers were also being handed out, and returned to the elevator and demanded a flower. The scientists used elevators for this study precisely because the most typical behaviour in sparsely occupied elevators is for people to retreat to opposite corners. The subjects who received flowers, however, closed up that space to a considerable extent – indicating that the flowers not only induced a strong positive mood, but brought a significant affiliation among people who had never previously met."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Question 30 (D):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "D",
+                "id": "q4-dropzone",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The third study involved regularly sending flowers to a selected sample of men and women. The researchers found not only a profound elevation of mood, but also reliable improvements in other measures of cognitive function, like memory. In this series of experiments, some participants produced such extraordinary emotional displays that the psychologists were totally unprepared for them. Subjects gave spontaneous hugs and kisses to the people who delivered the flowers, and sent invitations to the psychologists to come to their homes for refreshments."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Question 31 (E):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "E",
+                "id": "q5-dropzone",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Various evolutionary hypotheses attempt to explain the remarkably powerful psychological effect of flowers. One is that our aesthetic preferences for fertile locations and growing things stem from prehistory, when these clues in our environment could mean the difference between starvation and survival. We may have become hardwired to respond positively to flowers because for early man, finding them in a particular location predicted future food supplies and possibly a better place to rear children. Yet the flaw in this argument is that the showy flowers which humans seem to find most visually attractive are generally found on those plants which yield no edible products."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Question 32 (F):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "F",
+                "id": "q6-dropzone",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The Rutgers psychologists' findings show that the various physical attributes of flowers combine to directly affect our emotions through multi-channel interactions. We have evolved preferences for the particular colours, textures, patterned symmetries and specific floral odours which influence our moods. Indeed, previous research has established that popular perfumes, which often have a floral ‘top-note', will actually reduce depression. The origins of these inclinations may well be as the evolutionary theories suggest: the patterned symmetries of flowers can be detected easily as a recognisable signal within a wide variety of visual arrays, and a response to certain colour tones is important in finding ripe fruit against a leafy background. But, claim the Rutgers team, these preferences have long been separated from their primary evolutionary use, and become rewarding to us more generally. Thus plants with preferred colours, shapes and odours – despite having no other products – would therefore be protected and dispersed."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Question 33 (G):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "G",
+                "id": "q7-dropzone",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The Rutgers study suggests that flowers may have actually evolved to exploit their peculiar impact on humans. The team's theory proposes a plant-human co-evolution, or even domestication, based on the intense emotional rewards that flowers provide. The idea that flowering plants, with no known food or other basic survival value to man, have co-evolved with us by exploiting an emotional niche instead, is very much like the scenario presented for the evolution of dogs. Flowers may be the plant equivalent of 'companion animals'. If this is true, then there is a very real sense in which, when you next give flowers, they are using you just as much as you are using them."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–33"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from this list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i. A negative reaction to receiving flowers",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii. Some surprisingly strong responses to flowers",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii. A mutually beneficial relationship?",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv. Becoming more open about personal matters",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v. Some common social functions of flowers",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi. Sensory appeal versus practical purpose of flowers",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii. Bridging the gap between strangers in an enclosed space",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii. An imperfect theory",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落标题匹配（Questions 27–33：Choose the correct heading）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 33
+        },
+        "text": "答案：v（Some common social functions of flowers，花卉的常见社会功能）\n解析：Paragraph A 列举 “安慰、庆祝、求爱、道歉” 等送花场景，核心是 “花卉的社会功能”，与标题 v 一致，因此选 v。\n答案：iv（Becoming more open about personal matters，更愿意分享个人事务）\n解析：Paragraph B 强调 “收花者更愿意回答社交圈及私密对话问题”，核心是 “分享个人事务”，与标题 iv 一致，因此选 iv。\n答案：vii（Bridging the gap between strangers in an enclosed space，缩小封闭空间中陌生人的距离）\n解析：Paragraph C 描述 “电梯中收花者缩小人际距离、促进陌生人交流”，核心是 “封闭空间中陌生人亲近”，与标题 vii 一致，因此选 vii。\n答案：ii（Some surprisingly strong responses to flowers，对花卉的意外强烈反应）\n解析：Paragraph D 提到 “受试者拥抱送花者、邀请家访” 等强烈反应，核心是 “强烈反应”，与标题 ii 一致，因此选 ii。\n答案：viii（An imperfect theory，不完美的理论）\n解析：Paragraph E 指出进化假说的 “缺陷（艳丽花卉多来自无食用植物）”，核心是 “理论不完美”，与标题 viii 一致，因此选 viii。\n答案：vi（Sensory appeal versus practical purpose of flowers，花卉的感官吸引力与实用目的对比）\n解析：Paragraph F 对比 “花卉的感官特征（颜色、纹理）” 与 “原始实用价值（识别食物）”，核心是 “感官与实用对比”，与标题 vi 一致，因此选 vi。\n答案：iii（A mutually beneficial relationship? 互利关系？）\n解析：Paragraph G 提出 “人类利用花卉，花卉也利用人类传播”，核心是 “互利可能”，与标题 iii 一致，因此选 iii。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Paragraph A\n答案：v（Some common social functions of flowers，花卉的常见社会功能）\n解析：Paragraph A 列举 “安慰、庆祝、求爱、道歉” 等送花场景，核心是 “花卉的社会功能”，与标题 v 一致，因此选 v。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Paragraph B\n答案：iv（Becoming more open about personal matters，更愿意分享个人事务）\n解析：Paragraph B 强调 “收花者更愿意回答社交圈及私密对话问题”，核心是 “分享个人事务”，与标题 iv 一致，因此选 iv。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Paragraph C\n答案：vii（Bridging the gap between strangers in an enclosed space，缩小封闭空间中陌生人的距离）\n解析：Paragraph C 描述 “电梯中收花者缩小人际距离、促进陌生人交流”，核心是 “封闭空间中陌生人亲近”，与标题 vii 一致，因此选 vii。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Paragraph D\n答案：ii（Some surprisingly strong responses to flowers，对花卉的意外强烈反应）\n解析：Paragraph D 提到 “受试者拥抱送花者、邀请家访” 等强烈反应，核心是 “强烈反应”，与标题 ii 一致，因此选 ii。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Paragraph E\n答案：viii（An imperfect theory，不完美的理论）\n解析：Paragraph E 指出进化假说的 “缺陷（艳丽花卉多来自无食用植物）”，核心是 “理论不完美”，与标题 viii 一致，因此选 viii。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：Paragraph F\n答案：vi（Sensory appeal versus practical purpose of flowers，花卉的感官吸引力与实用目的对比）\n解析：Paragraph F 对比 “花卉的感官特征（颜色、纹理）” 与 “原始实用价值（识别食物）”，核心是 “感官与实用对比”，与标题 vi 一致，因此选 vi。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（7）题目 33：Paragraph G\n答案：iii（A mutually beneficial relationship? 互利关系？）\n解析：Paragraph G 提出 “人类利用花卉，花卉也利用人类传播”，核心是 “互利可能”，与标题 iii 一致，因此选 iii。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "single_choice",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 34–37"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 34–37) and the list of studies below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct studies, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A-C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q8-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The study focused on participants' short-term reaction to receiving flowers."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A the first study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B the second study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C the third study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q9-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Participants were deliberately misled as to the aim of the study."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A the first study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B the second study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C the third study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q10-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Receiving flowers had a notable effect on participants' mental capacities."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A the first study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B the second study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C the third study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q11-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Male and female responses were more uniform than expected."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A the first study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B the second study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C the third study"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 研究匹配（Questions 34–37：A=the first study / B=the second study / C=the third study）",
+        "mode": "group",
+        "questionRange": {
+          "start": 34,
+          "end": 37
+        },
+        "text": "答案：B（the second study，第二项研究）\n解析：定位 Paragraph C 中 “observed participants being handed single flowers... inside an elevator”，电梯场景为即时反应，聚焦 “短期反应”，因此选 B。\n答案：A（the first study，第一项研究）\n解析：定位 Paragraph B 中 “The women were unaware that the study was about the effect of the flowers on their emotions. They were told that it was a study about their daily moods”，明确提到 “隐瞒真实目的，误导受试者”，因此选 A。\n答案：C（the third study，第三项研究）\n解析：定位 Paragraph D 中 “reliable improvements in other measures of cognitive function, like memory”，“cognitive function（认知功能）” 对应 “mental capacities”，因此选 C。\n答案：B（the second study，第二项研究）\n解析：定位 Paragraph C 中 “Contrary to predictions regarding gender differences, both men and women presented with flowers were more likely to smile, to stand closer and to initiate conversation”，“contrary to predictions regarding gender differences” 表明 “反应比预期更一致”，因此选 B。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（1）题目 34：The study focused on participants’ short-term reaction to receiving flowers.（研究聚焦受试者收花的短期反应）\n答案：B（the second study，第二项研究）\n解析：定位 Paragraph C 中 “observed participants being handed single flowers... inside an elevator”，电梯场景为即时反应，聚焦 “短期反应”，因此选 B。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（2）题目 35：Participants were deliberately misled as to the aim of the study.（受试者被故意误导研究目的）\n答案：A（the first study，第一项研究）\n解析：定位 Paragraph B 中 “The women were unaware that the study was about the effect of the flowers on their emotions. They were told that it was a study about their daily moods”，明确提到 “隐瞒真实目的，误导受试者”，因此选 A。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（3）题目 36：Receiving flowers had a notable effect on participants’ mental capacities.（收花对受试者心智能力有显著影响）\n答案：C（the third study，第三项研究）\n解析：定位 Paragraph D 中 “reliable improvements in other measures of cognitive function, like memory”，“cognitive function（认知功能）” 对应 “mental capacities”，因此选 C。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（4）题目 37：Male and female responses were more uniform than expected.（男女性反应比预期更一致）\n答案：B（the second study，第二项研究）\n解析：定位 Paragraph C 中 “Contrary to predictions regarding gender differences, both men and women presented with flowers were more likely to smile, to stand closer and to initiate conversation”，“contrary to predictions regarding gender differences” 表明 “反应比预期更一致”，因此选 B。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 38–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "line-height: 2.5;"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A possible explanation for the appeal of flowers"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "line-height: 2.5;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "It has been suggested that our intense response to flowers originates in prehistoric times. The presence of flowers might indicate a potential source of "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "38"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q12",
+                  "fieldName": "q12",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " in a particular location, and primitive humans would search for such signs when looking for a suitable site to raise their "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "39"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q13",
+                  "fieldName": "q13",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". The interpretation of these signs was essential for the survival of our ancestors. However, the problem with this idea is that the plants producing the most attractive flowers do not usually have fruit which is "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "40"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q14",
+                  "fieldName": "q14",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q14"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q13-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q14-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 摘要填空（Questions 38–40：ONE WORD ONLY）",
+        "mode": "group",
+        "questionRange": {
+          "start": 38,
+          "end": 40
+        },
+        "text": "题目翻译：某处出现花卉可能预示潜在的_\\___\\__来源。\n答案：food（食物）\n解析：定位 Paragraph E 中 “finding them in a particular location predicted future food supplies”，“food supplies” 对应 “source of food”，因此答案为 “food”。\n题目翻译：早期人类寻找合适地点抚育_\\___\\__时，会寻找这类线索。\n答案：children（孩子）\n解析：定位 Paragraph E 中 “possibly a better place to rear children”，“rear children” 对应 “raise their children”，因此答案为 “children”。\n题目翻译：开出最艳丽花朵的植物，通常不结_\\___\\__果实。\n答案：edible（可食用的）\n解析：定位 Paragraph E 中 “the showy flowers which humans seem to find most visually attractive are generally found on those plants which yield no edible products”，“no edible products” 对应 “fruit which is not edible”，因此答案为 “edible”。",
+        "items": [
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（1）题目 38：The presence of flowers might indicate a potential source of \\___\\___ in a particular location.\n题目翻译：某处出现花卉可能预示潜在的_\\___\\__来源。\n答案：food（食物）\n解析：定位 Paragraph E 中 “finding them in a particular location predicted future food supplies”，“food supplies” 对应 “source of food”，因此答案为 “food”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（2）题目 39：primitive humans would search for such signs when looking for a suitable site to raise their \\___\\___.\n题目翻译：早期人类寻找合适地点抚育_\\___\\__时，会寻找这类线索。\n答案：children（孩子）\n解析：定位 Paragraph E 中 “possibly a better place to rear children”，“rear children” 对应 “raise their children”，因此答案为 “children”。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（3）题目 40：the plants producing the most attractive flowers do not usually have fruit which is \\___\\___.\n题目翻译：开出最艳丽花朵的植物，通常不结_\\___\\__果实。\n答案：edible（可食用的）\n解析：定位 Paragraph E 中 “the showy flowers which humans seem to find most visually attractive are generally found on those plants which yield no edible products”，“no edible products” 对应 “fruit which is not edible”，因此答案为 “edible”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-dropzone"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-dropzone"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-dropzone"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-dropzone"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-dropzone"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-dropzone"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-dropzone"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-9-10-11-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-13-14-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-anchor"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i. A negative reaction to receiving flowers"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii. Some surprisingly strong responses to flowers"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii. A mutually beneficial relationship?"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv. Becoming more open about personal matters"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v. Some common social functions of flowers"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi. Sensory appeal versus practical purpose of flowers"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii. Bridging the gap between strangers in an enclosed space"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii. An imperfect theory"
+    }
+  ],
+  "answerKey": {
+    "q1": "v",
+    "q2": "iv",
+    "q3": "vii",
+    "q4": "ii",
+    "q5": "viii",
+    "q6": "vi",
+    "q7": "iii",
+    "q8": "B",
+    "q9": "A",
+    "q10": "C",
+    "q11": "B",
+    "q12": "food",
+    "q13": "children",
+    "q14": "edible"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-dropzone",
+    "q2": "q2-dropzone",
+    "q3": "q3-dropzone",
+    "q4": "q4-dropzone",
+    "q5": "q5-dropzone",
+    "q6": "q6-dropzone",
+    "q7": "q7-dropzone",
+    "q8": "q8-9-10-11-anchor",
+    "q9": "q9-anchor",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-13-14-anchor",
+    "q13": "q13-anchor",
+    "q14": "q14-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ]
+  },
+  "totalQuestions": 14
+}

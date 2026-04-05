@@ -1,0 +1,1837 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-high-201",
+  "meta": {
+    "title": "Multi-tasking and the brain",
+    "category": "P2",
+    "frequency": "high",
+    "originalTitle": "Multi-tasking and the brain 大脑与多任务处理"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Multi-tasking and the brain"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Do you think you're a master of multi-tasking? Think again. Unless you are one of the three percent of super-taskers in the population, research shows that your brain isn't capable of paying close attention to more than one complex task at a time. Researchers who study attention say that effective multi-tasking is beyond most of us. Psychiatrist Edward M Hallowell even describes multi-tasking as 'a mythical activity in which people believe they can perform two or more tasks simultaneously as effectively as they can perform one'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "B"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It is true that you can check your email while eating your lunch, or listen to music while walking. But innate activities like walking, chewing, and breathing do not require you to pay attention, whereas activities such as reading, tapping out a text message, or driving a car do require attention. Why is paying attention to two things at once difficult? 'The brain can perform simultaneous tasks, but attention has capacity limitations,' says Associate Professor Paul E Dux, a cognitive neuroscientist at the University of Queensland in Australia. When you do only one thing at a time, you're better at that task than when you're doing multiple things concurrently."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Take the classic multi-tasking scenario of talking on a mobile phone while driving - an ill-advised activity that many people believe they have mastered. When David Strayer, Professor of Psychology at the University of Utah in the US, and his team observed 56,000 drivers as they approached an intersection, the majority of drivers who were talking on their phone failed to stop in accordance with traffic laws. And it did not matter if the driver was using a handheld or hands-free device. Even with both eyes on the road and both hands on the wheel, drivers' performance was impaired. Strayer's research shows that performance deteriorates drastically when attention is split between tasks: more mistakes are made and it takes longer to complete each activity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The prefrontal cortex is the brain region responsible for choosing what to pay attention to, and for coordinating inputs from other brain areas. By scanning the prefrontal cortex of people while they multi-tasked, scientists at the French Institute of Health and Medical Research in Paris (INSERM) found that when people focused on a single thing, the right and left sides of the prefrontal cortex work together. But when people attempt to perform two things at once, the sides work independently. Neuroscientist Etienne Koechlin says his study demonstrates that while the brain can switch back and forth between two tasks, we might be in great trouble when we try to juggle more than two tasks, simply because we have only two frontal lobes'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "D"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "To the question of whether there is a difference between the sexes, Koechlin's imaging studies uncovered no differences in the ability to switch between tasks in the prefrontal cortices of men or women. But other researchers studying real life scenarios such as finding lost keys, believe there might be some truth to the claim that women are superior multi-taskers. Women have a much better strategy for finding the keys, whereas men tend to jump to it and be far less organised and thorough. 'It's as if they don't stop to reflect and plan for a moment,' says Professor Keith Laws from the University of Hertfordshire in England. But while the ability to develop strategies for coping with the numerous tasks in everyday life could give women an advantage, 'nobody can juggle two, never mind three, \"complex\" tasks at the same time.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "E"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "However, David Strayer's research uncovered that some rare people possess extraordinary multi-tasking ability. These so-called 'super-taskers' exhibit different patterns of brain activity when multi-tasking compared to ordinary people: they show less activity in the prefrontal cortex during multi-tasking, suggesting their brains are functioning with a high level of efficiency. Strayer thinks that pilots of high-performance aircraft, high-end chefs who can cook several meals at the same time to perfection, and elite doctors in hospital emergency rooms might all be more likely to be super-taskers. \"All other things being equal, we suspect that super-taskers will rise to a top position in any occupation that places a high demand on juggling various tasks that demand attention at the same time.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "F"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The ability to multi-task probably comes down to the DNA you inherit from your parents to a large extent, says Strayer. 'You are either born with the neural structure that allows you to overcome the usual multi-tasking challenges, or you aren't. Super-taskers' brains are doing something we can't do.' All in all, these findings may have very real consequences on our lives."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "short_answer",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–19"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 2 has six sections, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each section from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag the correct heading block to the box below each section label."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "cardpool pool-vertical",
+                "id": "pool-headings"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "i",
+                  "label": "i Professions in which super-taskers are likely to be found",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-i",
+                    "data-value": "i"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "ii",
+                  "label": "ii The effects of multi-tasking on neurological structure",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-ii",
+                    "data-value": "ii"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "iii",
+                  "label": "iii A distinction between situations when people can and can’t multi-task",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-iii",
+                    "data-value": "iii"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "iv",
+                  "label": "iv Real multi-tasking is nearly impossible",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-iv",
+                    "data-value": "iv"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "v",
+                  "label": "v Multi-tasking and gender",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-v",
+                    "data-value": "v"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "vi",
+                  "label": "vi The neurological reasons for struggling to manage more things",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-vi",
+                    "data-value": "vi"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "vii",
+                  "label": "vii The ability to multi-task is determined by people’s genes",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-vii",
+                    "data-value": "vii"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-headings",
+                  "value": "viii",
+                  "label": "viii Gender and the structure of the brain",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-viii",
+                    "data-value": "viii"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "hr",
+              "attrs": {
+                "style": "border:0; border-top:1px dashed var(--line); margin:20px 0;"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q1-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "14 Section A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q1",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q1"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q2-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "15 Section B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q2",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q3-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "16 Section C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q3",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q3"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q4-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "17 Section D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q4",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q4"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q5-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "18 Section E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q5",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q5"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q6-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "19 Section F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q6",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q6"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "short_answer",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 20–23"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 20–23) and the list of researchers below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct researcher, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any researcher more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "cardpool pool-vertical",
+                "id": "pool-researchers"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-researchers",
+                  "value": "A",
+                  "label": "A Edward M Hallowell",
+                  "attrs": {
+                    "class": "card",
+                    "id": "card-A",
+                    "data-value": "A",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-researchers",
+                  "value": "B",
+                  "label": "B Paul E Dux",
+                  "attrs": {
+                    "class": "card",
+                    "id": "card-B",
+                    "data-value": "B",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-researchers",
+                  "value": "C",
+                  "label": "C David Strayer",
+                  "attrs": {
+                    "class": "card",
+                    "id": "card-C",
+                    "data-value": "C",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-researchers",
+                  "value": "D",
+                  "label": "D Etienne Koechlin",
+                  "attrs": {
+                    "class": "card",
+                    "id": "card-D",
+                    "data-value": "D",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-researchers",
+                  "value": "E",
+                  "label": "E Keith Laws",
+                  "attrs": {
+                    "class": "card",
+                    "id": "card-E",
+                    "data-value": "E",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "hr",
+              "attrs": {
+                "style": "border:0; border-top:1px dashed var(--line); margin:20px 0;"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q7-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "20 The brain of a good multi-tasker works differently from other people’s."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q7",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q7"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q8-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "21 The rate of error is considerably higher when people multi-task."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q8",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q9-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "22 People are mistaken in their assumption that they can multi-task."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q9",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "label"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q10-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "23 One gender does not seem to pause to consider before taking action."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 24–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "h3",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Super-taskers"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Super-taskers are those of us who possess special multi-tasking ability. They can be found in all professions. People who are pilots, chefs and doctors are often super-taskers, and super-taskers are most likely to achieve a "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q11-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "24"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q11",
+                  "fieldName": "q11",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q11"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " that is high on the career ladder."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Super-taskers typically have to undertake many tasks simultaneously that need their "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q12-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "25"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q12",
+                  "fieldName": "q12",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Genes play an important role in having this capability: these people have a special brain "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q13-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "26"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q13",
+                  "fieldName": "q13",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", which helps them do what we cannot."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "pool-headings",
+      "value": "i",
+      "label": "i Professions in which super-taskers are likely to be found"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "ii",
+      "label": "ii The effects of multi-tasking on neurological structure"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "iii",
+      "label": "iii A distinction between situations when people can and can’t multi-task"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "iv",
+      "label": "iv Real multi-tasking is nearly impossible"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "v",
+      "label": "v Multi-tasking and gender"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "vi",
+      "label": "vi The neurological reasons for struggling to manage more things"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "vii",
+      "label": "vii The ability to multi-task is determined by people’s genes"
+    },
+    {
+      "poolId": "pool-headings",
+      "value": "viii",
+      "label": "viii Gender and the structure of the brain"
+    },
+    {
+      "poolId": "pool-researchers",
+      "value": "A",
+      "label": "A Edward M Hallowell"
+    },
+    {
+      "poolId": "pool-researchers",
+      "value": "B",
+      "label": "B Paul E Dux"
+    },
+    {
+      "poolId": "pool-researchers",
+      "value": "C",
+      "label": "C David Strayer"
+    },
+    {
+      "poolId": "pool-researchers",
+      "value": "D",
+      "label": "D Etienne Koechlin"
+    },
+    {
+      "poolId": "pool-researchers",
+      "value": "E",
+      "label": "E Keith Laws"
+    }
+  ],
+  "answerKey": {
+    "q1": "iv",
+    "q2": "iii",
+    "q3": "vi",
+    "q4": "v",
+    "q5": "i",
+    "q6": "vii",
+    "q7": "c",
+    "q8": "c",
+    "q9": "a",
+    "q10": "e",
+    "q11": "position",
+    "q12": "attention",
+    "q13": "structure"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-anchor",
+    "q9": "q9-anchor",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-anchor",
+    "q13": "q13-anchor"
+  },
+  "fields": {
+    "choiceGroups": [],
+    "textQuestions": [
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10"
+    ]
+  },
+  "totalQuestions": 13
+}

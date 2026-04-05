@@ -1,0 +1,2854 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-medium-154",
+  "meta": {
+    "title": "Decisions, Decisions",
+    "category": "P3",
+    "frequency": "medium",
+    "pdfFilename": "64. P3 - Decisions, Decisions 决策之间【次】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/64. P3 - Decisions, Decisions 决策之间【次】/",
+    "legacyFilename": "64. P3 - Decisions, Decisions 决策之间【次】.html",
+    "questionIntroHtml": "<h3>Questions 27–40</h3>",
+    "originalTitle": "Decisions, Decisions 决策之间"
+  },
+  "explanationKey": "p3-medium-154",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Decisions, decisions!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Research explores when we can make a vital decision quickly and when we need to proceed more deliberately"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A widely recognised legend tells us that in Gordium (in what is now Turkey) in the fourth century BC an oxcart was roped to a pole with a complex knot. It was said that the first person to untie it would become the king of Asia. Unfortunately, a the knot proved impossible to untie. The story continues that when confronted with this problem, rather than deliberating on how to untie the Gordian knot, Alexander, the famous ruler of the Greeks in the ancient world, simply took out his sword and cut it in two – then went on to conquer Asia. Ever since, the notion of a \"Gordian solution\" has referred to the attractiveness of a simple answer to an otherwise intractable problem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Among researchers in the psychology of decision making, however, such solutions have traditionally held little appeal. In particular, the “conflict model” of decision making proposed by psychologists Irving Janis and Leon Mann in their 1977 book Decision Making argued that a complex decision-making process is essential for guarding individuals and groups from the peril of \"group-think”. Decisions made without thoroughly canvassing, surveying, weighing, examining and re-examining relevant information and options would be sub-optimal and often disastrous. One foreign-affairs decision made by a well-known US political leader in the 1960s is typically held up as an example of the perils of inadequate thought, whereas his successful handling of a later crisis is cited as an example of the advantages of careful deliberation. However, examination of these historical events by Peter Suedfield, a psychologist at the University of British Columbia, and Roderick Kramer, a psychologist at the Stanford Graduate School of Business, found little difference in the two decision-making processes; both crises required and received complex consideration by the political administration, but later only the second one was deemed to be effective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In general, however, organisational and political science offer little evidence that complex decisions fare better than simpler ones. In fact, a growing body of work suggests that in many situations simple “snap” decisions will be routinely superior to more complex ones – an idea that gained widespread public appeal with Malcolm Gladwell's best-selling book Blink (2005)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "An article by Ap Dijksterhuis of the University of Amsterdam and his colleagues, “On Making the Right Choice: the Deliberation-without-attention Effect”, runs very much in the spirit of Gladwell's influential text. Its core argument is that to be effective, conscious (deliberative) decision making requires cognitive resources. Because increasingly complex decisions place increasing strain on those resources, the quality of our decisions declines as their complexity increases. In short, complex decisions overrun our cognitive powers. On the other hand, unconscious decision making (what the authors refer to as “deliberation without attention”) requires no cognitive resources, so task complexity does not degrade effectiveness. The seemingly counter-intuitive conclusion is that although conscious thought enhances simple decisions, the opposite holds true for more complex decisions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Dijksterhuis reports four simple but elegant studies supporting this argument. In one, participants assessed the quality of four hypothetical cars by considering either four attributes (a simple task) or twelve attributes (a complex task). Among participants who considered four attributes, those who were allowed to engage in undistracted deliberative thought did better at discriminating between the best and worst cars. Those who were distracted and thus unable to deliberate had to rely on their unconscious thinking and did less well. The opposite pattern emerged when people considered twelve criteria. In this case, conscious deliberation led to inferior discrimination and poor decisions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In another study, Dijksterhuis surveyed people shopping for clothes (“simple” products) and furniture (\"complex” products). Compared with those who said they had deliberated long and hard, shoppers who bought with little conscious deliberation felt less happy with their simple clothing purchases but happier with the complex furniture purchases. Deliberation without attention actually produced better results as the decisions became more complex."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "From there, however, the researchers take a big leap. They write: There is no reason to assume that the deliberation-without-attention effect does not generalise to other types of choices – political, managerial or otherwise. In such cases, it should benefit the individual to think consciously about simple matters and to delegate thinking about more complicated matters to the unconscious."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This radical inference contradicts standard political and managerial theory but doubtless comforts those in politics and management who always find the simple solution to the complex problem an attractive proposition. Indeed, one suspects many of our political leaders already embrace this wisdom."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Still it is here, in the realms of society and its governance, that the more problematic implications of deliberation without attention begin to surface. Variables that can be neatly circumscribed in decisions about shopping lose clarity in a world of group dynamics, social interaction, history and politics. Two pertinent questions arise. First, what counts as a complex decision? And second, what counts as a good outcome?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "As social psychologist Kurt Lewin (1890-1947) noted, a “good” decision that nobody respects is actually bad. His classic studies of decision making showed that participating in deliberative processes makes people more likely to abide by the results. The issue here is that when political decision makers make mistakes, it is their politics, or the relation between their politics and our own, rather than psychology which is at fault."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Gladwell's book and Dijksterhuis's paper are invaluable in pointing out the limitations of the conventional wisdom that decision quality rises with decision-making complexity. But this work still tempts us to believe that decision making is simply a matter of psychology, rather than also a question of politics, ideology and group membership. Avoiding social considerations in a search for general appeal can take us away from enlightenment rather than toward it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions 27–40"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, A, B, C or D."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The legend of the Gordian knot is used to illustrate the idea that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A anyone can solve a difficult problem."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B difficult problems can have easy solutions."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C the solution to any problem requires a lot of thought."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D people who can solve complex problems make good leaders."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The 'conflict model' of decision making proposed by Janis and Mann requires that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A opposing political parties be involved."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B all important facts be considered."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C people be encouraged to have different ideas."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D previous similar situations be thoroughly examined."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to recent thinking reinforced by Malcolm Gladwell, the best decisions"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A involve consultation."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B involve complex thought."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C are made very quickly."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D are the most attractive option."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Dijksterhuis and his colleagues claim in their article that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A our cognitive resources improve as tasks become more complex."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B conscious decision making is negatively affected by task complexity."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C unconscious decision making is a popular approach."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D deliberation without attention defines the way we make decisions."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Dijksterhuis's car study found that, in simple tasks, participants"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A were involved in lengthy discussions."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B found it impossible to make decisions quickly."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C were unable to differentiate between the options."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D could make a better choice when allowed to concentrate."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 单选题（Questions 27–31：Choose A–D）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 27,
+          "end": 31
+        },
+        "text": "答案：B（difficult problems can have easy solutions. 棘手问题可能有简单解法）\n解析：定位 Paragraph 1 中 “the notion of a ‘Gordian solution’ has referred to the attractiveness of a simple answer to an otherwise intractable problem”，“intractable problem” 对应 “difficult problems”，“simple answer” 对应 “easy solutions”，因此选 B。\n答案：B（all important facts be considered. 考量所有重要事实）\n解析：定位 Paragraph 2 中 “Decisions made without thoroughly canvassing, surveying, weighing, examining and re-examining relevant information and options would be sub-optimal and often disastrous”，“thoroughly canvassing... relevant information” 对应 “all important facts be considered”，因此选 B。\n答案：C（are made very quickly. 快速做出的）\n解析：定位 Paragraph 3 中 “a growing body of work suggests that in many situations simple ‘snap’ decisions will be routinely superior to more complex ones – an idea that gained widespread public appeal with Malcolm Gladwell’s best-selling book Blink”，“snap decisions” 对应 “made very quickly”，因此选 C。\n答案：B（conscious decision making is negatively affected by task complexity. 有意识决策受任务复杂度负面影响）\n解析：定位 Paragraph 4 中 “because increasingly complex decisions place increasing strain on those resources, the quality of our decisions declines as their complexity increases”，“quality declines” 对应 “negatively affected”，“task complexity” 对应 “complexity”，因此选 B。\n答案：D（could make a better choice when allowed to concentrate. 专注时能做出更好选择）\n解析：定位 Paragraph 5 中 “Among participants who considered four attributes, those who were allowed to engage in undistracted deliberative thought did better at discriminating between the best and worst cars”，“undistracted deliberative thought” 对应 “concentrate”，“did better” 对应 “make a better choice”，因此选 D。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：The legend of the Gordian knot is used to illustrate the idea that（戈尔迪之结的传说用于说明什么观点？）\n答案：B（difficult problems can have easy solutions. 棘手问题可能有简单解法）\n解析：定位 Paragraph 1 中 “the notion of a ‘Gordian solution’ has referred to the attractiveness of a simple answer to an otherwise intractable problem”，“intractable problem” 对应 “difficult problems”，“simple answer” 对应 “easy solutions”，因此选 B。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：The ‘conflict model’ of decision making proposed by Janis and Mann requires that（贾尼斯与曼提出的 “冲突模型” 要求什么？）\n答案：B（all important facts be considered. 考量所有重要事实）\n解析：定位 Paragraph 2 中 “Decisions made without thoroughly canvassing, surveying, weighing, examining and re-examining relevant information and options would be sub-optimal and often disastrous”，“thoroughly canvassing... relevant information” 对应 “all important facts be considered”，因此选 B。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：According to recent thinking reinforced by Malcolm Gladwell, the best decisions（马尔科姆・格拉德威尔强化的近期观点认为，最佳决策是什么样的？）\n答案：C（are made very quickly. 快速做出的）\n解析：定位 Paragraph 3 中 “a growing body of work suggests that in many situations simple ‘snap’ decisions will be routinely superior to more complex ones – an idea that gained widespread public appeal with Malcolm Gladwell’s best-selling book Blink”，“snap decisions” 对应 “made very quickly”，因此选 C。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Dijksterhuis and his colleagues claim in their article that（迪克斯特休斯及其同事在文章中主张什么？）\n答案：B（conscious decision making is negatively affected by task complexity. 有意识决策受任务复杂度负面影响）\n解析：定位 Paragraph 4 中 “because increasingly complex decisions place increasing strain on those resources, the quality of our decisions declines as their complexity increases”，“quality declines” 对应 “negatively affected”，“task complexity” 对应 “complexity”，因此选 B。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Dijksterhuis’s car study found that, in simple tasks, participants（迪克斯特休斯的汽车实验发现，在简单任务中，受试者如何？）\n答案：D（could make a better choice when allowed to concentrate. 专注时能做出更好选择）\n解析：定位 Paragraph 5 中 “Among participants who considered four attributes, those who were allowed to engage in undistracted deliberative thought did better at discriminating between the best and worst cars”，“undistracted deliberative thought” 对应 “concentrate”，“did better” 对应 “make a better choice”，因此选 D。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q6-7-8-9-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–35"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below using the list of words, A–I, below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-text"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h5",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dijksterhuis's shopping study and its conclusions"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    Using clothing and furniture as examples of different types of purchases, Dijksterhuis questioned shoppers on their satisfaction with what they had bought. People who spent \n                    "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q6",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q6-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q6"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n                    time buying simple clothing items were more satisfied than those who had not. However, when buying furniture, shoppers made \n                    "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q7",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q7-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q7"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n                    purchasing decisions if they didn't think too hard. From this, the researchers concluded that in other choices, perhaps more important than shopping, \n                    "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q8",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q8-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n                    decisions are best made by the unconscious. The writer comments that Dijksterhuis's finding is apparently \n                    "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q9",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q9-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n                    but nonetheless true.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "word-options"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-A",
+                  "label": "A more",
+                  "attrs": {
+                    "id": "word-A",
+                    "class": "draggable-word",
+                    "data-key": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-B",
+                  "label": "B counterintuitive",
+                  "attrs": {
+                    "id": "word-B",
+                    "class": "draggable-word",
+                    "data-key": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-C",
+                  "label": "C simple",
+                  "attrs": {
+                    "id": "word-C",
+                    "class": "draggable-word",
+                    "data-key": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-D",
+                  "label": "D better",
+                  "attrs": {
+                    "id": "word-D",
+                    "class": "draggable-word",
+                    "data-key": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-E",
+                  "label": "E conscious",
+                  "attrs": {
+                    "id": "word-E",
+                    "class": "draggable-word",
+                    "data-key": "E"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-F",
+                  "label": "F obvious",
+                  "attrs": {
+                    "id": "word-F",
+                    "class": "draggable-word",
+                    "data-key": "F"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-G",
+                  "label": "G complex",
+                  "attrs": {
+                    "id": "word-G",
+                    "class": "draggable-word",
+                    "data-key": "G"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-H",
+                  "label": "H less",
+                  "attrs": {
+                    "id": "word-H",
+                    "class": "draggable-word",
+                    "data-key": "H"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-I",
+                  "label": "I worse",
+                  "attrs": {
+                    "id": "word-I",
+                    "class": "draggable-word",
+                    "data-key": "I"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 摘要选词填空（Questions 32–35：Choose A–I）",
+        "mode": "group",
+        "questionRange": {
+          "start": 32,
+          "end": 35
+        },
+        "text": "题目翻译：花_\\___\\__时间购买简单衣物的人，比未花这么多时间的人更满意。\n答案：A（more，更多）\n解析：定位 Paragraph 6 中 “Compared with those who said they had deliberated long and hard, shoppers who bought with little conscious deliberation felt less happy with their simple clothing purchases”，“deliberated long and hard” 对应 “spent more time”，因此选 A。\n题目翻译：但购买家具时，若不深思熟虑，购物者会做出_\\___\\__购买决策。\n答案：D（better，更好的）\n解析：定位 Paragraph 6 中 “Deliberation without attention actually produced better results as the decisions became more complex”，“furniture” 属于复杂决策，“deliberation without attention” 对应 “didn’t think too hard”，“better results” 对应 “better purchasing decisions”，因此选 D。\n题目翻译：研究者据此得出结论，在购物之外可能更重要的其他选择中，\\___\\___决策最好由无意识完成。\n答案：G（complex，复杂的）\n解析：定位 Paragraph 6 中 “it should benefit the individual to think consciously about simple matters and to delegate thinking about more complicated matters to the unconscious”，“more complicated matters” 对应 “complex decisions”，因此选 G。\n题目翻译：作者评论，迪克斯特休斯的发现显然_\\___\\__，但确实成立。\n答案：B（counterintuitive，反直觉的）\n解析：定位 Paragraph 4 中 “The seemingly counter-intuitive conclusion is that although conscious thought enhances simple decisions, the opposite holds true for more complex decisions”，“counter-intuitive conclusion” 对应 “apparently counterintuitive”，因此选 B。",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（1）题目 32：People who spent \\___\\___ time buying simple clothing items were more satisfied than those who had not.\n题目翻译：花_\\___\\__时间购买简单衣物的人，比未花这么多时间的人更满意。\n答案：A（more，更多）\n解析：定位 Paragraph 6 中 “Compared with those who said they had deliberated long and hard, shoppers who bought with little conscious deliberation felt less happy with their simple clothing purchases”，“deliberated long and hard” 对应 “spent more time”，因此选 A。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（2）题目 33：However, when buying furniture, shoppers made \\___\\___ purchasing decisions if they didn’t think too hard.\n题目翻译：但购买家具时，若不深思熟虑，购物者会做出_\\___\\__购买决策。\n答案：D（better，更好的）\n解析：定位 Paragraph 6 中 “Deliberation without attention actually produced better results as the decisions became more complex”，“furniture” 属于复杂决策，“deliberation without attention” 对应 “didn’t think too hard”，“better results” 对应 “better purchasing decisions”，因此选 D。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（3）题目 34：From this, the researchers concluded that in other choices, perhaps more important than shopping, \\___\\___ decisions are best made by the unconscious.\n题目翻译：研究者据此得出结论，在购物之外可能更重要的其他选择中，\\___\\___决策最好由无意识完成。\n答案：G（complex，复杂的）\n解析：定位 Paragraph 6 中 “it should benefit the individual to think consciously about simple matters and to delegate thinking about more complicated matters to the unconscious”，“more complicated matters” 对应 “complex decisions”，因此选 G。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（4）题目 35：The writer comments that Dijksterhuis’s finding is apparently \\___\\___ but nonetheless true.\n题目翻译：作者评论，迪克斯特休斯的发现显然_\\___\\__，但确实成立。\n答案：B（counterintuitive，反直觉的）\n解析：定位 Paragraph 4 中 “The seemingly counter-intuitive conclusion is that although conscious thought enhances simple decisions, the opposite holds true for more complex decisions”，“counter-intuitive conclusion” 对应 “apparently counterintuitive”，因此选 B。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q10-11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 36–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 36–40 on your answer sheet, write"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the views of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the views of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Dijksterhuis's findings agree with existing political and management theories."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Some political leaders seem to use deliberation without attention when making complex decisions."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " All political decisions are complex ones."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " We judge political errors according to our own political beliefs."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Social considerations must be taken into account for any examination of decision making to prove useful."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 判断题（Questions 36–40：YES/NO/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "答案：NO（错误）\n解析：定位 Paragraph 7 中 “This radical inference contradicts standard political and managerial theory”，“contradicts”（矛盾）与题干 “agree with”（一致）描述矛盾，因此判定为 NO。\n答案：YES（正确）\n解析：定位 Paragraph 7 中 “doubtless comforts those in politics and management who always find the simple solution to the complex problem an attractive proposition. Indeed, one suspects many of our political leaders already embrace this wisdom”，“embrace this wisdom” 对应 “use deliberation without attention”，与题干描述一致，因此判定为 YES。\n答案：NOT GIVEN（未提及）\n解析：全文仅讨论 “复杂决策需无意识思考”，未断言 “所有政治决策都是复杂决策”，无相关信息，因此判定为 NOT GIVEN。\n答案：YES（正确）\n解析：定位 Paragraph 8 中 “when political decision makers make mistakes, it is their politics, or the relation between their politics and our own, rather than psychology which is at fault”，“relation between their politics and our own” 对应 “judge according to our own political beliefs”，与题干描述一致，因此判定为 YES。\n答案：YES（正确）\n解析：定位 Paragraph 10 中 “Avoiding social considerations in a search for general appeal can take us away from enlightenment rather than toward it”，明确提到 “忽略社会考量会偏离认知，反之才能有效”，与题干描述一致，因此判定为 YES。",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（1）题目 36：Dijksterhuis’s findings agree with existing political and management theories.（迪克斯特休斯的发现与现有政治和管理理论一致）\n答案：NO（错误）\n解析：定位 Paragraph 7 中 “This radical inference contradicts standard political and managerial theory”，“contradicts”（矛盾）与题干 “agree with”（一致）描述矛盾，因此判定为 NO。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（2）题目 37：Some political leaders seem to use deliberation without attention when making complex decisions.（部分政治领袖在做复杂决策时，似乎采用无意识思考）\n答案：YES（正确）\n解析：定位 Paragraph 7 中 “doubtless comforts those in politics and management who always find the simple solution to the complex problem an attractive proposition. Indeed, one suspects many of our political leaders already embrace this wisdom”，“embrace this wisdom” 对应 “use deliberation without attention”，与题干描述一致，因此判定为 YES。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（3）题目 38：All political decisions are complex ones.（所有政治决策都是复杂决策）\n答案：NOT GIVEN（未提及）\n解析：全文仅讨论 “复杂决策需无意识思考”，未断言 “所有政治决策都是复杂决策”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（4）题目 39：We judge political errors according to our own political beliefs.（我们根据自身政治信仰判断政治错误）\n答案：YES（正确）\n解析：定位 Paragraph 8 中 “when political decision makers make mistakes, it is their politics, or the relation between their politics and our own, rather than psychology which is at fault”，“relation between their politics and our own” 对应 “judge according to our own political beliefs”，与题干描述一致，因此判定为 YES。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（5）题目 40：Social considerations must be taken into account for any examination of decision making to prove useful.（任何决策研究若要有效，必须纳入社会考量）\n答案：YES（正确）\n解析：定位 Paragraph 10 中 “Avoiding social considerations in a search for general appeal can take us away from enlightenment rather than toward it”，明确提到 “忽略社会考量会偏离认知，反之才能有效”，与题干描述一致，因此判定为 YES。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-7-8-9-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-target"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-target"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-target"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "word-options",
+      "value": "word-A",
+      "label": "A more"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-B",
+      "label": "B counterintuitive"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-C",
+      "label": "C simple"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-D",
+      "label": "D better"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-E",
+      "label": "E conscious"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-F",
+      "label": "F obvious"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-G",
+      "label": "G complex"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-H",
+      "label": "H less"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-I",
+      "label": "I worse"
+    }
+  ],
+  "answerKey": {
+    "q1": "B",
+    "q2": "B",
+    "q3": "C",
+    "q4": "B",
+    "q5": "D",
+    "q6": "A",
+    "q7": "D",
+    "q8": "G",
+    "q9": "B",
+    "q10": "NO",
+    "q11": "YES",
+    "q12": "NOT GIVEN",
+    "q13": "YES",
+    "q14": "YES"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-anchor",
+    "q6": "q6-7-8-9-anchor",
+    "q7": "q7-target",
+    "q8": "q8-target",
+    "q9": "q9-target",
+    "q10": "q10-11-12-13-14-anchor",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q6",
+      "q7",
+      "q8",
+      "q9"
+    ]
+  },
+  "totalQuestions": 14
+}

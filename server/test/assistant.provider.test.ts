@@ -1,7 +1,19 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
+const hoisted = vi.hoisted(() => {
+  const invokeMock = vi.fn().mockResolvedValue({ content: 'LLM response text' })
+  const ChatOpenAIMock = vi.fn(function MockChatOpenAI(this: { invoke: typeof invokeMock }, config: Record<string, unknown>) {
+    this.invoke = invokeMock
+    return this
+  })
+  return { ChatOpenAIMock, invokeMock }
+})
+
+vi.mock('@langchain/openai', () => ({
+  ChatOpenAI: hoisted.ChatOpenAIMock
+}))
+
 const ORIGINAL_ENV = { ...process.env }
-const ORIGINAL_FETCH = global.fetch
 
 async function loadProviderModule() {
   vi.resetModules()
@@ -11,12 +23,14 @@ async function loadProviderModule() {
 describe('assistant provider selection', () => {
   beforeEach(() => {
     process.env = { ...ORIGINAL_ENV }
+    hoisted.invokeMock.mockReset()
+    hoisted.invokeMock.mockResolvedValue({ content: 'LLM response text' })
+    hoisted.ChatOpenAIMock.mockClear()
   })
 
   afterEach(() => {
     process.env = { ...ORIGINAL_ENV }
-    global.fetch = ORIGINAL_FETCH
-    vi.restoreAllMocks()
+    vi.clearAllMocks()
   })
 
   it('uses OpenRouter-specific headers when openrouter is configured', async () => {
@@ -27,23 +41,8 @@ describe('assistant provider selection', () => {
     process.env.LLM_APP_URL = 'http://localhost:5175'
     process.env.LLM_APP_NAME = 'IELTS Reading Past Papers'
 
-    const fetchMock = vi.fn().mockResolvedValue(
-      new Response(JSON.stringify({
-        choices: [
-          {
-            message: {
-              content: 'OpenRouter response'
-            }
-          }
-        ]
-      }), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
-      })
-    )
-
     const { createAssistantChatProvider } = await loadProviderModule()
-    const provider = createAssistantChatProvider(fetchMock as typeof fetch)
+    const provider = createAssistantChatProvider()
 
     expect(provider).not.toBeNull()
 
@@ -52,19 +51,20 @@ describe('assistant provider selection', () => {
       user: 'User prompt'
     })
 
-    expect(fetchMock).toHaveBeenCalledOnce()
-
-    const [url, requestInit] = fetchMock.mock.calls[0] as [URL, RequestInit]
-    expect(url.toString()).toBe('https://openrouter.ai/api/v1/chat/completions')
-    expect(requestInit.headers).toMatchObject({
-      'Authorization': 'Bearer openrouter-test-key',
-      'Content-Type': 'application/json',
-      'HTTP-Referer': 'http://localhost:5175',
-      'X-Title': 'IELTS Reading Past Papers'
-    })
-
-    const body = JSON.parse(String(requestInit.body))
-    expect(body.model).toBe('stepfun/step-3.5-flash:free')
+    expect(hoisted.invokeMock).toHaveBeenCalledOnce()
+    expect(hoisted.ChatOpenAIMock).toHaveBeenCalledWith(
+      expect.objectContaining({
+        apiKey: 'openrouter-test-key',
+        model: 'stepfun/step-3.5-flash:free',
+        configuration: expect.objectContaining({
+          baseURL: 'https://openrouter.ai/api/v1',
+          defaultHeaders: expect.objectContaining({
+            'HTTP-Referer': 'http://localhost:5175',
+            'X-Title': 'IELTS Reading Past Papers'
+          })
+        })
+      })
+    )
   })
 
   it('uses Coding Plan defaults and omits OpenRouter-only headers', async () => {
@@ -75,23 +75,8 @@ describe('assistant provider selection', () => {
     process.env.LLM_APP_URL = 'http://localhost:5175'
     process.env.LLM_APP_NAME = 'IELTS Reading Past Papers'
 
-    const fetchMock = vi.fn().mockResolvedValue(
-      new Response(JSON.stringify({
-        choices: [
-          {
-            message: {
-              content: 'Coding Plan response'
-            }
-          }
-        ]
-      }), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
-      })
-    )
-
     const { createAssistantChatProvider } = await loadProviderModule()
-    const provider = createAssistantChatProvider(fetchMock as typeof fetch)
+    const provider = createAssistantChatProvider()
 
     expect(provider).not.toBeNull()
 
@@ -100,21 +85,15 @@ describe('assistant provider selection', () => {
       user: 'User prompt'
     })
 
-    expect(fetchMock).toHaveBeenCalledOnce()
-
-    const [url, requestInit] = fetchMock.mock.calls[0] as [URL, RequestInit]
-    expect(url.toString()).toBe('https://coding.dashscope.aliyuncs.com/v1/chat/completions')
-
-    const headers = requestInit.headers as Record<string, string>
-    expect(headers).toMatchObject({
-      'Authorization': 'Bearer coding-plan-test-key',
-      'Content-Type': 'application/json'
+    expect(hoisted.invokeMock).toHaveBeenCalledOnce()
+    const firstCall = hoisted.ChatOpenAIMock.mock.calls[0]?.[0] as Record<string, unknown>
+    expect(firstCall?.configuration).toMatchObject({
+      baseURL: 'https://coding.dashscope.aliyuncs.com/v1'
     })
+    const headers = (firstCall?.configuration as { defaultHeaders?: Record<string, string> })?.defaultHeaders ?? {}
     expect(headers['HTTP-Referer']).toBeUndefined()
     expect(headers['X-Title']).toBeUndefined()
-
-    const body = JSON.parse(String(requestInit.body))
-    expect(body.model).toBe('qwen3.5-plus')
+    expect(firstCall?.model).toBe('qwen3.5-plus')
   })
 
   it('returns null when the LLM API key is missing', async () => {

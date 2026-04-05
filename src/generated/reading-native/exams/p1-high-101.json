@@ -1,0 +1,1984 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-high-101",
+  "meta": {
+    "title": "The Impact of the Potato",
+    "category": "P1",
+    "frequency": "high",
+    "pdfFilename": "19. P1 - The Impact of the Potato 土豆的影响【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/19. P1 - The Impact of the Potato 土豆的影响【高】/",
+    "legacyFilename": "19. P1 - The Impact of the Potato 土豆的影响【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "The Impact of the Potato 土豆的影响"
+  },
+  "explanationKey": "p1-high-101",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Impact of the Potato"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "i",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Jeff Chapman relates the story of history's most important vegetable"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The potato was first cultivated in South America between three and seven thousand years ago, though scientists believe they may have grown wild in the region as long as 13,000 years ago. The genetic patterns of potato distribution indicate that the potato probably originated in the mountainous west-central region of the continent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Early Spanish chroniclers who misused the Indian word batata (sweet potato) as the name for the potato noted the importance of the tuber to the Incan Empire. The Incas had learned to preserve the potato for storage by dehydrating and mashing potatoes into a substance called chuño, which could be stored in a room for up to 10 years, providing excellent insurance against possible crop failures. As well as using the food as a staple crop, the Incas thought potatoes made childbirth easier and used them to treat injuries."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold, and noted Inca miners eating chuño. At the time the Spaniards failed to realize that the potato represented a far more important treasure than either silver or gold, but they did gradually begin to use potatoes as basic rations aboard their ships. After the arrival of the potato in Spain in 1570, a few Spanish farmers began to cultivate them on a small scale, mostly as food for livestock."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Throughout Europe, potatoes were regarded with suspicion, distaste and fear. Generally considered to be unfit for human consumption, they were used only as animal fodder and sustenance for the starving. In northern Europe, potatoes were primarily grown in botanical gardens as an exotic novelty. Even peasants refused to eat from a plant that produced ugly, misshapen tubers and that had come from a heathen civilization. Some felt that the potato plant's resemblance to plants in the nightshade family hinted that it was the creation of witches or devils."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In meat-loving England, farmers and urban workers regarded potatoes with extreme distaste. In 1662, the Royal Society recommended the cultivation of the tuber to the English government and the nation, but this recommendation had little impact. Potatoes did not become a staple until, during the food shortages associated with the Revolutionary Wars, the English government began to officially encourage potato cultivation. In 1795, the Board of Agriculture issued a pamphlet entitled \"Hints Respecting the Culture and Use of Potatoes”; this was followed shortly by pro-potato editorials and potato recipes in The Times. Gradually, the lower classes began to follow the lead of the upper classes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A similar pattern emerged across the English Channel in the Netherlands, Belgium and France. While the potato slowly gained ground in eastern France (where it was often the only crop remaining after marauding soldiers plundered wheat fields and vineyards), it did not achieve widespread acceptance until the late 1700s. The peasants remained suspicious, in spite of a 1771 paper from the Faculté de Paris testifying that the potato was not harmful but beneficial. The people began to overcome their distaste when the plant received the royal seal of approval: Louis XVI began to sport a potato flower in his buttonhole, and Marie-Antoinette wore a purple potato blossom in her hair."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Frederick the Great of Prussia saw the potato's potential to help feed his nation and lower the price of bread, but faced the challenge of overcoming the people's prejudice against the plant. When he issued a 1774 order for his subjects to grow potatoes as protection against famine, the town of Kolberg replied: “The things have neither smell nor taste, not even the dogs will eat them, so what use are they to us?” Trying a less direct approach to encourage his subjects to begin planting potatoes, Frederick used a bit of reverse psychology: he planted a royal field of potato plants and stationed a heavy guard to protect this field from thieves. Nearby peasants naturally assumed that anything worth guarding was worth stealing, and so sneaked into the field and snatched the plants for their home gardens. Of course, this was entirely in line with Frederick's wishes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Historians debate whether the potato was primarily a cause or an effect of the huge population boom in industrial-era England and Wales. Prior to 1800, the English diet had consisted primarily of meat, supplemented by bread, butter and cheese. Few vegetables were consumed, most vegetables being regarded as nutritionally worthless and potentially harmful. This view began to change gradually in the late 1700s. The Industrial Revolution was drawing an ever-increasing percentage of the populace into crowded cities, where only the richest could afford homes with ovens or coal storage rooms, and people were working 12–16-hour days which left them with little time or energy to prepare food. High-yielding, easily prepared potato crops were the obvious solution to England's food problems."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Whereas most of their neighbours regarded the potato with suspicion and had to be persuaded to use it by the upper classes, the Irish peasantry embraced the tuber more passionately than anyone since the Incas. The potato was well suited to the Irish soil and climate, and its high yield suited the most important concern of most Irish farmers: to feed their families."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The most dramatic example of the potato's potential to alter population patterns occurred in Ireland, where the potato had become a staple by 1800. The Irish population doubled to eight million between 1780 and 1841, this without any significant expansion of industry or reform of agricultural techniques beyond the widespread cultivation of the potato. Though Irish landholding practices were primitive in comparison with those of England, the potato's high yields allowed even the poorest farmers to produce more healthy food than they needed with scarcely any investment or hard labour. Even children could easily plant, harvest and cook potatoes, which of course required no threshing, curing or grinding. The abundance provided by potatoes greatly decreased infant mortality and encouraged early marriage."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–5"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TRUE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if the statement agrees with the information"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FALSE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if the statement contradicts the information"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if there is no information on this\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Early Spanish chroniclers called the potato by the Incan name ‘chuño’."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "tfng-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The purpose of the Spanish coming to Peru was to find potatoes."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "tfng-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Spanish believed that the potato had the same nutrients as other vegetables."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "tfng-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Peasants at that time did not like to eat potatoes because they were ugly."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "tfng-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The popularity of potatoes in the UK was due to food shortages during the war."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "tfng-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 判断题（Questions 1–5：TRUE/FALSE/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 1,
+          "end": 5
+        },
+        "text": "题目翻译：早期西班牙编年史作者用印加语名称 “楚尼奥” 称呼土豆。\n答案：FALSE（错误）\n解析：定位 Paragraph 2 中 “Early Spanish chroniclers who misused the Indian word batata (sweet potato) as the name for the potato”，明确提到西班牙人误用 “batata（甘薯）” 称呼土豆，而非 “chuño（楚尼奥，印加人对土豆制品的称呼）”，与题干描述矛盾，因此判定为 FALSE。\n题目翻译：西班牙人前往秘鲁的目的是寻找土豆。\n答案：FALSE（错误）\n解析：定位 Paragraph 3 中 “The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold”，明确提到西班牙人前往秘鲁是为 “寻找黄金”，而非土豆，与题干描述矛盾，因此判定为 FALSE。\n题目翻译：西班牙人认为土豆与其他蔬菜营养价值相同。\n答案：NOT GIVEN（未提及）\n解析：文章仅提到西班牙人将土豆作为 “牲畜饲料”，未涉及 “土豆与其他蔬菜的营养价值比较”，无相关信息，因此判定为 NOT GIVEN。\n题目翻译：当时的农民因土豆丑陋而不愿食用。\n答案：TRUE（正确）\n解析：定位 Paragraph 4 中 “Even peasants refused to eat from a plant that produced ugly, misshapen tubers”，“did not like to eat” 对应 “refused to eat”，明确提到农民因土豆块茎丑陋而拒绝食用，与题干描述一致，因此判定为 TRUE。\n题目翻译：土豆在英国的流行源于战争期间的粮食短缺。\n答案：TRUE（正确）\n解析：定位 Paragraph 5 中 “Potatoes did not become a staple until, during the food shortages associated with the Revolutionary Wars, the English government began to officially encourage potato cultivation”，明确提到战争粮食短缺促使英国政府推广土豆，进而使其流行，与题干描述一致，因此判定为 TRUE。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "（1）题目 1：Early Spanish chroniclers called the potato by the Incan name ‘chuño’.\n题目翻译：早期西班牙编年史作者用印加语名称 “楚尼奥” 称呼土豆。\n答案：FALSE（错误）\n解析：定位 Paragraph 2 中 “Early Spanish chroniclers who misused the Indian word batata (sweet potato) as the name for the potato”，明确提到西班牙人误用 “batata（甘薯）” 称呼土豆，而非 “chuño（楚尼奥，印加人对土豆制品的称呼）”，与题干描述矛盾，因此判定为 FALSE。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "（2）题目 2：The purpose of the Spanish coming to Peru was to find potatoes.\n题目翻译：西班牙人前往秘鲁的目的是寻找土豆。\n答案：FALSE（错误）\n解析：定位 Paragraph 3 中 “The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold”，明确提到西班牙人前往秘鲁是为 “寻找黄金”，而非土豆，与题干描述矛盾，因此判定为 FALSE。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "（3）题目 3：The Spanish believed that the potato had the same nutrients as other vegetables.\n题目翻译：西班牙人认为土豆与其他蔬菜营养价值相同。\n答案：NOT GIVEN（未提及）\n解析：文章仅提到西班牙人将土豆作为 “牲畜饲料”，未涉及 “土豆与其他蔬菜的营养价值比较”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "（4）题目 4：Peasants at that time did not like to eat potatoes because they were ugly.\n题目翻译：当时的农民因土豆丑陋而不愿食用。\n答案：TRUE（正确）\n解析：定位 Paragraph 4 中 “Even peasants refused to eat from a plant that produced ugly, misshapen tubers”，“did not like to eat” 对应 “refused to eat”，明确提到农民因土豆块茎丑陋而拒绝食用，与题干描述一致，因此判定为 TRUE。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "（5）题目 5：The popularity of potatoes in the UK was due to food shortages during the war.\n题目翻译：土豆在英国的流行源于战争期间的粮食短缺。\n答案：TRUE（正确）\n解析：定位 Paragraph 5 中 “Potatoes did not become a staple until, during the food shortages associated with the Revolutionary Wars, the English government began to officially encourage potato cultivation”，明确提到战争粮食短缺促使英国政府推广土豆，进而使其流行，与题干描述一致，因此判定为 TRUE。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "short_answer",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q6-7-8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 6–13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the sentences below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In France, people began to overcome their disgust towards potatoes because the King put a potato "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q6",
+                      "fieldName": "q6",
+                      "attrs": {
+                        "name": "q6",
+                        "class": "blank",
+                        "id": "q6_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in his buttonhole."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Frederick realised the potential of the potato, but he had to handle the "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "name": "q7",
+                        "class": "blank",
+                        "id": "q7_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " from ordinary people."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The King of Prussia adopted a form of "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "name": "q8",
+                        "class": "blank",
+                        "id": "q8_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " psychology to make people accept potatoes."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Before 1800, English people preferred eating "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "name": "q9",
+                        "class": "blank",
+                        "id": "q9_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " with bread, butter and cheese."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The obvious way to deal with England's food problems was high-yielding potato "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "name": "q10",
+                        "class": "blank",
+                        "id": "q10_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Irish "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "name": "q11",
+                        "class": "blank",
+                        "id": "q11_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " and climate suited potatoes well."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Between 1780 and 1841, thanks to the "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "name": "q12",
+                        "class": "blank",
+                        "id": "q12_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " of the potato, the Irish population doubled to eight million."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The potato's high yields helped the poorest farmers to produce more healthy food almost without "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "name": "q13",
+                        "class": "blank",
+                        "id": "q13_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 句子填空（Questions 6–13：ONE WORD ONLY）",
+        "mode": "group",
+        "questionRange": {
+          "start": 6,
+          "end": 13
+        },
+        "text": "题目翻译：在法国，人们开始克服对土豆的厌恶，因为国王将土豆_\\___\\__别在扣眼中。\n答案：flower（花）\n解析：定位 Paragraph 6 中 “Louis XVI began to sport a potato flower in his buttonhole”，明确提到路易十六将土豆花别在扣眼，因此答案为 “flower”。\n题目翻译：腓特烈意识到土豆的潜力，但他必须应对普通民众的_\\___\\__。\n答案：prejudice（偏见）\n解析：定位 Paragraph 7 中 “Frederick the Great of Prussia saw the potato’s potential... but faced the challenge of overcoming the people’s prejudice against the plant”，“handle” 对应 “overcoming”，明确提到需应对民众的偏见，因此答案为 “prejudice”。\n题目翻译：普鲁士国王采用了一种_\\___\\__心理策略，让民众接受土豆。\n答案：reverse（反向）\n解析：定位 Paragraph 7 中 “Trying a less direct approach... Frederick used a bit of reverse psychology”，明确提到腓特烈使用 “反向心理”，因此答案为 “reverse”。\n题目翻译：1800 年前，英国人偏爱将_\\___\\__与面包、黄油和奶酪一同食用。\n答案：meat（肉类）\n解析：定位 Paragraph 8 中 “Prior to 1800, the English diet had consisted primarily of meat, supplemented by bread, butter and cheese”，“preferred eating” 对应 “consisted primarily of”，明确提到英国人以肉类为主食，因此答案为 “meat”。\n题目翻译：解决英国粮食问题的明显方法是种植高产的土豆_\\___\\__。\n答案：crops（作物）\n解析：定位 Paragraph 8 中 “High-yielding, easily prepared potato crops were the obvious solution to England’s food problems”，明确提到 “土豆作物” 是解决方案，因此答案为 “crops”。\n题目翻译：爱尔兰的_\\___\\__和气候非常适合土豆生长。\n答案：soil（土壤）\n解析：定位 Paragraph 9 中 “The potato was well suited to the Irish soil and climate”，明确提到土豆适配爱尔兰的土壤和气候，因此答案为 “soil”。\n题目翻译：1780-1841 年间，得益于土豆的_\\___\\__，爱尔兰人口翻倍至 800 万。\n答案：cultivation（种植）\n解析：定位 Paragraph 10 中 “this without any significant expansion of industry or reform of agricultural techniques beyond the widespread cultivation of the potato”，“thanks to” 对应 “beyond”，明确提到人口增长源于土豆的广泛种植，因此答案为 “cultivation”。\n题目翻译：土豆的高产让最贫困的农民几乎无需_\\___\\__，就能产出更多健康食物。\n答案：investment（投入）\n解析：定位 Paragraph 10 中 “the potato’s high yields allowed even the poorest farmers to produce more healthy food than they needed with scarcely any investment or hard labour”，“almost without” 对应 “scarcely any”，明确提到无需大量投入，因此答案为 “investment”。",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "（1）题目 6：In France, people began to overcome their disgust towards potatoes because the King put a potato \\___\\___ in his buttonhole.\n题目翻译：在法国，人们开始克服对土豆的厌恶，因为国王将土豆_\\___\\__别在扣眼中。\n答案：flower（花）\n解析：定位 Paragraph 6 中 “Louis XVI began to sport a potato flower in his buttonhole”，明确提到路易十六将土豆花别在扣眼，因此答案为 “flower”。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "（2）题目 7：Frederick realised the potential of the potato, but he had to handle the \\___\\___ from ordinary people.\n题目翻译：腓特烈意识到土豆的潜力，但他必须应对普通民众的_\\___\\__。\n答案：prejudice（偏见）\n解析：定位 Paragraph 7 中 “Frederick the Great of Prussia saw the potato’s potential... but faced the challenge of overcoming the people’s prejudice against the plant”，“handle” 对应 “overcoming”，明确提到需应对民众的偏见，因此答案为 “prejudice”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "（3）题目 8：The King of Prussia adopted a form of \\___\\___ psychology to make people accept potatoes.\n题目翻译：普鲁士国王采用了一种_\\___\\__心理策略，让民众接受土豆。\n答案：reverse（反向）\n解析：定位 Paragraph 7 中 “Trying a less direct approach... Frederick used a bit of reverse psychology”，明确提到腓特烈使用 “反向心理”，因此答案为 “reverse”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "（4）题目 9：Before 1800, English people preferred eating \\___\\___ with bread, butter and cheese.\n题目翻译：1800 年前，英国人偏爱将_\\___\\__与面包、黄油和奶酪一同食用。\n答案：meat（肉类）\n解析：定位 Paragraph 8 中 “Prior to 1800, the English diet had consisted primarily of meat, supplemented by bread, butter and cheese”，“preferred eating” 对应 “consisted primarily of”，明确提到英国人以肉类为主食，因此答案为 “meat”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "（5）题目 10：The obvious way to deal with England’s food problems was high-yielding potato \\___\\___.\n题目翻译：解决英国粮食问题的明显方法是种植高产的土豆_\\___\\__。\n答案：crops（作物）\n解析：定位 Paragraph 8 中 “High-yielding, easily prepared potato crops were the obvious solution to England’s food problems”，明确提到 “土豆作物” 是解决方案，因此答案为 “crops”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 11,
+            "text": "（6）题目 11：The Irish \\___\\___ and climate suited potatoes well.\n题目翻译：爱尔兰的_\\___\\__和气候非常适合土豆生长。\n答案：soil（土壤）\n解析：定位 Paragraph 9 中 “The potato was well suited to the Irish soil and climate”，明确提到土豆适配爱尔兰的土壤和气候，因此答案为 “soil”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 12,
+            "text": "（7）题目 12：Between 1780 and 1841, thanks to the \\___\\___ of the potato, the Irish population doubled to eight million.\n题目翻译：1780-1841 年间，得益于土豆的_\\___\\__，爱尔兰人口翻倍至 800 万。\n答案：cultivation（种植）\n解析：定位 Paragraph 10 中 “this without any significant expansion of industry or reform of agricultural techniques beyond the widespread cultivation of the potato”，“thanks to” 对应 “beyond”，明确提到人口增长源于土豆的广泛种植，因此答案为 “cultivation”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 13,
+            "text": "（8）题目 13：The potato’s high yields helped the poorest farmers to produce more healthy food almost without \\___\\___.\n题目翻译：土豆的高产让最贫困的农民几乎无需_\\___\\__，就能产出更多健康食物。\n答案：investment（投入）\n解析：定位 Paragraph 10 中 “the potato’s high yields allowed even the poorest farmers to produce more healthy food than they needed with scarcely any investment or hard labour”，“almost without” 对应 “scarcely any”，明确提到无需大量投入，因此答案为 “investment”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6-7-8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "FALSE",
+    "q2": "FALSE",
+    "q3": "NOT GIVEN",
+    "q4": "TRUE",
+    "q5": "TRUE",
+    "q6": "flower",
+    "q7": "prejudice",
+    "q8": "reverse",
+    "q9": "meat",
+    "q10": "crops",
+    "q11": "soil",
+    "q12": "cultivation",
+    "q13": "investment"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-anchor",
+    "q6": "q6-7-8-9-10-11-12-13-anchor",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

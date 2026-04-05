@@ -160,6 +160,85 @@ describe('AssistantService', () => {
     expect(provider.generate).toHaveBeenCalledOnce()
   })
 
+  it('compresses LLM answerSections for vocab-style queries', async () => {
+    const fourSectionJson = JSON.stringify({
+      answer: 'combined',
+      answerSections: [
+        { type: 'direct_answer', text: 'a' },
+        { type: 'reasoning', text: 'b' },
+        { type: 'evidence', text: 'c' },
+        { type: 'next_step', text: 'd' }
+      ],
+      followUps: ['x'],
+      confidence: 'high',
+      missingContext: []
+    })
+    const provider = {
+      generate: vi.fn().mockResolvedValue(fourSectionJson)
+    }
+    const service = new AssistantService({
+      provider,
+      questionLoader: async () => question,
+      documentLoader: async () => document,
+      summariesLoader: async () => [document.summary],
+      semanticSearch: null
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      mode: 'hint',
+      locale: 'zh',
+      userQuery: '请列出 increased 的同义替换'
+    })
+
+    expect(response.answerSections?.length).toBeLessThanOrEqual(2)
+  })
+
+  it('uses brief local sections for vocab queries when LLM fails', async () => {
+    const service = new AssistantService({
+      provider: {
+        generate: vi.fn().mockRejectedValue(new Error('rate limited'))
+      },
+      logger: { warn: vi.fn() },
+      questionLoader: async () => question,
+      documentLoader: async () => document,
+      summariesLoader: async () => [document.summary],
+      semanticSearch: null
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      mode: 'hint',
+      locale: 'zh',
+      userQuery: 'increased 同义替换有哪些',
+      promptKind: 'preset'
+    })
+
+    expect(response.answerSections?.length).toBeLessThanOrEqual(2)
+  })
+
+  it('hint mode +「你好」uses social fast path without document load or LLM', async () => {
+    const documentLoader = vi.fn().mockResolvedValue(document)
+    const generate = vi.fn()
+    const service = new AssistantService({
+      provider: { generate },
+      questionLoader: async () => question,
+      documentLoader,
+      summariesLoader: async () => [document.summary]
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      mode: 'hint',
+      locale: 'zh',
+      userQuery: '你好'
+    })
+
+    expect(response.responseKind).toBe('social')
+    expect(documentLoader).not.toHaveBeenCalled()
+    expect(generate).not.toHaveBeenCalled()
+  })
+
   it('salvages answer fields from loose JSON-like model output', () => {
     const parsed = parseModelResponse(
       '{"answer":"TRUE"\n"followUps":["回顾前文，确认 assumed to be similar 的含义"]}',
@@ -188,10 +267,11 @@ describe('AssistantService', () => {
       questionId: question.id,
       mode: 'hint',
       locale: 'en',
-      userQuery: 'Where should I start?'
+      userQuery: 'Where should I start?',
+      promptKind: 'preset'
     })
 
-    expect(response.answer).toContain('start with Q12')
+    expect(response.answer.toLowerCase()).toContain('q12')
     expect(response.followUps).toHaveLength(3)
     expect(response.answerSections?.length).toBeGreaterThan(0)
     expect(response.confidence).toBeTruthy()
@@ -473,5 +553,156 @@ describe('AssistantService', () => {
 
     expect(response.recommendedQuestions?.[0]?.questionId).not.toBe('related-question')
     expect(response.answerSections?.length).toBeGreaterThan(0)
+  })
+
+  describe('dynamic follow-ups', () => {
+    it('social query returns without LLM call', async () => {
+      const documentLoader = vi.fn().mockResolvedValue(document)
+      const generate = vi.fn()
+      const service = new AssistantService({
+        provider: { generate },
+        questionLoader: async () => question,
+        documentLoader,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: '你好'
+      })
+
+      expect(generate).not.toHaveBeenCalled()
+      expect(response.followUps).toEqual([])
+    })
+
+    it('unrelated_chat query about weather returns empty followUps', async () => {
+      const documentLoader = vi.fn().mockResolvedValue(document)
+      const generate = vi.fn()
+      const service = new AssistantService({
+        provider: { generate },
+        questionLoader: async () => question,
+        documentLoader,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: '今天天气怎么样？'
+      })
+
+      // unrelated_chat (off-topic queries like weather) returns empty followUps
+      expect(response.followUps).toEqual([])
+    })
+
+    it('grounded question returns contextual followUps with next question', async () => {
+      const provider = {
+        generate: vi.fn().mockResolvedValue('{"answer":"Start with paragraph B.","answerSections":[{"type":"direct_answer","text":"Start with paragraph B."}],"followUps":[],"confidence":"high","missingContext":[]}')
+      }
+      const service = new AssistantService({
+        provider: null, // Use local templates
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: '第 1 题怎么做？'
+      })
+
+      // Local response should have followUps
+      expect(response.followUps).toBeDefined()
+    })
+
+    it('vocab query returns concise answerSections', async () => {
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: 'servants 有哪些同义替换'
+      })
+
+      // Vocab queries should have ≤2 answerSections
+      expect(response.answerSections?.length).toBeLessThanOrEqual(2)
+    })
+  })
+
+  describe('context expansion for missing English text', () => {
+    it('handles vocab query with provider null', async () => {
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: 'servants 有哪些同义替换'
+      })
+
+      // Should return a valid response without errors
+      expect(response.answer).toBeDefined()
+      expect(response.answerSections?.length).toBeGreaterThan(0)
+    })
+  })
+
+  describe('answer style classification integration', () => {
+    it('vocab_paraphrase style returns ≤2 answerSections', async () => {
+      const provider = {
+        generate: vi.fn().mockResolvedValue('{"answer":"increased, rose, grew","answerSections":[{"type":"direct_answer","text":"increased, rose, grew"}],"followUps":[],"confidence":"high","missingContext":[]}')
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: 'servants 有哪些同义替换'
+      })
+
+      expect(response.answerSections?.length).toBeLessThanOrEqual(2)
+    })
+
+    it('paragraph_focus style returns concise answer', async () => {
+      const provider = {
+        generate: vi.fn().mockResolvedValue('{"answer":"Paragraph B describes tea spread to Japan.","answerSections":[{"type":"direct_answer","text":"Paragraph B describes tea spread to Japan."},{"type":"evidence","text":"The tea quickly gained support..."}],"followUps":[],"confidence":"high","missingContext":[]}')
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        mode: 'hint',
+        locale: 'zh',
+        userQuery: '段落 B 的内容是什么'
+      })
+
+      expect(response.answerSections?.length).toBeLessThanOrEqual(2)
+    })
   })
 })

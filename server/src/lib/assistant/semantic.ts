@@ -1,90 +1,54 @@
-import { OpenAIEmbeddings } from '@langchain/openai'
-import { env, hasAssistantSemanticSearchConfig } from '../../config/env.js'
+/**
+ * Legacy semantic search interface for backward compatibility.
+ *
+ * New code should use the VectorStoreProvider interface from ./retrieval/index.js
+ */
+
 import type { QuestionSummaryDoc, RagChunk } from '../../types/question-bank.js'
-import { uniqueValues } from '../utils/text.js'
-import { QdrantClient } from '../qdrant/client.js'
+import { getVectorStoreProvider, type VectorStoreProvider } from './retrieval/index.js'
 
-export interface ChunkSemanticSearchInput {
-  questionId: string
-  queryText: string
-  limit: number
-}
-
-export interface SummarySemanticSearchInput {
-  queryText: string
-  limit: number
-  excludeQuestionIds?: string[]
-}
-
+/**
+ * @deprecated Use VectorStoreProvider instead
+ */
 export interface AssistantSemanticSearch {
-  searchChunks(input: ChunkSemanticSearchInput): Promise<RagChunk[]>
-  searchSummaries(input: SummarySemanticSearchInput): Promise<QuestionSummaryDoc[]>
+  searchChunks(input: { questionId: string; queryText: string; limit: number }): Promise<RagChunk[]>
+  searchSummaries(input: { queryText: string; limit: number; excludeQuestionIds?: string[] }): Promise<QuestionSummaryDoc[]>
 }
 
-function buildQuestionFilter(questionId: string) {
-  return {
-    must: [
-      {
-        key: 'questionId',
-        match: {
-          value: questionId
-        }
-      }
-    ]
-  }
-}
+/**
+ * @deprecated Use QdrantAssistantSemanticSearch from ./retrieval/qdrant.js instead
+ */
+export class LegacyQdrantAssistantSemanticSearch implements AssistantSemanticSearch {
+  private readonly provider: VectorStoreProvider
 
-export class QdrantAssistantSemanticSearch implements AssistantSemanticSearch {
-  private readonly embeddings: OpenAIEmbeddings
-  private readonly client: QdrantClient
-
-  constructor(
-    embeddings: OpenAIEmbeddings = new OpenAIEmbeddings({
-      apiKey: env.OPENAI_API_KEY,
-      model: env.OPENAI_EMBED_MODEL
-    }),
-    client: QdrantClient = new QdrantClient()
-  ) {
-    this.embeddings = embeddings
-    this.client = client
+  constructor(provider?: VectorStoreProvider) {
+    this.provider = provider || getVectorStoreProvider()!
   }
 
-  async searchChunks(input: ChunkSemanticSearchInput): Promise<RagChunk[]> {
-    const vector = await this.embeddings.embedQuery(input.queryText)
-    const points = await this.client.searchPoints<RagChunk>(
-      env.QDRANT_COLLECTION_CHUNKS,
-      vector,
-      buildQuestionFilter(input.questionId),
-      input.limit
-    )
-
-    return uniqueValues(points.map((point) => point.payload))
+  async searchChunks(input: { questionId: string; queryText: string; limit: number }): Promise<RagChunk[]> {
+    return this.provider.searchChunks(input)
   }
 
-  async searchSummaries(input: SummarySemanticSearchInput): Promise<QuestionSummaryDoc[]> {
-    const vector = await this.embeddings.embedQuery(input.queryText)
-    const points = await this.client.searchPoints<QuestionSummaryDoc>(
-      env.QDRANT_COLLECTION_SUMMARIES,
-      vector,
-      undefined,
-      Math.max(input.limit * 2, input.limit)
-    )
-
-    const excluded = new Set(input.excludeQuestionIds ?? [])
-
-    return uniqueValues(
-      points
-        .map((point) => point.payload)
-        .filter((summary) => !excluded.has(summary.questionId))
-        .slice(0, input.limit)
-    )
+  async searchSummaries(input: { queryText: string; limit: number; excludeQuestionIds?: string[] }): Promise<QuestionSummaryDoc[]> {
+    return this.provider.searchSummaries(input)
   }
 }
 
+/**
+ * @deprecated Use getVectorStoreProvider() from ./retrieval/index.js instead
+ */
 export function createAssistantSemanticSearch(): AssistantSemanticSearch | null {
-  if (!hasAssistantSemanticSearchConfig()) {
+  const provider = getVectorStoreProvider()
+  if (!provider) {
     return null
   }
 
-  return new QdrantAssistantSemanticSearch()
+  return new LegacyQdrantAssistantSemanticSearch(provider)
+}
+
+/**
+ * Get the underlying provider instance for advanced operations.
+ */
+export function getProvider(): VectorStoreProvider | null {
+  return getVectorStoreProvider()
 }

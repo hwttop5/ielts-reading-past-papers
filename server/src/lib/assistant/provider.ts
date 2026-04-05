@@ -1,4 +1,5 @@
 import { env } from '../../config/env.js'
+import { createReadingChatModel, invokeAssistantPrompt } from './chains/readingRagChain.js'
 
 export interface AssistantPrompt {
   system: string
@@ -9,145 +10,100 @@ export interface AssistantChatProvider {
   generate(prompt: AssistantPrompt): Promise<string>
 }
 
-type AssistantLlmProvider = typeof env.LLM_PROVIDER
-
-interface ChatMessageContentPart {
-  type?: string
-  text?: string
+export interface WebSearchResult {
+  title: string
+  url: string
+  snippet: string
+  sourceType?: string
 }
 
-interface ChatCompletionsResponse {
-  choices?: Array<{
-    message?: {
-      content?: string | ChatMessageContentPart[]
-    }
+export interface WebSearchProvider {
+  search(query: string, numResults?: number): Promise<WebSearchResult[]>
+}
+
+class LangChainAssistantChatProvider implements AssistantChatProvider {
+  constructor(private readonly model: NonNullable<ReturnType<typeof createReadingChatModel>>) {}
+
+  async generate(prompt: AssistantPrompt): Promise<string> {
+    return invokeAssistantPrompt(this.model, prompt)
+  }
+}
+
+export function createAssistantChatProvider(): AssistantChatProvider | null {
+  const model = createReadingChatModel()
+  if (!model) {
+    return null
+  }
+
+  return new LangChainAssistantChatProvider(model)
+}
+
+interface TavilySearchResponse {
+  results: Array<{
+    title: string
+    url: string
+    content: string
+    score?: number
   }>
+  answer?: string
+  query?: string
 }
 
-interface OpenAiCompatibleProviderConfig {
-  provider: AssistantLlmProvider
-  apiKey: string
-  baseUrl: string
-  model: string
-  timeoutMs: number
-  appUrl?: string
-  appName?: string
-}
-
-function withTrailingSlash(value: string): string {
-  return value.endsWith('/') ? value : `${value}/`
-}
-
-function toErrorMessage(error: unknown): string {
-  return error instanceof Error ? error.message : String(error)
-}
-
-function buildResponseText(payload: ChatCompletionsResponse): string {
-  const content = payload.choices?.[0]?.message?.content
-
-  if (typeof content === 'string') {
-    return content.trim()
-  }
-
-  if (Array.isArray(content)) {
-    return content
-      .map((part) => (typeof part?.text === 'string' ? part.text : ''))
-      .join('\n')
-      .trim()
-  }
-
-  return ''
-}
-
-function buildProviderHeaders(config: OpenAiCompatibleProviderConfig) {
-  const headers: Record<string, string> = {
-    'Authorization': `Bearer ${config.apiKey}`,
-    'Content-Type': 'application/json'
-  }
-
-  if (config.provider === 'openrouter') {
-    if (config.appUrl) {
-      headers['HTTP-Referer'] = config.appUrl
-    }
-
-    if (config.appName) {
-      headers['X-Title'] = config.appName
-    }
-  }
-
-  return headers
-}
-
-export class OpenAiCompatibleChatProvider implements AssistantChatProvider {
+export class TavilyWebSearchProvider implements WebSearchProvider {
+  private readonly apiKey: string
   private readonly fetchImpl: typeof fetch
-  private readonly config: OpenAiCompatibleProviderConfig
 
-  constructor(config: OpenAiCompatibleProviderConfig, fetchImpl: typeof fetch = fetch) {
-    this.config = config
+  constructor(apiKey: string, fetchImpl: typeof fetch = fetch) {
+    this.apiKey = apiKey
     this.fetchImpl = fetchImpl
   }
 
-  async generate(prompt: AssistantPrompt): Promise<string> {
+  async search(query: string, numResults: number = 5): Promise<WebSearchResult[]> {
     const controller = new AbortController()
-    const timeout = setTimeout(() => controller.abort(), this.config.timeoutMs)
+    const timeout = setTimeout(() => controller.abort(), 10000)
 
     try {
-      const response = await this.fetchImpl(new URL('chat/completions', withTrailingSlash(this.config.baseUrl)), {
+      const response = await this.fetchImpl('https://api.tavily.com/search', {
         method: 'POST',
         signal: controller.signal,
-        headers: buildProviderHeaders(this.config),
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${this.apiKey}`
+        },
         body: JSON.stringify({
-          model: this.config.model,
-          messages: [
-            { role: 'system', content: prompt.system },
-            { role: 'user', content: prompt.user }
-          ],
-          temperature: 0.3
+          query,
+          num_results: numResults,
+          include_answer: true,
+          search_depth: 'basic'
         })
       })
 
       if (!response.ok) {
         const detail = (await response.text().catch(() => '')).trim()
-        throw new Error(`LLM provider request failed with ${response.status}${detail ? `: ${detail}` : ''}`)
+        throw new Error(`Tavily search request failed with ${response.status}${detail ? `: ${detail}` : ''}`)
       }
 
-      const payload = await response.json() as ChatCompletionsResponse
-      const text = buildResponseText(payload)
-      if (!text) {
-        throw new Error('LLM provider returned an empty assistant response.')
-      }
-
-      return text
+      const payload = await response.json() as TavilySearchResponse
+      return payload.results.slice(0, numResults).map((result) => ({
+        title: result.title,
+        url: result.url,
+        snippet: result.content,
+        sourceType: 'web'
+      }))
     } catch (error) {
       if (error instanceof Error && error.name === 'AbortError') {
-        throw new Error('LLM provider request timed out.')
+        throw new Error('Tavily search request timed out.')
       }
-
-      throw new Error(toErrorMessage(error))
+      throw error
     } finally {
       clearTimeout(timeout)
     }
   }
 }
 
-export function createAssistantChatProvider(fetchImpl: typeof fetch = fetch): AssistantChatProvider | null {
-  if (!env.LLM_API_KEY) {
+export function createWebSearchProvider(fetchImpl: typeof fetch = fetch): WebSearchProvider | null {
+  if (!env.TAVILY_API_KEY) {
     return null
   }
-
-  const config: OpenAiCompatibleProviderConfig = {
-    provider: env.LLM_PROVIDER,
-    apiKey: env.LLM_API_KEY,
-    baseUrl: env.LLM_BASE_URL,
-    model: env.LLM_CHAT_MODEL,
-    timeoutMs: env.LLM_TIMEOUT_MS,
-    appUrl: env.LLM_APP_URL,
-    appName: env.LLM_APP_NAME
-  }
-
-  switch (env.LLM_PROVIDER) {
-    case 'openrouter':
-    case 'coding-plan':
-      return new OpenAiCompatibleChatProvider(config, fetchImpl)
-  }
+  return new TavilyWebSearchProvider(env.TAVILY_API_KEY, fetchImpl)
 }

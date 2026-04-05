@@ -10,6 +10,23 @@ import router from './router'
 
 const app = createApp(App)
 
+// Global error handlers for debugging
+app.config.errorHandler = (err, instance, info) => {
+  console.error('[Vue Global ErrorHandler]', err)
+  console.error('[Error info]', info)
+  console.error('[Component instance]', instance)
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('error', (event) => {
+    console.error('[Window Error]', event.error)
+    console.error('[Error source]', event.filename, event.lineno, event.colno)
+  })
+  window.addEventListener('unhandledrejection', (event) => {
+    console.error('[Unhandled Promise Rejection]', event.reason)
+  })
+}
+
 app.use(createPinia())
 app.use(router)
 app.use(Antd)

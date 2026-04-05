@@ -1,0 +1,3533 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-161",
+  "meta": {
+    "title": "Insect-inspired robots",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "70. P3 - Insect-inspired robots 昆虫机器人【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/70. P3 - Insect-inspired robots 昆虫机器人【高】/",
+    "legacyFilename": "70. P3 - Insect-inspired robots 昆虫机器人【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Insect-inspired robots 昆虫机器人"
+  },
+  "explanationKey": "p3-high-161",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Insect-inspired robots"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A recent conference reports on developments in biorobotics"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " A tiny insect navigates its way across featureless salt-pans. A cockroach successfully works out how to scramble over an obstacle. The mantis shrimp scans its aquatic world through hyperspectral eyes. Using the most basic of equipment and brains tinier than a pin-head, insects constantly solve complex problems of movement, vision and navigation – processing data that would challenge a super-computer. How they do it is driving one of the most exciting new fields of technology – biomimetics and biorobotics, the imitation of insect systems to control man-made machines. Delegates at a recent conference presented some outcomes of their work in this area."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Dr Alex Zelinsky suggested that the method by which wasps use landmarks to find their way back to the nest may one day be part of a system for navigating cars that know where to go. A research team led by Dr Zelinsky has shown that a robot can navigate its way among 50 different landmarks by recognising them individually using a panoramic camera. \"The inspiration came from biology, where wasps use a practical method turn back and look to orient themselves as they emerge from their nest. By flying to and fro, they look at the wasp nest from different angles and perspectives so they can recognise it again,” he explained. The robot's panoramic camera logs the surrounding area and its key landmarks, which are then stored in its computer according to how reliable they are as navigational aids. The landmarks are then scaled, from small to large, so that the robot can recognise whether it is getting closer to or further away from them. Their location is built into a map in its mind, which operates at different scales and instructs the robot whether to turn left or right at a particular mark. The technology provides a general way for a machine to navigate an unknown landscape."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " For three decades, Professor Ruediger Wehner has journeyed from Switzerland to the Sahara Desert where Cataglyphis, a tiny ant with a brain weighing just 0.1 mg, performs acts of navigational genius when it leaves its nest, forages for food and returns successfully. Cataglyphis uses polarised light, caused when air molecules scatter light, to orient and steer itself. Wehner's team found that the ant has a set of specialised photoreceptors along the upper rim of its eyes that detect polarised light, while other receptors perform different navigational tasks. As the sun moves, the ant notes its direction each time it leaves the nest and updates its internal compass. Using other eye receptors it stores a snapshot image of landmarks close to the nest entrance in its eyes and compares this with what it sees as it returns. The ant also has a way of measuring distance travelled, while a path integrator periodically informs the ant of its current position relative to its point of departure. Rather than integrate all the information it receives in its brain, the ant actually performs a number of complex calculations in different organs. Like a super-computer, the ant has many separate sub-routines going on simultaneously. Using the ant's ability to steer by polarised light and to store and reuse landscape images, Wehner and colleagues have built “Sahabot,” a small vehicle that uses polarisers and a CCD camera to store 360° images of its surroundings. It navigates by using polarised sunlight and comparing the current images of landmarks to the ones in its memory."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Professor Robert Michelson had a different desert challenge – to design a flying robot that can not only navigate but also stay aloft and hover in the thin atmosphere of Mars. Drawing inspiration from insect flight, he has gone beyond nature to devise a completely new concept for a flying machine. The “Entomopter” is a sort of double-ended dragonfly whose wings beat reciprocally. Michelson says that the flapping-wing design gives the craft unusually high lift compared with a fixed-wing flyer, enabling it to fly slowly or hover in the thin Martian air – whereas a fixed-wing craft would have to move at more than 400 km/h and could not stop to explore."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Engineer Roger Quinn and entomologist Professor Roy Ritzmann are taking their inspiration from cockroaches. According to Quinn and Ritzmann, the ability of cockroaches to run very fast over rough terrain may one day give rise to a completely new all-terrain vehicle with six legs, or maybe even wheel-like legs called “whegs.” The key to the cockroach's remarkable cross-country performance lies partly in the fact that its legs do a lot of the thinking without having to consult the brain. Quinn and Ritzmann are drawing on cockroach skills to create robotic walkers and control strategies that capture the remarkable capacity of these insects to traverse complex terrain and navigate safely toward goals while avoiding obstacles. The team has already designed a series of robots that run on six legs or on whegs, enabling them to handle surprisingly rugged terrain."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " International experts believe there are tremendous opportunities in biorobotics. However, delegates at the conference had differing visions for the future of the science. While some were concerned that the initial applications of biorobotics may be military, others, such as Dr Barbara Webb, predicted swarms of tiny, cheap, insect-like robots as society's cleaners and collectors. Sonja Kleinlogel hoped the study of the hyperspectral eyes of the mantis shrimp might yield remote sensors that can watch over the environmental health of our oceans. Several delegates were concerned about the ethical implications of biorobotics and urged that close attention be paid to this as the science and technologies develop."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "table_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–32"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has six sections, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which section contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A–F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in the table below."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {
+                                "style": "min-width: 250px;"
+                              },
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "Information"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "27"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " positive and negative possibilities for the use of insect-inspired robots"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "28"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " how perceived size is used as an aid to navigation"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "29"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " an example of decision-making taking place in the limbs"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "30"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a description of a potential aid in space exploration"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "31"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " the range of skills that have inspired biorobotics"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "32"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " how a variety of navigational methods operate at the same time"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落匹配（Questions 27–32：Which section contains the following information?）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "答案：F\n解析：定位 Paragraph F 中 “some were concerned that the initial applications of biorobotics may be military, others... predicted swarms of tiny, cheap, insect-like robots as society’s cleaners and collectors... Several delegates were concerned about the ethical implications”，明确提到 “军事（消极）、清洁（积极）、伦理担忧（消极）”，与题干对应，因此答案为 F。\n答案：B\n解析：定位 Paragraph B 中 “The landmarks are then scaled, from small to large, so that the robot can recognise whether it is getting closer to or further away from them”，明确提到 “通过地标大小判断距离，辅助导航”，与题干对应，因此答案为 B。\n答案：E\n解析：定位 Paragraph E 中 “the key to the cockroach’s remarkable cross-country performance lies partly in the fact that its legs do a lot of the thinking without having to consult the brain”，明确提到 “蟑螂腿部无需大脑指令即可决策”，与题干对应，因此答案为 E。\n答案：D\n解析：定位 Paragraph D 中 “design a flying robot that can not only navigate but also stay aloft and hover in the thin atmosphere of Mars... the ‘Entomopter’... enabling it to fly slowly or hover in the thin Martian air”，明确提到 “火星探索用昆虫飞行器”，与题干对应，因此答案为 D。\n答案：A\n解析：定位 Paragraph A 中 “A tiny insect navigates... A cockroach successfully works out how to scramble over an obstacle. The mantis shrimp scans its aquatic world through hyperspectral eyes”，列举 “导航、越障、视觉” 等多种昆虫技能，与题干对应，因此答案为 A。\n答案：C\n解析：定位 Paragraph C 中 “Cataglyphis uses polarised light... stores a snapshot image of landmarks... a way of measuring distance travelled... a path integrator periodically informs the ant of its current position... the ant actually performs a number of complex calculations in different organs... many separate sub-routines going on simultaneously”，明确提到 “偏振光、地标快照、距离测量等多种导航方式并行”，与题干对应，因此答案为 C。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：positive and negative possibilities for the use of insect-inspired robots（昆虫灵感机器人的积极与消极应用可能）\n答案：F\n解析：定位 Paragraph F 中 “some were concerned that the initial applications of biorobotics may be military, others... predicted swarms of tiny, cheap, insect-like robots as society’s cleaners and collectors... Several delegates were concerned about the ethical implications”，明确提到 “军事（消极）、清洁（积极）、伦理担忧（消极）”，与题干对应，因此答案为 F。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：how perceived size is used as an aid to navigation（感知大小如何用于辅助导航）\n答案：B\n解析：定位 Paragraph B 中 “The landmarks are then scaled, from small to large, so that the robot can recognise whether it is getting closer to or further away from them”，明确提到 “通过地标大小判断距离，辅助导航”，与题干对应，因此答案为 B。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：an example of decision-making taking place in the limbs（肢体自主决策的例子）\n答案：E\n解析：定位 Paragraph E 中 “the key to the cockroach’s remarkable cross-country performance lies partly in the fact that its legs do a lot of the thinking without having to consult the brain”，明确提到 “蟑螂腿部无需大脑指令即可决策”，与题干对应，因此答案为 E。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：a description of a potential aid in space exploration（太空探索潜在辅助工具的描述）\n答案：D\n解析：定位 Paragraph D 中 “design a flying robot that can not only navigate but also stay aloft and hover in the thin atmosphere of Mars... the ‘Entomopter’... enabling it to fly slowly or hover in the thin Martian air”，明确提到 “火星探索用昆虫飞行器”，与题干对应，因此答案为 D。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：the range of skills that have inspired biorobotics（启发仿生机器人的多种技能范围）\n答案：A\n解析：定位 Paragraph A 中 “A tiny insect navigates... A cockroach successfully works out how to scramble over an obstacle. The mantis shrimp scans its aquatic world through hyperspectral eyes”，列举 “导航、越障、视觉” 等多种昆虫技能，与题干对应，因此答案为 A。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：how a variety of navigational methods operate at the same time（多种导航方式如何同时运行）\n答案：C\n解析：定位 Paragraph C 中 “Cataglyphis uses polarised light... stores a snapshot image of landmarks... a way of measuring distance travelled... a path integrator periodically informs the ant of its current position... the ant actually performs a number of complex calculations in different organs... many separate sub-routines going on simultaneously”，明确提到 “偏振光、地标快照、距离测量等多种导航方式并行”，与题干对应，因此答案为 C。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-10-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 33–36"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Answer the questions below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN THREE WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "short-answer-q"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which creature sees particularly well under water?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q7",
+                  "fieldName": "q7",
+                  "attrs": {
+                    "type": "text",
+                    "id": "q33_input",
+                    "name": "q7"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "short-answer-q"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In addition to a computer, what technical equipment is fitted in Dr Zelinsky's robot?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q8",
+                  "fieldName": "q8",
+                  "attrs": {
+                    "type": "text",
+                    "id": "q34_input",
+                    "name": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "short-answer-q"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Where is the Cataglyphis ant found?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q9",
+                  "fieldName": "q9",
+                  "attrs": {
+                    "type": "text",
+                    "id": "q35_input",
+                    "name": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "short-answer-q"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What atmospheric effect helps the Cataglyphis ant to know its direction?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q10",
+                  "fieldName": "q10",
+                  "attrs": {
+                    "type": "text",
+                    "id": "q36_input",
+                    "name": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 简答题（Questions 33–36：NO MORE THAN THREE WORDS）",
+        "mode": "group",
+        "questionRange": {
+          "start": 33,
+          "end": 36
+        },
+        "text": "答案：mantis shrimp（螳螂虾）\n解析：定位 Paragraph A 中 “The mantis shrimp scans its aquatic world through hyperspectral eyes”，“hyperspectral eyes”（高光谱眼睛）表明其水下视力好，因此答案为 “mantis shrimp”。\n答案：(a) panoramic camera（全景相机）\n解析：定位 Paragraph B 中 “A research team led by Dr Zelinsky has shown that a robot can navigate its way among 50 different landmarks by recognising them individually using a panoramic camera”，明确提到 “全景相机”，因此答案为 “(a) panoramic camera”。\n答案：the Sahara Desert（撒哈拉沙漠）\n解析：定位 Paragraph C 中 “journeyed from Switzerland to the Sahara Desert where Cataglyphis... performs acts of navigational genius”，明确提到 “撒哈拉沙漠”，因此答案为 “the Sahara Desert”。\n答案：polarised light（偏振光）\n解析：定位 Paragraph C 中 “Cataglyphis uses polarised light, caused when air molecules scatter light, to orient and steer itself”，明确提到 “偏振光”，因此答案为 “polarised light”。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（1）题目 33：Which creature sees particularly well under water?（哪种生物水下视力特别好？）\n答案：mantis shrimp（螳螂虾）\n解析：定位 Paragraph A 中 “The mantis shrimp scans its aquatic world through hyperspectral eyes”，“hyperspectral eyes”（高光谱眼睛）表明其水下视力好，因此答案为 “mantis shrimp”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（2）题目 34：In addition to a computer, what technical equipment is fitted in Dr Zelinsky’s robot?（除计算机外，泽林斯基博士的机器人还配备什么技术设备？）\n答案：(a) panoramic camera（全景相机）\n解析：定位 Paragraph B 中 “A research team led by Dr Zelinsky has shown that a robot can navigate its way among 50 different landmarks by recognising them individually using a panoramic camera”，明确提到 “全景相机”，因此答案为 “(a) panoramic camera”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（3）题目 35：Where is the Cataglyphis ant found?（猫蚁在哪里被发现？）\n答案：the Sahara Desert（撒哈拉沙漠）\n解析：定位 Paragraph C 中 “journeyed from Switzerland to the Sahara Desert where Cataglyphis... performs acts of navigational genius”，明确提到 “撒哈拉沙漠”，因此答案为 “the Sahara Desert”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（4）题目 36：What atmospheric effect helps the Cataglyphis ant to know its direction?（哪种大气效应帮助猫蚁判断方向？）\n答案：polarised light（偏振光）\n解析：定位 Paragraph C 中 “Cataglyphis uses polarised light, caused when air molecules scatter light, to orient and steer itself”，明确提到 “偏振光”，因此答案为 “polarised light”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "table_completion",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 37–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following people (Questions 37–40) and the list of robots below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each person or people with the correct robot, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "group",
+                "style": "background:var(--bg); padding: 12px; font-size: 0.9em;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Robots"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that makes use of light as well as stored images for navigational purposes"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that can contribute to environmental health"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that can move over difficult surfaces"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that categorises information from the environment according to its usefulness"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that can be used to clean surfaces and collect rubbish"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that has improved on the ability of the insect on which it is based"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " a robot that can replace soldiers in war\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "table",
+              "attrs": {
+                "class": "matching-table"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "thead",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tr",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Person / People"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "E"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "F"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "th",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "G"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "tbody",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tr",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "37"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " Dr Alex Zelinsky"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "A"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "B"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "C"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "D"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "E",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "E"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "F",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "F"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "G",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "G"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tr",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "38"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " Professor Ruediger Wehner"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                           "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "A"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "B"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "C"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "D"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "E",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "E"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "F",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "F"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "G",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "G"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tr",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "39"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " Professor Robert Michelson"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "A"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "B"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "C"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "D"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "E",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "E"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "F",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "F"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "G",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "G"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tr",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "element",
+                              "tag": "strong",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "40"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " Roger Quinn and Professor Roy Ritzmann"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "A"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "B"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "C"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "D"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "E",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "E"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "F",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "F"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "tag": "td",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "G",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "G"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 人物 - 机器人匹配（Questions 37–40：Choose A–G）",
+        "mode": "group",
+        "questionRange": {
+          "start": 37,
+          "end": 40
+        },
+        "text": "答案：D（a robot that categorises information from the environment according to its usefulness. 按实用性分类环境信息的机器人）\n解析：定位 Paragraph B 中 “the robot’s panoramic camera logs the surrounding area and its key landmarks, which are then stored in its computer according to how reliable they are as navigational aids”，“按导航可靠性存储” 对应 “按实用性分类”，因此选 D。\n答案：A（a robot that makes use of light as well as stored images for navigational purposes. 利用光线和存储图像导航的机器人）\n解析：定位 Paragraph C 中 “Sahabot... uses polarisers and a CCD camera to store 360° images of its surroundings. It navigates by using polarised sunlight and comparing the current images of landmarks to the ones in its memory”，“偏振光 + 图像比对” 对应 “light as well as stored images”，因此选 A。\n答案：F（a robot that has improved on the ability of the insect on which it is based. 在模仿昆虫能力基础上改进的机器人）\n解析：定位 Paragraph D 中 “Drawing inspiration from insect flight, he has gone beyond nature to devise a completely new concept for a flying machine... the flapping-wing design gives the craft unusually high lift compared with a fixed-wing flyer”，“突破自然限制、升力更高” 对应 “improved on the ability of the insect”，因此选 F。\n答案：C（a robot that can move over difficult surfaces. 能在复杂表面移动的机器人）\n解析：定位 Paragraph E 中 “the ability of cockroaches to run very fast over rough terrain... the team has already designed a series of robots that run on six legs or on whegs, enabling them to handle surprisingly rugged terrain”，“应对崎岖地形” 对应 “move over difficult surfaces”，因此选 C。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（1）题目 37：Dr Alex Zelinsky（亚历克斯・泽林斯基博士）\n答案：D（a robot that categorises information from the environment according to its usefulness. 按实用性分类环境信息的机器人）\n解析：定位 Paragraph B 中 “the robot’s panoramic camera logs the surrounding area and its key landmarks, which are then stored in its computer according to how reliable they are as navigational aids”，“按导航可靠性存储” 对应 “按实用性分类”，因此选 D。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（2）题目 38：Professor Ruediger Wehner（吕迪格・韦纳教授）\n答案：A（a robot that makes use of light as well as stored images for navigational purposes. 利用光线和存储图像导航的机器人）\n解析：定位 Paragraph C 中 “Sahabot... uses polarisers and a CCD camera to store 360° images of its surroundings. It navigates by using polarised sunlight and comparing the current images of landmarks to the ones in its memory”，“偏振光 + 图像比对” 对应 “light as well as stored images”，因此选 A。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（3）题目 39：Professor Robert Michelson（罗伯特・米歇尔森教授）\n答案：F（a robot that has improved on the ability of the insect on which it is based. 在模仿昆虫能力基础上改进的机器人）\n解析：定位 Paragraph D 中 “Drawing inspiration from insect flight, he has gone beyond nature to devise a completely new concept for a flying machine... the flapping-wing design gives the craft unusually high lift compared with a fixed-wing flyer”，“突破自然限制、升力更高” 对应 “improved on the ability of the insect”，因此选 F。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（4）题目 40：Roger Quinn and Professor Roy Ritzmann（罗杰・奎因与罗伊・里茨曼教授）\n答案：C（a robot that can move over difficult surfaces. 能在复杂表面移动的机器人）\n解析：定位 Paragraph E 中 “the ability of cockroaches to run very fast over rough terrain... the team has already designed a series of robots that run on six legs or on whegs, enabling them to handle surprisingly rugged terrain”，“应对崎岖地形” 对应 “move over difficult surfaces”，因此选 C。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-8-9-10-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q34_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q35_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q36_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q11-12-13-14-anchor"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "F",
+    "q2": "B",
+    "q3": "E",
+    "q4": "D",
+    "q5": "A",
+    "q6": "C",
+    "q7": [
+      "mantis shrimp"
+    ],
+    "q8": [
+      "a panoramic camera",
+      "panoramic camera"
+    ],
+    "q9": [
+      "the sahara desert",
+      "sahara desert"
+    ],
+    "q10": [
+      "polarised light"
+    ],
+    "q11": "D",
+    "q12": "A",
+    "q13": "F",
+    "q14": "C"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q2": "q1-2-3-4-5-6-anchor",
+    "q3": "q1-2-3-4-5-6-anchor",
+    "q4": "q1-2-3-4-5-6-anchor",
+    "q5": "q1-2-3-4-5-6-anchor",
+    "q6": "q1-2-3-4-5-6-anchor",
+    "q7": "q7-8-9-10-anchor",
+    "q33": "q33_input",
+    "q34": "q34_input",
+    "q8": "q34_input",
+    "q35": "q35_input",
+    "q9": "q35_input",
+    "q36": "q36_input",
+    "q10": "q36_input",
+    "q11": "q11-12-13-14-anchor",
+    "q12": "q11-12-13-14-anchor",
+    "q13": "q11-12-13-14-anchor",
+    "q14": "q11-12-13-14-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q7",
+      "q8",
+      "q9",
+      "q10"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 14
+}

@@ -1,0 +1,2964 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-212",
+  "meta": {
+    "title": "Children’s literature studies today 【】",
+    "category": "P3",
+    "frequency": "high",
+    "originalTitle": "Children’s literature studies today 儿童文学【高】"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Children's literature studies today"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Who studies children's literature and what is it that they study? The answers to this question are complex and messy, because of the many confounding factors which exist in this field."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Firstly, unlike literature for adults, children's literature is not generally written by its own readers. Adults write for children, and thus adult perceptions of what children are and of what they could and should become are woven into the literature."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Furthermore, some of those who study children's literature (and those who write certain kinds of children's books) are less interested in literary values than in the kinds of lessons it can teach- either in terms of creating better children or in terms of serving a particular curriculum. The issue of how a teacher can use a children's book is often contentious, but even outside the classroom, much material for children is still didactic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Thirdly, while almost all literature is currently promoted within a strong commercial matrix, children's literature is often especially targeted for marketing initiatives. This fact means that readers are often recruited with a message that is negligibly literary and significantly oriented to ideas of consumption. Daniel Hade (2002) has raised useful questions about whether children's experience of reading is altered when their books are part of a larger marketing framework involving the movie, the game, and the toy of a popular children's book. How children perceive and respond to their stories in this new context is an important question."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It is also important to note that texts in an ever-increasing range of new media compete with print media for the attention of the child reader, and create definitional issues for scholars. Does the term literature' exclusively imply a verbal text? If not, where are the limits? Could a literary computer game ever be considered a work of literature? If not, what kind of attention should be paid to it, since children themselves undoubtedly perceive their print literature as part of a broader continuum? The internet provides one forum through which children now communicate with each other. (In 2003, the internet search engine Google listed 7,920,000 sites relating to the Harry Potter novels; even allowing for duplication and dead ends, that is a number with revolutionary implications.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Finally, in the context of the higher education institutions where the formal study of children's literature is often located, at least three disciplinary frameworks (English, education, and librarianship) fragment the focus of scholarly study of children's literature."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "How is the value of the imaginative encounter with the work of literature sustained and honored among such a welter of conflicting interests? One route through this maze is to ask the child readers for help. As David Lewis (2001) has perceptively noted, what children think of reading is not usually the same as what adults think, whether teachers or parents. As Lewis points out, children 'sometimes see more and they often see differently'. If those who study reading can explore children's perceptions as well as those of adults, their understanding of the nature of reading will be enhanced."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Lewis makes a further valid point when he adds that exploring children's perceptions is usually justified for educational reasons: \"It is true that a better understanding of how children read and how they learn to read, is a prerequisite to improved approaches to teaching. However, it can also be argued, as Lewis rightly does, that when children's responses to literature are accessed and interpreted, they frequently lead to an understanding of how picture books appeal to children."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Young people's accounts of what and how they read also enable a more sophisticated description of many of the complex processes involved in reading. All descriptions of reading runs the risk of solipsism: i.e. this is how I read so this is what reading is for everyone. Asking other readers how they read, however, reduces that risk. For example, if I am a strong visualizer as I read, I may consider that visualization is a key component of successful reading and I may judge books by their capacity to evoke a vivid visual response. Other readers, however, may help me to realize that not everyone reads with mental pictures. Some readers respond to the patterns of the words, 'hearing' them inaudibly like a subliminal radio program. Others respond to the patterns of feelings in the story, responding with an emotional connection. Talking to competent readers, of all ages, provides a better understanding of reading experiences."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Children's insights are even more important when it comes to understanding the significance of print literature as one aspect of literary culture. Too often adults assume that reading any book at all is a more worthwhile experience than playing a digital game of any kind. A humbler approach would include asking why the game appeals to the player. Many adults will probably never develop the automatic skills to process a game as readily as they can read a book. This does not indicate that a book is better, but that a particular set of skills is absent. Non-players must acknowledge that some fictional universes are thus closed to them, and a logical response would be to find someone who can guide them to the pleasures and challenges of the gaming world. Games need to be judged individually just as books do, and any evaluative framework needs to take this into account."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–29"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C or D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q1-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which of the following best summarises the writer's argument in the second paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. Children are portrayed as adults see them."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. Children are unable to write their own stories."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. Adults fail to stimulate children's imaginations."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. Adult literature is too difficult for children."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q2-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the third paragraph, what does the writer say is the main interest of some people who study children's literature?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. the quality of the writing"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. the imaginative content of stories"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. the instructive nature of children's books"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. the way children are written about in stories"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q3-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The main point of the writer's argument in the fifth paragraph is to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. demonstrate that academics consider computer games to be a logical extension of children's literature."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. explore the impact of computers on the boundaries of children's literature."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. illustrate that literature and computer games have different origins."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. prove that children are using computers more than they are reading literature."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 30–34"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "In boxes 30–34 on your answer sheet, write"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style:none; padding-left:0; font-weight:bold; font-size:0.9em;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "YES "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:45px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if the statement agrees with the views of the writer"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:52px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if the statement contradicts the views of the writer"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:8px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if it is impossible to say what the writer thinks about this"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q4-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Children tend to make a clear distinction between print literature and electronic media."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q5-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The study of children's literature at higher education institutions is restricted to one subject area."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q6-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Exploring children's perceptions of reading will assist parents to choose suitable books for children."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q7-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Adults may appreciate the appeal of illustrated stories better, if they have more information on how children read."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q8-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Children should be asked what features they would like digital games to include."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "short_answer",
+      "questionIds": [
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 35–39"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete each sentence with the correct ending, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag the correct ending block to the box below each sentence start."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "cardpool pool-vertical",
+                "id": "pool-endings"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "A",
+                  "label": "A accepting that literature exists in a variety of forms today.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-a",
+                    "data-value": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "B",
+                  "label": "B verbalising the words in their heads.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-b",
+                    "data-value": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "C",
+                  "label": "C discovering the reading techniques used by others.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-c",
+                    "data-value": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "D",
+                  "label": "D the style of written stories changing over time.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-d",
+                    "data-value": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "E",
+                  "label": "E the lack of some specific abilities.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-e",
+                    "data-value": "E"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "F",
+                  "label": "F a deeper knowledge of the intricacies of reading.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-f",
+                    "data-value": "F"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "G",
+                  "label": "G children teaching adults to play computer games.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-g",
+                    "data-value": "G"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "H",
+                  "label": "H creating a variety of images in their minds.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-h",
+                    "data-value": "H"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "hr",
+              "attrs": {
+                "style": "border:0; border-top:1px dashed var(--line); margin:20px 0;"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q9-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Young people's accounts of how they read lead to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q9",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q9",
+                    "data-question": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q10-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The risk of solipsism is reduced by"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q10",
+                    "data-question": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q11-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Strong visualisers judge books on the basis that they are"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q11",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q11",
+                    "data-question": "q11"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q12-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Children's insights are important in"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q12",
+                    "data-question": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q13-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " When adults read a book more easily than they play a digital game, it simply suggests"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q13",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q13",
+                    "data-question": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-4",
+      "kind": "single_choice",
+      "questionIds": [
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Question 40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C or D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q14-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What was the writer's main purpose in writing this article?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q14",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. to evaluate how the process of reading fits into children's literature studies"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q14",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. to discuss the impact of the increasing commercial influence on children's literature studies"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q14",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. to review the challenges in the field of children's literature studies and suggest how to proceed"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q14",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. to provide arguments in favor of including computerized forms in children's literature studies"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-anchor"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "pool-endings",
+      "value": "A",
+      "label": "A accepting that literature exists in a variety of forms today."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "B",
+      "label": "B verbalising the words in their heads."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "C",
+      "label": "C discovering the reading techniques used by others."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "D",
+      "label": "D the style of written stories changing over time."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "E",
+      "label": "E the lack of some specific abilities."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "F",
+      "label": "F a deeper knowledge of the intricacies of reading."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "G",
+      "label": "G children teaching adults to play computer games."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "H",
+      "label": "H creating a variety of images in their minds."
+    }
+  ],
+  "answerKey": {
+    "q1": "a",
+    "q2": "c",
+    "q3": "b",
+    "q4": "no",
+    "q5": "no",
+    "q6": "not given",
+    "q7": "yes",
+    "q8": "not given",
+    "q9": "f",
+    "q10": "c",
+    "q11": "h",
+    "q12": "a",
+    "q13": "e",
+    "q14": "c"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-anchor",
+    "q9": "q9-anchor",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-anchor",
+    "q13": "q13-anchor",
+    "q14": "q14-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ]
+  },
+  "totalQuestions": 14
+}

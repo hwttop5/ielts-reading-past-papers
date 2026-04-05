@@ -155,7 +155,13 @@
               </div>
 
               <div class="pane-content question-content">
-                <article v-for="group in session.exam.questionGroups" :key="group.groupId" class="question-group-card">
+                <article
+                  v-for="group in session.exam?.questionGroups"
+                  :key="group.groupId"
+                  class="question-group-card"
+                  :id="`group-${group.groupId}`"
+                  :data-question-ids="group.questionIds?.join(' ') || ''"
+                >
                   <PracticeNodeRenderer
                     v-if="group.leadNodes.length"
                     :nodes="group.leadNodes"
@@ -208,7 +214,7 @@
                     <div class="review-card-header">
                       <div class="review-card-title">
                         <span class="review-badge">Q{{ questionLabel(entry.questionId) }}</span>
-                        <button class="mini-link" type="button" @click="scrollToAnchor(entry.anchorId)">Jump to question</button>
+                        <button class="mini-link" type="button" @click="scrollToQuestion(entry.questionId, entry.anchorId)">Jump to question</button>
                       </div>
                       <span class="review-status">{{ entry.isCorrect ? 'Correct' : entry.isCorrect === false ? 'Incorrect' : 'Not answered' }}</span>
                     </div>
@@ -252,10 +258,10 @@
           <div class="nav-shell">
             <h3 class="nav-title">Question</h3>
             <div class="nav-grid">
-              <div 
-                v-for="item in session.exam.questionItems" 
-                :key="item.questionId" 
-                class="nav-item" 
+              <div
+                v-for="item in session.exam?.questionItems"
+                :key="item.questionId"
+                class="nav-item"
                 :class="navItemClass(item.questionId)"
                 @click="scrollToQuestion(item.questionId, item.anchorId)"
               >
@@ -313,6 +319,7 @@
       :attempt-context="assistantAttemptContext"
       :recent-practice="recentPractice"
       :lang="displayLang"
+      :quick-action-context="quickActionContext"
     />
   </div>
 </template>
@@ -394,6 +401,7 @@ const isFullscreen = ref(false)
 const practiceStartedAt = ref(Date.now())
 const assistantAttemptContext = ref<AttemptContext | null>(null)
 const runtimeError = ref('')
+const activeQuestionNumber = ref<string>('1')
 const selectionToolbar = ref<SelectionToolbarState>({
   visible: false,
   scope: 'passage',
@@ -416,9 +424,9 @@ const isResizing = ref(false)
 const resizerLayoutRef = ref<HTMLElement | null>(null)
 
 const passageNodes = computed(() => sessionState.exam.value?.passageBlocks.flatMap((block) => block.nodes) || [])
-const passageHighlightTerms = computed(() => sessionState.highlights.value.filter((item) => item.scope === 'passage').map((item) => item.text))
-const questionHighlightTerms = computed(() => sessionState.highlights.value.filter((item) => item.scope === 'questions').map((item) => item.text))
-const answeredCount = computed(() => Object.values(sessionState.answerMap.value).filter((value) => hasAnswerValue(value)).length)
+const passageHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'passage').map((item) => item.text))
+const questionHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'questions').map((item) => item.text))
+const answeredCount = computed(() => Object.values(sessionState.answerMap.value || {}).filter((value) => hasAnswerValue(value)).length)
 const recentPractice = computed<RecentPracticeItem[]>(() =>
   practiceStore.records.slice(0, 10).map((record) => ({
     questionId: record.questionId,
@@ -431,12 +439,14 @@ const reviewEntries = computed(() => {
   if (!sessionState.result.value || !sessionState.exam.value) {
     return []
   }
-  return sessionState.exam.value.questionOrder.map((questionIdValue) => {
-    const answerEntry = sessionState.result.value?.answerComparison[questionIdValue]
-    const explanationEntry = sessionState.explanation.value?.questionMap[questionIdValue]
+  const exam = sessionState.exam.value
+  return exam.questionOrder.map((questionIdValue) => {
+    const answerEntry = sessionState.result.value?.answerComparison?.[questionIdValue]
+    const explanationEntry = sessionState.explanation.value?.questionMap?.[questionIdValue]
+    const questionItem = exam.questionItems?.find((item) => item.questionId === questionIdValue)
     return {
       questionId: questionIdValue,
-      anchorId: sessionState.exam.value?.questionAnchors[questionIdValue] || `${questionIdValue}-anchor`,
+      anchorId: questionItem?.anchorId || exam.questionAnchors?.[questionIdValue] || questionIdValue,
       userAnswer: answerEntry?.userAnswer || '',
       correctAnswer: answerEntry?.correctAnswer || '',
       isCorrect: answerEntry?.isCorrect ?? null,
@@ -445,8 +455,22 @@ const reviewEntries = computed(() => {
   })
 })
 const selectionAlreadyHighlighted = computed(() =>
-  sessionState.highlights.value.some((entry) => entry.scope === selectionToolbar.value.scope && entry.text === selectionToolbar.value.text)
+  (sessionState.highlights.value || []).some((entry) => entry.scope === selectionToolbar.value.scope && entry.text === selectionToolbar.value.text)
 )
+
+const quickActionContext = computed(() => {
+  const wrongQuestions = session.result?.scoreInfo
+    ? session.exam?.questionOrder
+        .filter((qid) => session.result?.answerComparison?.[qid]?.isCorrect === false)
+        .map((qid) => questionLabel(qid)) || []
+    : []
+
+  return {
+    hintQuestionNumber: activeQuestionNumber.value,
+    explainQuestionNumber: activeQuestionNumber.value,
+    reviewQuestionNumber: wrongQuestions[0] || undefined
+  }
+})
 
 function hasAnswerValue(value: string | string[]) {
   if (Array.isArray(value)) {
@@ -468,14 +492,14 @@ function buildAttemptContextFromResult() {
     return null
   }
   const wrongQuestions = sessionState.exam.value.questionOrder
-    .filter((questionIdValue) => sessionState.result.value?.answerComparison[questionIdValue]?.isCorrect === false)
+    .filter((questionIdValue) => sessionState.result.value?.answerComparison?.[questionIdValue]?.isCorrect === false)
     .map((questionIdValue) => questionLabel(questionIdValue))
 
   return {
     selectedAnswers: Object.fromEntries(
-      Object.entries(sessionState.result.value.answers).map(([key, value]) => [key, formatAnswer(value)])
+      Object.entries(sessionState.result.value.answers || {}).map(([key, value]) => [key, formatAnswer(value)])
     ),
-    score: sessionState.result.value.scoreInfo.correct,
+    score: sessionState.result.value.scoreInfo?.correct,
     wrongQuestions,
     submitted: true
   } satisfies AttemptContext
@@ -568,9 +592,9 @@ function handleFullscreenChange() {
 }
 
 function navItemClass(questionIdValue: string) {
-  const resultEntry = sessionState.result.value?.answerComparison[questionIdValue]
+  const resultEntry = sessionState.result.value?.answerComparison?.[questionIdValue]
   return {
-    answered: hasAnswerValue(sessionState.answerMap.value[questionIdValue] || ''),
+    answered: hasAnswerValue(sessionState.answerMap.value?.[questionIdValue] || ''),
     correct: resultEntry?.isCorrect === true,
     incorrect: resultEntry?.isCorrect === false,
     marked: isMarked(questionIdValue)
@@ -578,84 +602,134 @@ function navItemClass(questionIdValue: string) {
 }
 
 function isMarked(questionIdValue: string) {
-  return sessionState.markedQuestions.value.includes(questionIdValue)
+  return (sessionState.markedQuestions.value || []).includes(questionIdValue)
 }
 
-function scrollToQuestion(questionId: string, anchorId: string) {
-  const pane = questionPane.value
-  if (!pane) return
+async function scrollToQuestion(questionId: string, anchorId: string) {
+  await nextTick()
+
+  const questionPaneEl = questionPane.value
+  const passagePaneEl = passagePane.value
+
+  console.log('[scrollToQuestion] called:', { questionId, anchorId, questionPaneEl, passagePaneEl })
+
+  if (!questionPaneEl) {
+    console.error('[scrollToQuestion] questionPane is not ready')
+    return
+  }
+
+  if (!anchorId) {
+    console.warn('[scrollToQuestion] anchorId is missing, using questionId as fallback')
+    anchorId = questionId
+  }
+
+  // Update active question number for assistant quick actions
+  updateActiveQuestionNumber(questionId.replace(/^q/i, ''))
 
   let element: HTMLElement | null = null
+  let targetPane: HTMLElement | null = questionPaneEl
 
-  // 方法1: 尝试通过 anchorId 直接查找
-  if (anchorId) {
+  // Priority 1: exact anchorId match in passage pane
+  if (passagePaneEl && anchorId) {
     try {
       const escapedId = CSS.escape(anchorId)
-      element = pane.querySelector(`#${escapedId}`) as HTMLElement | null
-    } catch {
-      // 忽略错误
+      element = passagePaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
+      console.log('[scrollToQuestion] Priority 1 result:', { anchorId, escapedId, found: !!element })
+      if (element) {
+        targetPane = passagePaneEl
+      }
+    } catch (e) {
+      console.error('[scrollToQuestion] Priority 1 error:', e)
     }
   }
 
-  // 方法2: 尝试通过 questionId 查找带 data-question 属性的元素
-  if (!element && questionId) {
-    element = pane.querySelector(`[data-question="${questionId}"]`) as HTMLElement | null
-  }
-
-  // 方法3: 查找 ID 以 questionId 开头的元素（如 q2-anchor, q2-target）
-  if (!element && questionId) {
-    const elements = pane.querySelectorAll(`[id^="${questionId}"]`)
-    if (elements.length > 0) {
-      element = elements[0] as HTMLElement
+  // Priority 2: exact anchorId match in question pane
+  if (!element && anchorId) {
+    try {
+      const escapedId = CSS.escape(anchorId)
+      element = questionPaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
+      console.log('[scrollToQuestion] Priority 2 result:', { anchorId, escapedId, found: !!element })
+    } catch (e) {
+      console.error('[scrollToQuestion] Priority 2 error:', e)
     }
   }
 
-  // 方法4: 从 questionId 提取数字，查找包含该数字的分组
+  // Priority 3: exact data-question match (search both panes)
   if (!element && questionId) {
-    const numberMatch = questionId.match(/\d+/)
-    if (numberMatch) {
-      const num = numberMatch[0]
-      // 查找 ID 包含该数字的分组（如 q1-2-3-4-anchor）
-      const elements = pane.querySelectorAll(`[id*="${num}"]`)
-      // 优先选择分组容器
-      for (const el of elements) {
-        const id = el.getAttribute('id') || ''
-        if (id.includes('-anchor') || id.includes('-section') || id.includes('-target')) {
-          element = el as HTMLElement
-          break
+    element = questionPaneEl.querySelector(`[data-question="${questionId}"]`) as HTMLElement | null
+    console.log('[scrollToQuestion] Priority 3 question pane:', { questionId, found: !!element })
+    if (!element && passagePaneEl) {
+      element = passagePaneEl.querySelector(`[data-question="${questionId}"]`) as HTMLElement | null
+      console.log('[scrollToQuestion] Priority 3 passage pane:', { questionId, found: !!element })
+      if (element) targetPane = passagePaneEl
+    }
+  }
+
+  // Priority 4: shared group container fallback
+  if (!element && questionId) {
+    const groupContainers = questionPaneEl.querySelectorAll('.question-group-card[data-question-ids]')
+    console.log('[scrollToQuestion] Priority 4 group containers:', { count: groupContainers.length })
+    for (const container of groupContainers) {
+      const questionIds = (container.getAttribute('data-question-ids') || '').split(' ')
+      if (questionIds.includes(questionId)) {
+        element = container as HTMLElement
+        console.log('[scrollToQuestion] Priority 4 found group:', { questionId, groupId: container.id })
+        break
+      }
+    }
+  }
+
+  // Priority 5: exact id match variants (search both panes)
+  if (!element && questionId) {
+    const exactIds = [
+      questionId,
+      `${questionId}_input`,
+      `${questionId}_select`,
+      `${questionId}_textarea`,
+      `${questionId}_group`
+    ]
+    for (const candidateId of exactIds) {
+      try {
+        const escapedId = CSS.escape(candidateId)
+        element = questionPaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
+        console.log('[scrollToQuestion] Priority 5 check:', { candidateId, found: !!element })
+        if (element) break
+        if (passagePaneEl) {
+          element = passagePaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
+          if (element) {
+            targetPane = passagePaneEl
+            break
+          }
         }
-      }
-      // 如果没找到分组，使用第一个匹配的元素
-      if (!element && elements.length > 0) {
-        element = elements[0] as HTMLElement
+      } catch (e) {
+        console.error('[scrollToQuestion] Priority 5 error:', e)
       }
     }
   }
 
-  // 方法5: 尝试通过 name 属性查找（radio/checkbox）
-  if (!element && questionId) {
-    element = pane.querySelector(`[name="${questionId}"]`) as HTMLElement | null
-    if (element) {
-      // 找到 input，需要滚动到其父容器
-      element = element.closest('.group, .question-item, [id]') as HTMLElement | null
-    }
+  if (!element) {
+    // Debug: log available IDs in question pane
+    const allIds = Array.from(questionPaneEl.querySelectorAll('[id]')).map(el => el.id)
+    console.error(`[scrollToQuestion] No target found for ${questionId} (anchor: ${anchorId}). Available IDs:`, allIds.slice(0, 20))
+    return
   }
 
-  if (element) {
-    // 计算元素相对于 questionPane 的偏移量，使其居中显示
-    const paneRect = pane.getBoundingClientRect()
-    const elementRect = element.getBoundingClientRect()
-    const relativeTop = elementRect.top - paneRect.top + pane.scrollTop - paneRect.height / 2 + elementRect.height / 2
+  // Manual scroll calculation for precise control over which pane scrolls
+  const paneRect = targetPane.getBoundingClientRect()
+  const elementRect = element.getBoundingClientRect()
+  const relativeTop = elementRect.top - paneRect.top + targetPane.scrollTop - paneRect.height / 2 + elementRect.height / 2
 
-    pane.scrollTo({
-      top: Math.max(0, relativeTop),
-      behavior: 'smooth'
-    })
-  }
+  // Use scrollTop for better compatibility
+  targetPane.scrollTop = Math.max(0, relativeTop)
+  console.log('[scrollToQuestion] Scrolled to element:', element.id || element.className)
 }
 
 function handleOptionSelection(node: { poolId: string; value: string }) {
   sessionState.selectOption(node.poolId, node.value)
+}
+
+function updateActiveQuestionNumber(questionNumber: string) {
+  activeQuestionNumber.value = questionNumber
 }
 
 function handleDropzoneSet(payload: { questionId: string; poolId: string; value: string; label: string }) {
@@ -903,7 +977,7 @@ onErrorCaptured((error) => {
 .state-description { margin: 0; max-width: 680px; color: var(--text-secondary); line-height: 1.7; }
 .state-banner {
   display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 16px; padding: 14px 16px;
-  border-radius: 14px; border: 1px solid rgba(249, 115, 22, 0.24); background: rgba(249, 115, 22, 0.08);
+  border-radius: 14px; border: 1px solid rgba(249, 115, 22, 0.3); background: rgba(249, 115, 22, 0.1);
 }
 .state-banner-copy { display: flex; flex-direction: column; gap: 4px; color: var(--text-secondary); }
 .native-practice-shell { position: relative; --practice-copy-size: 16px; --practice-heading-size: 26px; }
@@ -959,16 +1033,16 @@ onErrorCaptured((error) => {
 .passage-content :deep(h4), .question-content :deep(h4) { font-size: calc(var(--practice-heading-size) * 0.68); }
 .passage-content :deep(p), .passage-content :deep(li), .question-content :deep(p), .question-content :deep(li), .question-content :deep(label), .question-content :deep(td), .question-content :deep(th) { font-size: var(--practice-copy-size); }
 .passage-content :deep(.paragraph-wrapper), .question-content :deep(.question-item), .question-content :deep(.table-wrapper), .question-content :deep(table) { margin-bottom: 18px; }
-.question-content :deep(.question-item) { padding: 16px 18px; border-radius: 16px; background: rgba(255,255,255,0.68); border: 1px solid rgba(15,23,42,0.06); }
+.question-content :deep(.question-item) { padding: 16px 18px; border-radius: 16px; background: var(--bg-tertiary); border: 1px solid var(--border-light); }
 .question-content :deep(.radio-options), .question-content :deep(.mcq-options), .question-content :deep(.summary-choices), .question-content :deep(.matching-headings), .question-content :deep(.matching-options), .question-content :deep(.pool-items), .question-content :deep(.cardpool), .question-content :deep(.drag-options), .question-content :deep(.options-list) { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
-.question-content :deep(label) { display: inline-flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 12px; background: rgba(248,250,252,0.92); }
+.question-content :deep(label) { display: inline-flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 12px; background: var(--bg-tertiary); }
 .question-content :deep(ul), .question-content :deep(ol) { padding-left: 20px; }
 .question-content :deep(table) { width: 100%; border-collapse: collapse; }
-.question-content :deep(td), .question-content :deep(th) { padding: 10px 12px; border: 1px solid rgba(15,23,42,0.08); vertical-align: top; }
+.question-content :deep(td), .question-content :deep(th) { padding: 10px 12px; border: 1px solid var(--border-light); vertical-align: top; }
 .question-group-card + .question-group-card { margin-top: 18px; }
 .score-pill { padding: 8px 12px; border-radius: 999px; background: rgba(37,99,235,0.1); color: var(--primary-color); font-weight: 700; }
-.summary-card { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0 24px 8px; padding: 14px; border-radius: 16px; border: 1px solid rgba(37,99,235,0.12); background: linear-gradient(180deg, rgba(248,251,255,0.96), rgba(255,255,255,0.92)); }
-.summary-metric { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; border-radius: 12px; background: rgba(255,255,255,0.88); }
+.summary-card { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0 24px 8px; padding: 14px; border-radius: 16px; border: 1px solid var(--border-light); background: var(--bg-secondary); }
+.summary-metric { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; border-radius: 12px; background: var(--bg-primary); }
 .summary-metric strong { font-size: 22px; color: var(--text-primary); }
 .summary-metric span { color: var(--text-secondary); font-size: 13px; }
 .notes-panel { min-height: 74vh; max-height: 74vh; overflow: hidden; display: flex; flex-direction: column; }
@@ -1004,7 +1078,7 @@ onErrorCaptured((error) => {
   padding-bottom: 2px;
   scrollbar-width: thin;
 }
-.nav-item { display: inline-flex; align-items: center; justify-content: center; padding: 8px 12px; border-radius: 10px; border: 1px solid rgba(15,23,42,0.06); background: rgba(255,255,255,0.76); flex: 0 0 auto; min-width: 44px; cursor: pointer; transition: all 0.2s ease; }
+.nav-item { display: inline-flex; align-items: center; justify-content: center; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border-color); background: var(--bg-tertiary); flex: 0 0 auto; min-width: 44px; cursor: pointer; transition: all 0.2s ease; }
 .nav-item:hover { background: rgba(37,99,235,0.12); border-color: var(--primary-color); }
 .nav-item.answered { border-color: var(--primary-color); background: rgba(37,99,235,0.08); }
 .nav-item.correct { border-color: rgba(34,197,94,0.24); background: rgba(34,197,94,0.08); }
@@ -1014,22 +1088,22 @@ onErrorCaptured((error) => {
 .bottom-actions { justify-content: flex-end; gap: 10px; margin-left: auto; flex: 0 0 auto; flex-wrap: nowrap; }
 .bottom-actions .footer-btn { min-height: 38px; padding: 0 14px; }
 .review-section { margin-top: 28px; display: flex; flex-direction: column; gap: 14px; }
-.review-card { padding: 18px; border-radius: 18px; border: 1px solid rgba(15,23,42,0.08); background: rgba(255,255,255,0.88); }
-.review-card.correct { border-color: rgba(34,197,94,0.2); }
-.review-card.incorrect { border-color: rgba(239,68,68,0.2); }
+.review-card { padding: 18px; border-radius: 18px; border: 1px solid var(--border-color); background: var(--bg-secondary); }
+.review-card.correct { border-color: rgba(34,197,94,0.3); }
+.review-card.incorrect { border-color: rgba(239,68,68,0.3); }
 .review-card-header { justify-content: space-between; gap: 12px; margin-bottom: 12px; }
 .review-card-title { display: flex; align-items: center; gap: 10px; }
-.review-badge { padding: 6px 10px; border-radius: 999px; background: rgba(15,23,42,0.92); color: #fff; font-size: 12px; font-weight: 700; }
+.review-badge { padding: 6px 10px; border-radius: 999px; background: var(--bg-primary); color: var(--text-primary); font-size: 12px; font-weight: 700; }
 .mini-link { min-height: 28px; padding: 0 10px; border-radius: 999px; font-size: 12px; }
 .review-status { font-size: 13px; color: var(--text-secondary); }
 .review-answer-grid { gap: 14px; align-items: stretch; }
 .review-answer-grid > div { flex: 1; padding: 12px 14px; border-radius: 14px; background: var(--bg-secondary); }
 .review-answer-grid p, .review-explanation p { margin: 8px 0 0; line-height: 1.7; white-space: pre-wrap; word-break: break-word; }
 .review-kicker { display: inline-flex; font-size: 11px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--primary-color); }
-.review-explanation { margin-top: 14px; padding: 14px; border-radius: 14px; background: rgba(248,250,252,0.92); }
+.review-explanation { margin-top: 14px; padding: 14px; border-radius: 14px; background: var(--bg-tertiary); }
 .selection-toolbar {
   position: fixed; z-index: 9999; display: flex; gap: 4px; padding: 6px 8px; border-radius: 12px;
-  border: 1px solid var(--border-color); background: var(--bg-primary); box-shadow: 0 18px 34px rgba(15,23,42,0.18);
+  border: 1px solid var(--border-color); background: var(--bg-primary); box-shadow: 0 18px 34px rgba(0,0,0,0.18);
 }
 .selection-btn .material-icons { font-size: 16px; }
 .note-modal {
@@ -1038,7 +1112,7 @@ onErrorCaptured((error) => {
   border-radius: 12px;
   border: 1px solid var(--border-color);
   background: var(--bg-primary);
-  box-shadow: 0 18px 34px rgba(15,23,42,0.18);
+  box-shadow: 0 18px 34px rgba(0,0,0,0.18);
 }
 .note-modal-header { font-size: 14px; font-weight: 700; margin-bottom: 12px; color: var(--text-primary); }
 .note-modal-text {
@@ -1112,12 +1186,13 @@ onErrorCaptured((error) => {
 @media (max-width: 1080px) {
   .nav-shell {
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .nav-grid {
     order: 3;
     flex: 1 1 100%;
+    width: 100%;
   }
 
   .bottom-actions {
@@ -1125,7 +1200,32 @@ onErrorCaptured((error) => {
   }
 }
 @media (max-width: 768px) {
-  .page-header, .header-actions, .pane-toolbar, .review-card-header, .review-answer-grid { flex-direction: column; align-items: flex-start; }
+  .page-header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center !important;
+    gap: 8px;
+  }
+
+  .header-left {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .page-title {
+    font-size: clamp(16px, 4vw, 20px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .header-actions {
+    flex-shrink: 0;
+    gap: 4px;
+  }
+
   .practice-section { padding: 16px; }
   .summary-card { grid-template-columns: 1fr; margin: 0 0 12px; }
   .pane-header {
@@ -1139,31 +1239,73 @@ onErrorCaptured((error) => {
   }
 
   .nav-shell {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
     gap: 12px;
   }
-  
+
+  /* Question 标题和按钮在同一行，题号独占一行 */
+  .nav-shell .nav-title {
+    order: 1;
+    flex-shrink: 0;
+  }
+
+  .nav-shell .bottom-actions {
+    order: 2;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .nav-shell .nav-grid {
+    order: 3;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
   .native-practice-layout {
     gap: 12px;
   }
-  
+
   .practice-pane {
     min-height: 45vh;
     border-radius: 14px;
   }
-  
-  .page-title {
-    font-size: clamp(18px, 4vw, 24px);
+
+  /* 图 2: 隐藏全屏按钮 */
+  .header-actions .icon-btn[title*="fullscreen"],
+  .header-actions .icon-btn[title*="Fullscreen"] {
+    display: none !important;
   }
-  
-  .header-actions {
-    width: 100%;
-    gap: 8px;
-    flex-wrap: wrap;
+
+  /* TFNG 选项左对齐 - 覆盖默认 inline-flex 行为 */
+  .question-content :deep(.tfng-item),
+  .question-content :deep(.tfng-options) {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+    width: 100% !important;
+    margin-top: 8px !important;
   }
-  
-  .nav-shell .bottom-actions {
-    flex: 0 1 auto;
-    margin-left: auto;
+
+  .question-content :deep(.tfng-item > label),
+  .question-content :deep(.tfng-options > label) {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 4px !important;
+    background: var(--bg-tertiary) !important;
+    padding: 8px 10px !important;
+    border-radius: 12px !important;
+  }
+
+  .question-content :deep(.tfng-item input[type="radio"]),
+  .question-content :deep(.tfng-options input[type="radio"]) {
+    margin-right: 8px !important;
+    flex-shrink: 0 !important;
   }
 }
 
@@ -1194,35 +1336,40 @@ onErrorCaptured((error) => {
   }
   
   .nav-shell {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
     gap: 8px;
-    flex-wrap: wrap;
   }
-  
+
   .nav-title {
     font-size: 14px;
+    order: 1;
+    flex-shrink: 0;
   }
-  
+
   .nav-grid {
-    order: 2;
+    order: 3;
     flex: 1 1 100%;
+    width: 100%;
   }
-  
+
   .nav-btn {
     min-width: 36px;
     height: 36px;
     font-size: 13px;
   }
-  
+
   .score-pill {
     font-size: 12px;
     padding: 4px 10px;
   }
-  
+
   .nav-shell .bottom-actions {
-    order: 1;
-    flex: 0 1 auto;
-    margin-left: 0;
-    width: 100%;
+    order: 2;
+    flex: 0 0 auto;
+    margin-left: auto;
+    flex-shrink: 0;
     justify-content: flex-end;
   }
   

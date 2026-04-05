@@ -40,6 +40,12 @@ Thumbs.db
 # Trae / workspace
 .trae/
 
+# Claude Code
+.claude/
+
+# Playwright CLI
+.playwright-cli/
+
 # Misc
 *.swp
 *.swo

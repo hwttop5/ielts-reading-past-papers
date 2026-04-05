@@ -1,0 +1,1824 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-medium-213",
+  "meta": {
+    "title": "Growing more for less",
+    "category": "P2",
+    "frequency": "medium",
+    "originalTitle": "Growing more for less 卫星农业"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14-26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", which are based on Reading Passage 2 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Growing more for less"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Satellite technology is helping farmers boost crop yields"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "For farmers, working out the optimal amount of seed, fertiliser, pesticide and water to scatter on a field can make, or break, the subsequent harvest. Regular laboratory analyses of soil and plant samples from various parts of the field can help - but such expertise is costly, and often unavailable. However, a new and cheaper method of doing this analysis is now on offer. Precise prescriptions for growing crops can be obtained quickly, and less expensively, by calculating the amount of electromagnetic radiation reflected from agricultural land. The data is collected by orbiting satellites."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "B"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Examining the wavelength of the radiation that is reflected can reveal, with surprising precision, the properties of the soil, the quantity of crop being grown, and the levels in those crops of chlorophyll*, various minerals, moisture and other indicators of their quality. If recent and forecast weather data is added to the mix, detailed maps can be produced indicating exactly how, where and when crops should be grown. The service usually costs less than US$15 per hectare for a handful of readings a year, and can increase yields by as much as 10%."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Such precision farming using satellite-based intelligence is a relatively new technique. Even so, it is catching on quickly. Five times a year, for example, a French cereals growers' co-operative called Sevepi purchases satellite data and makes it available to its members in the form of maps of their fields, divided into three or four colour-coded zones per hectare. For each zone, one of about 50 fertiliser formulas is recommended. On top of this, if the wheat in the field has already grown quite high early in the season, and heavy showers are expected, an appropriate dose of growth regulator is recommended for each zone. (Long, fragile stems break more easily in downpours.) Then, farm vehicles equipped with global-positioning system locators automatically mix and apply the prescribed dose to each area."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "D"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "France is the pioneer in this sort of surveillance. More farmland is analysed by satellite there than in any other country, according to Infoterra (a subsidiary of EADS Astrium), the firm that is France's largest provider of such information, supplying data to companies such as Sevepi. Moreover, Henri Douche, head of Infoterra's agriculture sales in Toulouse, reckons the amount of monitored farmland will increase as weather patterns change and farmers can no longer rely on the past as a guide to the future. When confounded by the yield variations that these new weather patterns will bring, even farmers who are afraid of new technology will sign up, he says."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "E"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Inexpensive data on the productivity of land is advantageous to governments, too. Areas where fertilisers and pesticides are being applied excessively can be pinpointed, studied and regulated by environmental and land-use agencies. Guy Lafond, an agronomist with Agriculture and Agri-Food Canada, a government agency, says the satellite data it purchases is proving useful for the study of fields with declining productivity in the province of Saskatchewan. Overkill with nitrate fertilisers (which are also a source of greenhouse gases) appears partly responsible. And according to RapidEye, a German satellite operator, insurance companies are also studying satellite data with a view to selling insurance policies to governments of famine-prone countries that might be threatened by crop failure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "F"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In March, RapidEye began selling data that helps forecast harvests. 'Too often, farmers limit productivity by managing fields uniformly,' says Fredrick Jung-Rothenhausler, head of product development at the firm's headquarters in Brandenburg an der Havel. 'Our satellites are the first commercial satellites to include the Red-Edge band of the light spectrum, which is sensitive to changes in chlorophyll content. More research will be necessary to realise the full potential of the Red-Edge band. However, this band can assist in monitoring vegetation health, improving species separation and also help in measuring protein and nitrogen content in biomass.' The company's data, which comes from both Europe and the Americas, breaks field productivity down into patches just five metres square."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "G"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The advantages that satellite technology provides in terms of precision farming do not have to be restricted to rich countries. In Africa, where many soils have become badly depleted of nutrients, better fertiliser management would greatly improve the situation. As a consequence, the charitable trust World Agroforestry Centre, in the city of Nairobi, in Kenya, has begun to build up a catalogue of the radiation patterns derived from around 100,000 samples of African soils. The information is the key to understanding the potential of these soils to be more agriculturally productive. Once passed on to the International Centre for Tropical Agriculture, based in Colombia, South America, it is intended that the information be used to build a database called the 'Digital Soil Map'. When ready, this will provide farmers with free forecasts, developed with regularly updated satellite imagery, across farmland in a number of countries in Africa. This is information which will almost certainly assist in improving crop yields. For a hunger-ravaged continent, that is good news indeed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "font-size: 0.9em; color: var(--muted); margin-top: 20px;"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "* chlorophyll: the green substance in plants that absorbs light from the sun"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "font-size: 0.8em; color: var(--muted);"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "Compiled, formatted, and lightly proofread by ZYZ Reading Walks. All copyright in the underlying works remains with the original authors and publishers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14-20"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 2 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A-G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, A-G, in boxes 14-20 on your answer sheet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " You may use any letter more than once."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q1-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "14"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " an example of how farmers in one country are now using satellite data to determine fertiliser use"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q1",
+                  "fieldName": "q1",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q1",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q2-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "15"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a reference to climate change and its effects"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q2",
+                  "fieldName": "q2",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q2",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q3-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "16"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a reference to the effect on the soil of using too much fertiliser"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q3",
+                  "fieldName": "q3",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q3",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q4-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "17"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " an example of information that will be shared between different countries"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q4",
+                  "fieldName": "q4",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q4",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q5-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "18"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a mention of the country which is the leader in agricultural technology"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q5",
+                  "fieldName": "q5",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q5",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q6-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "19"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a description of an innovation in satellite imaging which requires further study"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q6",
+                  "fieldName": "q6",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q6",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q7-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "20"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " evidence of the cost effectiveness of using satellite technology in agriculture"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q7",
+                  "fieldName": "q7",
+                  "attrs": {
+                    "class": "blank",
+                    "type": "text",
+                    "name": "q7",
+                    "maxlength": "1",
+                    "style": "width: 60px;"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "multi_choice",
+      "questionIds": [
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 21 and 22"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TWO"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " letters, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A-E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letters in boxes 21 and 22 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TWO"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " companies obtain information directly from satellites?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "mcq-group"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q8_9",
+                      "questionId": "",
+                      "questionIds": [
+                        "q8",
+                        "q9"
+                      ],
+                      "value": "A",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q8_9",
+                        "value": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " A. Sevepi"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q8_9",
+                      "questionId": "",
+                      "questionIds": [
+                        "q8",
+                        "q9"
+                      ],
+                      "value": "B",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q8_9",
+                        "value": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " B. Infoterra"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q8_9",
+                      "questionId": "",
+                      "questionIds": [
+                        "q8",
+                        "q9"
+                      ],
+                      "value": "C",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q8_9",
+                        "value": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " C. Agriculture and Agri-Food Canada"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q8_9",
+                      "questionId": "",
+                      "questionIds": [
+                        "q8",
+                        "q9"
+                      ],
+                      "value": "D",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q8_9",
+                        "value": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " D. RapidEye"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q8_9",
+                      "questionId": "",
+                      "questionIds": [
+                        "q8",
+                        "q9"
+                      ],
+                      "value": "E",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q8_9",
+                        "value": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " E. World Agroforestry Centre"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "font-size: 0.9em; color: var(--muted); margin-top: 8px;"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Note: Select exactly TWO options"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 23-26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the sentences below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN TWO WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write your answers in boxes 23-26 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q10-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Initially, orbiting satellites are used to measure "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "class": "blank",
+                        "type": "text",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " coming from farmland."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q11-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "class": "blank",
+                        "type": "text",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " believes that confusion about irregular weather will cause more farmers to use satellite technology."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q12-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " As a result of satellite technology, it may become possible to insure against the risk of "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "class": "blank",
+                        "type": "text",
+                        "name": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom: 16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q13-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In Africa, much of the soil suffers from the loss of "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "class": "blank",
+                        "type": "text",
+                        "name": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8_9_group"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q8_9_group"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13-anchor"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "C",
+    "q2": "D",
+    "q3": "E",
+    "q4": "G",
+    "q5": "D",
+    "q6": "F",
+    "q7": "B",
+    "q8": "B",
+    "q9": "D",
+    "q10": "electromagnetic radiation",
+    "q11": "Henri Douche",
+    "q12": "crop failure",
+    "q13": "nutrients"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8_9_group",
+    "q9": "q8_9_group",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-anchor",
+    "q13": "q13-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q8_9",
+        "inputType": "checkbox",
+        "questionIds": [
+          "q8",
+          "q9"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

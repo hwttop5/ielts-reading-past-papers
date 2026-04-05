@@ -1,0 +1,1988 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-high-118",
+  "meta": {
+    "title": "William Gilbert and Magnetism",
+    "category": "P1",
+    "frequency": "high",
+    "pdfFilename": "31. P1 - William Gilbert and Magnetism 电磁学之父【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/31. P1 - William Gilbert and Magnetism 电磁学之父【高】/",
+    "legacyFilename": "31. P1 - William Gilbert and Magnetism 电磁学之父【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "William Gilbert and Magnetism 电磁学之父"
+  },
+  "explanationKey": "p1-high-118",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "William Gilbert and Magnetism"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q1-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q1):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "A",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The 16th and 17th centuries saw two great pioneers of modern science: Galileo and Gilbert. The impact of their findings is eminent. Gilbert was the first modern scientist, the accredited father of the science of electricity and magnetism, an Englishman of learning and a physician at the court of Elizabeth. Prior to him, all that was known of electricity and magnetism was what the ancients knew: nothing more than that the lodestone possessed magnetic properties and that amber and jet, when rubbed, would attract bits of paper or other substances of small specific gravity. However, he is less well known than he deserves."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q2-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q2):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "B",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Gilbert's birth predated Galileo's. Born into an eminent local family in Colchester, Essex, on 24 May 1544, he went to grammar school and then studied medicine at St John's College, Cambridge, graduating in 1573. Later he travelled on the Continent and eventually settled in London."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q3-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q3):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "C",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " He was a very successful and eminent doctor. All this culminated in his election as president of the Royal Society. He was also appointed personal physician to Queen Elizabeth I and was later knighted by her. He faithfully served her until her death. However, he did not outlive the Queen for long and died on 30 November 1603, only a few months after his appointment as personal physician to King James."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q4):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "D",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Gilbert was first interested in chemistry but later changed his focus because alchemy contained too great a portion of mysticism (such as the transmutation of metals). He gradually developed an interest in physics, inspired by the great minds of the ancients, particularly the knowledge the ancient Greeks had about lodestones—strange minerals with the power to attract iron. In the meantime, Britain became a major seafaring nation in 1588 when the Spanish Armada was defeated, opening the way to British settlement of America. British ships depended on the magnetic compass, yet no one understood why it worked. Did the Pole Star attract it, as Columbus once speculated; or was there a magnetic mountain at the pole, as described in the Odyssey, which ships would never approach because the sailors thought its pull would yank out all their iron nails and fittings? For nearly 20 years, William Gilbert conducted ingenious experiments to understand magnetism. His works include On the Magnet, Magnetic Bodies, and The Great Magnet of the Earth."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q5):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "E",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Gilbert's discoveries were of great importance to modern physics. He investigated the nature of magnetism and electricity, and he even coined the word “electric\". Early beliefs about magnetism were largely entangled with superstitions—for instance, sailors believed that rubbing garlic on a lodestone could neutralise its magnetism and that even the smell of garlic would interfere with the action of a compass, which is why helmsmen were forbidden to eat it near a ship's compass. Gilbert also found that metals can be magnetised by rubbing materials such as fur on them. He named the ends of a magnet the “north pole” and “south pole”. The magnetic poles can attract or repel, depending on polarity; ordinary iron, however, is always attracted to a magnet. Though he began to study the relationship between magnetism and electricity, he did not complete this work. His research into static electricity using amber and jet only demonstrated that objects with electrical charges can attract small pieces of paper and the like. It was a French scientist named du Fay who later discovered that there are actually two electrical charges—positive and negative."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q6):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "F",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " He also questioned traditional astronomical beliefs. Though a Copernican, he did not state explicitly whether the Earth is at the centre of the universe or in orbit around the Sun. However, he believed that stars are not equidistant from the Earth but have their own Earth-like planets orbiting around them. The Earth itself is like a giant magnet, which is also why compasses always point north: they align with the planet's polarity. He likened the polarity of a magnet to the polarity of the Earth and built an entire magnetic philosophy on this analogy. In his explanation, magnetism is the soul of the Earth. Thus a perfectly spherical lodestone, when aligned with the Earth's poles, would wobble all by itself in 24 hours. Further, he believed that the Sun and other stars wobble just as the Earth does around a crystal core, and he speculated that the Moon might also be a magnet caused to orbit by its magnetic attraction to the Earth. This was perhaps the first proposal that a force might cause a heavenly orbit."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q7):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "G",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " His research method was revolutionary in that he used experiments rather than pure logic and reasoning, as the ancient Greek philosophers had done. This represented a new attitude towards scientific investigation; until then, systematic experiments were not in fashion. Because of this scientific attitude, together with his contribution to our knowledge of magnetism, a unit of magnetomotive force—also known as magnetic potential-was named the gilbert in his honour. His approach of careful observation and experimentation, rather than reliance on authoritative opinion or deductive philosophy, laid the very foundation for modern science."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–7"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 1 has seven paragraphs "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from the list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i. Early years of Gilbert",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii. What was new about his scientific research method",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii. The development of chemistry",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv. Questioning traditional astronomy",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v. Pioneers of early science",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi. Professional and social recognition",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii. Becoming the president of the Royal Society",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii. The great works of Gilbert",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix. His discovery about magnetism",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "x",
+                      "label": "x. His change of focus",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "x"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落标题匹配（Questions 1–7：Choose the correct heading）",
+        "mode": "group",
+        "questionRange": {
+          "start": 1,
+          "end": 7
+        },
+        "text": "答案：v（Pioneers of early science，早期科学先驱）\n解析：Paragraph A 开篇即指出 “16-17 世纪有两位现代科学先驱：伽利略与吉尔伯特”，整段围绕两人的先驱地位及吉尔伯特的贡献与知名度展开，与 “早期科学先驱” 主题一致，因此选 v。\n答案：i（Early years of Gilbert，吉尔伯特的早年经历）\n解析：Paragraph B 详细介绍吉尔伯特的出生时间、家庭背景、教育经历（文法学校、剑桥大学）及游历经历，均为 “早年生活” 相关内容，因此选 i。\n答案：vi（Professional and social recognition，职业与社会认可）\n解析：Paragraph C 提及吉尔伯特的职业成就（成功医生、皇家学会主席）、社会荣誉（私人医师、爵士封号），均为 “职业与社会认可”，因此选 vi。\n答案：x（His change of focus，研究重心的转变）\n解析：Paragraph D 明确说明吉尔伯特 “从化学转向物理学”，并解释转向原因（炼金术的神秘主义），还提及后续研究方向（磁学），核心是 “研究重心转变”，因此选 x。\n答案：ix（His discovery about magnetism，他在磁学方面的发现）\n解析：Paragraph E 详细列举吉尔伯特的磁学发现（金属磁化、磁极命名、磁极相互作用规律），核心是 “磁学发现”，因此选 ix。\n答案：iv（Questioning traditional astronomy，质疑传统天文学）\n解析：Paragraph F 围绕吉尔伯特对传统天文学的质疑展开，提出 “恒星距离不等”“地球是磁体”“天体轨道由引力维持” 等观点，核心是 “质疑传统天文学”，因此选 iv。\n答案：ii（What was new about his scientific research method，他科学研究方法的创新之处）\n解析：Paragraph G 强调吉尔伯特 “用实验替代纯逻辑推理” 的革命性方法，及其对现代科学的影响，核心是 “研究方法的创新”，因此选 ii。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "（1）题目 1：Paragraph A\n答案：v（Pioneers of early science，早期科学先驱）\n解析：Paragraph A 开篇即指出 “16-17 世纪有两位现代科学先驱：伽利略与吉尔伯特”，整段围绕两人的先驱地位及吉尔伯特的贡献与知名度展开，与 “早期科学先驱” 主题一致，因此选 v。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "（2）题目 2：Paragraph B\n答案：i（Early years of Gilbert，吉尔伯特的早年经历）\n解析：Paragraph B 详细介绍吉尔伯特的出生时间、家庭背景、教育经历（文法学校、剑桥大学）及游历经历，均为 “早年生活” 相关内容，因此选 i。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "（3）题目 3：Paragraph C\n答案：vi（Professional and social recognition，职业与社会认可）\n解析：Paragraph C 提及吉尔伯特的职业成就（成功医生、皇家学会主席）、社会荣誉（私人医师、爵士封号），均为 “职业与社会认可”，因此选 vi。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "（4）题目 4：Paragraph D\n答案：x（His change of focus，研究重心的转变）\n解析：Paragraph D 明确说明吉尔伯特 “从化学转向物理学”，并解释转向原因（炼金术的神秘主义），还提及后续研究方向（磁学），核心是 “研究重心转变”，因此选 x。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "（5）题目 5：Paragraph E\n答案：ix（His discovery about magnetism，他在磁学方面的发现）\n解析：Paragraph E 详细列举吉尔伯特的磁学发现（金属磁化、磁极命名、磁极相互作用规律），核心是 “磁学发现”，因此选 ix。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "（6）题目 6：Paragraph F\n答案：iv（Questioning traditional astronomy，质疑传统天文学）\n解析：Paragraph F 围绕吉尔伯特对传统天文学的质疑展开，提出 “恒星距离不等”“地球是磁体”“天体轨道由引力维持” 等观点，核心是 “质疑传统天文学”，因此选 iv。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "（7）题目 7：Paragraph G\n答案：ii（What was new about his scientific research method，他科学研究方法的创新之处）\n解析：Paragraph G 强调吉尔伯特 “用实验替代纯逻辑推理” 的革命性方法，及其对现代科学的影响，核心是 “研究方法的创新”，因此选 ii。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 8–10"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Gilbert is less famous than he should be."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Gilbert was famous as a doctor before he was employed by the Queen."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Gilbert lost faith in the medical theories of his time."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 判断题（Questions 8–10：TRUE/FALSE/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 8,
+          "end": 10
+        },
+        "text": "题目翻译：吉尔伯特的知名度低于他应得的水平。\n答案：TRUE（正确）\n解析：定位 Paragraph A 中 “However, he is less well known than he deserves”，“less well known than he deserves” 直接对应 “less famous than he should be”，与题干描述一致，因此判定为 TRUE。\n题目翻译：吉尔伯特在被女王聘用前，已是知名医生。\n答案：TRUE（正确）\n解析：定位 Paragraph C 中 “He was a very successful and eminent doctor. All this culminated in his election as president of the Royal Society. He was also appointed personal physician to Queen Elizabeth I”，“successful and eminent” 对应 “famous”，“culminated in” 表明 “当选皇家学会主席、被女王聘用” 是其医生职业成就的巅峰，即此前已知名，与题干描述一致，因此判定为 TRUE。\n题目翻译：吉尔伯特对当时的医学理论失去信心。\n答案：NOT GIVEN（未提及）\n解析：文章仅提到吉尔伯特 “从化学转向物理学”，未涉及 “对当时医学理论的态度”，无相关信息，因此判定为 NOT GIVEN。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "（1）题目 8：Gilbert is less famous than he should be.\n题目翻译：吉尔伯特的知名度低于他应得的水平。\n答案：TRUE（正确）\n解析：定位 Paragraph A 中 “However, he is less well known than he deserves”，“less well known than he deserves” 直接对应 “less famous than he should be”，与题干描述一致，因此判定为 TRUE。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "（2）题目 9：Gilbert was famous as a doctor before he was employed by the Queen.\n题目翻译：吉尔伯特在被女王聘用前，已是知名医生。\n答案：TRUE（正确）\n解析：定位 Paragraph C 中 “He was a very successful and eminent doctor. All this culminated in his election as president of the Royal Society. He was also appointed personal physician to Queen Elizabeth I”，“successful and eminent” 对应 “famous”，“culminated in” 表明 “当选皇家学会主席、被女王聘用” 是其医生职业成就的巅峰，即此前已知名，与题干描述一致，因此判定为 TRUE。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "（3）题目 10：Gilbert lost faith in the medical theories of his time.\n题目翻译：吉尔伯特对当时的医学理论失去信心。\n答案：NOT GIVEN（未提及）\n解析：文章仅提到吉尔伯特 “从化学转向物理学”，未涉及 “对当时医学理论的态度”，无相关信息，因此判定为 NOT GIVEN。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "multi_choice",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 11–13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "THREE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " letters, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "THREE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " of the following are parts of Gilbert's discovery?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "checkbox",
+                          "fieldName": "q11-12-13",
+                          "questionId": "",
+                          "questionIds": [
+                            "q11",
+                            "q12",
+                            "q13"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "q11-12-13",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. Metal can be transformed into another."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "checkbox",
+                          "fieldName": "q11-12-13",
+                          "questionId": "",
+                          "questionIds": [
+                            "q11",
+                            "q12",
+                            "q13"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "q11-12-13",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. Garlic can remove magnetism."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "checkbox",
+                          "fieldName": "q11-12-13",
+                          "questionId": "",
+                          "questionIds": [
+                            "q11",
+                            "q12",
+                            "q13"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "q11-12-13",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. Metals can be magnetised."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "checkbox",
+                          "fieldName": "q11-12-13",
+                          "questionId": "",
+                          "questionIds": [
+                            "q11",
+                            "q12",
+                            "q13"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "q11-12-13",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. Stars are at different distances from the Earth."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "checkbox",
+                          "fieldName": "q11-12-13",
+                          "questionId": "",
+                          "questionIds": [
+                            "q11",
+                            "q12",
+                            "q13"
+                          ],
+                          "value": "E",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "q11-12-13",
+                            "value": "E"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " E. The Earth wobbles on its axis."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "checkbox",
+                          "fieldName": "q11-12-13",
+                          "questionId": "",
+                          "questionIds": [
+                            "q11",
+                            "q12",
+                            "q13"
+                          ],
+                          "value": "F",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "q11-12-13",
+                            "value": "F"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " F. There are two charges of electricity."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8-9-10-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11-12-13-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q11-12-13-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q11-12-13-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i. Early years of Gilbert"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii. What was new about his scientific research method"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii. The development of chemistry"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv. Questioning traditional astronomy"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v. Pioneers of early science"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi. Professional and social recognition"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii. Becoming the president of the Royal Society"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii. The great works of Gilbert"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix. His discovery about magnetism"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "x",
+      "label": "x. His change of focus"
+    }
+  ],
+  "answerKey": {
+    "q1": "v",
+    "q2": "i",
+    "q3": "vi",
+    "q4": "x",
+    "q5": "ix",
+    "q6": "iv",
+    "q7": "ii",
+    "q8": "TRUE",
+    "q9": "TRUE",
+    "q10": "NOT GIVEN",
+    "q11": "C",
+    "q12": "D",
+    "q13": "E"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {
+    "A": "q1-anchor",
+    "B": "q2-anchor",
+    "C": "q3-anchor",
+    "D": "q4-anchor",
+    "E": "q5-anchor",
+    "F": "q6-anchor",
+    "G": "q7-anchor"
+  },
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-9-10-anchor",
+    "q11": "q11-12-13-anchor",
+    "q12": "q11-12-13-anchor",
+    "q13": "q11-12-13-anchor",
+    "q9": "q9_input",
+    "q10": "q10_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11-12-13",
+        "inputType": "checkbox",
+        "questionIds": [
+          "q11",
+          "q12",
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ]
+  },
+  "totalQuestions": 13
+}

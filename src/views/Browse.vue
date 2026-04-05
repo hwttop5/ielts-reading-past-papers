@@ -13,37 +13,45 @@
 
     <div class="filter-section">
       <div class="filter-group">
-        <span class="filter-label">{{ t('browse.category') }}:</span>
-        <select v-model="category" class="filter-select">
-          <option value="all">{{ t('browse.allCategories') }}</option>
-          <option value="P1">P1</option>
-          <option value="P2">P2</option>
-          <option value="P3">P3</option>
-        </select>
+        <div class="filter-item">
+          <span class="filter-label">{{ t('browse.category') }}:</span>
+          <select v-model="category" class="filter-select">
+            <option value="all">{{ t('browse.allCategories') }}</option>
+            <option value="P1">P1</option>
+            <option value="P2">P2</option>
+            <option value="P3">P3</option>
+          </select>
+        </div>
 
-        <span class="filter-label">{{ t('browse.frequency') }}:</span>
-        <select v-model="frequency" class="filter-select">
-          <option value="all">{{ t('browse.allFrequency') }}</option>
-          <option value="high">{{ t('browse.frequency.high') }}</option>
-          <option value="medium">{{ t('browse.frequency.medium') }}</option>
-          <option value="low">{{ t('browse.frequency.low') }}</option>
-        </select>
+        <div class="filter-item">
+          <span class="filter-label">{{ t('browse.frequency') }}:</span>
+          <select v-model="frequency" class="filter-select">
+            <option value="all">{{ t('browse.allFrequency') }}</option>
+            <option value="high">{{ t('browse.frequency.high') }}</option>
+            <option value="medium">{{ t('browse.frequency.medium') }}</option>
+            <option value="low">{{ t('browse.frequency.low') }}</option>
+          </select>
+        </div>
 
-        <span class="filter-label">{{ t('browse.sortLabel') }}:</span>
-        <select v-model="sortMode" class="filter-select">
-          <option value="title-asc">{{ t('browse.sort.titleAsc') }}</option>
-          <option value="number-asc">{{ t('browse.sort.numberAsc') }}</option>
-          <option value="number-desc">{{ t('browse.sort.numberDesc') }}</option>
-          <option value="accuracy-asc" :disabled="!hasPracticeRecords">{{ t('browse.sort.accuracyAsc') }}</option>
-          <option value="accuracy-desc" :disabled="!hasPracticeRecords">{{ t('browse.sort.accuracyDesc') }}</option>
-        </select>
+        <div class="filter-item">
+          <span class="filter-label">{{ t('browse.sortLabel') }}:</span>
+          <select v-model="sortMode" class="filter-select">
+            <option value="title-asc">{{ t('browse.sort.titleAsc') }}</option>
+            <option value="number-asc">{{ t('browse.sort.numberAsc') }}</option>
+            <option value="number-desc">{{ t('browse.sort.numberDesc') }}</option>
+            <option value="accuracy-asc" :disabled="!hasPracticeRecords">{{ t('browse.sort.accuracyAsc') }}</option>
+            <option value="accuracy-desc" :disabled="!hasPracticeRecords">{{ t('browse.sort.accuracyDesc') }}</option>
+          </select>
+        </div>
 
-        <input
-          v-model="searchText"
-          type="text"
-          class="filter-input"
-          :placeholder="t('browse.searchPlaceholder')"
-        />
+        <div class="filter-item filter-input-wrapper">
+          <a-input
+            v-model:value="searchText"
+            class="filter-input"
+            :placeholder="t('browse.searchPlaceholder')"
+            allow-clear
+          />
+        </div>
       </div>
 
       <div class="filter-footer">
@@ -528,6 +536,21 @@ watch(totalPages, (value) => {
   margin-bottom: 16px;
 }
 
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-item.filter-input-wrapper {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filter-input-wrapper .filter-input {
+  width: 100%;
+}
+
 .filter-footer {
   justify-content: space-between;
   gap: 12px;
@@ -583,7 +606,29 @@ watch(totalPages, (value) => {
 .filter-input {
   flex: 1;
   min-width: 220px;
-  padding: 8px 16px;
+}
+
+.filter-input :deep(.ant-input) {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 14px;
+  padding: 8px 36px 8px 16px;
+}
+
+.filter-input :deep(.ant-input:hover),
+.filter-input :deep(.ant-input:focus) {
+  border-color: var(--primary-color);
+  box-shadow: none;
+}
+
+.filter-input :deep(.ant-input-clear-icon) {
+  color: var(--text-tertiary);
+}
+
+.filter-input :deep(.ant-input-clear-icon:hover) {
+  color: var(--text-primary);
 }
 
 .filter-select:hover,
@@ -863,10 +908,54 @@ watch(totalPages, (value) => {
     grid-template-columns: 1fr;
   }
 
+  /* 筛选条件移动端对齐 - 标签在上方，选择器在下方 */
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .filter-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .filter-item.filter-input-wrapper {
+    min-width: auto;
+  }
+
+  .filter-group .filter-select,
+  .filter-group .filter-input {
+    width: 100%;
+  }
+
+  .filter-label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
   .filter-footer,
   .question-footer {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  /* 图 1: PDF 图标按钮和开始练习按钮同一行 */
+  .question-card .question-footer {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .question-card .view-pdf-btn {
+    width: auto;
+    flex: 1;
+    max-width: 80px;
+  }
+
+  .question-card .start-button {
+    flex: 2;
   }
 
   .pagination-section {

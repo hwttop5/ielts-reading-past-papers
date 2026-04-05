@@ -6,9 +6,15 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/server.js",
+    "start": "node dist/server.ts",
+    "test": "vitest run -c vitest.config.ts",
+    "test:watch": "vitest -c vitest.config.ts",
     "ingest": "tsx src/cli/ingest.ts",
-    "check:index": "tsx src/cli/check-index.ts"
+    "check:index": "tsx src/cli/check-index.ts",
+    "eval:rag": "cd ../evals/ragas && python run_eval.py --all",
+    "eval:rag:retrieval": "cd ../evals/ragas && python run_eval.py --retrieval",
+    "eval:rag:answer": "cd ../evals/ragas && python run_eval.py --answers",
+    "compare:backends": "tsx src/scripts/compare-vector-backends.ts"
   },
   "dependencies": {
     "@langchain/core": "^0.3.73",
@@ -22,6 +28,10 @@
   "devDependencies": {
     "@types/node": "^24.6.2",
     "tsx": "^4.20.6",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "optionalDependencies": {
+    "chromadb": "^1.9.18"
   }
 }

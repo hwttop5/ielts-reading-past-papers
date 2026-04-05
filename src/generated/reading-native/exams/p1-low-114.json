@@ -1,0 +1,2094 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-low-114",
+  "meta": {
+    "title": "Triumph of the City",
+    "category": "P1",
+    "frequency": "low",
+    "pdfFilename": "28. P1 - Triumph of the City 城市的胜利.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/28. P1 - Triumph of the City 城市的胜利/",
+    "legacyFilename": "28. P1 - Triumph of the City 城市的胜利.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Triumph of the City 城市的胜利"
+  },
+  "explanationKey": "p1-low-114",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Book review: Triumph of the City"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Triumph of the City, by Edward Glaeser, is a thrilling and very readable hymn of praise to an invention so vast and so effective that it is generally taken for granted. More than half the global population already live in urban areas and, every month, five million more flood into the cities of the developed and developing worlds. The crowds and poverty of some of these modern cities may horrify us. They shouldn’t, says Glaeser; they are signs of growth, energy and aspiration. Cities are our best and brightest hope."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This idea has had more than two hundred years of resistance. Not long after the Industrial Revolution began in Britain, the Romantic poets turned away from the smoke and factories of their cities to celebrate the air and light of untouched nature. In 19th-century America, the writer Henry David Thoreau retreated to the wilderness of Walden Pond to live the solitary, simple life, and convinced generations of Americans that cities were bad and nature was good."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "They had, Glaeser admits, a point. The early industrial cities were dirty, since they lacked efficient waste-disposal systems, and disease spread rapidly among the population. But more importantly they were profitable, and there were enormous commercial incentives to make them work, as well as political ones. Their transformation could be achieved at a stroke: in the second half of the 19th century, the French Emperor Napoleon III gave Baron Haussmann unrestricted power to turn the slum-infested city of Paris into one of the wonders and delights of the modern world. Or the transformation could be done by trial and error. Glaeser gives a brilliant account of the stop-start progression of New York to its late 20th-century position as the cultural and economic centre of the world. Either way, Paris, New York and other cities developed because they were truly effective markets of ideas and innovation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "For these and many other reasons, we should not be so upset by the spectacle of urban poverty. The poor flock to cities in the hope of becoming richer (which, by and large, they do). They also reinvigorate the economy of the city. It is folly to drive them away by forcing property prices to soar with unreasonable planning regulations. Instead, cities should build more houses and thereby hold property prices in check."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It can go wrong, of course. In Glaeser's view, this is primarily because municipal authorities fail to understand the principal virtues of their cities. The heart of Paris, as many Parisians say, is turning into a museum because of the desire to preserve Baron Haussmann's 19th-century boulevards. Glaeser defends their preservation, but argues that in the 1950s the French made a mistake in establishing a huge high-rise commercial development — La Défense — on the outskirts of the city. Far better, he says, to have turned the central area of Montparnasse into a new commercial district. This would have revitalised much of the city centre without destroying its fabric. In India, Mumbai could save itself from ever-more inefficient sprawl over the surrounding area simply by relaxing the rules presently imposed on the height of new constructions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In America, it is the suburbs that have proved to be the real disaster. Glaeser is repentant on this subject himself. He moved to the suburbs when he had children. His entirely legitimate excuse is that the government made him (and millions like him) do it. By under-taxing petrol and imposing tight planning restrictions on inner cities that drove up the cost of property, it made flight to the suburbs more or less inevitable for the middle classes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This is a disaster because nothing is more inefficient than a suburb. Suburbanites mingle less, and lose the face-to-face contact that makes being an urbanite so much more creative. Moreover, houses are costlier to heat and cool than flats, and suburbanites drive thousands more miles per year than city dwellers. Every aspect of life involves more consumption. This leads to the strongest and newest argument in favour of cities — they are good for the environment. To live in the country or the suburbs is to have a vastly larger carbon footprint than any urbanite."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Full of characters and accessible information, this is a tremendous book, not least because, like me, you will find yourself constantly seeking reasons to disagree. Like the poor in the city, this is a sign of success. If you hate the city and get moist-eyed at the thought of the country then, one way or another, Glaeser is the man you will have to take on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-8-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–8"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the notes below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "notes-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Cities"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Problems with early cities"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "dirt"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "1"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q1",
+                          "fieldName": "q1",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q1_input",
+                            "name": "q1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "but there were commercial and "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "2"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q2",
+                          "fieldName": "q2",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q2_input",
+                            "name": "q2"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " reasons for improving them"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Urban poverty is not a major problem because poor people"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "generally get "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "3"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q3",
+                          "fieldName": "q3",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q3_input",
+                            "name": "q3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "help to develop the urban "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "4"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q4",
+                          "fieldName": "q4",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q4_input",
+                            "name": "q4"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Cities do have some problems – e.g."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "the centre of Paris is becoming a "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "5"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q5",
+                          "fieldName": "q5",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q5_input",
+                            "name": "q5"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Mumbai is negatively affected by height restrictions on new buildings."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "In the US, the middle classes have moved to the suburbs due to"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "cheap petrol"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "high "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "6"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q6",
+                          "fieldName": "q6",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q6_input",
+                            "name": "q6"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " prices in inner cities"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Disadvantages of suburbs"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "less personal "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "7"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q7",
+                          "fieldName": "q7",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q7_input",
+                            "name": "q7"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "increased "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "8"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q8",
+                          "fieldName": "q8",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q8_input",
+                            "name": "q8"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " of resources such as heating – which damages the environment"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 笔记填空题（Questions 1–8：ONE WORD ONLY）",
+        "mode": "group",
+        "questionRange": {
+          "start": 1,
+          "end": 8
+        },
+        "text": "题目翻译：早期城市的问题 —— 肮脏 ——\\___\\____\n答案：disease（疾病）\n解析：定位 Paragraph 3 中 “The early industrial cities were dirty, since they lacked efficient waste-disposal systems, and disease spread rapidly among the population”，明确提到早期城市除肮脏外，“疾病（disease）” 也是问题，因此答案为 “disease”。\n题目翻译：但改进城市有商业和_\\___\\___原因\n答案：political（政治的）\n解析：定位 Paragraph 3 中 “there were enormous commercial incentives to make them work, as well as political ones”，“as well as” 对应 “and”，明确提到改进城市有商业和政治原因，因此答案为 “political”。\n题目翻译：城市贫困并非重大问题，因为贫困人口 —— 通常变得_\\___\\___\n答案：richer（更富有）\n解析：定位 Paragraph 4 中 “The poor flock to cities in the hope of becoming richer (which, by and large, they do)”，“get” 对应 “becoming”，明确提到贫困人口通常在城市变得更富有，因此答案为 “richer”。\n题目翻译：城市贫困并非重大问题，因为贫困人口 —— 帮助发展城市_\\___\\___\n答案：economy（经济）\n解析：定位 Paragraph 4 中 “They also reinvigorate the economy of the city”，“develop” 对应 “reinvigorate”，明确提到贫困人口能振兴城市经济，因此答案为 “economy”。\n题目翻译：城市确实存在一些问题 —— 例如巴黎市中心正变成_\\___\\___\n答案：museum（博物馆）\n解析：定位 Paragraph 5 中 “The heart of Paris, as many Parisians say, is turning into a museum because of the desire to preserve Baron Haussmann’s 19th-century boulevards”，明确提到巴黎市中心正变成博物馆，因此答案为 “museum”。\n题目翻译：在美国，中产阶级迁往郊区的原因 —— 汽油廉价 —— 市中心_\\___\\___价格高昂\n答案：property（房产）\n解析：定位 Paragraph 6 中 “by undertaxing petrol and imposing tight planning restrictions on inner cities that drove up the cost of property”，“high... prices” 对应 “drove up the cost of”，明确提到市中心房价高昂，因此答案为 “property”。\n题目翻译：郊区的劣势 —— 更少的人际_\\___\\___\n答案：contact（接触）\n解析：定位 Paragraph 7 中 “Suburbanites mingle less, and lose the face-to-face contact that makes being an urbanite so much more creative”，“less personal” 对应 “lose the face-to-face”，明确提到郊区居民人际接触更少，因此答案为 “contact”。\n题目翻译：郊区的劣势 —— 供暖等资源_\\___\\___增加 —— 破坏环境\n答案：consumption（消耗）\n解析：定位 Paragraph 7 中 “Every aspect of life involves more consumption”，“increased” 对应 “more”，明确提到郊区生活资源消耗更多，因此答案为 “consumption”。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "（1）题目 1：Problems with early cities – dirt – \\___\\____\n题目翻译：早期城市的问题 —— 肮脏 ——\\___\\____\n答案：disease（疾病）\n解析：定位 Paragraph 3 中 “The early industrial cities were dirty, since they lacked efficient waste-disposal systems, and disease spread rapidly among the population”，明确提到早期城市除肮脏外，“疾病（disease）” 也是问题，因此答案为 “disease”。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "（2）题目 2：but there were commercial and \\___\\____ reasons for improving them\n题目翻译：但改进城市有商业和_\\___\\___原因\n答案：political（政治的）\n解析：定位 Paragraph 3 中 “there were enormous commercial incentives to make them work, as well as political ones”，“as well as” 对应 “and”，明确提到改进城市有商业和政治原因，因此答案为 “political”。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "（3）题目 3：Urban poverty is not a major problem because poor people – generally get \\___\\____\n题目翻译：城市贫困并非重大问题，因为贫困人口 —— 通常变得_\\___\\___\n答案：richer（更富有）\n解析：定位 Paragraph 4 中 “The poor flock to cities in the hope of becoming richer (which, by and large, they do)”，“get” 对应 “becoming”，明确提到贫困人口通常在城市变得更富有，因此答案为 “richer”。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "（4）题目 4：Urban poverty is not a major problem because poor people – help to develop the urban \\___\\____\n题目翻译：城市贫困并非重大问题，因为贫困人口 —— 帮助发展城市_\\___\\___\n答案：economy（经济）\n解析：定位 Paragraph 4 中 “They also reinvigorate the economy of the city”，“develop” 对应 “reinvigorate”，明确提到贫困人口能振兴城市经济，因此答案为 “economy”。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "（5）题目 5：Cities do have some problems – e.g. the centre of Paris is becoming a \\___\\____\n题目翻译：城市确实存在一些问题 —— 例如巴黎市中心正变成_\\___\\___\n答案：museum（博物馆）\n解析：定位 Paragraph 5 中 “The heart of Paris, as many Parisians say, is turning into a museum because of the desire to preserve Baron Haussmann’s 19th-century boulevards”，明确提到巴黎市中心正变成博物馆，因此答案为 “museum”。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "（6）题目 6：In the US, the middle classes have moved to the suburbs due to – cheap petrol – high \\___\\____ prices in inner cities\n题目翻译：在美国，中产阶级迁往郊区的原因 —— 汽油廉价 —— 市中心_\\___\\___价格高昂\n答案：property（房产）\n解析：定位 Paragraph 6 中 “by undertaxing petrol and imposing tight planning restrictions on inner cities that drove up the cost of property”，“high... prices” 对应 “drove up the cost of”，明确提到市中心房价高昂，因此答案为 “property”。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "（7）题目 7：Disadvantages of suburbs – less personal \\___\\____\n题目翻译：郊区的劣势 —— 更少的人际_\\___\\___\n答案：contact（接触）\n解析：定位 Paragraph 7 中 “Suburbanites mingle less, and lose the face-to-face contact that makes being an urbanite so much more creative”，“less personal” 对应 “lose the face-to-face”，明确提到郊区居民人际接触更少，因此答案为 “contact”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "（8）题目 8：Disadvantages of suburbs – increased \\___\\____ of resources such as heating – which damages the environment\n题目翻译：郊区的劣势 —— 供暖等资源_\\___\\___增加 —— 破坏环境\n答案：consumption（消耗）\n解析：定位 Paragraph 7 中 “Every aspect of life involves more consumption”，“increased” 对应 “more”，明确提到郊区生活资源消耗更多，因此答案为 “consumption”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 9–13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 9–13 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Glaeser believes that congestion and poverty in some modern cities indicate serious problems."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The writer Henry David Thoreau discussed the ideas of the Romantic poets in his work."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Emperor Napoleon III was influenced by the complaints of poor people living in Paris."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Strict planning regulations may be beneficial for a city's development."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Glaeser argues that the location of commercial development at La Défense was a bad idea."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 判断题（Questions 9–13：TRUE/FALSE/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 9,
+          "end": 13
+        },
+        "text": "题目翻译：格莱泽认为部分现代城市的拥挤与贫困表明存在严重问题。\n答案：FALSE（错误）\n解析：定位 Paragraph 1 中 “The crowds and poverty of some of these modern cities may horrify us. They shouldn’t, says Glaeser; they are signs of growth, energy and aspiration”，明确提到格莱泽认为拥挤与贫困是 “增长、活力与抱负的象征”，而非 “严重问题”，与题干描述矛盾，因此判定为 FALSE。\n题目翻译：作家亨利・戴维・梭罗在作品中讨论了浪漫主义诗人的观点。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 2 仅提到 “浪漫主义诗人歌颂自然” 和 “梭罗隐居自然”，未提及梭罗 “讨论浪漫主义诗人的观点”，无相关信息，因此判定为 NOT GIVEN。\n题目翻译：拿破仑三世受巴黎贫困人口的抱怨影响。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 3 仅提到拿破仑三世 “授予奥斯曼男爵全权改造巴黎”，未提及改造原因是 “受贫困人口抱怨影响”，无相关信息，因此判定为 NOT GIVEN。\n题目翻译：严格的规划法规可能对城市发展有益。\n答案：FALSE（错误）\n解析：定位 Paragraph 4 中 “It is folly to drive them away by forcing property prices to soar with unreasonable planning regulations”，明确提到 “不合理的规划法规推高房价、驱逐人口，不利于城市发展”，与题干 “有益” 描述矛盾，因此判定为 FALSE。\n题目翻译：格莱泽认为将商业区建在拉德芳斯的选址是错误的。\n答案：TRUE（正确）\n解析：定位 Paragraph 5 中 “Glaeser... argues that in the 1950s the French made a mistake in establishing a huge high-rise commercial development - La Défense - on the outskirts of the city. Far better, he says, to have turned the central area of Montparnasse into a new commercial district”，明确提到格莱泽认为在拉德芳斯建商业区是 “错误”，与题干描述一致，因此判定为 TRUE。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "（1）题目 9：Glaeser believes that congestion and poverty in some modern cities indicate serious problems.\n题目翻译：格莱泽认为部分现代城市的拥挤与贫困表明存在严重问题。\n答案：FALSE（错误）\n解析：定位 Paragraph 1 中 “The crowds and poverty of some of these modern cities may horrify us. They shouldn’t, says Glaeser; they are signs of growth, energy and aspiration”，明确提到格莱泽认为拥挤与贫困是 “增长、活力与抱负的象征”，而非 “严重问题”，与题干描述矛盾，因此判定为 FALSE。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "（2）题目 10：The writer Henry David Thoreau discussed the ideas of the Romantic poets in his work.\n题目翻译：作家亨利・戴维・梭罗在作品中讨论了浪漫主义诗人的观点。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 2 仅提到 “浪漫主义诗人歌颂自然” 和 “梭罗隐居自然”，未提及梭罗 “讨论浪漫主义诗人的观点”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 11,
+            "text": "（3）题目 11：Emperor Napoleon III was influenced by the complaints of poor people living in Paris.\n题目翻译：拿破仑三世受巴黎贫困人口的抱怨影响。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 3 仅提到拿破仑三世 “授予奥斯曼男爵全权改造巴黎”，未提及改造原因是 “受贫困人口抱怨影响”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 12,
+            "text": "（4）题目 12：Strict planning regulations may be beneficial for a city’s development.\n题目翻译：严格的规划法规可能对城市发展有益。\n答案：FALSE（错误）\n解析：定位 Paragraph 4 中 “It is folly to drive them away by forcing property prices to soar with unreasonable planning regulations”，明确提到 “不合理的规划法规推高房价、驱逐人口，不利于城市发展”，与题干 “有益” 描述矛盾，因此判定为 FALSE。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 13,
+            "text": "（5）题目 13：Glaeser argues that the location of commercial development at La Défense was a bad idea.\n题目翻译：格莱泽认为将商业区建在拉德芳斯的选址是错误的。\n答案：TRUE（正确）\n解析：定位 Paragraph 5 中 “Glaeser... argues that in the 1950s the French made a mistake in establishing a huge high-rise commercial development - La Défense - on the outskirts of the city. Far better, he says, to have turned the central area of Montparnasse into a new commercial district”，明确提到格莱泽认为在拉德芳斯建商业区是 “错误”，与题干描述一致，因此判定为 TRUE。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-5-6-7-8-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "disease",
+    "q2": "political",
+    "q3": "richer",
+    "q4": "economy",
+    "q5": "museum",
+    "q6": "property",
+    "q7": "contact",
+    "q8": "consumption",
+    "q9": "FALSE",
+    "q10": "NOT GIVEN",
+    "q11": "NOT GIVEN",
+    "q12": "FALSE",
+    "q13": "TRUE"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-7-8-anchor",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9-10-11-12-13-anchor",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

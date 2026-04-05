@@ -50,8 +50,9 @@ function countQuestionsFromHtml(htmlContent: string): number {
 /**
  * 估算题目数量（根据类别）
  */
-function estimateTotalQuestions(htmlPath: string): number {
+function estimateTotalQuestions(htmlPath: string | undefined | null): number {
   // P1/P2: 13 题，P3: 14 题
+  if (!htmlPath) return 13
   if (htmlPath.includes('P3')) return 14
   return 13
 }
@@ -65,7 +66,7 @@ export function scanQuestionBank(): Question[] {
     ...item,
     type: 'reading' as const,
     totalQuestions: item.totalQuestions || estimateTotalQuestions(item.htmlPath)
-  })) as Question[]
+  })).filter(item => item.id && item.title) as Question[]
 
   // 按类别排序
   questions.sort((a, b) => {

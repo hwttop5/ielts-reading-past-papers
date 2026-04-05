@@ -1,0 +1,17 @@
+{
+  "scannedAt": "2026-04-04T04:19:29.846Z",
+  "totalQuestions": 218,
+  "pdfs": {
+    "found": 217,
+    "missing": 1
+  },
+  "examJsons": {
+    "found": 217,
+    "missing": 1
+  },
+  "explanationJsons": {
+    "expected": 128,
+    "found": 126,
+    "missing": 2
+  }
+}

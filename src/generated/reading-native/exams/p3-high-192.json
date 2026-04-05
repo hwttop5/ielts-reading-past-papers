@@ -1,0 +1,2450 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-192",
+  "meta": {
+    "title": "Voynich Manuscript",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "99. P3 - Voynich Manuscript 伏尼契手稿【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/99. P3 - Voynich Manuscript 伏尼契手稿【高】/",
+    "legacyFilename": "99. P3 - Voynich Manuscript 伏尼契手稿【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Voynich Manuscript 伏尼契手稿"
+  },
+  "explanationKey": "p3-high-192",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Voynich Manuscript"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The starkly modern Beinecke Library at Yale University is home to some of the most valuable books in the world: first folios of Shakespeare, Gutenberg Bibles and manuscripts from the early Middle Ages. Yet the library's most controversial possession is an unprepossessing vellum manuscript about the size of a hardback book, containing 240-odd pages of drawings and text of unknown age and authorship. Catalogued as MS 408, the manuscript would attract little attention were it not for the fact that the drawings hint at esoteric knowledge, while the text seems to be some sort of code — one that no-one has been able to break. It is known to scholars as the Voynich manuscript, after the American book-dealer Wilfrid Voynich, who bought the manuscript from a Jesuit college in Italy in 1912."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Over the years, the manuscript has attracted the attention of everyone from amateur dabblers to top code-breakers, all determined to succeed where countless others have failed. Academic research papers, books and websites are devoted to making sense of the contents of the manuscript, which are freely available to all. “Most other mysteries involve second-hand reports,” says Dr Gordon Rugg of Keele University, a leading Voynich expert. “But this is one that you can see for yourself.\""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It is certainly strange: page after page of drawings of weird plants, astrological symbolism and human figures, accompanied by a script that looks like some form of shorthand. What does it say — and what are the drawings about? Voynich himself believed that the manuscript was the work of the 13th-century English monk Roger Bacon, famed for his knowledge of alchemy, philosophy and science. In 1921 Voynich's view that Bacon was the writer appeared to win support from the work of William Newbold, Professor of Philosophy at the University of Pennsylvania, who claimed to have found the key to the cipher system used by Bacon. According to Newbold, the manuscript proved that Bacon had access to a microscope centuries before they were supposedly first invented. The claim that this medieval monk had observed living cells created a sensation. It soon became clear, however, that Newbold had fallen victim to wishful thinking. Other scholars showed that his \"decoding” methods produced a host of possible interpretations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Voynich manuscript has continued to defy the efforts of world-class experts. In 1944, a team was assembled to tackle the mystery, led by William Friedman, the renowned American code-breaker. They began with the most basic code-breaking task: analysing the relative frequencies of the characters making up the text, looking for signs of an underlying structure. Yet Friedman's team soon found themselves in deep water. The precise size of the “alphabet” of the Voynich manuscript was unclear: it is possible to make out more than 70 distinct symbols among the 170,000-character text. Furthermore, Friedman discovered that some words and phrases appeared more often than expected in a standard language, casting doubt on claims that the manuscript concealed a real language, as encryption typically reduces word frequencies."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Friedman concluded that the most plausible resolution of this paradox was that “Voynichese” is some sort of specially created artificial language, whose words are devised from concepts rather than linguistics. So could the Voynich manuscript be the earliest-known example of an artificial language? \"Friedman's hypothesis commands respect because of the lifetime of cryptanalytic expertise he brought to bear,” says Rob Churchill, co-author of The Voynich Manuscript. That still leaves a host of questions unanswered, however, such as the identity of the author and the meaning of the bizarre drawings. “It does little to advance our understanding of the manuscript as a whole,” says Churchill."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Even though Friedman was working more than 60 years ago, he suspected that major insights would come from using the device that had already transformed code-breaking: the computer. In this he was right — it is now the key tool for uncovering clues about the manuscript's language."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The insights so far have been perplexing. For example, in 2001 another leading Voynich scholar, Dr Gabriel Landini of Birmingham University in the UK, published the results of his study of the manuscript using a pattern-detecting method called spectral analysis. This revealed evidence that the manuscript contains genuine words, rather than random nonsense, consistent with the existence of some underlying natural language. Yet the following year, Voynich expert René Zandbergen of the European Space Agency in Darmstadt, Germany, showed that the entropy of the text (a measure of the rate of transfer of information) was consistent with Friedman's suspicions that an artificial language had been used."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Many are convinced that the Voynich manuscript is not a hoax. For how could a medieval hoaxer create so many tell-tale signs of a message from random nonsense? Yet even this has been challenged in new research by Rugg. Using a system first published by the Italian mathematician Girolamo Cardano in 1150, in which a specially constructed grille is used to pick out symbols from a table, Rugg found he could rapidly generate text with many of the basic traits of the Voynich manuscript. Publishing his results in 2004, Rugg stresses that he had not set out to prove the manuscript a hoax. “I simply demonstrated that it is feasible to hoax something this complex in a few months,\" he says."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Inevitably, others beg to differ. Some scholars, such as Zandbergen, still suspect the text has genuine meaning, though believe it may never be decipherable. Others, such as Churchill, have suggested that the sheer weirdness of the illustrations and text hints at an author who had lost touch with reality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "What is clear is that the book-sized manuscript, kept under lock and key at Yale University, has lost none of its fascination. “Many derive great intellectual pleasure from solving puzzles,” says Rugg. \"The Voynich manuscript is as challenging a puzzle as anyone could ask for.”"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–30"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 27-30 on your answer sheet, write"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TRUE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if the statement agrees with the information"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FALSE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if the statement contradicts the information"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if there is no information on this"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is uncertain when the Voynich manuscript was written."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Wilfrid Voynich donated the manuscript to the Beinecke Library."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Interest in the Voynich manuscript extends beyond that of academics and professional code-breakers."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The text of the Voynich manuscript contains just under 70 symbols."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 判断题（Questions 27–30：TRUE/FALSE/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 27,
+          "end": 30
+        },
+        "text": "答案：TRUE（正确）\n解析：定位 Paragraph 1 中 “containing 240-odd pages of drawings and text of unknown age and authorship”，“年代未知（unknown age）” 即 “写作时间不确定”，与题干描述一致，因此判定为 TRUE。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 1 仅提到 “Wilfrid Voynich, who bought the manuscript from a Jesuit college in Italy in 1912”，“伏尼契 1912 年买下手稿”，未提及 “捐赠给图书馆”，无相关信息，因此判定为 NOT GIVEN。\n答案：TRUE（正确）\n解析：定位 Paragraph 2 中 “the manuscript has attracted the attention of everyone from amateur dabblers to top code-breakers”，“从业余爱好者到顶尖破译员” 即 “兴趣超出学者和专业人员”，与题干描述一致，因此判定为 TRUE。\n答案：FALSE（错误）\n解析：定位 Paragraph 4 中 “It is possible to make out more than 70 distinct symbols among the 170,000-character text”，“超过 70 个不同符号” 与题干 “不到 70 个” 描述矛盾，因此判定为 FALSE。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：It is uncertain when the Voynich manuscript was written.（伏尼契手稿的写作时间不确定）\n答案：TRUE（正确）\n解析：定位 Paragraph 1 中 “containing 240-odd pages of drawings and text of unknown age and authorship”，“年代未知（unknown age）” 即 “写作时间不确定”，与题干描述一致，因此判定为 TRUE。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Wilfrid Voynich donated the manuscript to the Beinecke Library.（威尔弗里德・伏尼契将手稿捐赠给拜内克图书馆）\n答案：NOT GIVEN（未提及）\n解析：Paragraph 1 仅提到 “Wilfrid Voynich, who bought the manuscript from a Jesuit college in Italy in 1912”，“伏尼契 1912 年买下手稿”，未提及 “捐赠给图书馆”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Interest in the Voynich manuscript extends beyond that of academics and professional codebreakers.（对伏尼契手稿的兴趣超出学者和专业密码破译员的范围）\n答案：TRUE（正确）\n解析：定位 Paragraph 2 中 “the manuscript has attracted the attention of everyone from amateur dabblers to top code-breakers”，“从业余爱好者到顶尖破译员” 即 “兴趣超出学者和专业人员”，与题干描述一致，因此判定为 TRUE。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：The text of the Voynich manuscript contains just under 70 symbols.（伏尼契手稿文本包含不到 70 个符号）\n答案：FALSE（错误）\n解析：定位 Paragraph 4 中 “It is possible to make out more than 70 distinct symbols among the 170,000-character text”，“超过 70 个不同符号” 与题干 “不到 70 个” 描述矛盾，因此判定为 FALSE。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "matching",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q5-6-7-8-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 31–34"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 31-34) and the list of people below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct person, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The number of times that some words occur makes it unlikely that the manuscript is based on an authentic language."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q5",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q5"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Unlike some other similar objects of fascination, people can gain direct access to the Voynich manuscript."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q6",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q6"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The person who wrote the manuscript may not have been entirely sane."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q7",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q7"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is likely that the author of the manuscript is the same person as suggested by Wilfrid Voynich."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q8",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "people-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of People"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "A",
+                      "label": "A Gordon Rugg",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "B",
+                      "label": "B Roger Bacon",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "C",
+                      "label": "C William Newbold",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "D",
+                      "label": "D William Friedman",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "E",
+                      "label": "E Rob Churchill",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "F",
+                      "label": "F Gabriel Landini",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "F"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "G",
+                      "label": "G René Zandbergen",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "G"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "H",
+                      "label": "H Girolamo Cardano",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "H"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 人物 - 观点匹配（Questions 31–34：A=Gordon Rugg / B=Roger Bacon / C=William Newbold / D=William Friedman / E=Rob Churchill / F=Gabriel Landini / G=René Zandbergen / H=Girolamo Cardano）",
+        "mode": "group",
+        "questionRange": {
+          "start": 31,
+          "end": 34
+        },
+        "text": "答案：D（William Friedman，威廉・弗里德曼）\n解析：定位 Paragraph 4 中 “Friedman discovered that some words and phrases appeared more often than expected in a standard language, casting doubt on claims that the manuscript concealed a real language”，弗里德曼发现 “单词出现频率异常，怀疑非真实语言”，因此选 D。\n答案：A（Gordon Rugg，戈登・拉格）\n解析：定位 Paragraph 2 中 “Dr Gordon Rugg... ‘Most other mysteries involve second-hand reports, but this is one that you can see for yourself’”，拉格指出 “手稿可亲眼看到，与其他依赖二手报道的谜团不同”，因此选 A。\n答案：E（Rob Churchill，罗布・丘吉尔）\n解析：定位 Paragraph 9 中 “others, such as Churchill, have suggested that the sheer weirdness of the illustrations and text hints at an author who had lost touch with reality”，丘吉尔认为 “图文怪异暗示作者脱离现实（神志不清）”，因此选 E。\n答案：C（William Newbold，威廉・纽博尔德）\n解析：定位 Paragraph 3 中 “Voynich himself believed that the manuscript was the work of the 13th-century English monk Roger Bacon... in 1921 Voynich’s view... appeared to win support from the work of William Newbold”，纽博尔德的研究曾支持伏尼契 “作者是培根” 的观点，因此选 C。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（1）题目 31：The number of times that some words occur makes it unlikely that the manuscript is based on an authentic language.（部分单词的出现次数让手稿不太可能基于真实语言）\n答案：D（William Friedman，威廉・弗里德曼）\n解析：定位 Paragraph 4 中 “Friedman discovered that some words and phrases appeared more often than expected in a standard language, casting doubt on claims that the manuscript concealed a real language”，弗里德曼发现 “单词出现频率异常，怀疑非真实语言”，因此选 D。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（2）题目 32：Unlike some other similar objects of fascination, people can gain direct access to the Voynich manuscript.（与其他类似热门谜团不同，人们可直接接触伏尼契手稿）\n答案：A（Gordon Rugg，戈登・拉格）\n解析：定位 Paragraph 2 中 “Dr Gordon Rugg... ‘Most other mysteries involve second-hand reports, but this is one that you can see for yourself’”，拉格指出 “手稿可亲眼看到，与其他依赖二手报道的谜团不同”，因此选 A。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（3）题目 33：The person who wrote the manuscript may not have been entirely sane.（手稿作者可能并非完全神志清醒）\n答案：E（Rob Churchill，罗布・丘吉尔）\n解析：定位 Paragraph 9 中 “others, such as Churchill, have suggested that the sheer weirdness of the illustrations and text hints at an author who had lost touch with reality”，丘吉尔认为 “图文怪异暗示作者脱离现实（神志不清）”，因此选 E。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（4）题目 34：It is likely that the author of the manuscript is the same person as suggested by Wilfrid Voynich.（手稿作者可能与威尔弗里德・伏尼契提出的一致）\n答案：C（William Newbold，威廉・纽博尔德）\n解析：定位 Paragraph 3 中 “Voynich himself believed that the manuscript was the work of the 13th-century English monk Roger Bacon... in 1921 Voynich’s view... appeared to win support from the work of William Newbold”，纽博尔德的研究曾支持伏尼契 “作者是培根” 的观点，因此选 C。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 35–39"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN TWO WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Voynich Researchers"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    William Newbold believed that the author of the Voynich manuscript had been able to look at cells through a "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "name": "q9",
+                        "type": "text",
+                        "id": "q35_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Other researchers later demonstrated that there were flaws in his argument.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    William Friedman concluded that the manuscript was written in an artificial language that was based on "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "name": "q10",
+                        "type": "text",
+                        "id": "q36_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". He couldn't find out the meaning of this language but he believed that the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "name": "q11",
+                        "type": "text",
+                        "id": "q37_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " would continue to bring advances in code-breaking.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    Dr Gabriel Landini used a system known as "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "name": "q12",
+                        "type": "text",
+                        "id": "q38_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in his research, and claims to have demonstrated the presence of genuine words.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    Dr Gordon Rugg's system involved a grille, that made it possible to quickly select symbols that appeared in a "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "name": "q13",
+                        "type": "text",
+                        "id": "q39_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Rugg's conclusion was that the manuscript lacked genuine meaning.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 摘要填空（Questions 35–39：NO MORE THAN TWO WORDS）",
+        "mode": "group",
+        "questionRange": {
+          "start": 35,
+          "end": 39
+        },
+        "text": "答案：microscope（显微镜）\n解析：定位 Paragraph 3 中 “the manuscript proved that Bacon had access to a microscope centuries before they were supposedly first invented. The claim that this medieval monk had observed living cells”，“使用显微镜观察细胞”，因此答案为 “microscope”。\n答案：concepts（概念）\n解析：定位 Paragraph 5 中 “‘Voynichese’ is some sort of specially created artificial language, whose words are devised from concepts rather than linguistics”，“词汇基于概念”，因此答案为 “concepts”。\n答案：computer（计算机）\n解析：定位 Paragraph 6 中 “he suspected that major insights would come from using the device that had already transformed code-breaking: the computer”，“计算机是密码破译的关键工具”，因此答案为 “computer”。\n答案：spectral analysis（频谱分析）\n解析：定位 Paragraph 7 中 “Dr Gabriel Landini... published the results of his study of the manuscript using a pattern-detecting method called spectral analysis. This revealed evidence that the manuscript contains genuine words”，“使用频谱分析发现真实单词”，因此答案为 “spectral analysis”。\n答案：table（表格）\n解析：定位 Paragraph 8 中 “using a system first published by the Italian mathematician Girolamo Cardano in 1150, in which a specially constructed grille is used to pick out symbols from a table”，“从表格中选取符号”，因此答案为 “table”。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（1）题目 35：William Newbold believed that the author of the Voynich manuscript had been able to look at cells through a \\___\\___.（威廉・纽博尔德认为伏尼契手稿的作者曾能通过_\\___\\__观察细胞。）\n答案：microscope（显微镜）\n解析：定位 Paragraph 3 中 “the manuscript proved that Bacon had access to a microscope centuries before they were supposedly first invented. The claim that this medieval monk had observed living cells”，“使用显微镜观察细胞”，因此答案为 “microscope”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（2）题目 36：William Friedman concluded that the manuscript was written in an artificial language that was based on \\___\\___.（威廉・弗里德曼认为手稿是用基于_\\___\\__的人造语言写成的。）\n答案：concepts（概念）\n解析：定位 Paragraph 5 中 “‘Voynichese’ is some sort of specially created artificial language, whose words are devised from concepts rather than linguistics”，“词汇基于概念”，因此答案为 “concepts”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（3）题目 37：He couldn’t find out the meaning of this language but he believed that the \\___\\___ would continue to bring advances in code-breaking.（他无法解读这种语言的含义，但相信_\\___\\__将持续为密码破译带来进展。）\n答案：computer（计算机）\n解析：定位 Paragraph 6 中 “he suspected that major insights would come from using the device that had already transformed code-breaking: the computer”，“计算机是密码破译的关键工具”，因此答案为 “computer”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（4）题目 38：Dr Gabriel Landini used a system known as \\___\\___ in his research, and claims to have demonstrated the presence of genuine words.（加布里埃尔・兰迪尼博士在研究中使用了名为_\\___\\__的系统，声称证明了真实单词的存在。）\n答案：spectral analysis（频谱分析）\n解析：定位 Paragraph 7 中 “Dr Gabriel Landini... published the results of his study of the manuscript using a pattern-detecting method called spectral analysis. This revealed evidence that the manuscript contains genuine words”，“使用频谱分析发现真实单词”，因此答案为 “spectral analysis”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（5）题目 39：Dr Gordon Rugg’s system involved a grille, that made it possible to quickly select symbols that appeared in a \\___\\___.（戈登・拉格博士的系统使用了格栅，能快速从_\\___\\__中选取出现的符号。）\n答案：table（表格）\n解析：定位 Paragraph 8 中 “using a system first published by the Italian mathematician Girolamo Cardano in 1150, in which a specially constructed grille is used to pick out symbols from a table”，“从表格中选取符号”，因此答案为 “table”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-4",
+      "kind": "single_choice",
+      "questionIds": [
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Question 40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The writer's main aim in this passage is to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A explain the meaning of the manuscript."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B determine the true identity of the manuscript's author."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C describe the numerous attempts to decode the manuscript."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D identify which research into the manuscript has had the most media coverage."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "4. 主旨题（Question 40：Choose A–D）",
+        "mode": "group",
+        "questionRange": {
+          "start": 40,
+          "end": 40
+        },
+        "text": "答案：C（describe the numerous attempts to decode the manuscript. 描述破译手稿的诸多尝试）\n解析：全文依次介绍 “伏尼契、纽博尔德、弗里德曼、兰迪尼、赞德贝根、拉格” 等不同研究者的破译方法与结论，核心是 “描述众多破译尝试”，因此选 C。A（解释手稿含义）、B（确定作者身份）、D（识别媒体关注度最高的研究）均未实现，因此排除。",
+        "items": [
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40：The writer’s main aim in this passage is to（作者的主要目的是？）\n答案：C（describe the numerous attempts to decode the manuscript. 描述破译手稿的诸多尝试）\n解析：全文依次介绍 “伏尼契、纽博尔德、弗里德曼、兰迪尼、赞德贝根、拉格” 等不同研究者的破译方法与结论，核心是 “描述众多破译尝试”，因此选 C。A（解释手稿含义）、B（确定作者身份）、D（识别媒体关注度最高的研究）均未实现，因此排除。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-6-7-8-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q36_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q37_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q38_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q39_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "A",
+      "label": "A Gordon Rugg"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "B",
+      "label": "B Roger Bacon"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "C",
+      "label": "C William Newbold"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "D",
+      "label": "D William Friedman"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "E",
+      "label": "E Rob Churchill"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "F",
+      "label": "F Gabriel Landini"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "G",
+      "label": "G René Zandbergen"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "H",
+      "label": "H Girolamo Cardano"
+    }
+  ],
+  "answerKey": {
+    "q1": "TRUE",
+    "q2": "NOT GIVEN",
+    "q3": "TRUE",
+    "q4": "FALSE",
+    "q5": "D",
+    "q6": "A",
+    "q7": "E",
+    "q8": "C",
+    "q9": "microscope",
+    "q10": "concepts",
+    "q11": "the computer",
+    "q12": "spectral analysis",
+    "q13": "table",
+    "q14": "C"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-anchor",
+    "q5": "q5-6-7-8-anchor",
+    "q9": "q9-10-11-12-13-anchor",
+    "q35": "q35_input",
+    "q36": "q36_input",
+    "q10": "q36_input",
+    "q37": "q37_input",
+    "q11": "q37_input",
+    "q38": "q38_input",
+    "q12": "q38_input",
+    "q39": "q39_input",
+    "q13": "q39_input",
+    "q14": "q14-anchor",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q6": "q6",
+    "q7": "q7",
+    "q8": "q8"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q5",
+      "q6",
+      "q7",
+      "q8"
+    ]
+  },
+  "totalQuestions": 14
+}

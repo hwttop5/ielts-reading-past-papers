@@ -2,14 +2,23 @@ import type { AssistantAnswerSection, AssistantConfidence, AssistantQueryRequest
 
 function resolveAssistantApiBaseUrl(): string {
   const configuredBaseUrl = (import.meta.env.VITE_ASSISTANT_API_BASE_URL || '').replace(/\/$/, '')
+
+  // If VITE_ASSISTANT_API_BASE_URL is explicitly configured, use it (even in dev mode).
+  // This allows developers to bypass Vite proxy if needed.
   if (configuredBaseUrl) {
     return configuredBaseUrl
   }
 
+  // Dev: use same-origin `/api/*` so Vite proxies to 8787.
+  if (import.meta.env.DEV) {
+    return ''
+  }
+
   if (typeof window !== 'undefined') {
     const { hostname } = window.location
-    if (hostname === 'localhost' || hostname === '127.0.0.1') {
-      return 'http://127.0.0.1:8787'
+    // Same-origin `/api/*` so Vite dev/preview proxy (or nginx) can forward to 8787; avoids CORS and stray 404s.
+    if (hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '[::1]') {
+      return ''
     }
   }
 
@@ -138,13 +147,105 @@ export async function queryPracticeAssistant(payload: AssistantQueryRequest): Pr
   }
 
   if (!response.ok) {
-    const errorPayload = await response.json().catch(() => null) as { message?: string } | null
-    throw new Error(
-      errorPayload?.message ||
-        (locale === 'en' ? 'Assistant service is unavailable.' : '智能助手服务暂时不可用。')
-    )
+    const raw = await response.text()
+    let parsed: { message?: string } | null = null
+    try {
+      parsed = raw ? (JSON.parse(raw) as { message?: string }) : null
+    } catch {
+      parsed = null
+    }
+    const fallbackDetail =
+      raw.trim().length > 0
+        ? raw.slice(0, 400)
+        : locale === 'en'
+          ? `Assistant request failed (HTTP ${response.status}).`
+          : `智能助手请求失败（HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}）。请确认 assistant 已启动；本地开发请使用 Vite 并保留对 /api 的代理。`
+    throw new Error(parsed?.message || fallbackDetail)
   }
 
   const data = await response.json() as AssistantQueryResponse
   return normalizeAssistantResponse(data)
+}
+
+/**
+ * Stream query practice assistant using ndjson format.
+ * Events: start, delta, final, error
+ */
+export async function* queryPracticeAssistantStream(payload: AssistantQueryRequest): AsyncGenerator<{ type: string; payload: unknown }> {
+  const locale = payload.locale === 'en' ? 'en' : 'zh'
+  let response: Response
+
+  try {
+    response = await fetch(buildAssistantUrl('/api/assistant/query/stream'), {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    })
+  } catch {
+    throw new Error(
+      locale === 'en'
+        ? 'Assistant backend is not reachable. Start the local server or configure VITE_ASSISTANT_API_BASE_URL.'
+        : '智能助手后端当前不可达。请先启动本地 assistant 服务，或配置 VITE_ASSISTANT_API_BASE_URL。'
+    )
+  }
+
+  if (!response.ok) {
+    const raw = await response.text()
+    let parsed: { message?: string } | null = null
+    try {
+      parsed = raw ? (JSON.parse(raw) as { message?: string }) : null
+    } catch {
+      parsed = null
+    }
+    const fallbackDetail =
+      raw.trim().length > 0
+        ? raw.slice(0, 400)
+        : locale === 'en'
+          ? `Assistant stream request failed (HTTP ${response.status}).`
+          : `智能助手流式请求失败（HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}）。`
+    throw new Error(parsed?.message || fallbackDetail)
+  }
+
+  if (!response.body) {
+    throw new Error(locale === 'en' ? 'Response body is empty.' : '响应体为空。')
+  }
+
+  const reader = response.body.getReader()
+  const decoder = new TextDecoder()
+  let buffer = ''
+
+  try {
+    while (true) {
+      const { done, value } = await reader.read()
+      if (done) break
+
+      buffer += decoder.decode(value, { stream: true })
+      const lines = buffer.split('\n')
+      buffer = lines.pop() || ''
+
+      for (const line of lines) {
+        if (!line.trim()) continue
+        try {
+          const chunk = JSON.parse(line)
+          yield chunk
+        } catch (error) {
+          console.warn('Failed to parse stream chunk:', line, error)
+        }
+      }
+    }
+
+    // Process remaining buffer
+    if (buffer.trim()) {
+      try {
+        const chunk = JSON.parse(buffer)
+        yield chunk
+      } catch (error) {
+        console.warn('Failed to parse final buffer:', buffer, error)
+      }
+    }
+  } finally {
+    reader.releaseLock()
+  }
 }

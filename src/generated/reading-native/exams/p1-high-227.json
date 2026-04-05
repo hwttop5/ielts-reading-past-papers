@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-high-227",
+  "meta": {
+    "title": "The Whale Goes to Court",
+    "category": "P1",
+    "frequency": "high",
+    "pdfFilename": "227. P1 - The Whale Goes to Court 鲸鱼油.pdf",
+    "legacyPath": "ReadingPractice/PDF/",
+    "legacyFilename": "227. P1 - The Whale Goes to Court 鲸鱼油.pdf",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "The Whale Goes to Court 鲸鱼油"
+  },
+  "explanationKey": "p1-high-227",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1-13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Whale Goes to Court"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "h5",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A remarkable legal drama in the U.S.A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In 1818 a whale became the subject of a controversial court case in New York City. The case involved an old law requiring those who sold fish oil to pay a fee in order to have their barrels inspected by city officials, and certified. However, an oil merchant named Samuel Judd refused to pay the inspection fee on three barrels of oil, claiming that no inspection was necessary because it was whale oil, and whales were not fish. The state disagreed, and so a date was set for a court to decide not a point of law, but the answer to a more fundamental question: is a whale a fish?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "As simple as that question may appear today, the answer was far from obvious in the early nineteenth century. Indeed, the public debate in New York sparked off by the trial was sensational. At stake was nothing less than what most regarded as the order of nature. According to the commonly accepted scheme of things, if an animal was not a beast or a bird, it was a fish, regardless of whether it breathed air or suckled its young. For as long as anyone could remember, all non-human creatures had been organised according to the categories of birds, beasts and fish. For the average person the answer seemed perfectly obvious: whales swam in the sea and therefore they were fish."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Against this traditional framework stood the new Linnaean system of classification, which sought to introduce more scientific values into the classification of living things. Barely half a century old in 1818, the Linnaean system controversially classified whales as mammals because they shared two mammalian characteristics: they were warm-blooded and breathed air."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "So the trial began in December 1818. Judd's defence lawyers chose as their star witness one of New York's most prominent figures, the congressman Samuel Mitchill. Referred to as a 'living encyclopaedia', Mitchill was called upon to present the biology of the case. However, the prosecution counsel William Sampson turned the trial into a contest between scientific learning and common sense, by asking plain-spoken whalers to make their case before the jury."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The crux of Sampson's case was the trial's implication with regard to humans, should Judd be found not guilty. Sampson told jury members that if they accepted Mitchill's testimony on whales, they were obliged to accept a lower place for their own kind in the natural order. As a result, Mitchill's day in court did not go smoothly, not least because he was forced to acknowledge serious disputes among his peers regarding exactly how to classify biological organisms. Sampson then took aim at Mitchill himself and what he represented: privileged aristocrats from the scientific community who had lost touch with reality. The smooth-talking Sampson then claimed Mitchill's beliefs had their origin in Europe - something he rightly judged would infuriate the citizens of always-independent New York. This revolutionary new thinking Sampson claimed, was something that honest working New Yorkers could do without. No longer was this a case about barrels of oil but the proper place of scientific knowledge in the U.S.A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Ultimately, what won the case for Samuel Judd were not Mitchill's scientific arguments, but testimony from a different sphere altogether. In New York's markets, the merchants implicitly understood that whale oil and fish oil were not the same: whale oil could be used as a fuel for lamps because it could be burned without giving off smoke; fish oil, on the other hand, was nasty, impure stuff used primarily in tanning leather. In the end it was this testimony that led to Judd's victory."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The trial of the whale still has relevance today, when the court of public opinion remains easily swayed by sceptics. The 1818 trial was really about this question: who gets to decide on the place of the natural world in the human world - scientific experts or public opinion? Whether the issue today is the effects of human activity on the climate or some other matter, the debate continues."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1-7"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 1-7 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information on this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " An inspection fee on fish oil was introduced in New York in 1818."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Samuel Judd argued that the inspection fee should exclude whale oil."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Judd had been in trouble with city officials before the inspection fee disagreement."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Many New Yorkers were interested in the court case at the time."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Traditionally, non-human creatures had been classified in one of three groups."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Generally speaking, ordinary people thought fish were the lowest form of life."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Whales were excluded from the Linnaean system in 1818."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 判断正误（Questions 1–7）",
+        "mode": "group",
+        "questionRange": {
+          "start": 1,
+          "end": 7
+        },
+        "text": "题目翻译：1818 年，纽约引入了对鱼油的检查费。\n答案：FALSE\n解析：定位 Paragraph A 中 “The case involved an old law requiring those who sold fish oil to pay a fee in order to have their barrels inspected”。文中明确指出这是一项“古老的法律”（old law），说明检查费在 1818 年之前就已存在，而非 1818 年新引入的，与题干矛盾，因此答案为 FALSE。\n题目翻译：塞缪尔・贾德认为检查费不应适用于鲸油。\n答案：TRUE\n解析：定位 Paragraph A 中 “an oil merchant named Samuel Judd refused to pay the inspection fee on three barrels of oil, claiming that no inspection was necessary because it was whale oil, and whales were not fish”。贾德拒绝支付检查费，理由是鲸油不需要检查，因为鲸鱼不是鱼，与题干一致，因此答案为 TRUE。\n题目翻译：贾德在检查费争议之前就曾与城市官员发生过冲突。\n答案：NOT GIVEN\n解析：文中仅提及贾德因拒绝支付检查费而与州政府产生争议，并未提及他此前是否曾与城市官员有过任何冲突或纠纷，因此答案为 NOT GIVEN。\n题目翻译：当时许多纽约人对这起法庭案件很感兴趣。\n答案：TRUE\n解析：定位 Paragraph B 中 “the public debate in New York sparked off by the trial was sensational”。审判引发的公众辩论轰动一时，说明大量纽约人关注此案，与题干一致，因此答案为 TRUE。\n题目翻译：传统上，非人类生物被分为三大类之一。\n答案：TRUE\n解析：定位 Paragraph B 中 “all non-human creatures had been organised according to the categories of birds, beasts and fish”。文中明确指出所有非人类生物传统上被分为鸟类、兽类和鱼类三类，与题干一致，因此答案为 TRUE。\n题目翻译：一般来说，普通人认为鱼类是最低等的生命形式。\n答案：NOT GIVEN\n解析：文中仅提及普通人认为鲸鱼在海里游泳所以是鱼，但并未提及普通人认为鱼类是最低等的生命形式这一观点，因此答案为 NOT GIVEN。\n题目翻译：1818 年，鲸鱼被排除在林奈分类系统之外。\n答案：FALSE\n解析：定位 Paragraph C 中 “the Linnaean system controversially classified whales as mammals because they shared two mammalian characteristics”。林奈系统将鲸鱼归类为哺乳动物，而非将其排除在外，与题干矛盾，因此答案为 FALSE。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "（1）题目 1：An inspection fee on fish oil was introduced in New York in 1818.\n题目翻译：1818 年，纽约引入了对鱼油的检查费。\n答案：FALSE\n解析：定位 Paragraph A 中 “The case involved an old law requiring those who sold fish oil to pay a fee in order to have their barrels inspected”。文中明确指出这是一项“古老的法律”（old law），说明检查费在 1818 年之前就已存在，而非 1818 年新引入的，与题干矛盾，因此答案为 FALSE。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "（2）题目 2：Samuel Judd argued that the inspection fee should exclude whale oil.\n题目翻译：塞缪尔・贾德认为检查费不应适用于鲸油。\n答案：TRUE\n解析：定位 Paragraph A 中 “an oil merchant named Samuel Judd refused to pay the inspection fee on three barrels of oil, claiming that no inspection was necessary because it was whale oil, and whales were not fish”。贾德拒绝支付检查费，理由是鲸油不需要检查，因为鲸鱼不是鱼，与题干一致，因此答案为 TRUE。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "（3）题目 3：Judd had been in trouble with city officials before the inspection fee disagreement.\n题目翻译：贾德在检查费争议之前就曾与城市官员发生过冲突。\n答案：NOT GIVEN\n解析：文中仅提及贾德因拒绝支付检查费而与州政府产生争议，并未提及他此前是否曾与城市官员有过任何冲突或纠纷，因此答案为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "（4）题目 4：Many New Yorkers were interested in the court case at the time.\n题目翻译：当时许多纽约人对这起法庭案件很感兴趣。\n答案：TRUE\n解析：定位 Paragraph B 中 “the public debate in New York sparked off by the trial was sensational”。审判引发的公众辩论轰动一时，说明大量纽约人关注此案，与题干一致，因此答案为 TRUE。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "（5）题目 5：Traditionally, non-human creatures had been classified in one of three groups.\n题目翻译：传统上，非人类生物被分为三大类之一。\n答案：TRUE\n解析：定位 Paragraph B 中 “all non-human creatures had been organised according to the categories of birds, beasts and fish”。文中明确指出所有非人类生物传统上被分为鸟类、兽类和鱼类三类，与题干一致，因此答案为 TRUE。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "（6）题目 6：Generally speaking, ordinary people thought fish were the lowest form of life.\n题目翻译：一般来说，普通人认为鱼类是最低等的生命形式。\n答案：NOT GIVEN\n解析：文中仅提及普通人认为鲸鱼在海里游泳所以是鱼，但并未提及普通人认为鱼类是最低等的生命形式这一观点，因此答案为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "（7）题目 7：Whales were excluded from the Linnaean system in 1818.\n题目翻译：1818 年，鲸鱼被排除在林奈分类系统之外。\n答案：FALSE\n解析：定位 Paragraph C 中 “the Linnaean system controversially classified whales as mammals because they shared two mammalian characteristics”。林奈系统将鲸鱼归类为哺乳动物，而非将其排除在外，与题干矛盾，因此答案为 FALSE。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "short_answer",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 8-13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the notes below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-text"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "h5",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The Trial of December 1818"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The Personalities"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Samuel Mitchill worked as a congressman and a "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q8",
+                          "fieldName": "q8",
+                          "attrs": {
+                            "name": "q8",
+                            "class": "blank",
+                            "data-answer": "scientist"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The defence wanted Mitchill to present the biology of the case."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "William Sampson called "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q9",
+                          "fieldName": "q9",
+                          "attrs": {
+                            "name": "q9",
+                            "class": "blank",
+                            "data-answer": "whalers"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " as witnesses in order to appeal to the common sense of the jury."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The Arguments"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Sampson's case was based on the consequences for humans if Judd won."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Mitchill admitted that scientists had disputes about classification."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "New Yorkers disliked Mitchill because his ideas came from "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q10",
+                          "fieldName": "q10",
+                          "attrs": {
+                            "name": "q10",
+                            "class": "blank",
+                            "data-answer": "Europe"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Conclusions"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "In the end it was statements from local "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q11",
+                          "fieldName": "q11",
+                          "attrs": {
+                            "name": "q11",
+                            "class": "blank",
+                            "data-answer": "merchants"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": ", not Mitchill's testimony which helped Judd win."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Whale oil made a good "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q12",
+                          "fieldName": "q12",
+                          "attrs": {
+                            "name": "q12",
+                            "class": "blank",
+                            "data-answer": "fuel"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " because it was clean."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Judd's case is relevant today, e.g. in the debate about Earth's "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q13",
+                          "fieldName": "q13",
+                          "attrs": {
+                            "name": "q13",
+                            "class": "blank",
+                            "data-answer": "climate"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n"
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 笔记填空（Questions 8–13）",
+        "mode": "group",
+        "questionRange": {
+          "start": 8,
+          "end": 13
+        },
+        "text": "题目翻译：塞缪尔・米切尔担任国会议员和 ______。\n答案：scientist\n解析：定位 Paragraph D 中 “Referred to as a 'living encyclopaedia', Mitchill was called upon to present the biology of the case”。米切尔被称为“活百科全书”，被要求陈述案件的生物学依据，说明他同时具备科学家身份。且 Paragraph A 中提及他作为“congressman”（国会议员），结合上下文，他同时是科学家（scientist），因此答案为 scientist。\n题目翻译：威廉・桑普森传唤 ______ 作为证人，以诉诸陪审团的常识。\n答案：whalers\n解析：定位 Paragraph D 中 “Sampson turned the trial into a contest between scientific learning and common sense, by asking plain-spoken whalers to make their case before the jury”。桑普森请直言不讳的捕鲸者（whalers）在陪审团面前陈述，以诉诸常识，因此答案为 whalers。\n题目翻译：纽约人不喜欢米切尔，因为他的观点来自 ______。\n答案：Europe\n解析：定位 Paragraph E 中 “Sampson then claimed Mitchill's beliefs had their origin in Europe – something he rightly judged would infuriate the citizens of always-independent New York”。桑普森声称米切尔的观点源于欧洲，这激怒了纽约市民，因此答案为 Europe。\n题目翻译：最终帮助贾德获胜的是当地 ______ 的陈述，而非米切尔的证词。\n答案：merchants\n解析：定位 Paragraph F 中 “In New York's markets, the merchants implicitly understood that whale oil and fish oil were not the same... In the end it was this testimony that led to Judd's victory”。纽约市场中的商人（merchants）提供了关键证词，帮助贾德获胜，因此答案为 merchants。\n题目翻译：鲸油是一种很好的 ______，因为它很干净。\n答案：fuel\n解析：定位 Paragraph F 中 “whale oil could be used as a fuel for lamps because it could be burned without giving off smoke”。鲸油可用作灯的燃料（fuel），因为燃烧时不冒烟，因此答案为 fuel。\n题目翻译：贾德的案件在今天仍有现实意义，例如在关于地球 ______ 的辩论中。\n答案：climate\n解析：定位 Paragraph G 中 “Whether the issue today is the effects of human activity on the climate or some other matter, the debate continues”。文中明确提及人类活动对气候（climate）的影响，因此答案为 climate。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "（1）题目 8：Samuel Mitchill worked as a congressman and a ______.\n题目翻译：塞缪尔・米切尔担任国会议员和 ______。\n答案：scientist\n解析：定位 Paragraph D 中 “Referred to as a 'living encyclopaedia', Mitchill was called upon to present the biology of the case”。米切尔被称为“活百科全书”，被要求陈述案件的生物学依据，说明他同时具备科学家身份。且 Paragraph A 中提及他作为“congressman”（国会议员），结合上下文，他同时是科学家（scientist），因此答案为 scientist。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "（2）题目 9：William Sampson called ______ as witnesses in order to appeal to the common sense of the jury.\n题目翻译：威廉・桑普森传唤 ______ 作为证人，以诉诸陪审团的常识。\n答案：whalers\n解析：定位 Paragraph D 中 “Sampson turned the trial into a contest between scientific learning and common sense, by asking plain-spoken whalers to make their case before the jury”。桑普森请直言不讳的捕鲸者（whalers）在陪审团面前陈述，以诉诸常识，因此答案为 whalers。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "（3）题目 10：New Yorkers disliked Mitchill because his ideas came from ______.\n题目翻译：纽约人不喜欢米切尔，因为他的观点来自 ______。\n答案：Europe\n解析：定位 Paragraph E 中 “Sampson then claimed Mitchill's beliefs had their origin in Europe – something he rightly judged would infuriate the citizens of always-independent New York”。桑普森声称米切尔的观点源于欧洲，这激怒了纽约市民，因此答案为 Europe。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 11,
+            "text": "（4）题目 11：In the end it was statements from local ______, not Mitchill's testimony which helped Judd win.\n题目翻译：最终帮助贾德获胜的是当地 ______ 的陈述，而非米切尔的证词。\n答案：merchants\n解析：定位 Paragraph F 中 “In New York's markets, the merchants implicitly understood that whale oil and fish oil were not the same... In the end it was this testimony that led to Judd's victory”。纽约市场中的商人（merchants）提供了关键证词，帮助贾德获胜，因此答案为 merchants。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 12,
+            "text": "（5）题目 12：Whale oil made a good ______ because it was clean.\n题目翻译：鲸油是一种很好的 ______，因为它很干净。\n答案：fuel\n解析：定位 Paragraph F 中 “whale oil could be used as a fuel for lamps because it could be burned without giving off smoke”。鲸油可用作灯的燃料（fuel），因为燃烧时不冒烟，因此答案为 fuel。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 13,
+            "text": "（6）题目 13：Judd's case is relevant today, e.g. in the debate about Earth's ______.\n题目翻译：贾德的案件在今天仍有现实意义，例如在关于地球 ______ 的辩论中。\n答案：climate\n解析：定位 Paragraph G 中 “Whether the issue today is the effects of human activity on the climate or some other matter, the debate continues”。文中明确提及人类活动对气候（climate）的影响，因此答案为 climate。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-5-6-7-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "FALSE",
+    "q2": "TRUE",
+    "q3": "NOT GIVEN",
+    "q4": "TRUE",
+    "q5": "TRUE",
+    "q6": "NOT GIVEN",
+    "q7": "FALSE",
+    "q8": "scientist",
+    "q9": "whalers",
+    "q10": "Europe",
+    "q11": "merchants",
+    "q12": "fuel",
+    "q13": "climate"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-7-anchor",
+    "q8": "q8-9-10-11-12-13-anchor",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

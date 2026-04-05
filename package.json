@@ -16,7 +16,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "generate:index": "node scripts/generate-index.mjs",
-    "validate:index": "node scripts/validate-index.mjs"
+    "validate:index": "node scripts/validate-index.mjs",
+    "audit:question-nav:static": "node scripts/audit-question-nav-static.mjs",
+    "audit:question-nav:e2e": "playwright test --config=playwright.config.ts",
+    "audit:question-nav": "npm run audit:question-nav:static && npm run audit:question-nav:e2e",
+    "test:server": "npm --prefix server run test"
   },
   "dependencies": {
     "ant-design-vue": "^4.0.0",
@@ -25,10 +29,12 @@
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "@vitejs/plugin-vue": "^5.0.0",
     "@vue/test-utils": "^2.4.6",
     "concurrently": "^9.2.1",
     "happy-dom": "^20.8.3",
+    "playwright-core": "^1.59.1",
     "vite": "^5.0.0",
     "vitest": "^4.0.18"
   }

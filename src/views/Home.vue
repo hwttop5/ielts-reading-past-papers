@@ -172,7 +172,7 @@ const t = inject('t', (key: string) => key)
 const currentLang = inject<Readonly<Ref<'zh' | 'en'>>>('currentLang', ref('zh') as Readonly<Ref<'zh' | 'en'>>)
 
 const latestAchievements = computed(() => {
-  return achievementStore.unlockedAchievements.slice(0, 6)
+  return achievementStore.unlockedAchievements.slice(0, 4)
 })
 
 const latestPractices = computed(() => {
@@ -439,7 +439,7 @@ const randomPractice = (category?: string) => {
 .welcome-icon-wrapper {
   width: 80px;
   height: 80px;
-  background: #f59e0b;
+  background: var(--primary-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -631,38 +631,48 @@ const randomPractice = (category?: string) => {
   .stats-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .progress-summary {
     flex-direction: column;
     gap: 16px;
   }
-  
+
   .summary-divider {
     display: none;
   }
-  
+
   .category-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .welcome-card {
     padding: 32px 20px;
   }
-  
+
   .welcome-title {
     font-size: 20px;
   }
-  
+
   .welcome-desc {
     font-size: 13px;
   }
-  
+
   .welcome-actions {
     flex-direction: column;
   }
-  
+
   .welcome-btn {
     width: 100%;
+  }
+
+  /* 移动端学习进度内容左对齐 */
+  .stat-content {
+    text-align: left;
+  }
+
+  .stat-label,
+  .stat-value {
+    text-align: left;
   }
 }
 
@@ -680,6 +690,9 @@ const randomPractice = (category?: string) => {
   cursor: pointer;
   transition: var(--transition);
   min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .practice-card:hover {
@@ -691,7 +704,7 @@ const randomPractice = (category?: string) => {
 .practice-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 12px;
   gap: 12px;
 }
@@ -743,13 +756,13 @@ const randomPractice = (category?: string) => {
 }
 
 .meta-tag.category {
-  background: #eff6ff;
-  color: #2563eb;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
   font-weight: 600;
 }
 
 .meta-tag.difficulty {
-  background: #fef2f2;
+  background: rgba(220, 38, 38, 0.1);
   color: #dc2626;
 }
 
@@ -760,9 +773,9 @@ const randomPractice = (category?: string) => {
 }
 
 .meta-tag.score.highlight {
-  background: #f0fdf4;
+  background: rgba(22, 163, 74, 0.1);
   color: #16a34a;
-  border: 1px solid #dcfce7;
+  border: 1px solid rgba(22, 163, 74, 0.2);
   font-weight: 600;
 }
 
