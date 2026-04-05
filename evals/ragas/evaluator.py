@@ -12,11 +12,38 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from dotenv import load_dotenv
+
+# Match server/.env loading (server uses LLM_*; Ragas defaults to OPENAI_*).
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(_REPO_ROOT / "server" / ".env")
+
+
+def _sync_ragas_env_from_server() -> None:
+    """Copy LLM_* into OPENAI_* so LangChain/Ragas pick up the same key and base URL."""
+    if not (os.getenv("OPENAI_API_KEY") or "").strip() and (os.getenv("LLM_API_KEY") or "").strip():
+        os.environ["OPENAI_API_KEY"] = os.environ["LLM_API_KEY"].strip()
+    if not (os.getenv("OPENAI_BASE_URL") or "").strip() and (os.getenv("LLM_BASE_URL") or "").strip():
+        os.environ["OPENAI_BASE_URL"] = os.environ["LLM_BASE_URL"].strip().rstrip("/")
+    # Embeddings client (LangChain reads OPENAI_API_BASE); server uses OPENAI_EMBEDDING_BASE_URL.
+    if not (os.getenv("OPENAI_API_BASE") or "").strip():
+        emb = (os.getenv("OPENAI_EMBEDDING_BASE_URL") or "").strip()
+        llm_base = (os.getenv("LLM_BASE_URL") or "").strip()
+        if emb:
+            os.environ["OPENAI_API_BASE"] = emb.rstrip("/")
+        elif llm_base:
+            os.environ["OPENAI_API_BASE"] = llm_base.rstrip("/")
+
+
+_sync_ragas_env_from_server()
+
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "server" / "src"))
 
 try:
     from ragas import evaluate
+    from ragas.embeddings.base import embedding_factory
+    from ragas.llms import llm_factory
     from ragas.metrics import (
         answer_relevancy,
         answer_similarity,
@@ -454,25 +481,67 @@ def run_ragas_evaluation(
         print("Error: Ragas not available. Install with: pip install ragas datasets")
         return {}
 
-    result = evaluate(
-        dataset,
-        metrics=[
-            context_precision,
-            context_recall,
-            faithfulness,
-            answer_relevancy,
-        ]
+    if len(dataset) == 0:
+        print("Warning: Ragas skipped (empty dataset — no successful samples).")
+        return {}
+
+    # Ragas 0.2 + nest_asyncio 在 Python 3.14 上会触发 "Timeout should be used inside a task"，指标全 NaN
+    if sys.version_info >= (3, 14) and os.getenv("RAGAS_FORCE", "").strip() not in ("1", "true", "yes"):
+        skip_path = output_path.replace(".json", "_skipped.txt")
+        with open(skip_path, "w", encoding="utf-8") as f:
+            f.write(
+                "Ragas LLM metrics skipped on Python 3.14+ (incompatible nest_asyncio executor). "
+                "Use Python 3.12/3.13 for full Ragas scores, or set RAGAS_FORCE=1 to attempt anyway.\n"
+            )
+        print(f"Warning: Ragas LLM metrics skipped on Python {sys.version_info.major}.{sys.version_info.minor}. See {skip_path}")
+        return {}
+
+    # 与 server 一致：助手用 LLM_CHAT_MODEL；Ragas 默认曾是 gpt-4o-mini，需显式对齐
+    chat_model = (
+        os.getenv("LLM_CHAT_MODEL")
+        or os.getenv("OPENAI_CHAT_MODEL")
+        or "gpt-4o-mini"
     )
+    base = (os.getenv("OPENAI_BASE_URL") or os.getenv("LLM_BASE_URL") or "").strip() or None
+    if base:
+        base = base.rstrip("/")
+    ragas_llm = llm_factory(model=chat_model, base_url=base)
+    embed_model = os.getenv("OPENAI_EMBED_MODEL") or "text-embedding-3-small"
+    ragas_embeddings = embedding_factory(model=embed_model)
+
+    try:
+        result = evaluate(
+            dataset,
+            metrics=[
+                context_precision,
+                context_recall,
+                faithfulness,
+                answer_relevancy,
+            ],
+            llm=ragas_llm,
+            embeddings=ragas_embeddings,
+        )
+    except Exception as e:
+        err_path = output_path.replace(".json", "_error.txt")
+        with open(err_path, "w", encoding="utf-8") as ef:
+            ef.write(str(e))
+        print(f"Warning: Ragas evaluate() failed ({e}). See {err_path}")
+        return {}
 
     # Save detailed results
     df = result.to_pandas()
     df.to_csv(output_path.replace('.json', '_details.csv'), index=False)
 
-    # Compute aggregate metrics
+    # Compute aggregate metrics (Ragas may add string columns; skip non-numeric)
+    import pandas as pd
+
     aggregate = {}
+    skip = {"question", "answer", "contexts", "ground_truth"}
     for col in df.columns:
-        if col not in ['question', 'answer', 'contexts', 'ground_truth']:
-            aggregate[col] = df[col].mean()
+        if col in skip:
+            continue
+        if pd.api.types.is_numeric_dtype(df[col]):
+            aggregate[col] = float(df[col].mean(skipna=True))
 
     # Save aggregate metrics
     with open(output_path, 'w') as f:
@@ -631,7 +700,6 @@ def evaluate_answer_quality(
     # Build Ragas dataset for answer similarity
     ragas_dataset = build_ragas_dataset(samples, responses)
 
-    # Run Ragas evaluation
     ragas_output = os.path.join(output_dir, 'ragas_answer.json')
     ragas_metrics = run_ragas_evaluation(ragas_dataset, ragas_output)
 

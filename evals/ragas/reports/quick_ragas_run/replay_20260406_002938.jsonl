@@ -1,0 +1,8 @@
+{"id": "hint_single_question", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "explain_single_question", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "review_mistake_analysis", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "vocab_paraphrase", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "paragraph_focus_content", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "social_greeting_zh", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "social_greeting_en", "error": "Request failed: unknown async library, or not in async context"}
+{"id": "upload_question", "error": "Request failed: unknown async library, or not in async context"}

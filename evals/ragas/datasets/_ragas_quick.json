@@ -1,0 +1,229 @@
+[
+  {
+    "id": "hint_single_question",
+    "questionId": "p1-high-01",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expected_answer": "viii",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "偶然的发现",
+        "神农帝",
+        "干叶落入沸水"
+      ]
+    },
+    "official_explanation": "定位 Paragraph A 中干叶偶然落入沸水，神农帝发现茶的过程，与'一次偶然的发现'对应",
+    "query_variants": [
+      "第 1 题有什么提示？",
+      "能给我第一题的 hint 吗？",
+      "Question 1 提示",
+      "如何开始做第 1 题？"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "explain_single_question",
+    "questionId": "p1-high-01",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 3 题",
+    "focusQuestionNumbers": [
+      "3"
+    ],
+    "expected_answer": "ix",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "C"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "tea ceremony",
+        "art form",
+        "perfect",
+        "polite",
+        "manner",
+        "ritual"
+      ]
+    },
+    "official_explanation": "定位 Paragraph C 中日本茶道将泡茶提升为艺术形式，强调完美、礼貌的流程，体现仪式化特征",
+    "query_variants": [
+      "第 3 题怎么讲解？",
+      "解释一下第三题",
+      "Question 3 的解析",
+      "为什么第 3 题选 ix？"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "review_mistake_analysis",
+    "questionId": "p1-high-01",
+    "mode": "review",
+    "locale": "zh",
+    "userQuery": "帮我分析第 5 题为什么错了",
+    "attemptContext": {
+      "wrongQuestions": [
+        "5"
+      ],
+      "submitted": true
+    },
+    "focusQuestionNumbers": [
+      "5"
+    ],
+    "expected_answer": "v",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "E"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "expensive",
+        "$100 per pound",
+        "domain of the wealthy",
+        "luxury"
+      ]
+    },
+    "official_explanation": "定位 Paragraph E 中茶因价格高昂（每磅超过 100 美元）成为富人专属，体现奢侈品属性",
+    "query_variants": [
+      "第 5 题我为什么做错了？",
+      "分析第 5 题的错误原因",
+      "Question 5 mistake analysis",
+      "第 5 题正确答案是什么？"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "vocab_paraphrase",
+    "questionId": "p1-high-01",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "servants 有哪些同义替换？",
+    "focusQuestionNumbers": [],
+    "expected_answer": "侍从、仆人、随从、attendants、servants",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "servants",
+        "侍从"
+      ]
+    },
+    "official_explanation": "servants 在文中指为皇帝服务的侍从/仆人，同义词包括 attendants、servants、随从等",
+    "query_variants": [
+      "servants 的同义词有哪些？",
+      "increased 的同义替换",
+      "paraphrase for 'servants'",
+      "文中 servants 可以换成什么词？",
+      "servants 相当于什么词？"
+    ],
+    "expectedStyle": "vocab_paraphrase",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "paragraph_focus_content",
+    "questionId": "p1-high-01",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "段落 D 的内容是什么？",
+    "focusQuestionNumbers": [],
+    "expected_answer": "茶的消息传到欧洲，葡萄牙人成为首个记录茶的欧洲人",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "D"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "Europe",
+        "Portuguese",
+        "filter back",
+        "unknown beverage"
+      ]
+    },
+    "official_explanation": "Paragraph D 讲述茶的信息从亚洲传入欧洲，葡萄牙人凭借海军技术获得与中国贸易优先权，成为首个记录茶的欧洲人",
+    "query_variants": [
+      "D 段讲了什么？",
+      "Paragraph D 大意",
+      "第 D 段的内容",
+      "段落 D 的原文是什么？"
+    ],
+    "expectedStyle": "paragraph_focus",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "social_greeting_zh",
+    "questionId": "p1-high-01",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expected_answer": "你好！我是你的 AI 助教。我可以帮你解答雅思阅读题目、提供提示、讲解错题，或者分析词汇同义替换。你想从哪里开始？",
+    "expected_evidence": null,
+    "official_explanation": null,
+    "query_variants": [
+      "嗨",
+      "早上好",
+      "在吗？",
+      "你好，能帮我吗？"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "social_greeting_en",
+    "questionId": "p1-high-01",
+    "mode": "hint",
+    "locale": "en",
+    "userQuery": "Hello",
+    "focusQuestionNumbers": [],
+    "expected_answer": "Hello! I'm your AI tutor. I can help you with IELTS reading questions, provide hints, explain mistakes, or analyze vocabulary and paraphrases. Where would you like to start?",
+    "expected_evidence": null,
+    "official_explanation": null,
+    "query_variants": [
+      "Hi there",
+      "Good morning",
+      "Hey, can you help?",
+      "Hi, I need assistance"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social",
+    "expectedQuestionType": "general"
+  },
+  {
+    "id": "upload_question",
+    "questionId": "p1-high-01",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "我上传的这个是什么文件？",
+    "focusQuestionNumbers": [],
+    "attachments": [
+      {
+        "name": "test.pdf",
+        "type": "application/pdf"
+      }
+    ],
+    "expected_answer": "这是一个 PDF 文件。我可以帮你分析文件内容，或者如果你有具体的雅思阅读问题，我也可以帮你解答。",
+    "expected_evidence": null,
+    "official_explanation": null,
+    "query_variants": [
+      "这是什么文件？",
+      "我上传了什么？",
+      "这个附件是什么？"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "tool_result",
+    "expectedQuestionType": "general"
+  }
+]
