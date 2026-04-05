@@ -6,9 +6,12 @@ export interface Question {
   titleCN: string
   category: 'P1' | 'P2' | 'P3'
   type: 'reading'
-  difficulty: '高频' | '次频'
+  frequency?: 'high' | 'medium' | 'low'
+  /** @deprecated 旧索引字段；请使用 frequency */
+  difficulty?: '高频' | '次频'
   totalQuestions: number
-  htmlPath: string
+  /** 已废弃：旧版静态 HTML 题库路径 */
+  htmlPath?: string
   pdfPath?: string
 }
 
@@ -50,23 +53,19 @@ function countQuestionsFromHtml(htmlContent: string): number {
 /**
  * 估算题目数量（根据类别）
  */
-function estimateTotalQuestions(htmlPath: string | undefined | null): number {
-  // P1/P2: 13 题，P3: 14 题
-  if (!htmlPath) return 13
-  if (htmlPath.includes('P3')) return 14
-  return 13
+function estimateTotalQuestions(category: string | undefined | null): number {
+  return category === 'P3' ? 14 : 13
 }
 
 /**
- * 扫描 questionBank 目录并返回所有题目
- * 使用预生成的索引文件
+ * 从 `questionIndex.json` 读取全部题目（统一阅读模式，无 public/questionBank HTML）
  */
 export function scanQuestionBank(): Question[] {
-  const questions = (questionIndex as any[]).map(item => ({
+  const questions = (questionIndex as any[]).map((item) => ({
     ...item,
     type: 'reading' as const,
-    totalQuestions: item.totalQuestions || estimateTotalQuestions(item.htmlPath)
-  })).filter(item => item.id && item.title) as Question[]
+    totalQuestions: item.totalQuestions ?? estimateTotalQuestions(item.category)
+  })).filter((item) => item.id && item.title) as Question[]
 
   // 按类别排序
   questions.sort((a, b) => {

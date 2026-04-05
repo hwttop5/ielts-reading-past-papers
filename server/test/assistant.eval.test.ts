@@ -186,7 +186,6 @@ describe('assistant eval suite', () => {
         confidence: 'high',
         missingContext: []
       }),
-      'hint',
       'en'
     )
 
@@ -198,7 +197,6 @@ describe('assistant eval suite', () => {
   it('salvages malformed JSON-like output', () => {
     const parsed = parseModelResponse(
       '{"answer":"TRUE"\n"followUps":["Check the supporting sentence again."]}',
-      'hint',
       'en'
     )
 
@@ -207,7 +205,7 @@ describe('assistant eval suite', () => {
     expect(parsed.followUps).toEqual(['Check the supporting sentence again.'])
   })
 
-  it('masks paragraph labels in hint mode when the label is the answer space', async () => {
+  it('masks paragraph labels in tutor hint-style answers when the label is the answer space', async () => {
     const paragraphMatchingQuestion = createChunk({
       id: 'paragraph-question',
       questionId: question.id,
@@ -236,7 +234,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Give me a hint for Q1.'
     })
@@ -261,7 +258,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Where should I look first?'
     })
@@ -300,7 +296,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Give me a hint for Q1.'
     })
@@ -319,7 +314,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'explain',
       locale: 'en',
       userQuery: 'Explain Q12 and Q13 together.',
       focusQuestionNumbers: ['12', '13']
@@ -339,7 +333,7 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'review',
+      action: 'review_set',
       locale: 'en',
       userQuery: 'Check Q12 before I submit.',
       attemptContext: {
@@ -363,7 +357,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'review',
       locale: 'en',
       userQuery: 'Review my submitted mistake.',
       attemptContext: {
@@ -399,7 +392,7 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'similar',
+      action: 'recommend_drills',
       locale: 'en',
       recentPractice: [
         { questionId: 'related-question', accuracy: 95, category: 'P1', duration: 600 }
@@ -436,7 +429,7 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'similar',
+      action: 'recommend_drills',
       locale: 'en',
       recentPractice: [
         { questionId: 'old-p2', accuracy: 20, category: 'P2', duration: 900 },
@@ -470,7 +463,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Help with Q12.'
     })
@@ -510,7 +502,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'explain',
       locale: 'en',
       userQuery: 'Explain Q12.'
     })
@@ -535,7 +526,6 @@ describe('assistant eval suite', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'explain',
       locale: 'en',
       userQuery: 'Explain Q12.'
     })

@@ -20,16 +20,20 @@
     "audit:question-nav:static": "node scripts/audit-question-nav-static.mjs",
     "audit:question-nav:e2e": "playwright test --config=playwright.config.ts",
     "audit:question-nav": "npm run audit:question-nav:static && npm run audit:question-nav:e2e",
-    "test:server": "npm --prefix server run test"
+    "test:server": "npm --prefix server run test",
+    "eval:rag": "cd evals/ragas && python run_eval.py --all"
   },
   "dependencies": {
     "ant-design-vue": "^4.0.0",
+    "dompurify": "^3.3.3",
+    "marked": "^17.0.6",
     "pinia": "^2.1.0",
     "vue": "^3.4.0",
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
+    "@types/dompurify": "^3.0.5",
     "@vitejs/plugin-vue": "^5.0.0",
     "@vue/test-utils": "^2.4.6",
     "concurrently": "^9.2.1",

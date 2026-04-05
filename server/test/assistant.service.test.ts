@@ -39,6 +39,74 @@ function createChunk(overrides: Partial<RagChunk>): RagChunk {
   }
 }
 
+function createMultiQuestionDocument(question: QuestionIndexEntry): ParsedQuestionDocument {
+  // Create document with multiple question numbers (1, 2, 10, 12) for testing Chinese numeral recognition
+  const questionChunk1 = createChunk({
+    id: 'question-1',
+    chunkType: 'question_item',
+    questionId: question.id,
+    title: question.title,
+    category: question.category,
+    difficulty: question.difficulty,
+    questionNumbers: ['1'],
+    content: 'Question 1: What is the main idea?'
+  })
+  const questionChunk2 = createChunk({
+    id: 'question-2',
+    chunkType: 'question_item',
+    questionId: question.id,
+    title: question.title,
+    category: question.category,
+    difficulty: question.difficulty,
+    questionNumbers: ['2'],
+    content: 'Question 2: Which paragraph explains the method?'
+  })
+  const questionChunk10 = createChunk({
+    id: 'question-10',
+    chunkType: 'question_item',
+    questionId: question.id,
+    title: question.title,
+    category: question.category,
+    difficulty: question.difficulty,
+    questionNumbers: ['10'],
+    content: 'Question 10: What does the author suggest?'
+  })
+  const questionChunk12 = createChunk({
+    id: 'question-12',
+    chunkType: 'question_item',
+    questionId: question.id,
+    title: question.title,
+    category: question.category,
+    difficulty: question.difficulty,
+    questionNumbers: ['12'],
+    content: 'Question 12: Which paragraph explains the core finding?'
+  })
+  const passageChunk = createChunk({
+    id: 'passage-1',
+    chunkType: 'passage_paragraph',
+    questionId: question.id,
+    title: question.title,
+    category: question.category,
+    difficulty: question.difficulty,
+    content: 'Paragraph B explains the study methodology.'
+  })
+
+  return {
+    question,
+    sourcePath: question.htmlPath,
+    passageChunks: [passageChunk],
+    questionChunks: [questionChunk1, questionChunk2, questionChunk10, questionChunk12],
+    answerKeyChunks: [],
+    answerExplanationChunks: [],
+    summary: createSummary(question),
+    qualityReport: {
+      questionId: question.id,
+      issues: []
+    },
+    allChunks: [passageChunk, questionChunk1, questionChunk2, questionChunk10, questionChunk12]
+  }
+}
+
 function createSummary(question: QuestionIndexEntry): QuestionSummaryDoc {
   return {
     id: `summary-${question.id}`,
@@ -146,7 +214,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Where should I start?'
     })
@@ -186,7 +253,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'zh',
       userQuery: '请列出 increased 的同义替换'
     })
@@ -208,7 +274,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'zh',
       userQuery: 'increased 同义替换有哪些',
       promptKind: 'preset'
@@ -217,7 +282,7 @@ describe('AssistantService', () => {
     expect(response.answerSections?.length).toBeLessThanOrEqual(2)
   })
 
-  it('hint mode +「你好」uses social fast path without document load or LLM', async () => {
+  it('「你好」uses social fast path without document load or LLM', async () => {
     const documentLoader = vi.fn().mockResolvedValue(document)
     const generate = vi.fn()
     const service = new AssistantService({
@@ -229,7 +294,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'zh',
       userQuery: '你好'
     })
@@ -242,7 +306,6 @@ describe('AssistantService', () => {
   it('salvages answer fields from loose JSON-like model output', () => {
     const parsed = parseModelResponse(
       '{"answer":"TRUE"\n"followUps":["回顾前文，确认 assumed to be similar 的含义"]}',
-      'hint',
       'zh'
     )
 
@@ -265,14 +328,13 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Where should I start?',
       promptKind: 'preset'
     })
 
     expect(response.answer.toLowerCase()).toContain('q12')
-    expect(response.followUps).toHaveLength(3)
+    expect(response.followUps).toHaveLength(0)
     expect(response.answerSections?.length).toBeGreaterThan(0)
     expect(response.confidence).toBeTruthy()
   })
@@ -289,7 +351,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'review',
       locale: 'en',
       userQuery: 'Why was I wrong?',
       attemptContext: {
@@ -374,7 +435,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Where should I look first?'
     })
@@ -399,7 +459,6 @@ describe('AssistantService', () => {
 
     await service.query({
       questionId: question.id,
-      mode: 'hint',
       locale: 'en',
       userQuery: 'Use my notes and help with Q12.',
       focusQuestionNumbers: ['12'],
@@ -458,7 +517,6 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'explain',
       locale: 'en',
       userQuery: 'Please explain question 13 only.',
       history: [
@@ -481,7 +539,7 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'review',
+      action: 'review_set',
       locale: 'en',
       userQuery: 'Check Q12 before I submit.',
       focusQuestionNumbers: ['12'],
@@ -544,7 +602,7 @@ describe('AssistantService', () => {
 
     const response = await service.query({
       questionId: question.id,
-      mode: 'similar',
+      action: 'recommend_drills',
       locale: 'en',
       recentPractice: [
         { questionId: 'related-question', accuracy: 92, category: 'P1', duration: 900 }
@@ -568,16 +626,15 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: '你好'
       })
 
       expect(generate).not.toHaveBeenCalled()
-      expect(response.followUps).toEqual([])
+      expect(response.followUps).toEqual(['第 1 题怎么做', '这篇阅读怎么入手', '有什么阅读技巧'])
     })
 
-    it('unrelated_chat query about weather returns empty followUps', async () => {
+    it('unrelated_chat query about weather returns followUps for re-engagement', async () => {
       const documentLoader = vi.fn().mockResolvedValue(document)
       const generate = vi.fn()
       const service = new AssistantService({
@@ -589,13 +646,56 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: '今天天气怎么样？'
       })
 
-      // unrelated_chat (off-topic queries like weather) returns empty followUps
+      expect(response.followUps).toEqual(['第 1 题怎么做', '这篇阅读怎么入手', '有什么阅读技巧'])
+    })
+
+    it('grounded question with Chinese numeral (第一题) returns contextual followUps', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue('{"answer":"从段落 B 开始。","answerSections":[{"type":"direct_answer","text":"从段落 B 开始。"}],"followUps":[],"confidence":"high","missingContext":[]}')
+      }
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '第一题怎么做？'
+      })
+
+      // Chinese numeral "第一题" should be recognized and trigger grounded question handling
       expect(response.followUps).toEqual([])
+      expect(response.usedQuestionNumbers).toContain('1')
+    })
+
+    it('grounded question with Arabic numeral (第 1 题) returns contextual followUps', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue('{"answer":"从段落 B 开始。","answerSections":[{"type":"direct_answer","text":"从段落 B 开始。"}],"followUps":[],"confidence":"high","missingContext":[]}')
+      }
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '第 1 题怎么做？'
+      })
+
+      expect(response.followUps).toEqual([])
+      expect(response.usedQuestionNumbers).toContain('1')
     })
 
     it('grounded question returns contextual followUps with next question', async () => {
@@ -611,13 +711,11 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: '第 1 题怎么做？'
       })
 
-      // Local response should have followUps
-      expect(response.followUps).toBeDefined()
+      expect(response.followUps).toEqual([])
     })
 
     it('vocab query returns concise answerSections', async () => {
@@ -630,7 +728,6 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: 'servants 有哪些同义替换'
       })
@@ -651,7 +748,6 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: 'servants 有哪些同义替换'
       })
@@ -676,7 +772,6 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: 'servants 有哪些同义替换'
       })
@@ -697,12 +792,316 @@ describe('AssistantService', () => {
 
       const response = await service.query({
         questionId: question.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: '段落 B 的内容是什么'
       })
 
       expect(response.answerSections?.length).toBeLessThanOrEqual(2)
+    })
+  })
+
+  describe('preset whole passage (explain and hint)', () => {
+    it('uses all passage question numbers for 讲解思路 preset (zh)', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue(
+          JSON.stringify({
+            answer: 'overview',
+            answerSections: [{ type: 'direct_answer', text: 'ok' }],
+            followUps: [],
+            confidence: 'high',
+            missingContext: []
+          })
+        )
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '请讲解当前题组的解题思路与原文定位步骤。',
+        promptKind: 'preset'
+      })
+
+      expect(new Set(response.usedQuestionNumbers ?? [])).toEqual(new Set(['1', '2', '10', '12']))
+    })
+
+    it('treats 讲解思路 alone (button label) as whole-passage explain preset (zh)', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue(
+          JSON.stringify({
+            answer: 'overview',
+            answerSections: [{ type: 'direct_answer', text: 'ok' }],
+            followUps: [],
+            confidence: 'high',
+            missingContext: []
+          })
+        )
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '讲解思路',
+        promptKind: 'preset'
+      })
+
+      expect(new Set(response.usedQuestionNumbers ?? [])).toEqual(new Set(['1', '2', '10', '12']))
+    })
+
+    it('uses all passage question numbers for Explain reasoning preset (en)', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue(
+          JSON.stringify({
+            answer: 'overview',
+            answerSections: [{ type: 'direct_answer', text: 'ok' }],
+            followUps: [],
+            confidence: 'high',
+            missingContext: []
+          })
+        )
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'en',
+        userQuery: 'Explain the reasoning for this question set and how to locate evidence in the passage.',
+        promptKind: 'preset'
+      })
+
+      expect(new Set(response.usedQuestionNumbers ?? [])).toEqual(new Set(['1', '2', '10', '12']))
+    })
+
+    it('uses all passage question numbers for 给我提示 hint preset (zh full welcome text)', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue(
+          JSON.stringify({
+            answer: 'hints',
+            answerSections: [{ type: 'direct_answer', text: 'ok' }],
+            followUps: [],
+            confidence: 'high',
+            missingContext: []
+          })
+        )
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '请针对当前文章与题组给一些解题提示，不要直接给出答案。',
+        promptKind: 'preset'
+      })
+
+      expect(new Set(response.usedQuestionNumbers ?? [])).toEqual(new Set(['1', '2', '10', '12']))
+    })
+
+    it('treats 给我提示 alone as whole-passage hint preset (zh)', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue(
+          JSON.stringify({
+            answer: 'hints',
+            answerSections: [{ type: 'direct_answer', text: 'ok' }],
+            followUps: [],
+            confidence: 'high',
+            missingContext: []
+          })
+        )
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '给我提示',
+        promptKind: 'preset'
+      })
+
+      expect(new Set(response.usedQuestionNumbers ?? [])).toEqual(new Set(['1', '2', '10', '12']))
+    })
+
+    it('uses all passage question numbers for Give me hints preset (en)', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const provider = {
+        generate: vi.fn().mockResolvedValue(
+          JSON.stringify({
+            answer: 'hints',
+            answerSections: [{ type: 'direct_answer', text: 'ok' }],
+            followUps: [],
+            confidence: 'high',
+            missingContext: []
+          })
+        )
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'en',
+        userQuery: 'Give me hints for the current passage and question set without revealing the answers directly.',
+        promptKind: 'preset'
+      })
+
+      expect(new Set(response.usedQuestionNumbers ?? [])).toEqual(new Set(['1', '2', '10', '12']))
+    })
+  })
+
+  describe('ielts_general LLM JSON parsing', () => {
+    it('parses strict JSON into answerSections and readable answer (not raw JSON string)', async () => {
+      const jsonResponse = JSON.stringify({
+        answer: 'summary line',
+        answerSections: [
+          { type: 'direct_answer', text: '阅读技巧要点' },
+          { type: 'reasoning', text: '原因说明' },
+          { type: 'next_step', text: '练习建议' }
+        ],
+        followUps: ['总结题型', '同义替换', '段落大意'],
+        confidence: 'high',
+        missingContext: []
+      })
+      const provider = {
+        generate: vi.fn().mockResolvedValue(jsonResponse)
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '雅思阅读技巧'
+      })
+
+      expect(response.responseKind).toBe('chat')
+      expect(response.answerSections?.length).toBeGreaterThanOrEqual(3)
+      expect(response.answer).not.toMatch(/^\s*\{/)
+      expect(response.followUps?.length).toBeGreaterThanOrEqual(1)
+      expect(provider.generate).toHaveBeenCalled()
+    })
+
+    it('parses fenced JSON from ielts_general LLM output', async () => {
+      const inner = JSON.stringify({
+        answer: 'x',
+        answerSections: [{ type: 'direct_answer', text: ' fenced body ' }],
+        followUps: [],
+        confidence: 'high',
+        missingContext: []
+      })
+      const provider = {
+        generate: vi.fn().mockResolvedValue(`\`\`\`json\n${inner}\n\`\`\``)
+      }
+      const service = new AssistantService({
+        provider,
+        questionLoader: async () => question,
+        documentLoader: async () => document,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '雅思备考方法'
+      })
+
+      expect(response.answerSections?.length).toBeGreaterThanOrEqual(1)
+      expect(response.answer.trim().length).toBeGreaterThan(0)
+      expect(response.answer).not.toContain('"answerSections"')
+    })
+  })
+
+  describe('chinese numeral conversion', () => {
+    // Note: chineseNumeralToArabic is internal to service.ts, so we test end-to-end behavior
+    it('recognizes 第一题 as question 1', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '第一题怎么做'
+      })
+
+      expect(response.usedQuestionNumbers).toContain('1')
+    })
+
+    it('recognizes 第二题 as question 2', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '第二题的思路'
+      })
+
+      expect(response.usedQuestionNumbers).toContain('2')
+    })
+
+    it('recognizes 第十题 as question 10', async () => {
+      const multiDoc = createMultiQuestionDocument(question)
+      const service = new AssistantService({
+        provider: null,
+        questionLoader: async () => question,
+        documentLoader: async () => multiDoc,
+        summariesLoader: async () => [document.summary]
+      })
+
+      const response = await service.query({
+        questionId: question.id,
+        locale: 'zh',
+        userQuery: '第十题怎么解'
+      })
+
+      expect(response.usedQuestionNumbers).toContain('10')
     })
   })
 })

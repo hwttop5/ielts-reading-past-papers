@@ -1,4 +1,3 @@
-export type AssistantMode = 'hint' | 'explain' | 'review' | 'similar'
 export type AssistantLocale = 'zh' | 'en'
 export type AssistantAnswerSectionType = 'direct_answer' | 'reasoning' | 'evidence' | 'next_step'
 export type AssistantConfidence = 'high' | 'medium' | 'low'
@@ -85,7 +84,6 @@ export interface WebCitation {
 
 export interface AssistantQueryRequest {
   questionId: string
-  mode: AssistantMode
   locale?: AssistantLocale
   userQuery?: string
   history?: AssistantHistoryItem[]
@@ -104,6 +102,21 @@ export interface AssistantQueryRequest {
   allowWebSearch?: boolean
 }
 
+/** Serialized RAG chunk for offline evaluation (X-Assistant-Eval / ASSISTANT_INCLUDE_RETRIEVAL). */
+export interface AssistantRetrievedChunk {
+  id: string
+  questionId: string
+  chunkType: string
+  questionNumbers: string[]
+  paragraphLabels: string[]
+  content: string
+  metadata: {
+    questionType?: string
+    chunkType?: string
+    sensitive?: boolean
+  }
+}
+
 export interface AssistantQueryResponse {
   answer: string
   citations: AssistantCitation[]
@@ -118,11 +131,14 @@ export interface AssistantQueryResponse {
   responseKind?: AssistantResponseKind
   // Enhanced protocol fields
   toolCards?: AssistantToolCard[]
-  nextActions?: AssistantNextAction[]
   // Search metadata
   answerSource?: AnswerSource
   searchUsed?: boolean
   webCitations?: WebCitation[]
+  /** Populated only when eval retrieval is enabled (see server routes + env). */
+  retrievedChunks?: AssistantRetrievedChunk[]
+  /** Router layer (unrelated_chat | ielts_general | page_grounded); set with retrievedChunks for eval. */
+  assistantRoute?: AssistantRoute
 }
 
 export interface AssistantCitation {
@@ -159,14 +175,6 @@ export interface AssistantToolCard {
   content: string
   metadata?: Record<string, string | string[]>
   sourceExcerpt?: string
-}
-
-// New: Next action suggestion for follow-up interactions
-export interface AssistantNextAction {
-  label: string
-  action: AssistantAction
-  icon?: string
-  context?: Partial<SelectedContext | PracticeContext>
 }
 
 // New: Router decision for three-layer routing

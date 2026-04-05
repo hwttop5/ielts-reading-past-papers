@@ -3,10 +3,10 @@ import type {
   AssistantAnswerSectionType,
   AssistantCitation,
   AssistantConfidence,
-  AssistantNextAction,
   AssistantQueryRequest,
   AssistantQueryResponse,
   AssistantReviewItem,
+  AssistantRoute,
   AssistantToolCard,
   SimilarQuestionRecommendation
 } from '../../types/assistant.js'
@@ -18,15 +18,17 @@ import { classifyRoute, type RouterDecision } from './router.js'
 import { classifyAnswerStyle, type AnswerStyle } from './answerStyle.js'
 import { createAssistantChatProvider, type AssistantChatProvider, type WebSearchProvider, createWebSearchProvider } from './provider.js'
 import {
-  BRIEF_MODE_CONTEXT_BUDGET,
+  BRIEF_ROUTE_CONTEXT_BUDGET,
   MAX_SUPPLEMENTAL_PASSAGES,
-  MODE_CONTEXT_LIMIT,
-  MODE_SEMANTIC_LIMIT,
+  ROUTE_CONTEXT_LIMIT,
+  ROUTE_SEMANTIC_LIMIT,
   PARAGRAPH_FOCUS_QUERY_SEMANTIC_LIMIT,
   SIMILAR_CONTEXT_BUDGET,
   SIMILAR_SEMANTIC_LIMIT,
   VOCAB_QUERY_SEMANTIC_LIMIT
 } from './retrieval/constants.js'
+import { resolveContextRoute, type AssistantContextRoute } from './contextRoute.js'
+import { serializeRetrievedChunksForEval } from './evalSerialization.js'
 import { dedupeChunks } from './retrieval/dedupe.js'
 import { budgetFinalChunks } from './retrieval/mergeContext.js'
 import { createAssistantSemanticSearch, type AssistantSemanticSearch } from './semantic.js'
@@ -92,36 +94,24 @@ interface RetrievalContext {
 }
 
 const SECTION_TYPES: AssistantAnswerSectionType[] = ['direct_answer', 'reasoning', 'evidence', 'next_step']
+/** Model may emit more; we only surface this many follow-up chips in the UI. */
+const MAX_ASSISTANT_FOLLOW_UPS = 3
+/** Max characters per follow-up chip label (ellipsis if longer). */
+const MAX_FOLLOW_UP_CHARS = 100
+
+function clampFollowUpLabel(value: string): string {
+  const t = value.trim()
+  if (!t) return ''
+  if (t.length <= MAX_FOLLOW_UP_CHARS) return t
+  return `${t.slice(0, MAX_FOLLOW_UP_CHARS).trimEnd()}…`
+}
+
+function normalizeFollowUpStrings(items: string[]): string[] {
+  return items.map((s) => clampFollowUpLabel(s)).filter(Boolean)
+}
 const PASSAGE_CONTEXT_FALLBACK_LIMIT = 3
 const MAX_SIMILAR_RECOMMENDATIONS = 3
 
-/**
- * Generate contextual follow-up questions based on intent type.
- * - social/general_chat: empty array (no follow-ups for smalltalk)
- * - grounded_question: next question number or generic follow-ups
- * - other: generic follow-ups
- */
-function generateContextualFollowUps(
-  intent: IntentClassification,
-  locale: 'zh' | 'en',
-  questionNumbers: string[]
-): string[] {
-  if (intent.kind === 'social_or_smalltalk' || intent.kind === 'general_chat') {
-    return [] // 闲聊场景不推荐 follow-ups
-  }
-  if (intent.kind === 'grounded_question' && intent.questionNumbers?.length) {
-    const nextQ = questionNumbers.find(q => !intent.questionNumbers!.includes(q))
-    if (nextQ) {
-      return locale === 'zh'
-        ? [`第${nextQ}题怎么做？`, '查看段落证据', '解释解题思路']
-        : [`How to do Q${nextQ}?`, 'View paragraph evidence', 'Explain reasoning']
-    }
-  }
-  // Default follow-ups for other scenarios
-  return locale === 'zh'
-    ? ['第 1 题怎么做？', '查看段落证据', '解释解题思路']
-    : ['How to approach Q1?', 'View paragraph evidence', 'Explain reasoning']
-}
 const SEARCH_STOPWORDS = new Set([
   'about', 'above', 'after', 'again', 'against', 'among', 'because', 'before', 'being', 'below', 'between',
   'could', 'does', 'doing', 'from', 'have', 'into', 'more', 'most', 'only', 'other', 'same', 'should',
@@ -167,16 +157,16 @@ function getLocalIeltsCoachResponse(request: AssistantQueryRequest, locale: 'zh'
 
   // Keyword-based template matching for common IELTS questions
   if (locale === 'zh') {
-    if (/速度 | 时间 | 快 | 慢/.test(query)) {
-      return '提高雅思阅读速度的关键：1) 先读题干再扫读文章，定位关键词；2) 遇到难题先跳过，做完全部再回头；3) 平时练习要限时，培养时间感。一般建议：P1 用时 15-17 分钟，P2/P3 各 20-22 分钟。'
+    if (/速度 | 时间 | 快 | 慢 | 不够 | 来不及 | 超时 | 分配 | 管理/.test(query)) {
+      return '提高雅思阅读速度的关键：1) 先读题干再扫读文章，定位关键词；2) 遇到难题先跳过，做完全部再回头；3) 平时练习要限时，培养时间感。一般建议：P1 用时 15-17 分钟，P2/P3 各 20-22 分钟。如果时间不够，优先做擅长题型。'
     }
-    if (/词汇 | 单词 | 同义替换/.test(query)) {
+    if (/词汇 | 单词 | 同义替换 | 近义/.test(query)) {
       return '积累 IELTS 阅读词汇的方法：1) 整理做题中遇到的同义替换，建立错题本；2) 按话题分类记忆（环境、科技、教育等）；3) 重点掌握题干和原文的对应表达，而非孤立背单词。'
     }
     if (/题型 | matching|heading|判断|填空/.test(query)) {
       return 'IELTS 阅读主要题型：1) 判断题 (T/F/NG) - 注意题干绝对词；2) 配对题 (Matching) - 先读题干再扫读；3) 段落信息配对 - 找关键词定位；4) 填空题 - 注意字数限制。建议先做自己擅长的题型。'
     }
-    if (/技巧 | 方法 | 怎么提高 | 怎么练习/.test(query)) {
+    if (/技巧 | 方法 | 怎么提高 | 怎么练习 | 怎么学 | 怎么备考/.test(query)) {
       return '雅思阅读提分技巧：1) 学会略读 (skimming) 抓主旨；2) 扫读 (scanning) 定位关键词；3) 掌握不同题型的解题顺序；4) 积累同义替换表达。你有什么具体想了解的题型吗？'
     }
     // Default fallback
@@ -184,7 +174,7 @@ function getLocalIeltsCoachResponse(request: AssistantQueryRequest, locale: 'zh'
   }
 
   // English templates
-  if (/speed|time|fast|slow/.test(query)) {
+  if (/speed|time|fast|slow|run out|not enough/.test(query)) {
     return 'To improve IELTS Reading speed: 1) Read questions first, then scan for keywords; 2) Skip difficult questions and return later; 3) Practice with timed sessions. Suggested timing: P1 in 15-17 min, P2/P3 in 20-22 min each.'
   }
   if (/vocabulary|word|paraphrase|synonym/.test(query)) {
@@ -222,7 +212,15 @@ const WEATHER_TIME_PATTERNS_EN = [/weather/, /today|tomorrow|yesterday/, /time\b
 const WHOLE_SET_PATTERNS_ZH = [/整组/, /整篇/, /全文/, /这组题/, /全部题目/, /所有题/, /一起讲/, /整体思路/, /总览/, /复盘/, /错题/]
 const WHOLE_SET_PATTERNS_EN = [/\b(whole|all|entire|full|overview|summary|review|this set)\b/i, /\b(all questions|the whole set|my mistakes)\b/i]
 
-const QUESTION_NUMBER_PATTERN = /(?:第\s*(\d+)\s*题)|(?:question\s*(\d+))|(?:q(\d+))|(?:paragraph\s*([A-H]))|(?:段落\s*([A-H]))/gi
+const CHINESE_NUMERALS = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二', '十三', '十四', '十五', '十六', '十七', '十八', '十九', '二十']
+const QUESTION_NUMBER_PATTERN = /(?:第\s*(\d+|[一二三四五六七八九十十一十二十三十四十五十六十七十八十九二十]+)\s*题)|(?:question\s*(\d+))|(?:q(\d+))|(?:paragraph\s*([A-H]))|(?:段落\s*([A-H]))/i
+const QUESTION_NUMBER_PATTERN_GLOBAL = /(?:第\s*(\d+|[一二三四五六七八九十十一十二十三十四十五十六十七十八十九二十]+)\s*题)|(?:question\s*(\d+))|(?:q(\d+))|(?:paragraph\s*([A-H]))|(?:段落\s*([A-H]))/gi
+
+/** Convert Chinese numerals (一 - 二十) to Arabic numerals (1-20) */
+function chineseNumeralToArabic(value: string): string {
+  const index = CHINESE_NUMERALS.indexOf(value)
+  return index >= 0 ? String(index + 1) : value
+}
 
 function stripGreetingPrefix(value: string, locale: 'zh' | 'en'): string {
   const patterns = locale === 'zh' ? GREETING_PATTERNS_ZH : GREETING_PATTERNS_EN
@@ -391,9 +389,13 @@ function classifyIntent(request: AssistantQueryRequest, locale: 'zh' | 'en', ava
   const questionNumbers: string[] = []
   const paragraphLabels: string[] = []
 
-  for (const match of query.matchAll(QUESTION_NUMBER_PATTERN)) {
+  for (const match of query.matchAll(QUESTION_NUMBER_PATTERN_GLOBAL)) {
     if (match[1] || match[2] || match[3]) {
-      const qNum = match[1] || match[2] || match[3]
+      let qNum = match[1] || match[2] || match[3]
+      // Convert Chinese numerals to Arabic for matching
+      if (match[1] && CHINESE_NUMERALS.includes(qNum)) {
+        qNum = chineseNumeralToArabic(qNum)
+      }
       if (availableQuestionNumbers.includes(qNum)) {
         questionNumbers.push(qNum)
       }
@@ -422,14 +424,18 @@ function classifyIntent(request: AssistantQueryRequest, locale: 'zh' | 'en', ava
     return { kind: 'grounded_question', questionNumbers, paragraphLabels, confidence: 0.9 }
   }
 
-  // For follow-up requests, only inherit if previous turn was grounded
+  // Follow-up chips: trust client focus + user-side question refs, not only assistant text with Q labels
   if (request.promptKind === 'followup') {
+    const userHadQuestionRef = request.history?.some(h => {
+      if (h.role !== 'user') return false
+      return /\b(Q\d+|question\s*\d+|第\s*\d+\s*题|第\d+题)\b/i.test(h.content)
+    })
     const hasGroundedHistory = request.history?.some(h => {
       if (h.role !== 'assistant') return false
-      return /\b(Q\d+|question \d+|paragraph [A-H]|第\d+题 | 段落 [A-H])\b/i.test(h.content)
+      return /\b(Q\d+|question \d+|paragraph [A-H]|第\d+题|段落\s*[A-H])\b/i.test(h.content)
     })
-    if (hasGroundedHistory) {
-      return { kind: 'followup_request', confidence: 0.7 }
+    if (hasGroundedHistory || (request.focusQuestionNumbers?.length ?? 0) > 0 || userHadQuestionRef) {
+      return { kind: 'followup_request', confidence: 0.72 }
     }
     return { kind: 'general_chat', confidence: 0.6 }
   }
@@ -569,8 +575,24 @@ function decideSearchStrategy(
 
 // Social/clarification responses are now built inline in queryWithTiming
 
+/**
+ * Remove prompt artifacts from LLM-generated text.
+ * Strips [Context N] markers and related metadata lines that may leak into the response.
+ */
+function cleanPromptArtifacts(value: string): string {
+  return value
+    .replace(/^\[Context \d+\]\s*$/gm, '')
+    .replace(/^\[Context \d+\]\s*Type:\s*\S+\s*$/gm, '')
+    .replace(/^\[Context \d+\]\s*Questions:\s*.+\s*$/gm, '')
+    .replace(/^\[Context \d+\]\s*Paragraphs:\s*.+\s*$/gm, '')
+    .replace(/^Type:\s*(passage_paragraph|question_item|answer_key|answer_explanation|question_summary)\s*$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+}
+
 function createAnswerSection(type: AssistantAnswerSectionType, text: string): AssistantAnswerSection | null {
-  const normalized = compactMultiline(text)
+  const cleaned = cleanPromptArtifacts(text)
+  const normalized = compactMultiline(cleaned)
   return normalized ? { type, text: normalized } : null
 }
 
@@ -728,30 +750,16 @@ function countChunkTypes(chunks: RagChunk[]): Record<string, number> {
   }, {})
 }
 
-function buildFallbackFollowUps(mode: AssistantQueryRequest['mode'], locale: 'zh' | 'en'): string[] {
-  if (locale === 'zh') {
-    switch (mode) {
-      case 'hint':
-        return ['先回到我指出的段落核对线索。', '先标出题干中的关键词和转折词。', '先排除一个明显不成立的干扰项。']
-      case 'explain':
-        return ['把题干和证据句逐句对照。', '重点找同义改写，不要只盯原词。', '用一句话复述你的判断逻辑。']
-      case 'review':
-        return ['先重看我引用的证据句。', '写下你第一次误判的原因。', '再做一道相同题型巩固。']
-      case 'similar':
-        return ['先做我排在第一位的推荐文章。', '比较两篇题型和定位方式。', '做完后再复盘证据句。']
-    }
-  }
-
-  switch (mode) {
-    case 'hint':
-      return ['Re-check the paragraph I pointed you to.', 'Mark the stem keywords and contrast words.', 'Eliminate one weak distractor first.']
-    case 'explain':
-      return ['Compare the stem with the evidence sentence.', 'Look for paraphrases instead of exact words.', 'Summarize the logic in one sentence.']
-    case 'review':
-      return ['Review the cited evidence again.', 'Note why your first choice failed.', 'Try one similar question next.']
-    case 'similar':
-      return ['Try the first recommended passage.', 'Compare the shared question type.', 'Review the evidence after you finish.']
-  }
+/**
+ * Follow-ups after greetings / identity / off-topic smalltalk (unrelated_chat).
+ * Uses gentle entry points into IELTS practice — not mode-specific hint jargon (e.g. 段落核对线索).
+ */
+function buildSocialUnrelatedFollowUps(locale: 'zh' | 'en'): string[] {
+  const raw =
+    locale === 'zh'
+      ? ['第 1 题怎么做', '这篇阅读怎么入手', '有什么阅读技巧']
+      : ['How to approach Q1', 'How to get started on this passage', 'Any reading tips?']
+  return normalizeFollowUpStrings(raw)
 }
 
 function normalizeAnswerSections(sections: unknown, fallbackAnswer: string): AssistantAnswerSection[] {
@@ -788,6 +796,63 @@ function normalizeAnswerSections(sections: unknown, fallbackAnswer: string): Ass
   return paragraphs.slice(0, SECTION_TYPES.length).map((text, index) => ({ type: SECTION_TYPES[index], text }))
 }
 
+/**
+ * Sanitize answer sections for hint mode - remove answer reveals.
+ * For heading_matching and paragraph label questions, strip out answer options (A/B/C/D) and paragraph labels that could be the answer.
+ */
+function sanitizeHintAnswerSections(
+  sections: AssistantAnswerSection[],
+  questionType: string | undefined,
+  locale: 'zh' | 'en'
+): AssistantAnswerSection[] {
+  const isHeadingMatching = questionType === 'heading_matching'
+  const isParagraphMatching = questionType === 'paragraph_matching'
+  const needsSanitization = isHeadingMatching || isParagraphMatching
+
+  if (!needsSanitization) {
+    return sections
+  }
+
+  return sections.map((section) => {
+    let text = section.text
+
+    if (locale === 'zh') {
+      // Remove answer option reveals like "正确选项 D", "答案是 B", "选 D", etc.
+      // Pattern: (正确 | 答案 | 选 | 应该选 | 答案是 | 正确选项 | 选项 | 应该 | 正确是) + optional (的/中/为/是) + optional whitespace + [A-H]
+      text = text.replace(/(正确 | 答案 | 选 | 应该选 | 答案是 | 正确选项 | 选项 | 应该 | 正确是)\s*(的 | 中 | 为 | 是)?\s*([A-H])\b/gi, '$1$2...')
+
+      // Remove patterns like "正确选项 D 中的'...'" -> "正确选项中的'...'"
+      text = text.replace(/正确选项\s*[A-H]\s*(的 | 中)/gi, '正确选项$1')
+
+      // Remove paragraph label reveals for heading_matching: "段落 B", "Paragraph B", "Para B"
+      if (isHeadingMatching) {
+        // Match: 段落 [A-H], Paragraph [A-H], Para [A-H]
+        text = text.replace(/(段落 |Paragraph|Par[agra]*|第 [A-H] 段)\s*([A-H])\b/gi, '相关段落')
+        // Also match standalone letter references that look like answers: "选 B" -> "选..."
+        text = text.replace(/选\s*([A-H])\b/gi, '选...')
+      }
+    } else {
+      // Remove answer option reveals like "correct answer is D", "option B", etc.
+      text = text.replace(/\b(correct|answer|choose|option|should be)\s*([A-H])\b/gi, '$1 ...')
+
+      if (isHeadingMatching) {
+        // Remove paragraph label reveals
+        text = text.replace(/\b(paragraph|para|section)\s*([A-H])\b/gi, 'the relevant paragraph')
+        text = text.replace(/\bchoose\s+([A-H])\b/gi, 'choose ...')
+      }
+    }
+
+    // Additional sanitization: remove patterns like "D 选项" (letter first)
+    if (locale === 'zh') {
+      text = text.replace(/\b([A-H])\s*(选项 | 项 | 段落)\b/gi, '...$2')
+    } else {
+      text = text.replace(/\b([A-H])\s*(option|paragraph|section)\b/gi, '... $2')
+    }
+
+    return { ...section, text }
+  })
+}
+
 function decodeLooseJsonString(value: string): string {
   const parsed = safeJsonParse<string>(`"${value}"`)
   return typeof parsed === 'string'
@@ -803,16 +868,18 @@ function salvageModelResponse(content: string): Partial<ParsedModelResponse> | n
   }
 
   const followUps = followUpsBlockMatch
-    ? Array.from(followUpsBlockMatch[1].matchAll(/"((?:\\.|[^"])*)"|'((?:\\.|[^'])*)'/g))
-        .map((match) => decodeLooseJsonString(match[1] ?? match[2] ?? ''))
-        .filter(Boolean)
-        .slice(0, 3)
+    ? normalizeFollowUpStrings(
+        Array.from(followUpsBlockMatch[1].matchAll(/"((?:\\.|[^"])*)"|'((?:\\.|[^'])*)'/g))
+          .map((match) => decodeLooseJsonString(match[1] ?? match[2] ?? ''))
+          .filter(Boolean)
+          .slice(0, MAX_ASSISTANT_FOLLOW_UPS)
+      )
     : []
 
   return { answer: decodeLooseJsonString(answerMatch[1]), followUps }
 }
 
-export function parseModelResponse(content: string, mode: AssistantQueryRequest['mode'], locale: 'zh' | 'en'): ParsedModelResponse {
+export function parseModelResponse(content: string, locale: 'zh' | 'en'): ParsedModelResponse {
   const jsonText = extractJsonObject(content)
   const parsed = jsonText ? safeJsonParse<Record<string, unknown>>(jsonText) : null
 
@@ -820,14 +887,24 @@ export function parseModelResponse(content: string, mode: AssistantQueryRequest[
     const missingContext = Array.isArray(parsed.missingContext)
       ? parsed.missingContext.filter((value): value is string => typeof value === 'string').map((value) => compactMultiline(value)).filter(Boolean)
       : []
-    const answerSections = normalizeAnswerSections(parsed.answerSections, parsed.answer)
+    // Clean prompt artifacts from the answer before building sections
+    const cleanedAnswer = cleanPromptArtifacts(parsed.answer)
+    const answerSections = normalizeAnswerSections(parsed.answerSections, cleanedAnswer)
+
+    const followUps = Array.isArray(parsed.followUps)
+      ? normalizeFollowUpStrings(
+          parsed.followUps
+            .filter((value): value is string => typeof value === 'string')
+            .map((value) => compactMultiline(value))
+            .filter(Boolean)
+            .slice(0, MAX_ASSISTANT_FOLLOW_UPS)
+        )
+      : []
 
     return {
-      answer: buildAnswerFromSections(answerSections, parsed.answer),
+      answer: buildAnswerFromSections(answerSections, cleanedAnswer),
       answerSections,
-      followUps: Array.isArray(parsed.followUps)
-        ? parsed.followUps.filter((value): value is string => typeof value === 'string').map((value) => compactMultiline(value)).filter(Boolean).slice(0, 3)
-        : buildFallbackFollowUps(mode, locale),
+      followUps,
       confidence: normalizeConfidence({
         llmConfidence: parsed.confidence as AssistantConfidence,
         missingContext,
@@ -844,11 +921,13 @@ export function parseModelResponse(content: string, mode: AssistantQueryRequest[
 
   const salvaged = salvageModelResponse(content)
   if (salvaged?.answer) {
-    const answerSections = normalizeAnswerSections([], salvaged.answer)
+    // Clean prompt artifacts from salvaged answer
+    const cleanedAnswer = cleanPromptArtifacts(salvaged.answer)
+    const answerSections = normalizeAnswerSections([], cleanedAnswer)
     return {
-      answer: buildAnswerFromSections(answerSections, salvaged.answer),
+      answer: buildAnswerFromSections(answerSections, cleanedAnswer),
       answerSections,
-      followUps: salvaged.followUps?.length ? salvaged.followUps : buildFallbackFollowUps(mode, locale),
+      followUps: salvaged.followUps?.length ? normalizeFollowUpStrings(salvaged.followUps) : [],
       confidence: 'medium',
       missingContext: [],
       parseStrategy: 'salvaged'
@@ -856,11 +935,12 @@ export function parseModelResponse(content: string, mode: AssistantQueryRequest[
   }
 
   const answer = compactMultiline(content)
-  const answerSections = normalizeAnswerSections([], answer)
+  const cleanedAnswer = cleanPromptArtifacts(answer)
+  const answerSections = normalizeAnswerSections([], cleanedAnswer)
   return {
-    answer: buildAnswerFromSections(answerSections, answer),
+    answer: buildAnswerFromSections(answerSections, cleanedAnswer),
     answerSections,
-    followUps: buildFallbackFollowUps(mode, locale),
+    followUps: [],
     confidence: 'medium',
     missingContext: [],
     parseStrategy: 'plain'
@@ -976,11 +1056,9 @@ function extractReferencedParagraphLabels(chunks: RagChunk[]): string[] {
   return uniqueValues(labels)
 }
 
-function filterChunksForMode(chunks: RagChunk[], mode: AssistantQueryRequest['mode']): RagChunk[] {
-  switch (mode) {
-    case 'hint':
-      return chunks.filter((chunk) => !chunk.sensitive && ['passage_paragraph', 'question_item'].includes(chunk.chunkType))
-    case 'explain':
+function filterChunksForRoute(chunks: RagChunk[], route: AssistantContextRoute): RagChunk[] {
+  switch (route) {
+    case 'tutor':
       return chunks.filter((chunk) => !chunk.sensitive && ['passage_paragraph', 'question_item'].includes(chunk.chunkType))
     case 'review':
       return chunks.filter((chunk) => ['passage_paragraph', 'question_item', 'answer_key', 'answer_explanation'].includes(chunk.chunkType))
@@ -1231,7 +1309,7 @@ function buildSemanticQueryText(request: AssistantQueryRequest, focusQuestionChu
 
 function scoreContextChunk(
   chunk: RagChunk,
-  request: AssistantQueryRequest,
+  route: AssistantContextRoute,
   focusQuestionNumbers: Set<string>,
   searchTerms: string[],
   semanticRankMap: Map<string, number>
@@ -1242,17 +1320,17 @@ function scoreContextChunk(
   if (chunk.questionNumbers.some((value) => focusQuestionNumbers.has(value))) {
     score += 6
   }
-  if (request.mode === 'review' && chunk.chunkType === 'answer_explanation') {
+  if (route === 'review' && chunk.chunkType === 'answer_explanation') {
     score += 6
   }
-  if (request.mode === 'review' && chunk.chunkType === 'answer_key') {
+  if (route === 'review' && chunk.chunkType === 'answer_key') {
     score += 3
   }
   if (chunk.chunkType === 'question_item') {
-    score += request.mode === 'explain' ? 4 : 3
+    score += route === 'tutor' ? 4 : 3
   }
   if (chunk.chunkType === 'passage_paragraph') {
-    score += request.mode === 'hint' ? 4 : 3
+    score += route === 'tutor' ? 4 : 3
   }
   if (chunk.paragraphLabels.length > 0) {
     score += 1
@@ -1271,15 +1349,15 @@ function scoreContextChunk(
   return score
 }
 
-function buildMissingContextMessages(request: AssistantQueryRequest, chunks: RagChunk[], locale: 'zh' | 'en'): string[] {
+function buildMissingContextMessages(route: AssistantContextRoute, request: AssistantQueryRequest, chunks: RagChunk[], locale: 'zh' | 'en'): string[] {
   const missing: string[] = []
   if (!chunks.some((chunk) => chunk.chunkType === 'question_item')) {
     missing.push(locale === 'zh' ? '当前没有检索到题干内容。' : 'No question prompt was retrieved.')
   }
-  if (request.mode !== 'similar' && !chunks.some((chunk) => chunk.chunkType === 'passage_paragraph')) {
+  if (route !== 'similar' && !chunks.some((chunk) => chunk.chunkType === 'passage_paragraph')) {
     missing.push(locale === 'zh' ? '当前没有检索到足够的文章证据段落。' : 'No supporting passage paragraph was retrieved.')
   }
-  if (request.mode === 'review' && !chunks.some((chunk) => chunk.chunkType === 'answer_explanation')) {
+  if (route === 'review' && !chunks.some((chunk) => chunk.chunkType === 'answer_explanation')) {
     missing.push(locale === 'zh' ? '当前没有检索到对应题号的官方解析。' : 'No official answer explanation was retrieved for the selected question.')
   }
   if (request.attachments?.some((attachment) => !attachment.text)) {
@@ -1303,21 +1381,26 @@ function buildMissingContextMessages(request: AssistantQueryRequest, chunks: Rag
 }
 
 function pickFocusQuestionNumbers(document: ParsedQuestionDocument, request: AssistantQueryRequest, intent?: IntentClassification): string[] {
+  const route = resolveContextRoute(request)
   const availableQuestionNumbers = new Set(document.questionChunks.flatMap((chunk) => chunk.questionNumbers))
 
+  // 【HIGHEST PRIORITY】Extract question numbers explicitly mentioned in the CURRENT user query
+  // This overrides any historical inheritance to handle cases like "第 12 题怎么做" after discussing Q1-3
+  const query = request.userQuery || ''
+  const explicitInQuery = extractMentionedQuestionNumbersFromQuery(query, availableQuestionNumbers)
+  if (explicitInQuery.length > 0) {
+    return sortQuestionNumbers(explicitInQuery)
+  }
+
+  // 【HIGH PRIORITY】User explicitly specified focusQuestionNumbers
   const explicit = request.focusQuestionNumbers?.filter((value) => availableQuestionNumbers.has(value)) ?? []
   if (explicit.length > 0) {
     return sortQuestionNumbers(uniqueValues(explicit))
   }
 
-  const mentioned = extractMentionedQuestionNumbers(request, availableQuestionNumbers)
-  if (mentioned.length > 0) {
-    return mentioned
-  }
-
   const wrongQuestions = request.attemptContext?.wrongQuestions?.filter((value) => availableQuestionNumbers.has(value)) ?? []
   if (wrongQuestions.length > 0) {
-    return sortQuestionNumbers(uniqueValues(wrongQuestions)).slice(0, request.mode === 'review' ? 4 : 3)
+    return sortQuestionNumbers(uniqueValues(wrongQuestions)).slice(0, route === 'review' ? 4 : 3)
   }
 
   // For follow-up requests, try to inherit question numbers from conversation history
@@ -1348,18 +1431,22 @@ function pickFocusQuestionNumbers(document: ParsedQuestionDocument, request: Ass
     return []
   }
 
-  // For preset (button clicks), allow default behavior
+  // Preset shortcuts: "讲解思路" / "给我提示" without a question number → whole passage set
   if (request.promptKind === 'preset') {
     const allQuestions = sortQuestionNumbers(Array.from(availableQuestionNumbers))
-    // For hint mode with preset, default to first question only
-    if (request.mode === 'hint') {
-      return allQuestions.slice(0, 1)
+    const locale = resolveLocale(request)
+    const q = (request.userQuery || '').trim()
+    const explainWholePassage =
+      locale === 'zh'
+        ? /解题思路|讲解思路/.test(q)
+        : /\breasoning\b/i.test(q) && (/question set/i.test(q) || /locate evidence/i.test(q))
+    const hintWholePassage =
+      locale === 'zh'
+        ? /解题提示|给我提示|不要直接给出答案/.test(q)
+        : /Give me hints|hints for the current passage|without revealing the answers/i.test(q)
+    if (explainWholePassage || hintWholePassage) {
+      return allQuestions
     }
-    // For explain mode, default to first 3 questions
-    if (request.mode === 'explain') {
-      return allQuestions.slice(0, Math.min(3, allQuestions.length))
-    }
-    // For other modes, default to first question
     return allQuestions.slice(0, 1)
   }
 
@@ -1370,6 +1457,20 @@ function pickFocusQuestionNumbers(document: ParsedQuestionDocument, request: Ass
 
   // Default fallback: return empty for unknown cases
   return []
+}
+
+/**
+ * Extract question numbers explicitly mentioned in the user query.
+ * This is a dedicated function for higher-priority extraction from current query.
+ */
+function extractMentionedQuestionNumbersFromQuery(query: string, availableQuestionNumbers: Set<string>): string[] {
+  const matches = [
+    ...Array.from(query.matchAll(/\b(?:question|questions|q)\s*(\d{1,3})\b/gi)).map((match) => match[1]),
+    ...Array.from(query.matchAll(/\u7B2C\s*(\d{1,3})\s*\u9898/g)).map((match) => match[1]),
+    ...Array.from(query.matchAll(/(?:^|[^\d])(\d{1,3})\s*\u9898/g)).map((match) => match[1])
+  ].filter((value) => availableQuestionNumbers.has(value))
+
+  return sortQuestionNumbers(uniqueValues(matches))
 }
 
 function collectReviewItems(request: AssistantQueryRequest, answerExplanationChunks: RagChunk[]): AssistantReviewItem[] {
@@ -1428,7 +1529,11 @@ function sanitizeHintResponse(response: AssistantQueryResponse, maskParagraphLab
     ...response,
     answer: sanitizeHintText(response.answer, maskParagraphLabels),
     answerSections: sanitizedAnswerSections,
-    followUps: response.followUps.map((item) => sanitizeHintText(item, maskParagraphLabels)),
+    followUps: normalizeFollowUpStrings(
+      response.followUps
+        .slice(0, MAX_ASSISTANT_FOLLOW_UPS)
+        .map((item) => sanitizeHintText(item, maskParagraphLabels))
+    ),
     usedParagraphLabels: maskParagraphLabels ? [] : response.usedParagraphLabels,
     citations: response.citations.map((citation) => ({
       ...citation,
@@ -1463,17 +1568,27 @@ function buildHintSections(question: QuestionIndexEntry, context: RetrievalConte
   }
 
   const questionType = describeQuestionType(questionChunk?.metadata.questionType, locale)
+  const questionTypeRaw = questionChunk?.metadata.questionType
   const paragraphHint = passageChunk?.paragraphLabels[0]
   const evidenceText = passageChunk ? toExcerpt(passageChunk.content, locale === 'zh' ? 160 : 180) : ''
 
+  // For heading_matching questions, do NOT reveal paragraph labels (since they are the answer space)
+  const isHeadingMatching = questionTypeRaw === 'heading_matching'
+  const paragraphHintText = isHeadingMatching
+    ? (locale === 'zh' ? '相关段落' : 'the relevant paragraph')
+    : (paragraphHint ? `段落 ${paragraphHint}` : 'the cited evidence area')
+  const paragraphHintTextEn = isHeadingMatching
+    ? 'the relevant paragraph'
+    : (paragraphHint ? `paragraph ${paragraphHint}` : 'the cited evidence area')
+
   return [
     createAnswerSection('direct_answer', locale === 'zh'
-      ? `${question.title} 这组题建议先从${focusQuestion ? `第 ${focusQuestion} 题` : '当前题组'}入手，优先回到${paragraphHint ? `段落 ${paragraphHint}` : '我引用的证据段'}附近找线索。`
-      : `For ${question.title}, start with ${focusQuestion ? `Q${focusQuestion}` : 'the current question set'} and begin near ${paragraphHint ? `paragraph ${paragraphHint}` : 'the cited evidence area'}.`),
+      ? `${question.title} 这组题建议先从${focusQuestion ? `第 ${focusQuestion} 题` : '当前题组'}入手，优先回到${paragraphHintText}附近找线索。`
+      : `For ${question.title}, start with ${focusQuestion ? `Q${focusQuestion}` : 'the current question set'} and begin near ${paragraphHintTextEn}.`),
     createAnswerSection('reasoning', locale === 'zh'
       ? `先把它当作${questionType}来做：先看清题干要求，再标出关键词、对比词和限定词，然后用这些线索去缩小范围。`
       : `Treat it as ${questionType}: read the stem carefully, mark the key nouns, contrast words, and limits, then use those cues to narrow the search window.`),
-    evidenceText ? createAnswerSection('evidence', locale === 'zh' ? `你现在最值得核对的证据是：${evidenceText}` : `The most useful evidence to inspect next is: ${evidenceText}`) : null,
+    evidenceText && !isHeadingMatching ? createAnswerSection('evidence', locale === 'zh' ? `你现在最值得核对的证据是：${evidenceText}` : `The most useful evidence to inspect next is: ${evidenceText}`) : null,
     createAnswerSection('next_step', locale === 'zh'
       ? '先排除一个明显不成立的选项或段落，再决定最终答案，避免一上来就锁死。'
       : 'Eliminate one clearly weak option or paragraph first, then decide on the final answer instead of locking in too early.')
@@ -1666,7 +1781,7 @@ export class AssistantService {
     extra?: { intent_kind?: string; search_decision?: string; semantic_used?: boolean; retrieval_cache_hit?: boolean }
   ) {
     this.logger.info?.({
-      mode: request.mode,
+      contextRoute: resolveContextRoute(request),
       questionId,
       intent_kind: extra?.intent_kind,
       focusQuestionNumbers: context.focusQuestionNumbers,
@@ -1682,7 +1797,7 @@ export class AssistantService {
 
   private logModelResponseMetrics(questionId: string, request: AssistantQueryRequest, response: ParsedModelResponse) {
     const payload = {
-      mode: request.mode,
+      contextRoute: resolveContextRoute(request),
       questionId,
       parseStrategy: response.parseStrategy,
       answerSectionCount: response.answerSections.length,
@@ -1697,8 +1812,14 @@ export class AssistantService {
     this.logger.warn?.(payload, 'Assistant model response required recovery parsing.')
   }
 
-  private finalizeResponse(request: AssistantQueryRequest, contextChunks: RagChunk[], response: AssistantQueryResponse): AssistantQueryResponse {
-    if (request.mode !== 'hint') {
+  private finalizeResponse(
+    route: AssistantContextRoute,
+    contextChunks: RagChunk[],
+    response: AssistantQueryResponse,
+    /** When the learner asked for a full explanation, skip spoiler masking (legacy "explain" behavior). */
+    skipHintSanitize = false
+  ): AssistantQueryResponse {
+    if (route !== 'tutor' || skipHintSanitize) {
       return response
     }
 
@@ -1714,8 +1835,9 @@ export class AssistantService {
       throw new Error('Assistant provider is not configured.')
     }
 
+    const route = resolveContextRoute(request)
     const prompt = buildAssistantPrompt({
-      mode: request.mode,
+      contextRoute: route,
       locale: resolveLocale(request),
       question,
       userQuery: request.userQuery,
@@ -1728,7 +1850,7 @@ export class AssistantService {
       answerStyle: context.answerStyle
     })
 
-    const parsed = parseModelResponse(await this.provider.generate(prompt), request.mode, resolveLocale(request))
+    const parsed = parseModelResponse(await this.provider.generate(prompt), resolveLocale(request))
     this.logModelResponseMetrics(question.id, request, parsed)
     return parsed
   }
@@ -1743,24 +1865,37 @@ export class AssistantService {
     }
 
     const locale = resolveLocale(request)
+    const route = resolveContextRoute(request)
     const answerStyle = classifyAnswerStyle(request, locale)
     const focusQuestionNumbers = pickFocusQuestionNumbers(document, request)
     const focusSet = new Set(focusQuestionNumbers)
-    let budget =
-      request.mode === 'similar' ? SIMILAR_CONTEXT_BUDGET : MODE_CONTEXT_LIMIT[request.mode as 'hint' | 'explain' | 'review']
-    if (request.mode !== 'similar') {
+    let budget = route === 'similar' ? SIMILAR_CONTEXT_BUDGET : ROUTE_CONTEXT_LIMIT[route]
+    if (route !== 'similar') {
+      const briefKey = route === 'review' ? 'review' : 'tutor'
       if (answerStyle === 'vocab_paraphrase') {
-        budget = Math.min(budget, BRIEF_MODE_CONTEXT_BUDGET[request.mode as 'hint' | 'explain' | 'review'])
+        budget = Math.min(budget, BRIEF_ROUTE_CONTEXT_BUDGET[briefKey])
       } else if (answerStyle === 'paragraph_focus') {
-        budget = Math.min(budget, BRIEF_MODE_CONTEXT_BUDGET[request.mode as 'hint' | 'explain' | 'review'] + 1)
+        budget = Math.min(budget, BRIEF_ROUTE_CONTEXT_BUDGET[briefKey] + 1)
       }
     }
-    const allowed = filterChunksForMode(document.allChunks, request.mode)
+    const allowed = filterChunksForRoute(document.allChunks, route)
 
     const focusQuestionChunks = allowed.filter((chunk) => chunk.chunkType === 'question_item' && (focusSet.size === 0 || chunk.questionNumbers.some((value) => focusSet.has(value))))
-    const focusAnswerChunks = request.mode === 'review'
+    const focusAnswerChunks = route === 'review'
       ? allowed.filter((chunk) => ['answer_key', 'answer_explanation'].includes(chunk.chunkType) && (focusSet.size === 0 || chunk.questionNumbers.some((value) => focusSet.has(value))))
       : []
+
+    // For heading_matching questions, ensure we include a chunk with the full heading list
+    // The heading list is in the Shared instructions of any question_item chunk for this question set
+    let headingListChunk: RagChunk | undefined
+    if (focusQuestionChunks.some(c => c.metadata.questionType === 'heading_matching')) {
+      // Find any question_item chunk with heading_matching type (they all share the same heading list)
+      headingListChunk = allowed.find(chunk =>
+        chunk.chunkType === 'question_item' &&
+        chunk.metadata.questionType === 'heading_matching'
+      )
+    }
+
     const referencedParagraphs = new Set([...extractReferencedParagraphLabels(focusQuestionChunks), ...extractReferencedParagraphLabels(focusAnswerChunks)])
 
     this.logger.info?.({
@@ -1816,33 +1951,40 @@ export class AssistantService {
       usingSupplemental: focusPassageChunks.length === 0
     }, 'Context collection: passage chunks.')
 
-    const deterministic = dedupeChunks([...focusQuestionChunks, ...focusAnswerChunks, ...focusPassageChunks, ...supplementalPassages])
+    // Include heading list chunk for heading_matching questions (ensure it's in the final context)
+    const deterministic = dedupeChunks([
+      ...(headingListChunk ? [headingListChunk] : []),
+      ...focusQuestionChunks,
+      ...focusAnswerChunks,
+      ...focusPassageChunks,
+      ...supplementalPassages
+    ])
 
     // Semantic search conditional trigger - only run when needed
     let semanticChunks: RagChunk[] = []
-    const shouldRunSemanticSearch = this.shouldRunSemanticSearch(request, focusQuestionChunks, focusPassageChunks, deterministic, answerStyle)
+    const shouldRunSemanticSearch = this.shouldRunSemanticSearch(route, request, focusQuestionChunks, focusPassageChunks, deterministic, answerStyle)
 
     if (this.semanticSearch && shouldRunSemanticSearch) {
       try {
         const queryText = buildSemanticQueryText(request, focusQuestionChunks)
         if (queryText) {
           let semanticLimit =
-            request.mode === 'similar' ? SIMILAR_SEMANTIC_LIMIT : MODE_SEMANTIC_LIMIT[request.mode as 'hint' | 'explain' | 'review']
-          if (request.mode !== 'similar') {
+            route === 'similar' ? SIMILAR_SEMANTIC_LIMIT : ROUTE_SEMANTIC_LIMIT[route]
+          if (route !== 'similar') {
             if (answerStyle === 'vocab_paraphrase') {
               semanticLimit = VOCAB_QUERY_SEMANTIC_LIMIT
             } else if (answerStyle === 'paragraph_focus') {
               semanticLimit = Math.min(semanticLimit, PARAGRAPH_FOCUS_QUERY_SEMANTIC_LIMIT)
             }
           }
-          semanticChunks = filterChunksForMode(await this.semanticSearch.searchChunks({
+          semanticChunks = filterChunksForRoute(await this.semanticSearch.searchChunks({
             questionId: question.id,
             queryText,
             limit: semanticLimit
-          }), request.mode)
+          }), route)
         }
       } catch (error) {
-        this.logger.warn?.({ mode: request.mode, detail: error instanceof Error ? error.message : String(error) }, 'Semantic chunk search failed; continuing with deterministic context.')
+        this.logger.warn?.({ contextRoute: route, detail: error instanceof Error ? error.message : String(error) }, 'Semantic chunk search failed; continuing with deterministic context.')
       }
     } else if (this.semanticSearch) {
       this.logger.info?.({ reason: 'deterministic sufficient' }, 'Semantic search skipped.')
@@ -1854,22 +1996,28 @@ export class AssistantService {
     const merged = dedupeChunks([...deterministic, ...semanticChunks])
     const sortedChunks = dedupeChunks(
       [...deterministic, ...merged.sort((left, right) => (
-        scoreContextChunk(right, request, focusSet, searchTerms, semanticRankMap) -
-        scoreContextChunk(left, request, focusSet, searchTerms, semanticRankMap)
+        scoreContextChunk(right, route, focusSet, searchTerms, semanticRankMap) -
+        scoreContextChunk(left, route, focusSet, searchTerms, semanticRankMap)
       ))]
     )
 
-    const finalChunks = budgetFinalChunks(request, sortedChunks, budget)
+    const finalChunks = budgetFinalChunks(route, sortedChunks, budget)
+
+    // Ensure heading list chunk is always included for heading_matching questions
+    let expandedChunks = finalChunks
+    if (headingListChunk && !finalChunks.some(c => c.id === headingListChunk!.id)) {
+      expandedChunks = dedupeChunks([headingListChunk, ...finalChunks])
+      this.logger.info?.({ headingListChunkId: headingListChunk.id }, 'Context expansion: added heading list chunk for heading_matching question.')
+    }
 
     // Detect missing English text and expand context if needed
-    const hasEnglishText = finalChunks.some(
+    const hasEnglishText = expandedChunks.some(
       chunk => chunk.content.match(/[A-Za-z]{3,}/) && chunk.content.length > 50
     )
-    let expandedChunks = finalChunks
     if (!hasEnglishText && document.passageChunks.length > 0 && answerStyle === 'vocab_paraphrase') {
       // For vocabulary questions, add English passage chunks to enable synonym extraction
       const englishPassages = document.passageChunks.slice(0, 3)
-      expandedChunks = dedupeChunks([...finalChunks, ...englishPassages])
+      expandedChunks = dedupeChunks([...expandedChunks, ...englishPassages])
       this.logger.info?.({
         addedEnglishPassages: englishPassages.map(c => ({ id: c.id, paragraphLabels: c.paragraphLabels }))
       }, 'Context expansion: added English passage chunks for vocabulary query.')
@@ -1880,7 +2028,7 @@ export class AssistantService {
       focusQuestionNumbers,
       usedQuestionNumbers: sortQuestionNumbers(uniqueValues(expandedChunks.flatMap((chunk) => chunk.questionNumbers))),
       usedParagraphLabels: uniqueValues(expandedChunks.flatMap((chunk) => chunk.paragraphLabels)).sort(),
-      missingContext: buildMissingContextMessages(request, expandedChunks, locale),
+      missingContext: buildMissingContextMessages(route, request, expandedChunks, locale),
       answerStyle,
       primaryQuestionChunk,
       primaryEvidenceChunk,
@@ -1901,6 +2049,7 @@ export class AssistantService {
    * Default to running semantic search to enrich context (test compatibility).
    */
   private shouldRunSemanticSearch(
+    route: AssistantContextRoute,
     request: AssistantQueryRequest,
     focusQuestionChunks: RagChunk[],
     focusPassageChunks: RagChunk[],
@@ -1921,8 +2070,8 @@ export class AssistantService {
       return false
     }
 
-    // Review mode with explanation chunks - skip semantic if we have answer explanation
-    if (request.mode === 'review' && deterministic.some(c => c.chunkType === 'answer_explanation')) {
+    // Review route with explanation chunks - skip semantic if we have answer explanation
+    if (route === 'review' && deterministic.some(c => c.chunkType === 'answer_explanation')) {
       return false
     }
 
@@ -1999,9 +2148,7 @@ export class AssistantService {
         return {
           answer: response,
           citations: [],
-          followUps: locale === 'zh'
-            ? ['想了解更多背景资料吗？', '还有其他相关问题吗？', '需要我解释某个概念吗？']
-            : ['Want more background info?', 'Any other related questions?', 'Need me to explain a concept?'],
+          followUps: [],
           webCitations,
           searchUsed,
           answerSource,
@@ -2035,9 +2182,7 @@ export class AssistantService {
     return {
       answer,
       citations: [],
-      followUps: locale === 'zh'
-        ? ['第 1 题怎么做？', '讲讲这组题的整体思路', '帮我复盘错题']
-        : ['How to approach Q1?', 'Explain the overall strategy', 'Review my mistakes'],
+      followUps: [],
       webCitations: webCitations?.length ? webCitations : undefined,
       searchUsed,
       answerSource: webCitations && webCitations.length > 0 ? 'web' : 'local',
@@ -2107,7 +2252,7 @@ export class AssistantService {
     const answerSections = buildSimilarSections(question, recommendedQuestions, locale)
 
     this.logger.info?.({
-      mode: 'similar',
+      contextRoute: 'similar',
       questionId: question.id,
       semanticCandidateCount: semanticSummaries.length,
       candidateCount: ranked.length,
@@ -2119,7 +2264,7 @@ export class AssistantService {
       answer: buildAnswerFromSections(answerSections),
       answerSections,
       citations: recommendations.map(({ summary }) => ({ chunkType: 'question_summary', questionNumbers: [], paragraphLabels: [], excerpt: toExcerpt(summary.content) })),
-      followUps: buildFallbackFollowUps('similar', locale),
+      followUps: [],
       recommendedQuestions,
       confidence: recommendedQuestions.length >= 3 ? 'high' : 'medium',
       missingContext: []
@@ -2128,26 +2273,35 @@ export class AssistantService {
 
   private buildLocalTutoringResponse(question: QuestionIndexEntry, request: AssistantQueryRequest, context: RetrievalContext, document: ParsedQuestionDocument, intent?: IntentClassification): AssistantQueryResponse {
     const locale = resolveLocale(request)
+    const route = resolveContextRoute(request)
     const availableQuestionNumbers = Array.from(new Set(document.questionChunks.flatMap((chunk) => chunk.questionNumbers)))
     const resolvedIntent = intent ?? classifyIntent(request, locale, availableQuestionNumbers)
     const style = context.answerStyle
-    const answerSections =
-      request.mode === 'hint'
+    const wantsExplain =
+      /讲解|解题思路|定位过程|\bexplain\b|walk\s*through|reasoning\s+path/i.test((request.userQuery || '').trim())
+    let answerSections =
+      wantsExplain
         ? style === 'vocab_paraphrase'
-          ? buildVocabHintSections(question, context, locale, context.chunks)
-          : style === 'paragraph_focus'
-            ? buildParagraphFocusHintSections(question, context, locale, context.chunks)
-            : buildHintSections(question, context, locale, context.chunks)
-        : style === 'vocab_paraphrase'
           ? buildVocabExplainSections(question, context, locale, context.chunks)
           : style === 'paragraph_focus'
             ? buildParagraphFocusExplainSections(question, context, locale, context.chunks)
             : buildExplainSections(question, context, locale, context.chunks)
-    return this.finalizeResponse(request, context.chunks, {
+        : style === 'vocab_paraphrase'
+          ? buildVocabHintSections(question, context, locale, context.chunks)
+          : style === 'paragraph_focus'
+            ? buildParagraphFocusHintSections(question, context, locale, context.chunks)
+            : buildHintSections(question, context, locale, context.chunks)
+
+    if (!wantsExplain) {
+      const questionType = context.primaryQuestionChunk?.metadata.questionType
+      answerSections = sanitizeHintAnswerSections(answerSections, questionType, locale)
+    }
+
+    return this.finalizeResponse(route, context.chunks, {
       answer: buildAnswerFromSections(answerSections),
       answerSections,
       citations: buildCitations(context.chunks),
-      followUps: generateContextualFollowUps(resolvedIntent, locale, availableQuestionNumbers),
+      followUps: [],
       usedQuestionNumbers: context.usedQuestionNumbers,
       usedParagraphLabels: context.usedParagraphLabels,
       confidence: normalizeConfidence({
@@ -2163,7 +2317,7 @@ export class AssistantService {
         focusQuestionCount: context.focusQuestionNumbers.length
       }),
       missingContext: context.missingContext
-    })
+    }, wantsExplain)
   }
 
   private buildLocalReviewResponse(question: QuestionIndexEntry, request: AssistantQueryRequest, context: RetrievalContext, reviewItems: AssistantReviewItem[], document: ParsedQuestionDocument, intent?: IntentClassification): AssistantQueryResponse {
@@ -2175,7 +2329,7 @@ export class AssistantService {
       answer: buildAnswerFromSections(answerSections),
       answerSections,
       citations: buildCitations(context.chunks),
-      followUps: generateContextualFollowUps(resolvedIntent, locale, availableQuestionNumbers),
+      followUps: [],
       reviewItems,
       usedQuestionNumbers: context.usedQuestionNumbers,
       usedParagraphLabels: context.usedParagraphLabels,
@@ -2195,13 +2349,30 @@ export class AssistantService {
     }
   }
 
-  private buildGroundedResponse(context: RetrievalContext, modelResponse: ParsedModelResponse, citations: AssistantCitation[]): AssistantQueryResponse {
+  private buildGroundedResponse(
+    context: RetrievalContext,
+    modelResponse: ParsedModelResponse,
+    citations: AssistantCitation[],
+    request: AssistantQueryRequest,
+    question: QuestionIndexEntry
+  ): AssistantQueryResponse {
+    const locale = resolveLocale(request)
+    const route = resolveContextRoute(request)
     const adjusted = applyAnswerStyleToParsedModel(modelResponse, context.answerStyle)
+
+    // Sanitize answer sections for tutor route to prevent revealing answers
+    let sanitizedSections = adjusted.answerSections
+    if (route === 'tutor') {
+      const questionType = context.primaryQuestionChunk?.metadata.questionType
+      sanitizedSections = sanitizeHintAnswerSections(adjusted.answerSections, questionType, locale)
+    }
+
+    const modelFollowUps = normalizeFollowUpStrings(uniqueValues(adjusted.followUps).slice(0, MAX_ASSISTANT_FOLLOW_UPS))
     return {
-      answer: adjusted.answer,
-      answerSections: adjusted.answerSections,
+      answer: buildAnswerFromSections(sanitizedSections),
+      answerSections: sanitizedSections,
       citations,
-      followUps: uniqueValues(adjusted.followUps).slice(0, 3),
+      followUps: modelFollowUps,
       usedQuestionNumbers: context.usedQuestionNumbers,
       usedParagraphLabels: context.usedParagraphLabels,
       confidence: normalizeConfidence({
@@ -2232,7 +2403,6 @@ export class AssistantService {
 
     // Build tool-specific response
     const toolCards: AssistantToolCard[] = []
-    const nextActions: AssistantNextAction[] = []
     let answer = ''
 
     switch (action) {
@@ -2249,7 +2419,6 @@ export class AssistantService {
         answer = locale === 'zh'
           ? `已翻译选中的内容。"${selectedText.substring(0, 50)}${selectedText.length > 50 ? '...' : ''}"`
           : `Translated selected text: "${selectedText.substring(0, 50)}${selectedText.length > 50 ? '...' : ''}"`
-        nextActions.push({ label: locale === 'zh' ? '查找同义替换' : 'Find paraphrases', action: 'find_paraphrases', icon: 'swap_horiz' })
         break
       }
 
@@ -2266,7 +2435,6 @@ export class AssistantService {
         answer = locale === 'zh'
           ? `已分析选中句子的结构和含义。`
           : `Analyzed the structure and meaning of the selected sentence.`
-        nextActions.push({ label: locale === 'zh' ? '标记考点词' : 'Extract keywords', action: 'extract_keywords', icon: 'tag' })
         break
       }
 
@@ -2283,7 +2451,6 @@ export class AssistantService {
         answer = locale === 'zh'
           ? `找到 ${paraphrases.length} 个同义替换表达。`
           : `Found ${paraphrases.length} paraphrase expressions.`
-        nextActions.push({ label: locale === 'zh' ? '查找反义词' : 'Find antonyms', action: 'find_antonyms', icon: 'swap_vert' })
         break
       }
 
@@ -2344,9 +2511,8 @@ export class AssistantService {
     return {
       answer,
       citations: buildCitations(context.chunks),
-      followUps: buildFallbackFollowUps(request.mode, locale),
+      followUps: [],
       toolCards,
-      nextActions,
       responseKind: 'tool_result',
       confidence: 'high',
       missingContext: []
@@ -2392,7 +2558,6 @@ export class AssistantService {
   ): AssistantQueryResponse {
     const practiceContext = request.practiceContext
     const toolCards: AssistantToolCard[] = []
-    const nextActions: AssistantNextAction[] = []
 
     // Build diagnosis card
     if (practiceContext?.submitted && practiceContext.wrongQuestions?.length) {
@@ -2421,10 +2586,6 @@ export class AssistantService {
         })
       }
 
-      nextActions.push(
-        { label: locale === 'zh' ? '分析这道错题' : 'Analyze this mistake', action: 'analyze_mistake', icon: 'help' },
-        { label: locale === 'zh' ? '找相似题练习' : 'Practice similar questions', action: 'recommend_drills', icon: 'fitness_center' }
-      )
     }
 
     const answer = locale === 'zh'
@@ -2434,19 +2595,18 @@ export class AssistantService {
     return {
       answer,
       citations: buildCitations(context.chunks),
-      followUps: buildFallbackFollowUps('review', locale),
+      followUps: [],
       toolCards,
-      nextActions,
       responseKind: 'review',
       confidence: 'high',
       missingContext: []
     }
   }
 
-  private buildCacheKey(request: AssistantQueryRequest): string {
+  private buildCacheKey(request: AssistantQueryRequest, includeRetrieval = false): string {
     const parts = [
       request.questionId,
-      request.mode,
+      resolveContextRoute(request),
       request.promptKind || 'none',
       request.surface || 'none',
       request.action || 'none',
@@ -2470,7 +2630,24 @@ export class AssistantService {
           .join(';')}`
       )
     }
-    return parts.join('|')
+    const base = parts.join('|')
+    return includeRetrieval ? `${base}|evalRetrieval=1` : base
+  }
+
+  private applyEvalAugmentation(
+    result: AssistantQueryResponseWithMeta,
+    includeRetrieval: boolean,
+    assistantRoute: AssistantRoute,
+    chunks: RagChunk[]
+  ): AssistantQueryResponseWithMeta {
+    if (!includeRetrieval) {
+      return result
+    }
+    return {
+      ...result,
+      assistantRoute,
+      retrievedChunks: serializeRetrievedChunksForEval(chunks)
+    }
   }
 
   private getCachedResponse(key: string): AssistantQueryResponseWithMeta | null {
@@ -2495,7 +2672,7 @@ export class AssistantService {
   private buildRetrievalCacheKey(request: AssistantQueryRequest, questionId: string): string {
     const parts = [
       questionId,
-      request.mode,
+      resolveContextRoute(request),
       request.promptKind || 'none',
       request.action || 'none',
       request.searchMode || 'auto',
@@ -2559,11 +2736,12 @@ export class AssistantService {
    * Does NOT load document or use RAG. Returns instant local response.
    */
   private async handleUnrelatedChat(
-    _request: AssistantQueryRequest,
+    request: AssistantQueryRequest,
     locale: 'zh' | 'en',
     _routingDecision: RouterDecision,
     cacheKey: string,
-    startTime: number
+    startTime: number,
+    includeRetrieval: boolean
   ): Promise<AssistantQueryResponseWithMeta> {
     // Social/fast path - instant local response without LLM
     const totalMs = Date.now() - startTime
@@ -2572,10 +2750,12 @@ export class AssistantService {
         ? '你好！我是 IELTS 阅读小助手。你可以问我具体题目（如"第 1 题怎么做"），或让我讲解整组题的思路。'
         : 'Hi! I\'m your IELTS Reading assistant. Ask me about specific questions (e.g., "How to approach Q1?") or request an overview of the whole set.',
       citations: [],
-      followUps: [],
+      followUps: buildSocialUnrelatedFollowUps(locale),
       confidence: 'high',
       missingContext: [],
       responseKind: 'social',
+      usedQuestionNumbers: [],      // Clear for social responses
+      usedParagraphLabels: [],      // Clear for social responses
       answerSource: 'local',
       timings: {
         load_ms: 0,
@@ -2586,8 +2766,9 @@ export class AssistantService {
         cache_hit: false
       }
     }
-    this.setCachedResponse(cacheKey, response)
-    return response
+    const out = this.applyEvalAugmentation(response, includeRetrieval, 'unrelated_chat', [])
+    this.setCachedResponse(cacheKey, out)
+    return out
   }
 
   /**
@@ -2600,10 +2781,15 @@ export class AssistantService {
     locale: 'zh' | 'en',
     _routingDecision: RouterDecision,
     cacheKey: string,
-    startTime: number
+    startTime: number,
+    includeRetrieval: boolean
   ): Promise<AssistantQueryResponseWithMeta> {
     const provider = this.provider
     let answer: string
+    let answerSections: AssistantAnswerSection[] | undefined
+    let followUpsOut: string[] = []
+    let confidenceOut: AssistantConfidence = 'high'
+    let missingContextOut: string[] = []
     let modelMs = 0
     let answerSource: 'llm' | 'local' = 'local'
 
@@ -2615,9 +2801,17 @@ export class AssistantService {
       const modelStart = Date.now()
       try {
         const prompt = buildIeltsCoachPrompt(request, locale)
-        answer = await provider.generate(prompt)
+        const raw = await provider.generate(prompt)
         modelMs = Date.now() - modelStart
         answerSource = 'llm'
+        const parsed = parseModelResponse(raw, locale)
+        answer = parsed.answer
+        if (parsed.answerSections.length > 0) {
+          answerSections = parsed.answerSections
+        }
+        followUpsOut = normalizeFollowUpStrings(parsed.followUps).slice(0, MAX_ASSISTANT_FOLLOW_UPS)
+        confidenceOut = parsed.confidence
+        missingContextOut = parsed.missingContext
       } catch {
         // Fallback to local response
         answer = getLocalIeltsCoachResponse(request, locale)
@@ -2630,13 +2824,14 @@ export class AssistantService {
     const totalMs = Date.now() - startTime
     const response: AssistantQueryResponseWithMeta = {
       answer,
+      ...(answerSections?.length ? { answerSections } : {}),
       citations: [],
-      followUps: locale === 'zh'
-        ? ['有什么阅读技巧推荐', '同义替换怎么积累', '时间不够怎么办']
-        : ['What reading strategies do you recommend', 'How to build paraphrase vocabulary', 'What if I run out of time'],
-      confidence: 'high' as AssistantConfidence,
-      missingContext: [],
+      followUps: followUpsOut,
+      confidence: confidenceOut,
+      missingContext: missingContextOut,
       responseKind: 'chat',
+      usedQuestionNumbers: [],      // Clear for general chat (no page grounding)
+      usedParagraphLabels: [],      // Clear for general chat (no page grounding)
       answerSource,
       timings: {
         load_ms: 0,
@@ -2647,13 +2842,17 @@ export class AssistantService {
         cache_hit: false
       }
     }
-    this.setCachedResponse(cacheKey, response)
-    return response
+    const out = this.applyEvalAugmentation(response, includeRetrieval, 'ielts_general', [])
+    this.setCachedResponse(cacheKey, out)
+    return out
   }
 
-  private async queryWithTiming(request: AssistantQueryRequest): Promise<AssistantQueryResponseWithMeta> {
+  private async queryWithTiming(
+    request: AssistantQueryRequest,
+    includeRetrieval = false
+  ): Promise<AssistantQueryResponseWithMeta> {
     const startTime = Date.now()
-    const cacheKey = this.buildCacheKey(request)
+    const cacheKey = this.buildCacheKey(request, includeRetrieval)
 
     // Check short-term cache for repeat requests
     const cached = this.getCachedResponse(cacheKey)
@@ -2669,12 +2868,12 @@ export class AssistantService {
 
     // Route 1: unrelated_chat - Greetings, weather, smalltalk (no document load)
     if (routingDecision.route === 'unrelated_chat') {
-      return this.handleUnrelatedChat(request, locale, routingDecision, cacheKey, startTime)
+      return this.handleUnrelatedChat(request, locale, routingDecision, cacheKey, startTime, includeRetrieval)
     }
 
     // Route 2: ielts_general - IELTS learning questions not tied to current passage (no document load)
     if (routingDecision.route === 'ielts_general') {
-      return this.handleIeltsGeneral(request, locale, routingDecision, cacheKey, startTime)
+      return this.handleIeltsGeneral(request, locale, routingDecision, cacheKey, startTime, includeRetrieval)
     }
 
     // Route 3: page_grounded - Questions about current passage/questions (requires document load + RAG)
@@ -2682,11 +2881,12 @@ export class AssistantService {
     const loadStart = Date.now()
     const document = await this.documentLoader(question)
     const loadMs = Date.now() - loadStart
+    const route = resolveContextRoute(request)
 
     // Classify intent with full document context for routing decisions
     const availableQuestionNumbers = new Set(document.questionChunks.flatMap((chunk) => chunk.questionNumbers))
     let intent = classifyIntent(request, locale, Array.from(availableQuestionNumbers))
-    if (intent.kind === 'clarify' && ['hint', 'explain', 'review', 'similar'].includes(request.mode)) {
+    if (intent.kind === 'clarify') {
       const bodyForSocial = normalizeTrailingQuestionMarks(stripGreetingPrefix((request.userQuery || '').trim(), locale))
       if (!isPureSocial(bodyForSocial, locale)) {
         intent = { kind: 'grounded_question', confidence: 0.65 }
@@ -2714,8 +2914,9 @@ export class AssistantService {
           cache_hit: false
         }
       }
-      this.setCachedResponse(cacheKey, result)
-      return result
+      const out = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', context.chunks)
+      this.setCachedResponse(cacheKey, out)
+      return out
     }
 
     // Handle review_coach_request - post-submission review and diagnosis
@@ -2739,8 +2940,9 @@ export class AssistantService {
           cache_hit: false
         }
       }
-      this.setCachedResponse(cacheKey, result)
-      return result
+      const out = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', context.chunks)
+      this.setCachedResponse(cacheKey, out)
+      return out
     }
 
     // Handle clarify - instant response, no context needed
@@ -2751,9 +2953,7 @@ export class AssistantService {
           ? '请告诉我你想了解哪道题（如"第 3 题"），或者我可以先讲解整组题的解题思路。你也可以直接说"讲一下这组题"。'
           : 'Please tell me which question you\'d like help with (e.g., "Q3"), or I can explain the overall strategy for this set. You can also say "explain the whole set".',
         citations: [],
-        followUps: locale === 'zh'
-          ? ['第 1 题怎么做', '讲一下整组思路', '看 Paragraph B']
-          : ['How to do Q1', 'Explain the whole set', 'Check Paragraph B'],
+        followUps: [],
         confidence: 'high' as AssistantConfidence,
         missingContext: [],
         responseKind: 'clarify',
@@ -2767,8 +2967,9 @@ export class AssistantService {
           cache_hit: false
         }
       }
-      this.setCachedResponse(cacheKey, response)
-      return response
+      const clarifyOut = this.applyEvalAugmentation(response, includeRetrieval, 'page_grounded', [])
+      this.setCachedResponse(cacheKey, clarifyOut)
+      return clarifyOut
     }
 
     // Determine if reading-native was used (fast path) or PDF fallback
@@ -2782,9 +2983,9 @@ export class AssistantService {
       const contextMs = Date.now() - contextStart
 
       let response: AssistantQueryResponse
-      if (request.mode === 'similar') {
+      if (route === 'similar') {
         response = await this.buildSimilarResponse(question, request)
-      } else if (request.mode === 'review') {
+      } else if (route === 'review') {
         response = this.buildLocalReviewResponse(question, request, context, collectReviewItems(request, document.answerExplanationChunks), document, intent)
       } else {
         response = this.buildLocalTutoringResponse(question, request, context, document, intent)
@@ -2804,9 +3005,10 @@ export class AssistantService {
         }
       }
 
-      this.setCachedResponse(cacheKey, result)
+      const localOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', context.chunks)
+      this.setCachedResponse(cacheKey, localOut)
       this.logger.info?.({
-        mode: request.mode,
+        contextRoute: route,
         questionId: question.id,
         load_ms: loadMs,
         context_ms: contextMs,
@@ -2815,13 +3017,13 @@ export class AssistantService {
         isNative: document.sourcePath.includes('reading-native')
       }, 'Assistant local response generated.')
 
-      return result
+      return localOut
     }
 
     // LLM-preferred: similar recommendations stay local (no LLM synthesis of full answer)
-    if (request.mode === 'similar') {
+    if (route === 'similar') {
       const contextStart = Date.now()
-      await this.collectContext(question, document, request)
+      const similarContext = await this.collectContext(question, document, request)
       const contextMs = Date.now() - contextStart
       const response = await this.buildSimilarResponse(question, request)
       const totalMs = Date.now() - startTime
@@ -2837,8 +3039,9 @@ export class AssistantService {
           cache_hit: false
         }
       }
-      this.setCachedResponse(cacheKey, result)
-      return result
+      const similarOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', similarContext.chunks)
+      this.setCachedResponse(cacheKey, similarOut)
+      return similarOut
     }
 
     const contextStart = Date.now()
@@ -2849,7 +3052,7 @@ export class AssistantService {
 
     if (context.chunks.length === 0) {
       const localResponse =
-        request.mode === 'review'
+        route === 'review'
           ? this.buildLocalReviewResponse(question, request, context, reviewItems, document, intent)
           : this.buildLocalTutoringResponse(question, request, context, document, intent)
       const totalMs = Date.now() - startTime
@@ -2865,8 +3068,9 @@ export class AssistantService {
           cache_hit: false
         }
       }
-      this.setCachedResponse(cacheKey, result)
-      return result
+      const emptyCtxOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', context.chunks)
+      this.setCachedResponse(cacheKey, emptyCtxOut)
+      return emptyCtxOut
     }
 
     const citations = buildCitations(context.chunks)
@@ -2877,9 +3081,9 @@ export class AssistantService {
       const modelMs = Date.now() - modelStart
       const totalMs = Date.now() - startTime
 
-      const grounded = this.buildGroundedResponse(context, modelResponse, citations)
+      const grounded = this.buildGroundedResponse(context, modelResponse, citations, request, question)
       const withReview: AssistantQueryResponse =
-        request.mode === 'review' ? { ...grounded, reviewItems } : this.finalizeResponse(request, context.chunks, grounded)
+        route === 'review' ? { ...grounded, reviewItems } : this.finalizeResponse(route, context.chunks, grounded)
 
       const result: AssistantQueryResponseWithMeta = {
         ...withReview,
@@ -2894,9 +3098,10 @@ export class AssistantService {
         }
       }
 
-      this.setCachedResponse(cacheKey, result)
+      const llmOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', context.chunks)
+      this.setCachedResponse(cacheKey, llmOut)
       this.logger.info?.({
-        mode: request.mode,
+        contextRoute: route,
         questionId: question.id,
         load_ms: loadMs,
         context_ms: contextMs,
@@ -2905,11 +3110,11 @@ export class AssistantService {
         source: 'llm'
       }, 'Assistant LLM response generated.')
 
-      return result
+      return llmOut
     } catch (error) {
       this.logFallback('LLM generation failed', error)
       const localResponse =
-        request.mode === 'review'
+        route === 'review'
           ? this.buildLocalReviewResponse(question, request, context, reviewItems, document, intent)
           : this.buildLocalTutoringResponse(question, request, context, document, intent)
       const totalMs = Date.now() - startTime
@@ -2927,13 +3132,17 @@ export class AssistantService {
         }
       }
 
-      this.setCachedResponse(cacheKey, result)
-      return result
+      const fallbackOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', context.chunks)
+      this.setCachedResponse(cacheKey, fallbackOut)
+      return fallbackOut
     }
   }
 
-  async query(request: AssistantQueryRequest): Promise<AssistantQueryResponse> {
-    const result = await this.queryWithTiming(request)
+  async query(
+    request: AssistantQueryRequest,
+    options?: { includeRetrieval?: boolean }
+  ): Promise<AssistantQueryResponse> {
+    const result = await this.queryWithTiming(request, options?.includeRetrieval ?? false)
     // Return base response without meta fields (maintains backward compatibility)
     const { answerSource, timings, ...baseResponse } = result
     return baseResponse
@@ -2971,7 +3180,7 @@ export class AssistantService {
         const finalResponse: AssistantQueryResponse = {
           answer,
           citations: [],
-          followUps: [],
+          followUps: buildSocialUnrelatedFollowUps(locale),
           confidence: 'high',
           missingContext: [],
           responseKind: 'social'
@@ -2989,7 +3198,7 @@ export class AssistantService {
         const finalResponse: AssistantQueryResponse = {
           answer,
           citations: [],
-          followUps: buildFallbackFollowUps(request.mode, locale),
+          followUps: [],
           confidence: 'high',
           missingContext: [],
           responseKind: 'chat'
@@ -3013,13 +3222,14 @@ export class AssistantService {
       // Load document
       const question = await defaultQuestionLoader(request.questionId)
       const document = await getParsedDocument(question)
+      const route = resolveContextRoute(request)
 
       // Get retrieval context
       const context = await this.collectContext(question, document, request)
 
       // Check if we have enough context
       if (context.chunks.length === 0) {
-        const fallbackResponse = request.mode === 'review'
+        const fallbackResponse = route === 'review'
           ? this.buildLocalReviewResponse(question, request, context, [], document, { kind: 'grounded_question', confidence: 0.5 })
           : this.buildLocalTutoringResponse(question, request, context, document, { kind: 'grounded_question', confidence: 0.5 })
 
@@ -3031,15 +3241,24 @@ export class AssistantService {
       // Generate answer with LLM using fast model
       const modelResponse = await this.generateAnswerFast(question, request, context)
 
-      // Stream delta
-      yield { type: 'delta', payload: { text: modelResponse.answer } }
+      // Match non-stream finalize: readable text only (never raw JSON string in delta)
+      const streamLocale = resolveLocale(request)
+      const streamRoute = resolveContextRoute(request)
+      const adjustedForStream = applyAnswerStyleToParsedModel(modelResponse, context.answerStyle)
+      let streamSections = adjustedForStream.answerSections
+      if (streamRoute === 'tutor') {
+        const questionType = context.primaryQuestionChunk?.metadata.questionType
+        streamSections = sanitizeHintAnswerSections(adjustedForStream.answerSections, questionType, streamLocale)
+      }
+      const streamDeltaText = buildAnswerFromSections(streamSections)
+      yield { type: 'delta', payload: { text: streamDeltaText } }
 
       // Build final response
       const citations = buildCitations(context.chunks)
-      const groundedResponse = this.buildGroundedResponse(context, modelResponse, citations)
-      const finalResponse: AssistantQueryResponse = request.mode === 'review'
+      const groundedResponse = this.buildGroundedResponse(context, modelResponse, citations, request, question)
+      const finalResponse: AssistantQueryResponse = route === 'review'
         ? { ...groundedResponse, reviewItems: collectReviewItems(request, document.answerExplanationChunks) }
-        : this.finalizeResponse(request, context.chunks, groundedResponse)
+        : this.finalizeResponse(route, context.chunks, groundedResponse)
 
       yield { type: 'final', payload: finalResponse }
 
@@ -3062,14 +3281,15 @@ export class AssistantService {
     }
 
     const locale = resolveLocale(request)
-    const prompt = buildGroundedRagPrompt(request, locale, context.chunks, request.mode)
+    const route = resolveContextRoute(request)
+    const prompt = buildGroundedRagPrompt(request, locale, context.chunks, route, context.answerStyle)
 
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), env.ASSISTANT_FAST_TIMEOUT_MS)
 
     try {
       const result = await this.provider.generate(prompt)
-      return parseModelResponse(result, request.mode, locale)
+      return parseModelResponse(result, locale)
     } finally {
       clearTimeout(timeout)
     }

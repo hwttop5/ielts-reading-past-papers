@@ -150,7 +150,7 @@ describe('AssistantService Performance', () => {
   }
 
   describe('Response time measurements', () => {
-    it('measures hint mode response time', async () => {
+    it('measures tutor hint-style response time', async () => {
       setupMockLLM()
       const document = createDocument()
 
@@ -165,17 +165,16 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'hint',
         locale: 'zh',
         userQuery: '请给我第 1 题一个提示，但不要直接给答案。'
       })
       const elapsed = performance.now() - start
 
       expect(response.answer).toBeDefined()
-      console.log(`[PERF] Hint mode: ${elapsed.toFixed(2)}ms`)
+      console.log(`[PERF] Tutor hint-style: ${elapsed.toFixed(2)}ms`)
     })
 
-    it('measures explain mode response time', async () => {
+    it('measures explain-style response time', async () => {
       setupMockLLM()
       const document = createDocument()
 
@@ -190,17 +189,16 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'explain',
         locale: 'zh',
         userQuery: '请讲解第 1 题的解题思路和定位过程。'
       })
       const elapsed = performance.now() - start
 
       expect(response.answer).toBeDefined()
-      console.log(`[PERF] Explain mode: ${elapsed.toFixed(2)}ms`)
+      console.log(`[PERF] Explain-style: ${elapsed.toFixed(2)}ms`)
     })
 
-    it('measures review mode response time', async () => {
+    it('measures review-set response time', async () => {
       setupMockLLM()
       const document = createDocument()
 
@@ -215,7 +213,7 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'review',
+        action: 'review_set',
         locale: 'zh',
         userQuery: '请结合我的作答，分析第 1 题为什么错了，并指出证据。',
         attemptContext: {
@@ -227,10 +225,10 @@ describe('AssistantService Performance', () => {
       const elapsed = performance.now() - start
 
       expect(response.answer).toBeDefined()
-      console.log(`[PERF] Review mode: ${elapsed.toFixed(2)}ms`)
+      console.log(`[PERF] Review set: ${elapsed.toFixed(2)}ms`)
     })
 
-    it('measures similar mode response time', async () => {
+    it('measures similar-drill recommendation response time', async () => {
       setupMockLLM()
       const document = createDocument()
 
@@ -245,15 +243,15 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'similar',
+        action: 'recommend_drills',
         locale: 'zh',
         userQuery: '请根据我当前练习情况推荐下一组相似练习。',
-        recentPractice: ['q1']
+        recentPractice: [{ questionId: 'q1', accuracy: 0.5, category: 'P1', duration: 60 }]
       })
       const elapsed = performance.now() - start
 
       expect(response.answer).toBeDefined()
-      console.log(`[PERF] Similar mode: ${elapsed.toFixed(2)}ms`)
+      console.log(`[PERF] Similar drills: ${elapsed.toFixed(2)}ms`)
     })
 
     it('measures fast path (social) response time', async () => {
@@ -270,7 +268,6 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'hint',
         locale: 'zh',
         userQuery: '你好'
       })
@@ -299,7 +296,6 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'hint',
         locale: 'zh',
         userQuery: 'increased 的同义替换有哪些？'
       })
@@ -324,7 +320,6 @@ describe('AssistantService Performance', () => {
       const start = performance.now()
       const response = await service.query({
         questionId: 'q1',
-        mode: 'hint',
         locale: 'zh',
         userQuery: '段落 D 内容是什么'
       })
@@ -355,7 +350,6 @@ describe('AssistantService Performance', () => {
         const start = performance.now()
         await service.query({
           questionId: 'q1',
-          mode: 'hint',
           locale: 'zh',
           userQuery: `测试请求 ${i + 1}`
         })

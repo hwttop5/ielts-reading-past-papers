@@ -319,7 +319,6 @@
       :attempt-context="assistantAttemptContext"
       :recent-practice="recentPractice"
       :lang="displayLang"
-      :quick-action-context="quickActionContext"
     />
   </div>
 </template>
@@ -457,20 +456,6 @@ const reviewEntries = computed(() => {
 const selectionAlreadyHighlighted = computed(() =>
   (sessionState.highlights.value || []).some((entry) => entry.scope === selectionToolbar.value.scope && entry.text === selectionToolbar.value.text)
 )
-
-const quickActionContext = computed(() => {
-  const wrongQuestions = session.result?.scoreInfo
-    ? session.exam?.questionOrder
-        .filter((qid) => session.result?.answerComparison?.[qid]?.isCorrect === false)
-        .map((qid) => questionLabel(qid)) || []
-    : []
-
-  return {
-    hintQuestionNumber: activeQuestionNumber.value,
-    explainQuestionNumber: activeQuestionNumber.value,
-    reviewQuestionNumber: wrongQuestions[0] || undefined
-  }
-})
 
 function hasAnswerValue(value: string | string[]) {
   if (Array.isArray(value)) {
@@ -889,6 +874,12 @@ watch(
     restorePaneScroll()
     closeSelectionToolbar()
     applyAttemptContext()
+
+    // Initialize active question number to the first question's display number
+    const firstQuestionId = sessionState.exam.value?.questionOrder?.[0]
+    if (firstQuestionId) {
+      updateActiveQuestionNumber(questionLabel(firstQuestionId))
+    }
   }
 )
 
@@ -1185,18 +1176,28 @@ onErrorCaptured((error) => {
 }
 @media (max-width: 1080px) {
   .nav-shell {
-    flex-wrap: wrap;
-    align-items: center;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 12px;
   }
 
-  .nav-grid {
+  /* Question 标题和按钮在同一行，题号独占一行 */
+  .nav-shell .nav-title {
+    order: 1;
+    flex-shrink: 0;
+  }
+
+  .nav-shell .bottom-actions {
+    order: 2;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .nav-shell .nav-grid {
     order: 3;
     flex: 1 1 100%;
     width: 100%;
-  }
-
-  .bottom-actions {
-    margin-left: 0;
   }
 }
 @media (max-width: 768px) {

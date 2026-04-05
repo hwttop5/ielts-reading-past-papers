@@ -198,7 +198,7 @@ server.registerTool(
     const assistant = new AssistantService()
     const response = await assistant.query({
       questionId,
-      mode: 'similar',
+      action: 'recommend_drills',
       userQuery
     })
 

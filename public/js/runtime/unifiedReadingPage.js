@@ -245,6 +245,48 @@
             .reading-question-explanation-list .reading-question-explanation-item + .reading-question-explanation-item {
                 margin-top: 8px;
             }
+            /* 图 4: Question/Reset/Submit 按钮横向对齐 - 所有尺寸生效 */
+            .practice-nav,
+            div.practice-nav {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: center !important;
+                justify-content: space-between !important;
+                gap: 12px !important;
+                flex-wrap: nowrap !important;
+                width: 100% !important;
+            }
+            .practice-nav .title,
+            div.practice-nav .title {
+                margin: 0 !important;
+                order: 1 !important;
+                flex: 0 0 auto !important;
+                white-space: nowrap !important;
+            }
+            .practice-nav .questions,
+            div.practice-nav .questions {
+                flex: 1 1 auto !important;
+                order: 2 !important;
+                min-width: 0 !important;
+                display: flex !important;
+                gap: 6px !important;
+                overflow-x: auto !important;
+                justify-content: center !important;
+            }
+            .practice-nav .controls,
+            div.practice-nav .controls {
+                display: flex !important;
+                gap: 8px !important;
+                order: 3 !important;
+                flex: 0 0 auto !important;
+                flex-wrap: nowrap !important;
+            }
+            #submit-btn,
+            #reset-btn {
+                padding: 8px 12px !important;
+                font-size: 13px !important;
+                white-space: nowrap !important;
+            }
             /* 移动端优化样式 */
             @media (max-width: 768px) {
                 /* 图 3: TFNG 选项左对齐 */
@@ -272,47 +314,6 @@
                 .tfng-options input[type="radio"] {
                     margin-right: 8px !important;
                     flex-shrink: 0 !important;
-                }
-                /* 图 4: Question/Reset/Submit 按钮横向对齐 */
-                .practice-nav,
-                div.practice-nav {
-                    display: flex !important;
-                    flex-direction: row !important;
-                    align-items: center !important;
-                    justify-content: space-between !important;
-                    gap: 12px !important;
-                    flex-wrap: nowrap !important;
-                    width: 100% !important;
-                }
-                .practice-nav .title,
-                div.practice-nav .title {
-                    margin: 0 !important;
-                    order: 1 !important;
-                    flex: 0 0 auto !important;
-                    white-space: nowrap !important;
-                }
-                .practice-nav .controls,
-                div.practice-nav .controls {
-                    display: flex !important;
-                    gap: 8px !important;
-                    order: 2 !important;
-                    flex: 0 0 auto !important;
-                    flex-wrap: nowrap !important;
-                }
-                .practice-nav .questions,
-                div.practice-nav .questions {
-                    flex: 1 1 auto !important;
-                    order: 3 !important;
-                    min-width: 0 !important;
-                    display: flex !important;
-                    gap: 6px !important;
-                    overflow-x: auto !important;
-                }
-                #submit-btn,
-                #reset-btn {
-                    padding: 8px 12px !important;
-                    font-size: 13px !important;
-                    white-space: nowrap !important;
                 }
                 /* 图 5: 隐藏额外图标 */
                 .header-extra-icon,

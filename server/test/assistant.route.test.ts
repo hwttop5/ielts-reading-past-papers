@@ -239,7 +239,6 @@ describe('assistant route integration', () => {
         url: '/api/assistant/query',
         payload: {
           questionId: 'mock-question',
-          mode: 'hint',
           locale: 'en',
           userQuery: 'Where should I start?'
         }
@@ -298,7 +297,6 @@ describe('assistant route integration', () => {
         url: '/api/assistant/query',
         payload: {
           questionId: 'mock-question',
-          mode: 'hint',
           locale: 'en',
           userQuery: 'Use my notes for Q12.',
           focusQuestionNumbers: ['12'],
@@ -348,7 +346,6 @@ describe('assistant route integration', () => {
         url: '/api/assistant/query',
         payload: {
           questionId: 'mock-question',
-          mode: 'review',
           locale: 'en',
           attemptContext: {
             wrongQuestions: ['Q12']
@@ -363,7 +360,7 @@ describe('assistant route integration', () => {
     }
   }, 30_000)
 
-  it('keeps similar mode local and does not call the external provider', async () => {
+  it('keeps similar-drill route local and does not call the external provider', async () => {
     const mockBank = createMockQuestionBankModule()
     vi.doMock('../src/lib/question-bank/index.js', async (importOriginal) => {
       const actual = await importOriginal<typeof import('../src/lib/question-bank/index.js')>()
@@ -387,7 +384,7 @@ describe('assistant route integration', () => {
     })
 
     global.fetch = vi.fn(() => {
-      throw new Error('fetch should not be called for similar mode')
+      throw new Error('fetch should not be called for similar-drill recommendations')
     }) as typeof fetch
 
     const app = await createTestApp()
@@ -397,7 +394,7 @@ describe('assistant route integration', () => {
         url: '/api/assistant/query',
         payload: {
           questionId: 'mock-question',
-          mode: 'similar',
+          action: 'recommend_drills',
           locale: 'en',
           userQuery: 'Recommend similar passages.'
         }

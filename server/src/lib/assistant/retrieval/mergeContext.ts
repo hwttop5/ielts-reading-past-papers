@@ -1,12 +1,12 @@
-import type { AssistantQueryRequest } from '../../../types/assistant.js'
+import type { AssistantContextRoute } from '../contextRoute.js'
 import type { RagChunk } from '../../../types/question-bank.js'
 import { dedupeChunks } from './dedupe.js'
 
 /**
  * Apply passage / non-passage budget split (matches AssistantService.collectContext behavior).
  */
-export function budgetFinalChunks(request: AssistantQueryRequest, sortedChunks: RagChunk[], budget: number): RagChunk[] {
-  if (request.mode === 'similar') {
+export function budgetFinalChunks(route: AssistantContextRoute, sortedChunks: RagChunk[], budget: number): RagChunk[] {
+  if (route === 'similar') {
     return sortedChunks.slice(0, budget)
   }
 

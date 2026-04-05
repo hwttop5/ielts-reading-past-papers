@@ -2,17 +2,17 @@ import type {
   AssistantAttachment,
   AssistantHistoryItem,
   AssistantLocale,
-  AssistantMode,
   AssistantQueryRequest,
   AttemptContext,
   RecentPracticeItem
 } from '../../types/assistant.js'
 import type { QuestionIndexEntry, RagChunk } from '../../types/question-bank.js'
+import type { AssistantContextRoute } from './contextRoute.js'
 import type { AnswerStyle } from './answerStyle.js'
 import { compactMultiline } from '../utils/text.js'
 
 interface PromptInput {
-  mode: AssistantMode
+  contextRoute: AssistantContextRoute
   locale: AssistantLocale
   question: QuestionIndexEntry
   userQuery?: string
@@ -26,22 +26,18 @@ interface PromptInput {
   answerStyle?: AnswerStyle
 }
 
-function modeInstruction(mode: AssistantMode): string {
-  switch (mode) {
-    case 'hint':
+function routeInstruction(route: AssistantContextRoute): string {
+  switch (route) {
+    case 'tutor':
       return [
-        'Give the learner the best next move without revealing the exact final answer.',
+        'Give the learner the best next move without revealing the exact final answer while they are still solving.',
+        'CRITICAL: Do NOT reveal answer options (A/B/C/D), headings, or paragraph labels when those are the answer choices.',
         'You may point to the most relevant paragraph, clue type, elimination path, or wording trap.',
-        'Do not reveal an answer option, heading, or paragraph label when that label is itself the answer space.',
+        'For Matching Headings or paragraph label questions, guide the learner to the right paragraph WITHOUT naming the target label directly.',
+        'When they ask for explanation or reasoning, walk through locating order and logic; still avoid direct labels when the question type requires hiding them.',
+        'Do NOT use phrases like "正确选项 D", "the correct answer is", "option B", etc. Instead, describe what to look for.',
         'Keep the reply concise. Use only the sections that are necessary, and keep each section short.',
         'If the evidence is not enough to be precise, say that clearly and ask the learner to inspect a narrower part of the passage.'
-      ].join(' ')
-    case 'explain':
-      return [
-        'Explain the reasoning path for the current question set.',
-        'State the conclusion only when the supplied evidence supports it.',
-        'Keep the explanation concise and focused on the asked question.',
-        'Always connect the conclusion to passage evidence, paraphrase relationships, or elimination logic.'
       ].join(' ')
     case 'review':
       return [
@@ -51,7 +47,7 @@ function modeInstruction(mode: AssistantMode): string {
         'If the supplied context supports the correct answer, you may state it plainly.'
       ].join(' ')
     case 'similar':
-      return 'This mode is handled outside the model.'
+      return 'This route is handled outside the model.'
   }
 }
 
@@ -142,7 +138,10 @@ function formatContextChunks(chunks: RagChunk[], answerStyle?: AnswerStyle): str
     .map((chunk, index) => {
       const questions = chunk.questionNumbers.length > 0 ? chunk.questionNumbers.join(', ') : 'n/a'
       const paragraphs = chunk.paragraphLabels.length > 0 ? chunk.paragraphLabels.join(', ') : 'n/a'
-      const body = Number.isFinite(cap) ? truncateForPrompt(chunk.content, cap) : chunk.content
+      // For heading_matching questions, preserve full heading list content (do not truncate)
+      const isHeadingMatching = chunk.metadata.questionType === 'heading_matching' && chunk.chunkType === 'question_item'
+      const shouldTruncate = Number.isFinite(cap) && !isHeadingMatching
+      const body = shouldTruncate ? truncateForPrompt(chunk.content, cap as number) : chunk.content
 
       return compactMultiline([
         `[Context ${index + 1}]`,
@@ -176,7 +175,7 @@ export function buildAssistantPrompt(input: PromptInput): { system: string; user
     ? input.answerStyle === 'vocab_paraphrase'
       ? '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"}],"followUps":[],"confidence":"high","missingContext":[]} For vocabulary/synonym questions, provide only a direct_answer with a short list of substitutes. Keep followUps empty.'
       : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"evidence","text":"string"}],"followUps":[],"confidence":"high","missingContext":[]} For paragraph-focus questions, provide direct_answer (main idea) plus at most one evidence phrase. Keep followUps empty.'
-    : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"reasoning","text":"string"},{"type":"evidence","text":"string"},{"type":"next_step","text":"string"}],"followUps":["string","string"],"confidence":"high|medium|low","missingContext":["string"]}'
+    : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"reasoning","text":"string"},{"type":"evidence","text":"string"},{"type":"next_step","text":"string"}],"followUps":["string","string","string"],"confidence":"high|medium|low","missingContext":["string"]} followUps: exactly 3 user-initiated tap labels, each ≤100 characters (one short line), specific to this passage and request; vary wording vs prior turns (see history). Natural phrasing (帮我…/对比…/查看…). NOT AI questions.'
 
   const system = compactMultiline([
     'You are an IELTS Reading coach embedded inside a question-practice workflow.',
@@ -191,7 +190,7 @@ export function buildAssistantPrompt(input: PromptInput): { system: string; user
     'Mention question numbers or paragraph labels when useful.',
     answerStyleInstruction(input.answerStyle, input.locale),
     languageInstruction(input.locale),
-    modeInstruction(input.mode),
+    routeInstruction(input.contextRoute),
     'Return strict JSON with this exact shape:',
     jsonShape
   ].join('\n'))
@@ -203,8 +202,8 @@ export function buildAssistantPrompt(input: PromptInput): { system: string; user
   const user = compactMultiline([
     `Question set: ${input.question.title}`,
     `Category: ${input.question.category}`,
-    `Mode: ${input.mode}`,
-    `Learner request: ${input.userQuery?.trim() || 'Use the default tutor guidance for this mode.'}`,
+    `Context: ${input.contextRoute}`,
+    `Learner request: ${input.userQuery?.trim() || 'Use the default tutor guidance for this context.'}`,
     `Focus question numbers: ${focusQuestionNumbers}`,
     `Conversation history:\n${formatHistory(input.history)}`,
     `Attempt context:\n${formatAttemptContext(input.attemptContext)}`,
@@ -325,7 +324,7 @@ export function buildIeltsCoachPrompt(
     'Return strict JSON with this exact shape:',
     isChitChat
       ? '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"}],"followUps":[],"confidence":"high","missingContext":[]} For greetings or simple questions, provide only a brief direct_answer. Keep followUps empty. Do NOT include reasoning, evidence, or next_step sections.'
-      : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"reasoning","text":"string"},{"type":"next_step","text":"string"}],"followUps":["string","string","string"],"confidence":"high","missingContext":[]} For IELTS learning questions, provide direct_answer plus concise reasoning and next_step. Skip evidence section since no passage context is available.'
+      : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"reasoning","text":"string"},{"type":"next_step","text":"string"}],"followUps":["string","string","string"],"confidence":"high|medium|low","missingContext":[]} For IELTS learning questions, provide direct_answer plus concise reasoning and next_step. Skip evidence section since no passage context is available. Generate exactly 3 followUps as user-initiated requests (e.g., "帮我...", "总结...", "解释..."), each ≤100 characters, NOT as AI questions (e.g., "你想...吗？", "需要我...吗？")'
   ].join('\n'))
 
   const user = compactMultiline([
@@ -344,36 +343,71 @@ export function buildIeltsCoachPrompt(
 /**
  * Build prompt for grounded RAG questions (page_grounded route).
  * Compressed context: primary question chunk + primary evidence chunk + max 1 supplemental passage.
+ * Requires strict JSON (same shape as buildAssistantPrompt) so followUps can be model-generated, not template-filled.
  */
 export function buildGroundedRagPrompt(
   request: AssistantQueryRequest,
   locale: 'zh' | 'en',
   contextChunks: RagChunk[],
-  mode: AssistantMode
+  contextRoute: AssistantContextRoute,
+  answerStyle?: AnswerStyle
 ): { system: string; user: string } {
   const query = (request.userQuery || '').trim()
 
-  // Length control based on mode
+  const brief = answerStyle && answerStyle !== 'full_tutoring'
+  const jsonShape = brief
+    ? answerStyle === 'vocab_paraphrase'
+      ? '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"}],"followUps":[],"confidence":"high","missingContext":[]} For vocabulary/synonym questions, provide only a direct_answer. Keep followUps empty.'
+      : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"evidence","text":"string"}],"followUps":[],"confidence":"high","missingContext":[]} For paragraph-focus questions, provide direct_answer plus at most one evidence phrase. Keep followUps empty.'
+    : '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"reasoning","text":"string"},{"type":"evidence","text":"string"},{"type":"next_step","text":"string"}],"followUps":["string","string","string"],"confidence":"high|medium|low","missingContext":["string"]} followUps: exactly 3 short tap labels (same language as answer), each ≤100 characters (one line). Each must be specific to THIS learner request and passage (paragraph/question IDs when relevant). Vary wording across turns — do NOT emit the same fixed menu every time. Cover diverse intents: e.g. paraphrase/keyword/evidence help as natural user phrasing (帮我…/对比…/核对…), not three identical stock phrases. Not AI questions (你想吗 / Would you like).'
+
+  // Length control based on derived route
   const lengthInstruction = locale === 'zh'
-    ? (mode === 'hint'
-        ? '保持简洁：120-180 中文字。给提示但不直接给答案。'
-        : mode === 'review'
+    ? (contextRoute === 'review'
         ? '保持简洁：180-320 中文字。解释错因和正确思路。'
-        : '保持简洁：180-280 中文字。解释推理路径。')
-    : (mode === 'hint'
-        ? 'Keep it concise: 80-120 words. Give hints without revealing the answer.'
-        : mode === 'review'
+        : '保持简洁：150-260 中文字。给可执行步骤；讲解时说明推理但不要不必要地漏题。')
+    : (contextRoute === 'review'
         ? 'Keep it concise: 120-200 words. Explain the mistake and correct path.'
-        : 'Keep it concise: 120-180 words. Explain the reasoning path.')
+        : 'Keep it concise: 100-170 words. Give actionable steps; explain reasoning without unnecessary spoilers.')
+
+  const followupLines =
+    request.promptKind === 'followup'
+      ? [
+          locale === 'zh'
+            ? '【接续追问】当前「Learner request」是唯一要完成的任务：用自然语言直接回答（词汇对比、证据句、推理），不要只复述上一轮的题型结论（例如单独一句 NOT GIVEN），除非用户明确要求只要答案。'
+            : '[Follow-up] The current Learner request is the only task: answer it directly (word comparison, evidence, reasoning). Do not repeat only the previous verdict (e.g. a lone NOT GIVEN) unless the user asked for the verdict only.'
+        ]
+      : []
+
+  const hintLike =
+    locale === 'zh'
+      ? /提示|线索|给我提示/.test(query)
+      : /\bhints?\b|\bclues?\b/i.test(query)
+  const hintIntentLines =
+    hintLike && (!answerStyle || answerStyle === 'full_tutoring')
+      ? [
+          locale === 'zh'
+            ? '【提示意图】用户要的是定位线索与解题步骤，不是只要一句题型结论。direct_answer 用一两句说明本题考查点与定位方向；reasoning、evidence、next_step 必须给出可执行的比对、核对与排除步骤。禁止用单独一行 NOT GIVEN/TRUE/FALSE/YES/NO 或仅有选项字母作为全部正文；若 Context 为 tutor，仍不要剧透可选项标签，但不得用一句话结案代替分析。'
+            : '[Hint intent] The learner wants locating clues and steps, not a one-line verdict. Use direct_answer for what the item tests and how to search; fill reasoning, evidence, and next_step with actionable comparison and elimination. Do not output only NOT GIVEN/TRUE/FALSE/YES/NO or a lone option letter as the entire response. On tutor route, avoid revealing choice labels but still do not replace analysis with a single verdict line.'
+        ]
+      : []
 
   const system = compactMultiline([
     'You are an IELTS Reading coach answering questions about a specific passage and question set.',
     'Answer the learner question directly using only the supplied context.',
     'Do not invent evidence. If evidence is incomplete, say so briefly.',
-    'Be natural and conversational - respond like a human tutor, not a template.',
+    'Be natural and conversational in the section texts — not a stiff template.',
     'Prioritize the current learner request over conversation history.',
+    ...followupLines,
+    ...hintIntentLines,
     locale === 'zh' ? '请用简体中文回答。' : 'Respond in English.',
-    lengthInstruction
+    lengthInstruction,
+    answerStyleInstruction(answerStyle, locale),
+    languageInstruction(locale),
+    routeInstruction(contextRoute),
+    'Output ONLY valid JSON. Do not wrap in markdown code fences. Do not add any text before or after the JSON object.',
+    'Return strict JSON with this exact shape:',
+    jsonShape
   ].join('\n'))
 
   // Compress context: max 3 chunks (1 question + 1 evidence + 1 supplemental)
@@ -389,10 +423,12 @@ export function buildGroundedRagPrompt(
 
   const user = compactMultiline([
     `Question set: ${request.selectedContext?.scope === 'question' ? 'Current question practice' : 'Current passage view'}`,
-    `Mode: ${mode}`,
+    `Context: ${contextRoute}`,
     `Learner request: ${query}`,
     request.focusQuestionNumbers?.length ? `Focus questions: ${request.focusQuestionNumbers.join(', ')}` : '',
     request.selectedContext?.text ? `Selected text: ${request.selectedContext.text.slice(0, 200)}...` : '',
+    '',
+    `Conversation history (use to avoid repeating identical follow-up chip text from earlier turns):\n${formatHistory(request.history ?? [])}`,
     '',
     'Context chunks:',
     contextText

@@ -6,7 +6,6 @@ import type { AssistantQueryRequest } from '../types/assistant.js'
 
 const requestSchema = z.object({
   questionId: z.string().trim().min(1),
-  mode: z.enum(['hint', 'explain', 'review', 'similar']),
   locale: z.enum(['zh', 'en']).default('zh').optional(),
   userQuery: z.string().trim().max(12000).optional(),
   history: z.array(
@@ -82,8 +81,38 @@ function getClientIp(request: FastifyRequest): string {
   return request.ip
 }
 
+function isLocalhostIp(ip: string): boolean {
+  if (ip === '127.0.0.1' || ip === '::1' || ip === 'localhost') {
+    return true
+  }
+  // IPv4-mapped IPv6
+  return ip === '::ffff:127.0.0.1'
+}
+
+/** Include serialized RAG chunks in JSON when CI/local eval needs them. */
+export function shouldIncludeAssistantEvalRetrieval(request: FastifyRequest): boolean {
+  if (env.ASSISTANT_INCLUDE_RETRIEVAL) {
+    return true
+  }
+  const raw = request.headers['x-assistant-eval']
+  const v = Array.isArray(raw) ? raw[0] : raw
+  const headerOn =
+    v === '1' || v === 'true' || (typeof v === 'string' && v.toLowerCase() === 'on')
+  if (!headerOn) {
+    return false
+  }
+  if (process.env.NODE_ENV === 'development') {
+    return true
+  }
+  return isLocalhostIp(getClientIp(request))
+}
+
 function enforceRateLimit(request: FastifyRequest, reply: FastifyReply) {
   const ip = getClientIp(request)
+  // Local dev: avoid 429 while iterating on the assistant UI (see server/.env.example RATE_LIMIT_*)
+  if (process.env.NODE_ENV === 'development' && isLocalhostIp(ip)) {
+    return
+  }
   const windowMs = env.RATE_LIMIT_WINDOW_MINUTES * 60 * 1000
   const now = Date.now()
   const current = rateLimitStore.get(ip)
@@ -128,7 +157,8 @@ export async function registerAssistantRoutes(app: FastifyInstance) {
     }
 
     try {
-      const response = await service.query(payload)
+      const includeRetrieval = shouldIncludeAssistantEvalRetrieval(request)
+      const response = await service.query(payload, { includeRetrieval })
       reply.send(response)
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Assistant request failed.'
@@ -152,7 +182,8 @@ export async function registerAssistantRoutes(app: FastifyInstance) {
     if (!env.ASSISTANT_STREAM_ENABLED) {
       // Fallback to non-streaming endpoint - just process as regular query
       const payload: AssistantQueryRequest = requestSchema.parse(request.body)
-      const response = await service.query(payload)
+      const includeRetrieval = shouldIncludeAssistantEvalRetrieval(request)
+      const response = await service.query(payload, { includeRetrieval })
       return reply.send(response)
     }
 

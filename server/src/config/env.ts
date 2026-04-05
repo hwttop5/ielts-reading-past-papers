@@ -66,6 +66,20 @@ const envSchema = z.object({
   /** Fast model for answer generation (defaults to LLM_CHAT_MODEL if not set) */
   ASSISTANT_FAST_MODEL: z.string().trim().optional(),
   ASSISTANT_FAST_TIMEOUT_MS: z.coerce.number().int().positive().default(25000),
+  /** When true, assistant responses may include retrievedChunks for RAG eval (also requires X-Assistant-Eval header unless this alone is set). */
+  ASSISTANT_INCLUDE_RETRIEVAL: z.preprocess(
+    (val) => {
+      if (val === undefined || val === null || val === '') {
+        return false
+      }
+      if (typeof val === 'boolean') {
+        return val
+      }
+      const s = String(val).trim().toLowerCase()
+      return ['true', '1', 'yes', 'on'].includes(s)
+    },
+    z.boolean()
+  ).default(false),
   /** Stream response mode */
   ASSISTANT_STREAM_ENABLED: z.preprocess(
     (val) => {

@@ -5,7 +5,6 @@ import type { AssistantQueryRequest } from '../src/types/assistant.js'
 function req(partial: Partial<AssistantQueryRequest> & Pick<AssistantQueryRequest, 'userQuery'>): AssistantQueryRequest {
   return {
     questionId: 'q1',
-    mode: 'hint',
     ...partial
   } as AssistantQueryRequest
 }
@@ -83,7 +82,7 @@ describe('classifyAnswerStyle', () => {
   describe('full_tutoring (default)', () => {
     it('leaves full tutoring for generic coaching questions', () => {
       expect(classifyAnswerStyle(req({ userQuery: '第 1 题怎么做？' }), 'zh')).toBe('full_tutoring')
-      expect(classifyAnswerStyle(req({ userQuery: 'Where should I start?', mode: 'hint' }), 'en')).toBe('full_tutoring')
+      expect(classifyAnswerStyle(req({ userQuery: 'Where should I start?' }), 'en')).toBe('full_tutoring')
     })
 
     it('leaves full tutoring for short or unclear queries', () => {

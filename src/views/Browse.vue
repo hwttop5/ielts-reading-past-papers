@@ -742,12 +742,12 @@ watch(totalPages, (value) => {
 
 .tag-medium {
   background: rgba(234, 179, 8, 0.14);
-  color: #a16207;
+  color: #ea580c;
 }
 
 .tag-low {
-  background: rgba(107, 114, 128, 0.12);
-  color: #4b5563;
+  background: rgba(96, 165, 250, 0.12);
+  color: #60a5fa;
 }
 
 .tag-mode {

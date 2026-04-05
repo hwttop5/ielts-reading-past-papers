@@ -71,7 +71,8 @@ describe('assistant provider selection', () => {
     process.env.LLM_PROVIDER = 'coding-plan'
     process.env.LLM_API_KEY = 'coding-plan-test-key'
     delete process.env.LLM_BASE_URL
-    delete process.env.LLM_CHAT_MODEL
+    // Empty string prevents dotenv (on env re-import) from re-injecting LLM_CHAT_MODEL from .env
+    process.env.LLM_CHAT_MODEL = ''
     process.env.LLM_APP_URL = 'http://localhost:5175'
     process.env.LLM_APP_NAME = 'IELTS Reading Past Papers'
 

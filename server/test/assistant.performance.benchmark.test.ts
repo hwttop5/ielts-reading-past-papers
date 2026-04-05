@@ -302,7 +302,6 @@ describe('AI Assistant Performance Benchmark (100+ test cases)', () => {
         const result = await classifyRoute(
           {
             questionId: 'test-001',
-            mode: 'hint',
             userQuery: query,
             locale
           },
@@ -358,7 +357,6 @@ describe('AI Assistant Performance Benchmark (100+ test cases)', () => {
       const startTime = Date.now()
       const response = await service.query({
         questionId: mockQuestion.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: '你好'
       })
@@ -380,7 +378,6 @@ describe('AI Assistant Performance Benchmark (100+ test cases)', () => {
       const startTime = Date.now()
       const response = await service.query({
         questionId: mockQuestion.id,
-        mode: 'hint',
         locale: 'zh',
         userQuery: '第 1 题怎么做'
       })

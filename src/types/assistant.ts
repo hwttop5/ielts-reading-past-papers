@@ -1,4 +1,3 @@
-export type AssistantMode = 'hint' | 'explain' | 'review' | 'similar'
 export type AssistantLocale = 'zh' | 'en'
 export type AssistantAnswerSectionType = 'direct_answer' | 'reasoning' | 'evidence' | 'next_step'
 export type AssistantConfidence = 'high' | 'medium' | 'low'
@@ -82,7 +81,6 @@ export interface WebCitation {
 
 export interface AssistantQueryRequest {
   questionId: string
-  mode: AssistantMode
   locale?: AssistantLocale
   userQuery?: string
   history?: AssistantHistoryItem[]
@@ -115,7 +113,6 @@ export interface AssistantQueryResponse {
   responseKind?: AssistantResponseKind
   // Enhanced protocol fields
   toolCards?: AssistantToolCard[]
-  nextActions?: AssistantNextAction[]
   // Search metadata
   answerSource?: AnswerSource
   searchUsed?: boolean
@@ -158,10 +155,3 @@ export interface AssistantToolCard {
   sourceExcerpt?: string
 }
 
-// New: Next action suggestion for follow-up interactions
-export interface AssistantNextAction {
-  label: string
-  action: AssistantAction
-  icon?: string
-  context?: Partial<SelectedContext | PracticeContext>
-}

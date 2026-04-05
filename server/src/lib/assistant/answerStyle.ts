@@ -22,7 +22,9 @@ const VOCAB_PATTERNS_ZH = [
   /哪些词可以替换/,
   /相当于/,
   /有什么词能替换/,
-  /可以换成什么词/
+  /可以换成什么词/,
+  /precaution|vocabulary|word|meaning/i,  // Explicit word meaning queries
+  /\bmeans\b|\bmean\b/i
 ]
 
 const VOCAB_PATTERNS_EN = [
@@ -30,7 +32,9 @@ const VOCAB_PATTERNS_EN = [
   /\bparaphrase\b/i,
   /\bmeans?\b.*\b(in context)?\b/i,
   /\bwhat\s+word\s+(can\s+I\s+use|can\s+replace)\b/i,
-  /\bequivalent\s+to\b/i
+  /\bequivalent\s+to\b/i,
+  /\bwhat\s+does\s+\w+\s+mean\b/i,  // Explicit "what does X mean" queries
+  /\bmeaning\s+of\b/i
 ]
 
 const PARAGRAPH_FOCUS_ZH = [

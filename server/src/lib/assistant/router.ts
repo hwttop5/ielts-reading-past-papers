@@ -24,11 +24,12 @@ function hasExplicitPageSignal(request: AssistantQueryRequest, locale: 'zh' | 'e
   if (/(?:question|q)\s*\d+/i.test(query)) return true
   // Paragraph references with specific labels: "Paragraph A", "段落 A" (not just "paragraph matching")
   if (/paragraph\s*[A-H]|段落\s*[A-H]/i.test(query)) return true
-  // Current passage/question references in Chinese
-  if (locale === 'zh' && /(这 | 本 | 错 | 解 | 证 | 定 | 当 | 提).*(文章 | 篇 | 道 | 组 | 题 | 析 | 据 | 位 | 干 | 前)/.test(query)) return true
+  // Current passage/question references in Chinese - explicit deictic expressions
+  // Match: "这篇文章", "这道题", "这组题", "本段落", "错题解析", etc.
+  if (locale === 'zh' && /^(这 | 本 | 错 | 解 | 证 | 定 | 当 | 提).*(文章 | 篇 | 道 | 组 | 题 | 析 | 据 | 位 | 干 | 前)/.test(query)) return true
   // Current passage/question references in English - "this question", "the passage", etc.
   // But NOT generic question type discussions like "paragraph matching questions"
-  if (locale === 'en' && /(this|the|my)\s*(passage|article|text|question|mistake|evidence)/i.test(query)) return true
+  if (locale === 'en' && /\b(this|the|my)\s*(passage|article|text|question|mistake|evidence)\b/i.test(query)) return true
   // Submitted status
   if (request.practiceContext?.submitted || request.attemptContext?.submitted) return true
   // Text selection
@@ -43,31 +44,36 @@ function preRouteWithRules(request: AssistantQueryRequest, locale: 'zh' | 'en'):
 
   const q = query.trim()
 
-  // === page_grounded detection (check EARLY for explicit signals) ===
-  // Check page signals early for mixed queries like "Hi, how to do Q1"
-  if (hasExplicitPageSignal(request, locale)) return 'page_grounded'
-
-  // === unrelated_chat detection ===
+  // === unrelated_chat detection (check FIRST - highest priority) ===
   // Chinese greetings and chit-chat -> unrelated_chat
   if (locale === 'zh') {
-    // Greetings - match common greeting patterns including combined forms like "你好，你是谁？"
-    const greetingPattern = /^(你好 | 你好啊 | 嗨 | 在吗 | 谢谢 | 再见 | 拜拜 | 你是谁 | 您好)[, ，. .!? ？！\s]*$/i
-    if (greetingPattern.test(q)) return 'unrelated_chat'
-    // Also match exact greetings for backward compatibility
-    if (q === '你好' || q === '你好啊' || q === '嗨' || q === '在吗' || q === '谢谢' || q === '再见' || q === '拜拜' || q === '你是谁' || q === '您好') {
-      return 'unrelated_chat'
+    // Pure greetings - exact match
+    const pureGreetings = new Set(['你好', '你好啊', '嗨', '在吗', '谢谢', '再见', '拜拜', '你是谁', '您好'])
+    if (pureGreetings.has(q)) return 'unrelated_chat'
+
+    // Greetings with ONLY trailing punctuation (Chinese or English)
+    // Check if it starts with a greeting and the rest is only punctuation
+    for (const greeting of pureGreetings) {
+      if (q.startsWith(greeting)) {
+        const rest = q.slice(greeting.length)
+        // Check if rest is only punctuation (no alphanumeric or CJK characters)
+        if (/^[\uFF0C\uFF0E\uFF01\uFF1F,.!? \t\n]*$/.test(rest) && rest.trim().length > 0) {
+          return 'unrelated_chat'
+        }
+      }
     }
+
     // Weather, time, date - but NOT exam time management
     if (q.includes('天气')) return 'unrelated_chat'
-    // Time queries that are NOT about exam management
-    if (q.includes('现在几点了') || q.includes('时间') && !q.includes('考试') && !q.includes('分配') && !q.includes('管理')) return 'unrelated_chat'
+    // Time queries that are NOT about exam management (must be explicit real-world time)
+    if (q.includes('现在几点了') || q.includes('几点钟')) return 'unrelated_chat'
     if (q.includes('日期') || q.includes('星期')) return 'unrelated_chat'
     // Today/tomorrow/yesterday weather questions
     if (q.includes('今天') || q.includes('明天') || q.includes('昨天')) {
       if (q.includes('下雨') || q.includes('冷') || q.includes('热') || q.includes('晴') || q.includes('阴')) return 'unrelated_chat'
     }
   } else {
-    // English greetings - match simple greetings without substantive follow-up
+    // English greetings - exact match or with trailing punctuation
     if (/^(hi|hello|hey|thanks|thank you|bye|goodbye|who are you)[,.!?]?\s*$/i.test(q)) return 'unrelated_chat'
     if (/^hey\s+(there|you|!)?\s*$/i.test(q)) return 'unrelated_chat'
     // Weather, time, date (not IELTS related)
@@ -76,6 +82,18 @@ function preRouteWithRules(request: AssistantQueryRequest, locale: 'zh' | 'en'):
 
   // === ielts_general detection ===
   if (locale === 'zh') {
+    // Handle mixed queries: "你好，雅思阅读怎么提高" - strip greeting and classify the rest
+    const withoutGreeting = q.replace(/^(你好 | 你好啊 | 嗨 | 嗨喽 | 您好)[, ，. .!? ？！\s]*/i, '').trim()
+    if (withoutGreeting !== q) {
+      // Had Chinese greeting prefix, classify the rest
+      if (/(ielts|雅思 | 阅读 | 听力 | 写作 | 口语 | 技巧 | 方法 | 策略 | 提高 | 怎么 | 如何 | 备考)/i.test(withoutGreeting)) {
+        // But make sure it's not a page-grounded question
+        if (!hasExplicitPageSignal({ ...request, userQuery: withoutGreeting }, locale)) {
+          return 'ielts_general'
+        }
+      }
+    }
+
     // IELTS/雅思 + strategy/tips/method keywords
     if (q.includes('IELTS') || q.includes('雅思')) {
       if (q.includes('怎么') || q.includes('如何') || q.includes('技巧') || q.includes('方法') || q.includes('策略') || q.includes('提高')) {
@@ -113,8 +131,20 @@ function preRouteWithRules(request: AssistantQueryRequest, locale: 'zh' | 'en'):
         return 'ielts_general'
       }
     }
-    if (q.includes('时间') && (q.includes('分配') || q.includes('管理'))) {
+    // Time management for IELTS - expanded to catch "时间不够怎么办", "做题超时"
+    // Match explicit time management keywords with or without '时间'
+    if (q.includes('时间') && (q.includes('分配') || q.includes('管理') || q.includes('不够') || q.includes('来不及'))) {
       return 'ielts_general'
+    }
+    // Match '超时', '来不及', '不够' with '做题' or '考试' context
+    if ((q.includes('做题') || q.includes('考试') || q.includes('阅读')) && (q.includes('超时') || q.includes('来不及') || q.includes('不够'))) {
+      return 'ielts_general'
+    }
+    // General time/speed questions about IELTS reading (not specific page-grounded)
+    if (q.includes('速度') || q.includes('快') || q.includes('慢')) {
+      if (q.includes('阅读') || q.includes('雅思') || q.includes('怎么') || q.includes('如何') || q.includes('提高')) {
+        return 'ielts_general'
+      }
     }
   } else {
     // Handle mixed queries: "Hi, how to improve reading" - strip greeting and classify the rest
@@ -144,9 +174,17 @@ function preRouteWithRules(request: AssistantQueryRequest, locale: 'zh' | 'en'):
       if (/fill in|blank|multiple choice/i.test(q)) {
         if (/tips|strategy|how/i.test(q)) return 'ielts_general'
       }
-      // Generic question type discussions (paragraph matching, etc.)
-      if (/paragraph matching|question approach|how to (approach|understand|do)/i.test(q)) {
+      // Generic question type discussions (paragraph matching, etc.) - but NOT specific question numbers
+      if (/paragraph matching|question approach/i.test(q)) {
         if (/(reading|IELTS|question|type)/i.test(q)) return 'ielts_general'
+      }
+      // "how to approach/do/understand" without specific question numbers
+      if (/how to (approach|understand|do)/i.test(q)) {
+        // Only classify as ielts_general if it's NOT about a specific question number
+        // Exclude: "how to approach question 8", "how to do question 1", etc.
+        if (!/(question|q)\s*\d+|第\s*\d+\s*题/i.test(q)) {
+          if (/(reading|IELTS|question type|general strategy)/i.test(q)) return 'ielts_general'
+        }
       }
     }
     // Vocabulary and exam prep

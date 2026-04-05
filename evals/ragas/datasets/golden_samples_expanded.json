@@ -27,8 +27,7 @@
       "Question 1 提示",
       "如何开始做第 1 题？"
     ],
-    "expectedStyle": "full_tutoring",
-    "expectedQuestionType": "general"
+    "expectedStyle": "full_tutoring"
   },
   {
     "id": "explain_single_question",
@@ -61,8 +60,7 @@
       "Question 3 的解析",
       "为什么第 3 题选 ix？"
     ],
-    "expectedStyle": "full_tutoring",
-    "expectedQuestionType": "general"
+    "expectedStyle": "full_tutoring"
   },
   {
     "id": "review_mistake_analysis",
@@ -70,10 +68,6 @@
     "mode": "review",
     "locale": "zh",
     "userQuery": "帮我分析第 5 题为什么错了",
-    "attemptContext": {
-      "wrongQuestions": ["5"],
-      "submitted": true
-    },
     "focusQuestionNumbers": [
       "5"
     ],
@@ -97,8 +91,7 @@
       "Question 5 mistake analysis",
       "第 5 题正确答案是什么？"
     ],
-    "expectedStyle": "full_tutoring",
-    "expectedQuestionType": "general"
+    "expectedStyle": "full_tutoring"
   },
   {
     "id": "vocab_paraphrase",
@@ -126,8 +119,7 @@
       "文中 servants 可以换成什么词？",
       "servants 相当于什么词？"
     ],
-    "expectedStyle": "vocab_paraphrase",
-    "expectedQuestionType": "general"
+    "expectedStyle": "vocab_paraphrase"
   },
   {
     "id": "paragraph_focus_content",
@@ -156,8 +148,7 @@
       "第 D 段的内容",
       "段落 D 的原文是什么？"
     ],
-    "expectedStyle": "paragraph_focus",
-    "expectedQuestionType": "general"
+    "expectedStyle": "paragraph_focus"
   },
   {
     "id": "social_greeting_zh",
@@ -176,8 +167,7 @@
       "你好，能帮我吗？"
     ],
     "expectedStyle": "full_tutoring",
-    "expectedResponseKind": "social",
-    "expectedQuestionType": "general"
+    "expectedResponseKind": "social"
   },
   {
     "id": "social_greeting_en",
@@ -196,8 +186,7 @@
       "Hi, I need assistance"
     ],
     "expectedStyle": "full_tutoring",
-    "expectedResponseKind": "social",
-    "expectedQuestionType": "general"
+    "expectedResponseKind": "social"
   },
   {
     "id": "upload_question",
@@ -221,8 +210,7 @@
       "这个附件是什么？"
     ],
     "expectedStyle": "full_tutoring",
-    "expectedResponseKind": "tool_result",
-    "expectedQuestionType": "general"
+    "expectedResponseKind": "tool_result"
   },
   {
     "id": "weather_question",
@@ -240,8 +228,7 @@
       "今天几度？"
     ],
     "expectedStyle": "full_tutoring",
-    "expectedResponseKind": "social",
-    "expectedQuestionType": "general"
+    "expectedResponseKind": "social"
   },
   {
     "id": "explain_with_focus",
@@ -273,8 +260,7 @@
       "Question 7 解析",
       "解释第 7 题的选择理由"
     ],
-    "expectedStyle": "full_tutoring",
-    "expectedQuestionType": "general"
+    "expectedStyle": "full_tutoring"
   },
   {
     "id": "heading_matching_single",
@@ -628,7 +614,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -655,7 +641,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -703,7 +689,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -723,7 +709,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -750,7 +736,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -798,7 +784,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -818,7 +804,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -845,7 +831,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -893,7 +879,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -913,7 +899,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -940,7 +926,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -988,7 +974,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1008,7 +994,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1035,7 +1021,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1083,7 +1069,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1103,7 +1089,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1130,7 +1116,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1178,7 +1164,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1198,7 +1184,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1225,7 +1211,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1273,7 +1259,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1293,7 +1279,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1320,7 +1306,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1368,7 +1354,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1388,7 +1374,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1415,7 +1401,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1463,7 +1449,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1483,7 +1469,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1510,7 +1496,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1558,7 +1544,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1578,7 +1564,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1605,7 +1591,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1653,7 +1639,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1673,7 +1659,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1700,7 +1686,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1748,7 +1734,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1768,7 +1754,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1795,7 +1781,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1843,7 +1829,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1863,7 +1849,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1890,7 +1876,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1938,7 +1924,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -1958,7 +1944,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -1985,7 +1971,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2033,7 +2019,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2053,7 +2039,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2080,7 +2066,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2128,7 +2114,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2148,7 +2134,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2175,7 +2161,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2223,7 +2209,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2243,7 +2229,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2270,7 +2256,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2318,7 +2304,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2338,7 +2324,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2365,7 +2351,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2413,7 +2399,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2433,7 +2419,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2460,7 +2446,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2508,7 +2494,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2528,7 +2514,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2555,7 +2541,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2603,7 +2589,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2623,7 +2609,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2650,7 +2636,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2698,7 +2684,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2718,7 +2704,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2745,7 +2731,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2793,7 +2779,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2813,7 +2799,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2840,7 +2826,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2888,7 +2874,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -2908,7 +2894,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2935,7 +2921,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -2983,7 +2969,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -3003,7 +2989,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3030,7 +3016,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3078,7 +3064,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -3098,7 +3084,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3125,7 +3111,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3173,7 +3159,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -3193,7 +3179,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3220,7 +3206,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3268,7 +3254,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -3288,7 +3274,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3315,7 +3301,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3363,7 +3349,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,
@@ -3383,7 +3369,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3410,7 +3396,7 @@
     "focusQuestionNumbers": [
       "1"
     ],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "根据原文定位的答案",
     "expected_evidence": {
@@ -3458,7 +3444,7 @@
     "locale": "zh",
     "userQuery": "你好",
     "focusQuestionNumbers": [],
-    "expectedQuestionType": "general",
+    "expectedQuestionType": null,
     "headingListRequired": false,
     "expected_answer": "你好！我是你的 AI 助教...",
     "expected_evidence": null,

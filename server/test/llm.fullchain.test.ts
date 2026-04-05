@@ -137,7 +137,6 @@ describe('完整请求链路性能分析', () => {
       const start = Date.now()
       const response = await service.query({
         questionId: 'test-001',
-        mode: 'hint',
         locale: 'zh',
         userQuery: '第 1 题怎么做',
         surface: 'chat_widget'
@@ -178,7 +177,6 @@ describe('完整请求链路性能分析', () => {
       const start = Date.now()
       const response = await service.query({
         questionId: 'test-001',
-        mode: 'hint',
         locale: 'zh',
         userQuery: '你好',
         surface: 'chat_widget'
@@ -219,7 +217,6 @@ describe('完整请求链路性能分析', () => {
       const start = Date.now()
       const response = await service.query({
         questionId: 'test-001',
-        mode: 'hint',
         locale: 'zh',
         userQuery: 'IELTS 阅读怎么提高速度',
         surface: 'chat_widget'

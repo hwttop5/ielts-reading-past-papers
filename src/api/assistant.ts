@@ -61,8 +61,22 @@ function normalizeAnswerSections(value: unknown): AssistantAnswerSection[] {
     .filter((item): item is AssistantAnswerSection => Boolean(item))
 }
 
+/** Match server extractJsonObject: unwrap ```json ... ``` so embedded JSON parses. */
+function stripMarkdownJsonFence(raw: string): string {
+  const codeBlockMatch = raw.match(/```(?:json)?\s*([\s\S]*?)\s*```/i)
+  if (codeBlockMatch) {
+    return codeBlockMatch[1].trim()
+  }
+  const start = raw.indexOf('{')
+  const end = raw.lastIndexOf('}')
+  if (start !== -1 && end > start) {
+    return raw.slice(start, end + 1).trim()
+  }
+  return raw.trim()
+}
+
 function extractEmbeddedAnswerPayload(rawAnswer: string): Pick<AssistantQueryResponse, 'answer' | 'followUps' | 'answerSections' | 'confidence' | 'missingContext'> | null {
-  const trimmed = rawAnswer.trim()
+  const trimmed = stripMarkdownJsonFence(rawAnswer)
   if (!trimmed.startsWith('{') || !trimmed.includes('"answer"')) {
     return null
   }
@@ -110,7 +124,8 @@ function extractEmbeddedAnswerPayload(rawAnswer: string): Pick<AssistantQueryRes
   return null
 }
 
-function normalizeAssistantResponse(payload: AssistantQueryResponse): AssistantQueryResponse {
+/** Unwrap embedded JSON in `answer` (same as non-stream responses). Use on stream `final` payloads. */
+export function normalizeAssistantResponse(payload: AssistantQueryResponse): AssistantQueryResponse {
   const embedded = extractEmbeddedAnswerPayload(payload.answer)
   if (!embedded) {
     return payload

@@ -30,6 +30,7 @@ dist/
 
 # Editor / OS
 .vscode/
+.cursor/
 .idea/
 .DS_Store
 Thumbs.db
@@ -51,3 +52,14 @@ Thumbs.db
 *.swo
 tmp/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+evals/ragas/.venv/
+evals/ragas/venv/
+.pytest_cache/
+.coverage
+*.egg-info/

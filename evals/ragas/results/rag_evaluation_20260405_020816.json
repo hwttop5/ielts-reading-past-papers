@@ -1,0 +1,131 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-05T02:08:16.081394",
+    "dataset_path": "C:\\Users\\ttop5\\Documents\\trae_projects\\ielts-reading-past-papers\\evals\\ragas\\datasets\\golden_samples.json",
+    "report_version": "1.0"
+  },
+  "dataset_summary": {
+    "total_samples": 21,
+    "total_query_variants": 72,
+    "modes": {
+      "hint": 13,
+      "explain": 7,
+      "review": 1
+    },
+    "locales": {
+      "zh": 19,
+      "en": 2
+    },
+    "styles": {
+      "full_tutoring": 17,
+      "vocab_paraphrase": 2,
+      "paragraph_focus": 2
+    },
+    "response_kinds": {
+      "grounded": 17,
+      "social": 3,
+      "tool_result": 1
+    },
+    "question_types": {
+      "general": 10,
+      "heading_matching": 5,
+      "paragraph_matching": 1,
+      "true_false_not_given": 1,
+      "multiple_choice": 1,
+      "sentence_completion": 1,
+      "summary_completion": 1,
+      "vocabulary": 1
+    },
+    "heading_matching_count": 5
+  },
+  "rag_architecture": {
+    "vector_backend": {
+      "primary": "Qdrant",
+      "alternative": "ChromaDB (optional)",
+      "collections": [
+        "ielts_question_chunks_v1",
+        "ielts_question_summaries_v1"
+      ],
+      "embedding_model": "text-embedding-3-small (OpenAI)"
+    },
+    "llm_provider": {
+      "default": "coding-plan (阿里云)",
+      "model": "qwen3-coder-next",
+      "fallback": "OpenAI (gpt-4.1-mini)"
+    },
+    "retrieval_strategy": {
+      "deterministic": "基于题号和段落标签的精确检索",
+      "semantic": "向量相似度检索",
+      "budget_control": {
+        "hint": 4,
+        "explain": 6,
+        "review": 8
+      }
+    },
+    "answer_styles": {
+      "full_tutoring": "完整辅导模式",
+      "vocab_paraphrase": "词汇/同义替换简答",
+      "paragraph_focus": "段落内容聚焦"
+    }
+  },
+  "expected_metrics": {
+    "retrieval_dependency_rate": 81.0,
+    "paragraph_grounding_rate": 76.2,
+    "chunk_type_distribution": {
+      "passage_paragraph": 12,
+      "question_item": 5
+    },
+    "question_type_distribution": {
+      "general": 10,
+      "heading_matching": 5,
+      "paragraph_matching": 1,
+      "true_false_not_given": 1,
+      "multiple_choice": 1,
+      "sentence_completion": 1,
+      "summary_completion": 1,
+      "vocabulary": 1
+    },
+    "heading_matching_count": 5,
+    "question_hit_potential": "高 (80-90%)",
+    "context_precision_potential": "高 (0.75-0.85)",
+    "faithfulness_potential": "高 (0.85-0.95)",
+    "heading_list_hit_potential": "高 (>85%)"
+  },
+  "recommendations": [
+    {
+      "category": "检索质量",
+      "suggestions": [
+        "确保向量库已正确 ingest 所有题目和段落数据",
+        "对于 heading_matching 题型，确保 heading list 完整包含在 context 中",
+        "考虑增加 retrieval budget 对于多问题请求",
+        "验证 heading_list_hit_rate 指标，确保 heading list 检索成功率 > 85%"
+      ]
+    },
+    {
+      "category": "答案质量",
+      "suggestions": [
+        "对于 vocab_paraphrase 模式，确保提供足够的同义词候选",
+        "对于 review 模式，确保包含官方解析和错因分析",
+        "保持答案与检索证据的一致性，避免幻觉",
+        "监控 style_match_rate 指标，确保答案风格匹配率 > 90%"
+      ]
+    },
+    {
+      "category": "性能优化",
+      "suggestions": [
+        "启用语义搜索缓存以减少重复查询延迟",
+        "对于简单查询使用本地模板而非 LLM",
+        "考虑使用流式响应以提升用户体验"
+      ]
+    },
+    {
+      "category": "评估改进",
+      "suggestions": [
+        "扩展 Golden 数据集至 50+ 样本以覆盖更多边缘情况",
+        "定期运行评估并跟踪 heading_list_hit_rate 和 style_match_rate 指标",
+        "实现自动化回归测试流程",
+        "针对 T/F/NG、multiple_choice、sentence_completion 等题型增加专项测试"
+      ]
+    }
+  ]
+}

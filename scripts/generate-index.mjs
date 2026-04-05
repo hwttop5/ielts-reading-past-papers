@@ -16,7 +16,7 @@ const READING_EXPLANATIONS_SOURCE = path.join(referenceRoot, 'assets', 'generate
 const READING_EXPLANATIONS_DEST = path.join(PUBLIC_DIR, 'assets', 'generated', 'reading-explanations')
 const PDF_SOURCE = path.join(referenceRoot, 'ReadingPractice', 'PDF')
 const PDF_DEST = path.join(PUBLIC_DIR, 'ReadingPractice', 'PDF')
-const LEGACY_QUESTION_BANK_DIR = path.join(PUBLIC_DIR, 'questionBank')
+// Legacy `public/questionBank` (static HTML) is no longer used; unified reading + questionIndex.json only.
 
 const RUNTIME_FILE_SPECS = [
   {
@@ -268,7 +268,6 @@ async function main() {
     throw new Error(`Unexpected reading index size: total=${entries.length}, unified=${structuredCount}, pdfOnly=${pdfOnlyCount}`)
   }
 
-  await fs.rm(LEGACY_QUESTION_BANK_DIR, { recursive: true, force: true })
   await recreateDir(path.join(PUBLIC_DIR, 'assets', 'generated'))
   await copyDirectory(READING_EXAMS_SOURCE, READING_EXAMS_DEST)
   await copyDirectory(READING_EXPLANATIONS_SOURCE, READING_EXPLANATIONS_DEST)
