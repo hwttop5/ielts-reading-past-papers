@@ -52,6 +52,14 @@ Thumbs.db
 *.swo
 tmp/
 
+# Local AI assistant notes (do not commit)
+*_OPTIMIZATION_SUGGESTIONS.md
+
+# Generated / local artifacts
+output/
+test-results/
+evals/ragas/results/
+
 # Python
 __pycache__/
 *.py[cod]
