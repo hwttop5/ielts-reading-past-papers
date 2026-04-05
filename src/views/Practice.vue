@@ -44,17 +44,28 @@
     <div class="section">
       <div class="section-header">
         <h2 class="notion-section-title"><span class="material-icons">history</span> {{ t('practice.history') }}</h2>
-        <div class="section-actions">
-          <input type="file" ref="fileInput" accept=".json" style="display: none" @change="handleImport">
-          <button class="action-button" @click="triggerImport">
-            <span class="material-icons" style="font-size: 18px;">upload_file</span> {{ t('practice.import') }}
-          </button>
-          <button class="action-button" @click="exportData">
-            <span class="material-icons" style="font-size: 18px;">download</span> {{ t('practice.export') }}
-          </button>
-          <button class="action-button danger" @click="clear">
-            <span class="material-icons" style="font-size: 18px;">delete</span> {{ t('practice.clearRecords') }}
-          </button>
+        <div class="header-actions">
+          <div class="section-actions">
+            <input type="file" ref="fileInput" accept=".json" style="display: none" @change="handleImport">
+            <button class="action-button" @click="triggerImport">
+              <span class="material-icons" style="font-size: 18px;">upload_file</span> {{ t('practice.import') }}
+            </button>
+            <button class="action-button" @click="exportData">
+              <span class="material-icons" style="font-size: 18px;">download</span> {{ t('practice.export') }}
+            </button>
+            <button class="action-button danger" @click="clear">
+              <span class="material-icons" style="font-size: 18px;">delete</span> {{ t('practice.clearRecords') }}
+            </button>
+            <div class="page-size-selector">
+              <span class="page-size-label">{{ t('browse.itemsPerPage') }}:</span>
+              <select v-model="pageSize" class="filter-select small">
+                <option :value="10">10</option>
+                <option :value="20">20</option>
+                <option :value="50">50</option>
+                <option :value="100">100</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -67,14 +78,14 @@
       </div>
 
       <div v-else class="timeline">
-        <div v-for="item in store.records" :key="item.id" class="timeline-item">
+        <div v-for="item in paginatedRecords" :key="item.id" class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="record-header">
               <div class="record-title">{{ item.questionTitle }}</div>
               <div class="record-time">{{ format(item.time) }}</div>
             </div>
-            
+
             <div class="record-meta">
               <span class="meta-item">
                 <span class="material-icons meta-icon" style="font-size: 16px;">category</span>
@@ -96,12 +107,35 @@
           </div>
         </div>
       </div>
+
+      <div v-if="totalPages > 1" class="pagination-section">
+        <button class="pagination-button" :disabled="currentPage === 1" @click="currentPage -= 1">
+          <span class="material-icons pagination-icon">arrow_back</span> {{ t('browse.prev') }}
+        </button>
+
+        <div class="page-numbers">
+          <template v-for="page in displayPages" :key="page">
+            <button
+              v-if="page !== -1"
+              :class="['page-number', { active: page === currentPage }]"
+              @click="currentPage = page"
+            >
+              {{ page }}
+            </button>
+            <span v-else class="page-ellipsis">...</span>
+          </template>
+        </div>
+
+        <button class="pagination-button" :disabled="currentPage === totalPages" @click="currentPage += 1">
+          {{ t('browse.next') }} <span class="material-icons pagination-icon">arrow_forward</span>
+        </button>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, inject, ref } from 'vue'
+import { computed, onMounted, onUnmounted, inject, ref, watch } from 'vue'
 import { usePracticeStore } from '@/store/practiceStore'
 import { useAchievementStore } from '@/store/achievementStore'
 import { message } from 'ant-design-vue'
@@ -112,6 +146,67 @@ const store = usePracticeStore()
 const achievementStore = useAchievementStore()
 const t = inject('t', (key: string) => key)
 const fileInput = ref<HTMLInputElement | null>(null)
+
+// 分页状态
+const currentPage = ref(1)
+const pageSize = ref(10)
+
+// 当记录变化时重置到第一页
+watch(() => store.records.length, () => {
+  currentPage.value = 1
+})
+
+// 当每页显示数量变化时，检查并重置当前页码到有效范围
+watch(() => pageSize.value, () => {
+  const maxPage = Math.ceil(store.records.length / pageSize.value) || 1
+  if (currentPage.value > maxPage) {
+    currentPage.value = maxPage
+  }
+})
+
+// 计算总分页数量
+const totalPages = computed(() => {
+  return Math.ceil(store.records.length / pageSize.value) || 1
+})
+
+// 获取当前页的记录
+const paginatedRecords = computed(() => {
+  const start = (currentPage.value - 1) * pageSize.value
+  const end = start + pageSize.value
+  return store.records.slice(start, end)
+})
+
+// 计算要显示的页码（智能分页）
+const displayPages = computed(() => {
+  const pages: number[] = []
+  const total = totalPages.value
+  const current = currentPage.value
+
+  if (total <= 7) {
+    for (let page = 1; page <= total; page += 1) {
+      pages.push(page)
+    }
+    return pages
+  }
+
+  if (current <= 4) {
+    for (let page = 1; page <= 5; page += 1) {
+      pages.push(page)
+    }
+    pages.push(-1, total)
+    return pages
+  }
+
+  if (current >= total - 3) {
+    pages.push(1, -1)
+    for (let page = total - 4; page <= total; page += 1) {
+      pages.push(page)
+    }
+    return pages
+  }
+
+  return [1, -1, current - 1, current, current + 1, -1, total]
+})
 
 // 处理数据更新
 const handlePracticeUpdated = (event: CustomEvent) => {
@@ -286,6 +381,12 @@ const handleImport = async (event: Event) => {
   margin-bottom: 24px;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .notion-section-title {
   font-size: 18px;
   font-weight: 600;
@@ -298,6 +399,7 @@ const handleImport = async (event: Event) => {
 
 .section-actions {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 
@@ -327,7 +429,7 @@ const handleImport = async (event: Event) => {
 
 .action-button.danger:hover {
   border-color: #dc2626;
-  background: #fef2f2;
+  background: rgba(220, 38, 38, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -336,15 +438,27 @@ const handleImport = async (event: Event) => {
     align-items: flex-start;
     gap: 16px;
   }
-  
+
+  .header-actions {
+    width: 100%;
+  }
+
   .section-actions {
     width: 100%;
     gap: 12px;
+    flex-direction: column;
   }
-  
+
   .action-button {
-    flex: 1;
+    width: 100%;
     justify-content: center;
+  }
+
+  .page-size-selector {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
   }
 }
 
@@ -485,5 +599,132 @@ const handleImport = async (event: Event) => {
 
 .meta-item.accuracy.low {
   color: #dc2626;
+}
+
+.pagination-section {
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+  margin-top: 24px;
+}
+
+.pagination-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  border-radius: 12px;
+  min-width: 112px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pagination-button:hover:not(:disabled) {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-icon {
+  font-size: 18px;
+}
+
+.page-numbers {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-number {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.page-number:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.page-number.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: transparent;
+}
+
+.page-ellipsis {
+  color: var(--text-tertiary);
+  padding: 0 4px;
+}
+
+.page-size-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-size-label {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.filter-select {
+  padding: 8px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filter-select.small {
+  padding: 6px 12px;
+}
+
+.filter-select:hover {
+  border-color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .pagination-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .pagination-button {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .page-numbers {
+    justify-content: center;
+  }
 }
 </style>

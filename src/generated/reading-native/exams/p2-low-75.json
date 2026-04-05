@@ -1,0 +1,1452 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-low-75",
+  "meta": {
+    "title": "Lean Production Innovation",
+    "category": "P2",
+    "frequency": "low",
+    "pdfFilename": "166. P2 - Lean Production Innovation 精益生产.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/166. P2 - Lean Production Innovation 精益生产/",
+    "legacyFilename": "166. P2 - Lean Production Innovation 精益生产.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Lean Production Innovation 精益生产"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Lean Production Innovation – In Manufacturing Systems"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q14):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "A",
+                "id": "q1-dropzone",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " After the First World War, car makers Henry Ford and Arthur Sloan of General Motors moved world manufacturing from centuries of craft production into the age of mass production. Largely as a result of this, the United States soon dominated the world economy. After the Second World War, and approximately a hundred years after Japan opened up to the modern world, Eiji Toyoda and Taiichi Ohno pioneered the concept of lean production at the Toyota car company. And now, although superimposing the method on existing mass production systems causes pain and upheaval, manufacturers around the world are trying to embrace this innovative system."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q15):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "B",
+                "id": "q2-dropzone",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Perhaps the best way to describe lean production is to compare it with the two other major manufacturing systems: craft production and mass production. The craft producer uses highly skilled workers and simple but flexible tools to make exactly what the customer asks for – one item at a time. A present-day example of this method is the customised production of a few exotic sports cars. The concept of craft production remains very popular, but the problem with it is obvious. Goods produced by the craft method – as cars once exclusively were – cost too much for most of us to afford. So at the beginning of the twentieth century, mass production was developed as an alternative method. The mass producer uses narrowly skilled professionals to design products which are then made by unskilled or semi-skilled workers, using expensive, single-purpose machines. These churn out standardised products in very high volumes. Because the machinery costs so much, and is so intolerant of disruption, the mass producer keeps standard designs in production for as long as possible. The result is that the customer gets lower costs, but at the expense of variety, and by means of work methods which most employees find boring and dispiriting. By contrast, the lean production system combines the advantages of craft and mass production, while avoiding the high cost of the former and the rigidity of the latter. Towards this end, companies appoint teams of multi-skilled workers to all levels of the organisation, and use highly flexible and increasingly automated machines to produce goods in enormous volume and variety."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q16):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "C",
+                "id": "q3-dropzone",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Lean production is so called because, compared with mass production, it uses less of everything - half the human effort in the factory, half the manufacturing space, half the investment in tools, and half the engineering hours to develop the new product. It also results in far fewer defects."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q17):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "D",
+                "id": "q4-dropzone",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Perhaps the most striking contrast between mass and lean production systems lies in their production standards. Mass producers set a limited goal for themselves: 'good enough', which translates into an acceptable number of defects, a maximum acceptable number of inventories, and a narrow range of standardised products. Lean producers, on the other hand, are unwilling to compromise standards in any of these areas."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q18):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "E",
+                "id": "q5-dropzone",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Although cost reduction is the primary objective of the lean production system, it must meet three other intermediate objectives in order to achieve this: quantity control, quality assurance and respect for humanity. Firstly, the system must be able to adapt to daily and monthly fluctuations in demand. Secondly, each separate process must supply only good units to the subsequent process. Thirdly, in as far as the system uses human resources to attain its cost objectives, respect for human needs must be cultivated. It should be emphasised that none of these three objectives can be achieved separately."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q19):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "F",
+                "id": "q6-dropzone",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The continuous flow of lean manufacturing production relies on two practical mechanisms: just-in-time and autonomation. Just-in-time means, for example, that in the process of assembling the parts to build a car, components from the preceding process should arrive at the next part of the line at exactly the right time and in the correct quantities. If just-in-time is fully realised throughout the company, then superfluous inventories are completely eliminated from the factory, making stores or warehouses unnecessary. However, relying solely on a central planning approach to control schedules for all stages of the production process simultaneously is very difficult in the case of cars, which consist of thousands of parts. So the lean system looks at the production flow in reverse; in other words, employees go to the preceding process to withdraw the necessary quantity of units at the appropriate time. The preceding process must produce only sufficient quantities of units to replace those that have been withdrawn, and in turn withdraws the requisite number of components from the process that precedes it."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q20):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "G",
+                "id": "q7-dropzone",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Autonomation is the automatic checking for abnormalities in the production process. In order to realise just-in-time perfectly, only units which are in perfect condition must be allowed to flow to the next process, and this flow must be regular and uninterrupted. In other words, quality control must coexist with just-in-time procedures throughout the system. Autonomation involves building in a mechanism to prevent the multiplication of defects in machines or product lines. For example, in Toyota factories almost all the machines have been fitted with stopping devices, and the concept of autonomation has been extended to manual production lines. If something abnormal happens there, the worker pushes a button to stop the whole line, and lights, which are hung so high in the factory that they are visible to everyone, indicate the position of the problem."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–20"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 2 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from the list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i Global resistance to lean manufacturing",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii The historical context",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii Procedures for controlling quality",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv The pros and cons of different production systems",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v The impact on profits",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi Procedures for controlling supply",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii The origin of the term",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii A crucial difference in levels of quality",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix Working conditions",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "x",
+                      "label": "x Interdependent strategies for controlling expenditure",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "x"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 21–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the sentences below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN THREE WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "for": "q8"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "21"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " A small number of unusual cars are still produced by the "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q8",
+                        "name": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " method."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "for": "q9"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "22"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Lean production requires staff who are "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q9",
+                        "name": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "for": "q10"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Lean production employs fewer people, and uses less "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q10",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", equipment and time."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "for": "q11"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Storage facilities are not needed if a procedure known as "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q11",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is implemented in the lean production method."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "for": "q12"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Autonomation is a procedure for spotting any "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q12",
+                        "name": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in the products on a production line."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "sentence-completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {
+                    "for": "q13"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " At Toyota factories, "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q13",
+                        "name": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " are suspended above manual production lines in order to show where production has to be halted."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-dropzone"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q2-dropzone"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q3-dropzone"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q4-dropzone"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q5-dropzone"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q6-dropzone"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q7-dropzone"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i Global resistance to lean manufacturing"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii The historical context"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii Procedures for controlling quality"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv The pros and cons of different production systems"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v The impact on profits"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi Procedures for controlling supply"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii The origin of the term"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii A crucial difference in levels of quality"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix Working conditions"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "x",
+      "label": "x Interdependent strategies for controlling expenditure"
+    }
+  ],
+  "answerKey": {
+    "q1": "ii",
+    "q2": "iv",
+    "q3": "vii",
+    "q4": "viii",
+    "q5": "x",
+    "q6": "vi",
+    "q7": "iii",
+    "q8": "craft production",
+    "q9": "multi-skilled",
+    "q10": "manufacturing space",
+    "q11": "just-in-time",
+    "q12": [
+      "defects",
+      "abnormalities"
+    ],
+    "q13": "lights"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-dropzone",
+    "q2": "q2-dropzone",
+    "q3": "q3-dropzone",
+    "q4": "q4-dropzone",
+    "q5": "q5-dropzone",
+    "q6": "q6-dropzone",
+    "q7": "q7-dropzone",
+    "q8": "q8-9-10-11-12-13-anchor",
+    "q9": "q9",
+    "q10": "q10",
+    "q11": "q11",
+    "q12": "q12",
+    "q13": "q13"
+  },
+  "fields": {
+    "choiceGroups": [],
+    "textQuestions": [
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ]
+  },
+  "totalQuestions": 13
+}

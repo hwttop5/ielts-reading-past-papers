@@ -1,0 +1,2879 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-204",
+  "meta": {
+    "title": "When people are ‘deaf’ to music 【】",
+    "category": "P3",
+    "frequency": "high",
+    "originalTitle": "When people are ‘deaf’ to music 失乐症【高】"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "When people are ‘deaf’ to music"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Music has long been considered a uniquely human concept. In fact, most psychologists agree that music is a universal human instinct. Like any ability, however, there is great variation in people’s musical competence. For every brilliant pianist in the world, there are several people we refer to as ‘tone deaf’. It is not simply that people with tone deafness (or ‘amusia’) are unable to sing in tune, they are also unable to discriminate between tones or recognize familiar melodies. Such a ‘disorder’ can occur after some sort of brain damage, but recently research has been undertaken in an attempt to discover the cause of congenital amusia (when people are born with the condition), which is not associated with any brain damage, hearing problems, or lack of exposure to music."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "According to the research of Dr. Isabelle Peretz of the University of Montreal, amusia is more complicated than the inability to distinguish pitches. An amusic (a person who has the condition of amusia) can distinguish between two pitches that are far apart, but cannot tell the difference between intervals smaller than a half step on the Western diatonic scale, while most people can easily distinguish differences smaller than that. When listening to melodies which have had a single note altered so that it is out of key with the rest of the melody, they do not notice a problem. As would be expected, amusics perform significantly worse at singing and tapping a rhythm along with a melody than do non-amusics."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The most fascinating aspect of amusia is how specific to music it is. Because of music’s close ties to language, it might be expected that a musical impairment may be caused by a language impairment. Studies suggest, however, that language and music ability are independent of one another. People with brain damage in areas critical to language are often still able to sing, despite being unable to communicate through speech. Moreover, while amusics show deficiencies in their recognition of pitch differences in melodies, they show no such deficiencies in tonal languages. Amusics who speak tonal languages, such as Chinese, do not report having any difficulty discriminating between words that differ only in their intonation. The linguistic cues inherent in speech make discrimination of meaning much easier for amusics. Amusics are also successful most of the time at detecting the mood of a melody, can identify a speaker based on his or her voice and can discriminate and identify environmental sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Recent work has been focused on locating the part of the brain that is responsible for amusia. The temporal lobes of the brain, the location of the primary auditory cortex, have been considered. It has long been believed that the temporal lobes, especially the right temporal lobe, are most active when engaged in musical activity, so any musical disability should logically stem from here as well. Because it has been shown that there is no hearing deficit in amusia, researchers moved on to the temporal neocortex, which is where more sophisticated processing of musical cues was thought to take place. New studies, however, have suggested that the deficits in amusics are located outside the auditory cortex. Brain scans of amusics do not show any reaction at all to differences smaller than a half step. When changes in tones are large, their brains overreact, showing twice as much activity on the right side of the brain as a normal brain hearing the same thing. These differences do not occur in the auditory cortex, indicating again that the deficits of amusia lie not in hearing impairment, but in higher processing of melodies."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "So what does this all mean? Looking only at the research of Peretz in the field of neuropsychology of music, it would appear that amusia is some sort of disorder. As a student of neurobiology, however, I am skeptical. Certainly the studies by Peretz that have found significant differences between the brains of so-called amusics and normal brains are legitimate. The more important question now becomes one of normality. Every trait from skin color to intelligence to mood exists on a continuum—there is a great deal of variation from one extreme to the other. Just because we recognize that basic musical ability is something that the vast majority of people have, this doesn’t mean that the lack of it is abnormal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "What makes an amusic worse off than a musical prodigy? Musical ability is culturally valued, and may have been a factor in survival at one point in human history, but it does not seem likely that it is being selected for on an evolutionary scale any longer. Darwin believed that music was adaptive as a way of finding a mate, but who needs to be able to sing to find a partner in an age when it is possible to express your emotions through a song on your iPod?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "While the idea of amusia is interesting, it seems to be just one end of the continuum of innate musical ability. Comparing this ‘disorder’ to learning disorders like a specific language impairment seems to be going too far. Before amusia can be declared a disability, further research must be done to determine whether lack of musical ability is actually detrimental in any way. If no disadvantages can be found of having amusia, then it is no more a disability than having poor fashion sense or bad handwriting."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C or D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q1-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What does the writer tell us about people with tone deafness (amusia) in the first paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. They usually have hearing problems"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. Some can play a musical instrument very well"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. Some may be able to sing well-known melodies"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. They have several inabilities in regard to music"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q2-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the writer doing in the second paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. outlining some of the factors that cause amusia"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. summarising some findings about people with amusia"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. suggesting that people with amusia are disadvantaged"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. comparing the singing ability of amusics with their sense"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q3-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What does the writer say about the relationship between language ability and musical ability?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. People who are unable to speak can sometimes sing"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. People with amusia usually have language problems too"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. Speakers of tonal languages like Chinese rarely have amusia"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. People with amusia have difficulty recognizing people by their voices"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q4-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the third paragraph, the writer notes that most amusics are able to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. learn how to sing in tune"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. identify a song by its tune"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. distinguish a sad tone from a happy tune"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. recognise when a singer is not singing in tune"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-bottom:16px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q5-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the writer doing in the fourth paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "a",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "a"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. claiming that amusics have problems in the auditory cortex"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "b",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "b"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. outlining progress in understanding the brains of amusics"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "c",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "c"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. proving that amusia is located in the temporal lobes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "d",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "d"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. explaining why studies of hearing are difficult"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–36"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "In boxes 32–36 on your answer sheet, write"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style:none; padding-left:0; font-weight:bold; font-size:0.9em;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "YES "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:45px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if the statement agrees with the views of the writer"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:52px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if the statement contradicts the views of the writer"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:8px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if it is impossible to say what the writer thinks about this"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q6-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Peretz’s research suggesting that amusia is a disorder is convincing."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q7-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " People with musical ability are happier than those without this ability."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q8-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is inappropriate to consider amusia as a real disorder."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q9-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " People with amusia often have bad handwriting."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "yes",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "yes"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "no",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "no"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " No"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NG"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "short_answer",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 36–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete each sentence with the correct ending, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag the correct ending block to the box below each sentence start."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "cardpool pool-vertical",
+                "id": "pool-endings"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "A",
+                  "label": "A an inability to hear when spoken language rises and falls.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-a",
+                    "data-value": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "B",
+                  "label": "B considered to be desirable.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-b",
+                    "data-value": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "C",
+                  "label": "C an inability to follow the beat of music.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-c",
+                    "data-value": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "D",
+                  "label": "D not a problem.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-d",
+                    "data-value": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "E",
+                  "label": "E not yet well understood.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-e",
+                    "data-value": "E"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "F",
+                  "label": "F a result of injury to the mother.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-f",
+                    "data-value": "F"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "G",
+                  "label": "G more marked than with other people.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-g",
+                    "data-value": "G"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "H",
+                  "label": "H associated with intelligence.",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-h",
+                    "data-value": "H"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "hr",
+              "attrs": {
+                "style": "border:0; border-top:1px dashed var(--line); margin:20px 0;"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q10-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The reason why some people are born with amusia is"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q10",
+                    "data-question": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q11-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " One of the difficulties amusics experience is"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q11",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q11",
+                    "data-question": "q11"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q12-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " For amusics, discrimination of meaning in speech is"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q12",
+                    "data-question": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q13-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Certain reactions in the brain of an amusic are"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q13",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q13",
+                    "data-question": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q14-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In most cultures, musical ability is"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q14",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q14",
+                    "data-question": "q14"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-anchor"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "pool-endings",
+      "value": "A",
+      "label": "A an inability to hear when spoken language rises and falls."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "B",
+      "label": "B considered to be desirable."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "C",
+      "label": "C an inability to follow the beat of music."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "D",
+      "label": "D not a problem."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "E",
+      "label": "E not yet well understood."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "F",
+      "label": "F a result of injury to the mother."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "G",
+      "label": "G more marked than with other people."
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "H",
+      "label": "H associated with intelligence."
+    }
+  ],
+  "answerKey": {
+    "q1": "d",
+    "q2": "b",
+    "q3": "a",
+    "q4": "c",
+    "q5": "b",
+    "q6": "no",
+    "q7": "not given",
+    "q8": "yes",
+    "q9": "not given",
+    "q10": "e",
+    "q11": "c",
+    "q12": "d",
+    "q13": "g",
+    "q14": "b"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-anchor",
+    "q9": "q9-anchor",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-anchor",
+    "q13": "q13-anchor",
+    "q14": "q14-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ]
+  },
+  "totalQuestions": 14
+}

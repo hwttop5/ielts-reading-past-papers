@@ -1,0 +1,2625 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-medium-176",
+  "meta": {
+    "title": "The Analysis of Fear",
+    "category": "P3",
+    "frequency": "medium",
+    "pdfFilename": "84. P3 - The Analysis of Fear 猴子恐惧实验【次】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/84. P3 - The Analysis of Fear 猴子恐惧实验【次】/",
+    "legacyFilename": "84. P3 - The Analysis of Fear 猴子恐惧实验【次】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "The Analysis of Fear 猴子恐惧实验"
+  },
+  "explanationKey": "p3-medium-176",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Analysis of Fear"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Researchers are investigating the processes in the brain that give rise to fear in animals. The results may lead to new ways to treat human anxiety."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Over the years, the majority of people acquire a range of skills for coping with frightening situations. They will attempt to placate a vexed teacher or boss and will shout and run when chased by a hostile stranger. But some individuals become overwhelmed in circumstances others would consider only minimally stressful: fear of ridicule might cause them to shake uncontrollably when called on to speak in a group, or terror of strangers might lead them to hide at home, unable to work or shop for groceries. Why do certain people fall prey to excessive fear?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Ned H. Kalin and Steven E. Shelton at the University of Wisconsin-Madison are addressing this problem by identifying specific brain processes that regulate fear and its associated behaviors. Despite the availability of non-invasive computer-imaging techniques, such information is still extremely difficult to obtain in humans. Hence, they have turned their attention to another primate, the rhesus monkey. These animals undergo many of the same physiological and psychological developmental stages that humans do, but in a more compressed time span. As we gain more insight into the nature and operation of neural circuits that modulate fear in monkeys, it should be possible to pinpoint the brain processes that cause inordinate anxiety in people, and to devise new therapies to counteract it. Effective interventions would be particularly valuable if they were applied at an early age, as growing evidence suggests overly fearful youngsters are at high risk of later emotional distress."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "When they began their studies two decades ago, Kalin and Shelton knew that they would first have to find cues that elicit fear and identify behaviors that reflect different types of anxiety. With such information in hand, they could then proceed to determine the age at which monkeys begin to match defensive behaviors selectively to specific cues. Finally, by determining the parts of the brain that reach maturity during the same time span, they could gain clues to the regions that underlie the regulation of fear and fear-related behavior."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The experiments were carried out at the University of Wisconsin-Madison. Kalin and Shelton discerned varied behaviors by exposing monkeys between six and 12 months old to three related situations. In the alone condition, an animal was separated from its mother and left by itself in a cage for ten minutes. In the no-eye-contact condition, a person stood motionless outside the cage and avoided looking at the solitary infant. In the stare condition, a person was again present and motionless but, assuming a neutral expression, peered directly at the animal. These positions are no more frightening than those that primates encounter frequently in the wild, or those that human infants meet whenever they are left at a day-care centre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In the alone condition, most monkeys became very active and emitted frequent gentle “coo” calls made with pursed lips. More than 40 years ago it was deduced that when an infant monkey is separated from its mother, it yearns to regain the closeness and security provided by nearness to the parent. These responses help to draw the mother's attention. In contrast, in the more frightening no-eye-contact situation, the monkeys reduced their activity greatly and sometimes froze for extended periods of time. When an infant spots a potential predator, its goal shifts from attracting the mother to becoming inconspicuous. Inhibiting motion and freezing are common attempts to achieve this in many species. If the infant perceives that it has been detected, its aim shifts to warding off an attack. So the stare condition evoked a third set of responses. The monkeys made several hostile gestures: barking (forcing air from the abdomen through the vocal cords to emit a harsh, growl-like sound) and staring back. Sometimes the animals mixed the threatening displays with submissive ones, such as fear grimaces, which look something like wary grins, or grinding of teeth."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Having identified three categories of defensive behaviours, Kalin and Shelton set about determining when infant monkeys first begin to apply them effectively. Several lines of work had led them to surmise that the ability to make such choices emerges when an infant is around two months old. To establish the critical period of development, they examined four groups of infant monkeys ranging in age up to 12 weeks old. The babies were separated from their mothers, left to acclimatise to a cage, and then exposed to the alone, no-eye-contact and stare conditions. All sessions were videotaped for analysis. They found that the infants in the youngest group (no more than two weeks old) engaged in defensive behaviours, but they lacked some motor control and seemed to act randomly, as if they had not noticed the human beings that were present. Babies in the two intermediate-age groups had good motor control, but their actions seemed unrelated to the test condition. Only animals in the oldest group (nine- to 12-week-old) conducted themselves differently in each situation, and their reactions were both appropriate and identical to those of mature monkeys. This finding meant motor control was not the prime determinant of selective responding and that nine to 12 weeks is the critical age for the appearance of a monkey's ability to adaptively modulate its defensive activity to meet changing demands."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–30"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the first paragraph, the writer points out that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "mcq-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q1",
+                              "questionId": "q1",
+                              "questionIds": [
+                                "q1"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q1",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A fear and stress are different feelings."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q1",
+                              "questionId": "q1",
+                              "questionIds": [
+                                "q1"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q1",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B most humans develop strategies for dealing with fear."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q1",
+                              "questionId": "q1",
+                              "questionIds": [
+                                "q1"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q1",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C business situations cause more fear than others."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q1",
+                              "questionId": "q1",
+                              "questionIds": [
+                                "q1"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q1",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D some people never experience fear."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " When discussing the use of rhesus monkeys as experimental subjects, the writer notes that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "mcq-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q2",
+                              "questionId": "q2",
+                              "questionIds": [
+                                "q2"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q2",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A they react more quickly to fear than humans."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q2",
+                              "questionId": "q2",
+                              "questionIds": [
+                                "q2"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q2",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B they are more influenced by fear than humans."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q2",
+                              "questionId": "q2",
+                              "questionIds": [
+                                "q2"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q2",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C their mental growth resembles that of humans."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q2",
+                              "questionId": "q2",
+                              "questionIds": [
+                                "q2"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q2",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D their brains work more slowly than those of humans."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which of the following did Kalin and Shelton outline as the second stage in their research project?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "mcq-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q3",
+                              "questionId": "q3",
+                              "questionIds": [
+                                "q3"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q3",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A the identification of expressions of anxiety in monkeys"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q3",
+                              "questionId": "q3",
+                              "questionIds": [
+                                "q3"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q3",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B the identification of situations that arouse stress in monkeys"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q3",
+                              "questionId": "q3",
+                              "questionIds": [
+                                "q3"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q3",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C an analysis of brain development in monkeys"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q3",
+                              "questionId": "q3",
+                              "questionIds": [
+                                "q3"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q3",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D the study of reactions to fear in monkeys of different ages"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the fourth paragraph, the writer notes that the three related situations"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "mcq-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q4",
+                              "questionId": "q4",
+                              "questionIds": [
+                                "q4"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q4",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A reflect common experiences for infant humans and monkeys."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q4",
+                              "questionId": "q4",
+                              "questionIds": [
+                                "q4"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q4",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B highlight the similarities between monkey and human infant care."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q4",
+                              "questionId": "q4",
+                              "questionIds": [
+                                "q4"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q4",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C were predicted to cause monkeys more distress than human infants."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q4",
+                              "questionId": "q4",
+                              "questionIds": [
+                                "q4"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q4",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D were graded in terms of their potential effect on young monkeys."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 单选题（Questions 27–30：Choose A–D）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 27,
+          "end": 30
+        },
+        "text": "答案：B（most humans develop strategies for dealing with fear. 多数人会发展出应对恐惧的策略）\n解析：定位 Paragraph 1 中 “Over the years, the majority of people acquire a range of skills for coping with frightening situations”，“acquire a range of skills” 对应 “develop strategies”，因此选 B。A（恐惧与压力是不同感受）、C（工作情境比其他情境更易引发恐惧）、D（有人从未经历恐惧）均未提及。\n答案：C（their mental growth resembles that of humans. 它们的心理发育与人类相似）\n解析：定位 Paragraph 2 中 “These animals undergo many of the same physiological and psychological developmental stages that humans do, but in a more compressed time span”，“same... psychological developmental stages” 对应 “mental growth resembles that of humans”，因此选 C。A（对恐惧反应比人类快）、B（比人类更易受恐惧影响）、D（大脑运作比人类慢）均未提及。\n答案：D（the study of reactions to fear in monkeys of different ages. 研究不同年龄猴子对恐惧的反应）\n解析：定位 Paragraph 3 中 “With such information in hand, they could then proceed to determine the age at which monkeys begin to match defensive behaviors selectively to specific cues”，研究框架为 “1 找线索与行为→2 确定不同年龄反应→3 定位脑区”，第二阶段对应 “不同年龄反应研究”，因此选 D。A（识别猴子的焦虑表现）、B（识别引发猴子压力的情境）是第一阶段，C（分析猴子大脑发育）是第三阶段。\n答案：A（reflect common experiences for infant humans and monkeys. 反映人类婴儿与猴子幼崽的常见经历）\n解析：定位 Paragraph 4 中 “These positions are no more frightening than those that primates encounter frequently in the wild, or those that human infants meet whenever they are left at a day-care centre”，“灵长类野外经历、人类婴儿托儿所经历” 对应 “common experiences for infant humans and monkeys”，因此选 A。B（凸显猴子与人类婴儿照料的相似性）、C（预计比人类婴儿更让猴子困扰）、D（按对幼猴的潜在影响分级）均未提及。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：In the first paragraph, the writer points out that（作者在第一段指出什么？）\n答案：B（most humans develop strategies for dealing with fear. 多数人会发展出应对恐惧的策略）\n解析：定位 Paragraph 1 中 “Over the years, the majority of people acquire a range of skills for coping with frightening situations”，“acquire a range of skills” 对应 “develop strategies”，因此选 B。A（恐惧与压力是不同感受）、C（工作情境比其他情境更易引发恐惧）、D（有人从未经历恐惧）均未提及。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：When discussing the use of rhesus monkeys as experimental subjects, the writer notes that（讨论恒河猴作为实验对象时，作者指出什么？）\n答案：C（their mental growth resembles that of humans. 它们的心理发育与人类相似）\n解析：定位 Paragraph 2 中 “These animals undergo many of the same physiological and psychological developmental stages that humans do, but in a more compressed time span”，“same... psychological developmental stages” 对应 “mental growth resembles that of humans”，因此选 C。A（对恐惧反应比人类快）、B（比人类更易受恐惧影响）、D（大脑运作比人类慢）均未提及。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Which of the following did Kalin and Shelton outline as the second stage in their research project?（卡林与谢尔顿将以下哪项列为研究项目的第二阶段？）\n答案：D（the study of reactions to fear in monkeys of different ages. 研究不同年龄猴子对恐惧的反应）\n解析：定位 Paragraph 3 中 “With such information in hand, they could then proceed to determine the age at which monkeys begin to match defensive behaviors selectively to specific cues”，研究框架为 “1 找线索与行为→2 确定不同年龄反应→3 定位脑区”，第二阶段对应 “不同年龄反应研究”，因此选 D。A（识别猴子的焦虑表现）、B（识别引发猴子压力的情境）是第一阶段，C（分析猴子大脑发育）是第三阶段。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：In the fourth paragraph, the writer notes that the three related situations（作者在第四段指出，三种相关情境如何？）\n答案：A（reflect common experiences for infant humans and monkeys. 反映人类婴儿与猴子幼崽的常见经历）\n解析：定位 Paragraph 4 中 “These positions are no more frightening than those that primates encounter frequently in the wild, or those that human infants meet whenever they are left at a day-care centre”，“灵长类野外经历、人类婴儿托儿所经历” 对应 “common experiences for infant humans and monkeys”，因此选 A。B（凸显猴子与人类婴儿照料的相似性）、C（预计比人类婴儿更让猴子困扰）、D（按对幼猴的潜在影响分级）均未提及。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "single_choice",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q5-6-7-8-9-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 31–35"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following responses of monkeys and the list of conditions below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each response with the correct condition, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "padding:10px; border:1px solid var(--line); border-radius:8px; margin-top:12px; background: var(--bg);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Conditions"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " the alone condition"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " the no-eye-contact condition"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " the stare condition\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " aggressive facial expressions"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " prolonged stillness"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a combination of contradictory signals"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " appeals for maternal protection"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " the production of soft sounds"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 情境 - 反应匹配（Questions 31–35：A=alone / B=no-eye-contact / C=stare）",
+        "mode": "group",
+        "questionRange": {
+          "start": 31,
+          "end": 35
+        },
+        "text": "答案：C（stare condition，对视情境）\n解析：定位 Paragraph 5 中 “the stare condition evoked a third set of responses. The monkeys made several hostile gestures: barking... and staring back”，“敌意姿态（回视）” 对应 “攻击性面部表情”，因此选 C。\n答案：B（no-eye-contact condition，无对视情境）\n解析：定位 Paragraph 5 中 “in the more frightening no-eye-contact situation, the monkeys reduced their activity greatly and sometimes froze for extended periods of time”，“长时间冻结（静止）” 对应 “prolonged stillness”，因此选 B。\n答案：C（stare condition，对视情境）\n解析：定位 Paragraph 5 中 “sometimes the animals mixed the threatening displays with submissive ones, such as fear grimaces... or grinding of teeth”，“威胁与顺从行为混合” 对应 “contradictory signals”，因此选 C。\n答案：A（alone condition，独处情境）\n解析：定位 Paragraph 5 中 “when an infant monkey is separated from its mother, it yearns to regain the closeness and security provided by nearness to the parent. These responses help to draw the mother’s attention”，“吸引母亲注意” 对应 “appeals for maternal protection”，因此选 A。\n答案：A（alone condition，独处情境）\n解析：定位 Paragraph 5 中 “in the alone condition, most monkeys became very active and emitted frequent gentle ‘coo’ calls”，“轻柔咕咕声” 对应 “soft sounds”，因此选 A。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（1）题目 31：aggressive facial expressions（攻击性面部表情）\n答案：C（stare condition，对视情境）\n解析：定位 Paragraph 5 中 “the stare condition evoked a third set of responses. The monkeys made several hostile gestures: barking... and staring back”，“敌意姿态（回视）” 对应 “攻击性面部表情”，因此选 C。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（2）题目 32：prolonged stillness（长时间静止）\n答案：B（no-eye-contact condition，无对视情境）\n解析：定位 Paragraph 5 中 “in the more frightening no-eye-contact situation, the monkeys reduced their activity greatly and sometimes froze for extended periods of time”，“长时间冻结（静止）” 对应 “prolonged stillness”，因此选 B。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（3）题目 33：a combination of contradictory signals（矛盾信号的混合）\n答案：C（stare condition，对视情境）\n解析：定位 Paragraph 5 中 “sometimes the animals mixed the threatening displays with submissive ones, such as fear grimaces... or grinding of teeth”，“威胁与顺从行为混合” 对应 “contradictory signals”，因此选 C。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（4）题目 34：appeals for maternal protection（寻求母亲保护的诉求）\n答案：A（alone condition，独处情境）\n解析：定位 Paragraph 5 中 “when an infant monkey is separated from its mother, it yearns to regain the closeness and security provided by nearness to the parent. These responses help to draw the mother’s attention”，“吸引母亲注意” 对应 “appeals for maternal protection”，因此选 A。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（5）题目 35：the production of soft sounds（发出轻柔声音）\n答案：A（alone condition，独处情境）\n解析：定位 Paragraph 5 中 “in the alone condition, most monkeys became very active and emitted frequent gentle ‘coo’ calls”，“轻柔咕咕声” 对应 “soft sounds”，因此选 A。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q10-11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 36–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN THREE WORDS AND/OR A NUMBER"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Once they had identified three types of defensive behaviour, Kalin and Shelton grouped the monkeys according to their "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q36_input",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in order to discover precisely when they were able to respond appropriately to different fear-related cues. They videotaped their results and found that monkeys as young as "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q37_input",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " reacted to the cues but in a haphazard fashion. The researchers noted that they seemed to be unaware of the "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q38_input",
+                        "name": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " who were around them. Despite demonstrating "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q39_input",
+                        "name": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", the monkeys in the middle groups failed to react in ways corresponding to the experimental situation. The oldest group, however, reacted in the same way as "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q14",
+                      "fieldName": "q14",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q40_input",
+                        "name": "q14"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", and the researchers concluded that monkeys are capable of selective responding between nine and 12 weeks old."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 摘要填空（Questions 36–40：NO MORE THAN THREE WORDS AND/OR A NUMBER）",
+        "mode": "group",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "答案：age（年龄）\n解析：定位 Paragraph 6 中 “determining when infant monkeys first begin to apply them effectively... they examined four groups of infant monkeys ranging in age up to 12 weeks old”，“按年龄分组”，因此答案为 “age”。\n答案：two weeks（两周）\n解析：定位 Paragraph 6 中 “infants in the youngest group (no more than two weeks old) engaged in defensive behaviours, but they lacked some motor control and seemed to act randomly”，“最小组为两周大”，因此答案为 “two weeks”。\n答案：human beings（人类）\n解析：定位 Paragraph 6 中 “as if they had not noticed the human beings that were present”，“未注意到在场人类”，因此答案为 “human beings”。\n答案：good motor control（良好的运动控制）\n解析：定位 Paragraph 6 中 “Babies in the two intermediate-age groups had good motor control, but their actions seemed unrelated to the test condition”，“中间组运动控制良好”，因此答案为 “good motor control”。\n答案：mature monkeys（成年猴子）\n解析：定位 Paragraph 6 中 “only animals in the oldest group (nine- to 12-week-old)... their reactions were both appropriate and identical to those of mature monkeys”，“与成年猴子反应一致”，因此答案为 “mature monkeys”。",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（1）题目 36：Once they had identified three types of defensive behaviour, Kalin and Shelton grouped the monkeys according to their \\___\\___.（识别三种防御行为后，卡林与谢尔顿根据猴子的_\\___\\__对其分组。）\n答案：age（年龄）\n解析：定位 Paragraph 6 中 “determining when infant monkeys first begin to apply them effectively... they examined four groups of infant monkeys ranging in age up to 12 weeks old”，“按年龄分组”，因此答案为 “age”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（2）题目 37：They videotaped their results and found that monkeys as young as \\___\\___ reacted to the cues but in a haphazard fashion.（他们录制结果，发现仅_\\___\\__大的猴子会对线索做出反应，但行为随机。）\n答案：two weeks（两周）\n解析：定位 Paragraph 6 中 “infants in the youngest group (no more than two weeks old) engaged in defensive behaviours, but they lacked some motor control and seemed to act randomly”，“最小组为两周大”，因此答案为 “two weeks”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（3）题目 38：The researchers noted that they seemed to be unaware of the \\___\\___ who were around them.（研究者注意到，这些猴子似乎未注意到周围的_\\___\\__。）\n答案：human beings（人类）\n解析：定位 Paragraph 6 中 “as if they had not noticed the human beings that were present”，“未注意到在场人类”，因此答案为 “human beings”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（4）题目 39：Despite demonstrating , the monkeys in the middle groups failed to react in ways corresponding to the experimental situation.（尽管表现出，中间组的猴子仍未做出与实验情境对应的反应。）\n答案：good motor control（良好的运动控制）\n解析：定位 Paragraph 6 中 “Babies in the two intermediate-age groups had good motor control, but their actions seemed unrelated to the test condition”，“中间组运动控制良好”，因此答案为 “good motor control”。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（5）题目 40：The oldest group, however, reacted in the same way as \\___\\___.（然而，最大组的反应与_\\___\\__一致。）\n答案：mature monkeys（成年猴子）\n解析：定位 Paragraph 6 中 “only animals in the oldest group (nine- to 12-week-old)... their reactions were both appropriate and identical to those of mature monkeys”，“与成年猴子反应一致”，因此答案为 “mature monkeys”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-6-7-8-9-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q37_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q38_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q39_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q40_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "B",
+    "q2": "C",
+    "q3": "D",
+    "q4": "A",
+    "q5": "C",
+    "q6": "B",
+    "q7": "C",
+    "q8": "A",
+    "q9": "A",
+    "q10": "age",
+    "q11": "two weeks",
+    "q12": "human beings",
+    "q13": "good motor control",
+    "q14": "mature monkeys"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-anchor",
+    "q5": "q5-6-7-8-9-anchor",
+    "q10": "q10-11-12-13-14-anchor",
+    "q36": "q36_input",
+    "q37": "q37_input",
+    "q11": "q37_input",
+    "q38": "q38_input",
+    "q12": "q38_input",
+    "q39": "q39_input",
+    "q13": "q39_input",
+    "q40": "q40_input",
+    "q14": "q40_input",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 14
+}

@@ -1,0 +1,2405 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-high-192",
+  "meta": {
+    "title": "P2(1115) - Should we stop eating meat",
+    "category": "P2",
+    "frequency": "high",
+    "originalTitle": "P2(1115纸笔) - Should we stop eating meat 是否应该吃素"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Should we stop eating meat?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Some claim that it's the only way to save our planet from disaster. But is it really that simple?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The call for people to eat less meat to save the planet is growing louder, so if less is good, wouldn't none be better? To find out, let's imagine what would happen if the world eliminated meat, milk and eggs from its diet, then trace the effects. Last year the world consumed 289 million tonnes of meat, 700 million tonnes of milk and 1.2 billion eggs. Environmentally speaking, this came at an enormous cost."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "B"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "All agriculture damages the environment. Take for example the felled forests and the common use of irrigation systems. And it may surprise you to know that agriculture creates more greenhouse gases than all methods of transport put together. Livestock farming does the most damage. In part, that is because most livestock eat grain that could be used to feed human populations, and farmers are forced to grow more than we would otherwise need to meet the demand. Altogether, if we switched to a vegan diet, meaning no meat, dairy or eggs, the land currently required for crops would drop by an estimated 21 per cent, about 3.4 million hectares, roughly the size of India."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "One environmental impact that would also lessen through a reduction in animal farming would be that of the nitrogen emitted from agricultural processes, which spreads into both waterways and land. According to environmental scientist Allison Leach, if everyone eliminated dairy products and eggs, this kind of pollution would fall by 60%. Livestock production has another serious environmental impact. Global statistics are hard to come by, but in the US at least, livestock account for 55% of erosion, mostly from forests being cut down to make way for grazing land. On top of this, half of all antibiotics manufactured are fed to livestock as part of their normal diet, a practice that is leading to drug-resistant bacteria."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "D"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A meat-free world, then would be greener in many ways. However, if everyone opted to give up meat there would be significant costs too. For most of human history, livestock grazed on land that wasn't suitable for ploughing, and in doing so they converted inedible grass into edible meat and milk. Even today, a flock of sheep or goats can be the most efficient way to get food from marginal land. In a world in which over a billion people do not have enough to eat, using this land for crop production would contribute to food insecurity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "E"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In some parts of the world today, livestock like chickens, for instance, can subsist on leftovers and whatever they find. Tara Garnett, who heads the Food Climate Research Network at the University of Surrey, points out the usefulness of these animals. By giving them your leftovers, she says, they deal with your rubbish, and you get meat. Garnett admits, though, that if this kind of approach were generally adopted, it would require a major adjustment in food preferences; people would have to get used to chicken, for example, with less fat."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "F"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Another downside to a meat-free world would be the disappearance of animal by-products. Such a world would have to replace the 11 million tonnes of leather and 2 million tonnes of wool that come annually from livestock farming and which are turned into clothing. Furthermore, even ardent vegetarians acknowledge that dairy products and meat may be a good thing in poorer countries. ‘Whilst there's no doubt that considerable reduction of meat consumption would have an environmental benefit, we do have to be careful about saying it would be the best solution if the whole world went vegetarian,' says Annette Pinner, chief executive of the UK Vegetarian Society. For many of the world's poorest rural residents, an animal may represent their only realistic hope for a little extra income, and a little animal protein can make a big difference to a marginal diet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "G"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "What if we decided on a no-meat vegetarian diet, rather than a vegan diet? After all, milk and eggs are very efficient ways of producing animal calories. ‘It's difficult to switch to a no-meat-but-milk diet,' says Helmut Haberl, a social ecologist. 'Dairy cows must calve every year to keep producing milk, and only half their offspring will be female. While many vegetarians see moral reasons not to kill and eat the males, there is surely no practical reason to waste so much meat.' Similar arguments apply to chickens kept for eggs."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "H"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "So even though a meat-free world sounds good on paper, it is likely that a utopian future will still have some animal products in it. The real questions, then, are how much meat do we want, and how will we produce it? The answers depend on how you approach these questions. The most straightforward approach is to assume that the world will continue to want evermore meat. The United Nations' best guess is that by 2050, the world will need to more than double its production of meat, an increase that would be environmentally disastrous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Under this scenario the goal will have to be producing the most meat at the lowest environmental cost. According to Walter Falcon, an agricultural economist, this means fewer free range cattle and sheep in green fields. 'If you're going to keep some livestock systems, I think the ones you'll want to keep are the intensive ones,' he says. Of course this does not take into account animal welfare issues, as intensive farming usually means poor living conditions and the use of growth hormones."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q1-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–17"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-block"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "14"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " the suggestion that people may need to adapt to a different quality of meat"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "E",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "E"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "F",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "F"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "G",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "G"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " G"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "H",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "H"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "I",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q1",
+                            "value": "I"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " I"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-block"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "15"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a description of the way animals were fed in the past"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "E",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "E"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "F",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "F"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "G",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "G"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " G"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "H",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "H"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "I",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q2",
+                            "value": "I"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " I"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-block"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "16"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a prediction in regard to human demand for meat"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "E",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "E"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "F",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "F"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "G",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "G"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " G"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "H",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "H"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "I",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q3",
+                            "value": "I"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " I"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-block"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "17"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " the potential consequences of a meat-free world for textile industries"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "options"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "E",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "E"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "F",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "F"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "G",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "G"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " G"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "H",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "H"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "I",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q4",
+                            "value": "I"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " I"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q5-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 18–22"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below. Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h5",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "How does agriculture damage the environment?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Agriculture causes significant harm to the environment in a number of ways, including the frequent use of "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "18"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q5",
+                  "fieldName": "q5",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q5"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " in modern farming and the cutting down of trees. It is also responsible for the production of many greenhouse gases, more so than "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "19"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q6",
+                  "fieldName": "q6",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q6"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " is. However, it is livestock farming in particular that is most harmful, because cows, chickens and sheep, for example, are given vast quantities of grain which could be consumed by people instead. A meat-free diet would mean that actually less "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "20"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q7",
+                  "fieldName": "q7",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q7"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " could be used for crops. Far less chemical pollution, specifically in the form of "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "21"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q8",
+                  "fieldName": "q8",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", would also be released into the environment, especially if consumers cut out dairy and egg products as well as meat. In the US, there is clear evidence that considerable "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "22"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q9",
+                  "fieldName": "q9",
+                  "attrs": {
+                    "class": "blank",
+                    "name": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " is caused by the demand for grazing land, although there is no information on this from other countries."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "short_answer",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q10-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 23–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct researcher. "
+                },
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-match-item"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "q-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is not possible to say that a vegetarian diet is right for everyone."
+                    }
+                  ]
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q10"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-match-item"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "q-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It may be economically preferable to farm animals in limited space."
+                    }
+                  ]
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q11",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q11"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-match-item"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "q-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It does not make sense to give up meat without giving up dairy products too."
+                    }
+                  ]
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q12"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "q-match-item"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "span",
+                  "attrs": {
+                    "class": "q-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Some animals can be fed in a way that allows waste to be recycled."
+                    }
+                  ]
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q13",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q13"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "option-pool",
+                "id": "pool-researchers"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "",
+                  "value": "A",
+                  "label": "A Allison Leach",
+                  "attrs": {
+                    "class": "card",
+                    "data-value": "A",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "",
+                  "value": "B",
+                  "label": "B Tara Garnett",
+                  "attrs": {
+                    "class": "card",
+                    "data-value": "B",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "",
+                  "value": "C",
+                  "label": "C Annette Pinner",
+                  "attrs": {
+                    "class": "card",
+                    "data-value": "C",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "",
+                  "value": "D",
+                  "label": "D Helmut Haberl",
+                  "attrs": {
+                    "class": "card",
+                    "data-value": "D",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "",
+                  "value": "E",
+                  "label": "E Walter Falcon",
+                  "attrs": {
+                    "class": "card",
+                    "data-value": "E",
+                    "data-clone": "true"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "",
+      "value": "A",
+      "label": "A Allison Leach"
+    },
+    {
+      "poolId": "",
+      "value": "B",
+      "label": "B Tara Garnett"
+    },
+    {
+      "poolId": "",
+      "value": "C",
+      "label": "C Annette Pinner"
+    },
+    {
+      "poolId": "",
+      "value": "D",
+      "label": "D Helmut Haberl"
+    },
+    {
+      "poolId": "",
+      "value": "E",
+      "label": "E Walter Falcon"
+    }
+  ],
+  "answerKey": {
+    "q1": "e",
+    "q2": "d",
+    "q3": "h",
+    "q4": "f",
+    "q5": "irrigation",
+    "q6": "transport",
+    "q7": "land",
+    "q8": "nitrogen",
+    "q9": "erosion",
+    "q10": "c",
+    "q11": "e",
+    "q12": "d",
+    "q13": "b"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q5": "q5-anchor",
+    "q10": "q10-anchor",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q11": "q11",
+    "q12": "q12",
+    "q13": "q13"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ]
+  },
+  "totalQuestions": 13
+}

@@ -93,10 +93,35 @@ function createMockQuestionBankModule() {
       questionType: 'multiple_choice'
     }
   }
+  const passageChunk = {
+    id: 'passage-b',
+    questionId: 'mock-question',
+    title: 'Mock Passage',
+    category: 'P1',
+    difficulty: 'High',
+    chunkType: 'passage_paragraph' as const,
+    sensitive: false,
+    questionNumbers: [] as string[],
+    paragraphLabels: ['B'],
+    content: 'Paragraph B explains how sleep was measured in the mock study.',
+    sourcePath: '/questionBank/mock.html',
+    metadata: {
+      questionId: 'mock-question',
+      title: 'Mock Passage',
+      category: 'P1',
+      difficulty: 'High',
+      chunkType: 'passage_paragraph' as const,
+      sensitive: false,
+      questionNumbers: [] as string[],
+      paragraphLabels: ['B'],
+      sourcePath: '/questionBank/mock.html',
+      questionType: 'multiple_choice'
+    }
+  }
   const document = {
     question,
     sourcePath: '/questionBank/mock.html',
-    passageChunks: [],
+    passageChunks: [passageChunk],
     questionChunks: [chunk],
     answerKeyChunks: [],
     answerExplanationChunks: [],
@@ -105,7 +130,7 @@ function createMockQuestionBankModule() {
       questionId: 'mock-question',
       issues: []
     },
-    allChunks: [chunk]
+    allChunks: [chunk, passageChunk]
   }
   const relatedQuestion = {
     ...question,
@@ -171,21 +196,26 @@ describe('assistant route integration', () => {
 
   it('serves hint responses with only LLM runtime config present', async () => {
     const mockBank = createMockQuestionBankModule()
-    vi.doMock('../src/lib/question-bank/index.js', () => ({
-      findQuestionIndexEntry: vi.fn(async () => mockBank.question),
-      loadQuestionIndex: vi.fn(async () => [mockBank.question, mockBank.relatedQuestion, mockBank.thirdQuestion]),
-      parseQuestionDocument: vi.fn(async (entry) => {
-        if (entry.id === mockBank.relatedQuestion.id) {
-          return mockBank.relatedDocument
-        }
+    vi.doMock('../src/lib/question-bank/index.js', async (importOriginal) => {
+      const actual = await importOriginal<typeof import('../src/lib/question-bank/index.js')>()
+      return {
+        ...actual,
+        findQuestionIndexEntry: vi.fn(async () => mockBank.question),
+        loadQuestionIndex: vi.fn(async () => [mockBank.question, mockBank.relatedQuestion, mockBank.thirdQuestion]),
+        parseReadingNativeDocument: vi.fn(async () => null),
+        parseQuestionDocument: vi.fn(async (entry: { id: string }) => {
+          if (entry.id === mockBank.relatedQuestion.id) {
+            return mockBank.relatedDocument
+          }
 
-        if (entry.id === mockBank.thirdQuestion.id) {
-          return mockBank.thirdDocument
-        }
+          if (entry.id === mockBank.thirdQuestion.id) {
+            return mockBank.thirdDocument
+          }
 
-        return mockBank.document
-      })
-    }))
+          return mockBank.document
+        })
+      }
+    })
 
     global.fetch = vi.fn().mockResolvedValue(
       new Response(JSON.stringify({
@@ -209,7 +239,6 @@ describe('assistant route integration', () => {
         url: '/api/assistant/query',
         payload: {
           questionId: 'mock-question',
-          mode: 'hint',
           locale: 'en',
           userQuery: 'Where should I start?'
         }
@@ -225,26 +254,137 @@ describe('assistant route integration', () => {
     }
   }, 30_000)
 
-  it('keeps similar mode local and does not call the external provider', async () => {
+  it('accepts structured attachments and focus question numbers in the request payload', async () => {
     const mockBank = createMockQuestionBankModule()
-    vi.doMock('../src/lib/question-bank/index.js', () => ({
-      findQuestionIndexEntry: vi.fn(async () => mockBank.question),
-      loadQuestionIndex: vi.fn(async () => [mockBank.question, mockBank.relatedQuestion, mockBank.thirdQuestion]),
-      parseQuestionDocument: vi.fn(async (entry) => {
-        if (entry.id === mockBank.relatedQuestion.id) {
-          return mockBank.relatedDocument
-        }
+    vi.doMock('../src/lib/question-bank/index.js', async (importOriginal) => {
+      const actual = await importOriginal<typeof import('../src/lib/question-bank/index.js')>()
+      return {
+        ...actual,
+        findQuestionIndexEntry: vi.fn(async () => mockBank.question),
+        loadQuestionIndex: vi.fn(async () => [mockBank.question, mockBank.relatedQuestion, mockBank.thirdQuestion]),
+        parseReadingNativeDocument: vi.fn(async () => null),
+        parseQuestionDocument: vi.fn(async () => mockBank.document)
+      }
+    })
 
-        if (entry.id === mockBank.thirdQuestion.id) {
-          return mockBank.thirdDocument
-        }
-
-        return mockBank.document
+    global.fetch = vi.fn().mockResolvedValue(
+      new Response(JSON.stringify({
+        choices: [
+          {
+            message: {
+              content: JSON.stringify({
+                answer: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.',
+                answerSections: [
+                  { type: 'direct_answer', text: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.' }
+                ],
+                followUps: ['Re-check Q12 against the passage evidence.'],
+                confidence: 'high',
+                missingContext: []
+              })
+            }
+          }
+        ]
+      }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
       })
-    }))
+    ) as typeof fetch
+
+    const app = await createTestApp()
+    try {
+      const response = await app.inject({
+        method: 'POST',
+        url: '/api/assistant/query',
+        payload: {
+          questionId: 'mock-question',
+          locale: 'en',
+          userQuery: 'Use my notes for Q12.',
+          focusQuestionNumbers: ['12'],
+          attachments: [
+            {
+              name: 'notes.txt',
+              type: 'text/plain',
+              text: 'I keep mixing up the method sentence.',
+              truncated: false
+            }
+          ],
+          attemptContext: {
+            selectedAnswers: { '12': 'A' },
+            wrongQuestions: ['12'],
+            submitted: false
+          }
+        }
+      })
+
+      expect(response.statusCode).toBe(200)
+      const payload = response.json()
+      expect(payload.answerSections?.[0]?.type).toBe('direct_answer')
+      expect(payload.confidence).toBe('high')
+      expect(global.fetch).toHaveBeenCalledOnce()
+    } finally {
+      await app.close()
+    }
+  }, 30_000)
+
+  it('rejects invalid structured assistant payloads', async () => {
+    const mockBank = createMockQuestionBankModule()
+    vi.doMock('../src/lib/question-bank/index.js', async (importOriginal) => {
+      const actual = await importOriginal<typeof import('../src/lib/question-bank/index.js')>()
+      return {
+        ...actual,
+        findQuestionIndexEntry: vi.fn(async () => mockBank.question),
+        loadQuestionIndex: vi.fn(async () => [mockBank.question]),
+        parseReadingNativeDocument: vi.fn(async () => null),
+        parseQuestionDocument: vi.fn(async () => mockBank.document)
+      }
+    })
+
+    const app = await createTestApp()
+    try {
+      const response = await app.inject({
+        method: 'POST',
+        url: '/api/assistant/query',
+        payload: {
+          questionId: 'mock-question',
+          locale: 'en',
+          attemptContext: {
+            wrongQuestions: ['Q12']
+          }
+        }
+      })
+
+      expect(response.statusCode).toBe(400)
+      expect(response.json().error).toBe('invalid_request')
+    } finally {
+      await app.close()
+    }
+  }, 30_000)
+
+  it('keeps similar-drill route local and does not call the external provider', async () => {
+    const mockBank = createMockQuestionBankModule()
+    vi.doMock('../src/lib/question-bank/index.js', async (importOriginal) => {
+      const actual = await importOriginal<typeof import('../src/lib/question-bank/index.js')>()
+      return {
+        ...actual,
+        findQuestionIndexEntry: vi.fn(async () => mockBank.question),
+        loadQuestionIndex: vi.fn(async () => [mockBank.question, mockBank.relatedQuestion, mockBank.thirdQuestion]),
+        parseReadingNativeDocument: vi.fn(async () => null),
+        parseQuestionDocument: vi.fn(async (entry: { id: string }) => {
+          if (entry.id === mockBank.relatedQuestion.id) {
+            return mockBank.relatedDocument
+          }
+
+          if (entry.id === mockBank.thirdQuestion.id) {
+            return mockBank.thirdDocument
+          }
+
+          return mockBank.document
+        })
+      }
+    })
 
     global.fetch = vi.fn(() => {
-      throw new Error('fetch should not be called for similar mode')
+      throw new Error('fetch should not be called for similar-drill recommendations')
     }) as typeof fetch
 
     const app = await createTestApp()
@@ -254,7 +394,7 @@ describe('assistant route integration', () => {
         url: '/api/assistant/query',
         payload: {
           questionId: 'mock-question',
-          mode: 'similar',
+          action: 'recommend_drills',
           locale: 'en',
           userQuery: 'Recommend similar passages.'
         }

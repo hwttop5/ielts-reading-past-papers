@@ -1,0 +1,2161 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-medium-60",
+  "meta": {
+    "title": "Sorry—who are you",
+    "category": "P1",
+    "frequency": "medium",
+    "pdfFilename": "152. P1 - Sorry—who are you 脸盲症【次】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/152. P1 - Sorry—who are you 脸盲症【次】/",
+    "legacyFilename": "152. P1 - Sorry—who are you 脸盲症【次】.html",
+    "questionIntroHtml": "<h3>Questions 1–7</h3>",
+    "originalTitle": "Sorry—who are you 脸盲症"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Sorry—who are you?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Prosopagnosia is a medical condition that stops people from recognizing people's faces, but how common is it and why does it happen?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It was Jacob Hodes's first day at college. He can still recall spending an enjoyable afternoon being shown around campus by a second-year student named Daniel Byrne, who happened to be from his home town. Jacob then spent the rest of the year ignoring him. ‘I never saw him again,' he says. ‘Well, I'm sure I walked past him plenty of times, but I just didn't see him.' This behaviour wasn't intentional. Jacob just couldn't recollect what his fellow student looked like. He had had the same trouble all his life. Friends and relatives would greet him and he would have no idea who they were."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It wasn't until five years ago that it all made sense. That was when Hodes was diagnosed with prosopagnosia, a condition that means he is unable to recognise faces. According to researchers, he is far from alone. In fact, the condition is not that uncommon, but until a few years ago only a few dozen cases had ever been described, and all of these had been caused by brain injury. Recently, though, researchers identified a second form of face blindness, developmental prosopagnosia, which is either present from birth or develops very early in life."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In May a team from Harvard University in the US and University College London (UCL) announced the results of a web survey of 1,600 people, suggesting that up to 2 per cent of people have some degree of face blindness. Then in August, Martina Gruter and colleagues at the Institute for Human Genetics in Munster, Germany, similarly reported that 2.5 per cent of 700 secondary-school pupils they had tested had trouble recognising faces. The results of the surveys took everyone by surprise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It seems that if you have never known what it is to recognise a face, you don't necessarily know that you are supposed to be able to. Prosopagnosics almost always know that they have trouble recognising people, but they often don't realise that other people have better recognition skills than they do, says Brad Duchaine, a researcher at UCL."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Despite these issues, the majority of developmental prosopagnosics possess strategies that allow them to get around their difficulty—for instance, by recognising hair, clothing, or a person's way of speaking—so, unless they see a familiar person out of context, with a new hairstyle or in different clothes, they can recognise people just fine. Even so, the discovery of developmental prosopagnosia has attracted attention from neuroscientists keen to discover what is different about the brain of face-blind people. This difference, they believe, could help solve the problem of how the brain deals with information in general, not just visual data. In other words, it may show whether the brain has specialised parts for specific tasks or is more of a general-purpose information processor."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "One issue, however, that will present challenges for researchers is that no two prosopagnosics are the same. Some have problems only with faces, while others have trouble with ordinary everyday objects and, so it turns out, animals which would normally be familiar as well. Some prosopagnosics can train themselves to recognise specific faces; others can't even recognise their own in a mirror. When some have been tested they could identify the emotion that was conveyed on another's face, even though the face itself seemed unfamiliar, while for other subjects this was an impossibility. Some cannot recognise the faces of old friends or fellow students but have no trouble telling whether a particular face from such groups would be attractive to most people. Because of this diversity, working out the cause of prosopagnosia will not be easy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In Martina Gruter's study, the prosopagnosics who agreed to have their parents and relatives tested reported at least one relative with the condition. Having looked at 38 cases in seven families, the German team believe they have good evidence that a single gene could be responsible. Duchaine also has some evidence that face blindness could be inherited but thinks other factors might be more significant. He refers to studies of babies born with a condition which means the eye's lens is not clear, and when it's the left one, being unable to see through this eye during the first two months of life is a major risk factor for prosopagnosia."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Whatever the cause, what most prosopagnosics want to know is whether they can do anything to improve their face-recognition skills. Joseph DeGutis, a graduate student at the University of California, recently reported successfully training a severe developmental prosopagnosic to recognise faces during tests carried out in the laboratory. The subject also reported that recognising faces in everyday life became easier due to the training. Duchaine now plans to attempt to train sufferers to recognise the five people they most need to know—maybe their immediate family, for example, and essential colleagues. Thomas Gruter, Martina Gruter's husband, who also works on her team, however, is not convinced it will work. ‘I don't know how you can have more training than you have already had,' he says. ‘Humans already spend all day looking at faces.' He also points out that cheating is a possibility during tests and provides an example. One person we studied said that when she was doing the face-recognition test, she memorised the distance between nose and upper lip. She wasn't the only one. So you can perform well in the test and not do so well in real life."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions 1–7"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 1–7 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style-position: inside; padding-left: 0; margin-bottom: 1rem;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information on this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Before attending college, Jacob was capable of recognising people he knew well."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Researchers believe that prosopagnosia may be a growing problem."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is harder to identify developmental prosopagnosia in babies than in young children."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " A German study seems to support the Harvard and UCL research findings."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In general, prosopagnosics are aware that other people can recognise faces more easily than they can."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In most cases, prosopagnosics have developed ways to deal with their problem."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The study of prosopagnosia may help neuroscientists to treat different kinds of brain injury."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the notes below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "notes-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The challenges for prosopagnosia researchers"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Differences in prosopagnosics"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "As well as being unable to recognise facial features, prosopagnosics may also have problems recognising commonly seen "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "8"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q8",
+                          "fieldName": "q8",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q8_input",
+                            "maxlength": "20",
+                            "name": "q8"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " and objects."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Some also have problems recognizing the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "9"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q9",
+                          "fieldName": "q9",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q9_input",
+                            "maxlength": "20",
+                            "name": "q9"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " on someone else's face."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Some prosopagnosics can recognise that people are regarded as attractive by others."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Causes of prosopagnosia"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Prosopagnosia may be caused by just one "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "10"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q10",
+                          "fieldName": "q10",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q10_input",
+                            "maxlength": "20",
+                            "name": "q10"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": ", according to Martina Gruter."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "It may also be caused by a defect in the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "11"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q11",
+                          "fieldName": "q11",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q11_input",
+                            "maxlength": "20",
+                            "name": "q11"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " eye, according to Brad Duchaine."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Treatment for prosopagnosia"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Joseph DeGutis's patient proved he had been successfully trained to recognise faces inside the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "12"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q12",
+                          "fieldName": "q12",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q12_input",
+                            "maxlength": "20",
+                            "name": "q12"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " and in the outside world."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Duchaine's training may allow prosopagnosics to recognise faces belonging to family and workmates."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Thomas Gruter doubts that the training will work and mentions that "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "13"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q13",
+                          "fieldName": "q13",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q13_input",
+                            "maxlength": "20",
+                            "name": "q13"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " by some subjects can affect research results."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-5-6-7-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "FALSE",
+    "q2": "NOT GIVEN",
+    "q3": "NOT GIVEN",
+    "q4": "TRUE",
+    "q5": "FALSE",
+    "q6": "TRUE",
+    "q7": "NOT GIVEN",
+    "q8": "animals",
+    "q9": "emotion",
+    "q10": "gene",
+    "q11": "left",
+    "q12": "laboratory",
+    "q13": "cheating"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-7-anchor",
+    "q8": "q8-9-10-11-12-13-anchor",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q6": "q6_input",
+    "q7": "q7_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

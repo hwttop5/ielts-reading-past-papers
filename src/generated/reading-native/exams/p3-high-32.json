@@ -1,0 +1,2961 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-32",
+  "meta": {
+    "title": "Science and Filmmaking (CGI)",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "127. P3 - Science and Filmmaking 电影科学(CGI)【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/127. P3 - Science and Filmmaking 电影科学(CGI)【高】/",
+    "legacyFilename": "127. P3 - Science and Filmmaking 电影科学(CGI)【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Science and Filmmaking 电影科学(CGI)"
+  },
+  "explanationKey": "p3-high-32",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Science and Filmmaking"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Academics are now working more with filmmakers who are impressed by the results of their research in computer-generated imagery (CGI)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Every year the film academy in the USA celebrates the outstanding achievements of the year in a ceremony known as the Oscars. An increasingly important component of the ceremony is the presentation of the Scientific and Technical awards. In 2004 a notable event took place: the academic world met the cinematographic world when researchers from Stanford University in the USA were awarded an Oscar. These researchers, led by Steve Marschner, were from the field of Computer Graphics at Stanford. They were part of a growing cohort of computer scientists that has become fundamental to moviemaking."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Films have shown that it is possible to use CGI to make actors look younger, older, weaker or stronger than they actually are in a surprisingly realistic manner. At least, it is possible if the altered actors are not filmed too closely. This is because the difficulty of recreating the textures of both skin and fabric means that the effect is less convincing when seen close up. The work of Marschner and his colleagues has greatly improved the accurate and realistic modeling of both skin and fabric. They recognized that one of the difficulties of creating lifelike characters in the computer world is that, in CGI, the characters' skin is opaque (two-dimensional) whereas real skin is in fact translucent (three-dimensional), that is to say, it is semi-transparent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Marschner and his colleagues received the Oscar for their work in successfully producing a CGI model that simulates translucency; this is when light penetrates skin and then scatters below the skin's surface before re-emerging. This is called subsurface scattering, and the mathematics for the model goes back many decades to the time when it was used in astrophysics. Because human skin is naturally translucent, it was necessary to be able to create this artificially in order to simulate the soft appearance of real skin. Previous CGI models, which assumed that skin was entirely opaque, resulted in characters with a plastic appearance. The scientists' new model of CGI was so important in bringing digital characters to life that, within two years of their original research paper, all the major special-effects studios had incorporated it into their digital rendering systems."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "However, despite their award, the scientists, with admirable tenacity, continued their search for perfection, as they still did not feel that they had yet satisfactorily recreated the subtle ways light is reflected. To do this, they began to look in detail at the way skins and fabrics reflect light differently according to their make-up: the exact arrangement of fibers in fabric and the network of fibers in skin. Marschner and his team tried to do this by using computerized tomography, which is most familiar as a medical technique for examining people's internal organs. Like classical radiology, it uses X-rays, but because the image is constructed inside a computer using exposures taken from many different positions, rather than a single exposure on photographic film, it can capture fine details that are invisible in classical radiography."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Unfortunately, the scientists understood that at this point in time they could not use computerized tomography on skin, because a very high-intensity X-ray is needed to show the kind of detail they wanted and this would be very dangerous for human skin. They have, however, had some success with fabric. Using this new method of imaging, they are able to accurately record the three-dimensional structure of all the fibers in a number of small pieces of fabric. These same pieces of fabric, through the use of CGI, can then be patched together to form an entire garment inside a computer, in the same way that a small group of actors can be made to look like hundreds of people gathered together. A garment created through CGI is therefore made up of pieces of fabric whose internal structure has been pre-recorded. This means that the way light is reflected by the garment can be calculated far more realistically than if the scientists just made a computer model of what they thought the interior of the fabric looked like. Cinematography will benefit from this because, although it may take some years to be able to use computerized tomographic imaging of skin, for the moment the movement of a virtual cloak or the lifting of a computerized hat should look far more realistic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In the meantime, according to Marschner's colleague Kavita Bala, the technology might have an application in online retailing. At the moment, people buying clothes over the internet have only a standard photograph to help them choose their purchases. It is hoped that if online shoppers can view items which have been presented through the use of computerized tomography graphics, they will have a much better understanding of what the material the item is made of is really like."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Marschner is now working on the way light is scattered from individual hairs. He says, 'I feel lucky to be working in this niche. I'm a visual person and to be able to spend my time scrutinizing the world around me, trying to understand why it looks the way it does, is very rewarding'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–32"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C,"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the writer's main point in the first paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A Computer scientists are rarely represented at the Oscars."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B Film-industry awards hold little interest for computer scientists."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C The USA rewards film actors more than computer scientists."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D Computer scientists are becoming a vital part of the film industry."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " When describing the way computer-generated imagery changes actors' appearance, what does the writer suggest?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A CGI looks best from a distance."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B CGI interferes with actors' facial expressions."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C Audiences expect too much of CGI."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D The scientists had hoped for more convincing results."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What does the writer suggest about the scientists' attitude to their work in the fourth paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A They were motivated to get as near to reality as possible."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B They were interested in gaining recognition for their work."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C They thought it could have medical applications."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D They hoped to receive further funding for their research."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What are we told about computerised tomography?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A It has only recently been used by doctors."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B It is similar to X-rays in the way it works."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C Filmmakers have used it for many years for special lighting effects."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D It can be administered using traditional radiography machines."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which of these advantages does the writer attribute to the current use of computerised tomography?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A It is most effective when used to create images of skin."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B It can make a few people seem like a crowd."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C It allows clothes designers to create new designs."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D It is practical because of the time it takes."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The writer mentions Kavita Bala in order to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A comment on the success of CGI in commercial contexts."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B highlight the link between CGI and photography."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C show that Marschner's team are uncertain about the future of CGI."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D demonstrate a use for CGI outside the film industry."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 选择题（Questions 27–32）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "答案：D\n解析：第一段先交代奥斯卡的科技奖，再说斯坦福团队获奖，最后点题：“They were part of a growing cohort of computer scientists that has become fundamental to moviemaking.”（他们属于一个不断壮大的计算机科学家群体，这个群体已成为电影制作的基础。）这说明计算机科学家已成为电影产业的关键组成部分。A、B、C都与段落主旨不符，只有D选项（计算机科学家正成为电影业至关重要的一部分）概括了其地位日益重要的核心观点。\n答案：A\n解析：定位第二段 “At least, it is possible if the altered actors are not filmed too closely... the effect is less convincing when seen close up.” （至少，如果被改变的演员不是在特写镜头下拍摄，这是可能的……近看时效果不那么令人信服。）这句话明确指出，CGI效果在远距离观看时更好，近看则不那么逼真，因此A选项（CGI在远距离看效果最好）是正确的。\n答案：A\n解析：定位第四段 “Despite their award, the scientists... continued their search for perfection, as they did not feel that they had yet satisfactorily recreated the subtle ways light is reflected.” （尽管获得了奖项，科学家们……继续追求完美，因为他们认为尚未满意地再现光的微妙反射方式。）这体现了他们力求逼真、尽可能接近现实的动机，因此A选项（他们的动机是尽可能地接近现实）是正确的。B（谋求名声）、D（寻求经费）均未提及；C（医学应用兴趣）不是该段描述他们态度的核心。\n答案：B\n解析：定位第四段 “Like classical radiology, it uses X-rays, but because the image is constructed inside a computer...” （像传统放射学一样，它使用X射线；但它的成像是……在计算机内构建的……）。关键信息是它使用X射线，与“X光片/传统放射学”有相似之处，因此B选项（它在工作方式上与X射线相似）是正确的。A（刚被医生使用）、C（电影人多年用于打光）、D（可用传统放射设备实施）均与原文不符。\n答案：B\n解析：定位第五段 “...pieces of fabric... can then be patched together to form an entire garment inside a computer, in the same way that a small group of actors can be made to look like hundreds of people gathered together.” （……这些小块织物可以在计算机里拼接成一整件服装，就像可以把一小群演员做成看起来像几百人聚集在一起。）这里把当前能做的优势（用小块织物拼接成整件衣服）比喻为“把少数人变成一群人”，与B选项（它可以让少数人看起来像一群人）的比喻完全对应。\n答案：D\n解析：定位第六段 “...the technology might have an application in online retailing...”。在讨论完电影制作后，作者引用巴拉的话，引出了该技术在“网络零售”领域的应用。这是一个电影行业之外的应用示例，因此D选项（展示CGI在电影业之外的一个用途）是正确的。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "(1) 题目 27：What is the writer's main point in the first paragraph? （第一段作者的中心观点是什么？）\n答案：D\n解析：第一段先交代奥斯卡的科技奖，再说斯坦福团队获奖，最后点题：“They were part of a growing cohort of computer scientists that has become fundamental to moviemaking.”（他们属于一个不断壮大的计算机科学家群体，这个群体已成为电影制作的基础。）这说明计算机科学家已成为电影产业的关键组成部分。A、B、C都与段落主旨不符，只有D选项（计算机科学家正成为电影业至关重要的一部分）概括了其地位日益重要的核心观点。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "(2) 题目 28：When describing the way computer-generated imagery changes actors' appearance, what does the writer suggest? （在描述CGI改变演员外貌的方式时，作者暗示了什么？）\n答案：A\n解析：定位第二段 “At least, it is possible if the altered actors are not filmed too closely... the effect is less convincing when seen close up.” （至少，如果被改变的演员不是在特写镜头下拍摄，这是可能的……近看时效果不那么令人信服。）这句话明确指出，CGI效果在远距离观看时更好，近看则不那么逼真，因此A选项（CGI在远距离看效果最好）是正确的。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "(3) 题目 29：What does the writer suggest about the scientists' attitude to their work in the fourth paragraph? （在第四段，作者暗示了这些科学家对工作的态度是什么？）\n答案：A\n解析：定位第四段 “Despite their award, the scientists... continued their search for perfection, as they did not feel that they had yet satisfactorily recreated the subtle ways light is reflected.” （尽管获得了奖项，科学家们……继续追求完美，因为他们认为尚未满意地再现光的微妙反射方式。）这体现了他们力求逼真、尽可能接近现实的动机，因此A选项（他们的动机是尽可能地接近现实）是正确的。B（谋求名声）、D（寻求经费）均未提及；C（医学应用兴趣）不是该段描述他们态度的核心。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "(40) 题目 30：What are we told about computerised tomography? （关于计算机断层扫描（CT），文中告知了我们什么？）\n答案：B\n解析：定位第四段 “Like classical radiology, it uses X-rays, but because the image is constructed inside a computer...” （像传统放射学一样，它使用X射线；但它的成像是……在计算机内构建的……）。关键信息是它使用X射线，与“X光片/传统放射学”有相似之处，因此B选项（它在工作方式上与X射线相似）是正确的。A（刚被医生使用）、C（电影人多年用于打光）、D（可用传统放射设备实施）均与原文不符。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "(5) 题目 31：Which of these advantages does the writer attribute to the current use of computerised tomography? （作者将以下哪项优势归因于当前CT的用途？）\n答案：B\n解析：定位第五段 “...pieces of fabric... can then be patched together to form an entire garment inside a computer, in the same way that a small group of actors can be made to look like hundreds of people gathered together.” （……这些小块织物可以在计算机里拼接成一整件服装，就像可以把一小群演员做成看起来像几百人聚集在一起。）这里把当前能做的优势（用小块织物拼接成整件衣服）比喻为“把少数人变成一群人”，与B选项（它可以让少数人看起来像一群人）的比喻完全对应。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "(6) 题目 32：The writer mentions Kavita Bala in order to （作者提到卡维塔·巴拉是为了……）\n答案：D\n解析：定位第六段 “...the technology might have an application in online retailing...”。在讨论完电影制作后，作者引用巴拉的话，引出了该技术在“网络零售”领域的应用。这是一个电影行业之外的应用示例，因此D选项（展示CGI在电影业之外的一个用途）是正确的。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-10-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 33–36"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 33–36 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the views of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the views of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It used to be unusual for university researchers to receive a cinematography award."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " CGI is popular among ageing actors."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The scientists' success in generating images of complete CGI garments has won them many awards."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It will be a long time before computerised tomographic imaging of fabric is used by filmmakers."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 判断题（Questions 33–36）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 33,
+          "end": 36
+        },
+        "text": "答案：YES\n解析：定位第一段 “In 2004 a notable event took place: the academic world met the cinematographic world when researchers from Stanford... were awarded an Oscar.” （2004年发生了一件引人注目的事情：学术界与电影界相遇——斯坦福的研究人员获得了奥斯卡奖。）“notable event”（引人注目的事）和“两界相遇”的措辞暗示了这种情况在以前是罕见的，因此该陈述正确。\n答案：NOT GIVEN\n解析：定位第二段 “Films have shown... make actors look younger or older...” （电影表明……可以让演员看起来更年轻或更年长……）。文中只说CGI技术可以做到让演员改变年龄外观，但并未提及年长演员是否喜欢或普遍使用这项技术，即没有评价其“受欢迎”程度。\n答案：NOT GIVEN\n解析：文中提到科学家因模拟皮肤的“半透明”效果而获奖，并在第五段提到他们成功记录了“小块织物”的结构以拼接成服装，但并未提及他们因为后者（生成完整服装）而赢得了任何奖项。\n答案：NO\n解析：定位第五段 “...may take some years to be able to use computerized tomographic imaging of skin; for the moment the movement of a virtual cloak... should look far more realistic.” （……要把CT成像用于皮肤可能还需要几年；就目前而言，虚拟斗篷的运动……应当更逼真。）这句话明确指出，“要等几年”的对象是皮肤（skin），而织物（fabric）的CT成像数据在当下已经能让衣物运动更逼真了。因此，该陈述与原文信息相矛盾。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "(1) 题目 33：It used to be unusual for university researchers to receive a cinematography award. （过去大学研究者获得电影类大奖并不常见。）\n答案：YES\n解析：定位第一段 “In 2004 a notable event took place: the academic world met the cinematographic world when researchers from Stanford... were awarded an Oscar.” （2004年发生了一件引人注目的事情：学术界与电影界相遇——斯坦福的研究人员获得了奥斯卡奖。）“notable event”（引人注目的事）和“两界相遇”的措辞暗示了这种情况在以前是罕见的，因此该陈述正确。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "(2) 题目 34：CGI is popular among ageing actors. （CGI在年长演员中很受欢迎。）\n答案：NOT GIVEN\n解析：定位第二段 “Films have shown... make actors look younger or older...” （电影表明……可以让演员看起来更年轻或更年长……）。文中只说CGI技术可以做到让演员改变年龄外观，但并未提及年长演员是否喜欢或普遍使用这项技术，即没有评价其“受欢迎”程度。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "(3) 题目 35：The scientists' success in generating images of complete CGI garments has won them many awards. （科学家们用完整CGI服装成像的成功为他们赢得了许多奖项。）\n答案：NOT GIVEN\n解析：文中提到科学家因模拟皮肤的“半透明”效果而获奖，并在第五段提到他们成功记录了“小块织物”的结构以拼接成服装，但并未提及他们因为后者（生成完整服装）而赢得了任何奖项。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "(4) 题目 36：It will be a long time before computerised tomographic imaging of fabric is used by filmmakers. （电影制作人要使用织物的CT成像还要等很长时间。）\n答案：NO\n解析：定位第五段 “...may take some years to be able to use computerized tomographic imaging of skin; for the moment the movement of a virtual cloak... should look far more realistic.” （……要把CT成像用于皮肤可能还需要几年；就目前而言，虚拟斗篷的运动……应当更逼真。）这句话明确指出，“要等几年”的对象是皮肤（skin），而织物（fabric）的CT成像数据在当下已经能让衣物运动更逼真了。因此，该陈述与原文信息相矛盾。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "matching",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 37–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary using the list of words, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–I"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag and drop the correct option into each blank."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-box"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h5",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The work of Marschner and his colleagues"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    For many years, CGI characters did not appear entirely lifelike as their skin appeared plastic. Marschner and his colleagues were the first to apply an understanding of how "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q11",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q11-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " interacts with human skin. Their CGI model is based on a novel application of principles of "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q12",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q12-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", which had previously been applied in other scientific research. The importance of CGI to the film industry has led to the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q13",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q13-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " of Marschner's model by special-effects studios. Marschner's model has led to the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q14",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q14-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q14"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " of cinematography.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "word-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "A",
+                      "label": "A light",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "B",
+                      "label": "B transparency",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "C",
+                      "label": "C age",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "D",
+                      "label": "D use",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "E",
+                      "label": "E astrophysics",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "F",
+                      "label": "F mathematics",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "F"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "G",
+                      "label": "G improvement",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "G"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "H",
+                      "label": "H colour",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "H"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "I",
+                      "label": "I translucency",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "I"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 概要填空（Questions 37–40）",
+        "mode": "group",
+        "questionRange": {
+          "start": 37,
+          "end": 40
+        },
+        "text": "答案：A light\n解析：概要句中的“interacts with human skin”（与皮肤相互作用）对应第三段对次表面散射的解释：“this is when light penetrates skin and then scatters...” （这指的是光线穿透皮肤然后散射的过程）。这个过程的主体是light（光线）。\n答案：F mathematics\n解析：定位第三段 “...the mathematics for the model goes back many decades to the time when it was used in astrophysics.” （……该模型所用的数学可追溯到曾用于天体物理学的年代。）先前被用于“其他科学研究”（天体物理学）的是这套mathematics（数学）原理。\n答案：D use\n解析：定位第三段 “...within two years... all the major special-effects studios had incorporated it into their digital rendering systems.” （……两年内，所有主要特效工作室都把它并入了自己的数字渲染系统。）“incorporated into”（并入）在这里的含义就是“采用、使用”，与选项中的 use（使用）意思最为接近。\n答案：G improvement\n解析：定位第五段 “Cinematography will benefit from this because... the movement of a virtual cloak... should look far more realistic.” （电影摄影将因此受益，因为……虚拟服装等看起来会真实得多。）“will benefit from”（将受益）意味着会带来好处或提升，即 improvement（改进、提升）。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "(1) 题目 37：Marschner and his colleagues were the first to apply an understanding of how 37 \\___\\___ interacts with human skin. （马什纳和他的同事率先将关于光线如何与人类皮肤相互作用的理解应用于CGI。）\n答案：A light\n解析：概要句中的“interacts with human skin”（与皮肤相互作用）对应第三段对次表面散射的解释：“this is when light penetrates skin and then scatters...” （这指的是光线穿透皮肤然后散射的过程）。这个过程的主体是light（光线）。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "(2) 题目 38：Their CGI model is based on a novel application of principles of 38 \\___\\___ which had previously been applied in other scientific research. （他们的CGI模型基于对数学原理的全新应用，而这些原理先前已用于其他科学研究。）\n答案：F mathematics\n解析：定位第三段 “...the mathematics for the model goes back many decades to the time when it was used in astrophysics.” （……该模型所用的数学可追溯到曾用于天体物理学的年代。）先前被用于“其他科学研究”（天体物理学）的是这套mathematics（数学）原理。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "(3) 题目 39：The importance of CGI to the film industry has led to the 39 \\___\\___ of Marschner's model by special-effects studios. （CGI对电影业的重要性已导致特效工作室对马什纳模型的使用。）\n答案：D use\n解析：定位第三段 “...within two years... all the major special-effects studios had incorporated it into their digital rendering systems.” （……两年内，所有主要特效工作室都把它并入了自己的数字渲染系统。）“incorporated into”（并入）在这里的含义就是“采用、使用”，与选项中的 use（使用）意思最为接近。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "(40) 题目 40：Marschner's model has led to the 40 \\___\\___ of cinematography. （马什纳的模型带来了电影摄影的改进。）\n答案：G improvement\n解析：定位第五段 “Cinematography will benefit from this because... the movement of a virtual cloak... should look far more realistic.” （电影摄影将因此受益，因为……虚拟服装等看起来会真实得多。）“will benefit from”（将受益）意味着会带来好处或提升，即 improvement（改进、提升）。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-8-9-10-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-target"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-target"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-target"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "A",
+      "label": "A light"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "B",
+      "label": "B transparency"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "C",
+      "label": "C age"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "D",
+      "label": "D use"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "E",
+      "label": "E astrophysics"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "F",
+      "label": "F mathematics"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "G",
+      "label": "G improvement"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "H",
+      "label": "H colour"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "I",
+      "label": "I translucency"
+    }
+  ],
+  "answerKey": {
+    "q1": "D",
+    "q2": "A",
+    "q3": "A",
+    "q4": "B",
+    "q5": "B",
+    "q6": "D",
+    "q7": "YES",
+    "q8": "NOT GIVEN",
+    "q9": "NOT GIVEN",
+    "q10": "NO",
+    "q11": "A",
+    "q12": "E",
+    "q13": "D",
+    "q14": "G"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q7": "q7-8-9-10-anchor",
+    "q11": "q11-12-13-14-anchor",
+    "q12": "q12-target",
+    "q13": "q13-target",
+    "q14": "q14-target",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q6": "q6_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ]
+  },
+  "totalQuestions": 14
+}

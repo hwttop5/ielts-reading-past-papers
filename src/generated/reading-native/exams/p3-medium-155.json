@@ -1,0 +1,2400 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-medium-155",
+  "meta": {
+    "title": "Does class size matter",
+    "category": "P3",
+    "frequency": "medium",
+    "pdfFilename": "65. P3 - Does class size matter 课堂规模.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/65. P3 - Does class size matter_ 课堂规模【次】/",
+    "legacyFilename": "65. P3 - Does class size matter_ 课堂规模【次】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Does class size matter 课堂规模"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Does class size matter?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Of all the ideas for improving education, few are as simple or attractive as reducing the number of pupils per teacher. Unlike competing proposals for reform, class-size reductions rarely elicit huge outcries or involve structural change. The testing of educators, by contrast, generally arouses the anger of unions. Similarly, establishing special ‘charter' schools involves privileging some schools over others, with the credits provided usually coming out of the budgets of struggling local schools. With its uncomplicated appeal, class-size reduction in the U.S. has lately gone from being a subject of primary academic interest to a policy juggernaut with over twenty states aiming at decreasing class sizes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Do small classes improve school achievement? To answer this, investigators have attempted to analyse existing data, such as records at the U.S. Department of Education. These reveal that there were steep drops in pupil-teacher ratios between 1969 and 1997, but no significant gains in academic performance. But do these findings mean that class size makes no difference? Not necessarily. For instance, schools strive for more than just high test scores; they also usually try to keep their drop-out rates low. And, indeed, the drop-out rate for older students fell considerably over that period. Because drop-outs generally come from the low end of the achievement distribution, a reduction in the drop-out rate could be expected to pull down average test scores. Another reason for discounting those data is the difficulty of ensuring a level playing field. In a perfect world, U.S. students would all come from well-off families, with two highly educated English-speaking parents who are involved in their children's schooling. Teachers would all be creative and have complete mastery of the subject matter. The reality is very different."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Over the past 35 years, some studies of existing data have produced evidence that smaller classes benefit students, but most of these studies were poorly designed. The exception was the Tennessee study called Project STAR (Student Teacher Achievement Ratio). Frederick Mosteller of Harvard University has called it ‘one of the greatest experiments in education in United States history'. Students entering kindergarten were randomly assigned to one of three kinds of classes: a small class of 13 to 17 students, a regular-size class of 22 to 26 or a regular-size class with both a teacher and a full-time teacher's aide. The students remained in whatever category they had been assigned to throughout the third grade, after which they joined a regular classroom in the fourth. To ensure that teaching quality did not differ, teachers were randomly assigned to small and regular-size classrooms. Few teachers received any special training for working with small classes, and there were no new curricular materials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " At the end of STAR, researchers analysed the data. Jeremy Finn of New York University and Charles Achilles of Eastern Michigan University found evidence for ‘an array of benefits of small classes'. They calculated that students in smaller classes were outperforming their counterparts in regular-sized classes by the first grade and that this advantage persisted even after students returned to larger classes. They also found that the effect was stronger for black and Hispanic minority groups – a significant finding for policy-makers. Eric Hanushek of Stanford, however, criticises some of STAR's key conclusions. He argues that STAR does not prove that gains persist long after students return to regular classes. It was debatable how much later improvement stemmed from other factors, such as a supportive home. Nor does he accept that the benefits accumulate, with participants widening the gap with their peers in larger classes year by year. Hanushek and others have also shown that during the study too many children moved from regular to small classes, probably because school personnel caved in to parent demands. And Hanushek also asserts that STAR failed to ensure good randomisation of teacher and student assignments. However, these points do not undermine STAR's basic findings."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The largest public class size reduction programme so far, California's, stands more as a warning than as worthy of emulation. That state is trying to reduce classes in kindergarten through grade three despite a shortage of teachers that is most acute in low-income areas. This is exacerbating the disparity in resources available to rich and poor schools in California, because more affluent areas can attract the best teachers. Indeed, some of the extra teachers needed are being recruited from the poorer schools. Researchers found a statistically significant achievement advantage in reading, writing and mathematics for students in classes that had been reduced to 20. What is more, the effect did not vary for students of different backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Wisconsin's Student Achievement Guarantee in Education (SAGE) was a five-year pilot study to do some of the groundwork for a major project. Class sizes were reduced in only 14 schools, but it was noteworthy for targeting schools at which 30% of the students were below poverty level, compared with California's across-the-board approach. SAGE lowered the average pupil-teacher ratio in kindergarten through third grade to 12–15:1 from 21–25:1. Analysts have studied the results of first-grade students in these schools and similar first-grade students elsewhere and found the results accord with those from STAR. STAR and SAGE have made it hard to argue against reducing class sizes. But the California initiative shows that reductions made with too little forethought can yield minuscule gains. Administrators need solid information before they can make sensible policy decisions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "table_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has six paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A–F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in boxes 27–31 on your answer sheet. NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {
+                                "style": "min-width: 250px;"
+                              },
+                              "children": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "27"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " detailed criticism of the methodology of a project"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "28"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a comparison of the data from class-size reduction projects"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "29"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " the level of public interest in the issues of class-size reduction"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "30"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " details of action taken to protect the validity of a project"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "31"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " reasons why class composition changed during a project"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "matching",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": true,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q6-7-8-9-10-11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Classify the following statements as referring to:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Project STAR    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The California Project    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " SAGE"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, A, B or C, in boxes 32–40 on your answer sheet. NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The student composition of each class was left to chance."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q6",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q6"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " A long-term improvement in performance was claimed."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q7",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q7"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Similar results were obtained for all social groups."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q8",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The project was a preliminary to a more comprehensive study."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q9",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Several different class types were involved in the project."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " A special group of schools was selected to take part."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q11",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q11"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Classroom assistants were used as part of the project."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The project was responsible for aggravating existing problems."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q13",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Certain groups of pupils within the sample were identified as having benefited."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q14",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q14"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "project-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Projects"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "A",
+                      "label": "A STAR",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "B",
+                      "label": "B California",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "C",
+                      "label": "C SAGE",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-7-8-9-10-11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "A",
+      "label": "A STAR"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "B",
+      "label": "B California"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "C",
+      "label": "C SAGE"
+    }
+  ],
+  "answerKey": {
+    "q1": "D",
+    "q2": "F",
+    "q3": "A",
+    "q4": "C",
+    "q5": "D",
+    "q6": "A",
+    "q7": "A",
+    "q8": "B",
+    "q9": "C",
+    "q10": "A",
+    "q11": "C",
+    "q12": "A",
+    "q13": "B",
+    "q14": "A"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-anchor",
+    "q2": "q1-2-3-4-5-anchor",
+    "q3": "q1-2-3-4-5-anchor",
+    "q4": "q1-2-3-4-5-anchor",
+    "q5": "q1-2-3-4-5-anchor",
+    "q6": "q6-7-8-9-10-11-12-13-14-anchor",
+    "q7": "q7",
+    "q8": "q8",
+    "q9": "q9",
+    "q10": "q10",
+    "q11": "q11",
+    "q12": "q12",
+    "q13": "q13",
+    "q14": "q14"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ]
+  },
+  "totalQuestions": 14
+}

@@ -1,0 +1,1779 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-medium-10",
+  "meta": {
+    "title": "A study of western celebrity",
+    "category": "P2",
+    "frequency": "medium",
+    "pdfFilename": "107. P2 - A study of western celebrity 西方名人【次】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/107. P2 - A study of western celebrity 西方名人【次】/",
+    "legacyFilename": "107. P2 - A study of western celebrity 西方名人【次】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "A study of western celebrity 西方名人"
+  },
+  "explanationKey": "p2-medium-10",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A study of western celebrity"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In our celebrity-obsessed culture, TV shows, internet blogs, and even newspapers are often full of the latest news, gossip and scandals about current celebrities"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-A-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q14):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "A",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " It seems that our current society cannot get enough information about the daily lives of celebrities. But how did celebrities become such an important force in our culture? While people have always shared a certain obsession with the fantastic and the famous, the notion of celebrity, as well as the types of people termed ‘celebrities', has evolved greatly throughout the ages. The word 'celebrity' has its roots in the language of the ancient Roman civilization. The word we now know to mean 'a condition of being famous' or 'a famous person' is derived from the Latin word ‘celeber', meaning ‘frequented or populous'."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-B-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q15):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "B",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The celebrities of the ancient world were the powerful and awesome deities of Greece and Rome, and the citizens of these civilizations believed in a vast number of immortals who had a direct impact on their lives. It was, therefore, important to know about these figures' personal lives. This need to know led to the creation of myths, which personalized the gods and involved them in ancient celebrity scandals that thrilled and excited the common people."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-C-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q16):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "C",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " During ancient times, amateur and professional athletes also began to make an impact on the celebrity culture. Victors in the ancient Olympic Games were treated as heroes and were often elevated to god-like status. In the ancient Roman civilization, gladiators – the equivalent of today's professional athletes – were also revered by the common people for their heroics and seemingly superhuman strength."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-D-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q17):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "D",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " As Europe moved into the Dark Ages (the years spanning approximately 400–1300 AD) and a time when athletics and the arts were largely forgotten, monarchs and rulers continued to maintain celebrity status, while religious figures took on newfound fame. The miraculous lives and fascinating deaths of spiritual figures lent excitement to the lives of common people when there was often little else to be excited about, as they faced war, disease and food shortages."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-E-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q18):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "E",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " During the period 1300–1600 AD, or the Renaissance period as it is known, interest in ruling figures faded. As Europe emerged from its long neglect of the arts, there was greater appreciation for portraits, statues and stone carvings. This period of appreciation for the arts lent a sense of celebrity to artists who were noted for their works and their personal achievements. It was a time when artists began to surpass political and religious individuals for supreme celebrity – a trend that would continue into later centuries."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-F-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q19):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "F",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " While the figures of the ancient and early modern civilizations were able to achieve moderate and sometimes lasting celebrity within particular cultures, the global reach of their fame was limited. It was not until the 1700s, when technological advances made publishing commercially viable, that the extent of a person's fame could spread further. The increase in the availability of the written word was accompanied by a huge rise in the number of common people who could read, allowing a mass audience to find out about celebrities for the first time. Suddenly, the lives of authors, politicians, war heroes, and other celebrities could now be read about in newspapers around the world. These gave ordinary people the opportunity to become intimately knowledgeable about the figures they most admired."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-G-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q20):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone match-dropzone",
+                "data-paragraph": "G",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " In the modern era, particularly as radio and film took off in the 1900s, things really began to change. First, radio began to make its way into the average home in the 1920s and 1930s. Professional athletes also began to be regarded as stars, as their games and exploits could be broadcast over the air for an entirely new audience. Then, the rise of television in the 1950s only cemented the premier level of celebrity that film stars, athletes and television actors were beginning to share. This also meant a huge increase in the individual salaries of these celebrities. Even a few animals gained fame through children's TV shows. The emergence of reality television shows in the late 1990s allowed all kinds of people with little ability to enjoy a short burst of fame on the television screen. All you needed, it seemed, was an attractive appearance. Today, reality television programmers make it possible to be famous not for doing anything in particular, but simply for being, with the audience deciding whether someone deserves to become a celebrity or not. As the meaning of celebrity continues to evolve and redefine itself in a quickly changing world, there is no telling who will become of interest next."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–20"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 2 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct number, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "i–x"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in boxes 14–20 on your answer sheet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i Why it is necessary to explain the meaning of the word celebrity",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii The influence of non-human celebrities on societies",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii The impact of broadcasting on concepts of celebrity",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv Creativity having greater value",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v Admiration for physical achievement",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi The advantages of celebrity status in the ancient world",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii A result of hardship",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii Literacy and widespread celebrity",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix Attitudes of celebrities towards the media",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "x",
+                      "label": "x The original definition of celebrity",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "x"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "matching",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 21–23"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 21–23) and the list of historical periods in Europe below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct historical period, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "21"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " A wide variety of people achieve a brief period of fame."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q8",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "22"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Stories are invented about celebrities' lives."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q9",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "23"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " The fame of rulers is starting to diminish."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q10",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "periods-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of historical periods in Europe"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-2"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "A",
+                      "label": "A Ancient times",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "B",
+                      "label": "B Dark Ages",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "C",
+                      "label": "C Renaissance",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "D",
+                      "label": "D Modern era",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 历史时期配对（Questions 21–23）",
+        "mode": "group",
+        "questionRange": {
+          "start": 21,
+          "end": 23
+        },
+        "text": "答案：D Modern era （现代）\n解析：G段提到真人秀“allowed all kinds of people with little ability to enjoy a short burst of fame”。\n答案：A Ancient times （古代）\n解析：B段提到这种了解的需求导致了“the creation of myths, which personalised the gods”。\n答案：C Renaissance （文艺复兴时期）\n解析：E段开头说“interest in ruling figures faded...”，艺术家开始超越政治人物。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "(1) 题目 21：A wide variety of people achieve a brief period of fame. （各种各样的人获得短暂的名声。）\n答案：D Modern era （现代）\n解析：G段提到真人秀“allowed all kinds of people with little ability to enjoy a short burst of fame”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "(2) 题目 22：Stories are invented about celebrities' lives. （关于名人生平的故事是被创造出来的。）\n答案：A Ancient times （古代）\n解析：B段提到这种了解的需求导致了“the creation of myths, which personalised the gods”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "(3) 题目 23：The fame of rulers is starting to diminish. （统治者的声望开始减弱。）\n答案：C Renaissance （文艺复兴时期）\n解析：E段开头说“interest in ruling figures faded...”，艺术家开始超越政治人物。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 24–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Celebrities achieve a global status"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The development of the publishing industry in the 1700s signalled the beginning of international fame. A growing number of people could read, which meant they had the chance to become informed about their favourite figures by reading "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "name": "q11",
+                        "type": "text",
+                        "id": "q24_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". This exposure to celebrities expanded further when radio and television became popular, and it was mass media attention that resulted in higher status and fame for some celebrities. The recent rise of reality television has also meant that a person's "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "name": "q12",
+                        "type": "text",
+                        "id": "q25_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " rather than their talent can bring fame. With this type of television programme, fame may be entirely dependent on the response of the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "name": "q13",
+                        "type": "text",
+                        "id": "q26_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 摘要填空（Questions 24–26）",
+        "mode": "group",
+        "questionRange": {
+          "start": 24,
+          "end": 26
+        },
+        "text": "答案：newspapers\n解析：F段提到，人们“could now be read about in newspapers around the world”。\n答案：appearance\n解析：G段提到，在真人秀时代，“All you needed, it seemed, was an attractive appearance”。\n答案：audience\n解析：G段结尾说，“with the audience deciding whether someone deserves to become a celebrity or not”。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "(1) 题目 24：A growing number of people could read, which meant they had the chance to become informed about their favourite figures by reading 24 \\___\\___. （越来越多的人能够阅读，这意味着他们有机会通过阅读报纸来了解他们最喜欢的人物。）\n答案：newspapers\n解析：F段提到，人们“could now be read about in newspapers around the world”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 25,
+            "text": "(2) 题目 25：The recent rise of reality television has also meant that a person's 25 \\___\\___ rather than their talent can bring fame. （真人秀的兴起也意味着一个人的外貌而非其才华可以带来名声。）\n答案：appearance\n解析：G段提到，在真人秀时代，“All you needed, it seemed, was an attractive appearance”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 26,
+            "text": "(3) 题目 26：With this type of television programme, fame may be entirely dependent on the response of the 26 \\___\\___. （通过这类电视节目，名声可能完全取决于观众的反应。）\n答案：audience\n解析：G段结尾说，“with the audience deciding whether someone deserves to become a celebrity or not”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "para-A-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "para-B-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "para-C-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "para-D-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "para-E-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "para-F-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "para-G-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8-9-10-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11-12-13-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q25_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q26_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i Why it is necessary to explain the meaning of the word celebrity"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii The influence of non-human celebrities on societies"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii The impact of broadcasting on concepts of celebrity"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv Creativity having greater value"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v Admiration for physical achievement"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi The advantages of celebrity status in the ancient world"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii A result of hardship"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii Literacy and widespread celebrity"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix Attitudes of celebrities towards the media"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "x",
+      "label": "x The original definition of celebrity"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "A",
+      "label": "A Ancient times"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "B",
+      "label": "B Dark Ages"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "C",
+      "label": "C Renaissance"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "D",
+      "label": "D Modern era"
+    }
+  ],
+  "answerKey": {
+    "q1": "x",
+    "q2": "ii",
+    "q3": "v",
+    "q4": "vii",
+    "q5": "iv",
+    "q6": "viii",
+    "q7": "iii",
+    "q8": "D",
+    "q9": "A",
+    "q10": "C",
+    "q11": "newspapers",
+    "q12": "appearance",
+    "q13": "audience"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {
+    "A": "para-A-anchor",
+    "B": "para-B-anchor",
+    "C": "para-C-anchor",
+    "D": "para-D-anchor",
+    "E": "para-E-anchor",
+    "F": "para-F-anchor",
+    "G": "para-G-anchor"
+  },
+  "questionAnchors": {
+    "q1": "para-A-anchor",
+    "q2": "para-B-anchor",
+    "q3": "para-C-anchor",
+    "q4": "para-D-anchor",
+    "q5": "para-E-anchor",
+    "q6": "para-F-anchor",
+    "q7": "para-G-anchor",
+    "q8": "q8-9-10-anchor",
+    "q11": "q11-12-13-anchor",
+    "q24": "q24_input",
+    "q25": "q25_input",
+    "q12": "q25_input",
+    "q26": "q26_input",
+    "q13": "q26_input",
+    "q9": "q9",
+    "q10": "q10"
+  },
+  "fields": {
+    "choiceGroups": [],
+    "textQuestions": [
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10"
+    ]
+  },
+  "totalQuestions": 13
+}

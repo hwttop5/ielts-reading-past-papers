@@ -1,0 +1,2905 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-181",
+  "meta": {
+    "title": "The Fruit Book",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "89. P3 - The Fruit Book 果实之书【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/89. P3 - The Fruit Book 果实之书【高】/",
+    "legacyFilename": "89. P3 - The Fruit Book 果实之书【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "The Fruit Book 果实之书"
+  },
+  "explanationKey": "p3-high-181",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Fruit Book"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It's not every scientist who writes books for people who can't read. And how many scientists want their books to look as dog-eared as possible? But Patricia Shanley, an ethnobotanist, wanted to give something back. After the poorest people of the Amazon allowed her to study their land and its ecology, she turned her research findings into a picture book that tells the local people how to get a good return from their trees without succumbing to the lure of a quick buck from a logging company. It has proved a big success."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The book is called Fruit Trees and Useful Plants in the Lives of Amazonians, but is better known simply as the “fruit book”. The second edition was produced at the request of politicians in western Amazonia. Its blend of hard science and local knowledge on the use and trade of 35 native forest species has been so well received (and well used) that no less a dignitary than Brazil's environment minister, Marina Silva, has written the foreword. “There is nothing else like the Shanley book,” says Adalberto Veríssimo, director of the Institute of People and the Environment of the Amazon. “It gives science back to the poor, to the people who really need it.\""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Shanley's work on the book began a decade ago, with a plea for help from the Rural Workers' Union of Paragominas, a Brazilian town whose prosperity is based on exploitation of timber. The union realised that logging companies would soon be knocking on the doors of the caboclos, peasant farmers living on the Rio Capim, an Amazon tributary in the Brazilian state of Pará. Isolated and illiterate, the caboclos would have little concept of the true value of their trees; communities downstream had already sold off large blocks of forest for a pittance. “What they wanted to know was how valuable the forests were,” recalls Shanley, then a researcher in the area for the Massachusetts-based Woods Hole Research Centre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The Rural Workers' Union wanted to know whether harvesting wild fruits would make economic sense in the Rio Capim. “There was a lot of interest in trading non-timber forest products (NTFPs),” Shanley says. At the time, environmental groups and green-minded businesses were promoting the idea. This was the view presented in a seminal paper, Valuation of an Amazonian Rainforest, published in Nature in 1989. The researchers had calculated that revenues from the sale of fruits could far exceed those from a one-off sale of trees to loggers. “The union was keen to discover whether it made more sense conserving the forest for subsistence use and the possible sale of fruit, game and medicinal plants, than selling trees for timber,” says Shanley. Whether it would work for the caboclos was far from clear."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Although Shanley had been invited to work in the Rio Capim, some caboclos were suspicious. “When Patricia asked if she could study my forest,” says Joao Fernando Moreira Brito, “my neighbours said she was a foreigner who'd come to rob me of my trees.” In the end, Moreira Brito, or Mangueira as he is known, welcomed Shanley and worked on her study. His land, an hour's walk from the Rio Capim, is almost entirely covered with primary forest. A study of this and other tracts of forest selected by the communities enabled Shanley to identify three trees, found throughout the Amazon, whose fruit was much favoured by the caboclos: bacuri (Platonia insignis), uxi (Endopleura uchi) and piquia (Caryocar villosum). The caboclos used their fruits, extracted oils, and knew what sort of wildlife they attracted. But, in the face of aggressive tactics from the logging companies, they had no measure of the trees' financial worth. The only way to find out, Shanley decided, was to start from scratch with a scientific study. “From a scientific point of view, hardly anything was known about these trees,” she says. But six years of field research yielded a mass of data on their flowering and fruiting behaviour. During 1993 and 1994, 30 families weighed everything they used from the forest – game, fruit, fibre, medicinal plants – and documented its source."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " After three logging sales and a major fire in 1997, the researchers were also able to study the ecosystem's reaction to logging and disturbance. They carried out a similar, though less exhaustive, study in 1999, this time with 15 families. The changes were striking. Average annual household consumption of forest fruit had fallen from 89 to 28 kilograms between 1993 and 1999. “What we found,” says Shanley, “was that fruit collection could coexist with a certain amount of logging, but after the forest fire, it dropped dramatically.” Over the same period, fibre use also dropped from around 20 to 4 kilograms. The fire and logging also changed the nature of the caboclo diet. In 1993 most households ate game two or three times a month. By 1999 some were fortunate if they ate game more than two or three times a year."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The loss of certain species of tree was especially significant. Shanley's team persuaded local hunters to weigh their catch, noting the trees under which the animals were caught. Over the year, they trapped five species of game averaging 232 kilogrammes under piquia trees. Under copaiba, they caught just two species averaging 63 kilogrammes; and under uxi, four species weighing 38 kilogrammes. At last, the team was getting a handle on which trees were worth keeping, and which could reasonably be sold. “This showed that selling piquia trees to loggers for a few dollars made little sense,” explains Shanley. “Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species.”"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " As a result of these studies, Shanley had to tell the Rural Workers' Union of Paragominas that the Nature thesis could not be applied wholesale to their community – harvesting NTFPs would not always yield more than timber sales. Fruiting patterns of trees such as uxi were unpredictable, for example. In 1994, one household collected 3,654 uxi fruits; the following year, none at all."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " This is not to say that wild fruit trees were unimportant. On the contrary, argues Shanley, they are critical for subsistence, something that is often ignored in much of the current research on NTFPs, which tends to focus on their commercial potential. Geography was another factor preventing the Rio Capim caboclos from establishing a serious trade in wild fruit: villagers in remote areas could not compete with communities collecting NTFPs close to urban markets, although they could sell them to passing river boats."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "I"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " But Shanley and her colleagues decided to do more than just report their results to the union. Together with two of her research colleagues, Shanley wrote the fruit book. This, the Bible and a publication on medicinal plants co-authored by Shanley and designed for people with minimal literacy skills are about the only books you will see along this stretch of the Rio Capim. The first print run was only 3,000 copies, but the fruit book has been remarkably influential, and is used by colleges, peasant unions, industries and the caboclos themselves. Its success is largely due to the fact that people with poor literacy skills can understand much of the information it contains about the non-timber forest products, thanks to its illustrations, anecdotes, stories and songs. “The book doesn't tell people what to do,” says Shanley, “but it does provide them with choices.\" The caboclos who have used the book now have a much better understanding of which trees to sell to the loggers, and which to protect."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "table_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–32"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has nine paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–I"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A–I"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in boxes 27–32 on your answer sheet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "G"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "H"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "I"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "27"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " A description of Shanley's initial data collection"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "I",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "I"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "28"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Why a government official also contributes to the book"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "I",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "I"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "29"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Reasons why the community asked Shanley to conduct the research"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "I",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "I"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "30"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Reference to the starting point of her research"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "I",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "I"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "31"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Two factors that alter food consumption patterns"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "I",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "I"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "32"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Why the book is successful"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "I",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "I"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落匹配（Questions 27–32：Which paragraph contains the following information?）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "答案：D\n解析：定位 Paragraph D 中 “Six years of field research yielded a mass of data on their flowering and fruiting behaviour. During 1993 and 1994, 30 families weighed everything they used from the forest – game, fruit, fibre, medicinal plants – and documented its source”，明确描述 “1993-1994 年 30 户家庭称重记录资源” 这一 “最初数据收集” 过程，与题干对应，因此答案为 D。\n答案：A\n解析：定位 Paragraph A 中 “The second edition was produced at the request of politicians in western Amazonia... Brazil’s environment minister, Marina Silva, has written the foreword”，“应政界请求出版第二版，部长作序” 解释 “政府官员出力的原因”，与题干对应，因此答案为 A。\n答案：C\n解析：定位 Paragraph C 中 “The Rural Workers’ Union wanted to know whether harvesting wild fruits would make economic sense... the union was keen to discover whether it made more sense conserving the forest for subsistence use and the possible sale of fruit... than selling trees for timber”，明确说明 “工会想确认果实采集是否比卖木材更经济” 这一 “请求原因”，与题干对应，因此答案为 C。\n答案：B\n解析：定位 Paragraph B 中 “Shanley’s work on the book began a decade ago, with a plea for help from the Rural Workers’ Union of Paragominas”，“十年前受工会请求开始” 明确 “研究起点”，与题干对应，因此答案为 B。\n答案：E\n解析：定位 Paragraph E 中 “After three logging sales and a major fire in 1997... The fire and logging also changed the nature of the caboclo diet”，“伐木和火灾” 是改变饮食模式的两个因素，与题干对应，因此答案为 E。\n答案：I\n解析：定位 Paragraph I 中 “Its success is largely due to the fact that people with poor literacy skills can understand much of the information it contains about the non-timber forest products, thanks to its illustrations, anecdotes, stories and songs... it does provide them with choices”，明确说明 “低识字率友好设计、提供选择” 等成功原因，与题干对应，因此答案为 I。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：A description of Shanley’s initial data collection（尚利最初数据收集的描述）\n答案：D\n解析：定位 Paragraph D 中 “Six years of field research yielded a mass of data on their flowering and fruiting behaviour. During 1993 and 1994, 30 families weighed everything they used from the forest – game, fruit, fibre, medicinal plants – and documented its source”，明确描述 “1993-1994 年 30 户家庭称重记录资源” 这一 “最初数据收集” 过程，与题干对应，因此答案为 D。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Why a government official also contributes to the book（政府官员为何也为该书出力）\n答案：A\n解析：定位 Paragraph A 中 “The second edition was produced at the request of politicians in western Amazonia... Brazil’s environment minister, Marina Silva, has written the foreword”，“应政界请求出版第二版，部长作序” 解释 “政府官员出力的原因”，与题干对应，因此答案为 A。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Reasons why the community asked Shanley to conduct the research（社区请求尚利开展研究的原因）\n答案：C\n解析：定位 Paragraph C 中 “The Rural Workers’ Union wanted to know whether harvesting wild fruits would make economic sense... the union was keen to discover whether it made more sense conserving the forest for subsistence use and the possible sale of fruit... than selling trees for timber”，明确说明 “工会想确认果实采集是否比卖木材更经济” 这一 “请求原因”，与题干对应，因此答案为 C。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Reference to the starting point of her research（提及她研究的起点）\n答案：B\n解析：定位 Paragraph B 中 “Shanley’s work on the book began a decade ago, with a plea for help from the Rural Workers’ Union of Paragominas”，“十年前受工会请求开始” 明确 “研究起点”，与题干对应，因此答案为 B。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Two factors that alter food consumption patterns（改变饮食消费模式的两个因素）\n答案：E\n解析：定位 Paragraph E 中 “After three logging sales and a major fire in 1997... The fire and logging also changed the nature of the caboclo diet”，“伐木和火灾” 是改变饮食模式的两个因素，与题干对应，因此答案为 E。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：Why the book is successful（该书成功的原因）\n答案：I\n解析：定位 Paragraph I 中 “Its success is largely due to the fact that people with poor literacy skills can understand much of the information it contains about the non-timber forest products, thanks to its illustrations, anecdotes, stories and songs... it does provide them with choices”，明确说明 “低识字率友好设计、提供选择” 等成功原因，与题干对应，因此答案为 I。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-10-11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 33–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN THREE WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Forest fire has caused local villagers to consume less:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    • "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q33_input",
+                        "name": "q7"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    • "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q34_input",
+                        "name": "q8"
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    • game\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    There is the least amount of game hunted under "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q35_input",
+                        "name": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "; yield is also "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q36_input",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Thus, it is more reasonable to keep "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q37_input",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    All the trees can also be used for "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q38_input",
+                        "name": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " besides selling them to loggers. But this is often ignored, because most research usually focuses on the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q39_input",
+                        "name": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " of the trees.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The purpose of the book:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    • To give information about "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q14",
+                      "fieldName": "q14",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q40_input",
+                        "name": "q14"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 摘要填空（Questions 33–40：NO MORE THAN THREE WORDS）",
+        "mode": "group",
+        "questionRange": {
+          "start": 33,
+          "end": 40
+        },
+        "text": "答案：forest fruit（森林果实）\n解析：定位 Paragraph E 中 “Average annual household consumption of forest fruit had fallen from 89 to 28 kilograms between 1993 and 1999”，“果实消费量下降”，因此答案为 “forest fruit”。\n答案：fibre（纤维）\n解析：定位 Paragraph E 中 “Over the same period, fibre use also dropped from around 20 to 4 kilograms”，“纤维使用量下降”，因此答案为 “fibre”。\n答案：uxi (trees)（乌西树）\n解析：定位 Paragraph F 中 “under uxi, four species weighing 38 kilogrammes”，“乌西树下猎物仅 38 公斤，为最少”，因此答案为 “uxi (trees)”。\n答案：unpredictable（不可预测）\n解析：定位 Paragraph G 中 “Fruiting patterns of trees such as uxi were unpredictable”，“乌西树结果模式不可预测”，因此答案为 “unpredictable”。\n答案：piquia trees（皮奎亚树）\n解析：定位 Paragraph F 中 “selling piquia trees to loggers for a few dollars made little sense... Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species”，“皮奎亚树价值高，应保留”，因此答案为 “piquia trees”。\n答案：subsistence（自给自足）\n解析：定位 Paragraph H 中 “they are critical for subsistence, something that is often ignored in much of the current research on NTFPs”，“树木对自给自足至关重要”，因此答案为 “subsistence”。\n答案：commercial potential（商业潜力）\n解析：定位 Paragraph H 中 “current research on NTFPs, which tends to focus on their commercial potential”，“研究聚焦商业潜力”，因此答案为 “commercial potential”。\n答案：non-timber forest products（非木材森林产品）\n解析：定位 Paragraph I 中 “understand much of the information it contains about the non-timber forest products”，“提供非木材森林产品信息”，因此答案为 “non-timber forest products”。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（1）题目 33：Forest fire has caused local villagers to consume less: （火灾导致当地村民减少消费：）\n答案：forest fruit（森林果实）\n解析：定位 Paragraph E 中 “Average annual household consumption of forest fruit had fallen from 89 to 28 kilograms between 1993 and 1999”，“果实消费量下降”，因此答案为 “forest fruit”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（2）题目 34：（）\n答案：fibre（纤维）\n解析：定位 Paragraph E 中 “Over the same period, fibre use also dropped from around 20 to 4 kilograms”，“纤维使用量下降”，因此答案为 “fibre”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（3）题目 35：There is the least amount of game hunted under \\___\\___（\\___\\___树下捕获的猎物最少）\n答案：uxi (trees)（乌西树）\n解析：定位 Paragraph F 中 “under uxi, four species weighing 38 kilogrammes”，“乌西树下猎物仅 38 公斤，为最少”，因此答案为 “uxi (trees)”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（4）题目 36：yield is also （产量也）\n答案：unpredictable（不可预测）\n解析：定位 Paragraph G 中 “Fruiting patterns of trees such as uxi were unpredictable”，“乌西树结果模式不可预测”，因此答案为 “unpredictable”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（5）题目 37：Thus, it is more reasonable to keep （因此，更合理的做法是保留）\n答案：piquia trees（皮奎亚树）\n解析：定位 Paragraph F 中 “selling piquia trees to loggers for a few dollars made little sense... Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species”，“皮奎亚树价值高，应保留”，因此答案为 “piquia trees”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（6）题目 38：All the trees can also be used for \\___\\___ besides selling them to loggers.（除卖给伐木公司外，所有树木还可用于_\\___\\__）\n答案：subsistence（自给自足）\n解析：定位 Paragraph H 中 “they are critical for subsistence, something that is often ignored in much of the current research on NTFPs”，“树木对自给自足至关重要”，因此答案为 “subsistence”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（7）题目 39：But this is often ignored, because most research usually focuses on the \\___\\___ of the trees.（但这常被忽视，因多数研究通常聚焦树木的_\\___\\__）\n答案：commercial potential（商业潜力）\n解析：定位 Paragraph H 中 “current research on NTFPs, which tends to focus on their commercial potential”，“研究聚焦商业潜力”，因此答案为 “commercial potential”。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（8）题目 40：The purpose of the book: To give information about \\___\\___（该书目的：提供关于_\\___\\__的信息）\n答案：non-timber forest products（非木材森林产品）\n解析：定位 Paragraph I 中 “understand much of the information it contains about the non-timber forest products”，“提供非木材森林产品信息”，因此答案为 “non-timber forest products”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-8-9-10-11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q34_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q35_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q36_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q37_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q38_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q39_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q40_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "D",
+    "q2": "A",
+    "q3": "C",
+    "q4": "B",
+    "q5": "E",
+    "q6": "I",
+    "q7": [
+      "forest fruit",
+      "fruit"
+    ],
+    "q8": [
+      "fibre"
+    ],
+    "q9": [
+      "uxi trees",
+      "uxi"
+    ],
+    "q10": [
+      "unpredictable"
+    ],
+    "q11": [
+      "piquia trees"
+    ],
+    "q12": [
+      "subsistence use",
+      "subsistence"
+    ],
+    "q13": [
+      "commercial potential"
+    ],
+    "q14": [
+      "non-timber forest products",
+      "ntfps"
+    ]
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q2": "q1-2-3-4-5-6-anchor",
+    "q3": "q1-2-3-4-5-6-anchor",
+    "q4": "q1-2-3-4-5-6-anchor",
+    "q5": "q1-2-3-4-5-6-anchor",
+    "q6": "q1-2-3-4-5-6-anchor",
+    "q7": "q7-8-9-10-11-12-13-14-anchor",
+    "q33": "q33_input",
+    "q34": "q34_input",
+    "q8": "q34_input",
+    "q35": "q35_input",
+    "q9": "q35_input",
+    "q36": "q36_input",
+    "q10": "q36_input",
+    "q37": "q37_input",
+    "q11": "q37_input",
+    "q38": "q38_input",
+    "q12": "q38_input",
+    "q39": "q39_input",
+    "q13": "q39_input",
+    "q40": "q40_input",
+    "q14": "q40_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 14
+}

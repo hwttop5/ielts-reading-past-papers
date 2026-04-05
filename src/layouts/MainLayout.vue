@@ -32,6 +32,11 @@
           <button class="quick-action" @click="toggleTheme" :title="isDarkMode ? t('theme.lightMode') : t('theme.darkMode')">
             <span class="material-icons action-icon">{{ isDarkMode ? 'light_mode' : 'dark_mode' }}</span>
           </button>
+          <a class="quick-action" href="https://github.com/hwttop5/ielts-reading-past-papers" target="_blank" rel="noopener noreferrer" :title="t('menu.github')">
+            <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
           <button class="quick-action mobile-menu-toggle" @click="toggleMobileMenu" :title="t('menu.menu')">
             <span class="material-icons action-icon">{{ showMobileMenu ? 'close' : 'menu' }}</span>
           </button>
@@ -52,18 +57,18 @@
         <div class="mobile-menu" @click.stop>
           <div class="mobile-menu-header">
             <div class="mobile-menu-title-group">
-              <span class="mobile-menu-title">{{ t('menu.menu') }}</span>
+              <span class="mobile-menu-title">{{ t('app.name') }}</span>
               <span class="mobile-menu-subtitle">{{ t('app.title') }}</span>
             </div>
-            <button class="close-button" @click="showMobileMenu = false">
+            <button class="mobile-menu-close" @click="showMobileMenu = false">
               <span class="material-icons">close</span>
             </button>
           </div>
           
           <div class="mobile-menu-content">
             <div class="mobile-nav">
-              <div 
-                v-for="item in mainMenuItems" 
+              <div
+                v-for="item in mainMenuItems"
                 :key="item.key"
                 :class="['mobile-nav-item', { active: isMenuActive(item.key) }]"
                 @click="handleMenuClick(item)"
@@ -71,6 +76,37 @@
                 <span class="material-icons mobile-nav-icon">{{ item.icon }}</span>
                 <span class="mobile-nav-text">{{ t(item.labelKey) }}</span>
               </div>
+
+              <!-- 语言切换 -->
+              <div
+                :class="['mobile-nav-item', 'settings-divider']"
+                @click="toggleLang"
+              >
+                <span class="material-icons mobile-nav-icon">translate</span>
+                <span class="mobile-nav-text">{{ currentLang === 'zh' ? t('lang.en') : t('lang.zh') }}</span>
+              </div>
+
+              <!-- 主题切换 -->
+              <div
+                class="mobile-nav-item"
+                @click="toggleTheme"
+              >
+                <span class="material-icons mobile-nav-icon">{{ isDarkMode ? 'light_mode' : 'dark_mode' }}</span>
+                <span class="mobile-nav-text">{{ isDarkMode ? t('theme.lightMode') : t('theme.darkMode') }}</span>
+              </div>
+
+              <!-- GitHub -->
+              <a
+                class="mobile-nav-item"
+                href="https://github.com/hwttop5/ielts-reading-past-papers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mobile-github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span class="mobile-nav-text">{{ t('menu.github') }}</span>
+              </a>
             </div>
           </div>
         </div>
@@ -355,6 +391,23 @@ onUnmounted(() => {
   font-size: 16px;
 }
 
+.github-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--text-secondary);
+}
+
+.quick-action:hover .github-icon {
+  color: var(--primary-color);
+}
+
+.mobile-github-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
 .mobile-menu-toggle {
   display: none;
 }
@@ -378,7 +431,7 @@ onUnmounted(() => {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 998;
+  z-index: 1001;
   backdrop-filter: blur(4px);
 }
 
@@ -396,46 +449,32 @@ onUnmounted(() => {
   border-left: 1px solid var(--border-color);
 }
 
+.mobile-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-tertiary);
+  border: none;
+  cursor: pointer;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
 .mobile-menu-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px 24px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 16px;
   border-bottom: 1px solid var(--border-color);
   background: var(--bg-secondary);
+  min-height: 56px;
 }
 
 .mobile-menu-title-group {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.mobile-menu-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.mobile-menu-subtitle {
-  font-size: 12px;
-  color: var(--text-tertiary);
-}
-
-.close-button {
-  padding: 8px;
-  border: none;
-  background: transparent;
-  color: var(--text-tertiary);
-  font-size: 20px;
-  cursor: pointer;
-  transition: var(--transition);
-  border-radius: var(--radius-sm);
-}
-
-.close-button:hover {
-  background: var(--bg-tertiary);
-  color: var(--text-primary);
+  display: none;
 }
 
 .mobile-menu-content {
@@ -453,15 +492,32 @@ onUnmounted(() => {
   cursor: pointer;
   transition: all 0.2s ease;
   margin-bottom: 8px;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.mobile-nav-item.settings-divider {
+  margin-top: 16px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 16px;
 }
 
 .mobile-nav-item:hover {
   background: var(--bg-tertiary);
+  color: var(--text-primary);
 }
 
 .mobile-nav-item.active {
   background: rgba(37, 99, 235, 0.1);
   color: var(--primary-color);
+}
+
+.mobile-nav-item svg {
+  flex-shrink: 0;
+}
+
+.mobile-nav-item .mobile-github-icon {
+  color: var(--text-primary) !important;
 }
 
 .mobile-nav-icon {

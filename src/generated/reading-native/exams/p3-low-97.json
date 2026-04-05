@@ -1,0 +1,2167 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-low-97",
+  "meta": {
+    "title": "Saving languages",
+    "category": "P3",
+    "frequency": "low",
+    "pdfFilename": "186. P3 - Saving languages 拯救濒危语言.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/186. P3 - Saving languages 拯救濒危语言/",
+    "legacyFilename": "186. P3 - Saving languages 拯救濒危语言.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Saving languages 拯救濒危语言"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Saving languages"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The campaign to keep minority languages alive"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q1",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Ten years ago, Michael Krauss, a professor at the University of Alaska, shocked his colleagues in the discipline of linguistics with his prediction that half the 6,000 or so languages spoken in the world would disappear within a century. Krauss founded the Alaskan Native Language Center to preserve as much as possible of the 20 tongues still known to the state's indigenous people. Only two of those languages were being taught to children, and the rest were rapidly falling from use. Other linguists are making similar predictions. A survey in Australia found that 70 of the surviving 90 Aboriginal languages were no longer used regularly by all age groups. The same is true for all but 20 of the other 175 North American languages in the US."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q2",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Outwardly, the consolidation of human language might seem like a good trend that could ease ethnic tensions and aid global commerce. Linguists don't deny those benefits, and they acknowledge that small communities often choose to switch to the majority language because they believe it will boost their social or economic status."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q3",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Many experts in the field nonetheless mourn the loss of rare languages, for several reasons. Some of the most basic questions in linguistics have to do with the limits of human speech, still far from fully explored. Many researchers would like to know which elements of grammar and vocabulary—if any—are universal. An English researcher, Nicholas Ostler, offers an example: 'Ica, spoken in northern Colombia, seems to have nothing comparable to a personal pronoun system—I, we, you, etc. Otherwise, I would have thought that personal pronouns were a linguistic universal.' Other scientists try to reconstruct ancient migration patterns by comparing borrowed words in otherwise unrelated languages. In each of these cases, the wider the range of languages you study, the more likely you are to get the right answers."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-dropzone match-dropzone",
+                "data-question": "qD"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " 'I think the value is mostly in human terms,' says James Matisoff, a specialist in rare Asian languages at the University of California. ‘Language is the most important element in the culture of a community. When it dies, you lose the special knowledge of that culture and a unique window on the world. But despite the constant talk about saving endangered languages over the past ten years, the field of descriptive linguistics has accomplished little in this respect. You would think that there would be some organised response to this situation, some attempt to determine which languages can be saved and which should be documented before they disappear,' says Sarah G. Thomason, of the University of Michigan. ‘But there isn't any such effort.'"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q4",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " However, there are some signs of progress. The Volkswagen Foundation, a German charity, has created a multimedia archive in the Netherlands that can house recordings, grammars, dictionaries and other data. Contributions from the Ford Foundation have helped a master-apprentice programme, in which fluent speakers receive $3,000 to teach a younger relative their native tongue through shared activities. So far, about 75 teams have completed the programme. ‘It's too early to call this language revitalisation,' admits Leanne Hinton of Berkeley. ‘In California, the death rate of elderly speakers will always be greater than the recruitment rate of young speakers. But if nothing else, we prolong the survival of the language.' This will give linguists more time to record these tongues before they vanish."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q5",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Complicating matters, dozens of institutions around the world are setting up digital libraries on endangered languages. This could create chaos, because the projects use non-standardised data formats, terminology and even names of languages. Gary F. Simons, of the Dallas-based research group SIL International, has been working to bring some order to this by building an ‘open languages data community'—a kind of digital card catalogue. This system will allow researchers to check their theories against a vast array of data."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q6",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " However, even if a language has been fully documented, all that remains once it vanishes from use is a fossil skeleton. Linguists may be able to sketch an outline of the language and fix its place on the evolutionary tree, but little more. As yet, there is no discipline of conservation linguistics. Almost every strategy to keep people speaking a language has succeeded in some places but failed in others. One factor that always seems to occur in the death of a language, according to Hans-Jurgen Sasse of the University of Cologne in Germany, is that speakers start regarding their own language as inferior to the majority language. Children pick up on the attitude, and prefer to speak the dominant language. This is how Cornish and some dialects of Scottish Gaelic slipped into extinction."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "match",
+              "questionId": "q7",
+              "paragraph": "",
+              "labelText": "",
+              "attrs": {
+                "class": "paragraph-heading-match-dropzone match-dropzone",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " 'Ultimately, the answer to the problem of language extinction is multilingualism,' argues James Matisoff. ‘Even uneducated people can speak a number of languages if they start as children.' Many people in the world are at least bilingual, and in some places it is common to speak three or four languages. But in addition to the fact that children may reject minority languages, there is also the concern that speakers of a majority language may react badly to speakers of minority languages. The first step in saving dying languages may be to persuade the world's majorities to allow the minorities among them to speak with their own voices."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–33"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has eight paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for paragraphs "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " and "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from the list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i The conservation role of majority language speakers",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii Some advantages of changing languages",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii The loss rate of European languages",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv Positive gains of conservation programmes",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v The economic value of minority languages",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi The success rate of language rescue strategies in the past decade",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii Improving the consistency of research data",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii The potential failure of language conservation",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix The value of minority languages to language researchers",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "x",
+                      "label": "x The current position of minority languages",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "x"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "matching",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-12-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 34–38"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each opinion with the correct person, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the long run, the California scheme will not have enough tutors."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q8",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Decisions need to be made about priorities in language rescue."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q9",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Languages currently in use face extinction in the foreseeable future."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " There is a solution to the problem of languages dying out."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q11",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q11"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " A language may be dying when its speakers begin to value it less."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "people-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of People"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-2"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "A",
+                      "label": "A Michael Krauss",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "B",
+                      "label": "B Nicholas Ostler",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "C",
+                      "label": "C James Matisoff",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "D",
+                      "label": "D Sarah G Thomason",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "E",
+                      "label": "E Leanne Hinton",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "F",
+                      "label": "F Gary F Simons",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "F"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "G",
+                      "label": "G Hans-Jurgen Sasse",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "G"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "single_choice",
+      "questionIds": [
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 39 and 40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Alaskan Language Center was set up to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A teach indigenous languages to children."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B revive indigenous languages which have fallen from use."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C prevent further loss of indigenous languages."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D predict the rate of loss of indigenous languages."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the writer, majority language speakers"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A usually speak more than one language."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B generally have a high level of education."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C should make an effort to learn a minority language."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D should be more tolerant of minority languages."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-6-7-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-9-10-11-12-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-14-anchor"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i The conservation role of majority language speakers"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii Some advantages of changing languages"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii The loss rate of European languages"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv Positive gains of conservation programmes"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v The economic value of minority languages"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi The success rate of language rescue strategies in the past decade"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii Improving the consistency of research data"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii The potential failure of language conservation"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix The value of minority languages to language researchers"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "x",
+      "label": "x The current position of minority languages"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "A",
+      "label": "A Michael Krauss"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "B",
+      "label": "B Nicholas Ostler"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "C",
+      "label": "C James Matisoff"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "D",
+      "label": "D Sarah G Thomason"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "E",
+      "label": "E Leanne Hinton"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "F",
+      "label": "F Gary F Simons"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "G",
+      "label": "G Hans-Jurgen Sasse"
+    }
+  ],
+  "answerKey": {
+    "q1": "x",
+    "q2": "ii",
+    "q3": "ix",
+    "q4": "iv",
+    "q5": "vii",
+    "q6": "viii",
+    "q7": "i",
+    "q8": "E",
+    "q9": "D",
+    "q10": "A",
+    "q11": "C",
+    "q12": "G",
+    "q13": "C",
+    "q14": "D"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-7-anchor",
+    "q8": "q8-9-10-11-12-anchor",
+    "q13": "q13-14-anchor",
+    "q2": "q2",
+    "q3": "q3",
+    "q4": "q4",
+    "q5": "q5",
+    "q6": "q6",
+    "q7": "q7",
+    "q9": "q9",
+    "q10": "q10",
+    "q11": "q11",
+    "q12": "q12",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12"
+    ]
+  },
+  "totalQuestions": 14
+}

@@ -1,0 +1,2212 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-low-84",
+  "meta": {
+    "title": "Why good ideas fail TF",
+    "category": "P1",
+    "frequency": "low",
+    "pdfFilename": "174. P1 - Why good ideas fail TF公司.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/174. P1 - Why good ideas fail TF公司/",
+    "legacyFilename": "174. P1 - Why good ideas fail TF公司.html",
+    "questionIntroHtml": "<h3>Questions 1–5</h3>",
+    "originalTitle": "Why good ideas fail TF公司"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Why good ideas fail"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "As part of a marketing course, two marketing experts comment on a hypothetical case study involving TF, a fictional retail giant specializing in home furnishing. The experts give concrete solutions and advice to assist students."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Hypothetical case study:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "TF became a retail success in the 1970s when it succeeded in spotting homeware trends and meeting the needs of its then trendy young customers. However, by 2004, the TF stores were failing and a rethink was clearly necessary. Tibal Fisher, TF's founder and CEO, decided to change its focus under a new brand name, TF's Nextstage. His aim was to recapture the now ageing customers that had given him his early success and target consumers aged 60+ with devices and gadgets specifically designed to assist them with the problems associated with ageing: mobile phones with screens that were easy to read; kitchen gadgets with comfortable grips; electronic devices that were easy to set and adjust. TF's market research proved to be very positive, showing strong consumer support for the products."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In 2007, the stores were remodelled at a cost of US $40 million, and the new brand was launched. Each store was made more comfortable and featured a coffee shop to help increase traffic. Tibal had predicted that if they could get customers into the stores, then the products would sell themselves. However, by 2009 it was clear that the idea was a failure, and the stores consistently remained empty. Customers complained that the new stores felt like a senior center and reminded them that they were growing old."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Feedback from experts:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Expert 1: Donna Sturgess, global head of innovation, GlaxoSmithKline"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The team's customer research efforts are a classic case of missing the subconscious associations at work in consumers' minds. Tibal and his executives looked only at surface attitudes. Since those attitudes make up a relatively small part of the total consumer response, the executives are clueless about the reason for the poor sales. It's critical for companies to understand that every customer relates to a brand emotionally, and it's those emotions that trigger — or block — purchases."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "That's why we've focused on using emotional strategies behind branding for a number of years now. A great example is Alli (pronounced 'ally'), a drug to aid weight loss. The product deals with a highly emotional issue, so in marketing it, we faced the same challenge that the new TF stores are facing: the very thought of buying the product reminds customers that they have problems they feel negatively about. In the case of TF's Nextstage, the problems are age and infirmity. In the case of Alli, the problems are excessive weight and its consequences. There's always a risk that consumers' negative feelings will discourage them from starting or staying on a diet. So, after extensive market research, we took a number of steps to inject emotions into the whole process of using the product."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "First, we came up with a name that sounds like a helpful partner. We also aimed to make the container both beautiful and functional — something that didn't just hold pills but could later be used to store diet guides and recipes. Traditional market research is unlikely to uncover ideas like this, so we use a wide variety of techniques. Even simple techniques, such as one-on-one interviews, or ethnographic observation that involves going into people's houses to examine their behaviour, can provide valuable data."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Expert 2: Alex Lee, president of OXO International, maker of OXO Good Grips household products"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This retailer can get back on track by remembering a principle that applies to consumers in general, and those aged 60+ in particular: they're attracted by brands they associate with the type of people they'd like to be — not the type they really are. That's why marketing campaigns for surf gear feature surfers, not the city dwellers who will wear the products while doing their shopping."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "I was reminded of this principle a few years ago when we wanted to find out how far we could apply our design philosophy of making things easier to use in order to move from our core business, kitchen tools, into other products. We conducted what are known as focus groups, where participants were asked to look at photos of people and pick those they perceived to be users and non-users of our products. Consistently, they picked people who looked fit as the sort who would use our products, and people who looked old and boring as the sort who wouldn't. Yet the participants, all owners of our products, looked a lot more like the latter than the former."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Although the needs of elderly users and those with deteriorating vision or dexterity are very much taken into consideration when we develop new designs, we try to offer products that appeal to 20- and 30-year-olds. We believe that referring to these products as helping tools would serve only to harm the brand in our customers' eyes. That's why our philosophy of universal design, which involves creating products that are comfortably useable by the largest possible range of people, is never explicitly stated as part of our marketing position."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "We've found that market research does not need to be very sophisticated. For instance, we have conducted simple surveys in the lobby of our building, offering free products in exchange for people's opinions. Some may call this unscientific, but we have uncovered great insights this way. Sometimes the most important signals come from an executive's own instincts. In Tibal Fisher's case, this could have told him what his surveys and focus groups didn't: 60-plus-year-olds won't support a business that expects them to act their age."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions 1–5"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 1–5 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style-position: inside; padding-left: 0; margin-bottom: 1rem;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information on this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The TF Nextstage stores planned to sell products to make life easier for older people."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " TF's market research indicated that people liked the products."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It cost more than expected to remodel the TF stores."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The TF Nextstage coffee shops sold their own brand of food and drink."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " TF Nextstage customers liked the atmosphere in the new stores."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q6-7-8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the notes below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN TWO WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "notes-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Feedback from experts"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Donna Sturgess"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Problems with customer research:"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The TF team limited their research to attitudes that occur at a "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "6"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q6",
+                          "fieldName": "q6",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q6_input",
+                            "maxlength": "20",
+                            "name": "q6"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " level in customers' minds."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TF did not consider customers' emotions."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "How my company dealt with a similar problem:"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Product: Alli"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Use: help people achieve "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "7"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q7",
+                          "fieldName": "q7",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q7_input",
+                            "maxlength": "20",
+                            "name": "q7"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Marketing aim: help customers see the product in a positive way by:\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "ul",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "li",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "giving the product a "
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "8"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " "
+                                },
+                                {
+                                  "type": "textInput",
+                                  "questionId": "q8",
+                                  "fieldName": "q8",
+                                  "attrs": {
+                                    "type": "text",
+                                    "id": "q8_input",
+                                    "maxlength": "20",
+                                    "name": "q8"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " that seems helpful and supportive"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "li",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "giving the product a reusable "
+                                },
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "9"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " "
+                                },
+                                {
+                                  "type": "textInput",
+                                  "questionId": "q9",
+                                  "fieldName": "q9",
+                                  "attrs": {
+                                    "type": "text",
+                                    "id": "q9_input",
+                                    "maxlength": "20",
+                                    "name": "q9"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                         "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Market research:"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "does not need to be complex"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "good information can come from interviews or studying the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "10"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q10",
+                          "fieldName": "q10",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q10_input",
+                            "maxlength": "20",
+                            "name": "q10"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " of consumers in the home"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "hr",
+                  "attrs": {
+                    "style": "margin: 20px 0; border: none; border-top: 1px solid var(--line);"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Alex Lee"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Problem:"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "customers are attracted to the ideal, not the reality, e.g. ads for surf gear"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "How my company dealt with a similar problem:"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "we organised "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "11"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q11",
+                          "fieldName": "q11",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q11_input",
+                            "maxlength": "20",
+                            "name": "q11"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " to find out what images customers associate with our products"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "we do not call our products helping tools in our marketing campaigns"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Market research:"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "can be basic, e.g. by doing "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "12"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q12",
+                          "fieldName": "q12",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q12_input",
+                            "maxlength": "20",
+                            "name": "q12"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "company executives should follow their "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "13"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q13",
+                          "fieldName": "q13",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q13_input",
+                            "maxlength": "20",
+                            "name": "q13"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6-7-8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "TRUE",
+    "q2": "TRUE",
+    "q3": "NOT GIVEN",
+    "q4": "NOT GIVEN",
+    "q5": "FALSE",
+    "q6": "surface",
+    "q7": "weight loss",
+    "q8": "name",
+    "q9": "container",
+    "q10": "behaviour",
+    "q11": "focus groups",
+    "q12": "simple surveys",
+    "q13": "instincts"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-anchor",
+    "q6": "q6-7-8-9-10-11-12-13-anchor",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

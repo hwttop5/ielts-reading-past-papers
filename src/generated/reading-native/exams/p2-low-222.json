@@ -1,0 +1,2719 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-low-222",
+  "meta": {
+    "title": "Ideal Homes",
+    "category": "P2",
+    "frequency": "low",
+    "originalTitle": "Ideal Homes 理想居所"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Ideal Homes"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "New ideas and some old ones"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The traditional kampung houses of Malaysia do not need air‑conditioning. Built on stilts and with steep roofs, they have year‑round ventilation. The raised structure ensures a cooling breeze comes up through the floorboards, while the high roof acts as a chimney to release hot air. The airtight, concrete boxes of modern city construction, in contrast, are heat traps, says Muhammad Peter Davis of University Putra Malaysia. He has calculated that typical modern Malaysian houses are 5°C hotter than the air outside. The builders of kampung houses \"had no knowledge of modern science or engineering but they came up with the perfect design,\" says Davis."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " This story of ancient architectural sophistication and modern insanity is repeated around the world. In the name of modernism, people have thrown away architecture designed to cope with the environment in which they live, and adopted house designs originating from cold, northern environments, where the idea is to keep heat in."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Once, the aim of architectural modernists was to build structures that kept nature out and to replace it with air‑conditioning. Now they are learning that they cannot do that effectively. Slowly, they are seeing the benefit of working with nature, rather than against it. In California, they probably use more power for air‑conditioning than anywhere else on Earth. According to Arthur Rosenfeld from the University of California, what California needs is white paint. If Los Angeles painted its roofs white, planted trees to shade buildings, and chose lighter‑colored paving, it could reduce city temperatures by 3°C and cut the annual air‑conditioning bill by US$170 million a year."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Modern buildings are greedy in their use of energy. Much is made of the contribution of transportation to global warming, through its emissions of greenhouse gases. But, globally, transportation is responsible for just 22 per cent of carbon dioxide emissions. The building sector is responsible for 31 per cent, mostly the result of heating and air‑conditioning systems. In developing countries, where demand for electricity for buildings is rising by 5 per cent a year, the biggest demand is for air‑conditioning in modern buildings which are often designed to cope with every different climatic condition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Before air‑conditioning, much of the Arab world kept cool through thoughtful building design. Many buildings were built according to the principles of the wind tower, a tall structure with vertical vents at the top that open in all directions to catch any passing breeze. Typically, these wind‑tower buildings were made of local materials such as stone, mud brick, wood and palm‑tree fronds. The buildings were inward‑looking, which served the dual function of focusing attention on the courtyard, where family members spend time together, and protecting living areas from the rays of the sun."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Throughout the Middle East today, wind towers are often little more than museum pieces. But there are exceptions. Jordan has won awards for the architecture of a village on the shores of the Red Sea, which is designed to conserve energy. Made of rough, local stone in a traditional style, it combines the ventilation system of the wind towers for summer coolness with up‑to‑date heating and floor insulation to protect against the desert cold in winter."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Traditional building materials, like traditional building designs, are being rediscovered by those looking for low‑energy solutions to the current construction needs. Clay is one such material: As the Dutch housing contractor R van der Ley has argued in promoting a series of clay housing projects in developing countries, clay has many benefits over its industrialized version, brick. Clay blocks cost only half as much as ordinary bricks. Clay also generates work because people can find it, mould it, bake it and work it themselves. Two hundred clay bricks can be made with the fuel oil that makes just one ordinary brick. Moreover, clay is an excellent insulator against both cold and heat outside, and can easily be recycled."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " But although traditional methods and materials can be revived in appropriate settings, new green, low‑energy technologies are needed, especially in urban environments. The thermal insulation of homes in cold countries is an example. In 1983, Sweden adopted a national standard, requiring the country's homes to lose no more than 60 kilowatt‑hours per square metre over the year. To meet that standard, windows were double‑glazed, and walls and roofs insulated. Every home became a fortress against the cold air outside. Unfortunately, the rest of Europe has not followed the lead."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "I"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " In the United States, Amory Lovins has promoted a range of low‑energy technologies: \"super‑windows\", for example, which let in invisible light but can be \"tuned\" to either allow in, or reflect away, infrared solar radiation — the stuff that heats. Buildings with large expanses of window (and big energy bills) can be designed to achieve optimum temperatures."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "J"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " As well as more efficient use of energy, the world also needs new sources of renewable power. Solar energy is being tried out in the developing world, in villages often far from electricity grids. The world's biggest solar power installation got underway in the Philippines, in 2001, where a project commenced to install solar panels for 400,000 people in 150 villages. Such projects are demonstrating that countries, whether developing or developed, no longer need huge national grids to supply electricity. Every home can do its own thing with the help of a solar panel and a storage battery."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "paragraph-label"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "K"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Houses, of course, are more than machines for living in. They are social and psychological spaces, too. Future houses may not look exactly like kampungs or wind towers or any other traditional models. But to work for us and for our environment, they will have to suit us as well as these traditional forms did."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "short_answer",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–18"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The reading passage has eleven paragraphs A–K."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letter, A–K, in boxes 14–18."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "word-limit"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "NB You may use any letter more than once."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q1-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q1-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "14."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " reasons why a particular construction material is advantageous"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q1",
+                  "fieldName": "q1",
+                  "attrs": {
+                    "id": "q1",
+                    "name": "q1"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    },
+                    {
+                      "value": "H",
+                      "label": "H"
+                    },
+                    {
+                      "value": "I",
+                      "label": "I"
+                    },
+                    {
+                      "value": "J",
+                      "label": "J"
+                    },
+                    {
+                      "value": "K",
+                      "label": "K"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q2-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q2-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "15."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " an example of a construction design which benefits domestic interaction"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q2",
+                  "fieldName": "q2",
+                  "attrs": {
+                    "id": "q2",
+                    "name": "q2"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    },
+                    {
+                      "value": "H",
+                      "label": "H"
+                    },
+                    {
+                      "value": "I",
+                      "label": "I"
+                    },
+                    {
+                      "value": "J",
+                      "label": "J"
+                    },
+                    {
+                      "value": "K",
+                      "label": "K"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q3-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q3-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "16."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a description of a house that is ventilated from below"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q3",
+                  "fieldName": "q3",
+                  "attrs": {
+                    "id": "q3",
+                    "name": "q3"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    },
+                    {
+                      "value": "H",
+                      "label": "H"
+                    },
+                    {
+                      "value": "I",
+                      "label": "I"
+                    },
+                    {
+                      "value": "J",
+                      "label": "J"
+                    },
+                    {
+                      "value": "K",
+                      "label": "K"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q4-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q4-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "17."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " an example of self‑sufficient energy supply"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q4",
+                  "fieldName": "q4",
+                  "attrs": {
+                    "id": "q4",
+                    "name": "q4"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    },
+                    {
+                      "value": "H",
+                      "label": "H"
+                    },
+                    {
+                      "value": "I",
+                      "label": "I"
+                    },
+                    {
+                      "value": "J",
+                      "label": "J"
+                    },
+                    {
+                      "value": "K",
+                      "label": "K"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q5-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q5-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "18."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " suggested methods of reducing temperatures in a city"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q5",
+                  "fieldName": "q5",
+                  "attrs": {
+                    "id": "q5",
+                    "name": "q5"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    },
+                    {
+                      "value": "H",
+                      "label": "H"
+                    },
+                    {
+                      "value": "I",
+                      "label": "I"
+                    },
+                    {
+                      "value": "J",
+                      "label": "J"
+                    },
+                    {
+                      "value": "K",
+                      "label": "K"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "short_answer",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 19–22"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following people and the list of ideas below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each person with the correct idea, A–G."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letter, A–G, in boxes 19–22."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "word-limit"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "List of ideas"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style-type: none; padding-left:0;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A The choice of a certain construction material can have a socio‑economic impact."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B Throughout the world, people are rejecting traditional housing design in order to appear modern."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C Houses should not only meet people's physical needs but also their social and psychological needs."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D Traditional knowledge can be superior to modern knowledge."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E There is an innovation that can save costs on both air‑conditioning and heating."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F Solar energy can meet the energy needs of people living in villages in developing countries."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G There is a very simple solution that can save on the cost of air‑conditioning."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q6-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q6-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "19."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Muhammad Peter Davis"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q6",
+                  "fieldName": "q6",
+                  "attrs": {
+                    "id": "q6",
+                    "name": "q6"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q7-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q7-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "20."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Arthur Rosenfeld"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q7",
+                  "fieldName": "q7",
+                  "attrs": {
+                    "id": "q7",
+                    "name": "q7"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q8-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q8-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "21."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " R van der Ley"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q8",
+                  "fieldName": "q8",
+                  "attrs": {
+                    "id": "q8",
+                    "name": "q8"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q9-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q9-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "22."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Amory Lovins"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q9",
+                  "fieldName": "q9",
+                  "attrs": {
+                    "id": "q9",
+                    "name": "q9"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "-- Select --"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 23–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information in Reading Passage 2?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TRUE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FALSE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q10-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q10-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The air temperature in modern Malaysian houses is lower than the air temperature outside."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "True",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "True"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " True"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "False",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "False"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " False"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "Not Given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "Not Given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Not Given"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q11-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q11-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The construction industry is more to blame than transport for global warming."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "True",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q11",
+                            "value": "True"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " True"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "False",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q11",
+                            "value": "False"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " False"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "Not Given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q11",
+                            "value": "Not Given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Not Given"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q12-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q12-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The use of wind towers for cooling is widespread in the Middle East today."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "True",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q12",
+                            "value": "True"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " True"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "False",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q12",
+                            "value": "False"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " False"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "Not Given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q12",
+                            "value": "Not Given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Not Given"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q13-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q13-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "class": "question-number"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The 'super‑windows' promoted by Amory Lovins can be installed at low cost."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "True",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q13",
+                            "value": "True"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " True"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "False",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q13",
+                            "value": "False"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " False"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "Not Given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q13",
+                            "value": "Not Given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " Not Given"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-section"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q2-section"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q3-section"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q4-section"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q5-section"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q6-section"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q7-section"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8-section"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9-section"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10-section"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11-section"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12-section"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13-section"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "G",
+    "q2": "E",
+    "q3": "A",
+    "q4": "J",
+    "q5": "C",
+    "q6": "D",
+    "q7": "G",
+    "q8": "A",
+    "q9": "E",
+    "q10": "False",
+    "q11": "True",
+    "q12": "False",
+    "q13": "Not Given"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-section",
+    "q2": "q2-section",
+    "q3": "q3-section",
+    "q4": "q4-section",
+    "q5": "q5-section",
+    "q6": "q6-section",
+    "q7": "q7-section",
+    "q8": "q8-section",
+    "q9": "q9-section",
+    "q10": "q10-section",
+    "q11": "q11-section",
+    "q12": "q12-section",
+    "q13": "q13-section"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9"
+    ],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

@@ -1,0 +1,2718 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-medium-182",
+  "meta": {
+    "title": "Listening to the Ocean",
+    "category": "P1",
+    "frequency": "medium",
+    "pdfFilename": "9. P1 - Listening to the Ocean 海洋探测【次】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/9. P1 - Listening to the Ocean 海洋探测【次】/",
+    "legacyFilename": "9. P1 - Listening to the Ocean 海洋探测【次】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Listening to the Ocean 海洋探测"
+  },
+  "explanationKey": "p1-medium-182",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Listening to the Ocean"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The results of some recent research answer some long-standing questions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The oceans cover more than 70 per cent of the planet's surface, yet until quite recently we knew less about their depths than about the surface of the Moon. The Moon has been far more accessible to study because astronomers have long been able to look at its surface, first with the naked eye and then with the telescope, both instruments that focus light. Until the twentieth century, however, no instruments were available for the study of Earth's oceans: light, which can travel trillions of kilometres through the vast vacuum of space, cannot penetrate very far in seawater."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " It turns out that for penetrating water the best instrument is sound. Curious investigators have long been fascinated by sound and the way it travels in water. As early as 1490, the artist and scientist Leonardo da Vinci observed: ‘If you cause your ship to stop and place the head of a long tube in the water and place the outer extremity to your ear, you will hear ships at a great distance from you.' It was not until 1826 that two scientists, Colladon and Sturm, accurately measured the speed of sound in water. Using a long tube to listen under water (as da Vinci had suggested), they recorded how fast the sound of a submerged bell travelled across Lake Geneva in Switzerland. What these investigators demonstrated was that water is an excellent medium for sound, transmitting it almost five times faster than its speed in air."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " A number of factors influence how far sound travels under water and how long it lasts, including particles, salinity, temperature and pressure. Particles in seawater can reflect, scatter and absorb certain frequencies of sound, just as certain wavelengths of light may be reflected, scattered and absorbed by specific types of particles in the atmosphere. In 1943, Maurice Ewing and J. L. Worzel conducted an experiment to test the theory that low-frequency waves, which are less vulnerable than higher frequencies to scattering and absorption, should be able to travel great distances, if the sound source is placed correctly. The researchers set off an underwater explosion and learned that it was detected easily by receivers 3,200 kilometres away. In analysing the results of this test, they discovered a kind of ‘sound pipeline', known as the ‘deep sound channel'. Sound introduced into this channel of water could travel thousands of kilometres with minimal loss of signal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The US Navy was quick to appreciate the usefulness of low-frequency sound and the deep sound channel. They developed the Sound Surveillance System (SOSUS), which involved underwater microphones, called hydrophones, that were placed on the ocean bottom and connected by cables to on-shore processing centres. It was Christopher Clark of Cornell University who soon realised that SOSUS could be used to listen to whales. Using a SOSUS receiver in the West Indies, he could hear whales that were 1,770 kilometres away."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Whales are the biggest of Earth's creatures, yet these animals are also remarkably elusive. Scientists wishing to observe blue whales must simply wait in their ships for the whales to surface. A few whales have been tracked briefly in the wild in this way but not for very great distances, and much about them remains unknown. But by using SOSUS, scientists can track the whales and position them on a map. Moreover, they can track not just one whale at a time, but many creatures simultaneously. They can also learn to distinguish whale calls; researchers have detected changes in the calls of finback whales as the seasons change, and have found that blue whales in different regions of the Pacific Ocean have different calls."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " SOSUS has also proved instrumental in obtaining information crucial to our understanding of climate. The system has enabled researchers to begin making ocean-temperature measurements on a global scale, measurements that are key to understanding the workings of heat transfer between the ocean and the atmosphere. The ocean plays an enormous role in determining air temperature — the heat capacity in only the upper few metres of ocean is thought to be equal to all of the heat in the entire atmosphere. For sound waves travelling horizontally in the ocean, speed is largely a function of temperature. Thus, the travel time of a wave of sound between two points is a sensitive indicator of the average temperature along its path. Transmitting sound in numerous directions through the deep sound channel can give scientists measurements spanning vast areas of the globe. Thousands of sound paths in the ocean can be pieced together into a map of global ocean temperatures, and by repeating measurements along the same paths over time, scientists can track changes in temperature over months or years."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Researchers are also using other acoustic techniques to monitor climate. Oceanographer Jeff Nystuen, for example, has explored the use of sound to measure rainfall over the ocean. Monitoring changing global rainfall patterns will contribute to understanding major climate change as well as the weather phenomenon known as El Niño. Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms. By using the sound of rain under water as a 'natural' rain gauge, the measurement of rainfall over the oceans will become available to climatologists. In this way, modern society continues to benefit from the investigations of those who, like Leonardo da Vinci, pursued the answers to some basic questions of nature."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–4"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 1–4 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information on this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the past, it was easier for scientists to study the Moon than the oceans."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Techniques for investigating the Moon are the same as techniques for researching the ocean."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Measuring temperature changes in the ocean using sound is more time-consuming than other methods."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Hydrophones can distinguish different kinds of rain."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 判断题（Questions 1–4：TRUE/FALSE/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 1,
+          "end": 4
+        },
+        "text": "题目翻译：过去，科学家研究月球比研究海洋更容易。\n答案：TRUE（正确）\n解析：定位 Paragraph A 中 “yet until quite recently we knew less about their depths than about the surface of the Moon. The Moon has been far more accessible to study”，“far more accessible” 意为 “更容易获取 / 研究”，明确说明过去研究月球比海洋更容易，与题干描述一致，因此判定为 TRUE。\n题目翻译：研究月球的技术与研究海洋的技术相同。\n答案：FALSE（错误）\n解析：定位 Paragraph A 中 “astronomers have long been able to look at its surface, first with the naked eye and then with the telescope, both instruments that focus light. Until the twentieth century, however, no instruments were available for the study of Earth’s oceans: light... cannot penetrate very far in seawater” 和 Paragraph B 中 “It turns out that for penetrating water the best instrument is sound”，研究月球用 “光学工具（肉眼、望远镜）”，研究海洋用 “声音工具”，技术不同，与题干描述矛盾，因此判定为 FALSE。\n题目翻译：用声音测量海洋温度变化比其他方法更耗时。\n答案：NOT GIVEN（未提及）\n解析：Paragraph F 仅说明声学测温的原理（声波传播时间反映温度）和优势（全球范围、长期追踪），但未与 “其他测温方法” 比较 “耗时长短”，无相关信息，因此判定为 NOT GIVEN。\n题目翻译：水听器能区分不同类型的降雨。\n答案：TRUE（正确）\n解析：定位 Paragraph G 中 “Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms”，明确提到水听器可通过声学方法区分 “从细雨到雷阵雨” 的不同降雨类型，与题干描述一致，因此判定为 TRUE。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "（1）题目 1：In the past, it was easier for scientists to study the Moon than the oceans.\n题目翻译：过去，科学家研究月球比研究海洋更容易。\n答案：TRUE（正确）\n解析：定位 Paragraph A 中 “yet until quite recently we knew less about their depths than about the surface of the Moon. The Moon has been far more accessible to study”，“far more accessible” 意为 “更容易获取 / 研究”，明确说明过去研究月球比海洋更容易，与题干描述一致，因此判定为 TRUE。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "（2）题目 2：Techniques for investigating the Moon are the same as techniques for researching the ocean.\n题目翻译：研究月球的技术与研究海洋的技术相同。\n答案：FALSE（错误）\n解析：定位 Paragraph A 中 “astronomers have long been able to look at its surface, first with the naked eye and then with the telescope, both instruments that focus light. Until the twentieth century, however, no instruments were available for the study of Earth’s oceans: light... cannot penetrate very far in seawater” 和 Paragraph B 中 “It turns out that for penetrating water the best instrument is sound”，研究月球用 “光学工具（肉眼、望远镜）”，研究海洋用 “声音工具”，技术不同，与题干描述矛盾，因此判定为 FALSE。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "（3）题目 3：Measuring temperature changes in the ocean using sound is more time-consuming than other methods.\n题目翻译：用声音测量海洋温度变化比其他方法更耗时。\n答案：NOT GIVEN（未提及）\n解析：Paragraph F 仅说明声学测温的原理（声波传播时间反映温度）和优势（全球范围、长期追踪），但未与 “其他测温方法” 比较 “耗时长短”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "（4）题目 4：Hydrophones can distinguish different kinds of rain.\n题目翻译：水听器能区分不同类型的降雨。\n答案：TRUE（正确）\n解析：定位 Paragraph G 中 “Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms”，明确提到水听器可通过声学方法区分 “从细雨到雷阵雨” 的不同降雨类型，与题干描述一致，因此判定为 TRUE。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q5-6-7-8-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 5–8"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 1 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", in boxes 5–8 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " You may use any letter more than once."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " examples of things that affect the distance sound can travel in water"
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q5",
+                      "fieldName": "q5",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q5_input",
+                        "name": "q5"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " details of the connection between ocean temperatures and climate"
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q6",
+                      "fieldName": "q6",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q6_input",
+                        "name": "q6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " details of ways in which light and sound are similar"
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q7_input",
+                        "name": "q7"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a reference to a long-term study of different types of weather"
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q8_input",
+                        "name": "q8"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 段落匹配（Questions 5–8：Which paragraph contains the following information?）",
+        "mode": "group",
+        "questionRange": {
+          "start": 5,
+          "end": 8
+        },
+        "text": "题目翻译：影响声音在水中传播距离的事物例子\n答案：C\n解析：定位 Paragraph C 中 “A number of factors influence how far sound travels under water and how long it lasts, including particles, salinity, temperature and pressure”，明确列举了影响水下声音传播距离的因素（颗粒、盐度、温度、压力），即 “事物例子”，与题干对应，因此答案为 C。\n题目翻译：海洋温度与气候之间关联的细节\n答案：F\n解析：定位 Paragraph F 中 “The system has enabled researchers to begin making ocean-temperature measurements on a global scale, measurements that are key to understanding the workings of heat transfer between the ocean and the atmosphere. The ocean plays an enormous role in determining air temperature... Transmitting sound... can give scientists measurements spanning vast areas of the globe... track changes in temperature over months or years”，详细阐述了海洋温度通过 “海气热交换” 影响气候，以及如何通过声音监测海洋温度以理解气候，包含 “关联细节”，与题干对应，因此答案为 F。\n题目翻译：光和声在传播方式上的相似之处细节\n答案：C\n解析：定位 Paragraph C 中 “Particles in seawater can reflect, scatter and absorb certain frequencies of sound, just as certain wavelengths of light may be reflected, scattered and absorbed by specific types of particles in the atmosphere”，“just as” 明确对比光和声的相似传播特性（均会被颗粒反射、散射、吸收），包含 “相似之处细节”，与题干对应，因此答案为 C。\n题目翻译：提及对不同天气类型的长期研究\n答案：G\n解析：定位 Paragraph G 中 “Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms”，“Since 1985” 体现 “长期研究”，“from drizzle to thunderstorms” 体现 “不同天气类型”，与题干对应，因此答案为 G。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "（1）题目 5：examples of things that affect the distance sound can travel in water\n题目翻译：影响声音在水中传播距离的事物例子\n答案：C\n解析：定位 Paragraph C 中 “A number of factors influence how far sound travels under water and how long it lasts, including particles, salinity, temperature and pressure”，明确列举了影响水下声音传播距离的因素（颗粒、盐度、温度、压力），即 “事物例子”，与题干对应，因此答案为 C。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "（2）题目 6：details of the connection between ocean temperatures and climate\n题目翻译：海洋温度与气候之间关联的细节\n答案：F\n解析：定位 Paragraph F 中 “The system has enabled researchers to begin making ocean-temperature measurements on a global scale, measurements that are key to understanding the workings of heat transfer between the ocean and the atmosphere. The ocean plays an enormous role in determining air temperature... Transmitting sound... can give scientists measurements spanning vast areas of the globe... track changes in temperature over months or years”，详细阐述了海洋温度通过 “海气热交换” 影响气候，以及如何通过声音监测海洋温度以理解气候，包含 “关联细节”，与题干对应，因此答案为 F。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "（3）题目 7：details of ways in which light and sound are similar\n题目翻译：光和声在传播方式上的相似之处细节\n答案：C\n解析：定位 Paragraph C 中 “Particles in seawater can reflect, scatter and absorb certain frequencies of sound, just as certain wavelengths of light may be reflected, scattered and absorbed by specific types of particles in the atmosphere”，“just as” 明确对比光和声的相似传播特性（均会被颗粒反射、散射、吸收），包含 “相似之处细节”，与题干对应，因此答案为 C。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "（4）题目 8：a reference to a long-term study of different types of weather\n题目翻译：提及对不同天气类型的长期研究\n答案：G\n解析：定位 Paragraph G 中 “Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms”，“Since 1985” 体现 “长期研究”，“from drizzle to thunderstorms” 体现 “不同天气类型”，与题干对应，因此答案为 G。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "single_choice",
+      "questionIds": [
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 9–13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the passage, who conducted research into the rate at which sound travels in water?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A Leonardo da Vinci"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B Colladon and Sturm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C Ewing and Worzel"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D Jeff Nystuen"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the passage, who conducted research into the distances certain types of sound waves travel in water?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A Leonardo da Vinci"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B Colladon and Sturm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C Ewing and Worzel"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D Christopher Clark"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " SOSUS allows whale researchers to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A follow a number of whales at the same time."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B protect whales as they migrate."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C imitate whale calls of different species."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D change the whales' direction of travel."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Finback whale calls change"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A when scientists track them."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B at different times of year."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C when whales communicate with other species."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D when whales come to the surface."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " SOSUS allows scientists to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A make accurate maps of the ocean floor."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B measure water-level changes."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C investigate ocean currents."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D measure variations in temperature."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 选择题（Questions 9–13：Choose the correct letter, A, B, C or D）",
+        "mode": "group",
+        "questionRange": {
+          "start": 9,
+          "end": 13
+        },
+        "text": "题目翻译：根据文章，谁开展了关于声音在水中传播速度的研究？\n答案：B（Colladon and Sturm，科拉东和斯图姆）\n解析：定位 Paragraph B 中 “It was not until 1826 that two scientists, Colladon and Sturm, accurately measured the speed of sound in water”，“the speed of sound” 即 “the rate at which sound travels”，明确指出科拉东和斯图姆首次准确测量水下声速，开展了相关研究，因此答案为 B。\n题目翻译：根据文章，谁开展了关于特定类型声波在水中传播距离的研究？\n答案：C（Ewing and Worzel，尤因和沃泽尔）\n解析：定位 Paragraph C 中 “In 1943, Maurice Ewing and J. L. Worzel conducted an experiment to test the theory that low-frequency waves... should be able to travel great distances... The researchers set off an underwater explosion and learned that it was detected easily by receivers 3,200 kilometres away”，明确指出尤因和沃泽尔通过实验研究低频声波的传播距离，开展了相关研究，因此答案为 C。\n题目翻译：SOSUS 系统能让鲸鱼研究者_\\___\\__\n答案：A（follow a number of whales at the same time，同时追踪多只鲸鱼）\n解析：定位 Paragraph E 中 “by using SOSUS, scientists can track the whales and position them on a map. Moreover, they can track not just one whale at a time, but many creatures simultaneously”，“track many creatures simultaneously” 即 “同时追踪多只鲸鱼”，与选项 A 一致，因此答案为 A。\n题目翻译：长须鲸的叫声会在_\\___\\__时发生变化\n答案：B（at different times of year，一年中的不同时间）\n解析：定位 Paragraph E 中 “researchers have detected changes in the calls of finback whales as the seasons change”，“as the seasons change” 即 “一年中的不同时间”，说明长须鲸叫声随季节变化，与选项 B 一致，因此答案为 B。\n题目翻译：SOSUS 系统能让科学家_\\___\\__\n答案：D（measure variations in temperature，测量温度变化）\n解析：定位 Paragraph F 中 “the travel time of a wave of sound between two points is a sensitive indicator of the average temperature along its path... Thousands of sound paths in the ocean can be pieced together into a map of global ocean temperatures, and by repeating measurements along the same paths over time, scientists can track changes in temperature over months or years”，明确说明 SOSUS 系统可通过声波传播时间测量海洋温度，并追踪温度变化（即 “温度差异”），与选项 D 一致，因此答案为 D。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "（1）题目 9：According to the passage, who conducted research into the rate at which sound travels in water?\n题目翻译：根据文章，谁开展了关于声音在水中传播速度的研究？\n答案：B（Colladon and Sturm，科拉东和斯图姆）\n解析：定位 Paragraph B 中 “It was not until 1826 that two scientists, Colladon and Sturm, accurately measured the speed of sound in water”，“the speed of sound” 即 “the rate at which sound travels”，明确指出科拉东和斯图姆首次准确测量水下声速，开展了相关研究，因此答案为 B。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "（2）题目 10：According to the passage, who conducted research into the distances certain types of sound waves travel in water?\n题目翻译：根据文章，谁开展了关于特定类型声波在水中传播距离的研究？\n答案：C（Ewing and Worzel，尤因和沃泽尔）\n解析：定位 Paragraph C 中 “In 1943, Maurice Ewing and J. L. Worzel conducted an experiment to test the theory that low-frequency waves... should be able to travel great distances... The researchers set off an underwater explosion and learned that it was detected easily by receivers 3,200 kilometres away”，明确指出尤因和沃泽尔通过实验研究低频声波的传播距离，开展了相关研究，因此答案为 C。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 11,
+            "text": "（3）题目 11：SOSUS allows whale researchers to\n题目翻译：SOSUS 系统能让鲸鱼研究者_\\___\\__\n答案：A（follow a number of whales at the same time，同时追踪多只鲸鱼）\n解析：定位 Paragraph E 中 “by using SOSUS, scientists can track the whales and position them on a map. Moreover, they can track not just one whale at a time, but many creatures simultaneously”，“track many creatures simultaneously” 即 “同时追踪多只鲸鱼”，与选项 A 一致，因此答案为 A。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 12,
+            "text": "（4）题目 12：Finback whale calls change\n题目翻译：长须鲸的叫声会在_\\___\\__时发生变化\n答案：B（at different times of year，一年中的不同时间）\n解析：定位 Paragraph E 中 “researchers have detected changes in the calls of finback whales as the seasons change”，“as the seasons change” 即 “一年中的不同时间”，说明长须鲸叫声随季节变化，与选项 B 一致，因此答案为 B。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 13,
+            "text": "（5）题目 13：SOSUS allows scientists to\n题目翻译：SOSUS 系统能让科学家_\\___\\__\n答案：D（measure variations in temperature，测量温度变化）\n解析：定位 Paragraph F 中 “the travel time of a wave of sound between two points is a sensitive indicator of the average temperature along its path... Thousands of sound paths in the ocean can be pieced together into a map of global ocean temperatures, and by repeating measurements along the same paths over time, scientists can track changes in temperature over months or years”，明确说明 SOSUS 系统可通过声波传播时间测量海洋温度，并追踪温度变化（即 “温度差异”），与选项 D 一致，因此答案为 D。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5-6-7-8-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "TRUE",
+    "q2": "FALSE",
+    "q3": "NOT GIVEN",
+    "q4": "TRUE",
+    "q5": "C",
+    "q6": "F",
+    "q7": "C",
+    "q8": "G",
+    "q9": "B",
+    "q10": "C",
+    "q11": "A",
+    "q12": "B",
+    "q13": "D"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-anchor",
+    "q5": "q5-6-7-8-anchor",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9-10-11-12-13-anchor",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q5",
+      "q6",
+      "q7",
+      "q8"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

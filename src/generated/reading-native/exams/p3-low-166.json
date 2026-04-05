@@ -1,0 +1,2772 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-low-166",
+  "meta": {
+    "title": "Life on Mars_",
+    "category": "P3",
+    "frequency": "low",
+    "pdfFilename": "75. P3 - Life on Mars_ 火星地球化改造.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/75. P3 - Life on Mars_ 火星地球化改造/",
+    "legacyFilename": "75. P3 - Life on Mars_ 火星地球化改造.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Life on Mars_ 火星地球化改造"
+  },
+  "explanationKey": "p3-low-166",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Life on Mars?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Terraforming may sound like something out of science fiction, but some believe it is possible to turn that fiction into fact."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "As plans are slowly being drawn up for the first manned mission to Mars, many space-travel sceptics are asking one vital question: why go there? Mars is a barren, desolate planet, and with its thin atmosphere and bitterly cold climate, it would appear to be completely unsuitable for human life. Above all, it is a very distant place, and getting there would be an enormous challenge. However, the planet might just hold the key to long-term human survival. With the Earth's population currently at more than seven billion and climbing, we may eventually be forced to look elsewhere in the solar system for somewhere to live. It is just possible that, contrary to photographic evidence, Mars may be more promising than it appears."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Today, Mars is a viciously cold, dry place. However, it does have some things in common with our own planet. For example, it has a daily rotation rate of 24 hours 37 minutes, compared with 23 hours 56 minutes on Earth. It also has an axial tilt of 24 degrees, which is just half a degree more than Earth's, and a gravitational pull one third of Earth's. Furthermore, it holds many of the elements that are required to support life, including carbon and oxygen (in the form of carbon dioxide), nitrogen, and frozen water at its polar ice caps. In fact, if you were to travel back in time several billion years, you would notice some remarkable parallels between the atmosphere on Earth then and Mars today. Back then, Earth was also a lifeless planet; until photosynthetic bacteria developed and began to produce enough oxygen to allow for the development of animal and plant life, our atmosphere also consisted entirely of carbon dioxide and nitrogen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It comes as no surprise to learn, therefore, that some scientists believe the same process which turned Earth's atmosphere from mostly carbon dioxide into breathable air could be repeated on Mars, but by using technology rather than by letting nature and evolution take its natural course. Terraforming, as this process is known, would initially create a greenhouse effect that would heat the planet, which in turn would create other conditions necessary to provide a suitable living environment for plants and animals. However, it would be a highly challenging undertaking, and the process of terraforming the entire planet into an Earth-like habitat could still take many thousands of years."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Three terraforming methods have been suggested, with the first already under development, albeit for a different purpose. At present, the American space agency NASA is working on a system that will use large mirrors to capture the Sun's radiation. This radiation will be used to propel spacecraft through space, removing the need for heavy and expensive rocket fuel. With a few changes, it might be possible to use similar mirrors to reflect the Sun's radiation and heat the surface of Mars. Aimed at the planet from a distance of two hundred thousand miles, these enormous mirrors would raise the surface temperature by a few degrees. If they were concentrated on the polar ice caps, they would provide enough heat to melt the polar ice caps and release the carbon dioxide that is believed to be trapped there. Gradually, as the temperature rose, greenhouse gases would be released, and this would create a form of Martian global warming, the first stage in making the planet sustainable for life."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The second method would be to set up greenhouse-gas 'factories' in order to raise the temperature of the planet. It is generally accepted that greenhouse gases produced by heavy industry are raising the Earth's temperature. Therefore, by building hundreds of greenhouse-gas-emitting factories on Mars, a similar effect could be achieved. Carbon dioxide, methane and other greenhouse gases would be pumped into the Martian atmosphere. The same factories would then produce oxygen by mimicking the natural process of plant photosynthesis: they would inhale the carbon dioxide they produce, and then emit oxygen. The process could be accelerated by 'sowing the planet's surface with photosynthetic bacteria', which would increase the rate at which oxygen is produced. Eventually, there would be enough oxygen on the planet for humans to breathe using only special apparatus similar to that used by mountain climbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The third, and by far the most extreme, method has been proposed by space scientists Robert Zubrin and Christopher McKay. They believe that it would be possible to produce greenhouse gases and water by firing large, ammonia-bearing asteroids at the planet. Each asteroid would weigh about ten billion tons, and would be powered by huge rocket engines which would move it towards Mars at over 10,000 miles per hour. At this speed, it would take each asteroid about ten years to reach its destination. The energy produced by one asteroid slamming into Mars' surface, say Zubrin and McKay, would raise the temperature of the planet by three degrees Celsius and melt about one thousand billion tons of ice at the polar caps. They believe it would take many of these asteroids, and at least fifty years, in order to create a temperate climate and enough water to cover a quarter of the planet's surface."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Terraforming Mars, if it is ever attempted, will be neither cheap nor easy. And it certainly won't be quick: although optimists like Zubrin and McKay say it could be achieved in five or six decades, the reality is that terraforming is more likely to take hundreds or even thousands of years. Furthermore, it will stretch human ingenuity to its limits, and will require levels of will and commitment that have rarely been seen before. The challenge of developing a habitable environment and bringing life to the cold, dry world of Mars is fraught with challenges, but it might just be one that saves the human race."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in the Reading passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 27-31 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the writer's view"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the writer's view"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Pictures of Mars suggest it might make a good place for people to settle."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Modern Mars and ancient Earth looked remarkably similar."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " One method of terraforming could involve adapting technology that is already under development."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Greenhouse-gas factories would provide enough oxygen for people to breathe without special equipment."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Terraforming Mars would be an extreme test of human skill and intelligence."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 判断题（Questions 27–31：YES/NO/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 27,
+          "end": 31
+        },
+        "text": "答案：NO（错误）\n解析：定位 Paragraph 1 中 “contrary to photographic evidence, Mars may be more promising than it appears”，“与照片显示的相反” 表明 “照片未暗示火星宜居”，与题干描述矛盾，因此判定为 NO。\n答案：NOT GIVEN（未提及）\n解析：定位 Paragraph 2 中 “you would notice some remarkable parallels between the atmosphere on Earth then and Mars today”，仅提到 “大气层相似”，未提及 “整体外观相似”，无相关信息，因此判定为 NOT GIVEN。\n答案：YES（正确）\n解析：定位 Paragraph 4 中 “At present, the American space agency NASA is working on a system that will use large mirrors... With a few changes, it might be possible to use similar mirrors to reflect the Sun’s radiation and heat the surface of Mars”，“NASA 研发的镜面系统稍作修改即可用于火星加热”，与题干描述一致，因此判定为 YES。\n答案：NO（错误）\n解析：定位 Paragraph 5 中 “Eventually, there would be enough oxygen on the planet for humans to breathe using only special apparatus similar to that used by mountain climbers”，“需类似登山者的设备” 与题干 “无需特殊设备” 描述矛盾，因此判定为 NO。\n答案：YES（正确）\n解析：定位 Paragraph 7 中 “it will stretch human ingenuity to its limits, and will require levels of will and commitment that have rarely been seen before”，“将人类创造力推到极限” 对应 “极端考验技能和智慧”，与题干描述一致，因此判定为 YES。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Pictures of Mars suggest it might make a good place for people to settle.（火星照片暗示其可能是人类宜居之地）\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “contrary to photographic evidence, Mars may be more promising than it appears”，“与照片显示的相反” 表明 “照片未暗示火星宜居”，与题干描述矛盾，因此判定为 NO。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Modern Mars and ancient Earth looked remarkably similar.（现代火星与远古地球外观极其相似）\n答案：NOT GIVEN（未提及）\n解析：定位 Paragraph 2 中 “you would notice some remarkable parallels between the atmosphere on Earth then and Mars today”，仅提到 “大气层相似”，未提及 “整体外观相似”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：One method of terraforming could involve adapting technology that is already under development.（一种地球化方法可能涉及改造已在研发的技术）\n答案：YES（正确）\n解析：定位 Paragraph 4 中 “At present, the American space agency NASA is working on a system that will use large mirrors... With a few changes, it might be possible to use similar mirrors to reflect the Sun’s radiation and heat the surface of Mars”，“NASA 研发的镜面系统稍作修改即可用于火星加热”，与题干描述一致，因此判定为 YES。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Greenhouse-gas factories would provide enough oxygen for people to breathe without special equipment.（温室气体工厂将产生足够氧气，使人无需特殊设备即可呼吸）\n答案：NO（错误）\n解析：定位 Paragraph 5 中 “Eventually, there would be enough oxygen on the planet for humans to breathe using only special apparatus similar to that used by mountain climbers”，“需类似登山者的设备” 与题干 “无需特殊设备” 描述矛盾，因此判定为 NO。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Terraforming Mars would be an extreme test of human skill and intelligence.（火星地球化改造将是对人类技能和智慧的极端考验）\n答案：YES（正确）\n解析：定位 Paragraph 7 中 “it will stretch human ingenuity to its limits, and will require levels of will and commitment that have rarely been seen before”，“将人类创造力推到极限” 对应 “极端考验技能和智慧”，与题干描述一致，因此判定为 YES。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "single_choice",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q6-7-8-9-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–35"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which one of these factors suggests that Mars might be a good place for people to settle?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A It is not too far from Earth."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B It has no other life forms living there."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C It has a cool, dry climate."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D It has some similarities with Earth."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The first step in terraforming Mars would be to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A make the planet warmer."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B create a breathable atmosphere."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C find a suitable source of water."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D create a habitat for living organisms."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Special factories on Mars could be used to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A control the level of greenhouse gases."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B absorb excess levels of carbon dioxide."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C produce oxygen in a manner similar to plants."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D help grow essential bacteria."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the writer's main purpose in the passage?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A To explain why we need to terraform Mars."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B To illustrate the three processes required to terraform a planet like Mars."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C To consider how and why Mars might be terraformed."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D To demonstrate how straightforward it would be to terraform a planet."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 单选题（Questions 32–35：Choose A–D）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 32,
+          "end": 35
+        },
+        "text": "答案：D（It has some similarities with Earth. 与地球有相似之处）\n解析：定位 Paragraph 2 中 “it does have some things in common with our own planet. For example, it has a daily rotation rate... axial tilt... gravitational pull... holds many of the elements that are required to support life”，明确提到 “与地球的相似性” 是积极因素，因此选 D。\n答案：A（make the planet warmer. 使火星升温）\n解析：定位 Paragraph 3 中 “Terraforming... would initially create a greenhouse effect that would heat the planet, which in turn would create other conditions necessary to provide a suitable living environment for plants and animals”，“初期制造温室效应加热火星” 是第一步，因此选 A。\n答案：C（produce oxygen in a manner similar to plants. 以类似植物的方式产氧）\n解析：定位 Paragraph 5 中 “The same factories would then produce oxygen by mimicking the natural process of plant photosynthesis”，“模仿植物光合作用产氧” 对应 “类似植物的方式产氧”，因此选 C。\n答案：C（To consider how and why Mars might be terraformed. 探讨火星为何及如何进行地球化改造）\n解析：全文先说明 “火星地球化的必要性（人类生存）”，再详细介绍三种改造方法，A “仅说明原因”、B “仅说明步骤”、D “证明改造简单” 均片面，因此选 C。",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（1）题目 32：Which one of these factors suggests that Mars might be a good place for people to settle?（以下哪一因素暗示火星可能适合人类定居？）\n答案：D（It has some similarities with Earth. 与地球有相似之处）\n解析：定位 Paragraph 2 中 “it does have some things in common with our own planet. For example, it has a daily rotation rate... axial tilt... gravitational pull... holds many of the elements that are required to support life”，明确提到 “与地球的相似性” 是积极因素，因此选 D。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（2）题目 33：The first step in terraforming Mars would be to（火星地球化改造的第一步是？）\n答案：A（make the planet warmer. 使火星升温）\n解析：定位 Paragraph 3 中 “Terraforming... would initially create a greenhouse effect that would heat the planet, which in turn would create other conditions necessary to provide a suitable living environment for plants and animals”，“初期制造温室效应加热火星” 是第一步，因此选 A。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（3）题目 34：Special factories on Mars could be used to（火星上的特殊工厂可用于？）\n答案：C（produce oxygen in a manner similar to plants. 以类似植物的方式产氧）\n解析：定位 Paragraph 5 中 “The same factories would then produce oxygen by mimicking the natural process of plant photosynthesis”，“模仿植物光合作用产氧” 对应 “类似植物的方式产氧”，因此选 C。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（4）题目 35：What is the writer’s main purpose in the passage?（作者的主要写作目的是？）\n答案：C（To consider how and why Mars might be terraformed. 探讨火星为何及如何进行地球化改造）\n解析：全文先说明 “火星地球化的必要性（人类生存）”，再详细介绍三种改造方法，A “仅说明原因”、B “仅说明步骤”、D “证明改造简单” 均片面，因此选 C。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q10-11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 36–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary using a word A–I from the box."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letter, A-I, in boxes 36-40 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-box"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "One method of terraforming Mars would be to "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q36_input",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " asteroids at the planet. Rockets attached to an enormous asteroid would propel it towards Mars, taking ten years to "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q37_input",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " the enormous distances required. The asteroid would "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q38_input",
+                        "name": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " the planet with incredible force and "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q39_input",
+                        "name": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " enough energy to "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q14",
+                      "fieldName": "q14",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q40_input",
+                        "name": "q14"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " the planet's temperature. The result would be a temperate climate and lots of water from melting ice caps."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "word-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " cover    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " create    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " hit "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " increase    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "E"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " land    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " drive "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "G"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " power    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " rise    "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "I"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " shoot\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 摘要填空（Questions 36–40：Choose A–I）",
+        "mode": "group",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "答案：I（shoot，发射）\n解析：定位 Paragraph 6 中 “by firing large, ammonia-bearing asteroids at the planet”，“firing” 对应 “shoot”，因此选 I。\n答案：A（cover，覆盖）\n解析：定位 Paragraph 6 中 “it would take each asteroid about ten years to reach its destination”，“reach” 对应 “cover the distance”（覆盖距离），因此选 A。\n答案：C（hit，撞击）\n解析：定位 Paragraph 6 中 “The energy produced by one asteroid slamming into Mars’ surface”，“slamming into” 对应 “hit”，因此选 C。\n答案：B（create，产生）；D（increase，升高）\n解析：定位 Paragraph 6 中 “The energy produced by one asteroid slamming into Mars’ surface... would raise the temperature of the planet by three degrees Celsius”，“produced” 对应 “create”，“raise” 对应 “increase”，因此依次选 B、D。",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（1）题目 36：One method of terraforming Mars would be to \\___\\___ asteroids at the planet.（一种火星地球化方法是向火星_\\___\\__小行星。）\n答案：I（shoot，发射）\n解析：定位 Paragraph 6 中 “by firing large, ammonia-bearing asteroids at the planet”，“firing” 对应 “shoot”，因此选 I。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（2）题目 37：Rockets attached to an enormous asteroid would propel it towards Mars, taking ten years to \\___\\___ the enormous distances required.（附着在巨型小行星上的火箭将推动其前往火星，需十年_\\___\\__所需的遥远距离。）\n答案：A（cover，覆盖）\n解析：定位 Paragraph 6 中 “it would take each asteroid about ten years to reach its destination”，“reach” 对应 “cover the distance”（覆盖距离），因此选 A。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（3）题目 38：The asteroid would \\___\\___ the planet with incredible force.（小行星将以惊人力量_\\___\\__火星。）\n答案：C（hit，撞击）\n解析：定位 Paragraph 6 中 “The energy produced by one asteroid slamming into Mars’ surface”，“slamming into” 对应 “hit”，因此选 C。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（4）题目 39：and \\___\\___ enough energy to \\___\\___ the planet’s temperature.（并_\\___\\__足够能量以_\\___\\__火星温度。）\n答案：B（create，产生）；D（increase，升高）\n解析：定位 Paragraph 6 中 “The energy produced by one asteroid slamming into Mars’ surface... would raise the temperature of the planet by three degrees Celsius”，“produced” 对应 “create”，“raise” 对应 “increase”，因此依次选 B、D。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-7-8-9-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q37_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q38_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q39_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q40_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "NO",
+    "q2": "NOT GIVEN",
+    "q3": "YES",
+    "q4": "NO",
+    "q5": "YES",
+    "q6": "D",
+    "q7": "A",
+    "q8": "C",
+    "q9": "C",
+    "q10": "I",
+    "q11": "A",
+    "q12": "C",
+    "q13": "B",
+    "q14": "D"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-anchor",
+    "q6": "q6-7-8-9-anchor",
+    "q10": "q10-11-12-13-14-anchor",
+    "q36": "q36_input",
+    "q37": "q37_input",
+    "q11": "q37_input",
+    "q38": "q38_input",
+    "q12": "q38_input",
+    "q39": "q39_input",
+    "q13": "q39_input",
+    "q40": "q40_input",
+    "q14": "q40_input",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 14
+}

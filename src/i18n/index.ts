@@ -20,6 +20,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'menu.myAchievements': '我的成就',
     'menu.more': '更多工具',
     'menu.menu': '菜单',
+    'menu.github': '项目地址',
 
     // 面包屑
     'breadcrumb.home': '首页总览',
@@ -126,6 +127,17 @@ const translations: Record<Locale, Record<string, string>> = {
     'browse.allFrequency': '全部频率',
     'browse.category': '题目类别',
     'browse.frequency': '出现频率',
+    'browse.frequency.high': '高频',
+    'browse.frequency.medium': '中频',
+    'browse.frequency.low': '低频',
+    'browse.sortLabel': '排序方式',
+    'browse.sort.titleAsc': '标题 (A-Z)',
+    'browse.sort.numberAsc': '题号 (升序)',
+    'browse.sort.numberDesc': '题号 (降序)',
+    'browse.sort.accuracyAsc': '正确率 (低到高)',
+    'browse.sort.accuracyDesc': '正确率 (高到低)',
+    'browse.pdfOnlyMode': '仅 PDF 模式',
+    'browse.openPdfOnly': '仅 PDF 版',
 
     // 搜索
     'search.placeholder': '搜索菜单...',
@@ -354,6 +366,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'menu.myAchievements': 'My Achievements',
     'menu.more': 'More Tools',
     'menu.menu': 'Menu',
+    'menu.github': 'Project Link',
 
     // Breadcrumbs
     'breadcrumb.home': 'Home',
@@ -377,6 +390,17 @@ const translations: Record<Locale, Record<string, string>> = {
     'browse.allFrequency': 'All Frequencies',
     'browse.category': 'Category',
     'browse.frequency': 'Frequency',
+    'browse.frequency.high': 'High',
+    'browse.frequency.medium': 'Medium',
+    'browse.frequency.low': 'Low',
+    'browse.sortLabel': 'Sort by',
+    'browse.sort.titleAsc': 'Title (A-Z)',
+    'browse.sort.numberAsc': 'Number (Ascending)',
+    'browse.sort.numberDesc': 'Number (Descending)',
+    'browse.sort.accuracyAsc': 'Accuracy (Low to High)',
+    'browse.sort.accuracyDesc': 'Accuracy (High to Low)',
+    'browse.pdfOnlyMode': 'PDF Only Mode',
+    'browse.openPdfOnly': 'Open PDF Only',
 
     // Common
     'common.search': 'Search menu...',

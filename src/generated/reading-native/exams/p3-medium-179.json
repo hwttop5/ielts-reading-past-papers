@@ -1,0 +1,4255 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-medium-179",
+  "meta": {
+    "title": "The Exploration of Mars",
+    "category": "P3",
+    "frequency": "medium",
+    "pdfFilename": "87. P3 - The Exploration of Mars 火星探索【次】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/87. P3 - The Exploration of Mars 火星探索【次】/",
+    "legacyFilename": "87. P3 - The Exploration of Mars 火星探索【次】.html",
+    "questionIntroHtml": "<h3>Questions</h3>\n            \n            <div class=\"question-group\" id=\"q1-32-section\">\n                <h4>Questions 27–32</h4>\n                <p>The reading passage has eight paragraphs, <strong>A–H</strong>.</p>\n                <p>Which paragraph contains the following information?</p>\n                <p><em>Write the correct letter, <strong>A–H</strong>, in the boxes on your answer sheet.</em></p>\n                <div style=\"overflow-x: auto;\">\n                    <table class=\"matching-table\">\n                        <thead>\n                            <tr>\n                                <th></th>\n                                <th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td><strong>27</strong> Martian evidence found on Earth</td>\n                                <td><input type=\"radio\" name=\"q1\" value=\"A\"></td><td><input type=\"radio\" name=\"q1\" value=\"B\"></td><td><input type=\"radio\" name=\"q1\" value=\"C\"></td><td><input type=\"radio\" name=\"q1\" value=\"D\"></td><td><input type=\"radio\" name=\"q1\" value=\"E\"></td><td><input type=\"radio\" name=\"q1\" value=\"F\"></td><td><input type=\"radio\" name=\"q1\" value=\"G\"></td><td><input type=\"radio\" name=\"q1\" value=\"H\"></td>\n                            </tr>\n                            <tr>\n                                <td><strong>28</strong> Mars and Earth may share the same origin of life</td>\n                                <td><input type=\"radio\" name=\"q2\" value=\"A\"></td><td><input type=\"radio\" name=\"q2\" value=\"B\"></td><td><input type=\"radio\" name=\"q2\" value=\"C\"></td><td><input type=\"radio\" name=\"q2\" value=\"D\"></td><td><input type=\"radio\" name=\"q2\" value=\"E\"></td><td><input type=\"radio\" name=\"q2\" value=\"F\"></td><td><input type=\"radio\" name=\"q2\" value=\"G\"></td><td><input type=\"radio\" name=\"q2\" value=\"H\"></td>\n                            </tr>\n                             <tr>\n                                <td><strong>29</strong> Detailed depiction of large-scale agricultural constructions</td>\n                               <td><input type=\"radio\" name=\"q3\" value=\"A\"></td><td><input type=\"radio\" name=\"q3\" value=\"B\"></td><td><input type=\"radio\" name=\"q3\" value=\"C\"></td><td><input type=\"radio\" name=\"q3\" value=\"D\"></td><td><input type=\"radio\" name=\"q3\" value=\"E\"></td><td><input type=\"radio\" name=\"q3\" value=\"F\"></td><td><input type=\"radio\" name=\"q3\" value=\"G\"></td><td><input type=\"radio\" name=\"q3\" value=\"H\"></td>\n                            </tr>\n                            <tr>\n                                <td><strong>30</strong> A project that aims to detect life under conditions similar to those on Mars</td>\n                                <td><input type=\"radio\" name=\"q4\" value=\"A\"></td><td><input type=\"radio\" name=\"q4\" value=\"B\"></td><td><input type=\"radio\" name=\"q4\" value=\"C\"></td><td><input type=\"radio\" name=\"q4\" value=\"D\"></td><td><input type=\"radio\" name=\"q4\" value=\"E\"></td><td><input type=\"radio\" name=\"q4\" value=\"F\"></td><td><input type=\"radio\" name=\"q4\" value=\"G\"></td><td><input type=\"radio\" name=\"q4\" value=\"H\"></td>\n                            </tr>\n                            <tr>\n                                <td><strong>31</strong> Mars has undergone drastic climatic transformation</td>\n                                <td><input type=\"radio\" name=\"q5\" value=\"A\"></td><td><input type=\"radio\" name=\"q5\" value=\"B\"></td><td><input type=\"radio\" name=\"q5\" value=\"C\"></td><td><input type=\"radio\" name=\"q5\" value=\"D\"></td><td><input type=\"radio\" name=\"q5\" value=\"E\"></td><td><input type=\"radio\" name=\"q5\" value=\"F\"></td><td><input type=\"radio\" name=\"q5\" value=\"G\"></td><td><input type=\"radio\" name=\"q5\" value=\"H\"></td>\n                            </tr>\n                             <tr>\n                                <td><strong>32</strong> Scientific attempts to locate liquid water on Mars</td>\n                                <td><input type=\"radio\" name=\"q6\" value=\"A\"></td><td><input type=\"radio\" name=\"q6\" value=\"B\"></td><td><input type=\"radio\" name=\"q6\" value=\"C\"></td><td><input type=\"radio\" name=\"q6\" value=\"D\"></td><td><input type=\"radio\" name=\"q6\" value=\"E\"></td><td><input type=\"radio\" name=\"q6\" value=\"F\"></td><td><input type=\"radio\" name=\"q6\" value=\"G\"></td><td><input type=\"radio\" name=\"q6\" value=\"H\"></td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            </div>\n            \n            <div class=\"question-group\" id=\"q7-36-section\">\n                <h4>Questions 33–36</h4>\n                <p>Choose the correct letter, <strong>A, B, C</strong> or <strong>D</strong>.</p>\n                <div class=\"question-item\">\n                    <p><strong>33</strong> How did Percival Lowell describe Mars in this passage?</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q7\" value=\"A\"><span>A Arizona provides the perfect location for observation.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q7\" value=\"B\"><span>B The canals of Mars are wider than those on Earth.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q7\" value=\"C\"><span>C There are clear traces of water and agriculture similar to Earth's.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q7\" value=\"D\"><span>D Active, mobile Martian creatures were seen through telescopes.</span></label></li>\n                    </ul>\n                </div>\n                <div class=\"question-item\">\n                    <p><strong>34</strong> How did people change their view of Mars from the 19th century onwards?</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q8\" value=\"A\"><span>A They experienced a real Martian attack.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q8\" value=\"B\"><span>B They absorbed new ideas through literary works.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q8\" value=\"C\"><span>C They learned new concepts by listening to a famous radio programme.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q8\" value=\"D\"><span>D They attended public lectures given by well-known writers.</span></label></li>\n                    </ul>\n                </div>\n                <div class=\"question-item\">\n                    <p><strong>35</strong> According to the probes sent in the 1960s, which statement about Mars is correct?</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q9\" value=\"A\"><span>A Its landscape is full of rocks and rivers.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q9\" value=\"B\"><span>B It appeared far less dynamic than Earth.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q9\" value=\"C\"><span>C It contained exactly the same substances as the Moon.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q9\" value=\"D\"><span>D Images differed completely from those taken by later probes.</span></label></li>\n                    </ul>\n                </div>\n                <div class=\"question-item\">\n                    <p><strong>36</strong> What is the implication of the project using the technology called SOLID in the Atacama Desert?</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q10\" value=\"A\"><span>A It could be employed to explore organisms under Martian-like conditions.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q10\" value=\"B\"><span>B This technology could not be used to identify life in environments similar to Mars.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q10\" value=\"C\"><span>C The Atacama Desert is the only place on Earth that suits such organisms.</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q10\" value=\"D\"><span>D Life has not yet been found anywhere in the Atacama Desert.</span></label></li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"question-group\" id=\"q11-40-section\">\n                <h4>Questions 37–40</h4>\n                <p>Do the following statements agree with the information given in Reading Passage 3?</p>\n                <p>In boxes 37–40 on your answer sheet, write</p>\n                <p style=\"padding-left: 20px;\">\n                    <strong>TRUE</strong> if the statement agrees with the information<br>\n                    <strong>FALSE</strong> if the statement contradicts the information<br>\n                    <strong>NOT GIVEN</strong> if there is no information on this\n                </p>\n\n                <div class=\"question-item\">\n                    <p><strong>37</strong> According to <i>The War of the Worlds</i>, Martian technology surpassed that of humans in every field at the time.</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q11\" value=\"TRUE\"><span>TRUE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q11\" value=\"FALSE\"><span>FALSE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q11\" value=\"NOT GIVEN\"><span>NOT GIVEN</span></label></li>\n                    </ul>\n                </div>\n                <div class=\"question-item\">\n                    <p><strong>38</strong> The evidence supplied by the Viking probes has never been challenged.</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q12\" value=\"TRUE\"><span>TRUE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q12\" value=\"FALSE\"><span>FALSE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q12\" value=\"NOT GIVEN\"><span>NOT GIVEN</span></label></li>\n                    </ul>\n                </div>\n                <div class=\"question-item\">\n                    <p><strong>39</strong> Analysis of a meteorite from Mars discovered a substance associated with certain germs.</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q13\" value=\"TRUE\"><span>TRUE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q13\" value=\"FALSE\"><span>FALSE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q13\" value=\"NOT GIVEN\"><span>NOT GIVEN</span></label></li>\n                    </ul>\n                </div>\n                <div class=\"question-item\">\n                    <p><strong>40</strong> According to Víctor Parro, their project will be sent to Mars once DNA-based life has been identified on Earth.</p>\n                    <ul class=\"options-list\">\n                        <li><label><input type=\"radio\" name=\"q14\" value=\"TRUE\"><span>TRUE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q14\" value=\"FALSE\"><span>FALSE</span></label></li>\n                        <li><label><input type=\"radio\" name=\"q14\" value=\"NOT GIVEN\"><span>NOT GIVEN</span></label></li>\n                    </ul>\n                </div>\n            </div>",
+    "originalTitle": "The Exploration of Mars 火星探索"
+  },
+  "explanationKey": "p3-medium-179",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Exploration of Mars"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " In 1877, Giovanni Schiaparelli, an Italian astronomer, made drawings and maps of the Martian surface that suggested strange features. The images from telescopes at that time were not as sharp as today's. Schiaparelli said he could see a network of lines, or "
+            },
+            {
+              "type": "element",
+              "tag": "i",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "canali"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". In 1894, an American astronomer, Percival Lowell, made a series of observations of Mars from his own observatory at Flagstaff, Arizona, U.S.A. Lowell was convinced a great network of canals had been dug to irrigate crops for the Martian race. He suggested that each canal had fertile vegetation on either side, making them noticeable from Earth. Drawings and globes he made show a network of canals and oases all over the planet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " The idea that there was intelligent life on Mars gained strength in the late 19th century. In 1898, H. G. Wells wrote the science-fiction classic "
+            },
+            {
+              "type": "element",
+              "tag": "i",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The War of the Worlds"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " about an invading force of Martians who try to conquer Earth. They use highly advanced technology (advanced for 1898) to crush human resistance. In 1917, Edgar Rice Burroughs wrote the first in a series of 11 novels about Mars. Strange beings and rampaging Martian monsters gripped the public's imagination. A radio broadcast by Orson Welles on Halloween night in 1938 of "
+            },
+            {
+              "type": "element",
+              "tag": "i",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The War of the Worlds"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " caused widespread panic across America; people ran into the streets in their pyjamas—millions believed the dramatic reports of a Martian invasion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Probes are very important to our understanding of other planets. Much of our recent knowledge comes from these robotic missions into space. The first images sent back from Mars came from Mariner 4 in July 1965. They showed a cratered and barren landscape, more like the surface of our Moon than Earth. In 1969, Mariners 6 and 7 were launched and took 200 photographs of Mars's southern hemisphere and pole on fly-by missions, but these revealed little more information. In 1971, Mariner 9 became the first spacecraft to orbit the planet, circling every 12 hours. In 1975, the U.S.A. sent two Viking probes, each with an orbiter and a lander. The landers had sampler arms to scoop up Martian rocks and carried out experiments to try to find signs of life. Although no life was found, they sent back the first colour pictures of the planet's surface and atmosphere from pivoting cameras."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " A Martian meteorite found on Earth raised fresh doubts about the above analysis. Meteorite ALH 84001 was discovered in December 1984 in Antarctica by members of the ANSMET project. The sample was ejected from Mars about 17 million years ago and spent 11,000 years in, or on, Antarctic ice sheets. NASA's compositional analysis revealed a kind of magnetite that on Earth is only found in association with certain micro-organisms. Some structures resemble the mineralised casts of terrestrial bacteria and their appendages, fibrils or by-products occurring in the rims of carbonate globules and pre-terrestrial aqueous-alteration regions. The size and shape of the objects are consistent with Earthly fossilised nanobacteria, but the very existence of nanobacteria is still controversial."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " In 1965, the Mariner 4 probe discovered that Mars had no global magnetic field to protect the planet from potentially life-threatening cosmic and solar radiation; observations made in the late 1990s by Mars Global Surveyor confirmed this discovery. Scientists speculate that the lack of magnetic shielding helped the solar wind blow away much of Mars's atmosphere over several billion years. After mapping cosmic-radiation levels at various depths on Mars, researchers concluded that any life within the first several metres of the planet's surface would be killed by lethal doses of radiation. In 2007 it was calculated that DNA and RNA damage would limit life on Mars to depths greater than 7.5 metres below the surface. Therefore, the best places to look for life may be subsurface environments that have not yet been studied. The disappearance of the magnetic field may have played a significant role in Martian climate change. According to scientists' evaluation, Mars's climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " NASA's recent missions have focused on another question: whether Mars had lakes or oceans of liquid water on its surface in the ancient past. Scientists have found hematite, a mineral that forms only in the presence of water. Thus, the 2004 Mars Exploration Rovers were designed not to look for present or past life, but for evidence of ancient liquid water. Because of Mars's current low atmospheric pressure and temperature, liquid water cannot persist at the surface except, briefly, at the lowest shaded elevations. In March 2004, NASA announced that its rover Opportunity had discovered evidence that Mars was once a wet planet. This raised hopes that evidence of past life might still be found. Later the Mars Express orbiter detected huge reserves of water-ice at Mars's south pole in January 2004."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Researchers from the Center for Astrobiology (Spain) and the Catholic University of the North in Chile have found an oasis of micro-organisms two metres below the surface of the Atacama Desert. SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil. “We have named it a "
+            },
+            {
+              "type": "element",
+              "tag": "i",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "microbial oasis"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " because we found micro-organisms developing in a habitat rich in rock salt and other highly hygroscopic compounds that absorb water,” explained Víctor Parro of the Center for Astrobiology. “If similar microbes, or their remains, exist on Mars under comparable conditions, we could detect them with instruments like SOLID,\" Parro added."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Even more intriguing is an alternative scenario proposed by the Spanish scientists. If samples on Mars were found to use DNA—as Earthly life does—it would be extremely unlikely that such a specialised, complex molecule could have evolved independently on two planets. This would indicate a common origin for Martian and Earth life. Life based on DNA might have appeared first on Mars and then spread to Earth, where it evolved into the myriad plants and creatures alive today. If that proved true, we would face a startling conclusion: we are all Martians. If not, we must continue the search for other signs of life."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "short_answer",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "question-group",
+            "id": "q1-32-section"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–32"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The reading passage has eight paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A–H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in the boxes on your answer sheet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "G"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "H"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "27"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Martian evidence found on Earth"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "28"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Mars and Earth may share the same origin of life"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "29"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Detailed depiction of large-scale agricultural constructions"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                               "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "30"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " A project that aims to detect life under conditions similar to those on Mars"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "31"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Mars has undergone drastic climatic transformation"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "32"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " Scientific attempts to locate liquid water on Mars"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "question-group",
+            "id": "q7-36-section"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 33–36"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " How did Percival Lowell describe Mars in this passage?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q7",
+                              "questionId": "q7",
+                              "questionIds": [
+                                "q7"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q7",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A Arizona provides the perfect location for observation."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q7",
+                              "questionId": "q7",
+                              "questionIds": [
+                                "q7"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q7",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B The canals of Mars are wider than those on Earth."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q7",
+                              "questionId": "q7",
+                              "questionIds": [
+                                "q7"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q7",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C There are clear traces of water and agriculture similar to Earth's."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q7",
+                              "questionId": "q7",
+                              "questionIds": [
+                                "q7"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q7",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D Active, mobile Martian creatures were seen through telescopes."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " How did people change their view of Mars from the 19th century onwards?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q8",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A They experienced a real Martian attack."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q8",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B They absorbed new ideas through literary works."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q8",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C They learned new concepts by listening to a famous radio programme."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q8",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D They attended public lectures given by well-known writers."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the probes sent in the 1960s, which statement about Mars is correct?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q9",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A Its landscape is full of rocks and rivers."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q9",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B It appeared far less dynamic than Earth."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q9",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C It contained exactly the same substances as the Moon."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q9",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D Images differed completely from those taken by later probes."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the implication of the project using the technology called SOLID in the Atacama Desert?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q10",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A It could be employed to explore organisms under Martian-like conditions."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q10",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B This technology could not be used to identify life in environments similar to Mars."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q10",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C The Atacama Desert is the only place on Earth that suits such organisms."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q10",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D Life has not yet been found anywhere in the Atacama Desert."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "question-group",
+            "id": "q11-40-section"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 37–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 37–40 on your answer sheet, write"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "style": "padding-left: 20px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TRUE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if the statement agrees with the information"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FALSE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if the statement contradicts the information"
+                },
+                {
+                  "type": "element",
+                  "tag": "br",
+                  "attrs": {},
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " if there is no information on this\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "i",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The War of the Worlds"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Martian technology surpassed that of humans in every field at the time."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "TRUE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "TRUE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "TRUE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "FALSE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "FALSE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "FALSE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "NOT GIVEN",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q11",
+                                "value": "NOT GIVEN"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "NOT GIVEN"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The evidence supplied by the Viking probes has never been challenged."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "TRUE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "TRUE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "TRUE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "FALSE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "FALSE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "FALSE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "NOT GIVEN",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q12",
+                                "value": "NOT GIVEN"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "NOT GIVEN"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Analysis of a meteorite from Mars discovered a substance associated with certain germs."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "TRUE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "TRUE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "TRUE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "FALSE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "FALSE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "FALSE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "NOT GIVEN",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q13",
+                                "value": "NOT GIVEN"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "NOT GIVEN"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to Víctor Parro, their project will be sent to Mars once DNA-based life has been identified on Earth."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "TRUE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "TRUE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "TRUE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "FALSE",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "FALSE"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "FALSE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "NOT GIVEN",
+                              "attrs": {
+                                "type": "radio",
+                                "name": "q14",
+                                "value": "NOT GIVEN"
+                              }
+                            },
+                            {
+                              "type": "element",
+                              "tag": "span",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "NOT GIVEN"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "contentNodes": [],
+      "explanationSection": {
+        "sectionTitle": "1. 段落匹配（Questions 27–32：Which paragraph contains the following information?）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "答案：D\n解析：定位 Paragraph D 中 “A Martian meteorite found on Earth raised fresh doubts about the above analysis. Meteorite ALH 84001 was discovered in December 1984 in Antarctica”，明确提到 “在地球南极发现火星陨石”，与题干对应，因此答案为 D。\n答案：H\n解析：定位 Paragraph H 中 “If samples on Mars were found to use DNA-as Earthly life does-it would be extremely unlikely that such a specialised, complex molecule could have evolved independently on two planets. This would indicate a common origin for Martian and Earth life”，明确讨论 “生命同源”，与题干对应，因此答案为 H。\n答案：A\n解析：定位 Paragraph A 中 “Lowell was convinced a great network of canals had been dug to irrigate crops... Drawings and globes he made show a network of canals and oases all over the planet”，“运河网络用于灌溉作物” 即 “农业设施”，与题干对应，因此答案为 A。\n答案：G\n解析：定位 Paragraph G 中 “Researchers from the Center for Astrobiology (Spain) and the Catholic University of the North in Chile have found an oasis of micro-organisms two metres below the surface of the Atacama Desert. SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil”，“在阿塔卡马沙漠用 SOLID 探测生命，该仪器可用于类似火星的环境”，与题干对应，因此答案为 G。\n答案：E\n解析：定位 Paragraph E 中 “According to scientists’ evaluation, Mars’s climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished”，“从温暖湿润变为寒冷干燥” 即 “剧烈气候转变”，与题干对应，因此答案为 E。\n答案：F\n解析：定位 Paragraph F 中 “NASA’s recent missions have focused on another question: whether Mars had lakes or oceans of liquid water on its surface in the ancient past... the 2004 Mars Exploration Rovers were designed not to look for present or past life, but for evidence of ancient liquid water”，明确提到 “寻找古代液态水的科学任务”，与题干对应，因此答案为 F。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Martian evidence found on Earth（在地球上发现的火星证据）\n答案：D\n解析：定位 Paragraph D 中 “A Martian meteorite found on Earth raised fresh doubts about the above analysis. Meteorite ALH 84001 was discovered in December 1984 in Antarctica”，明确提到 “在地球南极发现火星陨石”，与题干对应，因此答案为 D。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Mars and Earth may share the same origin of life（火星与地球可能有相同的生命起源）\n答案：H\n解析：定位 Paragraph H 中 “If samples on Mars were found to use DNA-as Earthly life does-it would be extremely unlikely that such a specialised, complex molecule could have evolved independently on two planets. This would indicate a common origin for Martian and Earth life”，明确讨论 “生命同源”，与题干对应，因此答案为 H。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Detailed depiction of large-scale agricultural constructions（对大规模农业设施的详细描绘）\n答案：A\n解析：定位 Paragraph A 中 “Lowell was convinced a great network of canals had been dug to irrigate crops... Drawings and globes he made show a network of canals and oases all over the planet”，“运河网络用于灌溉作物” 即 “农业设施”，与题干对应，因此答案为 A。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：A project that aims to detect life under conditions similar to those on Mars（旨在在类似火星的条件下探测生命的项目）\n答案：G\n解析：定位 Paragraph G 中 “Researchers from the Center for Astrobiology (Spain) and the Catholic University of the North in Chile have found an oasis of micro-organisms two metres below the surface of the Atacama Desert. SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil”，“在阿塔卡马沙漠用 SOLID 探测生命，该仪器可用于类似火星的环境”，与题干对应，因此答案为 G。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Mars has undergone drastic climatic transformation（火星经历了剧烈的气候转变）\n答案：E\n解析：定位 Paragraph E 中 “According to scientists’ evaluation, Mars’s climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished”，“从温暖湿润变为寒冷干燥” 即 “剧烈气候转变”，与题干对应，因此答案为 E。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：Scientific attempts to locate liquid water on Mars（寻找火星液态水的科学尝试）\n答案：F\n解析：定位 Paragraph F 中 “NASA’s recent missions have focused on another question: whether Mars had lakes or oceans of liquid water on its surface in the ancient past... the 2004 Mars Exploration Rovers were designed not to look for present or past life, but for evidence of ancient liquid water”，明确提到 “寻找古代液态水的科学任务”，与题干对应，因此答案为 F。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-32-section"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-36-section"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-40-section"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "D",
+    "q2": "H",
+    "q3": "A",
+    "q4": "G",
+    "q5": "E",
+    "q6": "F",
+    "q7": "C",
+    "q8": "B",
+    "q9": "B",
+    "q10": "A",
+    "q11": "NOT GIVEN",
+    "q12": "FALSE",
+    "q13": "TRUE",
+    "q14": "NOT GIVEN"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-32-section",
+    "q7": "q7-36-section",
+    "q11": "q11-40-section",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q6": "q6_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 14
+}

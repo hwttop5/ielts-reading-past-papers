@@ -1,0 +1,2772 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-low-219",
+  "meta": {
+    "title": "The origin of language",
+    "category": "P3",
+    "frequency": "low",
+    "originalTitle": "The origin of language 语言的起源"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3 "
+            },
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "id": "timer"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27-40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Origin of Language"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The origin of language has been a major area of my research for many years. By 1859, when British scientist Charles Darwin published "
+            },
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Origin of Species"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", there was already a great deal of interest in this subject. However, the debate became plagued by strange theories, so much so that in 1866 the influential Societe de Linguistique de Paris banned all discussions about the origin of language. The ban lasted for more than a century, before a surge of research began during the 1990s. Linguists, psychologists, anthropologists and archaeologists now frequently debate the origin of language and have published many articles and books on this topic. And yet, despite almost frenzied activity, limited progress has been made."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "I believe there are four reasons for this. The first is an insufficient concern with the archaeological and fossil proof of the brains and behaviour of our human ancestors. Many theories to date rely on an assumed association between brain size and language abilities, without acknowledging the problem this creates: fossil evidence indicates that the Neanderthals had larger brains than modern humans, "
+            },
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Homo sapiens"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", but archaeological evidence indicates that the Neanderthals lacked a capacity for language. So something is seriously amiss with those theories."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "That 'something' might relate to the second reason for limited progress: insufficient concern with the other major aural and vocal communication system of modern humans: music. Even though the Societe de Linguistique de Paris had nothing to say about studying the origin of music, academics appear to have had a self- imposed ban, with limited discussion of this issue during the 19th and 20th centuries. However, there are notable exceptions that should be acknowledged. One is the aforementioned Charles Darwin who, in his 1871 book on human evolution, "
+            },
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Descent of Man"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", devoted several pages to the development of music. Another is the renowned ethnomusicologist John Blacking, whose 1973 book, "
+            },
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "How Musical is Man?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", broached the idea that music is an inherent and universal human quality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The origin of music deserves as much attention as that of language, as we cannot treat one without the other. Those writers who had evidently annoyed the Societe de Linguistique de Paris were quite aware of this. For them, music and language were intimately linked; the French writer and philosopher Jean- Jacques Rousseau's "
+            },
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "On the Origin of Language"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (1781) was a reflection on both music and language. In contrast, Morten Christiansen and Simon Kirby's book, "
+            },
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Language Evolution"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (2000), which they conceived as 'a definitive book on the subject', failed to mention music in any of its 17 chapters. Those authors have an important lesson to learn from Rousseau and other writers of his time who addressed the origin of language."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Music is a universal feature of human society and plays a significant role in the lives of all individuals. Indeed, music is perhaps in even greater need of study than language: the latter has a self- evident function—the transmission of information—and can be readily accepted as a product of evolution, even if its specific evolutionary history remains unclear. But what is the point of music?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "That question leads directly to a third reason for our lack of progress in understanding how language evolved, and indeed the human mind in general: an insufficient concern with emotion. If music is about anything, it is about expressing emotion. But while archaeologists have put significant effort into examining the intellectual capacities of our ancestors, their emotional lives have been sorely neglected. This has contributed to the neglect of music, which, in turn, has constrained our understanding of language."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "There is one further reason why progress has been limited: those who have been most influential regarding the evolution of language have simply got it wrong, and misled everyone else. Linguist Derek Bickerton has made an important contribution towards our understanding of the origin of language by bringing his profound knowledge of linguistics to the discussions that have occurred. But Bickerton's idea that the precursor of modern language consisted of words strung together with limited, if any, grammar is, I believe, fundamentally mistaken. Bickerton refers to this precursor as 'proto- language' and suggests that it was similar to the type of language spoken by young children today, and mastered by apes through the use of computer keyboards. This idea has dominated the field of language origins for the last two decades, and is one that I once found persuasive. But I now understand that it is not only flawed but has severely limited the progress that should have been made."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "My book therefore provides an alternative view, one that draws on the ideas of a linguist who has, I believe, identified the true nature of proto- language. Her name is Alison Wray. She argues that proto- language was 'holistic' rather than compositional in character. By this she means that the precursor to language was a communication system composed of 'messages' rather than words; each message was uniquely associated with an arbitrary meaning, as are the utterances of language today. But in Wray's proto- language, they were not composed out of smaller units of meaning (i.e. words) which could be combined together using a rule system (i.e. grammar) to make more complex messages with emergent meanings. For Wray, proto- language was semantically complex and grammatical. I believe this insight enables us to understand the origin of music as well as language, and to relate both to the emotional lives of our human ancestors."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27-31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "question-note"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, A, B, C or D."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letter in boxes 27-31 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q1-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q1-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "27. In the first paragraph, what does the writer suggest about the origin of language?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-direction: column; gap:8px; margin:4px 0;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. Too many branches of science have been involved in its study."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. The Societe de Linguistique de Paris instigated research in this area."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. The lack of progress is surprising given the amount of work being done."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. Most progress in the study of language was made between 1859 and 1866."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q2-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q2-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "28. What is the 'problem' referred to in the second paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-direction: column; gap:8px; margin:4px 0;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. Some current theories are based on conflicting evidence."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. There is insufficient fossil evidence to reach a conclusion."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. Fossil evidence suggests that Homo sapiens had larger brains than Neanderthals."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. Archaeological evidence shows that Neanderthals were able to talk."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q3-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q3-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "29. What does the writer suggest about Jean-Jacques Rousseau's work in 1781?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-direction: column; gap:8px; margin:4px 0;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. Modern theorists should pay more attention to his approach."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. His ideas supported those of the Societe de Linguistique de Paris."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. His ideas were mirrored in a later book called Language Evolution."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. His ideas are too outdated to be of any relevance today."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q4-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q4-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "30. What is the writer's current view of Derek Bickerton's ideas?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-direction: column; gap:8px; margin:4px 0;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. They have had little impact on the study of language."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. They have helped the study of linguistics to progress."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. They are not accepted by the majority of linguists."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. The assumption behind them is wrong."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q5-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "q5-section",
+                "style": "padding:8px 0;border-top:1px dashed var(--line);"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "31. In the final paragraph, the writer concludes that Alison Wray's ideas will help establish a link between"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-direction: column; gap:8px; margin:4px 0;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A. grammar and meaning."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B. messages and proto-language."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C. language, music and emotions."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "style": "margin:0;"
+                      },
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D. proto-language and modern semantics."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "short_answer",
+      "questionIds": [
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32-37"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "question-note"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 32-37) and the list of people/books below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct person/book, A-H."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letter, A-H, in boxes 32-37 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin: 12px 0;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "matching-option"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Societe de Linguistique de Paris"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "select",
+                  "questionId": "q6",
+                  "fieldName": "q6",
+                  "attrs": {
+                    "id": "q6",
+                    "name": "q6"
+                  },
+                  "options": [
+                    {
+                      "value": "",
+                      "label": "Select option"
+                    },
+                    {
+                      "value": "A",
+                      "label": "A"
+                    },
+                    {
+                      "value": "B",
+                      "label": "B"
+                    },
+                    {
+                      "value": "C",
+                      "label": "C"
+                    },
+                    {
+                      "value": "D",
+                      "label": "D"
+                    },
+                    {
+                      "value": "E",
+                      "label": "E"
+                    },
+                    {
+                      "value": "F",
+                      "label": "F"
+                    },
+                    {
+                      "value": "G",
+                      "label": "G"
+                    },
+                    {
+                      "value": "H",
+                      "label": "H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "matching-option"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "33."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Charles Darwin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "select",
+              "questionId": "q7",
+              "fieldName": "q7",
+              "attrs": {
+                "id": "q7",
+                "name": "q7"
+              },
+              "options": [
+                {
+                  "value": "",
+                  "label": "Select option"
+                },
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "matching-option"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "34."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " John Blacking"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "select",
+              "questionId": "q8",
+              "fieldName": "q8",
+              "attrs": {
+                "id": "q8",
+                "name": "q8"
+              },
+              "options": [
+                {
+                  "value": "",
+                  "label": "Select option"
+                },
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "matching-option"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "35."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Christiansen and Kirby"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "select",
+              "questionId": "q9",
+              "fieldName": "q9",
+              "attrs": {
+                "id": "q9",
+                "name": "q9"
+              },
+              "options": [
+                {
+                  "value": "",
+                  "label": "Select option"
+                },
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "matching-option"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "36."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Derek Bickerton"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "select",
+              "questionId": "q10",
+              "fieldName": "q10",
+              "attrs": {
+                "id": "q10",
+                "name": "q10"
+              },
+              "options": [
+                {
+                  "value": "",
+                  "label": "Select option"
+                },
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "matching-option"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "37."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Alison Wray"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "select",
+              "questionId": "q11",
+              "fieldName": "q11",
+              "attrs": {
+                "id": "q11",
+                "name": "q11"
+              },
+              "options": [
+                {
+                  "value": "",
+                  "label": "Select option"
+                },
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "margin-top: 16px; padding: 12px; background: #f8fafc; border-radius: 8px; font-size: 14px;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "List of people/books"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A. suggested music was an essential part of every individual"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B. made no link between music and language in a comprehensive study"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C. believes that early language was very musical"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D. felt that the origin of language should not be debated"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E. states that early language was made up of basic words used in an unsystematic way"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F. devoted 17 chapters of a book to music"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G. believes that proto-language had no individual words"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "H. referred to music in part of a book about the development of human beings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "multi_choice",
+      "questionIds": [
+        "q12"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 38-40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "id": "q12-anchor"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {
+                "class": "question-note"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "THREE"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " letters, A-G."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write the correct letters in boxes 38-40 on your answer sheet."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "According to the writer, which THREE of the following areas have not been studied enough in order to understand the origin of language?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      \n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "checkbox-list"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "A",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A. evidence from prehistoric times"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "B",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "B. intelligence"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "C",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "C. individual sounds"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "D",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "D. music"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "E",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "E. emotions"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "F",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "F"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "F. human intellect"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "label",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "choiceInput",
+                      "inputType": "checkbox",
+                      "fieldName": "q12_40",
+                      "questionId": "",
+                      "questionIds": [
+                        "q12",
+                        "q40"
+                      ],
+                      "value": "G",
+                      "attrs": {
+                        "type": "checkbox",
+                        "name": "q12_40",
+                        "value": "G"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n          "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "G. children's language"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38-40",
+      "anchorId": "q12-anchor"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "C",
+    "q2": "A",
+    "q3": "A",
+    "q4": "D",
+    "q5": "C",
+    "q6": "D",
+    "q7": "H",
+    "q8": "A",
+    "q9": "B",
+    "q10": "E",
+    "q11": "G",
+    "q12": [
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38-40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6",
+    "q7": "q7",
+    "q8": "q8",
+    "q9": "q9",
+    "q10": "q10",
+    "q11": "q11",
+    "q12": "q12-anchor",
+    "q40": "q12-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q12_40",
+        "inputType": "checkbox",
+        "questionIds": [
+          "q12",
+          "q40"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11"
+    ],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 12
+}

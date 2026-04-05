@@ -1,0 +1,2874 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-low-95",
+  "meta": {
+    "title": "The strange world of sight",
+    "category": "P3",
+    "frequency": "low",
+    "pdfFilename": "184. P3 - The strange world of sight 奇异的视觉世界.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/184. P3 - The strange world of sight 奇异的视觉世界/",
+    "legacyFilename": "184. P3 - The strange world of sight 奇异的视觉世界.html",
+    "questionIntroHtml": "",
+    "originalTitle": "The strange world of sight 奇异的视觉世界"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The strange world of sight"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Seeing is believing, it is said. But, asks Richard Gregory, could it be the other way round?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Two of the great British men of the 17th century, the philosopher John Locke and the physicist Isaac Newton, were both aware that objects are not coloured, and that against all appearances light is not coloured either. This is still not generally recognised even now, 400 years later, because it seems so implausible. Yet it tells us something very important - that perceptions are not identical with what we perceive, and may be very different."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The most accurate historical account of perception is that of the 19th-century German scientist Hermann von Helmholtz. However, it was ridiculed at the time. Von Helmholtz thought that perceptions are unconscious inferences we make based on a combination of clues provided by the eyes and other senses, and knowledge of the world. This idea of unconscious inference for perception preceded, by several years, the psychoanalyst Freud's notion of the unconscious, which was also initially treated with derision because it undermined the notion of humans as pre-eminently rational beings who could be held responsible for their actions and awarded blame or praise accordingly."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Crucially, perception of the present depends on rich, though of course not always correct or appropriate, knowledge from the past. We interpret sense data (what we hear, touch, taste, see and smell) from the present according to what we already know. This raises the question: if we see the present through memory, why aren't past and present confused? The pioneering Russian neurologist Alexander Luria described the case of Mr S, who had a remarkable memory. However, he was prone to just such confusions, for example mistaking seeing his clock for remembering it, and so failing to get up in the morning. This suggests that perhaps an important function of perception is to underline the present. Individual perceptions have a vividness that is rare for memories, which might be how we are able to separate them. Try this: look at something for a few seconds, and then shut your eyes and visualise it in memory. You will almost certainly find that the memory is pale by comparison with the perception. Perhaps this is why past and present are not normally confused. Luria's Mr S had exceptionally vivid memories, and rich synaesthesia (experiencing perceptions from another sense as well as the one being stimulated, such as musical notes experienced as colours), which may be why he confused seeing with having seen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The complexity of processes involved in how we see first impressed itself on me 45 years ago. With my colleague Jean Wallace, I studied the rare case of Sydney Bradford, a man who had been born blind but, through a corneal graft at the age of 52, suddenly found himself able to see. Almost immediately after the operation he was able to 'see' but he could only see those things that he already knew about, having experienced them through touch. It was his touch memories that enabled him to perceive them with his eyes. When Bradford was first taken to the zoo, he proved utterly unable to see an elephant as he had no knowledge to make sense of his perceptions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The more recent case in California of Mike May, who was also born blind, is similar. Since his operation, his sight has gradually improved as he learns to see, for example, by understanding how shadows represent depth and tell us about the shape of things. Some of the consequences of May's new-found vision were less happy. He had been a champion blind skier, but following the operation, he would have to shut his eyes while skiing to block out what he now found was a terrifying sight."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "But acceptance of this intimate connection between memory and perception, even though it was first noticed in the 17th century, has been slow in brain science. Despite the fact that state-of-the-art brain imaging shows that perception animates parts of the brain associated with both present information and memory, most research on memory and perception is still undertaken as if these were separate processes. Seeing used to be thought of as taking place only in the eyes, and in quite specialised brain regions; but now it seems that half the brain is occupied with seeing, requiring a lot of energy. Perhaps this is why we shut our eyes for a rest."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It is not just extreme cases like Mike May, but also much more common errors of seeing — illusions — that can reveal the crucial role of memory in governing what we (think we) see. Perception depends on specific knowledge and probabilities. Our brains calculate the likelihood of what is out there, and when too far-fetched, perceptions are rejected."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A dramatic and discomforting example is looking at the two sides of a face-mask. From the front it is a convex shape with the nose sticking out. Then if the mask is rotated, the back of the mask will be seen as convex, though we know that it must be concave. It is almost, if not quite, impossible to sketch the back of a hollow mask to look as it is — hollow. Science often learns from what does not happen: people not seeing a hollow face as hollow is the most revealing experiment on perception. The unsettling truth from brain science is that even people with no visual impairment see what, at some level, they expect to see, and often miss things as they really are."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "single_choice",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–30"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Why does the writer refer to Locke and Newton in the first paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A to indicate that his article will cover several scientific fields"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B to stress how much physics has changed in 400 years"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C to persuade the reader to take him seriously"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D to point out that his notions are not new"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the writer, why was Freud's theory of the unconscious mocked?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A It was too complex for his contemporaries to understand."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B It involved criticism of the way people behaved in society."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C People felt that it devalued the accepted concept of humanity."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D People assumed that it was intended as a joke."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The writer describes Mr S failing to get up in order to demonstrate"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A how realistic most people's memories are."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B how hard it is to tell dreaming and waking apart."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C how unusual it is to mistake a perception for a memory."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D how valuable knowledge of the past can be."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What point is the writer making in the text as a whole?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A Perception involves much more than the data collected by the eyes."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B Learning to see as an adult can be a time-consuming process."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C Science is failing to devote enough attention to sight."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D Human perception is remarkably reliable."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q5-6-7-8-9-10-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 31–36"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the views of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style: none; padding-left: 0;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the views of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the views of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Sydney Bradford relied on recollections of objects he had been told about to help him see after his operation."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " People who only start to see as adults can learn to see as other people do in time."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " People who have gained their sight as adults find certain activities harder to do than before."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is evident now that sight involves the eyes and one particular area of the brain."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The mask experiment is particularly useful in training people who are regaining their sight."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " People with perfect vision can fail to interpret objects correctly under certain circumstances."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 37–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary using the list of words, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–J"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-box"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h5",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The mask experiment"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "summary-text"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            In this experiment, having looked at the front of a simple face-mask, subjects look at the reverse. However, the subjects are convinced that they are still looking at a mask which is "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "37"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "dropzone",
+                          "appearance": "summary",
+                          "questionId": "q11",
+                          "paragraph": "",
+                          "labelText": "",
+                          "attrs": {
+                            "id": "q11-target",
+                            "class": "drop-target-summary",
+                            "data-question": "q11"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " in shape. They believe that the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "38"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "dropzone",
+                          "appearance": "summary",
+                          "questionId": "q12",
+                          "paragraph": "",
+                          "labelText": "",
+                          "attrs": {
+                            "id": "q12-target",
+                            "class": "drop-target-summary",
+                            "data-question": "q12"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " is poking out in the normal manner because that is what they are used to seeing. Attempting to make a "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "39"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "dropzone",
+                          "appearance": "summary",
+                          "questionId": "q13",
+                          "paragraph": "",
+                          "labelText": "",
+                          "attrs": {
+                            "id": "q13-target",
+                            "class": "drop-target-summary",
+                            "data-question": "q13"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " of the mask in this orientation leads to the same problem. The subjects fail to see a concave form because of the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "40"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "dropzone",
+                          "appearance": "summary",
+                          "questionId": "q14",
+                          "paragraph": "",
+                          "labelText": "",
+                          "attrs": {
+                            "id": "q14-target",
+                            "class": "drop-target-summary",
+                            "data-question": "q14"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " they have that the features of a face stick out.\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "word-options"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "A back",
+                  "label": "A back",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "B brain",
+                  "label": "B brain",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "C view",
+                  "label": "C view",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "D round",
+                  "label": "D round",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "E sight",
+                  "label": "E sight",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "E"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "F nose",
+                  "label": "F nose",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "F"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "G convex",
+                  "label": "G convex",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "G"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "H hollow",
+                  "label": "H hollow",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "H"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "I drawing",
+                  "label": "I drawing",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "I"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "J preconception",
+                  "label": "J preconception",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "J"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-6-7-8-9-10-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-target"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-target"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-target"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "word-options",
+      "value": "A back",
+      "label": "A back"
+    },
+    {
+      "poolId": "word-options",
+      "value": "B brain",
+      "label": "B brain"
+    },
+    {
+      "poolId": "word-options",
+      "value": "C view",
+      "label": "C view"
+    },
+    {
+      "poolId": "word-options",
+      "value": "D round",
+      "label": "D round"
+    },
+    {
+      "poolId": "word-options",
+      "value": "E sight",
+      "label": "E sight"
+    },
+    {
+      "poolId": "word-options",
+      "value": "F nose",
+      "label": "F nose"
+    },
+    {
+      "poolId": "word-options",
+      "value": "G convex",
+      "label": "G convex"
+    },
+    {
+      "poolId": "word-options",
+      "value": "H hollow",
+      "label": "H hollow"
+    },
+    {
+      "poolId": "word-options",
+      "value": "I drawing",
+      "label": "I drawing"
+    },
+    {
+      "poolId": "word-options",
+      "value": "J preconception",
+      "label": "J preconception"
+    }
+  ],
+  "answerKey": {
+    "q1": "D",
+    "q2": "C",
+    "q3": "C",
+    "q4": "A",
+    "q5": "NO",
+    "q6": "NOT GIVEN",
+    "q7": "YES",
+    "q8": "NO",
+    "q9": "NOT GIVEN",
+    "q10": "YES",
+    "q11": "G",
+    "q12": "F",
+    "q13": "I",
+    "q14": "J"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-anchor",
+    "q5": "q5-6-7-8-9-10-anchor",
+    "q11": "q11-12-13-14-anchor",
+    "q12": "q12-target",
+    "q13": "q13-target",
+    "q14": "q14-target",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ]
+  },
+  "totalQuestions": 14
+}

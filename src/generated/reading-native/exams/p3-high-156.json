@@ -1,0 +1,1585 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-156",
+  "meta": {
+    "title": "Elephant Communication",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "66. P3 - Elephant Communication 大象交流【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/66. P3 - Elephant Communication 大象交流【高】/",
+    "legacyFilename": "66. P3 - Elephant Communication 大象交流【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Elephant Communication 大象交流"
+  },
+  "explanationKey": "p3-high-156",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Elephant Communication"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "O' Connell-Rodwell, a post-doctoral fellow at Stanford University, has traveled to Namibia's first-ever wildlife reserve to explore the mystical and complicated realm of elephant communication. She, along with her colleagues, is part of a scientific revolution that started almost 20 years ago. This revolution has made a stunning revelation: elephants are capable of communicating with one another over long distances by means of low-frequency sounds, also known as infrasound, which are too deep for humans to hear."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "As might be expected, African elephants' ability to detect seismic sound may have something to do with their ears. The hammer bone in an elephant's inner ear is proportionally huge for a mammal, but it is normal for animals that use vibrational signals. Thus, it may be a sign that elephants can use seismic sounds to communicate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Other aspects of elephant anatomy also support this ability. First, their massive bodies, which enable them to give out low-frequency sounds almost as powerful as the sound a jet makes during take-off, serve as ideal frames for receiving ground vibrations and transmitting them to the inner ear. Second, the elephant's toe bones are set in a fatty pad, which might help focus vibrations from the ground into the bone. Finally, the elephant has an enormous brain that sits in the cranial cavity behind the eyes, in line with the auditory canal. The front of the skull is riddled with sinus cavities, which might function as resonating chambers for ground vibrations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It remains unclear how elephants detect such vibrations, but O' Connell-Rodwell suggests that the pachyderms are ‘listening' with their trunks and feet instead of (or in addition to) their ears. The elephant trunk may be the most versatile appendage in nature: it is used for drinking, bathing, smelling, feeding and scratching. Both trunk and feet contain two types of nerve endings that are sensitive to pressure—one detects infrasonic vibration and the other responds to vibrations of slightly higher frequencies. As O' Connell-Rodwell sees it, this research has a boundless and unpredictable future. ‘Our work is really at the interface of geophysics, neurophysiology and ecology,” she says. ‘We're raising questions that have never even been considered before.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Scientists have long known that seismic communication is widespread among small animals such as spiders, scorpions, insects and many vertebrates, including white-lipped frogs, blind mole-rats, kangaroo rats and golden moles. Nevertheless, O' Connell-Rodwell was the first to argue that a giant land animal is also sending and receiving seismic signals. 'I used to lay a male planthopper on a stem and replay the calling sound of a female; the male would exhibit the same kind of behaviour that happens in elephants: he would freeze, press down on his legs, move forward a little, then stay still again. I found it fascinating, and it made me think that perhaps auditory communication is not the only thing going on.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Scientists have confirmed that an elephant's capacity to communicate over long distances is essential for survival, especially in places like Etosha, where more than 2,400 savanna elephants range over an area larger than New Jersey. It is already difficult for an elephant to find a mate in such a vast wilderness, and elephant reproductive biology only complicates matters. Breeding herds also adopt low-frequency sounds to warn of predators. Even though adult elephants have no enemies other than human beings, calves are vulnerable and susceptible to attacks from lions and hyenas. At the sight of a predator, older herd members clump together to protect the young before running away."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "We now know that elephants can respond to warning calls in the air, but can they detect signals transmitted solely through the ground? To investigate, the research team designed an experiment in 2002 that used electronic devices to send signals through the ground at Mushara. 'The outcomes of our 2002 study revealed that elephants could indeed sense warning signals through the ground,' O' Connell-Rodwell observes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Last year, an experiment was set up to pursue the problem further. It used three different recordings: the 1994 warning call from Mushara, an anti-predator call recorded by scientist Joyce Poole in Kenya, and a made-up warble tone. ‘The data I've observed so far imply that the elephants responded exactly as I expected. However, the fascinating finding is that the anti-predator call from Kenya—unfamiliar to them—caused them to gather, tense up and rumble aggressively as well; but they didn't always flee. I didn't expect the results to be that clear-cut.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "diagram_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 28–31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Label the diagram below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN TWO WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "diagram-container diagram-container--elephant"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "img",
+                  "attrs": {
+                    "class": "diagram-image--elephant",
+                    "loading": "lazy",
+                    "src": "https://i.postimg.cc/xC4bjVt3/82bf1c86-d66b-481c-bf14-ff788ad98017.png",
+                    "alt": "Diagram of an elephant's head and features for seismic communication"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "diagram-inputs"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-item"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q28_input"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q1",
+                      "fieldName": "q1",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q28_input",
+                        "name": "q1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-item"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q29_input"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q2",
+                      "fieldName": "q2",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q29_input",
+                        "name": "q2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-item"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q30_input"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q3",
+                      "fieldName": "q3",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q30_input",
+                        "name": "q3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-item"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q31_input"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q4",
+                      "fieldName": "q4",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q31_input",
+                        "name": "q4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 图表填空（Questions 28–31：NO MORE THAN TWO WORDS）",
+        "mode": "group",
+        "questionRange": {
+          "start": 28,
+          "end": 31
+        },
+        "text": "题目翻译：内耳中的_\\___\\__骨\n答案：hammer（锤骨）\n解析：定位 Paragraph 2 中 “The hammer bone in an elephant’s inner ear is proportionally huge for a mammal”，明确提到内耳中的 “锤骨”，因此答案为 “hammer”。\n题目翻译：极其庞大的_\\___\\__\n答案：body（身躯）\n解析：定位 Paragraph 3 中 “Their massive bodies, which enable them to give out low-frequency sounds... serve as ideal frames for receiving ground vibrations”，“massive bodies” 对应 “extremely large body”，因此答案为 “body”。\n题目翻译：脚趾和脂肪_\\___\\__\n答案：pad（垫）\n解析：定位 Paragraph 3 中 “the elephant’s toe bones are set in a fatty pad”，明确提到 “脂肪垫”，因此答案为 “pad”。\n题目翻译：大尺寸大脑，颅骨有许多_\\___\\__\n答案：sinus cavities（鼻窦腔）\n解析：定位 Paragraph 3 中 “The front of the skull is riddled with sinus cavities”，明确提到 “鼻窦腔”，因此答案为 “sinus cavities”。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 28,
+            "text": "（1）题目 28：\\___\\___ bones in inner ear（内耳中的_\\___\\__骨）\n题目翻译：内耳中的_\\___\\__骨\n答案：hammer（锤骨）\n解析：定位 Paragraph 2 中 “The hammer bone in an elephant’s inner ear is proportionally huge for a mammal”，明确提到内耳中的 “锤骨”，因此答案为 “hammer”。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 29,
+            "text": "（2）题目 29：an extremely large （极其庞大的）\n题目翻译：极其庞大的_\\___\\__\n答案：body（身躯）\n解析：定位 Paragraph 3 中 “Their massive bodies, which enable them to give out low-frequency sounds... serve as ideal frames for receiving ground vibrations”，“massive bodies” 对应 “extremely large body”，因此答案为 “body”。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 30,
+            "text": "（3）题目 30：toe and fatty （脚趾和脂肪）\n题目翻译：脚趾和脂肪_\\___\\__\n答案：pad（垫）\n解析：定位 Paragraph 3 中 “the elephant’s toe bones are set in a fatty pad”，明确提到 “脂肪垫”，因此答案为 “pad”。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 31,
+            "text": "（4）题目 31：big sized brain skull with many （大尺寸大脑，颅骨有许多）\n题目翻译：大尺寸大脑，颅骨有许多_\\___\\__\n答案：sinus cavities（鼻窦腔）\n解析：定位 Paragraph 3 中 “The front of the skull is riddled with sinus cavities”，明确提到 “鼻窦腔”，因此答案为 “sinus cavities”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q5-6-7-8-9-10-11-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–38"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN THREE WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        How the elephants sense these sound vibrations is still unknown, but O'Connell-Rodwell, a post-doctoral researcher at Stanford University, proposes that elephants are ‘listening' with their "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q5",
+                      "fieldName": "q5",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q32_input",
+                        "name": "q5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " by two kinds of nerve endings that respond to vibrations with both "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q6",
+                      "fieldName": "q6",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q33_input",
+                        "name": "q6"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " frequency and slightly higher frequencies. O'Connell-Rodwell's work is at the combination of geophysics, neurophysiology and "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q34_input",
+                        "name": "q7"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        It was known that seismic communication existed extensively within small animals, but O'Connell-Rodwell was the first person to indicate that a large land animal would send and receive "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q35_input",
+                        "name": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " too. Also, she noticed the freezing behaviour by putting a male planthopper on a stem and playing back a female call, which might prove the existence of other communicative approaches besides "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q36_input",
+                        "name": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        Scientists have determined that an elephant's ability to communicate over long distances is essential, especially when elephant herds are finding a "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q37_input",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " or are warning of predators. Finally, the results of our 2002 study showed us that elephants could detect warning calls through the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q38_input",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 摘要填空（Questions 32–38：NO MORE THAN THREE WORDS）",
+        "mode": "group",
+        "questionRange": {
+          "start": 32,
+          "end": 38
+        },
+        "text": "题目翻译：奥康奈尔 - 罗德韦尔提出，大象用_\\___\\__“聆听”。\n答案：trunks and feet（象鼻和脚）\n解析：定位 Paragraph 4 中 “O’ Connell-Rodwell suggests that the pachyderms are ‘listening’ with their trunks and feet instead of (or in addition to) their ears”，明确提到 “象鼻和脚”，因此答案为 “trunks and feet”。\n题目翻译：通过两种神经末梢，分别响应_\\___\\__频率和稍高频的振动。\n答案：infrasonic（次声）\n解析：定位 Paragraph 4 中 “Both trunk and feet contain two types of nerve endings that are sensitive to pressure-one detects infrasonic vibration and the other responds to vibrations of slightly higher frequencies”，明确提到 “次声频率”，因此答案为 “infrasonic”。\n题目翻译：奥康奈尔 - 罗德韦尔的研究涉及地球物理学、神经生理学与_\\___\\__的交叉。\n答案：ecology（生态学）\n解析：定位 Paragraph 4 中 “‘Our work is really at the interface of geophysics, neurophysiology and ecology,’ she says”，明确提到 “生态学”，因此答案为 “ecology”。\n题目翻译：奥康奈尔 - 罗德韦尔首次指出，大型陆地动物也能发送和接收_\\___\\__。\n答案：seismic signals（地震信号）\n解析：定位 Paragraph 5 中 “O’ Connell-Rodwell was the first to argue that a giant land animal is also sending and receiving seismic signals”，明确提到 “地震信号”，因此答案为 “seismic signals”。\n题目翻译：这可能证明除_\\___\\__外，还存在其他交流方式。\n答案：auditory communication（听觉交流）\n解析：定位 Paragraph 5 中 “‘I found it fascinating, and it made me think that perhaps auditory communication is not the only thing going on’”，明确提到 “听觉交流”，因此答案为 “auditory communication”。\n题目翻译：尤其当象群寻找_\\___\\__或预警天敌时。\n答案：mate（配偶）\n解析：定位 Paragraph 6 中 “It is already difficult for an elephant to find a mate in such a vast wilderness”，明确提到 “寻找配偶”，因此答案为 “mate”。\n题目翻译：2002 年研究结果显示，大象能通过_\\___\\__探测警报声。\n答案：ground（地面）\n解析：定位 Paragraph 7 中 “‘The outcomes of our 2002 study revealed that elephants could indeed sense warning signals through the ground,’ O’ Connell-Rodwell observes”，明确提到 “地面”，因此答案为 “ground”。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 32,
+            "text": "（1）题目 32：O’Connell-Rodwell proposes that elephants are ‘listening’ with their \\___\\___.\n题目翻译：奥康奈尔 - 罗德韦尔提出，大象用_\\___\\__“聆听”。\n答案：trunks and feet（象鼻和脚）\n解析：定位 Paragraph 4 中 “O’ Connell-Rodwell suggests that the pachyderms are ‘listening’ with their trunks and feet instead of (or in addition to) their ears”，明确提到 “象鼻和脚”，因此答案为 “trunks and feet”。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 33,
+            "text": "（2）题目 33：by two kinds of nerve endings that respond to vibrations with both \\___\\___ frequency and slightly higher frequencies.\n题目翻译：通过两种神经末梢，分别响应_\\___\\__频率和稍高频的振动。\n答案：infrasonic（次声）\n解析：定位 Paragraph 4 中 “Both trunk and feet contain two types of nerve endings that are sensitive to pressure-one detects infrasonic vibration and the other responds to vibrations of slightly higher frequencies”，明确提到 “次声频率”，因此答案为 “infrasonic”。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 34,
+            "text": "（3）题目 34：O’Connell-Rodwell’s work is at the combination of geophysics, neurophysiology and \\___\\___.\n题目翻译：奥康奈尔 - 罗德韦尔的研究涉及地球物理学、神经生理学与_\\___\\__的交叉。\n答案：ecology（生态学）\n解析：定位 Paragraph 4 中 “‘Our work is really at the interface of geophysics, neurophysiology and ecology,’ she says”，明确提到 “生态学”，因此答案为 “ecology”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 35,
+            "text": "（4）题目 35：O’Connell-Rodwell was the first person to indicate that a large land animal would send and receive \\___\\___ too.\n题目翻译：奥康奈尔 - 罗德韦尔首次指出，大型陆地动物也能发送和接收_\\___\\__。\n答案：seismic signals（地震信号）\n解析：定位 Paragraph 5 中 “O’ Connell-Rodwell was the first to argue that a giant land animal is also sending and receiving seismic signals”，明确提到 “地震信号”，因此答案为 “seismic signals”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 36,
+            "text": "（5）题目 36：which might prove the existence of other communicative approaches besides \\___\\___.\n题目翻译：这可能证明除_\\___\\__外，还存在其他交流方式。\n答案：auditory communication（听觉交流）\n解析：定位 Paragraph 5 中 “‘I found it fascinating, and it made me think that perhaps auditory communication is not the only thing going on’”，明确提到 “听觉交流”，因此答案为 “auditory communication”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 37,
+            "text": "（6）题目 37：especially when elephant herds are finding a \\___\\___ or are warning of predators.\n题目翻译：尤其当象群寻找_\\___\\__或预警天敌时。\n答案：mate（配偶）\n解析：定位 Paragraph 6 中 “It is already difficult for an elephant to find a mate in such a vast wilderness”，明确提到 “寻找配偶”，因此答案为 “mate”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 38,
+            "text": "（7）题目 38：the results of our 2002 study showed us that elephants could detect warning calls through the \\___\\___.\n题目翻译：2002 年研究结果显示，大象能通过_\\___\\__探测警报声。\n答案：ground（地面）\n解析：定位 Paragraph 7 中 “‘The outcomes of our 2002 study revealed that elephants could indeed sense warning signals through the ground,’ O’ Connell-Rodwell observes”，明确提到 “地面”，因此答案为 “ground”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "single_choice",
+      "questionIds": [
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 39–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the passage, it is determined that an elephant needs to communicate over long distances for its survival"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A when a threatening predator appears."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B when young elephants meet humans."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C when older members of the herd want to flee from the group."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D when a female elephant is in estrus."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the author's attitude toward the experiment using three different recordings in the last paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "mcq-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A The outcome is definitely out of the original expectation."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B The data cannot be very clearly obtained."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C The result can be somewhat undecided or inaccurate."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D The result can be unfamiliar to the public."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 单选题（Questions 39–40：Choose A–D）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 39,
+          "end": 40
+        },
+        "text": "答案：A（when a threatening predator appears. 有威胁性天敌出现时）\n解析：定位 Paragraph 6 中 “Breeding herds also adopt low-frequency sounds to warn of predators... calves are vulnerable and susceptible to attacks from lions and hyenas. At the sight of a predator, older herd members clump together to protect the young before running away”，明确提到 “天敌出现时需警报交流，关乎幼象生存”，因此选 A。\n答案：A（The outcome is definitely out of the original expectation. 结果完全超出原预期）\n解析：定位 Paragraph 8 中 “However, the fascinating finding is that the anti-predator call from Kenya-unfamiliar to them-caused them to gather, tense up and rumble aggressively as well; but they didn’t always flee. I didn’t expect the results to be that clear-cut”，“didn’t expect the results to be that clear-cut” 表明 “结果比预期更明确，超出预期”，因此选 A。",
+        "items": [
+          {
+            "questionId": "q12",
+            "questionNumber": 39,
+            "text": "（1）题目 39：According to the passage, it is determined that an elephant needs to communicate over long distances for its survival（文中指出，大象为生存需长距离交流的情况是？）\n答案：A（when a threatening predator appears. 有威胁性天敌出现时）\n解析：定位 Paragraph 6 中 “Breeding herds also adopt low-frequency sounds to warn of predators... calves are vulnerable and susceptible to attacks from lions and hyenas. At the sight of a predator, older herd members clump together to protect the young before running away”，明确提到 “天敌出现时需警报交流，关乎幼象生存”，因此选 A。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 40,
+            "text": "（2）题目 40：What is the author’s attitude toward the experiment using three different recordings in the last paragraph?（作者对最后一段中使用三种录音的实验持何种态度？）\n答案：A（The outcome is definitely out of the original expectation. 结果完全超出原预期）\n解析：定位 Paragraph 8 中 “However, the fascinating finding is that the anti-predator call from Kenya-unfamiliar to them-caused them to gather, tense up and rumble aggressively as well; but they didn’t always flee. I didn’t expect the results to be that clear-cut”，“didn’t expect the results to be that clear-cut” 表明 “结果比预期更明确，超出预期”，因此选 A。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "28",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "29",
+      "anchorId": "q29_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "30",
+      "anchorId": "q30_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "31",
+      "anchorId": "q31_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "32",
+      "anchorId": "q5-6-7-8-9-10-11-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "33",
+      "anchorId": "q33_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "34",
+      "anchorId": "q34_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "35",
+      "anchorId": "q35_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "36",
+      "anchorId": "q36_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "37",
+      "anchorId": "q37_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "38",
+      "anchorId": "q38_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "39",
+      "anchorId": "q12-13-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "40",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": [
+      "hammer",
+      "hammer bone"
+    ],
+    "q2": "body",
+    "q3": "pad",
+    "q4": "sinus cavities",
+    "q5": "trunks and feet",
+    "q6": "infrasonic",
+    "q7": "ecology",
+    "q8": "seismic signals",
+    "q9": "auditory communication",
+    "q10": "mate",
+    "q11": "ground",
+    "q12": "A",
+    "q13": "A"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "28",
+    "q2": "29",
+    "q3": "30",
+    "q4": "31",
+    "q5": "32",
+    "q6": "33",
+    "q7": "34",
+    "q8": "35",
+    "q9": "36",
+    "q10": "37",
+    "q11": "38",
+    "q12": "39",
+    "q13": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-anchor",
+    "q28": "q28_input",
+    "q29": "q29_input",
+    "q2": "q29_input",
+    "q30": "q30_input",
+    "q3": "q30_input",
+    "q31": "q31_input",
+    "q4": "q31_input",
+    "q5": "q5-6-7-8-9-10-11-anchor",
+    "q32": "q32_input",
+    "q33": "q33_input",
+    "q6": "q33_input",
+    "q34": "q34_input",
+    "q7": "q34_input",
+    "q35": "q35_input",
+    "q8": "q35_input",
+    "q36": "q36_input",
+    "q9": "q36_input",
+    "q37": "q37_input",
+    "q10": "q37_input",
+    "q38": "q38_input",
+    "q11": "q38_input",
+    "q12": "q12-13-anchor",
+    "q13": "q13_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

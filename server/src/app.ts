@@ -2,6 +2,13 @@ import Fastify from 'fastify'
 import { env, getAssistantRuntimeMode, hasAssistantLlmConfig } from './config/env.js'
 import { registerAssistantRoutes } from './routes/assistant.js'
 
+const DEV_LOCAL_FRONTEND_ORIGINS = [
+  'http://localhost:5173',
+  'http://127.0.0.1:5173',
+  'http://localhost:5175',
+  'http://127.0.0.1:5175'
+]
+
 function buildAllowedOrigins(configuredOrigin: string): string[] {
   const configured = configuredOrigin
     .split(',')
@@ -17,6 +24,12 @@ function buildAllowedOrigins(configuredOrigin: string): string[] {
 
     if (origin.includes('127.0.0.1')) {
       allowed.add(origin.replace('127.0.0.1', 'localhost'))
+    }
+  }
+
+  if (process.env.NODE_ENV !== 'production') {
+    for (const o of DEV_LOCAL_FRONTEND_ORIGINS) {
+      allowed.add(o)
     }
   }
 

@@ -1,0 +1,2961 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-184",
+  "meta": {
+    "title": "The New Zealand writer Margaret Mahy",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "91. P3 - The New Zealand writer Margaret Mahy 新西兰女作家【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/91. P3 - The New Zealand writer Margaret Mahy 新西兰女作家【高】/",
+    "legacyFilename": "91. P3 - The New Zealand writer Margaret Mahy 新西兰女作家【高】.html",
+    "questionIntroHtml": "<h2>Questions</h2>\n\n      <div class=\"question-group\" id=\"q1-31-section\">\n        <h4>Questions 27–31</h4>\n        <p>Do the following statements agree with the claims of the writer in Reading Passage 3?</p>\n        <p>In boxes 27–31 on your answer sheet, write</p>\n        <ul style=\"list-style: none; padding-left: 0;\">\n            <li><strong>YES</strong> if the statement agrees with the claims of the writer</li>\n            <li><strong>NO</strong> if the statement contradicts the claims of the writer</li>\n            <li><strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this</li>\n        </ul>\n        \n        <div class=\"question-item\">\n            <p><strong>27</strong> Mahy explores the traditional themes of New Zealand literature.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;\">\n              <label><input name=\"q1\" type=\"radio\" value=\"YES\"> YES</label>\n              <label><input name=\"q1\" type=\"radio\" value=\"NO\"> NO</label>\n              <label><input name=\"q1\" type=\"radio\" value=\"NOT GIVEN\"> NOT GIVEN</label>\n            </div>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>28</strong> Mahy's children's books have been more popular than her teenage books.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;\">\n              <label><input name=\"q2\" type=\"radio\" value=\"YES\"> YES</label>\n              <label><input name=\"q2\" type=\"radio\" value=\"NO\"> NO</label>\n              <label><input name=\"q2\" type=\"radio\" value=\"NOT GIVEN\"> NOT GIVEN</label>\n            </div>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>29</strong> Mahy and Knox have sometimes criticised each other's work.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;\">\n              <label><input name=\"q3\" type=\"radio\" value=\"YES\"> YES</label>\n              <label><input name=\"q3\" type=\"radio\" value=\"NO\"> NO</label>\n              <label><input name=\"q3\" type=\"radio\" value=\"NOT GIVEN\"> NOT GIVEN</label>\n            </div>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>30</strong> Mahy is welcoming to interviewers.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;\">\n              <label><input name=\"q4\" type=\"radio\" value=\"YES\"> YES</label>\n              <label><input name=\"q4\" type=\"radio\" value=\"NO\"> NO</label>\n              <label><input name=\"q4\" type=\"radio\" value=\"NOT GIVEN\"> NOT GIVEN</label>\n            </div>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>31</strong> Mahy is at ease speaking about her experiences.</p>\n            <div style=\"display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;\">\n              <label><input name=\"q5\" type=\"radio\" value=\"YES\"> YES</label>\n              <label><input name=\"q5\" type=\"radio\" value=\"NO\"> NO</label>\n              <label><input name=\"q5\" type=\"radio\" value=\"NOT GIVEN\"> NOT GIVEN</label>\n            </div>\n        </div>\n      </div>\n\n      <div class=\"question-group\" id=\"q6-35-section\">\n        <h4>Questions 32–35</h4>\n        <p>Complete the summary below using the list of words and phrases A–I.</p>\n        <div class=\"summary-text\">\n            <h4>Theories about Mahy's style</h4>\n            <p>\n              Mahy's determination to earn a living from writing has encouraged her to find the ideas for her work in <strong>32</strong> <span id=\"q6-target\" class=\"drop-target-summary\" data-question=\"q6\"></span> places. The stories themselves are set in locations that are <strong>33</strong> <span id=\"q7-target\" class=\"drop-target-summary\" data-question=\"q7\"></span>. In terms of characterisation, almost all of her books feature unruly people, and very often an adolescent who possesses <strong>34</strong> <span id=\"q8-target\" class=\"drop-target-summary\" data-question=\"q8\"></span> abilities. Finally, the endings of the stories tend to be <strong>35</strong> <span id=\"q9-target\" class=\"drop-target-summary\" data-question=\"q9\"></span>.\n            </p>\n        </div>\n        <div id=\"word-options\">\n          <div id=\"word-A\" class=\"draggable-word\" draggable=\"true\" data-word=\"A\">A disruptive and unpredictable</div>\n          <div id=\"word-B\" class=\"draggable-word\" draggable=\"true\" data-word=\"B\">B everyday</div>\n          <div id=\"word-C\" class=\"draggable-word\" draggable=\"true\" data-word=\"C\">C loveable</div>\n          <div id=\"word-D\" class=\"draggable-word\" draggable=\"true\" data-word=\"D\">D controversial</div>\n          <div id=\"word-E\" class=\"draggable-word\" draggable=\"true\" data-word=\"E\">E exotic and ordinary</div>\n          <div id=\"word-F\" class=\"draggable-word\" draggable=\"true\" data-word=\"F\">F isolated</div>\n          <div id=\"word-G\" class=\"draggable-word\" draggable=\"true\" data-word=\"G\">G unconfident</div>\n          <div id=\"word-H\" class=\"draggable-word\" draggable=\"true\" data-word=\"H\">H unsurprising but satisfying</div>\n          <div id=\"word-I\" class=\"draggable-word\" draggable=\"true\" data-word=\"I\">I magical</div>\n        </div>\n      </div>\n      \n      <div class=\"question-group\" id=\"q10-40-section\">\n        <h4>Questions 36–40</h4>\n        <p>Choose the correct letter, <strong>A, B, C or D</strong>.</p>\n        <div class=\"question-item\">\n            <p><strong>36</strong> What does the writer say about <i>The Magician of Hoad</i>?</p>\n            <ul class=\"radio-options-list\">\n              <li><label><input name=\"q10\" type=\"radio\" value=\"A\"> A It is partly based on true history.</label></li>\n              <li><label><input name=\"q10\" type=\"radio\" value=\"B\"> B It was restructured in the writing process.</label></li>\n              <li><label><input name=\"q10\" type=\"radio\" value=\"C\"> C It is quite different from conventional stories.</label></li>\n              <li><label><input name=\"q10\" type=\"radio\" value=\"D\"> D It does not reflect the usual themes of Mahy's work.</label></li>\n            </ul>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>37</strong> According to the writer, <i>Bubble Trouble</i></p>\n            <ul class=\"radio-options-list\">\n              <li><label><input name=\"q11\" type=\"radio\" value=\"A\"> A was first illustrated in 1991.</label></li>\n              <li><label><input name=\"q11\" type=\"radio\" value=\"B\"> B is written in plain language.</label></li>\n              <li><label><input name=\"q11\" type=\"radio\" value=\"C\"> C is an old favourite for many families.</label></li>\n              <li><label><input name=\"q11\" type=\"radio\" value=\"D\"> D has not been read aloud by Mahy before.</label></li>\n            </ul>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>38</strong> The writer's purpose in the fifth paragraph is to</p>\n            <ul class=\"radio-options-list\">\n              <li><label><input name=\"q12\" type=\"radio\" value=\"A\"> A show how Mahy's style has changed through generations.</label></li>\n              <li><label><input name=\"q12\" type=\"radio\" value=\"B\"> B criticise Mahy's children's stories for being repetitive.</label></li>\n              <li><label><input name=\"q12\" type=\"radio\" value=\"C\"> C describe how new media have changed entertainment.</label></li>\n              <li><label><input name=\"q12\" type=\"radio\" value=\"D\"> D illustrate Mahy's popularity with generations of children.</label></li>\n            </ul>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>39</strong> According to the sixth paragraph, which of the following is true?</p>\n            <ul class=\"radio-options-list\">\n              <li><label><input name=\"q13\" type=\"radio\" value=\"A\"> A Readers sometimes do not finish Mahy's books.</label></li>\n              <li><label><input name=\"q13\" type=\"radio\" value=\"B\"> B Mahy actively encourages feedback from readers.</label></li>\n              <li><label><input name=\"q13\" type=\"radio\" value=\"C\"> C Readers are necessary in order to complete a book.</label></li>\n              <li><label><input name=\"q13\" type=\"radio\" value=\"D\"> D Mahy does not realise how important she is to some readers.</label></li>\n            </ul>\n        </div>\n        <div class=\"question-item\">\n            <p><strong>40</strong> What is the writer doing in the final paragraph?</p>\n            <ul class=\"radio-options-list\">\n              <li><label><input name=\"q14\" type=\"radio\" value=\"A\"> A illustrating Mahy's view of the world</label></li>\n              <li><label><input name=\"q14\" type=\"radio\" value=\"B\"> B comparing Mahy with another writer</label></li>\n              <li><label><input name=\"q14\" type=\"radio\" value=\"C\"> C correcting a misconception about Mahy</label></li>\n              <li><label><input name=\"q14\" type=\"radio\" value=\"D\"> D suggesting reasons for Mahy's approach</label></li>\n            </ul>\n        </div>\n      </div>",
+    "originalTitle": "The New Zealand writer Margaret Mahy 新西兰女作家"
+  },
+  "explanationKey": "p3-high-184",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The New Zealand writer Margaret Mahy"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "In a career spanning some fifty years, Margaret Mahy has come to occupy a unique place in New Zealand writing with innovative fiction and original characterisation. In our solidly realist tradition, the linguistic fireworks of Mahy's children's fiction and the explorations of human behaviour at the heart of her supernatural teenage fiction stand gloriously alone. Mahy's clearest heir, I have always thought, is Elizabeth Knox – and maybe the true inheritance there is sheer singularity. Just as there is no one else like Knox in New Zealand writing, Mahy, too, has ventured into imaginative territory unknown to other local writers. So it was with great pleasure that I visited Mahy recently at her Governor's Bay home to talk about her new book. As with all journalists, she is generous to a fault with her time and attention; and, as always — despite her careful consideration of questions and thoughtful answers — I'm reminded she isn't truly comfortable making herself or her life the heart of any conversation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Certainly, any consideration of the style of Mahy's novels and picture books throws up some irresistible theories. As a writer committed to supporting herself through her art, she has seldom had the time for formal research. Rather, it has been a matter of going out and finding inspiration from her immediate environment: the writing on the side of a bus; a spelling mistake in a note to herself; the similarity between a cat and a fur hat. But despite these sometimes mundane origins, the settings for her stories are delightfully varied, as these books celebrate the dramatic plot twists and unpredictability of adventures on the high seas or in Antarctica, and also in quite unassuming places like the library or even down the back of a chair at home. Mahy has a lifelong affection for characters who are agents of upheaval and disturbance. Her junior and picture books are peppered with pirates, robbers and lions, though they appear alongside librarians, mothers and children, working against comfortable stereotype. Her fictions often have at their heart a young adult burdened with special powers, such as the ability to cast spells in order to transform their world in supernatural and fantastical ways. Another common feature is that, while the conclusions of her tales are usually predictable, they leave the reader feeling absolutely complete, the moral questions resulting from our hero's powers having been resolved."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Many of these themes can be found in her new novel, The Magician of Hoad. The book was begun more than 15 years ago and envisioned as an ‘entire' fantasy — one set in a fully imagined world with detailed history and complex tribal inter-relationships, a classical hero quest at its heart. The story ballooned at one point to 800 pages and has been through at least two substantial rewrites. Now half its original size, it is a fascinating read — an adventure, a romance, and a gold mine of Mahy literary preoccupations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The other splendid Mahy publication this year is a re-issue of Bubble Trouble in a now-illustrated edition. This tongue-twister tale first appeared in 1991, was included in 100 New Zealand Poems (1993) and has been recited by Mahy at countless private and public functions. Perhaps more than any other work, Bubble Trouble is the Mahy that New Zealand children and their parents know so well, the rollicking story of a clown who serves up a joyous torrent of word-play and unexpected rhyme."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Those connections are four or five deep now. I read The Lion in the Meadow in the School Journal in the late 1960s; my step-daughter listened to The Boy Who Was Followed Home over and over in the 1970s; my own children sat very still mouthing The Great White Man-Eating Shark in the 80s and 90s; now, in the 21st century, my grandchildren have heard Down the Dragon's Tongue, A Summery Saturday Morning and Dashing Dog many times."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Of course, readers are important to any working writer, but Mahy's espousal of the act of reading goes beyond that: a book is not properly finished, she has often said, until it has been read, because a reader brings something important to the book. So, doubtless out of need to build a market — she's not ignorant of her popularity — but also out of genuine care for that other dynamic part of the author-reader relationship, Mahy has, until recently, kept up a punishing schedule of public appearances."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Private conversation with Mahy has always been a wild ride — marvellous, in the true sense of the word, the product of a hungry head and an infinite capacity to be astonished. She races away at one stage to consult an encyclopaedia for L. M. Montgomery's date of death, and speculates about the 'real' Montgomery, creator of the ever-popular Anne of Green Gables. Although I'd come to talk about her new book, I couldn't help but be captivated by her infectious curiosity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A few years ago, the writer David Hill told a funny story. Though his writing was, he conceded, very different from Mahy's, he had been affected by her peculiarly alert way of looking at the world, particularly the mad, slippery life of language. Once, Hill said, in a motel room, a sign on a door caught his eye: ‘This door is alarmed.' Mahy would like that, thought Hill. She would enjoy the comedy just below the surface of the formal warning; she would leap immediately to the possibilities for story and language play: 'Yes, and this window is concerned, this light fitting is irritated.' His story was a wonderful comment on Mahy's vision."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "short_answer",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n      "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "question-group",
+            "id": "q1-31-section"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–31"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the claims of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 27–31 on your answer sheet, write"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style: none; padding-left: 0;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the claims of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the claims of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        \n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Mahy explores the traditional themes of New Zealand literature."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Mahy's children's books have been more popular than her teenage books."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Mahy and Knox have sometimes criticised each other's work."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Mahy is welcoming to interviewers."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Mahy is at ease speaking about her experiences."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "style": "display:flex; flex-wrap:wrap; gap:10px; margin-top:10px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n      "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "question-group",
+            "id": "q6-35-section"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–35"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below using the list of words and phrases A–I."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-text"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Theories about Mahy's style"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              Mahy's determination to earn a living from writing has encouraged her to find the ideas for her work in "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q6",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q6-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q6"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " places. The stories themselves are set in locations that are "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q7",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q7-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q7"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". In terms of characterisation, almost all of her books feature unruly people, and very often an adolescent who possesses "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q8",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q8-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " abilities. Finally, the endings of the stories tend to be "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q9",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q9-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "word-options"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-A",
+                  "label": "A disruptive and unpredictable",
+                  "attrs": {
+                    "id": "word-A",
+                    "class": "draggable-word",
+                    "data-word": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-B",
+                  "label": "B everyday",
+                  "attrs": {
+                    "id": "word-B",
+                    "class": "draggable-word",
+                    "data-word": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-C",
+                  "label": "C loveable",
+                  "attrs": {
+                    "id": "word-C",
+                    "class": "draggable-word",
+                    "data-word": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-D",
+                  "label": "D controversial",
+                  "attrs": {
+                    "id": "word-D",
+                    "class": "draggable-word",
+                    "data-word": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-E",
+                  "label": "E exotic and ordinary",
+                  "attrs": {
+                    "id": "word-E",
+                    "class": "draggable-word",
+                    "data-word": "E"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-F",
+                  "label": "F isolated",
+                  "attrs": {
+                    "id": "word-F",
+                    "class": "draggable-word",
+                    "data-word": "F"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-G",
+                  "label": "G unconfident",
+                  "attrs": {
+                    "id": "word-G",
+                    "class": "draggable-word",
+                    "data-word": "G"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-H",
+                  "label": "H unsurprising but satisfying",
+                  "attrs": {
+                    "id": "word-H",
+                    "class": "draggable-word",
+                    "data-word": "H"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n          "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "word-I",
+                  "label": "I magical",
+                  "attrs": {
+                    "id": "word-I",
+                    "class": "draggable-word",
+                    "data-word": "I"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n      \n      "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "question-group",
+            "id": "q10-40-section"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 36–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C or D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What does the writer say about "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "i",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The Magician of Hoad"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A It is partly based on true history."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B It was restructured in the writing process."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C It is quite different from conventional stories."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D It does not reflect the usual themes of Mahy's work."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the writer, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "i",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Bubble Trouble"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q11",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A was first illustrated in 1991."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q11",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B is written in plain language."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q11",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C is an old favourite for many families."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q11",
+                              "questionId": "q11",
+                              "questionIds": [
+                                "q11"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q11",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D has not been read aloud by Mahy before."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The writer's purpose in the fifth paragraph is to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q12",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A show how Mahy's style has changed through generations."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q12",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B criticise Mahy's children's stories for being repetitive."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q12",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C describe how new media have changed entertainment."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q12",
+                              "questionId": "q12",
+                              "questionIds": [
+                                "q12"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q12",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D illustrate Mahy's popularity with generations of children."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the sixth paragraph, which of the following is true?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q13",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A Readers sometimes do not finish Mahy's books."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q13",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B Mahy actively encourages feedback from readers."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q13",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C Readers are necessary in order to complete a book."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q13",
+                              "questionId": "q13",
+                              "questionIds": [
+                                "q13"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q13",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D Mahy does not realise how important she is to some readers."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n        "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What is the writer doing in the final paragraph?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n            "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q14",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A illustrating Mahy's view of the world"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q14",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B comparing Mahy with another writer"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q14",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C correcting a misconception about Mahy"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n              "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q14",
+                              "questionId": "q14",
+                              "questionIds": [
+                                "q14"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q14",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D suggesting reasons for Mahy's approach"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            }
+          ]
+        }
+      ],
+      "contentNodes": [],
+      "explanationSection": {
+        "sectionTitle": "1. 判断题（Questions 27–31：YES/NO/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 27,
+          "end": 31
+        },
+        "text": "答案：NO（错误）\n解析：定位 Paragraph 1 中 “Mahy, too, has ventured into imaginative territory unknown to other local writers”，“探索其他本地作家未触及的领域” 与题干 “传统主题” 描述矛盾，因此判定为 NO。\n答案：NOT GIVEN（未提及）\n解析：全文仅提到 “儿童书和青少年书均有特色”，未比较 “受欢迎程度”，无相关信息，因此判定为 NOT GIVEN。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 1 仅提到 “诺克斯是马希的继承者”，未提及 “相互批评”，无相关信息，因此判定为 NOT GIVEN。\n答案：YES（正确）\n解析：定位 Paragraph 1 中 “As with all journalists, she is generous to a fault with her time and attention”，“对记者慷慨” 对应 “welcoming to interviewers”，与题干描述一致，因此判定为 YES。\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “she isn’t truly comfortable making herself or her life the heart of any conversation”，“不愿将自己的生活作为谈话核心” 与题干 “自在谈论经历” 描述矛盾，因此判定为 NO。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Mahy explores the traditional themes of New Zealand literature.（马希探讨新西兰文学的传统主题）\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “Mahy, too, has ventured into imaginative territory unknown to other local writers”，“探索其他本地作家未触及的领域” 与题干 “传统主题” 描述矛盾，因此判定为 NO。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Mahy’s children’s books have been more popular than her teenage books.（马希的儿童书比青少年书更受欢迎）\n答案：NOT GIVEN（未提及）\n解析：全文仅提到 “儿童书和青少年书均有特色”，未比较 “受欢迎程度”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Mahy and Knox have sometimes criticised each other’s work.（马希和诺克斯有时批评彼此的作品）\n答案：NOT GIVEN（未提及）\n解析：Paragraph 1 仅提到 “诺克斯是马希的继承者”，未提及 “相互批评”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Mahy is welcoming to interviewers.（马希对采访者友好）\n答案：YES（正确）\n解析：定位 Paragraph 1 中 “As with all journalists, she is generous to a fault with her time and attention”，“对记者慷慨” 对应 “welcoming to interviewers”，与题干描述一致，因此判定为 YES。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Mahy is at ease speaking about her experiences.（马希谈论自己的经历时很自在）\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “she isn’t truly comfortable making herself or her life the heart of any conversation”，“不愿将自己的生活作为谈话核心” 与题干 “自在谈论经历” 描述矛盾，因此判定为 NO。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-31-section"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-35-section"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-target"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-target"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-target"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-40-section"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "word-options",
+      "value": "word-A",
+      "label": "A disruptive and unpredictable"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-B",
+      "label": "B everyday"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-C",
+      "label": "C loveable"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-D",
+      "label": "D controversial"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-E",
+      "label": "E exotic and ordinary"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-F",
+      "label": "F isolated"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-G",
+      "label": "G unconfident"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-H",
+      "label": "H unsurprising but satisfying"
+    },
+    {
+      "poolId": "word-options",
+      "value": "word-I",
+      "label": "I magical"
+    }
+  ],
+  "answerKey": {
+    "q1": "NO",
+    "q2": "NOT GIVEN",
+    "q3": "NOT GIVEN",
+    "q4": "YES",
+    "q5": "NO",
+    "q6": "B",
+    "q7": "E",
+    "q8": "I",
+    "q9": "H",
+    "q10": "B",
+    "q11": "C",
+    "q12": "D",
+    "q13": "C",
+    "q14": "A"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-31-section",
+    "q6": "q6-35-section",
+    "q7": "q7-target",
+    "q8": "q8-target",
+    "q9": "q9-target",
+    "q10": "q10-40-section",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q6",
+      "q7",
+      "q8",
+      "q9"
+    ]
+  },
+  "totalQuestions": 14
+}

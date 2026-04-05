@@ -1,0 +1,2326 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-218",
+  "meta": {
+    "title": "The Causes of Linguistic Change 【】",
+    "category": "P3",
+    "frequency": "high",
+    "originalTitle": "The Causes of Linguistic Change 语音的演变【高】"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "text",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27-40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The Causes of Linguistic Change"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n  \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "All living languages undergo changes of various kinds, for which there are various reasons. The changes that have caused most dispute are those in pronunciation. We have various sources of evidence for the pronunciations of earlier times, like the evidence of spellings, the treatment of words borrowed from other languages or borrowed by them, the descriptions of contemporary grammarians, and the modern pronunciations in all the languages and dialects concerned. These, combined with a knowledge of the mechanism of speech production, can often give us a very good idea of the pronunciation of an earlier age, though absolute certainty is never possible. When we study the pronunciation of a language over any period of a few generations or more, we find that it is subject to change. Moreover, there are always large-scale regularities in the changes: for example, over a period of time, all the long a sounds in a language may change into long o sounds, or all the b sounds in a certain position (for example, at the end of a word) may change into p sounds. Such regular changes are often called sound laws. There are no universal sound laws, but simply particular sound laws for one given language at one given period."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "One cause of change is the influence of one language on another. We learn our mother tongue very thoroughly, and acquire a whole set of speech habits which become second nature to us. When later we learn a foreign language, we inevitably carry over some of these speech habits into it, and so do not speak it exactly like a native. Consequently, in bilingual situations the second language tends to be modified. Such modifications may not persist, of course: an isolated Polish or German immigrant to Britain will usually have grandchildren who speak English like natives because the influence of the general speech environment (playmates, school, work) is stronger than that of the home. But if a large and closely knit group of people adopt a new language, then the modifications they make in it may persist among their descendants, even if the latter no longer speak the original language that caused the changes. This can be seen in Wales, where the influence of Welsh has affected the pronunciation of English, and the very characteristic melody of Welsh English has been carried over from Welsh."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "It is also possible that fashion plays a part in the process of change. It certainly plays a part in the spread of change: one person imitates another, and people with the most prestige are most likely to be imitated, so that a change that takes place in one social group may be imitated (more or less accurately) by speakers in another group. When a social group goes up or down in the world, its pronunciation will gain or lose prestige. Some of the changes in accepted English pronunciation in the seventeenth and eighteenth centuries have been shown to consist of the replacement of one style of pronunciation by another style already existing, and it is likely that such substitutions were a result of the great social changes of the period: the increased power and wealth of the middle classes, and their steady infiltration upwards into the ranks of the landed gentry probably carried elements of middle class dialect into upper class speech. However, besides spreading changes that have already taken place, fashion may actually cause changes in pronunciation. In a stratified society, the important thing about a fashion is that it is exclusive: as soon as the fashion has penetrated to a lower social group, it's time to move on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This can be seen in clothes: fashionable people may find it flattering to be imitated, but as soon as the new fashion has really caught on they must change to something else, to mark themselves off as different. It may be the same with language, for social groups use characteristic styles of language to mark themselves off from other groups. A group that has high prestige may find that its style of speech is being imitated by other groups, and then its members may (perhaps subconsciously) begin to change it, perhaps by exaggerating its distinguishing characteristics."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "However, while interaction between different languages, and between the dialects of a single language, can explain some changes in pronunciation, it cannot explain them all."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Another cause that has been suggested is the fact that the imitation of children is imperfect: they copy their parents' speech, but never reproduce it exactly. This seems to be true enough and it moreover seems to be true that even adults show a certain amount of random variation in their pronunciation. However, these facts cannot explain changes in pronunciation, unless it can be shown that there is some systematic trend in the failures in imitation. If they are merely random deviations they will cancel one another out and there will be no net change in the language. For some of these random variations to be selected at the expense of others, there must be further forces at work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "One such force, which is often suggested, is known as the principle of ease. We are all naturally lazy, it is argued, and so we tend to take short cuts in the movements of our speech organs, to replace movements calling for great accuracy or energy by less demanding ones, to omit sounds if they are not essential for understanding, and so on. For example, the word scant was once skamt, but the m has been changed to n under the influence of the following t. An economy of effort has thereby been achieved, because n and t are articulated in the same place (with the tip of the tongue against the teeth-ridge), whereas m is articulated elsewhere (with the two lips). The change from skamt to scant would be an example of assimilation, which is a very common kind of change. Assimilation is the changing of a sound under the influence of a neighbouring sound."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Assimilation is not the only way in which we change our pronunciation in order to reduce effort. A sound may come to be pronounced less energetically, wherever it occurs: the English r and h sounds are undoubtedly pronounced much less vigorously now than they were a thousand years ago. In some positions a sound may disappear altogether. At one time the t was pronounced in words like castle and Christmas, and the g in words like gnat and gnaw. Sometimes a whole syllable is dropped out if it occurs twice running. A modern example is temporary, which in Britain is pronounced as if it were temporary."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n    \n    "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        },
+        {
+          "type": "text",
+          "text": "\n  "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider",
+            "title": "Drag to resize"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n\n  "
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27-30"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Choose NO MORE THAN THREE WORDS from the passage for each answer."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "It is known that the pronunciation of language changes over time. The changes include large-scale regularities known as \n      "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q1-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q1",
+                  "fieldName": "q1",
+                  "attrs": {
+                    "type": "text",
+                    "class": "blank",
+                    "name": "q1",
+                    "placeholder": "27"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". There are several possible causes for change. Firstly, there is the effect of one language on another. Secondly, there is the role of \n      "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q2-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q2",
+                  "fieldName": "q2",
+                  "attrs": {
+                    "type": "text",
+                    "class": "blank",
+                    "name": "q2",
+                    "placeholder": "28"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". The speech of certain groups has prestige, and is imitated by others. It has also been suggested that some changes are introduced by \n      "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q3-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q3",
+                  "fieldName": "q3",
+                  "attrs": {
+                    "type": "text",
+                    "class": "blank",
+                    "name": "q3",
+                    "placeholder": "29"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", who are unable to imitate speech in an exact way. Finally, there is a factor referred to as the \n      "
+                },
+                {
+                  "type": "element",
+                  "tag": "a",
+                  "attrs": {
+                    "id": "q4-anchor"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "textInput",
+                  "questionId": "q4",
+                  "fieldName": "q4",
+                  "attrs": {
+                    "type": "text",
+                    "class": "blank",
+                    "name": "q4",
+                    "placeholder": "30"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", by which the effort necessary to produce words is reduced."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 31-37"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "In boxes 31-37 on your answer sheet, write"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style:none; padding-left:0; font-weight:bold; font-size:0.9em;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "TRUE "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:45px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if the statement agrees with the information"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "FALSE "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:52px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if the statement contradicts the information"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NOT GIVEN "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "span",
+                      "attrs": {
+                        "style": "font-weight:normal; margin-left:8px;"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "if there is no information on this"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q5-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " It is impossible to know how words used to be pronounced."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q5",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q6-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Some languages appear to have changed more than others."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q6",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q7-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Some changes in English were probably led by the middle classes."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q7",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q8-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Certain English sounds are difficult for all children to pronounce."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q8",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q9-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Scant is generally easier to pronounce than skamt."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q9",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q10-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The spelling of gnat is likely to change in the future."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q10",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-row"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "question-text"
+                  },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q11-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "b",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The spelling of temporary no longer reflects its pronunciation."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-group"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "true",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q11",
+                            "value": "true"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "false",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q11",
+                            "value": "false"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n            "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "not given",
+                          "attrs": {
+                            "type": "radio",
+                            "name": "q11",
+                            "value": "not given"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n        "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "short_answer",
+      "questionIds": [
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 38-40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (questions 38-40) and the list of options below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Match each statement with the option A, B, C or D. Drag the correct option to the box below each statement."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "cardpool pool-vertical",
+                "id": "pool-endings"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "A",
+                  "label": "A large-scale change",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-a",
+                    "data-value": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "B",
+                  "label": "B influence of one language on another",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-b",
+                    "data-value": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "C",
+                  "label": "C minimisation of effort",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-c",
+                    "data-value": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "pool-endings",
+                  "value": "D",
+                  "label": "D imitation of prestigious group",
+                  "attrs": {
+                    "class": "card",
+                    "id": "c-d",
+                    "data-value": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "hr",
+              "attrs": {
+                "style": "border:0; border-top:1px dashed var(--line); margin:20px 0;"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "\n\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q12-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " the b sound changing to a p sound at the end of words"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q12",
+                    "data-question": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q13-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " the melodic pronunciation of Welsh English"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q13",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q13",
+                    "data-question": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n      "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "id": "q14-anchor"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " the disappearance of the t sound in Christmas"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n        "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q14",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "dropzone match-dropzone",
+                    "data-target": "q14",
+                    "data-question": "q14"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n      "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n    "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13-anchor"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "pool-endings",
+      "value": "A",
+      "label": "A large-scale change"
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "B",
+      "label": "B influence of one language on another"
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "C",
+      "label": "C minimisation of effort"
+    },
+    {
+      "poolId": "pool-endings",
+      "value": "D",
+      "label": "D imitation of prestigious group"
+    }
+  ],
+  "answerKey": {
+    "q1": "sound laws",
+    "q2": "fashion",
+    "q3": "children",
+    "q4": "principle of ease",
+    "q5": "false",
+    "q6": "not given",
+    "q7": "true",
+    "q8": "not given",
+    "q9": "true",
+    "q10": "not given",
+    "q11": "true",
+    "q12": "A",
+    "q13": "B",
+    "q14": "C"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-anchor",
+    "q9": "q9-anchor",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-anchor",
+    "q13": "q13-anchor",
+    "q14": "q14-anchor"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q12",
+      "q13",
+      "q14"
+    ]
+  },
+  "totalQuestions": 14
+}

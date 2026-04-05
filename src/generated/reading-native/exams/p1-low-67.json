@@ -1,0 +1,3580 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-low-67",
+  "meta": {
+    "title": "Scented Plants",
+    "category": "P1",
+    "frequency": "low",
+    "pdfFilename": "159. P1 - Scented Plants 植物的味道.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/159. P1 - Scented Plants 植物的味道/",
+    "legacyFilename": "159. P1 - Scented Plants 植物的味道.html",
+    "questionIntroHtml": "",
+    "originalTitle": "Scented Plants 植物的味道"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Scented Plants"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Many plants emit a smell. This may come from the flower of the plant, from the leaves, stem, or even, in some cases, from the root. What humans may perceive as a fragrant perfume is actually a tool used by plants to entice pollinators, discourage bacteria, or fend off predators. Fragrances consist of small organic particles with high vapor pressures, so that a scent compound evaporates easily if exposed to the air; chemicals which evaporate in this way are described as ‘volatile compounds'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Although we generally think of plant odors as pleasant, many volatile compounds in plants are toxic when eaten. These compounds are used by plants to protect themselves from bacterial attack. Humans have recognized and taken advantage of these plant-derived antibacterials since antiquity, when they were used to slow the spoilage of food. For example, the spice clove could be used in baked goods and prepared meats to slow the growth of mould and bacteria, because a small amount was not dangerous to humans. Before the development of modern food preservation techniques, European civilization was heavily dependent on cloves and other tropical spices to ensure a long-lasting supply of food. However, the long distance from Europe to South-east Asia made these spices extremely expensive and was part of the motivation behind the search for a shorter route to Asia, which resulted in the discovery of the Americas."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Although volatile compounds in plants probably originally evolved to repel herbivorous (plant-eating) animals of all kinds, they now perform a remarkable range of functions. An important one common to many plants is to attract animals which will spread that plant's pollen. Insects are the most common animals to interact with plants in this way, and most insects detect volatile compounds through the extremely sensitive antennae on their heads. Some antennae can detect an airborne volatile compound at concentrations of just a few parts per billion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Other plants emit volatile compounds which function as toxins against invading insects, and still others emit such compounds when they have been injured, in order to deter insects from laying eggs on them and thus injuring them further. Volatile compounds released by plants in response to herbivore egg-laying, for example, can attract parasites of the eggs, thereby preventing them from hatching. In this way the plant can avoid the attack of the hungry young herbivores that would have emerged from the eggs."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Volatile compounds in plants can also be used as a kind of currency in some very indirect defensive systems. In the rainforest tree Leonardoxa africana, for example, ants of the species Petalomyrmex phylax are attracted to young leaves because they emit high levels of the volatile compound methyl salicylate, a substance that ants need to use as an antiseptic in their nests; coincidentally, the ants attack any herbivorous insects that they encounter. It appears that methyl salicylate both attracts ants and rewards them for performing their valuable role in deterring herbivores. The web of interactions among plants and animals can become so complicated that it is difficult to detect what the outcome of the release of volatile compounds is. But it is clear that the system can have a defensive purpose, as many experiments have shown that the deactivation of a plant's volatile emission system makes it more vulnerable to herbivores."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Floral scent has a strong impact on the economic success of many agricultural crops that rely on insect pollinators, including fruit trees such as the bee-pollinated cherry, apple, apricot, and peach, as well as vegetables and tropical plants such as the papaya. A decrease in fragrance emission, due to crossbreeding for fruit size or other characteristics, reduces the ability of plants to attract pollinators and may result in considerable losses for growers. This problem has been made worse in the United States by recent epidemics that have infected and killed many honeybees, the major insect pollinator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Some plant breeders have tried to solve this pollination problem by spraying scent compounds on orchard trees to enhance honeybee foraging, but this approach was costly and, in the end, proved to be inefficient. One of the reasons for its ineffectiveness was that general spraying of the crop could not tell insects exactly where the blossoms were. Clearly, a more refined strategy is needed; genetic manipulation of scents, for example, would allow growers to regulate the types of insect pollinators and the frequency of their visits."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "H"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Such manipulation of scent will also benefit people who grow flowers commercially. Cut flowers and potted plants play an important aesthetic part in human life. Unfortunately, traditional breeding has produced varieties with improved vase life, color, and shape, while perfume has been sacrificed. The loss of scent among ornamental flowers, which have a worldwide annual value of more than US$30 billion, makes them important targets for the genetic manipulation of flower fragrance. Some preliminary experiments have already been carried out, but for technical reasons the scent was present in every part of the plant, rather than being localized in the flower, and the level of intensity of fragrance was below the threshold of detection for the human nose. The next generation of experiments, already in progress, will include more sophisticated schemes that target the expression of scent specifically to flowers or other organs, such as special glands that can store antibacterial or herbivore-repellent compounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "table_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–4"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 1 has eight paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Write the correct letter, "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "A–H"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", in boxes 1–4 on your answer sheet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "G"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "H"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "1"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a list of food plants which need insects to make them productive"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "2"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " an explanation of why a genetic experiment may assist plant reproduction"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "3"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a description of current research with advantages for the flower industry"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " an explanation of how insects perceive volatile compounds in plants"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "G",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "G"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "H",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "H"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "single_choice",
+      "questionIds": [
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q5-6-7-8-9-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 5–9"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to the passage, spices were used in the past to"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A keep insects away from food."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B improve the taste of food."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C prevent the decay of food."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D make food smell more attractive."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The Leonardoxa africana tree protects itself by"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A emitting a scent that repels plant-eating insects."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B attracting and poisoning herbivorous insects."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C chemically destroying the eggs of parasites."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D attracting an enemy of herbivorous insects."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which of the following statements about methyl salicylate is NOT true according to the passage?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A It helps ants to protect their nests."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B It helps herbivorous insects to find food."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C It helps a rainforest tree to attract ants."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D It helps a rainforest tree to avoid being eaten."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which factor has made the problems of US fruit growers more serious?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A Bees found an alternative source of food."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B Chemicals were killing too many bees."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C Fruit was decreasing in quality."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D Bees have had their numbers reduced by disease."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Experiments in genetically manipulating the fragrance of ornamental flowers have"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "A cost US$30 billion."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "B made the flowers more attractive to insects."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "C failed to produce a strong enough scent."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "element",
+                          "tag": "span",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "D reduced production on flower farms."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-3",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 10–13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style: none; padding-left: 0;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information on this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The theory that plants defend themselves with smells is untested."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The smell from fruit-tree flowers is important to farmers."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "12"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The population of honeybees in Europe has declined."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "13"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Applying perfume to orchard trees is accepted as a good method of increasing pollination."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row; gap: 16px;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q1-2-3-4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5-6-7-8-9-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "F",
+    "q2": "G",
+    "q3": "H",
+    "q4": "C",
+    "q5": "C",
+    "q6": "D",
+    "q7": "B",
+    "q8": "D",
+    "q9": "C",
+    "q10": "FALSE",
+    "q11": "TRUE",
+    "q12": "NOT GIVEN",
+    "q13": "FALSE"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-anchor",
+    "q2": "q1-2-3-4-anchor",
+    "q3": "q1-2-3-4-anchor",
+    "q4": "q1-2-3-4-anchor",
+    "q5": "q5-6-7-8-9-anchor",
+    "q10": "q10-11-12-13-anchor",
+    "q6": "q6_input",
+    "q7": "q7_input",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

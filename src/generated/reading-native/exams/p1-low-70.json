@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-low-70",
+  "meta": {
+    "title": "Fluorescence Deep sea discovery",
+    "category": "P1",
+    "frequency": "low",
+    "pdfFilename": "161. P1 - Fluorescence Deep sea discovery深海发光生物研究.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/161. P1 - Fluorescence Deep sea discovery深海发光生物研究/",
+    "legacyFilename": "161. P1 - Fluorescence Deep sea discovery深海发光生物研究.html",
+    "questionIntroHtml": "<h3>Questions 1–6</h3>",
+    "originalTitle": "Fluorescence Deep sea discovery深海发光生物研究"
+  },
+  "explanationKey": "p1-low-70",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Deep sea discovery"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Recent research has provided new insights into how fish communicate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Nico Michiels is an ecologist from the University of Tübingen in Germany who spends part of each year in Egypt, where he dives in the Red Sea, observing fish life and gathering data on its coral reefs. In September 2007 he decided to find out how far red light could penetrate the ocean depths. Seawater absorbs different colours at different depths, and as an experienced diver, Michiels was aware that red light is extinguished not far below the surface whereas blue-green light penetrates deeper. To find out the depth at which red disappeared in this particular ocean, however, he attached a special plastic filter to his dive mask, which was designed to block out all colours except red. Then he began to descend. In theory, once he reached about 15 metres, he should have been plunged into darkness. Instead, something totally unexpected happened. Sure enough, 20 metres down it was as dark as night. ‘All the fish disappeared. With no light from the surface, they were effectively black and had become invisible,' he says. ‘But it didn't stay black for long. Then I saw a group of goby fish with bright red eyes lit up against the background. After that, red spots began to show up all over the reef.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Even with the red filter removed, Michiels could pick them out without much trouble once his eyes grew accustomed to the gloom. It seems strange that no diver or researcher had spotted all this red before, but as Michiels points out, no one saw it because no one expected to see it. On that one dive, Michiels discovered three fish species with prominent red markings, and has found many others since."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "But how can fish appear red where there's no red light? Ordinary red pigments* look red because they reflect red light while absorbing all other wavelengths. At 20 metres down, there had to be some other explanation for the red Michiels was seeing. He suspected fluorescence. Fluorescent pigments behave differently from ordinary ones: they receive incoming light of one wavelength, for example blue, and emit light of a longer wavelength, in this case red. On the reef in the Red Sea during daytime, the most likely explanation was that the predominantly blue and green wavelengths at depth triggered the emission of fluorescent red in the fish."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "*pigments: a pigment is a substance that gives something a particular colour."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "With only a week left in Egypt, and lacking the equipment to confirm that the fish were fluorescent, Michiels photographed as many of them as he could. Then, once back in Germany, he bought an assortment of tropical fish and installed them in his lab. Here he confirmed that the fish did indeed fluoresce. In most of the fish he looked at, the fluorescence could be traced to specialised pigment cells that lie in the skin beneath the scales. These cells contain 'guanine crystals', which scatter light to give fish their silvery sheen. However, Michiels says they are still not sure exactly what is fluorescing. ‘It's not the crystals themselves. It's probably a fluorescent protein built into the crystals, and we have a suspicion that it might be made by bacteria.'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Intrigued, Michiels began a systematic search for red fluorescence in reef fish. He and his colleagues, Nils Anthes and Dennis Sprenger, have identified some 50 species with red fluorescence. The most common markings tend to be on the body towards the head and to a lesser extent around the eyes, and then the fins. To Michiels, the distribution of these markings is one of the strongest indications that red fluorescence has a very particular function: communication with other members of the species. According to several recent studies, a whole range of animals employ fluorescence as a natural highlighter to boost the visibility of body parts they use to signal, for example to ward off enemies. In reef fish, the red tends to be confined to parts of the body used to signal, suggesting these markings serve a similar function. But instead of highlighting an existing colour, the fluorescence gives the fish a colour that otherwise wouldn't exist. For example, fish commonly use eye rings to signal that they are present and their direction of gaze, and Michiels suspects that red-eyed gobies use signals to indicate their location and keep their group together."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Red light, whatever its source, doesn't travel far through water, which suggests signals are intended to be private, seen only by nearby fish of the right species. There are several lines of evidence to support this, says Michiels. And closely related species do not have completely identical markings, which suggests they might be important in species recognition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Michiels suspects red fluorescence has another important role for some reef fish: helping them blend in. During his first dive with the red filter, he noticed corals glow a dark but faint red too. Against this irregular red background, a fish that glows red all over would be hard to distinguish. More compelling for Michiels is the case of the scorpionfish, which lies perfectly still until food swims past, which it then sucks in."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Yet if red plays any part in a fish's life, then it must be able to see it. Fish that live in a world dominated by blue-green light are assumed to have eyes tuned to those wavelengths, and most marine fish that have been studied are thought incapable of seeing red. One exception is the seahorse, whose eyes are sensitive to red. As for the other fish, it remains to be seen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions 1–6"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information given in Reading Passage 1?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 1–6 on your answer sheet, write:"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {
+                "style": "list-style-position: inside; padding-left: 0; margin-bottom: 1rem;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the information"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if there is no information on this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " During his 2007 dive, Michiels expected to encounter total darkness at about 15 metres."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q1",
+                          "questionId": "q1",
+                          "questionIds": [
+                            "q1"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q1",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Michiels could see the red markings on fish without the aid of the red filter."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q2",
+                          "questionId": "q2",
+                          "questionIds": [
+                            "q2"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q2",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Other divers had assumed they would see fish with red markings."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q3",
+                          "questionId": "q3",
+                          "questionIds": [
+                            "q3"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q3",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " All the fish with red markings that Michiels found during his diving expeditions came from the Red Sea."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q4",
+                          "questionId": "q4",
+                          "questionIds": [
+                            "q4"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q4",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Michiels first thought of the possibility that fish could fluoresce while he was in Germany."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q5",
+                          "questionId": "q5",
+                          "questionIds": [
+                            "q5"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q5",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Michiels remains uncertain as to what creates fluorescence in fish."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q6",
+                          "questionId": "q6",
+                          "questionIds": [
+                            "q6"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q6",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 判断题（Questions 1–6）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 1,
+          "end": 6
+        },
+        "text": "答案：TRUE\n解析：A段说“In theory, once he reached about 15 metres, he should have been plunged into darkness”，与题干的“expected”意思一致。\n答案：TRUE\n解析：B段明确说“Even with the red filter removed, Michiels could pick them out...”。\n答案：FALSE\n解析：B段说“no one saw it because no one expected to see it”，与题干相反。\n答案：NOT GIVEN\n解析：B段只说他在红海的一次潜水中发现了三种，之后又发现了许多其他种类，但未说明这些“其他种类”的发现地点。\n答案：FALSE\n解析：C段描述他在20米深处观察时就“suspected fluorescence”，这是在红海潜水时产生的想法。\n答案：TRUE\n解析：D段末尾引用他的话说“they are still not sure exactly what is fluorescing”，明确表达了不确定性。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "(1) 题目 1：During his 2007 dive, Michiels expected to encounter total darkness at about 15 metres. （在2007年的那次潜水中，米歇尔斯预计在大约15米处会遇到一片漆黑。）\n答案：TRUE\n解析：A段说“In theory, once he reached about 15 metres, he should have been plunged into darkness”，与题干的“expected”意思一致。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "(2) 题目 2：Michiels could see the red markings on fish without the aid of the red filter. （不用红色滤镜，米歇尔斯也能看到鱼身上的红色标记。）\n答案：TRUE\n解析：B段明确说“Even with the red filter removed, Michiels could pick them out...”。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "(3) 题目 3：Other divers had assumed they would see fish with red markings. （其他潜水员原本就以为能看到带红色标记的鱼。）\n答案：FALSE\n解析：B段说“no one saw it because no one expected to see it”，与题干相反。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "(4) 题目 4：All the fish with red markings that Michiels found during his diving expeditions came from the Red Sea. （米歇尔斯在潜水考察中发现的所有带红色标记的鱼都来自红海。）\n答案：NOT GIVEN\n解析：B段只说他在红海的一次潜水中发现了三种，之后又发现了许多其他种类，但未说明这些“其他种类”的发现地点。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "(5) 题目 5：Michiels first thought of the possibility that fish could fluoresce while he was in Germany. （米歇尔斯是在德国时第一次想到鱼可能会发荧光。）\n答案：FALSE\n解析：C段描述他在20米深处观察时就“suspected fluorescence”，这是在红海潜水时产生的想法。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "(6) 题目 6：Michiels remains uncertain as to what creates fluorescence in fish. （对于是什么产生了鱼的荧光，米歇尔斯仍不确定。）\n答案：TRUE\n解析：D段末尾引用他的话说“they are still not sure exactly what is fluorescing”，明确表达了不确定性。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the notes below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "notes-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Michiels's findings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Michiels has observed:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "50 types of fish with red fluorescence in total"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "markings mainly near the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "7"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q7",
+                          "fieldName": "q7",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q7_input",
+                            "maxlength": "20",
+                            "name": "q7"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Some of Michiels's beliefs are that:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "red fluorescence is used specifically for "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "8"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q8",
+                          "fieldName": "q8",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q8_input",
+                            "maxlength": "20",
+                            "name": "q8"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " purposes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "fish, like some animals, use fluorescence to keep "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "9"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q9",
+                          "fieldName": "q9",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q9_input",
+                            "maxlength": "20",
+                            "name": "q9"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " away"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "gobies depend on red fluorescence to show their "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "10"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q10",
+                          "fieldName": "q10",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q10_input",
+                            "maxlength": "20",
+                            "name": "q10"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "there are variations in the markings of fish among those "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "11"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q11",
+                          "fieldName": "q11",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q11_input",
+                            "maxlength": "20",
+                            "name": "q11"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " which are very similar"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Other benefits of red fluorescence:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "fish cannot easily be seen near backgrounds of "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "12"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q12",
+                          "fieldName": "q12",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q12_input",
+                            "maxlength": "20",
+                            "name": "q12"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " which give off a red light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "helps some fish catch their prey"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The ability to see red amongst fish:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                         "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "the only fish proven to have this ability is the "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "13"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "textInput",
+                          "questionId": "q13",
+                          "fieldName": "q13",
+                          "attrs": {
+                            "type": "text",
+                            "id": "q13_input",
+                            "maxlength": "20",
+                            "name": "q13"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 笔记填空（Questions 7–13）",
+        "mode": "group",
+        "questionRange": {
+          "start": 7,
+          "end": 13
+        },
+        "text": "答案：head\n解析：E段说标记倾向于“on the body towards the head”。\n答案：communication\n解析：E段说红色荧光的功能是“communication with other members of the species”。\n答案：enemies\n解析：E段举例说动物利用荧光“to ward off enemies”。\n答案：location\n解析：E段说虾虎鱼用信号“to indicate their location”。\n答案：species\n解析：F段说“closely related species do not have completely identical markings”。\n答案：corals\n解析：G段提到“corals glow a dark but faint red”，在这种背景下鱼很难被分辨。\n答案：seahorse\n解析：H段明确指出一个例外是“the seahorse, whose eyes are sensitive to red”。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "(1) 题目 7：markings mainly near the 7 \\___\\___ （标记主要位于7 \\___\\___附近。）\n答案：head\n解析：E段说标记倾向于“on the body towards the head”。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "(2) 题目 8：red fluorescence is used specifically for 8 \\___\\___ purposes （红色荧光被专门用于8 \\___\\___目的。）\n答案：communication\n解析：E段说红色荧光的功能是“communication with other members of the species”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "(3) 题目 9：fish, like some animals, use fluorescence to keep 9 \\___\\___ away （鱼类，像一些动物一样，利用荧光来驱离9 \\___\\___。）\n答案：enemies\n解析：E段举例说动物利用荧光“to ward off enemies”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "(4) 题目 10：gobies depend on red fluorescence to show their 10 \\___\\___ （虾虎鱼依靠红色荧光来显示它们的10 \\___\\___。）\n答案：location\n解析：E段说虾虎鱼用信号“to indicate their location”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 11,
+            "text": "(5) 题目 11：there are variations in the markings of fish among those 11 \\___\\___ which are very similar （在那些非常相似的11 \\___\\___中，鱼的标记存在差异。）\n答案：species\n解析：F段说“closely related species do not have completely identical markings”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 12,
+            "text": "(6) 题目 12：fish cannot easily be seen near backgrounds of 12 \\___\\___ which give off a red light （在会发出红光的12 \\___\\___背景附近，鱼不易被看见。）\n答案：corals\n解析：G段提到“corals glow a dark but faint red”，在这种背景下鱼很难被分辨。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 13,
+            "text": "(7) 题目 13：the only fish proven to have this ability is the 13 \\___\\___ （目前唯一被证实有这种能力的鱼是13 \\___\\___。）\n答案：seahorse\n解析：H段明确指出一个例外是“the seahorse, whose eyes are sensitive to red”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7-8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "TRUE",
+    "q2": "TRUE",
+    "q3": "FALSE",
+    "q4": "NOT GIVEN",
+    "q5": "FALSE",
+    "q6": "TRUE",
+    "q7": "head",
+    "q8": "communication",
+    "q9": "enemies",
+    "q10": "location",
+    "q11": "species",
+    "q12": "corals",
+    "q13": "seahorse"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q7": "q7-8-9-10-11-12-13-anchor",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q2": "q2_input",
+    "q3": "q3_input",
+    "q4": "q4_input",
+    "q5": "q5_input",
+    "q6": "q6_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 13
+}

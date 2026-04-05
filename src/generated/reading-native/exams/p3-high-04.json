@@ -1,0 +1,2839 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-04",
+  "meta": {
+    "title": "Yawning",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "101. P3 - Yawning 打呵欠【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/101. P3 - Yawning 打呵欠【高】/",
+    "legacyFilename": "101. P3 - Yawning 打呵欠【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Yawning 打呵欠"
+  },
+  "explanationKey": "p3-high-04",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Yawning"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "class": "italic",
+            "style": "text-align: center;"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "how and why we yawn still presents problems for researchers in an area"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "attrs": {},
+              "children": []
+            },
+            {
+              "type": "text",
+              "text": "which has only recently been opened up to study."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "When Robert R. Provine began studying yawning in the 1960s, it was difficult for him to convince research students of the merits of 'yawning science'. Although it may appear quirky to some, Provine's decision to study yawning was a logical extension of his research in developmental neuroscience."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The verb "
+            },
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "italic"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "to yawn"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " is derived from the Old English "
+            },
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "italic"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "ganien"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "italic"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "ginian"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", meaning to gape or open wide. But in addition to gaping jaws, yawning has significant features that are easy to observe and analyse. Provine ‘collected' yawns to study by using a variation of the contagion response*. He asked people to “think about yawning” and, once they began to yawn, to depress a button that would record from the start of the yawn to the exhalation at its end."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Provine's early discoveries can be summarized as follows: the yawn is highly stereotyped but not invariant in its duration and form. It is an excellent example of the instinctive fixed-action pattern of classical animal-behaviour study, or ethology. It is not a reflex (short-duration, rapid, proportional response to a simple stimulus), but, once started, a yawn progresses with the inevitability of a sneeze. The standard yawn runs its course over about six seconds on average, but its duration can range from about three seconds to much longer than the average. There are no half-yawns: this is an example of the typical intensity of fixed-action patterns and a reason why you cannot stifle yawns. Just like a cough, yawns can come in bouts with a highly variable inter-yawn interval, which is generally about 68 seconds but rarely more than 70. There is no relation between yawn frequency and duration: producers of short or long yawns do not compensate by yawning more or less often. Furthermore, Provine's hypotheses about the form and function of yawning can be tested by three informative yawn variants which can be used to look at the roles of the nose, the mouth and the jaws."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "i The closed-nose yawn"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Subjects are asked to pinch their nose closed when they feel themselves start to yawn. Most subjects report being able to perform perfectly normal closed-nose yawns. This indicates that the inhalation at the onset of a yawn, and the exhalation at its end, need not involve the nostrils — the mouth provides a sufficient airway."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "ii The clenched-teeth yawn"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Subjects are asked to clench their teeth when they feel themselves start to yawn but allow themselves to inhale normally through their open lips and clenched teeth. This variant gives one the sensation of being stuck mid-yawn. This shows that gaping of the jaws is an essential component of the fixed-action pattern of the yawn, and unless it is accomplished, the programme will not run to completion. The yawn is also shown to be more than a deep breath, because, unlike normal breathing, inhalation and exhalation cannot be performed so well through the clenched teeth as through the nose."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "iii The nose yawn"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This variant tests the adequacy of the nasal airway to sustain a yawn. Unlike normal breathing, which can be performed equally well through mouth or nose, yawning is impossible via nasal inhalation alone. As with the clenched-teeth yawn, the nose yawn provides the unfulfilling sensation of being stuck in mid-yawn. Exhalation, on the other hand, can be accomplished equally well through nose or mouth. Through this methodology Provine demonstrated that inhalation through the oral airway and the gaping of jaws are necessary for normal yawns. The motor programme for yawning will not run to completion without feedback that these parts of the programme have been accomplished."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "But yawning is a powerful, generalised movement that involves much more than airway manoeuvres and jaw-gaping. When yawning you also stretch your facial muscles, tilt your head back, narrow or close your eyes, produce tears, salivate, open the Eustachian tubes of your middle ear and perform many other, yet unspecified, cardiovascular and respiratory acts. Perhaps the yawn shares components with other behaviour. For example, is the yawn a kind of 'slow sneeze', or is the sneeze a 'fast yawn'? Both share common respiratory and other features including jaw gaping, eye closing and head tilting."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Yawning and stretching share properties and may be performed together as parts of a global motor complex. Studies by J. I. P. de Vries "
+            },
+            {
+              "type": "element",
+              "tag": "span",
+              "attrs": {
+                "class": "italic"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "et al."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " in the early 1980s, charting movement in the developing foetus using ultrasound, observed a link between yawning and stretching. The most extraordinary demonstration of the yawn-stretch linkage occurs in many people paralysed on one side of their body because of brain damage caused by a stroke: the prominent British neurologist Sir Francis Walshe noted in 1923 that when these people yawn, they are startled and mystified to observe that their otherwise paralysed arm rises and flexes automatically in what neurologists term an 'associated response'. Yawning apparently activates undamaged, unconsciously controlled connections between the brain and the motor system, causing the paralysed limb to move. It is not known whether the associated response is a positive prognosis for recovery, nor whether yawning is therapeutic for prevention of muscular deterioration."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Provine speculated that, in general, yawning may have many functions, and selecting a single function from the available options may be an unrealistic goal. Yawning appears to be associated with a change of behavioural state, switching from one activity to another. Yawning is also a reminder that ancient and unconscious behaviour linking us to the animal world lurks beneath the veneer of culture, rationality and language."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {
+            "style": "font-size: 0.9em; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; margin-top: 20px;"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "*contagion response: the well-known tendency for yawns to trigger yawns in observers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–32"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below using the list of words and phrases "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–K"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-text"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h5",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Provine's early findings on yawns"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Through his observations of yawns, Provine was able to confirm that "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "27"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q1",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q1-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q1"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " do not exist."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Just like a "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "28"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q2",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q2-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q2"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", yawns cannot be interrupted after they have begun. This is because yawns occur as a "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "29"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q3",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q3-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q3"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " rather than a stimulus-response, as was previously thought."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "In measuring the time taken to yawn, Provine found that a typical yawn lasts about "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "30"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q4",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q4-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q4"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". He also found that it is common for people to yawn a number of times in quick succession, with the yawns usually being around "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "31"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q5",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q5-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q5"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " apart. When studying whether length and rate were connected, Provine concluded that people who yawn less do not necessarily produce "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "32"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "summary",
+                      "questionId": "q6",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "id": "q6-target",
+                        "class": "drop-target-summary",
+                        "data-question": "q6"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to make up for this."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "id": "word-options"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "A form and function",
+                  "label": "A form and function",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "A"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "B long yawns",
+                  "label": "B long yawns",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "B"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "C 3 seconds",
+                  "label": "C 3 seconds",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "C"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "D fixed-action pattern",
+                  "label": "D fixed-action pattern",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "D"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "E 68 seconds",
+                  "label": "E 68 seconds",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "E"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "F short yawns",
+                  "label": "F short yawns",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "F"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "G reflex",
+                  "label": "G reflex",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "G"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "H sneeze",
+                  "label": "H sneeze",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "H"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "I short duration",
+                  "label": "I short duration",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "I"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "J 6 seconds",
+                  "label": "J 6 seconds",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "J"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "optionChip",
+                  "poolId": "word-options",
+                  "value": "K half-yawns",
+                  "label": "K half-yawns",
+                  "attrs": {
+                    "class": "draggable-word",
+                    "data-key": "K"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 摘要填空（Questions 27–32：Choose A–K）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "答案：K（half-yawns，半呵欠）\n解析：定位 Paragraph 3 中 “There are no half-yawns: this is an example of the typical intensity of fixed-action patterns”，“不存在半呵欠”，因此选 K。\n答案：H（sneeze，喷嚏）\n解析：定位 Paragraph 3 中 “but, once started, a yawn progresses with the inevitability of a sneeze”，“呵欠像喷嚏一样无法中断”，因此选 H。\n答案：D（fixed-action pattern，固定动作模式）\n解析：定位 Paragraph 3 中 “It is an excellent example of the instinctive fixed-action pattern of classical animal-behaviour study”，“呵欠是固定动作模式”，因此选 D。\n答案：J（6 seconds，6 秒）\n解析：定位 Paragraph 3 中 “The standard yawn runs its course over about six seconds on average”，“平均持续 6 秒”，因此选 J。\n答案：E（68 seconds，68 秒）\n解析：定位 Paragraph 3 中 “yawns can come in bouts with a highly variable inter-yawn interval, which is generally about 68 seconds”，“间隔通常 68 秒”，因此选 E。\n答案：B（long yawns，长呵欠）\n解析：定位 Paragraph 3 中 “there is no relation between yawn frequency and duration: producers of short or long yawns do not compensate by yawning more or less often”，“频率与长度无关，少呵欠者不会用长呵欠补偿”，因此选 B。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Through his observations of yawns, Provine was able to confirm that \\___\\____ do not exist.（通过观察呵欠，普罗文证实_\\___\\___不存在。）\n答案：K（half-yawns，半呵欠）\n解析：定位 Paragraph 3 中 “There are no half-yawns: this is an example of the typical intensity of fixed-action patterns”，“不存在半呵欠”，因此选 K。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Just like a \\___\\___\\_, yawns cannot be interrupted after they have begun.（就像_\\___\\___一样，呵欠一旦开始就无法中断。）\n答案：H（sneeze，喷嚏）\n解析：定位 Paragraph 3 中 “but, once started, a yawn progresses with the inevitability of a sneeze”，“呵欠像喷嚏一样无法中断”，因此选 H。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：This is because yawns occur as a \\___\\____ rather than a stimulus–response, as was previously thought.（这是因为呵欠以_\\___\\___形式发生，而非如之前认为的 “刺激 - 反应”。）\n答案：D（fixed-action pattern，固定动作模式）\n解析：定位 Paragraph 3 中 “It is an excellent example of the instinctive fixed-action pattern of classical animal-behaviour study”，“呵欠是固定动作模式”，因此选 D。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：In measuring the time taken to yawn, Provine found that a typical yawn lasts about _._（测量呵欠持续时间时，普罗文发现典型呵欠持续约。）\n答案：J（6 seconds，6 秒）\n解析：定位 Paragraph 3 中 “The standard yawn runs its course over about six seconds on average”，“平均持续 6 秒”，因此选 J。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：He also found that it is common for people to yawn a number of times in quick succession, with the yawns usually being around \\___\\____ apart.（他还发现，人们常连续打多个呵欠，间隔通常约_\\___\\___。）\n答案：E（68 seconds，68 秒）\n解析：定位 Paragraph 3 中 “yawns can come in bouts with a highly variable inter-yawn interval, which is generally about 68 seconds”，“间隔通常 68 秒”，因此选 E。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：When studying whether length and rate were connected, Provine concluded that people who yawn less do not necessarily produce \\___\\____ to make up for this.（研究呵欠长度与频率是否相关时，普罗文认为，呵欠少的人不一定会通过_\\___\\___来补偿。）\n答案：B（long yawns，长呵欠）\n解析：定位 Paragraph 3 中 “there is no relation between yawn frequency and duration: producers of short or long yawns do not compensate by yawning more or less often”，“频率与长度无关，少呵欠者不会用长呵欠补偿”，因此选 B。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "single_choice",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-10-11-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 33–37"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What did Provine conclude from his closed-nose yawn experiment?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A Ending a yawn requires use of the nostrils"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B You can yawn without breathing through your nose"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C Breathing through the nose produces a silent yawn"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q7",
+                          "questionId": "q7",
+                          "questionIds": [
+                            "q7"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q7",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D The role of the nose in yawning needs further investigation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Provine's clenched-teeth yawn experiment shows that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A yawning is unconnected with fatigue"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B a yawn is the equivalent of a deep intake of breath"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C you have to be able to open your mouth wide to yawn"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q8",
+                          "questionId": "q8",
+                          "questionIds": [
+                            "q8"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q8",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D breathing with the teeth together is as efficient as through the nose"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The nose-yawn experiment was used to test whether yawning"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A can be stopped after it has started"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B is the result of motor programming"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C involves both inhalation and exhalation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q9",
+                          "questionId": "q9",
+                          "questionIds": [
+                            "q9"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q9",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D can be accomplished only through the nose"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In people paralysed on one side because of brain damage"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A yawning may involve only one side of the face"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B the yawning response indicates that recovery is likely"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C movement in the paralysed arm is stimulated by yawning"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D yawning can be used as an exercise to prevent muscle wasting"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " In the last paragraph, the writer concludes that"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "A",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "A"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " A yawning is a sign of boredom"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "B",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "B"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " B we yawn in spite of the development of our species"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "C",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "C"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " C yawning is a more passive activity than we imagine"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "D",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "D"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " D we are stimulated to yawn when our brain activity is low"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 单选题（Questions 33–37：Choose A–D）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 33,
+          "end": 37
+        },
+        "text": "答案：B（You can yawn without breathing through your nose. 不用鼻子呼吸也能打呵欠）\n解析：定位 Paragraph 4 中 “Most subjects report being able to perform perfectly normal closed-nose yawns. This indicates that the inhalation... need not involve the nostrils”，“闭鼻呵欠正常，无需鼻孔参与”，因此选 B。A（结束呵欠需用鼻孔）、C（用鼻子呼吸会产生无声呵欠）、D（鼻子在呵欠中的作用需进一步研究）均与原文矛盾。\n答案：C（you have to be able to open your mouth wide to yawn. 打呵欠必须张大嘴）\n解析：定位 Paragraph 5 中 “this shows that gaping of the jaws is an essential component of the fixed-action pattern of the yawn, and unless it is accomplished, the programme will not run to completion”，“下巴张大是呵欠的必要部分，否则无法完成”，因此选 C。A（呵欠与疲劳无关）、B（呵欠等同于深呼吸）、D（咬牙呼吸与用鼻子呼吸一样高效）均与原文矛盾。\n答案：D（can be accomplished only through the nose. 仅通过鼻子就能完成）\n解析：定位 Paragraph 6 中 “This variant tests the adequacy of the nasal airway to sustain a yawn. Unlike normal breathing... yawning is impossible via nasal inhalation alone”，“测试鼻腔能否支撑呵欠，发现仅用鼻子无法完成”，因此选 D。A（开始后可停止）、B（是运动程序的结果）、C（涉及吸气和呼气）均非实验目的。\n答案：C（movement in the paralysed arm is stimulated by yawning. 呵欠会刺激瘫痪手臂运动）\n解析：定位 Paragraph 8 中 “when these people yawn, they are startled and mystified to observe that their otherwise paralysed arm rises and flexes automatically”，“呵欠时瘫痪手臂自动抬起弯曲”，因此选 C。A（呵欠可能仅涉及面部单侧）、B（呵欠反应预示恢复）、D（呵欠可作为预防肌肉萎缩的运动）均与原文矛盾。\n答案：B（we yawn in spite of the development of our species. 尽管人类物种进化，我们仍会打呵欠）\n解析：定位 Paragraph 9 中 “Yawning is also a reminder that ancient and unconscious behaviour linking us to the animal world lurks beneath the veneer of culture, rationality and language”，“呵欠是连接人类与动物的古老行为，隐藏在文明表象下”，即 “尽管进化仍会呵欠”，因此选 B。A（呵欠是无聊信号）、C（呵欠比想象中更被动）、D（大脑活动低时会被刺激呵欠）均未提及。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（1）题目 33：What did Provine conclude from his closed-nose yawn experiment?（普罗文从闭鼻呵欠实验中得出什么结论？）\n答案：B（You can yawn without breathing through your nose. 不用鼻子呼吸也能打呵欠）\n解析：定位 Paragraph 4 中 “Most subjects report being able to perform perfectly normal closed-nose yawns. This indicates that the inhalation... need not involve the nostrils”，“闭鼻呵欠正常，无需鼻孔参与”，因此选 B。A（结束呵欠需用鼻孔）、C（用鼻子呼吸会产生无声呵欠）、D（鼻子在呵欠中的作用需进一步研究）均与原文矛盾。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（2）题目 34：Provine’s clenched-teeth yawn experiment shows that（普罗文的咬牙呵欠实验表明？）\n答案：C（you have to be able to open your mouth wide to yawn. 打呵欠必须张大嘴）\n解析：定位 Paragraph 5 中 “this shows that gaping of the jaws is an essential component of the fixed-action pattern of the yawn, and unless it is accomplished, the programme will not run to completion”，“下巴张大是呵欠的必要部分，否则无法完成”，因此选 C。A（呵欠与疲劳无关）、B（呵欠等同于深呼吸）、D（咬牙呼吸与用鼻子呼吸一样高效）均与原文矛盾。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（3）题目 35：The nose-yawn experiment was used to test whether yawning（鼻呵欠实验用于测试呵欠是否？）\n答案：D（can be accomplished only through the nose. 仅通过鼻子就能完成）\n解析：定位 Paragraph 6 中 “This variant tests the adequacy of the nasal airway to sustain a yawn. Unlike normal breathing... yawning is impossible via nasal inhalation alone”，“测试鼻腔能否支撑呵欠，发现仅用鼻子无法完成”，因此选 D。A（开始后可停止）、B（是运动程序的结果）、C（涉及吸气和呼气）均非实验目的。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（4）题目 36：In people paralysed on one side because of brain damage（因脑损伤导致单侧瘫痪的人身上？）\n答案：C（movement in the paralysed arm is stimulated by yawning. 呵欠会刺激瘫痪手臂运动）\n解析：定位 Paragraph 8 中 “when these people yawn, they are startled and mystified to observe that their otherwise paralysed arm rises and flexes automatically”，“呵欠时瘫痪手臂自动抬起弯曲”，因此选 C。A（呵欠可能仅涉及面部单侧）、B（呵欠反应预示恢复）、D（呵欠可作为预防肌肉萎缩的运动）均与原文矛盾。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（5）题目 37：In the last paragraph, the writer concludes that（最后一段中，作者得出什么结论？）\n答案：B（we yawn in spite of the development of our species. 尽管人类物种进化，我们仍会打呵欠）\n解析：定位 Paragraph 9 中 “Yawning is also a reminder that ancient and unconscious behaviour linking us to the animal world lurks beneath the veneer of culture, rationality and language”，“呵欠是连接人类与动物的古老行为，隐藏在文明表象下”，即 “尽管进化仍会呵欠”，因此选 B。A（呵欠是无聊信号）、C（呵欠比想象中更被动）、D（大脑活动低时会被刺激呵欠）均未提及。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 38–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the claims of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the claims of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the claims of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Research students were initially reluctant to appreciate the value of Provine's studies."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " When fetuses yawn and stretch, they are learning how to control movement."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " According to Provine, referring to only one function is probably inadequate to explain why people yawn."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options",
+                    "style": "flex-direction: row;"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 判断题（Questions 38–40：YES/NO/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 38,
+          "end": 40
+        },
+        "text": "答案：YES（正确）\n解析：定位 Paragraph 1 中 “it was difficult for him to convince research students of the merits of ‘yawning science’”，“难以说服研究生认可‘呵欠科学’的价值”，与题干描述一致，因此判定为 YES。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 8 仅提到 “观察到胎儿呵欠与拉伸的关联”，未提及 “学习控制运动”，无相关信息，因此判定为 NOT GIVEN。\n答案：YES（正确）\n解析：定位 Paragraph 9 中 “Provine speculated that, in general, yawning may have many functions, and selecting a single function from the available options may be an unrealistic goal”，“呵欠可能有多种功能，选一种不现实”，与题干描述一致，因此判定为 YES。",
+        "items": [
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（1）题目 38：Research students were initially reluctant to appreciate the value of Provine’s studies.（研究生最初不愿认可普罗文研究的价值）\n答案：YES（正确）\n解析：定位 Paragraph 1 中 “it was difficult for him to convince research students of the merits of ‘yawning science’”，“难以说服研究生认可‘呵欠科学’的价值”，与题干描述一致，因此判定为 YES。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（2）题目 39：When fetuses yawn and stretch, they are learning how to control movement.（胎儿呵欠和拉伸时，在学习控制运动）\n答案：NOT GIVEN（未提及）\n解析：Paragraph 8 仅提到 “观察到胎儿呵欠与拉伸的关联”，未提及 “学习控制运动”，无相关信息，因此判定为 NOT GIVEN。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（3）题目 40：According to Provine, referring to only one function is probably inadequate to explain why people yawn.（普罗文认为，仅用一种功能解释人类呵欠可能不够）\n答案：YES（正确）\n解析：定位 Paragraph 9 中 “Provine speculated that, in general, yawning may have many functions, and selecting a single function from the available options may be an unrealistic goal”，“呵欠可能有多种功能，选一种不现实”，与题干描述一致，因此判定为 YES。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-target"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-target"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-target"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-target"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-target"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-8-9-10-11-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-13-14-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "word-options",
+      "value": "A form and function",
+      "label": "A form and function"
+    },
+    {
+      "poolId": "word-options",
+      "value": "B long yawns",
+      "label": "B long yawns"
+    },
+    {
+      "poolId": "word-options",
+      "value": "C 3 seconds",
+      "label": "C 3 seconds"
+    },
+    {
+      "poolId": "word-options",
+      "value": "D fixed-action pattern",
+      "label": "D fixed-action pattern"
+    },
+    {
+      "poolId": "word-options",
+      "value": "E 68 seconds",
+      "label": "E 68 seconds"
+    },
+    {
+      "poolId": "word-options",
+      "value": "F short yawns",
+      "label": "F short yawns"
+    },
+    {
+      "poolId": "word-options",
+      "value": "G reflex",
+      "label": "G reflex"
+    },
+    {
+      "poolId": "word-options",
+      "value": "H sneeze",
+      "label": "H sneeze"
+    },
+    {
+      "poolId": "word-options",
+      "value": "I short duration",
+      "label": "I short duration"
+    },
+    {
+      "poolId": "word-options",
+      "value": "J 6 seconds",
+      "label": "J 6 seconds"
+    },
+    {
+      "poolId": "word-options",
+      "value": "K half-yawns",
+      "label": "K half-yawns"
+    }
+  ],
+  "answerKey": {
+    "q1": "K",
+    "q2": "H",
+    "q3": "D",
+    "q4": "J",
+    "q5": "E",
+    "q6": "B",
+    "q7": "B",
+    "q8": "C",
+    "q9": "D",
+    "q10": "C",
+    "q11": "B",
+    "q12": "YES",
+    "q13": "NOT GIVEN",
+    "q14": "YES"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q2": "q2-target",
+    "q3": "q3-target",
+    "q4": "q4-target",
+    "q5": "q5-target",
+    "q6": "q6-target",
+    "q7": "q7-8-9-10-11-anchor",
+    "q12": "q12-13-14-anchor",
+    "q8": "q8_input",
+    "q9": "q9_input",
+    "q10": "q10_input",
+    "q11": "q11_input",
+    "q13": "q13_input",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q7",
+        "inputType": "radio",
+        "questionIds": [
+          "q7"
+        ]
+      },
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6"
+    ]
+  },
+  "totalQuestions": 14
+}

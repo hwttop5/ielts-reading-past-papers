@@ -1,0 +1,1300 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-low-77",
+  "meta": {
+    "title": "Mammoth Kill",
+    "category": "P2",
+    "frequency": "low",
+    "pdfFilename": "168. P2 - Mammoth Kill 猛犸象的灭绝.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/168. P2 - Mammoth Kill 猛犸象的灭绝/",
+    "legacyFilename": "168. P2 - Mammoth Kill 猛犸象的灭绝.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Mammoth Kill 猛犸象的灭绝"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Mammoth Kill"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "What Led to the disappearance of the giant mammals? Kate Wong examines the theories"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Although it's hard to imagine in this age of urban sprawl and automobiles, North America once belonged to huge, elephant-like mammoths, camels, bear-sized beavers and other giant beasts, collectively known as ‘megafauna'. Some 11,000 years ago, however, these large-bodied mammals—about 70 species in all—disappeared. Their demise coincided roughly with the arrival of humans on the continent and dramatic climate change—factors that have inspired several theories about the die-off. Yet despite decades of scientific investigation, the exact cause remains a mystery. Now new findings offer support to one of these controversial hypotheses: that human hunting drove these huge megafauna species to extinction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "This belief resulted in the overkill model which emerged in the 1960s, when it was put forth by Paul S. Martin of the University of Arizona. Since then, critics have charged that no archaeological remains exist to support the idea that the first Americans hunted to the extent necessary to cause these extinctions, but at the annual meeting of the Society of Vertebrate Paleontology in Mexico City in October 1999, specialist John Alroy of the University of California at Santa Barbara argued that, in fact, hunting-driven extinction is not only plausible, it was unavoidable. He has determined, using a computer simulation, that even a very modest amount of hunting would have wiped out these animals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Assuming an initial human population of 100 people that grew no more than two per cent annually, Alroy determined that, if each band of, say, 50 people killed 15 to 20 large animals a year, humans could have eliminated the animal populations within 1,000 years. Large mammals in particular would have been vulnerable to the pressure because they have longer gestation periods than smaller mammals and their young require extended care."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "However, not everyone agrees with Alroy's assessment. For one thing, the results depend on population-size estimates for the extinct animals—estimates that are not necessarily reliable. But a more specific criticism comes from mammal expert Ross D. E. MacPhee of the American Museum of Natural History in New York City, who points out that the relevant archaeological record contains barely a dozen examples of stone points embedded in mammoth bones (and none, it should be noted, are known from other megafaunal remains)—hardly what one might expect if hunting drove these animals to extinction. Furthermore, some of these species had a vast range, covering the whole continent—the Jefferson's ground sloth, for example, lived as far north as the Yukon and as far south as Mexico—which would have made hunting them in numbers sufficient to cause their extinction rather unlikely, he says."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "MacPhee agrees that humans most likely brought about these extinctions (as well as others around the world that coincided with human arrival), but not directly. Rather than through hunting, he suggests that people may have introduced a deadly disease, perhaps through their dogs or accompanying vermin, which then spread wildly among the native species because of their low resistance to the new introductions. Repeated outbreaks of a deadly disease could thus quickly drive them to the point of no return. So far, MacPhee does not have empirical evidence for this theory, and it will not be easy to come by: such disease would kill far too quickly to leave its signature on the bones themselves. But he hopes that analyses of tissue and DNA from the most recent animal remains will eventually reveal the microbes responsible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The third explanation for what brought on this North American extinction does not involve human beings. Instead, its proponents blame the loss on the climate. The Pleistocene epoch in question witnessed considerable climate instability, explains Russell W. Graham of the Denver Museum of Nature and Science. As a result, their regular habitats disappeared, and species that had once formed communities split apart. For some animals, this brought opportunity. For much of the megafauna, however, the increasingly uniform terrain left them with shrinking geographical ranges—a death sentence for large animals, which need correspondingly large ranges. Although these creatures managed to maintain viable populations through most of the Pleistocene period, the final major climate fluctuation pushed them over the edge, Graham says."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "For his part, Alroy is still convinced that human hunters were the destroyers of the giant animals. The overkill model explains everything the disease and climate scenarios explain, he asserts, and in addition makes accurate predictions about which species would eventually become extinct."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–20"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN TWO WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    Three theories have been put forward to explain the disappearance of the different species of large mammals that inhabited "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "14"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q1",
+                      "fieldName": "q1",
+                      "attrs": {
+                        "name": "q1",
+                        "type": "text",
+                        "id": "q14_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 11,000 years ago. The "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "15"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q2",
+                      "fieldName": "q2",
+                      "attrs": {
+                        "name": "q2",
+                        "type": "text",
+                        "id": "q15_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", proposed around fifty years ago by Paul S. Martin, blames "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "16"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q3",
+                      "fieldName": "q3",
+                      "attrs": {
+                        "name": "q3",
+                        "type": "text",
+                        "id": "q16_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " by people for mass extinction. Computer calculations seem to support this explanation, but critics question the reliability of the figures they are based on.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    The second theory suggests that humans introduced a "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "17"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q4",
+                      "fieldName": "q4",
+                      "attrs": {
+                        "name": "q4",
+                        "type": "text",
+                        "id": "q17_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " which wiped out the large mammals. However, so far this theory also lacks any "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "18"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q5",
+                      "fieldName": "q5",
+                      "attrs": {
+                        "name": "q5",
+                        "type": "text",
+                        "id": "q18_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    The final theory suggests that this period experienced significant "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "19"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q6",
+                      "fieldName": "q6",
+                      "attrs": {
+                        "name": "q6",
+                        "type": "text",
+                        "id": "q19_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", which eventually led to the loss of habitat and to the division of the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "20"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "name": "q7",
+                        "type": "text",
+                        "id": "q20_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " that some of the large mammals had organized.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "matching",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": true,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 21–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 21–26) and the list of people below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct person, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "21"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Too little evidence exists to support the hunting theory."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q8",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "22"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The bigger the animal, the bigger the territory it requires for survival."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q9",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q9"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Globally, humans have been indirectly responsible for the elimination of many species."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q10",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q10"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Population estimates can be used to understand how large mammals became extinct."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q11",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q11"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Scientific examination of fossil remains may provide some proof for one of the theories."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q12",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q12"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "match-question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Environmental changes negatively affected the social groupings of some large species."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "dropzone",
+                  "appearance": "match",
+                  "questionId": "q13",
+                  "paragraph": "",
+                  "labelText": "",
+                  "attrs": {
+                    "class": "match-dropzone",
+                    "data-question": "q13"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "researcher-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of People"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "A",
+                      "label": "A John Alroy",
+                      "attrs": {
+                        "class": "drag-item",
+                        "id": "person-A",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "B",
+                      "label": "B Ross D. E. MacPhee",
+                      "attrs": {
+                        "class": "drag-item",
+                        "id": "person-B",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "C",
+                      "label": "C Russell W. Graham",
+                      "attrs": {
+                        "class": "drag-item",
+                        "id": "person-C",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "q1-2-3-4-5-6-7-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "q15_input"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "q16_input"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "q17_input"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "q18_input"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "q19_input"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "q20_input"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "A",
+      "label": "A John Alroy"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "B",
+      "label": "B Ross D. E. MacPhee"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "C",
+      "label": "C Russell W. Graham"
+    }
+  ],
+  "answerKey": {
+    "q1": "North America",
+    "q2": "overkill model",
+    "q3": "hunting",
+    "q4": "deadly disease",
+    "q5": "empirical evidence",
+    "q6": "climate instability",
+    "q7": "communities",
+    "q8": "B",
+    "q9": "C",
+    "q10": "B",
+    "q11": "A",
+    "q12": "B",
+    "q13": "C"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-7-anchor",
+    "q14": "q14_input",
+    "q15": "q15_input",
+    "q2": "q15_input",
+    "q16": "q16_input",
+    "q3": "q16_input",
+    "q17": "q17_input",
+    "q4": "q17_input",
+    "q18": "q18_input",
+    "q5": "q18_input",
+    "q19": "q19_input",
+    "q6": "q19_input",
+    "q20": "q20_input",
+    "q7": "q20_input",
+    "q8": "q8-9-10-11-12-13-anchor",
+    "q9": "q9",
+    "q10": "q10",
+    "q11": "q11",
+    "q12": "q12",
+    "q13": "q13"
+  },
+  "fields": {
+    "choiceGroups": [],
+    "textQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ]
+  },
+  "totalQuestions": 13
+}

@@ -1,0 +1,1412 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p2-low-103",
+  "meta": {
+    "title": "The economic effect of climate",
+    "category": "P2",
+    "frequency": "low",
+    "pdfFilename": "191. P2 - The economic effect of climate 气候对经济的影响.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/191. P2 - The economic effect of climate 气候对经济的影响/",
+    "legacyFilename": "191. P2 - The economic effect of climate 气候对经济的影响.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "The economic effect of climate 气候对经济的影响"
+  },
+  "explanationKey": null,
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "The economic effect of climate"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Latitude is crucial to a nation's strength, says Anjana Ahuja"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-a-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q14):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "A",
+                "id": "q1-dropzone",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Dr William Masters was reading a book about mosquitoes when an idea struck him. ‘There was this anecdote about the yellow fever epidemic that hit Philadelphia in 1793,’ Masters recalls. ‘This epidemic decimated the city until the first frost came.’ The sub-zero temperatures froze out the insects, allowing Philadelphia to recover. If weather could be the key to a city’s fortunes, Masters thought, then why not to the historical fortunes of nations? And could frost lie at the heart of one of the most enduring economic mysteries of all – why are almost all the wealthy, industrialised nations to be found where the climate is cooler?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-b-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q15):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "B",
+                "id": "q2-dropzone",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " After two years of research, he thinks that he has found a piece of the puzzle. Masters, an agricultural economist from Purdue University in Indiana, and Margaret McMillan at Tufts University, Boston, show that annual frosts are among the factors that distinguish rich nations from poor ones. Their study is published this month in the "
+                },
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Journal of Economic Growth"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ". The pair speculate that cold snaps have two main benefits – they freeze pests that would otherwise destroy crops, and also freeze organisms, such as those carried by mosquitoes, that carry disease. The result is agricultural abundance and a big workforce."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-c-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q16):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "C",
+                "id": "q3-dropzone",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The academics took two sets of information. The first was average income for countries, the second was climate data provided by the University of East Anglia. They found a curious tally between the sets. Countries having five or more frosty days in the winter months are uniformly rich; those with fewer than five are impoverished. The authors speculate that the five-day figure is important: it could be the minimum time needed to kill pests in the soil. To illustrate this, Masters notes: ‘Finland is a small country that is growing quickly, but Bolivia is a small country that isn't growing at all. Perhaps climate has something to do with that.'"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-d-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q17):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "D",
+                "id": "q4-dropzone",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Other minds have applied themselves to the split between poor and rich nations, citing anthropological, climatic and zoological reasons for why temperate nations are the most affluent. Jared Diamond, from the University of California at Los Angeles, pointed out in his book "
+                },
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guns, Germs and Steel"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " that Eurasia is broadly aligned east-west, while Africa and the Americas are aligned north-south. So in Europe crops could move quickly across latitudes because climates are similar. One of the first domesticated crops, einkorn wheat, extended quickly from the Middle East into Europe; it took twice as long for it to get from Mexico to what is now the eastern United States. This easy movement along similar latitudes in Eurasia would also have meant a faster dissemination of other technologies, such as the wheel and writing, Diamond speculates."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-e-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q18):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "E",
+                "id": "q5-dropzone",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " There are exceptions to the ‘cold equals rich’ argument. There are well-heeled tropical countries such as Singapore, a result of its superior trading position. Likewise, not all European countries are moneyed. Masters stresses that climate will never be the overriding factor – the wealth of nations is too complicated to be attributable to just one factor. Climate, he feels, somehow combines with other factors – such as the presence of institutions, including governments, and access to trading routes – to determine whether a country will do well."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-f-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q19):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "F",
+                "id": "q6-dropzone",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " In the past, Masters says, economists thought that institutions had the biggest effect on the economy, because they brought order to a country in the form of, for example, laws and property rights. With order, so the thinking went, came affluence. 'But there are some problems that even countries with institutions have not been able to get around,' he says. 'My feeling is that, as countries get richer, they get better institutions. And the accumulation of wealth and improvement in governing institutions are both helped by a favourable environment, including climate.'"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "para-g-wrapper"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q20):",
+              "attrs": {
+                "class": "paragraph-dropzone match-dropzone",
+                "data-paragraph": "G",
+                "id": "q7-dropzone",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " This does not mean, he insists, that tropical countries are beyond economic help and destined to remain penniless. Instead of aid being geared towards improving administrative systems, it should be spent on technology to improve agriculture and to combat disease. Masters cites one example: 'There are regions in India that have been provided with irrigation – agricultural productivity has gone up and there has been an improvement in health.' Supplying vaccines against tropical diseases and developing crop varieties that can grow in the tropics would break the poverty cycle."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–20"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 2 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from the list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i Levels of wealth affected by several other influences besides climate",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii The failure of vaccination programmes",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii The problems experienced by small countries",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv The role of governments in creating wealth",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v The best use of financial assistance",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi The inspiration for Masters's research",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii The advantages of cold weather to people and agriculture",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii Positive correlations between climate and economy",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix Reflecting on the traditional view",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "x",
+                      "label": "x Crop spread in Europe and other continents",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "x"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-12-13-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 21–26"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the sentences below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN THREE WORDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "completion-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "21"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Philadelphia recovered from its "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q8",
+                        "name": "q8"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " when the temperature dropped dramatically."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "22"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q9",
+                        "name": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is an example of a small country whose economy is expanding."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "23"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q10",
+                        "name": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " spread more slowly from Mexico than it did from the Middle East."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Technology spread more quickly in "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q11",
+                        "name": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " than in Africa."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "25"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q12",
+                        "name": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is economically rich in spite of its tropical climate."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "26"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Aid should be used to improve agriculture rather than to improve "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "type": "text",
+                        "id": "q13",
+                        "name": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": null
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "14",
+      "anchorId": "para-a-wrapper"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "15",
+      "anchorId": "para-b-wrapper"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "16",
+      "anchorId": "para-c-wrapper"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "17",
+      "anchorId": "para-d-wrapper"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "18",
+      "anchorId": "para-e-wrapper"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "19",
+      "anchorId": "para-f-wrapper"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "20",
+      "anchorId": "para-g-wrapper"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "21",
+      "anchorId": "q8-9-10-11-12-13-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "22",
+      "anchorId": "q9"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "23",
+      "anchorId": "q10"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "24",
+      "anchorId": "q11"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "25",
+      "anchorId": "q12"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "26",
+      "anchorId": "q13"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i Levels of wealth affected by several other influences besides climate"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii The failure of vaccination programmes"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii The problems experienced by small countries"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv The role of governments in creating wealth"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v The best use of financial assistance"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi The inspiration for Masters's research"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii The advantages of cold weather to people and agriculture"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii Positive correlations between climate and economy"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix Reflecting on the traditional view"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "x",
+      "label": "x Crop spread in Europe and other continents"
+    }
+  ],
+  "answerKey": {
+    "q1": "vi",
+    "q2": "vii",
+    "q3": "viii",
+    "q4": "x",
+    "q5": "i",
+    "q6": "ix",
+    "q7": "v",
+    "q8": "yellow fever epidemic",
+    "q9": "Finland",
+    "q10": "einkorn wheat",
+    "q11": "Eurasia",
+    "q12": "Singapore",
+    "q13": "administrative systems"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "14",
+    "q2": "15",
+    "q3": "16",
+    "q4": "17",
+    "q5": "18",
+    "q6": "19",
+    "q7": "20",
+    "q8": "21",
+    "q9": "22",
+    "q10": "23",
+    "q11": "24",
+    "q12": "25",
+    "q13": "26"
+  },
+  "paragraphAnchors": {
+    "A": "para-a-wrapper",
+    "B": "para-b-wrapper",
+    "C": "para-c-wrapper",
+    "D": "para-d-wrapper",
+    "E": "para-e-wrapper",
+    "F": "para-f-wrapper",
+    "G": "para-g-wrapper"
+  },
+  "questionAnchors": {
+    "q1": "para-a-wrapper",
+    "q2": "para-b-wrapper",
+    "q3": "para-c-wrapper",
+    "q4": "para-d-wrapper",
+    "q5": "para-e-wrapper",
+    "q6": "para-f-wrapper",
+    "q7": "para-g-wrapper",
+    "q8": "q8-9-10-11-12-13-anchor",
+    "q9": "q9",
+    "q10": "q10",
+    "q11": "q11",
+    "q12": "q12",
+    "q13": "q13"
+  },
+  "fields": {
+    "choiceGroups": [],
+    "textQuestions": [
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ]
+  },
+  "totalQuestions": 13
+}

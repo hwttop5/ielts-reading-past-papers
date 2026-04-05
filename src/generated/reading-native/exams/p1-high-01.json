@@ -1,0 +1,1864 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p1-high-01",
+  "meta": {
+    "title": "A Brief History of Tea",
+    "category": "P1",
+    "frequency": "high",
+    "pdfFilename": "1. P1 - A Brief History of Tea 茶叶简史【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/1. P1 - A Brief History of Tea 茶叶简史【高】/",
+    "legacyFilename": "1. P1 - A Brief History of Tea 茶叶简史【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "A Brief History of Tea 茶叶简史"
+  },
+  "explanationKey": "p1-high-01",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 1-13, which are based on Reading Passage 1 on the following pages."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "A Brief History of Tea"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q1-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q1):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "A",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The story of tea began in ancient China over 5,000 years ago. According to legend, the Emperor Shen Nung was a skilled ruler, creative scientist and patron of the arts. His far-sighted edicts required, among other things, that all drinking water be boiled as a hygienic precaution. One summer day, while visiting a distant region of his realm, he and the court stopped to rest. In accordance with his ruling, the servants began to boil water for the court to drink. Dried leaves from a nearby bush fell into the boiling water, and as the leaves infused the water turned brown. As a scientist, the Emperor was intrigued by the new liquid, drank some, and found it very refreshing. And so, according to legend, tea was created."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q2-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q2):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "B",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Tea consumption spread throughout Chinese culture, reaching into every aspect of society. The first definitive book was written on tea a book clearly reflecting Zen Buddhist philosophy – 1,200 years ago. The first tea seeds were brought to Japan by a returning Buddhist priest, who had seen the value of tea in enhancing meditation in China. As a result, he is known as the “Father of Tea” in Japan. Because of this early association, tea in Japan has always been linked with Zen Buddhism. Tea received the Japanese Emperor's support almost instantly and spread rapidly from the royal court and monasteries to other sections of society."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q3-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q3):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "C",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Tea was elevated to an art form in the Japanese tea ceremony, in which supreme importance is given to making tea in the most perfect, most polite, most graceful, most charming manner possible. Such a purity of expression prompted the creation of a particular form of architecture for tea houses, duplicating the simplicity of a forest cottage. The cultural/artistic hostesses of Japan, the geishas, began to specialise in the presentation of the tea ceremony. However, as more and more people became involved in the excitement surrounding tea, the purity of the original concept was lost, and for a period the tea ceremony became corrupted, boisterous and highly embellished. Efforts were then made to return to the earlier simplicity, with the result that, in the 15th and 16th centuries, tea was viewed as the ultimate gift. Even warlords paused for tea before battles."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q4):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "D",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " While tea was at this high level of development in parts of Asia, information concerning the then-unknown beverage began to filter back to Europe. Earlier traders had mentioned it, but were unclear as to whether tea should be eaten or drunk. The first European to personally encounter tea and write about it was Portuguese – Portugal, with her technologically advanced navy, had been successful in gaining the first right of trade with China."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q5):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "E",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Tea finally arrived in Europe in the 16th century, brought to Holland by the country's navy, and became very fashionable in the Dutch capital, The Hague. This was due in part to tea being very expensive (over $100 per pound), which immediately made it the domain of the wealthy. Slowly, as the amount of tea imported increased, the price fell, and by 1675 it was available in common food shops throughout Holland."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q6):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "F",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " As the consumption of tea increased dramatically in Dutch society, doctors and university authorities in Holland argued as to its benefits or drawbacks. The public largely ignored the scholarly debate and continued to enjoy their new beverage, though the controversy lasted from 1635 to roughly 1657. Throughout this period, France and Holland led Europe in the use of tea."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q7):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "G",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " As the craze for all things oriental swept through Europe, tea became part of everyday life. Adding milk to the drink was first mentioned in 1680. Around that time, Dutch inns provided the first restaurant service of tea. Innkeepers would furnish guests with a portable tea set complete with a heating unit. The Dutchman would then prepare tea for himself and his friends outside in the inn garden. Tea remained popular in France for only about fifty years, being replaced by a preference for wine, chocolate and exotic coffees. Tea was introduced into England in 1660 by King Charles II and his Portuguese queen, who were both confirmed tea drinkers. Tea mania swept across England as it had earlier spread throughout France and Holland. By 1708, tea importation had risen to thirteen times the 1699 level. Tea was drunk by all levels of society."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q8-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q8",
+              "paragraph": "H",
+              "labelText": "Paragraph H (Q8):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "H",
+                "data-question": "q8"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Russian interest in tea began as early as 1618, when the Chinese embassy in Moscow presented several chests of tea to the Emperor, Czar Alexis. Later in the century, a trade treaty between Russia and China allowed caravans to cross back and forth freely between the two countries. Still, the journey was not easy. The average caravan consisted of 200 to 300 camels, and the 18,000-kilometre trip took over 16 months to complete. Eventually, however, tea became – as it still is – one of the most popular drinks in the country."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-8-anchor-right"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–8"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 1 has eight paragraphs "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–H"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from the list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i. Not enough tea to meet demand",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii. Religious objections",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii. In - and sometimes out – of fashion",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv. A connection between tea and religion",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v. A luxury item",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi. News of tea reaches another continent",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii. Is tea a good or a bad thing?",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii. A chance discovery",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix. Tea-making as a ritual",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "x",
+                      "label": "x. Difficulties in importing tea",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "x"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落标题匹配（Questions 1–8）",
+        "mode": "group",
+        "questionRange": {
+          "start": 1,
+          "end": 8
+        },
+        "text": "题目翻译：为 A 段选择正确的标题\n答案：viii（A chance discovery，一次偶然的发现）\n解析：定位 Paragraph A 中 “Dried leaves from a nearby bush fell into the boiling water... the Emperor... drank some, and found it very refreshing. And so, according to legend, tea was created”。该段核心内容是神农帝因干叶偶然落入沸水而发现茶的起源过程，与 “一次偶然的发现” 这一标题的含义完全相符，因此选择 viii。\n题目翻译：为 B 段选择正确的标题\n答案：iv（A connection between tea and religion，茶与宗教的关联）\n解析：定位 Paragraph B 中 “The first definitive book was written on tea – a book clearly reflecting Zen Buddhist philosophy... tea in Japan has always been linked with Zen Buddhism”。该段重点阐述了茶与宗教的紧密联系，既提到中国首部茶书体现禅宗哲学，又说明日本茶因佛教僧人传入而始终与禅宗绑定，与 “茶与宗教的关联” 这一标题对应，因此选择 iv。\n题目翻译：为 C 段选择正确的标题\n答案：ix（Tea-making as a ritual，泡茶作为一种仪式）\n解析：定位 Paragraph C 中 “Tea was elevated to an art form in the Japanese tea ceremony, in which supreme importance is given to making tea in the most perfect, most polite... manner possible”。该段核心围绕日本茶道展开，强调泡茶需遵循极致规范、礼貌的流程，还提及为茶道建造专属茶室，体现了泡茶的仪式化特征，与 “泡茶作为一种仪式” 这一标题契合，因此选择 ix。\n题目翻译：为 D 段选择正确的标题\n答案：vi（News of tea reaches another continent，茶的消息传到另一大洲）\n解析：定位 Paragraph D 中 “information concerning the then-unknown beverage began to filter back to Europe... The first European to personally encounter tea and write about it was Portuguese...”。该段记录了茶的信息首次从亚洲（茶的发源地）传入欧洲（另一大洲）的过程，葡萄牙人成为首个记录茶的欧洲人，与 “茶的消息传到另一大洲” 这一标题对应，因此选择 vi。\n题目翻译：为 E 段选择正确的标题\n答案：v（A luxury item，一种奢侈品）\n解析：定位 Paragraph E 中 “This was due in part to tea being very expensive (over $100 per pound), which immediately made it the domain of the wealthy”。该段核心内容是茶初入欧洲时因价格高昂，仅为荷兰富人专属，体现了 “奢侈品” 的属性，与 “一种奢侈品” 这一标题完全对应，因此选择 v。\n题目翻译：为 F 段选择正确的标题\n答案：vii（Is tea a good or a bad thing?，茶是好是坏？）\n解析：定位 Paragraph F 中 “doctors and university authorities in Holland argued as to its benefits or drawbacks... the public largely ignored the scholarly debate and continued to enjoy their new beverage”。该段围绕荷兰学界对茶的利弊争论展开，尽管民众忽视争论，但争论本身是段落核心，与 “茶是好是坏？” 这一标题直接对应，因此选择 vii。\n题目翻译：为 G 段选择正确的标题\n答案：iii（In – and sometimes out – of fashion，时而流行，时而过时）\n解析：定位 Paragraph G 中 “Tea remained popular in France for only about fifty years, being replaced by a preference for wine, chocolate and exotic coffees... Tea mania swept across England as it had earlier spread throughout France and Holland”。该段描述了茶在法国从流行到被其他饮品取代（过时），随后又在英国掀起饮茶热潮的过程，体现了 “时而流行、时而过时” 的时尚更替特征，与标题对应，因此选择 iii。\n题目翻译：为 H 段选择正确的标题\n答案：x（Difficulties in importing tea，进口茶的困难）\n解析：定位 Paragraph H 中 “the journey was not easy. The average caravan consisted of 200 to 300 camels, and the 18,000-kilometre trip took over 16 months to complete”。该段详细说明了俄罗斯进口茶的运输难题 —— 商队规模大、行程漫长、耗时久，突出了 “进口困难” 的特点，与 “进口茶的困难” 这一标题契合，因此选择 x。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 1,
+            "text": "（1）题目 1：为 Paragraph A 选择正确标题\n题目翻译：为 A 段选择正确的标题\n答案：viii（A chance discovery，一次偶然的发现）\n解析：定位 Paragraph A 中 “Dried leaves from a nearby bush fell into the boiling water... the Emperor... drank some, and found it very refreshing. And so, according to legend, tea was created”。该段核心内容是神农帝因干叶偶然落入沸水而发现茶的起源过程，与 “一次偶然的发现” 这一标题的含义完全相符，因此选择 viii。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 2,
+            "text": "（2）题目 2：为 Paragraph B 选择正确标题\n题目翻译：为 B 段选择正确的标题\n答案：iv（A connection between tea and religion，茶与宗教的关联）\n解析：定位 Paragraph B 中 “The first definitive book was written on tea – a book clearly reflecting Zen Buddhist philosophy... tea in Japan has always been linked with Zen Buddhism”。该段重点阐述了茶与宗教的紧密联系，既提到中国首部茶书体现禅宗哲学，又说明日本茶因佛教僧人传入而始终与禅宗绑定，与 “茶与宗教的关联” 这一标题对应，因此选择 iv。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 3,
+            "text": "（3）题目 3：为 Paragraph C 选择正确标题\n题目翻译：为 C 段选择正确的标题\n答案：ix（Tea-making as a ritual，泡茶作为一种仪式）\n解析：定位 Paragraph C 中 “Tea was elevated to an art form in the Japanese tea ceremony, in which supreme importance is given to making tea in the most perfect, most polite... manner possible”。该段核心围绕日本茶道展开，强调泡茶需遵循极致规范、礼貌的流程，还提及为茶道建造专属茶室，体现了泡茶的仪式化特征，与 “泡茶作为一种仪式” 这一标题契合，因此选择 ix。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 4,
+            "text": "（4）题目 4：为 Paragraph D 选择正确标题\n题目翻译：为 D 段选择正确的标题\n答案：vi（News of tea reaches another continent，茶的消息传到另一大洲）\n解析：定位 Paragraph D 中 “information concerning the then-unknown beverage began to filter back to Europe... The first European to personally encounter tea and write about it was Portuguese...”。该段记录了茶的信息首次从亚洲（茶的发源地）传入欧洲（另一大洲）的过程，葡萄牙人成为首个记录茶的欧洲人，与 “茶的消息传到另一大洲” 这一标题对应，因此选择 vi。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 5,
+            "text": "（5）题目 5：为 Paragraph E 选择正确标题\n题目翻译：为 E 段选择正确的标题\n答案：v（A luxury item，一种奢侈品）\n解析：定位 Paragraph E 中 “This was due in part to tea being very expensive (over $100 per pound), which immediately made it the domain of the wealthy”。该段核心内容是茶初入欧洲时因价格高昂，仅为荷兰富人专属，体现了 “奢侈品” 的属性，与 “一种奢侈品” 这一标题完全对应，因此选择 v。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 6,
+            "text": "（6）题目 6：为 Paragraph F 选择正确标题\n题目翻译：为 F 段选择正确的标题\n答案：vii（Is tea a good or a bad thing?，茶是好是坏？）\n解析：定位 Paragraph F 中 “doctors and university authorities in Holland argued as to its benefits or drawbacks... the public largely ignored the scholarly debate and continued to enjoy their new beverage”。该段围绕荷兰学界对茶的利弊争论展开，尽管民众忽视争论，但争论本身是段落核心，与 “茶是好是坏？” 这一标题直接对应，因此选择 vii。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 7,
+            "text": "（7）题目 7：为 Paragraph G 选择正确标题\n题目翻译：为 G 段选择正确的标题\n答案：iii（In – and sometimes out – of fashion，时而流行，时而过时）\n解析：定位 Paragraph G 中 “Tea remained popular in France for only about fifty years, being replaced by a preference for wine, chocolate and exotic coffees... Tea mania swept across England as it had earlier spread throughout France and Holland”。该段描述了茶在法国从流行到被其他饮品取代（过时），随后又在英国掀起饮茶热潮的过程，体现了 “时而流行、时而过时” 的时尚更替特征，与标题对应，因此选择 iii。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 8,
+            "text": "（8）题目 8：为 Paragraph H 选择正确标题\n题目翻译：为 H 段选择正确的标题\n答案：x（Difficulties in importing tea，进口茶的困难）\n解析：定位 Paragraph H 中 “the journey was not easy. The average caravan consisted of 200 to 300 camels, and the 18,000-kilometre trip took over 16 months to complete”。该段详细说明了俄罗斯进口茶的运输难题 —— 商队规模大、行程漫长、耗时久，突出了 “进口困难” 的特点，与 “进口茶的困难” 这一标题契合，因此选择 x。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "matching",
+      "questionIds": [
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "allowOptionReuse": true,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 9–13"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Look at the following statements (Questions 9–13) and the list of countries below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Match each statement with the correct country, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q9-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q9",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q9"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "9"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Claims that tea might be harmful failed to affect its popularity."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q10-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q10",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q10"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "10"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Tea lost favour to other drinks."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q11-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q11",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q11"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "11"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Special buildings were constructed in which to drink tea."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q12-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q12",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q12"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "12"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Animals were involved in importing tea."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item",
+                "id": "q13-anchor"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                     "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "match-question-item"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "dropzone",
+                      "appearance": "match",
+                      "questionId": "q13",
+                      "paragraph": "",
+                      "labelText": "",
+                      "attrs": {
+                        "class": "match-dropzone",
+                        "data-question": "q13"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "13"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " A ruler's specialist knowledge led to an interest in tea."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                     "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "options-pool",
+                "id": "country-options-pool"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Countries"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "style": "flex-direction: column; align-items: flex-start;",
+                    "id": "practice-pool-2"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "A",
+                      "label": "A China",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "A"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "B",
+                      "label": "B Japan",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "B"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "C",
+                      "label": "C Portugal",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "C"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "D",
+                      "label": "D Holland",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "D"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "E",
+                      "label": "E France",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "E"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "F",
+                      "label": "F England",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "F"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-2",
+                      "value": "G",
+                      "label": "G Russia",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-option": "G"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 国家配对（Questions 9–13）",
+        "mode": "group",
+        "questionRange": {
+          "start": 9,
+          "end": 13
+        },
+        "text": "题目翻译：“茶可能有害” 的说法并未影响其受欢迎程度。\n答案：D（Holland，荷兰）\n解析：定位 Paragraph F 中 “doctors and university authorities in Holland argued as to its benefits or drawbacks... The public largely ignored the scholarly debate and continued to enjoy their new beverage”。荷兰的医生和大学学者就茶的弊端展开讨论，提出 “茶可能有害” 的观点，但荷兰民众无视这一学术争论，依然继续饮用茶，完全符合题干描述，因此答案为荷兰（D）。\n题目翻译：茶失宠，被其他饮品取代。\n答案：E（France，法国）\n解析：定位 Paragraph G 中 “Tea remained popular in France for only about fifty years, being replaced by a preference for wine, chocolate and exotic coffees”。茶在法国的流行仅持续了 50 年，之后人们的喜好转向葡萄酒、巧克力和特色咖啡，茶不再受欢迎，即 “茶失宠于其他饮品”，与题干对应，因此答案为法国（E）。\n题目翻译：人们建造了专门用于饮茶的特殊建筑。\n答案：B（Japan，日本）\n解析：定位 Paragraph C 中 “prompted the creation of a particular form of architecture for tea houses, duplicating the simplicity of a forest cottage”。日本为开展茶道，专门建造了 “茶室” 这种独特建筑，用于饮茶和举行茶道仪式，符合题干中 “建造专门用于饮茶的特殊建筑” 的描述，因此答案为日本（B）。\n题目翻译：动物参与了茶的进口过程。\n答案：G（Russia，俄罗斯）\n解析：定位 Paragraph H 中 “The average caravan consisted of 200 to 300 camels...”。俄罗斯通过由 200 至 300 头骆驼组成的商队运输进口茶，骆驼（动物）直接参与了茶的进口运输，与题干对应，因此答案为俄罗斯（G）。\n题目翻译：一位统治者的专业知识促使其对茶产生兴趣。\n答案：A（China，中国）\n解析：定位 Paragraph A 中 “the Emperor Shen Nung was a... creative scientist. As a scientist, the Emperor was intrigued by the new liquid, drank some, and found it very refreshing”。中国神农帝具备 “科学家” 的专业素养，正是凭借这种专业知识，他对偶然出现的茶液体产生了兴趣，进而发现了茶的价值，符合题干描述，因此答案为中国（A）。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 9,
+            "text": "（1）题目 9：Claims that tea might be harmful failed to affect its popularity.\n题目翻译：“茶可能有害” 的说法并未影响其受欢迎程度。\n答案：D（Holland，荷兰）\n解析：定位 Paragraph F 中 “doctors and university authorities in Holland argued as to its benefits or drawbacks... The public largely ignored the scholarly debate and continued to enjoy their new beverage”。荷兰的医生和大学学者就茶的弊端展开讨论，提出 “茶可能有害” 的观点，但荷兰民众无视这一学术争论，依然继续饮用茶，完全符合题干描述，因此答案为荷兰（D）。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 10,
+            "text": "（2）题目 10：Tea lost favour to other drinks.\n题目翻译：茶失宠，被其他饮品取代。\n答案：E（France，法国）\n解析：定位 Paragraph G 中 “Tea remained popular in France for only about fifty years, being replaced by a preference for wine, chocolate and exotic coffees”。茶在法国的流行仅持续了 50 年，之后人们的喜好转向葡萄酒、巧克力和特色咖啡，茶不再受欢迎，即 “茶失宠于其他饮品”，与题干对应，因此答案为法国（E）。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 11,
+            "text": "（3）题目 11：Special buildings were constructed in which to drink tea.\n题目翻译：人们建造了专门用于饮茶的特殊建筑。\n答案：B（Japan，日本）\n解析：定位 Paragraph C 中 “prompted the creation of a particular form of architecture for tea houses, duplicating the simplicity of a forest cottage”。日本为开展茶道，专门建造了 “茶室” 这种独特建筑，用于饮茶和举行茶道仪式，符合题干中 “建造专门用于饮茶的特殊建筑” 的描述，因此答案为日本（B）。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 12,
+            "text": "（4）题目 12：Animals were involved in importing tea.\n题目翻译：动物参与了茶的进口过程。\n答案：G（Russia，俄罗斯）\n解析：定位 Paragraph H 中 “The average caravan consisted of 200 to 300 camels...”。俄罗斯通过由 200 至 300 头骆驼组成的商队运输进口茶，骆驼（动物）直接参与了茶的进口运输，与题干对应，因此答案为俄罗斯（G）。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 13,
+            "text": "（5）题目 13：A ruler’s specialist knowledge led to an interest in tea.\n题目翻译：一位统治者的专业知识促使其对茶产生兴趣。\n答案：A（China，中国）\n解析：定位 Paragraph A 中 “the Emperor Shen Nung was a... creative scientist. As a scientist, the Emperor was intrigued by the new liquid, drank some, and found it very refreshing”。中国神农帝具备 “科学家” 的专业素养，正是凭借这种专业知识，他对偶然出现的茶液体产生了兴趣，进而发现了茶的价值，符合题干描述，因此答案为中国（A）。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "1",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "2",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "3",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "4",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "5",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "6",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "7",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "8",
+      "anchorId": "q8-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "9",
+      "anchorId": "q9-anchor"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "10",
+      "anchorId": "q10-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "11",
+      "anchorId": "q11-anchor"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "12",
+      "anchorId": "q12-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "13",
+      "anchorId": "q13-anchor"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i. Not enough tea to meet demand"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii. Religious objections"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii. In - and sometimes out – of fashion"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv. A connection between tea and religion"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v. A luxury item"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi. News of tea reaches another continent"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii. Is tea a good or a bad thing?"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii. A chance discovery"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix. Tea-making as a ritual"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "x",
+      "label": "x. Difficulties in importing tea"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "A",
+      "label": "A China"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "B",
+      "label": "B Japan"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "C",
+      "label": "C Portugal"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "D",
+      "label": "D Holland"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "E",
+      "label": "E France"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "F",
+      "label": "F England"
+    },
+    {
+      "poolId": "practice-pool-2",
+      "value": "G",
+      "label": "G Russia"
+    }
+  ],
+  "answerKey": {
+    "q1": "viii",
+    "q2": "iv",
+    "q3": "ix",
+    "q4": "vi",
+    "q5": "v",
+    "q6": "vii",
+    "q7": "iii",
+    "q8": "x",
+    "q9": "D",
+    "q10": "E",
+    "q11": "B",
+    "q12": "G",
+    "q13": "A"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "questionDisplayMap": {
+    "q1": "1",
+    "q2": "2",
+    "q3": "3",
+    "q4": "4",
+    "q5": "5",
+    "q6": "6",
+    "q7": "7",
+    "q8": "8",
+    "q9": "9",
+    "q10": "10",
+    "q11": "11",
+    "q12": "12",
+    "q13": "13"
+  },
+  "paragraphAnchors": {
+    "A": "q1-anchor",
+    "B": "q2-anchor",
+    "C": "q3-anchor",
+    "D": "q4-anchor",
+    "E": "q5-anchor",
+    "F": "q6-anchor",
+    "G": "q7-anchor",
+    "H": "q8-anchor"
+  },
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-anchor",
+    "q9": "q9-anchor",
+    "q10": "q10-anchor",
+    "q11": "q11-anchor",
+    "q12": "q12-anchor",
+    "q13": "q13-anchor"
+  },
+  "fields": {
+    "choiceGroups": [],
+    "textQuestions": [],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ]
+  },
+  "totalQuestions": 13
+}

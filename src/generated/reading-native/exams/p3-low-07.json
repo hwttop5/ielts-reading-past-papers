@@ -1,0 +1,3004 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-low-07",
+  "meta": {
+    "title": "Star Performers",
+    "category": "P3",
+    "frequency": "low",
+    "pdfFilename": "104. P3 - Star Performers 明星员工.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/104. P3 - Star Performers 明星员工/",
+    "legacyFilename": "104. P3 - Star Performers 明星员工.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Star Performers 明星员工"
+  },
+  "explanationKey": "p3-low-07",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Star Performers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h5",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Most organisations are looking for talent. But what if they've got it wrong, asks Jeffrey Pfeffer"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " One widely held assumption about talent is that it is a reasonably fixed characteristic and it is therefore the job of organisations to identify, recruit and retain star performers. This belief affects the way people are managed in the workplace. Most recruitment decisions are influenced by the skills and abilities of an individual rather than their aptitude and attitude. In terms of career development, organisations invest in staff who have been selected to reach higher-level positions, while ignoring front-line employees and people with less perceived potential. This idea, that talent is a fixed, identifiable characteristic – and that those firms with the best people do the best – is both flawed and harmful to people and organisations. There is a lot of evidence on this point, and it is useful to highlight some of the most pertinent arguments."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " First, are there stars? There is no question that in every field, from sports to computer programming to music, there are people who are better than the rest. As psychologist Dean Keith Simonton, who has spent his career studying greatness, has said, 'Wherever you look, the same story can be told. Identify the ten per cent who have achieved the most in a certain endeavour. Count the accomplishments they have to their credit. Now tally the accomplishments of the remaining 90 per cent. The first tally will equal or surpass the second.' For instance, in music, 16 individuals have produced about 50 per cent of the Western classical music that is performed and recorded today, while another 235 composers have produced the remaining half. The more interesting questions concern not the existence of stars, but whether these stars can be reliably identified and, even more importantly, whether their talent is a fixed aspect or can be altered."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "C"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Identifying the best people is tricky. Quality of performance changes over time and this is true whether we are talking about professors or footballers. If performance naturally varies, any measurement taken at a single point in time, such as when someone is being hired, will have error and imprecision. Therefore, single assessments of talent are likely to contain mistakes in their categorisation of people. Also, judgements about performance and ability depend on the standards used to judge what is good and bad. It should surprise no-one that for Bach to be considered a great musician, standards of music needed to change to embrace the qualities that his compositions possessed. Similarly, artists and art come in and out of fashion, which means that what is genius depends not only on a person's ability, but on the prevailing standards used to evaluate output."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Finally, it is difficult to evaluate people and their abilities with precision. In the domain of work, research shows that the best predictors of job performance tend to be measures of intelligence. But even these measures correlate only loosely with performance, which means that more than 80 per cent of the variation in performance is unexplained by even the best predictors. Even in the sports arena, where one would think natural ability would be readily assessed because sports teams spend lots of resources on identifying talent, mistakes get made. Basketball star Michael Jordan was dropped by his high-school basketball coach and a number of top American football quarterbacks were available early in their careers because they were not considered good enough by various teams."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " This leads on to the next question: is talent born or made? Should organisations assume that almost anyone can become a star performer, which implies that there ought to be a greater emphasis on motivation and development, or do they just figure out who is good and who isn't? Here the evidence is clear: talent is at least as much 'created' as inherent and, more importantly, the customary way companies think about identifying talent almost certainly works to destroy a lot of untapped potential. Decades of research by K. Anders Ericsson, professor of psychology at Florida State University, show that exceptional performance doesn't happen without around ten years of nearly daily, deliberate practice for about four hours a day, by people who, with the assistance of their coaches, have access to the best techniques. Once achieved, exceptional performance can't be maintained without relentless effort. So performance may be as much a consequence of training as it is of innate ability, which suggests that performance can be altered by how people are managed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "strong",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " Further research by Stanford psychology professor Carol Dweck shows that the tendency of organisations to see performance results as an opportunity for an 'assessment' of ability, results in lower performance and poor motivation. Dweck identified two sets of goals that people bring to a performance context: 'performance goals, where the purpose is to validate one's ability or avoid demonstrating a lack of ability, and learning goals, where the aim is to acquire new knowledge and skills'. People with performance goals have been shown to be more prone to helpless behaviour and debilitation after a setback, while people with learning goals strive for higher performance. The implications for managing people and talent are clear. Seeing talent as fixed and job performance as a way of classifying people creates a self-fulfilling prophecy in which ability and intelligence do become fixed. By contrast, seeing ability as malleable leads to a different sort of self-fulfilling prophecy, in which individuals and their employers may invest in ways to enhance performance."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "table_completion",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–32"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has six paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Which paragraph contains the following information?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NB You may use any letter more than once."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "style": "overflow-x: auto;"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "table",
+                  "attrs": {
+                    "class": "matching-table"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {
+                                "style": "min-width: 200px;"
+                              },
+                              "children": []
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "A"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "B"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "C"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "D"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "E"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "text": "F"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "27"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " disagreement with the view that employing talented people enables companies to achieve top performance"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q1",
+                                  "questionId": "q1",
+                                  "questionIds": [
+                                    "q1"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q1",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "28"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " a description of what individuals have to do on a regular basis to improve their performance"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q2",
+                                  "questionId": "q2",
+                                  "questionIds": [
+                                    "q2"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q2",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                            "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "29"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " the evidence that exceptional talent exists in all areas of life"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q3",
+                                  "questionId": "q3",
+                                  "questionIds": [
+                                    "q3"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q3",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "30"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " how different ways of evaluating achievement at work can cause different reactions in employees"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q4",
+                                  "questionId": "q4",
+                                  "questionIds": [
+                                    "q4"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q4",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "31"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " the belief that the time when an assessment is carried out affects its accuracy"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q5",
+                                  "questionId": "q5",
+                                  "questionIds": [
+                                    "q5"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q5",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                             "
+                        },
+                        {
+                          "type": "element",
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "element",
+                                  "tag": "strong",
+                                  "attrs": {},
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "32"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": " the extent to which different talented individuals have contributed to their particular area of achievement"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                                "
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "A",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "A"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "B",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "B"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "C",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "C"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "D",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "D"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "E",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "E"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                {
+                                  "type": "choiceInput",
+                                  "inputType": "radio",
+                                  "fieldName": "q6",
+                                  "questionId": "q6",
+                                  "questionIds": [
+                                    "q6"
+                                  ],
+                                  "value": "F",
+                                  "attrs": {
+                                    "type": "radio",
+                                    "name": "q6",
+                                    "value": "F"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": "\n                            "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n                        "
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落信息配对（Questions 27–32）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "答案：A\n解析：A段末尾明确指出，“拥有最优秀人才的公司表现最好”的观点“既有缺陷，又是有害的”。\n答案：E\n解析：E段中部描述了埃里克森的研究，指出卓越表现需要“around ten years of nearly daily, deliberate practice for about four hours a day”。\n答案：B\n解析：B段开头就说“in every field, from sports to computer programming to music, there are people who are better than the rest”，证明了明星员工的存在。\n答案：F\n解析：F段对比了“performance goals”（绩效目标）和“learning goals”（学习目标）两种评估框架，并说明了它们如何导致员工在面对挫折时产生截然不同的反应（无助 vs. 努力）。\n答案：C\n解析：C段前半部分指出，由于表现会随时间变化，在“a single point in time”（单一时间点）进行的任何测量都会有误差和不精确性。\n答案：B\n解析：B段用音乐领域的例子量化了不同个体的贡献程度：“16 individuals have produced about 50 per cent... while another 235 composers have produced the remaining half.”。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "(1) 题目 27：disagreement with the view that employing talented people enables companies to achieve top performance （不同意“雇用有才华的人能使公司取得最佳业绩”的观点）\n答案：A\n解析：A段末尾明确指出，“拥有最优秀人才的公司表现最好”的观点“既有缺陷，又是有害的”。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "(2) 题目 28：a description of what individuals have to do on a regular basis to improve their performance （描述个人为提高表现需要定期做什么）\n答案：E\n解析：E段中部描述了埃里克森的研究，指出卓越表现需要“around ten years of nearly daily, deliberate practice for about four hours a day”。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "(3) 题目 29：the evidence that exceptional talent exists in all areas of life （证明杰出人才存在于生活各个领域的证据）\n答案：B\n解析：B段开头就说“in every field, from sports to computer programming to music, there are people who are better than the rest”，证明了明星员工的存在。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "(4) 题目 30：how different ways of evaluating achievement at work can cause different reactions in employees （不同的工作成就评估方式如何导致员工的不同反应）\n答案：F\n解析：F段对比了“performance goals”（绩效目标）和“learning goals”（学习目标）两种评估框架，并说明了它们如何导致员工在面对挫折时产生截然不同的反应（无助 vs. 努力）。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "(5) 题目 31：the belief that the time when an assessment is carried out affects its accuracy （认为评估进行的时间会影响其准确性的信念）\n答案：C\n解析：C段前半部分指出，由于表现会随时间变化，在“a single point in time”（单一时间点）进行的任何测量都会有误差和不精确性。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "(6) 题目 32：the extent to which different talented individuals have contributed to their particular area of achievement （不同才华的个人对其特定成就领域的贡献程度）\n答案：B\n解析：B段用音乐领域的例子量化了不同个体的贡献程度：“16 individuals have produced about 50 per cent... while another 235 composers have produced the remaining half.”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "sentence_completion",
+      "questionIds": [
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q7-8-9-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 33–35"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Answer the questions below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "NO MORE THAN TWO WORDS AND/OR A NUMBER"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "33"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " How many Western classical composers are identified as exceptionally talented? "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q7",
+                      "fieldName": "q7",
+                      "attrs": {
+                        "name": "q7",
+                        "type": "text",
+                        "id": "q33_input",
+                        "class": "short-answer-input"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Which composer initially received little recognition for his work? "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "name": "q8",
+                        "type": "text",
+                        "id": "q34_input",
+                        "class": "short-answer-input"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Who can help improve the performance of people practising daily? "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "name": "q9",
+                        "type": "text",
+                        "id": "q35_input",
+                        "class": "short-answer-input"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 简答题（Questions 33–35）",
+        "mode": "group",
+        "questionRange": {
+          "start": 33,
+          "end": 35
+        },
+        "text": "答案：16\n解析：B段的例子中，那批贡献了50%音乐的“16 individuals”就是被认定为“star”或“exceptionally talented”的作曲家。\n答案：Bach\n解析：C段举例说，“for Bach to be considered a great musician, standards of music needed to change...”，暗示他最初未被广泛认可。\n答案：coaches\n解析：E段提到，卓越表现的达成需要“with the assistance of their coaches”。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "(1) 题目 33：How many Western classical composers are identified as exceptionally talented? （有多少位西方古典作曲家被认定为特别有才华？）\n答案：16\n解析：B段的例子中，那批贡献了50%音乐的“16 individuals”就是被认定为“star”或“exceptionally talented”的作曲家。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "(2) 题目 34：Which composer initially received little recognition for his work? （哪位作曲家最初其作品认可度不高？）\n答案：Bach\n解析：C段举例说，“for Bach to be considered a great musician, standards of music needed to change...”，暗示他最初未被广泛认可。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "(3) 题目 35：Who can help improve the performance of people practising daily? （谁能帮助每天练习的人提高表现？）\n答案：coaches\n解析：E段提到，卓越表现的达成需要“with the assistance of their coaches”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "true_false_not_given",
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q10-11-12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 36–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the information in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Companies usually hire people on the basis of their character."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q10",
+                          "questionId": "q10",
+                          "questionIds": [
+                            "q10"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q10",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " There are some areas of sport that have a greater proportion of talent than others."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q11",
+                          "questionId": "q11",
+                          "questionIds": [
+                            "q11"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q11",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Measures of intelligence accurately predict performance at work."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " There are cases in which talented sportspeople have been overlooked."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Newly formed organisations have the most highly motivated staff."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "TRUE",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "TRUE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " TRUE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "FALSE",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "FALSE"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " FALSE"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 判断题（Questions 36–40）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "答案：FALSE\n解析：A段中部说，招聘决策主要受“skills and abilities”（技能和能力）影响，而非“aptitude and attitude”（资质和态度，更接近品格）。\n答案：NOT GIVEN\n解析：文中只说各领域都有明星，以及在体育领域识别人才也会出错，但并未比较不同体育领域的人才比例。\n答案：FALSE\n解析：D段说，即使是最好的预测指标（智力测量），也只与表现“correlate only loosely”（松散相关），超过80%的差异无法解释，因此并非“准确预测”。\n答案：TRUE\n解析：D段后半部分举了迈克尔·乔丹和一些橄榄球四分卫早期不被看好的例子，证明了有才华者被忽视的情况确实存在。\n答案：NOT GIVEN\n解析：文章完全没有讨论新成立组织与员工动机之间的关系。",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "(1) 题目 36：Companies usually hire people on the basis of their character. （公司通常依据品格招聘员工。）\n答案：FALSE\n解析：A段中部说，招聘决策主要受“skills and abilities”（技能和能力）影响，而非“aptitude and attitude”（资质和态度，更接近品格）。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "(2) 题目 37：There are some areas of sport that have a greater proportion of talent than others. （某些体育领域比其他领域拥有更高比例的人才。）\n答案：NOT GIVEN\n解析：文中只说各领域都有明星，以及在体育领域识别人才也会出错，但并未比较不同体育领域的人才比例。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "(3) 题目 38：Measures of intelligence accurately predict performance at work. （智力测量能准确预测工作表现。）\n答案：FALSE\n解析：D段说，即使是最好的预测指标（智力测量），也只与表现“correlate only loosely”（松散相关），超过80%的差异无法解释，因此并非“准确预测”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "(4) 题目 39：There are cases in which talented sportspeople have been overlooked. （存在有才华的运动员被忽视的情况。）\n答案：TRUE\n解析：D段后半部分举了迈克尔·乔丹和一些橄榄球四分卫早期不被看好的例子，证明了有才华者被忽视的情况确实存在。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "(5) 题目 40：Newly formed organisations have the most highly motivated staff. （新成立的组织拥有最有动力的员工。）\n答案：NOT GIVEN\n解析：文章完全没有讨论新成立组织与员工动机之间的关系。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q1-2-3-4-5-6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-8-9-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q34_input"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q35_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10-11-12-13-14-anchor"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [],
+  "answerKey": {
+    "q1": "A",
+    "q2": "E",
+    "q3": "B",
+    "q4": "F",
+    "q5": "C",
+    "q6": "B",
+    "q7": "16",
+    "q8": "Bach",
+    "q9": "coaches",
+    "q10": "FALSE",
+    "q11": "NOT GIVEN",
+    "q12": "FALSE",
+    "q13": "TRUE",
+    "q14": "NOT GIVEN"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {},
+  "questionAnchors": {
+    "q1": "q1-2-3-4-5-6-anchor",
+    "q2": "q1-2-3-4-5-6-anchor",
+    "q3": "q1-2-3-4-5-6-anchor",
+    "q4": "q1-2-3-4-5-6-anchor",
+    "q5": "q1-2-3-4-5-6-anchor",
+    "q6": "q1-2-3-4-5-6-anchor",
+    "q7": "q7-8-9-anchor",
+    "q33": "q33_input",
+    "q34": "q34_input",
+    "q8": "q34_input",
+    "q35": "q35_input",
+    "q9": "q35_input",
+    "q10": "q10-11-12-13-14-anchor",
+    "q11": "q11_input",
+    "q12": "q12_input",
+    "q13": "q13_input",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q1",
+        "inputType": "radio",
+        "questionIds": [
+          "q1"
+        ]
+      },
+      {
+        "name": "q2",
+        "inputType": "radio",
+        "questionIds": [
+          "q2"
+        ]
+      },
+      {
+        "name": "q3",
+        "inputType": "radio",
+        "questionIds": [
+          "q3"
+        ]
+      },
+      {
+        "name": "q4",
+        "inputType": "radio",
+        "questionIds": [
+          "q4"
+        ]
+      },
+      {
+        "name": "q5",
+        "inputType": "radio",
+        "questionIds": [
+          "q5"
+        ]
+      },
+      {
+        "name": "q6",
+        "inputType": "radio",
+        "questionIds": [
+          "q6"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      },
+      {
+        "name": "q11",
+        "inputType": "radio",
+        "questionIds": [
+          "q11"
+        ]
+      },
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q7",
+      "q8",
+      "q9"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": []
+  },
+  "totalQuestions": 14
+}

@@ -1,0 +1,2113 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-high-167",
+  "meta": {
+    "title": "Living dunes",
+    "category": "P3",
+    "frequency": "high",
+    "pdfFilename": "76. P3 - Living dunes 流动沙丘【高】.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/76. P3 - Living dunes 流动沙丘【高】/",
+    "legacyFilename": "76. P3 - Living dunes 流动沙丘【高】.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Living dunes 流动沙丘"
+  },
+  "explanationKey": "p3-high-167",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Living dunes"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "h4",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Things don't come much stranger than heaps of sand that can move and sing of their own accord. Sally Palmer investigates"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q1-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q27):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "A",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Armies of giant sand dunes are advancing across the world's deserts, engulfing anything that crosses their path. They are tens of metres tall and hundreds of metres long. Fortunately, they aren't going very fast. Even the smallest, speediest dunes only travel about 100 metres over the course of a year, while the bigger ones, which weigh something in the order of 10,000 tonnes, barely move one metre in that time. However, their insidious creep can have serious consequences if there is an oil installation or a railway line in their path."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q2-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q28):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "B",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " About 47% of the world's land mass, including Antarctica, most of Australia and large areas of Africa, is classified as arid or semi-arid desert. Only around 20% of that is sand-covered, however, and over half of that is classified as ‘linear' sand dunes. These form in a long curving wave, as a result of wind blowing strongly from several quarters, flipping them from side to side. Although linear dunes are static, sand blowing off them can cause problems for desert villages, burying crops and buildings."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q3-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q29):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "C",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Moving dunes make up just a small percentage of the rest, but they are of the most interest to scientists. They are known as 'barchans': heavy, crescent-shaped sand piles with a ridged crest and two elongated arms, one curving away to either side. ‘Barchan dunes only tend to form where you have one-directional winds on the edge of sandy deserts near coastal areas,' says Giles Wiggs, a geomorphologist at Oxford University, who has been studying the formation and movement of sand dunes for more than a decade."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q30):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "D",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " But even with strong winds, how can entire barchans move while retaining their form? That question was first answered in the mid-20th century by British explorer Ralph Alger Bagnold, and his answer hinges on the fact that dunes aren't solid, but granular. Bagnold figured out how barchan dunes are able to move grain by grain. Imagine a single grain of sand being blown up the back of a dune by the wind and deposited on the top. More grains follow the same pattern, until the accumulated weight of piled-up sand finally pushes the top down the dune face. The grain tumbles, then stops on the face until subsequent mini-avalanches bury it. Eventually, it reappears at the back of the dune, ready to repeat the process. As this happens to every grain of sand in the dune, the whole thing creeps in the direction of the prevailing wind."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q31):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "E",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " The relationship between the wind and barchan dunes is complex. As a dune grows, it modifies the speed and course of the wind, which in turn alters how that dune and its neighbours evolve. ‘Interestingly, the dune can regulate its own shape, and maintain it as it moves,' says Dr Stéphane Douady, a physicist at École Normale Supérieure (ENS) in France. 'Even when two dunes collide, they quickly take on their distinctive shapes again. It's like a living organism.'"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q32):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "F",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Douady and his colleagues have also been studying an even odder phenomenon than moving dunes: some barchans actually sing. Local legends attributed the sounds to dangerous spirits which were trying to trap unwary travellers. Douady is more pragmatic. 'It's a strong booming noise with a low frequency,' he explains, making a noise like a foghorn to demonstrate. ‘It can last for a long time – up to several minutes. It's a very loud sound and you don't understand where it's coming from when you first hear it.' There are about 50 dunes distributed across 35 deserts round the world that are known to sing. Douady says the sound is caused by the way sand avalanches down the faces of particular dunes. Rather than tumbling randomly, the sand grains flow in synchrony and set each other vibrating like the membrane on a gigantic loudspeaker. The synchronisation causes the air to move in and out between the grains, creating a powerful sound wave."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q33):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "G",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " What really surprised the scientists, however, was that they were able to take samples of the singing sand back to France and replicate the sound at ENS, proving that it's the sand, not the dune shape, that causes the sound. Their studies show the grains are a uniform shape, well-rounded from years of striking each other, and that the variations in size affect the tone. Crucially, the grains are coated with a special veneer, which Douady calls 'desert glaze', made from a precise combination of minerals from surrounding rocks including iron, aluminium, manganese, silicon and calcium. The team found that after a month or so, the veneer wore off and the grains lost their ‘voice'. ‘We managed to reproduce the desert glaze and then the grains started to sing again,' says Douady. 'We tried putting the coating onto different grains, but they weren't round enough and it didn't work. But some American colleagues made some artificial grains and managed to make them sing, after covering them in desert glaze.' Douady has now made recordings of dunesong from all over the world which are to be made into a CD."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–33"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has seven paragraphs, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i Moving rapidly across the desert",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii Recreating the process in a laboratory",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii Strange music created by human movement",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv A potential threat to industry and communications",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v Dunes coming together and re-forming",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi Needing a specific combination of conditions",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii A continuous cycle",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii The commonest type of dune",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix Old superstitions demystified",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落标题匹配（Questions 27–33：Choose the correct heading）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 33
+        },
+        "text": "答案：iv（A potential threat to industry and communications，对工业和交通的潜在威胁）\n解析：Paragraph A 强调 “沙丘移动若阻挡油田、铁路会造成严重后果”，核心是 “威胁工业与交通”，与标题 iv 一致，因此选 iv。\n答案：viii（The commonest type of dune，最常见的沙丘类型）\n解析：Paragraph B 指出 “线形沙丘占沙覆盖区超一半”，核心是 “最常见类型”，与标题 viii 一致，因此选 viii。\n答案：vi（Needing a specific combination of conditions，需要特定条件组合）\n解析：Paragraph C 说明 “新月形沙丘仅形成于‘单向风、沙漠边缘、近海’环境”，核心是 “特定形成条件”，与标题 vi 一致，因此选 vi。\n答案：vii（A continuous cycle，持续循环）\n解析：Paragraph D 描述 “沙粒‘上坡 - 滑落 - 重现’的循环推动沙丘移动”，核心是 “循环过程”，与标题 vii 一致，因此选 vii。\n答案：v（Dunes coming together and re-forming，沙丘相撞后重新形成）\n解析：Paragraph E 提到 “两沙丘相撞后快速恢复原状”，核心是 “相撞与重组”，与标题 v 一致，因此选 v。\n答案：ix（Old superstitions demystified，旧迷信被解开）\n解析：Paragraph F 用科学解释取代 “恶灵发声” 的传说，核心是 “破除迷信”，与标题 ix 一致，因此选 ix。\n答案：ii（Recreating the process in a laboratory，在实验室重现过程）\n解析：Paragraph G 描述 “实验室复制沙丘发声”，核心是 “实验室重现”，与标题 ii 一致，因此选 ii。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Paragraph A\n答案：iv（A potential threat to industry and communications，对工业和交通的潜在威胁）\n解析：Paragraph A 强调 “沙丘移动若阻挡油田、铁路会造成严重后果”，核心是 “威胁工业与交通”，与标题 iv 一致，因此选 iv。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Paragraph B\n答案：viii（The commonest type of dune，最常见的沙丘类型）\n解析：Paragraph B 指出 “线形沙丘占沙覆盖区超一半”，核心是 “最常见类型”，与标题 viii 一致，因此选 viii。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Paragraph C\n答案：vi（Needing a specific combination of conditions，需要特定条件组合）\n解析：Paragraph C 说明 “新月形沙丘仅形成于‘单向风、沙漠边缘、近海’环境”，核心是 “特定形成条件”，与标题 vi 一致，因此选 vi。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Paragraph D\n答案：vii（A continuous cycle，持续循环）\n解析：Paragraph D 描述 “沙粒‘上坡 - 滑落 - 重现’的循环推动沙丘移动”，核心是 “循环过程”，与标题 vii 一致，因此选 vii。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Paragraph E\n答案：v（Dunes coming together and re-forming，沙丘相撞后重新形成）\n解析：Paragraph E 提到 “两沙丘相撞后快速恢复原状”，核心是 “相撞与重组”，与标题 v 一致，因此选 v。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：Paragraph F\n答案：ix（Old superstitions demystified，旧迷信被解开）\n解析：Paragraph F 用科学解释取代 “恶灵发声” 的传说，核心是 “破除迷信”，与标题 ix 一致，因此选 ix。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（7）题目 33：Paragraph G\n答案：ii（Recreating the process in a laboratory，在实验室重现过程）\n解析：Paragraph G 描述 “实验室复制沙丘发声”，核心是 “实验室重现”，与标题 ii 一致，因此选 ii。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "single_choice",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 34–36"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct letter, "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A, B, C or D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "34"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " What are we told about linear dunes?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q8",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A They are formed by strong winds blowing from one direction."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q8",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B They can move up to 100 metres in a twelve-month period."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q8",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C They develop in a recognisable shape."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q8",
+                              "questionId": "q8",
+                              "questionIds": [
+                                "q8"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q8",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D They make up about 20% of the world's deserts."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Bagnold discovered that movement in barchans was caused by"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q9",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A the long straight shape of the dunes."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q9",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B the particular composition of the dunes."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q9",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C the exceptionally heavy nature of the sand grains."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q9",
+                              "questionId": "q9",
+                              "questionIds": [
+                                "q9"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q9",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D the unusual strength of the wind in certain seasons."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Why does Dr Douady compare a barchan dune to a living organism?"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "ul",
+                  "attrs": {
+                    "class": "radio-options-list"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "A",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "A"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " A It starts small and then increases in size."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "B",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "B"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " B It has an effect on its immediate surroundings."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "C",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "C"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " C Its relations with desert organisms are quite developed."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                      "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "li",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "label",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "choiceInput",
+                              "inputType": "radio",
+                              "fieldName": "q10",
+                              "questionId": "q10",
+                              "questionIds": [
+                                "q10"
+                              ],
+                              "value": "D",
+                              "attrs": {
+                                "name": "q10",
+                                "type": "radio",
+                                "value": "D"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " D Its outline stays the same even after a period of movement."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 单选题（Questions 34–36：Choose A–D）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 34,
+          "end": 36
+        },
+        "text": "答案：C（They develop in a recognisable shape. 形成可识别的形状）\n解析：定位 Paragraph B 中 “These form in a long curving wave”，“长弯曲波形” 对应 “可识别的形状”，因此选 C。A “单向风形成” 错误（线形沙丘由多方向风形成）；B “年移 100 米” 错误（线形沙丘静止）；D“占全球沙漠 20%” 错误（20% 是沙漠中沙覆盖区比例）。\n答案：B（the particular composition of the dunes. 沙丘的特定构成）\n解析：定位 Paragraph D 中 “his answer hinges on the fact that dunes aren’t solid, but granular. Bagnold figured out how barchan dunes are able to move grain by grain”，“由沙粒构成而非固体” 对应 “特定构成”，因此选 B。\n答案：D（Its outline stays the same even after a period of movement. 移动后仍保持轮廓不变）\n解析：定位 Paragraph E 中 “the dune can regulate its own shape, and maintain it as it moves... Even when two dunes collide, they quickly take on their distinctive shapes again”，“保持并恢复形态” 对应 “轮廓不变”，因此选 D。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（1）题目 34：What are we told about linear dunes?（关于线形沙丘，文中提到什么？）\n答案：C（They develop in a recognisable shape. 形成可识别的形状）\n解析：定位 Paragraph B 中 “These form in a long curving wave”，“长弯曲波形” 对应 “可识别的形状”，因此选 C。A “单向风形成” 错误（线形沙丘由多方向风形成）；B “年移 100 米” 错误（线形沙丘静止）；D“占全球沙漠 20%” 错误（20% 是沙漠中沙覆盖区比例）。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（2）题目 35：Bagnold discovered that movement in barchans was caused by（巴格诺尔德发现新月形沙丘移动的原因是？）\n答案：B（the particular composition of the dunes. 沙丘的特定构成）\n解析：定位 Paragraph D 中 “his answer hinges on the fact that dunes aren’t solid, but granular. Bagnold figured out how barchan dunes are able to move grain by grain”，“由沙粒构成而非固体” 对应 “特定构成”，因此选 B。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（3）题目 36：Why does Dr Douady compare a barchan dune to a living organism?（杜阿迪博士为何将新月形沙丘比作生命体？）\n答案：D（Its outline stays the same even after a period of movement. 移动后仍保持轮廓不变）\n解析：定位 Paragraph E 中 “the dune can regulate its own shape, and maintain it as it moves... Even when two dunes collide, they quickly take on their distinctive shapes again”，“保持并恢复形态” 对应 “轮廓不变”，因此选 D。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "summary_completion",
+      "questionIds": [
+        "q11",
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q11-12-13-14-group"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 37–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Complete the summary below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "summary-completion"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "h4",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Singing dunes"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    Singing dunes, which belong to the type of dunes known as "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "37"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "name": "q11",
+                        "type": "text",
+                        "id": "q37_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", produce a very loud sound which is transmitted at a low frequency. Researchers have worked out that sand grains fall down the dune and start vibrating against other grains, forming a sound wave.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                    Research proves that the individual grains have a similar "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q12",
+                      "fieldName": "q12",
+                      "attrs": {
+                        "name": "q12",
+                        "type": "text",
+                        "id": "q38_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", but the differences in dimensions alter the "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q13",
+                      "fieldName": "q13",
+                      "attrs": {
+                        "name": "q13",
+                        "type": "text",
+                        "id": "q39_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " of the 'song'. Each grain is covered with a mixture of different "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q14",
+                      "fieldName": "q14",
+                      "attrs": {
+                        "name": "q14",
+                        "type": "text",
+                        "id": "q40_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", and this is vital to the sound production.\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 摘要填空（Questions 37–40：ONE WORD ONLY）",
+        "mode": "group",
+        "questionRange": {
+          "start": 37,
+          "end": 40
+        },
+        "text": "答案：barchans（新月形沙丘）\n解析：定位 Paragraph F 中 “some barchans actually sing”，明确提到 “发声沙丘是新月形沙丘”，因此答案为 “barchans”。\n答案：shape（形状）\n解析：定位 Paragraph G 中 “Their studies show the grains are a uniform shape”，“uniform shape” 对应 “similar shape”，因此答案为 “shape”。\n答案：tone（音调）\n解析：定位 Paragraph G 中 “the variations in size affect the tone”，明确提到 “尺寸影响音调”，因此答案为 “tone”。\n答案：minerals（矿物）\n解析：定位 Paragraph G 中 “the grains are coated with a special veneer... made from a precise combination of minerals”，明确提到 “矿物混合物”，因此答案为 “minerals”。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（1）题目 37：Singing dunes, which belong to the type of dunes known as \\___\\___.（发声沙丘属于被称为_\\___\\__的沙丘类型。）\n答案：barchans（新月形沙丘）\n解析：定位 Paragraph F 中 “some barchans actually sing”，明确提到 “发声沙丘是新月形沙丘”，因此答案为 “barchans”。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（2）题目 38：Researchers have worked out that sand grains fall down the dune and start vibrating against other grains... Research proves that the individual grains have a similar .（研究者发现沙粒沿沙丘滑落并与其他颗粒振动…… 研究证明单个沙粒具有相似的。）\n答案：shape（形状）\n解析：定位 Paragraph G 中 “Their studies show the grains are a uniform shape”，“uniform shape” 对应 “similar shape”，因此答案为 “shape”。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（3）题目 39：but the differences in dimensions alter the \\___\\___ of the ‘song’.（但尺寸差异会改变 “歌声” 的_\\___\\__。）\n答案：tone（音调）\n解析：定位 Paragraph G 中 “the variations in size affect the tone”，明确提到 “尺寸影响音调”，因此答案为 “tone”。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（4）题目 40：Each grain is covered with a mixture of different \\___\\___, and this is vital to the sound production.（每个沙粒表面覆盖不同_\\___\\__的混合物，这对发声至关重要。）\n答案：minerals（矿物）\n解析：定位 Paragraph G 中 “the grains are coated with a special veneer... made from a precise combination of minerals”，明确提到 “矿物混合物”，因此答案为 “minerals”。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-9-10-group"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q9_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q10_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q11-12-13-14-group"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q38_input"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q39_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q40_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i Moving rapidly across the desert"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii Recreating the process in a laboratory"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii Strange music created by human movement"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv A potential threat to industry and communications"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v Dunes coming together and re-forming"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi Needing a specific combination of conditions"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii A continuous cycle"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii The commonest type of dune"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix Old superstitions demystified"
+    }
+  ],
+  "answerKey": {
+    "q1": "iv",
+    "q2": "viii",
+    "q3": "vi",
+    "q4": "vii",
+    "q5": "v",
+    "q6": "ix",
+    "q7": "ii",
+    "q8": "C",
+    "q9": "B",
+    "q10": "D",
+    "q11": "barchans",
+    "q12": "shape",
+    "q13": "tone",
+    "q14": "minerals"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {
+    "A": "q1-anchor",
+    "B": "q2-anchor",
+    "C": "q3-anchor",
+    "D": "q4-anchor",
+    "E": "q5-anchor",
+    "F": "q6-anchor",
+    "G": "q7-anchor"
+  },
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-9-10-group",
+    "q11": "q11-12-13-14-group",
+    "q37": "q37_input",
+    "q38": "q38_input",
+    "q12": "q38_input",
+    "q39": "q39_input",
+    "q13": "q39_input",
+    "q40": "q40_input",
+    "q14": "q40_input",
+    "q9": "q9_input",
+    "q10": "q10_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q8",
+        "inputType": "radio",
+        "questionIds": [
+          "q8"
+        ]
+      },
+      {
+        "name": "q9",
+        "inputType": "radio",
+        "questionIds": [
+          "q9"
+        ]
+      },
+      {
+        "name": "q10",
+        "inputType": "radio",
+        "questionIds": [
+          "q10"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ]
+  },
+  "totalQuestions": 14
+}

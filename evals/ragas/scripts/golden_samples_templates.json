@@ -1,0 +1,2852 @@
+[
+  {
+    "id": "p1-high-24_hint_single",
+    "questionId": "p1-high-24",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-24_explain_single",
+    "questionId": "p1-high-24",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-24_vocab_paraphrase",
+    "questionId": "p1-high-24",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-high-24_social_greeting",
+    "questionId": "p1-high-24",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-high-27_hint_single",
+    "questionId": "p1-high-27",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-27_explain_single",
+    "questionId": "p1-high-27",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-27_vocab_paraphrase",
+    "questionId": "p1-high-27",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-high-27_social_greeting",
+    "questionId": "p1-high-27",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-high-31_hint_single",
+    "questionId": "p1-high-31",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-31_explain_single",
+    "questionId": "p1-high-31",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-31_vocab_paraphrase",
+    "questionId": "p1-high-31",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-high-31_social_greeting",
+    "questionId": "p1-high-31",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-high-79_hint_single",
+    "questionId": "p1-high-79",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-79_explain_single",
+    "questionId": "p1-high-79",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-high-79_vocab_paraphrase",
+    "questionId": "p1-high-79",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-high-79_social_greeting",
+    "questionId": "p1-high-79",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-medium-20_hint_single",
+    "questionId": "p1-medium-20",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-medium-20_explain_single",
+    "questionId": "p1-medium-20",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-medium-20_vocab_paraphrase",
+    "questionId": "p1-medium-20",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-medium-20_social_greeting",
+    "questionId": "p1-medium-20",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-medium-29_hint_single",
+    "questionId": "p1-medium-29",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-medium-29_explain_single",
+    "questionId": "p1-medium-29",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-medium-29_vocab_paraphrase",
+    "questionId": "p1-medium-29",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-medium-29_social_greeting",
+    "questionId": "p1-medium-29",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-medium-33_hint_single",
+    "questionId": "p1-medium-33",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-medium-33_explain_single",
+    "questionId": "p1-medium-33",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-medium-33_vocab_paraphrase",
+    "questionId": "p1-medium-33",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-medium-33_social_greeting",
+    "questionId": "p1-medium-33",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-low-02_hint_single",
+    "questionId": "p1-low-02",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-low-02_explain_single",
+    "questionId": "p1-low-02",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-low-02_vocab_paraphrase",
+    "questionId": "p1-low-02",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-low-02_social_greeting",
+    "questionId": "p1-low-02",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-low-11_hint_single",
+    "questionId": "p1-low-11",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-low-11_explain_single",
+    "questionId": "p1-low-11",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-low-11_vocab_paraphrase",
+    "questionId": "p1-low-11",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-low-11_social_greeting",
+    "questionId": "p1-low-11",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p1-low-13_hint_single",
+    "questionId": "p1-low-13",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P1)",
+      "Question 1 hint (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-low-13_explain_single",
+    "questionId": "p1-low-13",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P1)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P1)",
+      "Question 1 explanation (P1)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p1-low-13_vocab_paraphrase",
+    "questionId": "p1-low-13",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P1)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P1)",
+      "Paraphrase key words (P1)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p1-low-13_social_greeting",
+    "questionId": "p1-low-13",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-high-09_hint_single",
+    "questionId": "p2-high-09",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-09_explain_single",
+    "questionId": "p2-high-09",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-09_vocab_paraphrase",
+    "questionId": "p2-high-09",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-high-09_social_greeting",
+    "questionId": "p2-high-09",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-high-14_hint_single",
+    "questionId": "p2-high-14",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-14_explain_single",
+    "questionId": "p2-high-14",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-14_vocab_paraphrase",
+    "questionId": "p2-high-14",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-high-14_social_greeting",
+    "questionId": "p2-high-14",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-high-16_hint_single",
+    "questionId": "p2-high-16",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-16_explain_single",
+    "questionId": "p2-high-16",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-16_vocab_paraphrase",
+    "questionId": "p2-high-16",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-high-16_social_greeting",
+    "questionId": "p2-high-16",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-high-17_hint_single",
+    "questionId": "p2-high-17",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-17_explain_single",
+    "questionId": "p2-high-17",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-high-17_vocab_paraphrase",
+    "questionId": "p2-high-17",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-high-17_social_greeting",
+    "questionId": "p2-high-17",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-medium-10_hint_single",
+    "questionId": "p2-medium-10",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-medium-10_explain_single",
+    "questionId": "p2-medium-10",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-medium-10_vocab_paraphrase",
+    "questionId": "p2-medium-10",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-medium-10_social_greeting",
+    "questionId": "p2-medium-10",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-medium-58_hint_single",
+    "questionId": "p2-medium-58",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-medium-58_explain_single",
+    "questionId": "p2-medium-58",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-medium-58_vocab_paraphrase",
+    "questionId": "p2-medium-58",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-medium-58_social_greeting",
+    "questionId": "p2-medium-58",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-medium-86_hint_single",
+    "questionId": "p2-medium-86",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-medium-86_explain_single",
+    "questionId": "p2-medium-86",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-medium-86_vocab_paraphrase",
+    "questionId": "p2-medium-86",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-medium-86_social_greeting",
+    "questionId": "p2-medium-86",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-low-06_hint_single",
+    "questionId": "p2-low-06",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-low-06_explain_single",
+    "questionId": "p2-low-06",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-low-06_vocab_paraphrase",
+    "questionId": "p2-low-06",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-low-06_social_greeting",
+    "questionId": "p2-low-06",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-low-08_hint_single",
+    "questionId": "p2-low-08",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-low-08_explain_single",
+    "questionId": "p2-low-08",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-low-08_vocab_paraphrase",
+    "questionId": "p2-low-08",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-low-08_social_greeting",
+    "questionId": "p2-low-08",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p2-low-37_hint_single",
+    "questionId": "p2-low-37",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P2)",
+      "Question 1 hint (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-low-37_explain_single",
+    "questionId": "p2-low-37",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P2)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P2)",
+      "Question 1 explanation (P2)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p2-low-37_vocab_paraphrase",
+    "questionId": "p2-low-37",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P2)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P2)",
+      "Paraphrase key words (P2)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p2-low-37_social_greeting",
+    "questionId": "p2-low-37",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-high-03_hint_single",
+    "questionId": "p3-high-03",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-03_explain_single",
+    "questionId": "p3-high-03",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-03_vocab_paraphrase",
+    "questionId": "p3-high-03",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-high-03_social_greeting",
+    "questionId": "p3-high-03",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-high-04_hint_single",
+    "questionId": "p3-high-04",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-04_explain_single",
+    "questionId": "p3-high-04",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-04_vocab_paraphrase",
+    "questionId": "p3-high-04",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-high-04_social_greeting",
+    "questionId": "p3-high-04",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-high-15_hint_single",
+    "questionId": "p3-high-15",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-15_explain_single",
+    "questionId": "p3-high-15",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-15_vocab_paraphrase",
+    "questionId": "p3-high-15",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-high-15_social_greeting",
+    "questionId": "p3-high-15",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-high-32_hint_single",
+    "questionId": "p3-high-32",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-32_explain_single",
+    "questionId": "p3-high-32",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-high-32_vocab_paraphrase",
+    "questionId": "p3-high-32",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-high-32_social_greeting",
+    "questionId": "p3-high-32",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-medium-18_hint_single",
+    "questionId": "p3-medium-18",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-medium-18_explain_single",
+    "questionId": "p3-medium-18",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-medium-18_vocab_paraphrase",
+    "questionId": "p3-medium-18",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-medium-18_social_greeting",
+    "questionId": "p3-medium-18",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-medium-22_hint_single",
+    "questionId": "p3-medium-22",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-medium-22_explain_single",
+    "questionId": "p3-medium-22",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-medium-22_vocab_paraphrase",
+    "questionId": "p3-medium-22",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-medium-22_social_greeting",
+    "questionId": "p3-medium-22",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-medium-66_hint_single",
+    "questionId": "p3-medium-66",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-medium-66_explain_single",
+    "questionId": "p3-medium-66",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-medium-66_vocab_paraphrase",
+    "questionId": "p3-medium-66",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-medium-66_social_greeting",
+    "questionId": "p3-medium-66",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-low-07_hint_single",
+    "questionId": "p3-low-07",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-low-07_explain_single",
+    "questionId": "p3-low-07",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-low-07_vocab_paraphrase",
+    "questionId": "p3-low-07",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-low-07_social_greeting",
+    "questionId": "p3-low-07",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-low-12_hint_single",
+    "questionId": "p3-low-12",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-low-12_explain_single",
+    "questionId": "p3-low-12",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-low-12_vocab_paraphrase",
+    "questionId": "p3-low-12",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-low-12_social_greeting",
+    "questionId": "p3-low-12",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  },
+  {
+    "id": "p3-low-28_hint_single",
+    "questionId": "p3-low-28",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "给我第 1 题的提示 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题有什么提示？(P3)",
+      "Question 1 hint (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-low-28_explain_single",
+    "questionId": "p3-low-28",
+    "mode": "explain",
+    "locale": "zh",
+    "userQuery": "讲解第 1 题 (P3)",
+    "focusQuestionNumbers": [
+      "1"
+    ],
+    "expectedQuestionType": "TODO",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [
+        "A"
+      ],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "第 1 题怎么讲解？(P3)",
+      "Question 1 explanation (P3)"
+    ],
+    "expectedStyle": "full_tutoring"
+  },
+  {
+    "id": "p3-low-28_vocab_paraphrase",
+    "questionId": "p3-low-28",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "文中关键词有哪些同义替换？(P3)",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": "vocabulary",
+    "headingListRequired": false,
+    "expected_answer": "TODO",
+    "expected_evidence": {
+      "paragraphLabels": [],
+      "chunkType": "passage_paragraph",
+      "keyPhrases": [
+        "TODO"
+      ]
+    },
+    "query_variants": [
+      "同义词替换 (P3)",
+      "Paraphrase key words (P3)"
+    ],
+    "expectedStyle": "vocab_paraphrase"
+  },
+  {
+    "id": "p3-low-28_social_greeting",
+    "questionId": "p3-low-28",
+    "mode": "hint",
+    "locale": "zh",
+    "userQuery": "你好",
+    "focusQuestionNumbers": [],
+    "expectedQuestionType": null,
+    "headingListRequired": false,
+    "expected_answer": "你好！我是你的 AI 助教...",
+    "expected_evidence": null,
+    "query_variants": [
+      "嗨",
+      "早上好"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "social"
+  }
+]

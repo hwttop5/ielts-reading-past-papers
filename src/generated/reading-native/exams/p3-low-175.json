@@ -1,0 +1,2151 @@
+{
+  "schemaVersion": "ReadingExamDocumentV1",
+  "examId": "p3-low-175",
+  "meta": {
+    "title": "Termite Mounds",
+    "category": "P3",
+    "frequency": "low",
+    "pdfFilename": "83. P3 - Termite Mounds 白蚁丘.pdf",
+    "legacyPath": "睡着过项目组/2. 所有文章(11.20)[192篇]/83. P3 - Termite Mounds 白蚁丘/",
+    "legacyFilename": "83. P3 - Termite Mounds 白蚁丘.html",
+    "questionIntroHtml": "<h3>Questions</h3>",
+    "originalTitle": "Termite Mounds 白蚁丘"
+  },
+  "explanationKey": "p3-low-175",
+  "passageBlocks": [
+    {
+      "blockId": "passage-main",
+      "kind": "html",
+      "nodes": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "READING PASSAGE 3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3 below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Termite Mounds"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "type": "element",
+              "tag": "em",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Could the vast towers of mud constructed by insects in sub-Saharan Africa hold the key to our energy-efficient building of the future?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            \n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q1-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q1",
+              "paragraph": "A",
+              "labelText": "Paragraph A (Q27):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "A",
+                "data-question": "q1"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " To most of us, termites are destructive insects which can cause damage on a devastating scale. But according to Dr Rupert Soar of Loughborough University's School of Mechanical and Manufacturing Engineering, these pests may serve a useful purpose for us after all. His multidisciplinary team of British and American engineers and biologists has set out to investigate the giant mounds built by termites in Namibia, in sub-Saharan Africa, as part of the most extensive study of these structures ever taken."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q2-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q2",
+              "paragraph": "B",
+              "labelText": "Paragraph B (Q28):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "B",
+                "data-question": "q2"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Termite mounds are impressive for their size alone; typically they are three metres high, and some as tall as eight metres have been found. They also reach far into the earth, where the insects ‘mine' their building materials, carefully selecting each grain of sand they use. The termite's nest is contained in the central cavity of the mound, safely protected from the harsh environment outside. The mound itself is formed of an intricate lattice of tunnels, which split into smaller and smaller tunnels, much like a person's blood vessels."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q3-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q3",
+              "paragraph": "C",
+              "labelText": "Paragraph C (Q29):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "C",
+                "data-question": "q3"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " This complex system of tunnels draws in air from the outside, capturing wind energy to drive it through the mound. It also serves to expel spent respiratory gases from the nest to prevent the termites from suffocating, so ensuring them a continuous provision of fresh, breathable air. So detailed is the design that the nest stays within three degrees of a constant temperature, despite variations on the outside of up to 50 °C, from blistering heat in the daytime to below freezing on the coldest nights. The mound also automatically regulates moisture in the air, by means of both its underground ‘cellar', and evaporation from the top of the mound. Some colonies even had ‘chimneys' at a height of 20 m to control moisture loss in the hottest regions of sub-Saharan Africa."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q4-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q4",
+              "paragraph": "D",
+              "labelText": "Paragraph D (Q30):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "D",
+                "data-question": "q4"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Furthermore, the termites have evolved in such a way as to outsource some of their biological functions. Part of their digestive process is carried out by a fungus, which they 'farm' inside the mound. This fungus, which is found nowhere else on earth, thrives in the constant and optimum environment of the mound. The termites feed the fungus with slightly chewed wood pulp, which the fungus then breaks down into a digestible sugary food to provide the insects with energy, and cellulose which they use for building. And, although the termites must generate waste, none ever leaves the structure, indicating that there is also some kind of internal waste-recycling system."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n             "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q5-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q5",
+              "paragraph": "E",
+              "labelText": "Paragraph E (Q31):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "E",
+                "data-question": "q5"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Scientists are so excited by the mounds that they have labelled them a 'super organism' because, in Soar's words, “They dance on the edge of what we would perceive to be cool or, if you're too cold, you need to thrive: that's called homeostasis.” What the termites have done is to move homeostatic function away from their body, into the structure in which they live. “As more information comes to light about the unique features of termite mounds, we may ultimately need to redefine our understanding of what constitutes a ‘living' organism.”"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q6-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q6",
+              "paragraph": "F",
+              "labelText": "Paragraph F (Q32):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "F",
+                "data-question": "q6"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " To reveal the structure of the mounds, Soar's team begins by filling and covering their plaster of Paris, a chalky white paste based on the mineral gypsum, which becomes rock-solid when dry. The researcher then carves the plaster of Paris into half-millimetre-thick slices, and photographs them sequentially. Once the pictures are digitally scanned, computer technology is able to recreate complex three-dimensional images of the mounds. These models have enabled the team to map termite architecture at a level of detail never before attained."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "paragraph-wrapper",
+            "id": "q7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                 "
+            },
+            {
+              "type": "dropzone",
+              "appearance": "paragraph",
+              "questionId": "q7",
+              "paragraph": "G",
+              "labelText": "Paragraph G (Q33):",
+              "attrs": {
+                "class": "paragraph-dropzone dropzone",
+                "data-paragraph": "G",
+                "data-question": "q7"
+              }
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Soar hopes that the models will explain how termite mounds create a self-regulating living environment which manages to respond to changing internal and external conditions without drawing on any outside source of power. If they do, the findings could be invaluable in informing future architectural design, and could inspire buildings that are self-sufficient, environmentally friendly, and cheap to run. “As we approach a world of climate change and temperatures rise,” he explains, “there will not be enough fuel to drive air conditioners around the world.” It is hoped, says Soar, “that the findings will provide clues that aid the ultimate development of new kinds of human habitats, suitable for a variety of arid, hostile environments not only on the earth but maybe one day on the moon and beyond.”"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "\n\n            "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "empty-space"
+          },
+          "children": []
+        },
+        {
+          "type": "text",
+          "text": "\n        "
+        },
+        {
+          "type": "text",
+          "text": "\n        \n        "
+        },
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "id": "divider"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questionGroups": [
+    {
+      "groupId": "group-1",
+      "kind": "matching",
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [
+        {
+          "type": "element",
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "type": "text",
+              "text": "Questions"
+            }
+          ]
+        }
+      ],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q1-2-3-4-5-6-7-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–33"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reading Passage 3 has seven paragraphs "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A–G"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the correct heading for each paragraph from the list of headings below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "em",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Drag a heading from the list and drop it onto the correct paragraph's answer box on the left."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                \n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "headings-pool",
+                "id": "headings-pool-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "List of Headings"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pool-items",
+                    "id": "practice-pool-1"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "i",
+                      "label": "i. methods used to investigate termite mound formation",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "i"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ii",
+                      "label": "ii. challenging our assumptions about the nature of life",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iii",
+                      "label": "iii. reconsidering the termite's reputation",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "iv",
+                      "label": "iv. principal functions of the termite mound",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "iv"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "v",
+                      "label": "v. distribution of termite mounds in sub-Saharan Africa",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "v"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vi",
+                      "label": "vi. some potential benefits of understanding termite architecture",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vi"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "vii",
+                      "label": "vii. the astonishing physical dimensions of the termite mound",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "vii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "viii",
+                      "label": "viii. termite mounds under threat from global climate change",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "viii"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "optionChip",
+                      "poolId": "practice-pool-1",
+                      "value": "ix",
+                      "label": "ix. a mutually beneficial relationship",
+                      "attrs": {
+                        "class": "drag-item",
+                        "data-heading": "ix"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "1. 段落标题匹配（Questions 27–33：Choose the correct heading）",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 33
+        },
+        "text": "答案：iii（reconsidering the termite’s reputation，重新评估白蚁的名声）\n解析：Paragraph A 开篇指出 “多数人认为白蚁破坏性强”，随后转折 “但索尔博士认为其有利用价值”，核心是 “重新看待白蚁的名声”，与标题 iii 一致，因此选 iii。\n答案：vii（the astonishing physical dimensions of the termite mound，白蚁丘惊人的物理规模）\n解析：Paragraph B 聚焦 “白蚁丘高度（3-8 米）、地下深度、复杂隧道结构”，核心是 “物理规模”，与标题 vii 一致，因此选 vii。\n答案：iv（principal functions of the termite mound，白蚁丘的主要功能）\n解析：Paragraph C 详细说明隧道系统 “通风、控温、调湿” 等功能，核心是 “功能阐述”，与标题 iv 一致，因此选 iv。\n答案：ix（a mutually beneficial relationship，互利共生关系）\n解析：Paragraph D 描述 “白蚁喂养真菌，真菌为白蚁提供食物和建材”，核心是 “白蚁与真菌的互利关系”，与标题 ix 一致，因此选 ix。\n答案：ii（challenging our assumptions about the nature of life，挑战我们对生命本质的认知）\n解析：Paragraph E 提出 “白蚁丘是超级生物体”“可能需重新定义生命体”，核心是 “挑战生命本质认知”，与标题 ii 一致，因此选 ii。\n答案：i（methods used to investigate termite mound formation，研究白蚁丘结构的方法）\n解析：Paragraph F 详细介绍 “填充石膏、切片、拍照、计算机建模” 的研究步骤，核心是 “研究方法”，与标题 i 一致，因此选 i。\n答案：vi（some potential benefits of understanding termite architecture，理解白蚁建筑术的潜在好处）\n解析：Paragraph G 讨论研究对 “未来建筑、外星栖息地” 的启发，核心是 “潜在应用价值”，与标题 vi 一致，因此选 vi。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "（1）题目 27：Paragraph A\n答案：iii（reconsidering the termite’s reputation，重新评估白蚁的名声）\n解析：Paragraph A 开篇指出 “多数人认为白蚁破坏性强”，随后转折 “但索尔博士认为其有利用价值”，核心是 “重新看待白蚁的名声”，与标题 iii 一致，因此选 iii。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "（2）题目 28：Paragraph B\n答案：vii（the astonishing physical dimensions of the termite mound，白蚁丘惊人的物理规模）\n解析：Paragraph B 聚焦 “白蚁丘高度（3-8 米）、地下深度、复杂隧道结构”，核心是 “物理规模”，与标题 vii 一致，因此选 vii。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "（3）题目 29：Paragraph C\n答案：iv（principal functions of the termite mound，白蚁丘的主要功能）\n解析：Paragraph C 详细说明隧道系统 “通风、控温、调湿” 等功能，核心是 “功能阐述”，与标题 iv 一致，因此选 iv。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "（4）题目 30：Paragraph D\n答案：ix（a mutually beneficial relationship，互利共生关系）\n解析：Paragraph D 描述 “白蚁喂养真菌，真菌为白蚁提供食物和建材”，核心是 “白蚁与真菌的互利关系”，与标题 ix 一致，因此选 ix。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "（5）题目 31：Paragraph E\n答案：ii（challenging our assumptions about the nature of life，挑战我们对生命本质的认知）\n解析：Paragraph E 提出 “白蚁丘是超级生物体”“可能需重新定义生命体”，核心是 “挑战生命本质认知”，与标题 ii 一致，因此选 ii。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "（6）题目 32：Paragraph F\n答案：i（methods used to investigate termite mound formation，研究白蚁丘结构的方法）\n解析：Paragraph F 详细介绍 “填充石膏、切片、拍照、计算机建模” 的研究步骤，核心是 “研究方法”，与标题 i 一致，因此选 i。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "（7）题目 33：Paragraph G\n答案：vi（some potential benefits of understanding termite architecture，理解白蚁建筑术的潜在好处）\n解析：Paragraph G 讨论研究对 “未来建筑、外星栖息地” 的启发，核心是 “潜在应用价值”，与标题 vi 一致，因此选 vi。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-2",
+      "kind": "diagram_completion",
+      "questionIds": [
+        "q8",
+        "q9",
+        "q10",
+        "q11"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q8-9-10-11-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 34–37"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Label the diagram below."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ONE WORD ONLY"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " from the passage for each answer."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "diagram-container"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "img",
+                  "attrs": {
+                    "src": "https://i.ibb.co/ZpTTLng3/2600b83a-d7e6-4e33-915c-2c117ca4796a.png",
+                    "alt": "Diagram of a termite mound",
+                    "style": "max-width: 100%; width: auto; height: auto; max-height: 420px; object-fit: contain; display: block; margin: 0 auto;"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "diagram-inputs"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-row"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q34_input"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "34"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q8",
+                      "fieldName": "q8",
+                      "attrs": {
+                        "name": "q8",
+                        "type": "text",
+                        "id": "q34_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-row"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q35_input"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "35"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q9",
+                      "fieldName": "q9",
+                      "attrs": {
+                        "name": "q9",
+                        "type": "text",
+                        "id": "q35_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-row"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q36_input"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q10",
+                      "fieldName": "q10",
+                      "attrs": {
+                        "name": "q10",
+                        "type": "text",
+                        "id": "q36_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "diagram-input-row"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {
+                        "for": "q37_input"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "37"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "textInput",
+                      "questionId": "q11",
+                      "fieldName": "q11",
+                      "attrs": {
+                        "name": "q11",
+                        "type": "text",
+                        "id": "q37_input"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "2. 图表填空（Questions 34–37：ONE WORD ONLY）",
+        "mode": "group",
+        "questionRange": {
+          "start": 34,
+          "end": 37
+        },
+        "text": "答案：tunnels（隧道）\n解析：定位 Paragraph C 中 “This complex system of tunnels draws in air from the outside... ensuring them a continuous provision of fresh, breathable air”，“隧道系统” 是空气供应的关键，因此答案为 “tunnels”。\n答案：air（空气）\n解析：定位 Paragraph C 中 “ensuring them a continuous provision of fresh, breathable air... the nest stays within three degrees of a constant temperature”，“持续供应的是空气”，因此答案为 “air”。\n答案：moisture（湿度）\n解析：定位 Paragraph C 中 “The mound also automatically regulates moisture in the air, by means of both its underground ‘cellar’”，“地窖用于调节湿度”，因此答案为 “moisture”。\n答案：evaporation（蒸发）\n解析：定位 Paragraph C 中 “and evaporation from the top of the mound”，“丘顶通过蒸发调节湿度”，因此答案为 “evaporation”。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "（1）题目 34：network of \\___\\___ helps to give the termites a constant supply（\\___\\___网络帮助白蚁获得持续供应）\n答案：tunnels（隧道）\n解析：定位 Paragraph C 中 “This complex system of tunnels draws in air from the outside... ensuring them a continuous provision of fresh, breathable air”，“隧道系统” 是空气供应的关键，因此答案为 “tunnels”。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "（2）题目 35：a constant \\___\\___ supply and to maintain a limited temperature range（持续的_\\___\\__供应，且维持有限的温度范围）\n答案：air（空气）\n解析：定位 Paragraph C 中 “ensuring them a continuous provision of fresh, breathable air... the nest stays within three degrees of a constant temperature”，“持续供应的是空气”，因此答案为 “air”。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "（3）题目 36：cellar to aid control of \\___\\___ levels in mound（地窖帮助控制丘体内的_\\___\\__水平）\n答案：moisture（湿度）\n解析：定位 Paragraph C 中 “The mound also automatically regulates moisture in the air, by means of both its underground ‘cellar’”，“地窖用于调节湿度”，因此答案为 “moisture”。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "（4）题目 37：top of the mound permits （丘顶允许）\n答案：evaporation（蒸发）\n解析：定位 Paragraph C 中 “and evaporation from the top of the mound”，“丘顶通过蒸发调节湿度”，因此答案为 “evaporation”。"
+          }
+        ]
+      }
+    },
+    {
+      "groupId": "group-3",
+      "kind": "yes_no_not_given",
+      "questionIds": [
+        "q12",
+        "q13",
+        "q14"
+      ],
+      "allowOptionReuse": false,
+      "leadNodes": [],
+      "contentNodes": [
+        {
+          "type": "element",
+          "tag": "div",
+          "attrs": {
+            "class": "group",
+            "id": "q12-13-14-anchor"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "h4",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Questions 38–40"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Do the following statements agree with the claims of the writer in Reading Passage 3?"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In boxes 38–40 on your answer sheet, write"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "ul",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement agrees with the claims of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if the statement contradicts the claims of the writer"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " if it is impossible to say what the writer thinks about this"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "38"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " The termite mound appears to process its refuse material internally."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q12",
+                          "questionId": "q12",
+                          "questionIds": [
+                            "q12"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q12",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "39"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Dr Soar's reconstruction involves scanning a single photograph of a complete mound into a computer."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q13",
+                          "questionId": "q13",
+                          "questionIds": [
+                            "q13"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q13",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n                "
+            },
+            {
+              "type": "element",
+              "tag": "div",
+              "attrs": {
+                "class": "question-item"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "40"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " New information about termite architecture could help people deal with future energy crises."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                    "
+                },
+                {
+                  "type": "element",
+                  "tag": "div",
+                  "attrs": {
+                    "class": "radio-options"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "YES",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "YES"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " YES"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NO",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NO"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NO"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                        "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "label",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "choiceInput",
+                          "inputType": "radio",
+                          "fieldName": "q14",
+                          "questionId": "q14",
+                          "questionIds": [
+                            "q14"
+                          ],
+                          "value": "NOT GIVEN",
+                          "attrs": {
+                            "name": "q14",
+                            "type": "radio",
+                            "value": "NOT GIVEN"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " NOT GIVEN"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n                    "
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "\n                "
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "\n            "
+            }
+          ]
+        }
+      ],
+      "explanationSection": {
+        "sectionTitle": "3. 判断题（Questions 38–40：YES/NO/NOT GIVEN）",
+        "mode": "per_question",
+        "questionRange": {
+          "start": 38,
+          "end": 40
+        },
+        "text": "答案：YES（正确）\n解析：定位 Paragraph D 中 “although the termites must generate waste, none ever leaves the structure, indicating that there is also some kind of internal waste-recycling system”，“废物不排出，暗示内部处理”，与题干描述一致，因此判定为 YES。\n答案：NO（错误）\n解析：定位 Paragraph F 中 “carves the plaster of Paris into half-millimetre-thick slices, and photographs them sequentially. Once the pictures are digitally scanned, computer technology is able to recreate complex three-dimensional images”，“需扫描多张切片照片，而非单张完整照片”，与题干描述矛盾，因此判定为 NO。\n答案：YES（正确）\n解析：定位 Paragraph G 中 “the findings could be invaluable in informing future architectural design, and could inspire buildings that are self-sufficient, environmentally friendly, and cheap to run... as climate change and temperatures rise, there will not be enough fuel to drive air conditioners”，“启发节能建筑，应对燃料短缺”，与题干描述一致，因此判定为 YES。",
+        "items": [
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "（1）题目 38：The termite mound appears to process its refuse material internally.（白蚁丘似乎在内部处理废物）\n答案：YES（正确）\n解析：定位 Paragraph D 中 “although the termites must generate waste, none ever leaves the structure, indicating that there is also some kind of internal waste-recycling system”，“废物不排出，暗示内部处理”，与题干描述一致，因此判定为 YES。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "（2）题目 39：Dr Soar’s reconstruction involves scanning a single photograph of a complete mound into a computer.（索尔博士的重建过程涉及将完整白蚁丘的单张照片扫描到计算机中）\n答案：NO（错误）\n解析：定位 Paragraph F 中 “carves the plaster of Paris into half-millimetre-thick slices, and photographs them sequentially. Once the pictures are digitally scanned, computer technology is able to recreate complex three-dimensional images”，“需扫描多张切片照片，而非单张完整照片”，与题干描述矛盾，因此判定为 NO。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "（3）题目 40：New information about termite architecture could help people deal with future energy crises.（关于白蚁建筑术的新信息可能帮助人类应对未来能源危机）\n答案：YES（正确）\n解析：定位 Paragraph G 中 “the findings could be invaluable in informing future architectural design, and could inspire buildings that are self-sufficient, environmentally friendly, and cheap to run... as climate change and temperatures rise, there will not be enough fuel to drive air conditioners”，“启发节能建筑，应对燃料短缺”，与题干描述一致，因此判定为 YES。"
+          }
+        ]
+      }
+    }
+  ],
+  "questionItems": [
+    {
+      "questionId": "q1",
+      "displayNumber": "27",
+      "anchorId": "q1-anchor"
+    },
+    {
+      "questionId": "q2",
+      "displayNumber": "28",
+      "anchorId": "q2-anchor"
+    },
+    {
+      "questionId": "q3",
+      "displayNumber": "29",
+      "anchorId": "q3-anchor"
+    },
+    {
+      "questionId": "q4",
+      "displayNumber": "30",
+      "anchorId": "q4-anchor"
+    },
+    {
+      "questionId": "q5",
+      "displayNumber": "31",
+      "anchorId": "q5-anchor"
+    },
+    {
+      "questionId": "q6",
+      "displayNumber": "32",
+      "anchorId": "q6-anchor"
+    },
+    {
+      "questionId": "q7",
+      "displayNumber": "33",
+      "anchorId": "q7-anchor"
+    },
+    {
+      "questionId": "q8",
+      "displayNumber": "34",
+      "anchorId": "q8-9-10-11-anchor"
+    },
+    {
+      "questionId": "q9",
+      "displayNumber": "35",
+      "anchorId": "q35_input"
+    },
+    {
+      "questionId": "q10",
+      "displayNumber": "36",
+      "anchorId": "q36_input"
+    },
+    {
+      "questionId": "q11",
+      "displayNumber": "37",
+      "anchorId": "q37_input"
+    },
+    {
+      "questionId": "q12",
+      "displayNumber": "38",
+      "anchorId": "q12-13-14-anchor"
+    },
+    {
+      "questionId": "q13",
+      "displayNumber": "39",
+      "anchorId": "q13_input"
+    },
+    {
+      "questionId": "q14",
+      "displayNumber": "40",
+      "anchorId": "q14_input"
+    }
+  ],
+  "options": [
+    {
+      "poolId": "practice-pool-1",
+      "value": "i",
+      "label": "i. methods used to investigate termite mound formation"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ii",
+      "label": "ii. challenging our assumptions about the nature of life"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iii",
+      "label": "iii. reconsidering the termite's reputation"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "iv",
+      "label": "iv. principal functions of the termite mound"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "v",
+      "label": "v. distribution of termite mounds in sub-Saharan Africa"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vi",
+      "label": "vi. some potential benefits of understanding termite architecture"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "vii",
+      "label": "vii. the astonishing physical dimensions of the termite mound"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "viii",
+      "label": "viii. termite mounds under threat from global climate change"
+    },
+    {
+      "poolId": "practice-pool-1",
+      "value": "ix",
+      "label": "ix. a mutually beneficial relationship"
+    }
+  ],
+  "answerKey": {
+    "q1": "iii",
+    "q2": "vii",
+    "q3": "iv",
+    "q4": "ix",
+    "q5": "ii",
+    "q6": "i",
+    "q7": "vi",
+    "q8": "tunnels",
+    "q9": "air",
+    "q10": "moisture",
+    "q11": "evaporation",
+    "q12": "YES",
+    "q13": "NO",
+    "q14": "YES"
+  },
+  "questionOrder": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "questionDisplayMap": {
+    "q1": "27",
+    "q2": "28",
+    "q3": "29",
+    "q4": "30",
+    "q5": "31",
+    "q6": "32",
+    "q7": "33",
+    "q8": "34",
+    "q9": "35",
+    "q10": "36",
+    "q11": "37",
+    "q12": "38",
+    "q13": "39",
+    "q14": "40"
+  },
+  "paragraphAnchors": {
+    "A": "q1-anchor",
+    "B": "q2-anchor",
+    "C": "q3-anchor",
+    "D": "q4-anchor",
+    "E": "q5-anchor",
+    "F": "q6-anchor",
+    "G": "q7-anchor"
+  },
+  "questionAnchors": {
+    "q1": "q1-anchor",
+    "q2": "q2-anchor",
+    "q3": "q3-anchor",
+    "q4": "q4-anchor",
+    "q5": "q5-anchor",
+    "q6": "q6-anchor",
+    "q7": "q7-anchor",
+    "q8": "q8-9-10-11-anchor",
+    "q34": "q34_input",
+    "q35": "q35_input",
+    "q9": "q35_input",
+    "q36": "q36_input",
+    "q10": "q36_input",
+    "q37": "q37_input",
+    "q11": "q37_input",
+    "q12": "q12-13-14-anchor",
+    "q13": "q13_input",
+    "q14": "q14_input"
+  },
+  "fields": {
+    "choiceGroups": [
+      {
+        "name": "q12",
+        "inputType": "radio",
+        "questionIds": [
+          "q12"
+        ]
+      },
+      {
+        "name": "q13",
+        "inputType": "radio",
+        "questionIds": [
+          "q13"
+        ]
+      },
+      {
+        "name": "q14",
+        "inputType": "radio",
+        "questionIds": [
+          "q14"
+        ]
+      }
+    ],
+    "textQuestions": [
+      "q8",
+      "q9",
+      "q10",
+      "q11"
+    ],
+    "selectQuestions": [],
+    "textareaQuestions": [],
+    "dropzoneQuestions": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7"
+    ]
+  },
+  "totalQuestions": 14
+}

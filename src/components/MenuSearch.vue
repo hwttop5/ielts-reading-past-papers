@@ -342,4 +342,43 @@ onUnmounted(() => {
   opacity: 0;
   transform: translateY(-8px);
 }
+
+@media (max-width: 480px) {
+  .menu-search {
+    max-width: 100%;
+  }
+
+  .search-input-wrapper {
+    padding: 6px 10px;
+  }
+
+  .search-icon {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+
+  .search-input {
+    font-size: 13px;
+  }
+
+  .result-item {
+    padding: 10px 12px;
+  }
+
+  .result-icon {
+    font-size: 18px;
+  }
+
+  .result-title {
+    font-size: 13px;
+  }
+
+  .result-path {
+    font-size: 11px;
+  }
+
+  .search-hint {
+    display: none;
+  }
+}
 </style>
