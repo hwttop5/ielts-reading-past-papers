@@ -1,4 +1,5 @@
 import type {
+  AssistantAttachment,
   AssistantHistoryItem,
   AssistantLocale,
   AssistantMode,
@@ -14,6 +15,8 @@ interface PromptInput {
   question: QuestionIndexEntry
   userQuery?: string
   history?: AssistantHistoryItem[]
+  attachments?: AssistantAttachment[]
+  focusQuestionNumbers?: string[]
   attemptContext?: AttemptContext
   recentPractice?: RecentPracticeItem[]
   contextChunks: RagChunk[]
@@ -23,28 +26,28 @@ function modeInstruction(mode: AssistantMode): string {
   switch (mode) {
     case 'hint':
       return [
-        'Give the learner the best next step, not the final answer.',
-        'Do not reveal the exact correct option, word, heading, or final mapping.',
-        'Write 2 to 4 complete sentences.',
-        'Be concrete: name the likely paragraph, clue type, or elimination strategy when the context supports it.'
+        'Give the learner the best next move without revealing the exact final answer.',
+        'You may point to the most relevant paragraph, clue type, elimination path, or wording trap.',
+        'Do not reveal an answer option, heading, or paragraph label when that label is itself the answer space.',
+        'Keep the reply concise. Use only the sections that are necessary, and keep each section short.',
+        'If the evidence is not enough to be precise, say that clearly and ask the learner to inspect a narrower part of the passage.'
       ].join(' ')
     case 'explain':
       return [
-        'Explain the reasoning path clearly and directly.',
-        'Do not answer with only the final option, word, or label.',
-        'State the conclusion, then explain the supporting evidence or paraphrase in 2 to 5 complete sentences.',
-        'Anchor the explanation to the provided passage/question context instead of generic IELTS advice.',
-        'You may describe the strongest evidence and paraphrase relationship, but do not fabricate missing evidence.'
+        'Explain the reasoning path for the current question set.',
+        'State the conclusion only when the supplied evidence supports it.',
+        'Keep the explanation concise and focused on the asked question.',
+        'Always connect the conclusion to passage evidence, paraphrase relationships, or elimination logic.'
       ].join(' ')
     case 'review':
       return [
-        'Assume the learner has already submitted.',
-        'Write 2 to 5 complete sentences, not just the corrected option.',
-        'Explain what likely went wrong, what evidence supports the correction, and what to do differently next time.',
-        'If the provided context clearly supports a correct answer, you may state it plainly.'
+        'Review the learner answer against the official answer and explanation.',
+        'Explain the likely mistake, the corrective evidence, and the safer rule to use next time.',
+        'Keep the review tight and specific to the asked question.',
+        'If the supplied context supports the correct answer, you may state it plainly.'
       ].join(' ')
     case 'similar':
-      return 'This mode is handled outside the chat model.'
+      return 'This mode is handled outside the model.'
   }
 }
 
@@ -79,6 +82,7 @@ function formatAttemptContext(attemptContext?: AttemptContext): string {
   const wrongQuestions = attemptContext.wrongQuestions?.join(', ') ?? 'None'
 
   return compactMultiline([
+    `Submitted: ${attemptContext.submitted ? 'yes' : 'no'}`,
     `Score: ${attemptContext.score ?? 'unknown'}`,
     `Wrong questions: ${wrongQuestions}`,
     `Selected answers: ${selectedAnswers}`
@@ -94,6 +98,21 @@ function formatRecentPractice(items: RecentPracticeItem[] = []): string {
     .slice(0, 10)
     .map((item) => `${item.questionId} | ${item.category} | accuracy=${item.accuracy} | duration=${item.duration}`)
     .join('\n')
+}
+
+function formatAttachments(attachments: AssistantAttachment[] = []): string {
+  if (attachments.length === 0) {
+    return 'None'
+  }
+
+  return attachments
+    .map((attachment, index) => compactMultiline([
+      `[Attachment ${index + 1}] ${attachment.name}`,
+      `Type: ${attachment.type}`,
+      `Truncated: ${attachment.truncated ? 'yes' : 'no'}`,
+      attachment.text ? attachment.text : 'No extracted text was available.'
+    ].join('\n')))
+    .join('\n\n')
 }
 
 function formatContextChunks(chunks: RagChunk[]): string {
@@ -116,27 +135,35 @@ function formatContextChunks(chunks: RagChunk[]): string {
 export function buildAssistantPrompt(input: PromptInput): { system: string; user: string } {
   const system = compactMultiline([
     'You are an IELTS Reading coach embedded inside a question-practice workflow.',
-    'Answer the learner\'s actual question first. Do not pad the response with generic filler.',
-    'Use only the supplied context chunks. If the evidence is insufficient, say exactly what is missing instead of guessing.',
-    'Keep the answer specific to this passage and question set.',
-    'The answer field must contain normal tutor-facing prose, not JSON fragments or metadata labels.',
-    'Mention question numbers or paragraph labels when the context makes them useful.',
-    'Follow-up suggestions must be short, concrete, and tied to this exact passage. Avoid stock phrases.',
-    'Return 2 or 3 follow-up suggestions whenever possible.',
+    'Answer the learner question directly, then support it with grounded reasoning.',
+    'Use only the supplied context chunks plus any extracted attachment text. Do not invent evidence.',
+    'Treat attachment text as learner-provided notes, not official ground truth, unless it matches the supplied passage context.',
+    'If the evidence is incomplete, lower confidence and list the missing context explicitly.',
+    'Keep the response specific to this passage and question set. Avoid generic IELTS filler.',
+    'Prioritize the current learner request over earlier conversation history.',
+    'If exactly one focus question number is supplied, answer only that question and do not discuss other question numbers unless they are essential shared instructions.',
+    'Do not restate the passage title unless the learner explicitly asks for it.',
+    'Mention question numbers or paragraph labels when useful.',
     languageInstruction(input.locale),
     modeInstruction(input.mode),
     'Return strict JSON with this exact shape:',
-    '{"answer":"string","followUps":["string","string"]}'
+    '{"answer":"string","answerSections":[{"type":"direct_answer","text":"string"},{"type":"reasoning","text":"string"},{"type":"evidence","text":"string"},{"type":"next_step","text":"string"}],"followUps":["string","string"],"confidence":"high|medium|low","missingContext":["string"]}'
   ].join('\n'))
+
+  const focusQuestionNumbers = input.focusQuestionNumbers?.length
+    ? input.focusQuestionNumbers.join(', ')
+    : 'None'
 
   const user = compactMultiline([
     `Question set: ${input.question.title}`,
     `Category: ${input.question.category}`,
     `Mode: ${input.mode}`,
     `Learner request: ${input.userQuery?.trim() || 'Use the default tutor guidance for this mode.'}`,
+    `Focus question numbers: ${focusQuestionNumbers}`,
     `Conversation history:\n${formatHistory(input.history)}`,
     `Attempt context:\n${formatAttemptContext(input.attemptContext)}`,
     `Recent practice:\n${formatRecentPractice(input.recentPractice)}`,
+    `Attachments:\n${formatAttachments(input.attachments)}`,
     `Context chunks:\n${formatContextChunks(input.contextChunks)}`
   ].join('\n\n'))
 

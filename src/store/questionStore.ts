@@ -2,9 +2,10 @@ import { defineStore } from 'pinia'
 import { scanQuestionBank, type Question as ScannerQuestion } from '@/utils/questionScanner'
 
 export interface Question extends ScannerQuestion {}
+
 const QUESTIONS_CACHE_KEY = 'ielts_questions'
 const QUESTIONS_CACHE_VERSION_KEY = 'ielts_questions_version'
-const QUESTIONS_CACHE_VERSION = '2026-03-09-index-v1'
+const QUESTIONS_CACHE_VERSION = '2026-04-03-reading-reference-v2'
 
 export const useQuestionStore = defineStore('question', {
   state: () => ({
@@ -14,12 +15,10 @@ export const useQuestionStore = defineStore('question', {
 
   actions: {
     loadQuestions() {
-      // 如果已经加载过，直接返回
       if (this.isLoaded && this.questions.length > 0) {
         return
       }
 
-      // 尝试从 localStorage 读取
       const cacheVersion = localStorage.getItem(QUESTIONS_CACHE_VERSION_KEY)
       const raw = localStorage.getItem(QUESTIONS_CACHE_KEY)
       if (raw) {
@@ -30,16 +29,14 @@ export const useQuestionStore = defineStore('question', {
             this.isLoaded = true
             return
           }
-        } catch (e) {
-          console.error('Failed to parse questions from localStorage:', e)
+        } catch (error) {
+          console.error('Failed to parse questions from localStorage:', error)
         }
       }
 
-      // 从 questionBank 目录扫描题目
       this.questions = scanQuestionBank()
       this.isLoaded = true
 
-      // 保存到 localStorage
       if (this.questions.length > 0) {
         localStorage.setItem(QUESTIONS_CACHE_KEY, JSON.stringify(this.questions))
         localStorage.setItem(QUESTIONS_CACHE_VERSION_KEY, QUESTIONS_CACHE_VERSION)
@@ -47,7 +44,6 @@ export const useQuestionStore = defineStore('question', {
     },
 
     refreshQuestions() {
-      // 强制重新扫描
       this.questions = scanQuestionBank()
       this.isLoaded = true
 
@@ -64,11 +60,7 @@ export const useQuestionStore = defineStore('question', {
     },
 
     getQuestionById(id: string) {
-      return this.questions.find(q => q.id === id)
-    },
-
-    getQuestionByPath(path: string) {
-      return this.questions.find(q => q.htmlPath === path)
+      return this.questions.find((question) => question.id === id)
     }
   }
 })

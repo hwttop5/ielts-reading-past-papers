@@ -130,19 +130,16 @@
           <div class="practice-header">
             <div class="title-group">
               <span class="practice-title">{{ record.questionTitle }}</span>
-              <span class="practice-subtitle" v-if="getQuestionTitleCN(record.questionId) && currentLang === 'zh'">{{ getQuestionTitleCN(record.questionId) }}</span>
+              <span class="practice-subtitle" v-if="getQuestionTitleCN(record.questionId) && currentLang.value === 'zh'">{{ getQuestionTitleCN(record.questionId) }}</span>
             </div>
           </div>
           <div class="practice-meta">
             <div class="meta-left">
               <span class="meta-tag category">{{ record.category }}</span>
-              <span class="meta-tag difficulty" v-if="getQuestionDifficulty(record.questionId)">{{ getDifficultyLabel(record.questionId) }}</span>
+              <span class="meta-tag difficulty" v-if="getQuestionFrequency(record.questionId)">{{ getFrequencyLabel(record.questionId) }}</span>
               <span class="meta-tag score highlight">
                 <span class="material-icons" style="font-size: 14px;">check_circle</span>
                 {{ record.correctAnswers }}/{{ record.totalQuestions }}
-              </span>
-              <span :class="['meta-tag', 'accuracy', getAccuracyClass(record.accuracy)]">
-                {{ record.accuracy }}%
               </span>
             </div>
             <span class="practice-time">{{ formatDate(record.time) }}</span>
@@ -158,7 +155,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, inject } from 'vue'
+import { computed, onMounted, onUnmounted, inject, ref, type Ref, type Readonly } from 'vue'
 import { useRouter } from 'vue-router'
 import { usePracticeStore } from '@/store/practiceStore'
 import { useQuestionStore } from '@/store/questionStore'
@@ -172,7 +169,7 @@ const practiceStore = usePracticeStore()
 const questionStore = useQuestionStore()
 const achievementStore = useAchievementStore()
 const t = inject('t', (key: string) => key)
-const currentLang = inject('currentLang', { value: 'zh' })
+const currentLang = inject<Readonly<Ref<'zh' | 'en'>>>('currentLang', ref('zh') as Readonly<Ref<'zh' | 'en'>>)
 
 const latestAchievements = computed(() => {
   return achievementStore.unlockedAchievements.slice(0, 6)
@@ -196,22 +193,17 @@ const getQuestionTitleCN = (id: string) => {
   return q ? q.titleCN : ''
 }
 
-const getQuestionDifficulty = (id: string) => {
+const getQuestionFrequency = (id: string) => {
   const q = questionStore.questions.find(q => q.id === id)
-  return q ? q.difficulty : ''
+  return q ? q.frequency : ''
 }
 
-const getDifficultyLabel = (id: string) => {
-  const diff = getQuestionDifficulty(id)
-  if (diff === '高频') return t('browse.difficulty.highFreq')
-  if (diff === '次频') return t('browse.difficulty.lowFreq')
-  return diff
-}
-
-const getAccuracyClass = (accuracy: number) => {
-  if (accuracy >= 80) return 'high'
-  if (accuracy >= 60) return 'medium'
-  return 'low'
+const getFrequencyLabel = (id: string) => {
+  const frequency = getQuestionFrequency(id)
+  if (frequency === 'high') return t('browse.frequency.high')
+  if (frequency === 'medium') return t('browse.frequency.medium')
+  if (frequency === 'low') return t('browse.frequency.low')
+  return frequency
 }
 
 const viewRecord = (record: any) => {
@@ -279,7 +271,7 @@ const browseCategory = (category: string) => {
 }
 
 const randomPractice = (category?: string) => {
-  let questions = questionStore.questions
+  let questions = questionStore.questions.filter(q => q.launchMode === 'unified')
   if (category) {
     questions = questions.filter(q => q.category === category)
   }
@@ -687,6 +679,7 @@ const randomPractice = (category?: string) => {
   padding: 16px;
   cursor: pointer;
   transition: var(--transition);
+  min-height: 100px;
 }
 
 .practice-card:hover {
@@ -771,21 +764,6 @@ const randomPractice = (category?: string) => {
   color: #16a34a;
   border: 1px solid #dcfce7;
   font-weight: 600;
-}
-
-.meta-tag.accuracy.high {
-  background: #f0fdf4;
-  color: #16a34a;
-}
-
-.meta-tag.accuracy.medium {
-  background: #fff7ed;
-  color: #ea580c;
-}
-
-.meta-tag.accuracy.low {
-  background: #fef2f2;
-  color: #dc2626;
 }
 
 .no-data {

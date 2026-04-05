@@ -225,6 +225,104 @@ describe('assistant route integration', () => {
     }
   }, 30_000)
 
+  it('accepts structured attachments and focus question numbers in the request payload', async () => {
+    const mockBank = createMockQuestionBankModule()
+    vi.doMock('../src/lib/question-bank/index.js', () => ({
+      findQuestionIndexEntry: vi.fn(async () => mockBank.question),
+      loadQuestionIndex: vi.fn(async () => [mockBank.question, mockBank.relatedQuestion, mockBank.thirdQuestion]),
+      parseQuestionDocument: vi.fn(async () => mockBank.document)
+    }))
+
+    global.fetch = vi.fn().mockResolvedValue(
+      new Response(JSON.stringify({
+        choices: [
+          {
+            message: {
+              content: JSON.stringify({
+                answer: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.',
+                answerSections: [
+                  { type: 'direct_answer', text: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.' }
+                ],
+                followUps: ['Re-check Q12 against the passage evidence.'],
+                confidence: 'high',
+                missingContext: []
+              })
+            }
+          }
+        ]
+      }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      })
+    ) as typeof fetch
+
+    const app = await createTestApp()
+    try {
+      const response = await app.inject({
+        method: 'POST',
+        url: '/api/assistant/query',
+        payload: {
+          questionId: 'mock-question',
+          mode: 'hint',
+          locale: 'en',
+          userQuery: 'Use my notes for Q12.',
+          focusQuestionNumbers: ['12'],
+          attachments: [
+            {
+              name: 'notes.txt',
+              type: 'text/plain',
+              text: 'I keep mixing up the method sentence.',
+              truncated: false
+            }
+          ],
+          attemptContext: {
+            selectedAnswers: { '12': 'A' },
+            wrongQuestions: ['12'],
+            submitted: false
+          }
+        }
+      })
+
+      expect(response.statusCode).toBe(200)
+      const payload = response.json()
+      expect(payload.answerSections?.[0]?.type).toBe('direct_answer')
+      expect(payload.confidence).toBe('high')
+      expect(global.fetch).toHaveBeenCalledOnce()
+    } finally {
+      await app.close()
+    }
+  }, 30_000)
+
+  it('rejects invalid structured assistant payloads', async () => {
+    const mockBank = createMockQuestionBankModule()
+    vi.doMock('../src/lib/question-bank/index.js', () => ({
+      findQuestionIndexEntry: vi.fn(async () => mockBank.question),
+      loadQuestionIndex: vi.fn(async () => [mockBank.question]),
+      parseQuestionDocument: vi.fn(async () => mockBank.document)
+    }))
+
+    const app = await createTestApp()
+    try {
+      const response = await app.inject({
+        method: 'POST',
+        url: '/api/assistant/query',
+        payload: {
+          questionId: 'mock-question',
+          mode: 'review',
+          locale: 'en',
+          attemptContext: {
+            wrongQuestions: ['Q12']
+          }
+        }
+      })
+
+      expect(response.statusCode).toBe(400)
+      expect(response.json().error).toBe('invalid_request')
+    } finally {
+      await app.close()
+    }
+  }, 30_000)
+
   it('keeps similar mode local and does not call the external provider', async () => {
     const mockBank = createMockQuestionBankModule()
     vi.doMock('../src/lib/question-bank/index.js', () => ({

@@ -13,6 +13,7 @@ declare module '*.json' {
 
 interface ImportMetaEnv {
   readonly VITE_APP_TITLE: string
+  readonly VITE_ASSISTANT_API_BASE_URL?: string
   readonly MODE: string
   readonly DEV: boolean
   readonly PROD: boolean

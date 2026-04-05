@@ -1,166 +1,291 @@
-import { promises as fs } from 'fs'
-import path from 'path'
+import { promises as fs } from 'node:fs'
+import path from 'node:path'
+import vm from 'node:vm'
 
 const ROOT = process.cwd()
+const DEFAULT_REFERENCE_ROOT = 'C:\\Users\\ttop5\\Downloads\\4月网页版（V260401）'
+const referenceRoot = path.resolve(process.env.READING_REFERENCE_ROOT || DEFAULT_REFERENCE_ROOT)
+
 const PUBLIC_DIR = path.join(ROOT, 'public')
-const BANK_DIR = path.join(PUBLIC_DIR, 'questionBank')
 const INDEX_PATH = path.join(ROOT, 'src', 'utils', 'questionIndex.json')
+const META_PATH = path.join(ROOT, 'src', 'utils', 'questionMeta.json')
 
-// 递归遍历目录
-async function getFiles(dir) {
-  const dirents = await fs.readdir(dir, { withFileTypes: true })
-  const files = await Promise.all(dirents.map((dirent) => {
-    const res = path.resolve(dir, dirent.name)
-    return dirent.isDirectory() ? getFiles(res) : res
-  }))
-  return Array.prototype.concat(...files)
+const READING_EXAMS_SOURCE = path.join(referenceRoot, 'assets', 'generated', 'reading-exams')
+const READING_EXAMS_DEST = path.join(PUBLIC_DIR, 'assets', 'generated', 'reading-exams')
+const READING_EXPLANATIONS_SOURCE = path.join(referenceRoot, 'assets', 'generated', 'reading-explanations')
+const READING_EXPLANATIONS_DEST = path.join(PUBLIC_DIR, 'assets', 'generated', 'reading-explanations')
+const PDF_SOURCE = path.join(referenceRoot, 'ReadingPractice', 'PDF')
+const PDF_DEST = path.join(PUBLIC_DIR, 'ReadingPractice', 'PDF')
+const LEGACY_QUESTION_BANK_DIR = path.join(PUBLIC_DIR, 'questionBank')
+
+const RUNTIME_FILE_SPECS = [
+  {
+    source: path.join(referenceRoot, 'js', 'runtime', 'readingExamRegistry.js'),
+    dest: path.join(PUBLIC_DIR, 'js', 'runtime', 'readingExamRegistry.js')
+  },
+  {
+    source: path.join(referenceRoot, 'js', 'runtime', 'readingExplanationRegistry.js'),
+    dest: path.join(PUBLIC_DIR, 'js', 'runtime', 'readingExplanationRegistry.js')
+  },
+  {
+    source: path.join(referenceRoot, 'js', 'runtime', 'unifiedReadingPage.js'),
+    dest: path.join(PUBLIC_DIR, 'js', 'runtime', 'unifiedReadingPage.js')
+  },
+  {
+    source: path.join(referenceRoot, 'js', 'utils', 'answerMatchCore.js'),
+    dest: path.join(PUBLIC_DIR, 'js', 'utils', 'answerMatchCore.js')
+  },
+  {
+    source: path.join(referenceRoot, 'js', 'practice-page-ui.js'),
+    dest: path.join(PUBLIC_DIR, 'js', 'practice-page-ui.js')
+  }
+]
+
+function ensureForwardSlashes(value) {
+  return String(value || '').replace(/\\/g, '/')
 }
 
-// 解析文件名元数据
-function parseFileName(filename, parentDir) {
-  // 示例: 1. P1 - A Brief History of Tea 茶叶简史【高】.html
-  // 匹配模式: 序号. 类别 - 英文名 中文名【难度】.html
-  // 注意：文件名格式可能不统一，需要尽可能健壮的正则
-  const name = filename.replace(/\.html?$/i, '')
-  
-  // 尝试提取难度 (高频/次频)
-  let difficulty = '高频' // 默认
-  if (name.includes('【次】') || name.includes('【次频】')) difficulty = '次频'
-  else if (name.includes('【高】') || name.includes('【高频】')) difficulty = '高频'
-  else if (parentDir.includes('次频')) difficulty = '次频' // 回退到目录名判断
-  
-  // 尝试提取类别 (P1/P2/P3)
-  let category = 'P1' // 默认
-  const catMatch = name.match(/P[123]/i) || parentDir.match(/P[123]/i)
-  if (catMatch) category = catMatch[0].toUpperCase()
-  
-  // 尝试提取 ID 基础 (序号)
-  let idBase = name
-  const numMatch = name.match(/^(\d+)\./)
-  if (numMatch) {
-    idBase = numMatch[1]
-  } else {
-    // 如果没有序号，用文件名哈希或简化名
-    idBase = name.replace(/\s+/g, '-').replace(/[^a-zA-Z0-9-]/g, '').toLowerCase()
+function splitDisplayTitle(displayTitle) {
+  const normalized = String(displayTitle || '').replace(/\s+/g, ' ').trim()
+
+  // 提取所有连续的中文片段
+  const chineseSegments = normalized.match(/[\u3400-\u9fff]+/g) || []
+  // 最后一个中文片段通常是真正的中文标题
+  const lastChineseSegment = chineseSegments.length > 0 ? chineseSegments[chineseSegments.length - 1] : ''
+
+  // 提取最长的不以数字开头的英文字母开头的连续片段
+  // 匹配以英文字母开头的片段（允许空格和常见符号）
+  const englishMatches = normalized.match(/[A-Za-z][A-Za-z0-9\s\[\]\(\)\-'\.,!?]+/g) || []
+  // 找到不以数字开头、长度最长的英文片段作为 title
+  let bestEnglishMatch = ''
+  for (const match of englishMatches) {
+    const trimmed = match.trim()
+    // 排除纯数字或以数字开头的片段
+    if (!/^\d/.test(trimmed) && trimmed.length > bestEnglishMatch.length) {
+      bestEnglishMatch = trimmed
+    }
   }
-  
-  // 构造 ID: p1-1, p2-33 等
-  const id = `${category.toLowerCase()}-${idBase}`
-  
-  // 尝试提取标题
-  // 移除 【xx】后缀
-  let cleanName = name.replace(/【.*?】/g, '').trim()
-  // 移除 序号前缀 "1. P1 - "
-  cleanName = cleanName.replace(/^\d+\.\s*P\d+\s*-\s*/i, '')
-  
-  // 分离中英文标题 (假设中文在后，英文在前，可能有空格分隔)
-  // 简单策略：按最后一个非中文片段分割，或者直接存全名
-  // 这里尝试智能分离：找到第一个中文字符的位置
-  let title = cleanName
-  let titleCN = ''
-  
-  const chineseRegex = /[\u4e00-\u9fa5]/
-  const firstChineseIdx = cleanName.search(chineseRegex)
-  
-  if (firstChineseIdx > 0) {
-    title = cleanName.slice(0, firstChineseIdx).trim()
-    titleCN = cleanName.slice(firstChineseIdx).trim()
-  } else if (firstChineseIdx === 0) {
-    titleCN = cleanName
-    title = cleanName // 如果全是中文，英文标题也暂存中文
+
+  // 如果成功提取了有效的英文和中文部分
+  if (bestEnglishMatch && lastChineseSegment) {
+    return {
+      title: bestEnglishMatch,
+      titleCN: lastChineseSegment
+    }
   }
-  
-  return { id, title, titleCN, category, difficulty }
+
+  // 回退：查找第一个中文字符位置分割
+  const chineseIndex = normalized.search(/[\u3400-\u9fff]/)
+  if (chineseIndex <= 0) {
+    return {
+      title: normalized,
+      titleCN: chineseIndex === 0 ? normalized : ''
+    }
+  }
+
+  return {
+    title: normalized.slice(0, chineseIndex).trim(),
+    titleCN: normalized.slice(chineseIndex).trim()
+  }
 }
 
-function normalizeQuotes(str) {
-  return str.replace(/[’‘`]/g, "'")
+function sortEntries(left, right) {
+  const categoryOrder = { P1: 1, P2: 2, P3: 3 }
+  const categoryDiff = (categoryOrder[left.category] ?? 99) - (categoryOrder[right.category] ?? 99)
+  if (categoryDiff !== 0) {
+    return categoryDiff
+  }
+
+  const numericPart = (value) => {
+    const match = String(value).match(/(\d+)(?!.*\d)/)
+    return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER
+  }
+
+  const numberDiff = numericPart(left.id) - numericPart(right.id)
+  if (numberDiff !== 0) {
+    return numberDiff
+  }
+
+  return left.id.localeCompare(right.id)
 }
 
-function buildPdfPath(filePath, pdfFilesByDir) {
-  const dir = path.dirname(filePath)
-  const htmlBase = path.basename(filePath, path.extname(filePath))
-  const pdfs = pdfFilesByDir.get(dir) || []
-  const directName = `${htmlBase}.pdf`
-  const noTagName = `${htmlBase.replace(/【高】|【次】|【高频】|【次频】/g, '').trim()}.pdf`
-  const candidates = [directName, noTagName]
-  const quoteVariants = candidates.flatMap(name => {
-    const normalized = normalizeQuotes(name)
-    if (normalized === name) return [name]
-    return [name, normalized]
-  })
-  const directMatch = quoteVariants.find(name => pdfs.includes(name))
-  if (directMatch) return directMatch
-  const numberMatch = htmlBase.match(/^(\d+)\./)
-  if (numberMatch) {
-    const prefix = `${numberMatch[1]}.`
-    const byPrefix = pdfs.find(name => name.startsWith(prefix))
-    if (byPrefix) return byPrefix
+async function ensureReferenceRoot() {
+  await fs.access(referenceRoot)
+}
+
+async function recreateDir(dir) {
+  await fs.rm(dir, { recursive: true, force: true })
+  await fs.mkdir(dir, { recursive: true })
+}
+
+async function copyDirectory(source, dest) {
+  await fs.rm(dest, { recursive: true, force: true })
+  await fs.mkdir(path.dirname(dest), { recursive: true })
+  await fs.cp(source, dest, { recursive: true, force: true, errorOnExist: false })
+}
+
+async function copyFileTo(source, dest) {
+  await fs.mkdir(path.dirname(dest), { recursive: true })
+  await fs.copyFile(source, dest)
+}
+
+function runManifestScript(filePath, options = {}) {
+  const code = vm.runInNewContext(`(function(){ return ${JSON.stringify(awaitText(filePath))}; })()`, {})
+  return code
+}
+
+function awaitText(filePath) {
+  throw new Error(`awaitText placeholder should not be called directly for ${filePath}`)
+}
+
+async function readText(filePath) {
+  return fs.readFile(filePath, 'utf8')
+}
+
+async function loadCompleteExamIndex() {
+  const filePath = path.join(referenceRoot, 'assets', 'scripts', 'complete-exam-data.js')
+  const text = await readText(filePath)
+  const sandbox = { window: {} }
+  vm.runInNewContext(text, sandbox, { filename: filePath })
+  return sandbox.window.completeExamIndex
+}
+
+async function loadAssignedObject(filePath, expression) {
+  const text = await readText(filePath)
+  const sandbox = {
+    window: {},
+    globalThis: {},
+    console
   }
-  return ''
+  sandbox.window = sandbox.globalThis
+  vm.runInNewContext(text, sandbox, { filename: filePath })
+  return sandbox.globalThis[expression]
+}
+
+async function loadReadingExamManifest() {
+  const filePath = path.join(referenceRoot, 'assets', 'generated', 'reading-exams', 'manifest.js')
+  const text = await readText(filePath)
+  const sandbox = { window: {}, globalThis: {}, console }
+  sandbox.window = sandbox.globalThis
+  vm.runInNewContext(text, sandbox, { filename: filePath })
+  return sandbox.globalThis.__READING_EXAM_MANIFEST__
+}
+
+async function loadReadingExplanationManifest() {
+  const filePath = path.join(referenceRoot, 'assets', 'generated', 'reading-explanations', 'manifest.js')
+  const text = await readText(filePath)
+  const sandbox = { window: {}, globalThis: {}, console }
+  sandbox.window = sandbox.globalThis
+  vm.runInNewContext(text, sandbox, { filename: filePath })
+  return sandbox.globalThis.__READING_EXPLANATION_MANIFEST__
+}
+
+async function loadReadingExamData(dataKey) {
+  const filePath = path.join(referenceRoot, 'assets', 'generated', 'reading-exams', `${dataKey}.js`)
+  const text = await readText(filePath)
+  let captured = null
+  const sandbox = {
+    window: {},
+    globalThis: {},
+    console
+  }
+  sandbox.window = sandbox.globalThis
+  sandbox.globalThis.__READING_EXAM_DATA__ = {
+    register(_id, payload) {
+      captured = payload
+    }
+  }
+  vm.runInNewContext(text, sandbox, { filename: filePath })
+  return captured
+}
+
+function buildPdfPath(pdfFilename) {
+  const normalized = ensureForwardSlashes(pdfFilename).replace(/^\/+/, '')
+  return normalized.startsWith('ReadingPractice/PDF/')
+    ? `/${normalized}`
+    : `/ReadingPractice/PDF/${path.posix.basename(normalized)}`
+}
+
+function buildQuestionEntry(baseEntry, manifestEntry, explanationEntry, examData) {
+  const displayTitle = String(baseEntry.title || '').trim()
+  const { title, titleCN } = splitDisplayTitle(displayTitle)
+  const totalQuestions = Array.isArray(examData?.questionOrder) ? examData.questionOrder.length : undefined
+
+  return {
+    id: baseEntry.id,
+    title,
+    titleCN,
+    displayTitle,
+    category: baseEntry.category,
+    frequency: baseEntry.frequency,
+    type: 'reading',
+    pdfPath: buildPdfPath(baseEntry.pdfFilename),
+    launchMode: manifestEntry ? 'unified' : 'pdf_only',
+    dataKey: manifestEntry?.dataKey || manifestEntry?.examId,
+    explanationKey: explanationEntry?.dataKey || explanationEntry?.examId,
+    hasExplanation: Boolean(explanationEntry),
+    ...(typeof totalQuestions === 'number' ? { totalQuestions } : {})
+  }
+}
+
+async function buildGeneratedFiles() {
+  const [completeExamIndex, examManifest, explanationManifest] = await Promise.all([
+    loadCompleteExamIndex(),
+    loadReadingExamManifest(),
+    loadReadingExplanationManifest()
+  ])
+
+  const meta = {}
+  const entries = []
+
+  for (const baseEntry of completeExamIndex) {
+    const manifestEntry = examManifest?.[baseEntry.id] ?? null
+    const explanationEntry = explanationManifest?.[baseEntry.id] ?? null
+    const examData = manifestEntry ? await loadReadingExamData(manifestEntry.dataKey || manifestEntry.examId || baseEntry.id) : null
+
+    entries.push(buildQuestionEntry(baseEntry, manifestEntry, explanationEntry, examData))
+
+    if (examData?.questionDisplayMap) {
+      meta[baseEntry.id] = {
+        questionDisplayMap: examData.questionDisplayMap,
+        questionOrder: Array.isArray(examData.questionOrder) ? examData.questionOrder : []
+      }
+    }
+  }
+
+  entries.sort(sortEntries)
+  return { entries, meta }
 }
 
 async function main() {
-  console.log(`Scanning ${BANK_DIR}...`)
-  
-  try {
-    await fs.access(BANK_DIR)
-  } catch {
-    console.error(`Error: Directory not found: ${BANK_DIR}`)
-    process.exit(1)
+  await ensureReferenceRoot()
+
+  const { entries, meta } = await buildGeneratedFiles()
+  const structuredCount = entries.filter((entry) => entry.launchMode === 'unified').length
+  const pdfOnlyCount = entries.filter((entry) => entry.launchMode === 'pdf_only').length
+
+  if (entries.length !== 218 || structuredCount !== 217 || pdfOnlyCount !== 1) {
+    throw new Error(`Unexpected reading index size: total=${entries.length}, unified=${structuredCount}, pdfOnly=${pdfOnlyCount}`)
   }
 
-  const allFiles = await getFiles(BANK_DIR)
-  const htmlFiles = allFiles.filter(f => /\.html?$/i.test(f))
-  const pdfFiles = allFiles.filter(f => /\.pdf$/i.test(f))
-  const pdfFilesByDir = new Map()
-  pdfFiles.forEach(filePath => {
-    const dir = path.dirname(filePath)
-    if (!pdfFilesByDir.has(dir)) {
-      pdfFilesByDir.set(dir, [])
-    }
-    pdfFilesByDir.get(dir).push(path.basename(filePath))
-  })
-  
-  console.log(`Found ${htmlFiles.length} HTML files. Generating index...`)
-  
-  const index = htmlFiles.map(filePath => {
-    const filename = path.basename(filePath)
-    const parentDir = path.basename(path.dirname(filePath))
-    
-    // 生成相对路径 /questionBank/...
-    const relativePath = path.relative(PUBLIC_DIR, filePath).split(path.sep).join('/')
-    const htmlPath = '/' + relativePath
-    const pdfName = buildPdfPath(filePath, pdfFilesByDir)
-    const pdfPath = pdfName
-      ? '/' + path.relative(PUBLIC_DIR, path.join(path.dirname(filePath), pdfName)).split(path.sep).join('/')
-      : ''
-    
-    const meta = parseFileName(filename, parentDir)
-    
-    return {
-      ...meta,
-      htmlPath,
-      pdfPath
-    }
-  })
-  
-  // 排序：P1 -> P2 -> P3，内部按 ID 排序
-  index.sort((a, b) => {
-    if (a.category !== b.category) return a.category.localeCompare(b.category)
-    // 尝试按数字 ID 排序
-    const numA = parseInt(a.id.split('-')[1]) || 0
-    const numB = parseInt(b.id.split('-')[1]) || 0
-    return numA - numB
-  })
-  
-  // 写入文件
-  await fs.writeFile(INDEX_PATH, JSON.stringify(index, null, 2), 'utf-8')
-  
-  console.log(`\x1b[32m[SUCCESS]\x1b[0m Generated ${index.length} items to src/utils/questionIndex.json`)
+  await fs.rm(LEGACY_QUESTION_BANK_DIR, { recursive: true, force: true })
+  await recreateDir(path.join(PUBLIC_DIR, 'assets', 'generated'))
+  await copyDirectory(READING_EXAMS_SOURCE, READING_EXAMS_DEST)
+  await copyDirectory(READING_EXPLANATIONS_SOURCE, READING_EXPLANATIONS_DEST)
+  await copyDirectory(PDF_SOURCE, PDF_DEST)
+
+  for (const spec of RUNTIME_FILE_SPECS) {
+    await copyFileTo(spec.source, spec.dest)
+  }
+
+  await fs.writeFile(INDEX_PATH, JSON.stringify(entries, null, 2), 'utf8')
+  await fs.writeFile(META_PATH, JSON.stringify(meta, null, 2), 'utf8')
+
+  console.log(`Synced reading reference assets from ${referenceRoot}`)
+  console.log(`Generated ${entries.length} reading questions (${structuredCount} unified, ${pdfOnlyCount} pdf-only).`)
 }
 
-main().catch(err => {
-  console.error(err)
+main().catch((error) => {
+  console.error(error)
   process.exit(1)
 })

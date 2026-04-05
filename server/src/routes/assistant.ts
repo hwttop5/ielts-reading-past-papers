@@ -15,10 +15,20 @@ const requestSchema = z.object({
       content: z.string().trim().min(1).max(1500)
     })
   ).max(6).optional(),
+  attachments: z.array(
+    z.object({
+      name: z.string().trim().min(1).max(255),
+      type: z.string().trim().min(1).max(120),
+      text: z.string().trim().max(6000).optional(),
+      truncated: z.boolean().optional()
+    })
+  ).max(6).optional(),
+  focusQuestionNumbers: z.array(z.string().trim().regex(/^\d{1,3}$/)).max(8).optional(),
   attemptContext: z.object({
     selectedAnswers: z.record(z.string(), z.string()).optional(),
     score: z.number().min(0).optional(),
-    wrongQuestions: z.array(z.string()).max(30).optional()
+    wrongQuestions: z.array(z.string().trim().regex(/^\d{1,3}$/)).max(30).optional(),
+    submitted: z.boolean().optional()
   }).optional(),
   recentPractice: z.array(
     z.object({

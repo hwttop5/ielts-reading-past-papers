@@ -9,11 +9,10 @@
       <div v-if="isOpen" class="assistant-layer">
         <section ref="dialogRef" class="assistant-dialog" :class="{ fullscreen: viewMode === 'fullscreen', compact: isCompactDialog, dragging: isDragging, resizing: isResizing }" :style="dialogStyle" role="dialog" aria-modal="false">
           <header class="assistant-topbar" @pointerdown="startDrag">
-              <div class="assistant-brand">
-                <span class="assistant-brand-icon material-icons">auto_awesome</span>
+            <div class="assistant-brand">
+              <span class="assistant-brand-icon material-icons">auto_awesome</span>
               <div class="assistant-title-block">
-                <p class="assistant-kicker">{{ copy.kicker }}</p>
-                <h2 class="assistant-title" :class="{ 'assistant-title--floating': viewMode === 'floating' }" :title="questionTitleTooltip">{{ headerTitle }}</h2>
+                <h2 class="assistant-brand-title">{{ copy.kicker }}</h2>
               </div>
             </div>
             <div class="assistant-header-actions">
@@ -48,7 +47,18 @@
               <article v-for="message in messages" :key="message.id" class="assistant-message" :class="[message.role, { error: message.isError }]">
                 <div v-if="message.role === 'user'" class="assistant-user-chip">{{ message.content }}</div>
                 <div v-else class="assistant-response">
-                  <p v-if="!message.reviewItems?.length" class="assistant-message-text">{{ message.content }}</p>
+                  <div v-if="message.usedQuestionNumbers?.length || message.usedParagraphLabels?.length || message.confidence || message.missingContext?.length" class="assistant-response-meta">
+                    <span v-if="message.usedQuestionNumbers?.length" class="assistant-meta-chip">Q{{ message.usedQuestionNumbers.join(', ') }}</span>
+                    <span v-if="message.usedParagraphLabels?.length" class="assistant-meta-chip">{{ responseParagraphLabel(message.usedParagraphLabels) }}</span>
+                    <span v-if="message.confidence" class="assistant-meta-chip">{{ confidenceLabel(message.confidence) }}</span>
+                  </div>
+                  <div v-if="message.answerSections?.length" class="assistant-section-list">
+                    <section v-for="(section, sectionIndex) in message.answerSections" :key="`section-${sectionIndex}`" class="assistant-section-card">
+                      <p class="assistant-section-kicker">{{ answerSectionTitle(section.type) }}</p>
+                      <p class="assistant-message-text">{{ section.text }}</p>
+                    </section>
+                  </div>
+                  <p v-else-if="!message.reviewItems?.length" class="assistant-message-text">{{ message.content }}</p>
                   <div v-else class="review-panel">
                     <p v-if="reviewSummaryText(message)" class="assistant-message-text assistant-message-text--summary">{{ reviewSummaryText(message) }}</p>
                     <div class="review-grid">
@@ -84,9 +94,14 @@
                       <p>{{ citation.excerpt }}</p>
                     </article>
                   </div>
-                  <ul v-if="message.followUps?.length" class="follow-up-list">
-                    <li v-for="followUp in message.followUps" :key="followUp">{{ followUp }}</li>
-                  </ul>
+                  <div v-if="message.missingContext?.length" class="missing-context-list">
+                    <p v-for="item in message.missingContext" :key="item" class="missing-context-item">{{ item }}</p>
+                  </div>
+                  <div v-if="message.followUps?.length" class="follow-up-list">
+                    <button v-for="followUp in message.followUps" :key="followUp" class="follow-up-chip" type="button" :disabled="isLoading" @click="sendFollowUp(followUp)">
+                      {{ followUp }}
+                    </button>
+                  </div>
                   <div v-if="message.recommendedQuestions?.length" class="recommend-list">
                     <button v-for="recommendation in message.recommendedQuestions" :key="recommendation.questionId" class="recommend-card" type="button" @click="openRecommendedQuestion(recommendation.questionId)">
                       <strong>{{ recommendation.title }}</strong>
@@ -157,7 +172,19 @@
 import { computed, nextTick, onUnmounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { queryPracticeAssistant } from '@/api/assistant'
-import type { AssistantCitation, AssistantHistoryItem, AssistantMode, AssistantQueryResponse, AssistantReviewItem, AttemptContext, RecentPracticeItem, SimilarQuestionRecommendation } from '@/types/assistant'
+import type {
+  AssistantAnswerSection,
+  AssistantAttachment,
+  AssistantCitation,
+  AssistantConfidence,
+  AssistantHistoryItem,
+  AssistantMode,
+  AssistantQueryResponse,
+  AssistantReviewItem,
+  AttemptContext,
+  RecentPracticeItem,
+  SimilarQuestionRecommendation
+} from '@/types/assistant'
 
 type ViewMode = 'floating' | 'fullscreen'
 interface Copy {
@@ -192,8 +219,31 @@ interface Copy {
   attachmentSummary: (names: string[]) => string
   attachmentNote: (name: string, type: string) => string
 }
-interface Msg { id: string; role: 'user' | 'assistant'; content: string; citations?: AssistantCitation[]; followUps?: string[]; recommendedQuestions?: SimilarQuestionRecommendation[]; reviewItems?: AssistantReviewItem[]; isError?: boolean }
-interface AttachmentItem { id: string; name: string; type: string; icon: string; extractedText?: string; note?: string }
+interface Msg {
+  id: string
+  role: 'user' | 'assistant'
+  content: string
+  citations?: AssistantCitation[]
+  followUps?: string[]
+  recommendedQuestions?: SimilarQuestionRecommendation[]
+  reviewItems?: AssistantReviewItem[]
+  answerSections?: AssistantAnswerSection[]
+  usedQuestionNumbers?: string[]
+  usedParagraphLabels?: string[]
+  confidence?: AssistantConfidence
+  missingContext?: string[]
+  isError?: boolean
+}
+
+interface AttachmentItem {
+  id: string
+  name: string
+  type: string
+  icon: string
+  extractedText?: string
+  note?: string
+  truncated?: boolean
+}
 
 const FLOATING_DIALOG_WIDTH = 500
 const FLOATING_DIALOG_HEIGHT = 760
@@ -330,6 +380,7 @@ const resizeOrigin = ref({ x: 0, y: 0, left: 0, top: 0, width: FLOATING_DIALOG_W
 const dialogPosition = ref<{ x: number; y: number } | null>(null)
 const dialogSize = ref({ width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT })
 const attachments = ref<AttachmentItem[]>([])
+const lastFocusQuestionNumbers = ref<string[] | undefined>(undefined)
 const messageListRef = ref<HTMLDivElement | null>(null)
 const composerRef = ref<HTMLTextAreaElement | null>(null)
 const dialogRef = ref<HTMLElement | null>(null)
@@ -342,7 +393,6 @@ const viewButtonTitle = computed(() => viewMode.value === 'floating' ? copy.valu
 const fullQuestionTitle = computed(() => props.questionTitle?.trim() || props.questionTitleLocalized?.trim() || copy.value.defaultQuestionTitle)
 const localizedQuestionTitle = computed(() => props.questionTitleLocalized?.trim() || fullQuestionTitle.value)
 const floatingQuestionTitle = computed(() => props.lang === 'zh' ? localizedQuestionTitle.value : fullQuestionTitle.value)
-const headerTitle = computed(() => viewMode.value === 'fullscreen' ? fullQuestionTitle.value : floatingQuestionTitle.value)
 const contextChipTitle = computed(() => floatingQuestionTitle.value)
 const questionTitleTooltip = computed(() => {
   if (props.lang === 'zh' && props.questionTitleLocalized?.trim() && props.questionTitle?.trim() && props.questionTitleLocalized.trim() !== props.questionTitle.trim()) {
@@ -377,8 +427,26 @@ const dialogStyle = computed(() => {
 
 function isModeDisabled(mode: AssistantMode) { return !props.hasSubmitted && (mode === 'review' || mode === 'similar') }
 function resetMenus() { modeMenuOpen.value = false }
-function createMessage(role: 'user' | 'assistant', content: string, extra: Pick<Msg, 'citations' | 'followUps' | 'recommendedQuestions' | 'reviewItems' | 'isError'> = {}): Msg { return { id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`, role, content, ...extra } }
-function toggleDialog() { isOpen.value = !isOpen.value }
+function createMessage(
+  role: 'user' | 'assistant',
+  content: string,
+  extra: Partial<Pick<Msg, 'citations' | 'followUps' | 'recommendedQuestions' | 'reviewItems' | 'answerSections' | 'usedQuestionNumbers' | 'usedParagraphLabels' | 'confidence' | 'missingContext' | 'isError'>> = {}
+): Msg {
+  return {
+    id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    role,
+    content,
+    ...extra,
+    citations: normalizeCitationsForDisplay(extra.citations)
+  }
+}
+function toggleDialog() {
+  isOpen.value = !isOpen.value
+  // 移动端自动全屏显示
+  if (isOpen.value && window.innerWidth <= 480) {
+    viewMode.value = 'fullscreen'
+  }
+}
 function closeDialog() { stopDrag(); stopResize(); isOpen.value = false }
 function toggleViewMode() {
   stopDrag()
@@ -405,6 +473,41 @@ function reviewCorrectLabel(item: AssistantReviewItem) {
 }
 function reviewSectionTitle(type: 'explanation' | 'evidence') {
   return copy.value.reviewSectionTitles[type]
+}
+function answerSectionTitle(type: AssistantAnswerSection['type']) {
+  if (props.lang === 'en') {
+    return {
+      direct_answer: 'Direct Answer',
+      reasoning: 'Reasoning',
+      evidence: 'Evidence',
+      next_step: 'Next Step'
+    }[type]
+  }
+
+  return {
+    direct_answer: '直接判断',
+    reasoning: '推理路径',
+    evidence: '证据锚点',
+    next_step: '下一步'
+  }[type]
+}
+function responseParagraphLabel(labels: string[]) {
+  return props.lang === 'en' ? `Paragraph ${labels.join(', ')}` : `段落 ${labels.join('、')}`
+}
+function confidenceLabel(confidence: AssistantConfidence) {
+  if (props.lang === 'en') {
+    return {
+      high: 'High confidence',
+      medium: 'Medium confidence',
+      low: 'Low confidence'
+    }[confidence]
+  }
+
+  return {
+    high: '高把握',
+    medium: '中等把握',
+    low: '低把握'
+  }[confidence]
 }
 async function focusComposer() { await nextTick(); composerRef.value?.focus() }
 async function scrollToBottom() { await nextTick(); if (messageListRef.value) messageListRef.value.scrollTop = messageListRef.value.scrollHeight }
@@ -540,9 +643,12 @@ async function readAttachment(file: File): Promise<AttachmentItem> {
   const isTextLike = file.type.startsWith('text/') || file.type.includes('json') || /\.(txt|md|json|csv|xml|js|ts|vue|html?|htm)$/i.test(lowerName)
   let extractedText = ''
   let note = ''
+  let truncated = false
   if (isTextLike) {
     const rawText = await file.text()
-    extractedText = normalizeAttachmentText(file, rawText).slice(0, 6000)
+    const normalizedText = normalizeAttachmentText(file, rawText)
+    truncated = normalizedText.length > 6000
+    extractedText = normalizedText.slice(0, 6000)
   } else {
     note = copy.value.attachmentNote(file.name, file.type)
   }
@@ -552,7 +658,8 @@ async function readAttachment(file: File): Promise<AttachmentItem> {
     type: file.type || 'application/octet-stream',
     icon: inferAttachmentIcon(file),
     extractedText,
-    note
+    note,
+    truncated
   }
 }
 async function handleFileSelection(event: Event) {
@@ -566,15 +673,66 @@ async function handleFileSelection(event: Event) {
 function removeAttachment(id: string) {
   attachments.value = attachments.value.filter((attachment) => attachment.id !== id)
 }
-function buildPromptWithAttachments(userPrompt: string) {
-  if (!attachments.value.length) return userPrompt
-  const attachmentContext = attachments.value.map((attachment) => {
-    if (attachment.extractedText) {
-      return `Attachment: ${attachment.name}\n${attachment.extractedText}`
-    }
-    return attachment.note || `Attachment: ${attachment.name}`
-  }).join('\n\n')
-  return `${userPrompt}\n\nAttached files for context:\n${attachmentContext}`.trim()
+function buildRequestAttachments(): AssistantAttachment[] | undefined {
+  if (!attachments.value.length) return undefined
+  return attachments.value.map((attachment) => ({
+    name: attachment.name,
+    type: attachment.type,
+    text: attachment.extractedText || undefined,
+    truncated: attachment.truncated || undefined
+  }))
+}
+function extractFocusQuestionNumbersFromText(value: string): string[] | undefined {
+  const matches = [
+    ...Array.from(value.matchAll(/\b(?:question|questions|q)\s*(\d{1,3})\b/gi)).map((match) => match[1]),
+    ...Array.from(value.matchAll(/第\s*(\d{1,3})\s*题/g)).map((match) => match[1])
+  ]
+  const combined = [...matches, ...(props.attemptContext?.wrongQuestions ?? [])]
+  const unique = Array.from(new Set(combined))
+  return unique.length ? unique.slice(0, 8) : undefined
+}
+function normalizeFocusQuestionNumbers(values?: string[]): string[] | undefined {
+  if (!values?.length) return undefined
+  const unique = Array.from(new Set(values.filter((value) => /^\d{1,3}$/.test(value))))
+  return unique.length ? unique.slice(0, 4) : undefined
+}
+function extractExplicitFocusQuestionNumbers(value: string): string[] | undefined {
+  const matches = [
+    ...Array.from(value.matchAll(/\b(?:question|questions|q)\s*(\d{1,3})\b/gi)).map((match) => match[1]),
+    ...Array.from(value.matchAll(/\u7B2C\s*(\d{1,3})\s*\u9898/g)).map((match) => match[1]),
+    ...Array.from(value.matchAll(/(?:^|[^\d])(\d{1,3})\s*\u9898/g)).map((match) => match[1])
+  ]
+  return normalizeFocusQuestionNumbers(matches)
+}
+function isWholeSetRequest(value: string): boolean {
+  return /(?:question set|whole set|all questions|entire passage|full passage|整组|整套|全部题目|所有题目|整篇|全文)/i.test(value)
+}
+function resolveFocusQuestionNumbers(userPrompt: string): string[] | undefined {
+  const explicit = extractExplicitFocusQuestionNumbers(userPrompt)
+  if (explicit?.length) return explicit
+  if (isWholeSetRequest(userPrompt)) return undefined
+  return normalizeFocusQuestionNumbers(lastFocusQuestionNumbers.value)
+}
+function trimCitationExcerpt(value: string): string {
+  const normalized = value.replace(/\s+/g, ' ').trim()
+  if (normalized.length <= 180) return normalized
+  return `${normalized.slice(0, 177).trimEnd()}...`
+}
+function normalizeCitationsForDisplay(citations?: AssistantCitation[]): AssistantCitation[] | undefined {
+  if (!citations?.length) return undefined
+  const relevant = citations.some((citation) => citation.chunkType !== 'question_item')
+    ? citations.filter((citation) => citation.chunkType !== 'question_item')
+    : citations
+  const deduped = Array.from(new Map(
+    relevant.map((citation) => [
+      `${citation.chunkType}:${citation.questionNumbers?.join(',') || ''}:${citation.paragraphLabels?.join(',') || ''}:${trimCitationExcerpt(citation.excerpt)}`,
+      {
+        ...citation,
+        excerpt: trimCitationExcerpt(citation.excerpt)
+      }
+    ])
+  ).values())
+  return deduped.slice(0, 2)
 }
 function handleEnterSend() {
   if (isComposing.value) return
@@ -590,15 +748,35 @@ async function sendMessage(mode: AssistantMode, userPrompt: string, userBubbleTe
   status.value = 'loading'
   const historySeed = history.value.slice(-6)
   const bubbleText = userBubbleText || userPrompt
-  const promptWithAttachments = buildPromptWithAttachments(userPrompt)
+  const focusQuestionNumbers = resolveFocusQuestionNumbers(userPrompt)
   messages.value = [...messages.value, createMessage('user', bubbleText)]
   await scrollToBottom()
   try {
-    const response: AssistantQueryResponse = await queryPracticeAssistant({ questionId: props.questionId, mode, locale: props.lang, userQuery: promptWithAttachments, history: historySeed, attemptContext: props.hasSubmitted ? props.attemptContext ?? undefined : undefined, recentPractice: props.recentPractice.slice(0, 10) })
-    messages.value = [...messages.value, createMessage('assistant', response.answer, { citations: response.citations, followUps: response.followUps, recommendedQuestions: response.recommendedQuestions, reviewItems: response.reviewItems })]
+    const response: AssistantQueryResponse = await queryPracticeAssistant({
+      questionId: props.questionId,
+      mode,
+      locale: props.lang,
+      userQuery: userPrompt,
+      history: historySeed,
+      attachments: buildRequestAttachments(),
+      focusQuestionNumbers,
+      attemptContext: props.attemptContext ?? undefined,
+      recentPractice: props.recentPractice.slice(0, 10)
+    })
+    messages.value = [...messages.value, createMessage('assistant', response.answer, {
+      citations: response.citations,
+      followUps: response.followUps,
+      recommendedQuestions: response.recommendedQuestions,
+      reviewItems: response.reviewItems,
+      answerSections: response.answerSections,
+      usedQuestionNumbers: response.usedQuestionNumbers,
+      usedParagraphLabels: response.usedParagraphLabels,
+      confidence: response.confidence,
+      missingContext: response.missingContext
+    })]
+    lastFocusQuestionNumbers.value = normalizeFocusQuestionNumbers(response.usedQuestionNumbers) || focusQuestionNumbers
     history.value = [...historySeed, { role: 'user', content: bubbleText }, { role: 'assistant', content: response.answer }].slice(-6)
     status.value = 'success'
-    attachments.value = []
   } catch (error) {
     const detail = error instanceof Error ? error.message : copy.value.fallbackUnavailable
     messages.value = [...messages.value, createMessage('assistant', detail, { isError: true })]
@@ -610,6 +788,7 @@ async function sendMessage(mode: AssistantMode, userPrompt: string, userBubbleTe
 }
 
 function sendPreset(mode: AssistantMode) { void sendMessage(mode, defaultQuery(mode), copy.value.actions[mode]) }
+function sendFollowUp(followUp: string) { void sendMessage(selectedMode.value, followUp, followUp) }
 function submitDraft() {
   const value = draft.value.trim()
   if (!value && attachments.value.length === 0) return
@@ -621,7 +800,7 @@ function submitDraft() {
 }
 function openRecommendedQuestion(questionId: string) { router.push({ path: route.path, query: { ...route.query, id: questionId } }) }
 watch(isOpen, async (open) => { syncListeners(open); if (open) { await scrollToBottom(); await focusComposer() } else resetMenus() })
-watch(() => props.questionId, () => { history.value = []; messages.value = []; draft.value = ''; attachments.value = []; dialogPosition.value = null; dialogSize.value = { width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT }; status.value = 'idle'; selectedMode.value = 'hint'; resetMenus() })
+watch(() => props.questionId, () => { history.value = []; messages.value = []; draft.value = ''; attachments.value = []; lastFocusQuestionNumbers.value = undefined; dialogPosition.value = null; dialogSize.value = { width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT }; status.value = 'idle'; selectedMode.value = 'hint'; resetMenus() })
 watch(() => props.hasSubmitted, (submitted) => { if (!submitted && (selectedMode.value === 'review' || selectedMode.value === 'similar')) selectedMode.value = 'hint' })
 onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 </script>
@@ -676,8 +855,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   pointer-events: auto;
   width: min(500px, calc(100vw - 40px));
   height: min(760px, calc(100vh - 40px));
-  min-width: min(496px, calc(100vw - 24px));
-  min-height: min(560px, calc(100vh - 24px));
+  max-height: calc(100vh - 40px);
+  min-width: 280px;
+  min-height: 320px;
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   background: var(--bg-primary);
@@ -692,13 +872,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   box-shadow: 0 28px 68px rgba(15, 23, 42, 0.24);
 }
 
-.assistant-dialog:not(.fullscreen):not(.compact) .assistant-topbar {
-  padding-left: 56px;
-}
-
 .assistant-dialog:not(.fullscreen) .assistant-topbar {
-  padding-top: 16px;
-  padding-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 16px;
 }
 
 .assistant-dialog.resizing {
@@ -729,10 +905,11 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-topbar {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  align-items: flex-start;
+  align-items: center;
   gap: 16px;
   padding-top: 18px;
-  padding-bottom: 14px;
+  padding-bottom: 16px;
+  background: linear-gradient(180deg, rgba(248, 251, 255, 0.98), rgba(255, 255, 255, 0.92));
   border-bottom: 1px solid var(--border-light);
   cursor: grab;
   user-select: none;
@@ -745,8 +922,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-brand {
   display: flex;
-  align-items: flex-start;
-  gap: 14px;
+  align-items: center;
+  gap: 12px;
   flex: 1 1 auto;
   width: 100%;
   min-width: 0;
@@ -763,18 +940,30 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-brand-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 999px;
-  font-size: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  font-size: 20px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 .assistant-title-block {
   flex: 1 1 auto;
+  display: flex;
+  align-items: center;
   min-width: 0;
   max-width: 100%;
   overflow: hidden;
   padding-right: 4px;
+}
+
+.assistant-brand-title {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
 .assistant-kicker {
@@ -961,7 +1150,48 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .assistant-response {
   width: 100%;
   min-width: 0;
-  padding: 6px 4px 0;
+  padding: 2px 0 0;
+}
+
+.assistant-response-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.assistant-meta-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--primary-color);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.assistant-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.assistant-section-card {
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(37, 99, 235, 0.1);
+  background: linear-gradient(180deg, rgba(250, 252, 255, 0.98), rgba(255, 255, 255, 0.96));
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.04);
+}
+
+.assistant-section-kicker {
+  margin: 0 0 8px;
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .assistant-message-text {
@@ -1094,15 +1324,15 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .citation-card,
 .recommend-card {
-  padding: 12px 14px;
-  border-radius: 16px;
-  border: 1px solid var(--border-color);
-  background: #f8fbff;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(37, 99, 235, 0.08);
+  background: rgba(248, 251, 255, 0.9);
 }
 
 .citation-meta {
@@ -1121,6 +1351,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 .recommend-card span {
   margin: 0;
   color: var(--text-secondary);
+  font-size: 13px;
   line-height: 1.58;
 }
 
@@ -1131,14 +1362,49 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .follow-up-list {
-  margin: 16px 0 0;
-  padding-left: 22px;
-  color: var(--text-primary);
-  line-height: 1.7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
 }
 
-.follow-up-list li + li {
-  margin-top: 8px;
+.follow-up-chip {
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.06);
+  color: var(--primary-color);
+  padding: 10px 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.follow-up-chip:hover:not(:disabled) {
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.follow-up-chip:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.missing-context-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.missing-context-item {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(249, 115, 22, 0.1);
+  color: #c2410c;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 .recommend-card {
@@ -1171,6 +1437,7 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   border-top: 1px solid var(--border-light);
   background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(10px);
+  flex-shrink: 0;
 }
 
 .assistant-composer {
@@ -1180,6 +1447,9 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
   border: 1px solid var(--border-color);
   transition: var(--transition);
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .assistant-composer.focused,
@@ -1347,25 +1617,13 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 }
 
 .assistant-dialog.compact .assistant-brand-icon {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   font-size: 18px;
 }
 
-.assistant-dialog.compact .assistant-kicker {
-  margin-bottom: 3px;
-  font-size: 10px;
-}
-
-.assistant-dialog.compact .assistant-title {
+.assistant-dialog.compact .assistant-brand-title {
   font-size: 18px;
-  line-height: 1.18;
-  -webkit-line-clamp: 3;
-}
-
-.assistant-dialog.compact .assistant-title--floating {
-  font-size: 16px;
-  line-height: 1.2;
 }
 
 .assistant-dialog.compact .icon-btn {
@@ -1546,8 +1804,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
 .assistant-resize-handle {
   position: absolute;
-  left: 14px;
-  top: 14px;
+  left: 16px;
+  top: 16px;
   z-index: 3;
   width: 24px;
   height: 24px;
@@ -1599,6 +1857,8 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
     left: 10px;
     width: calc(100vw - 20px);
     height: calc(100vh - 20px);
+    max-height: calc(100vh - 20px);
+    min-height: unset;
     border-radius: 24px;
   }
 
@@ -1625,6 +1885,150 @@ onUnmounted(() => { stopDrag(); stopResize(); syncListeners(false) })
 
   .review-card-header {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .assistant-fab {
+    right: 16px;
+    bottom: 16px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .assistant-dialog,
+  .assistant-dialog.fullscreen {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: unset;
+    border-radius: 0;
+  }
+
+  .assistant-brand-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .assistant-brand-title {
+    font-size: 16px;
+  }
+
+  .assistant-topbar {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .assistant-body {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .assistant-dock {
+    padding: 10px 12px;
+    padding-bottom: max(10px, env(safe-area-inset-bottom, 10px));
+  }
+
+  .assistant-hero-copy h3 {
+    font-size: 18px;
+  }
+
+  .assistant-hero-copy p {
+    font-size: 14px;
+  }
+
+  .assistant-suggestion {
+    padding: 12px 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .assistant-suggestion-text {
+    font-size: 13px;
+  }
+
+  .assistant-suggestion-text strong {
+    font-size: 14px;
+  }
+
+  .assistant-suggestion-text small {
+    font-size: 12px;
+  }
+
+  .assistant-context-chip {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .assistant-context-name {
+    max-width: 100px;
+  }
+
+  .assistant-input {
+    min-height: 48px;
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .assistant-composer {
+    padding: 10px 12px;
+    border-radius: 20px;
+    gap: 6px;
+  }
+
+  .assistant-composer-footer {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .assistant-send {
+    width: 36px;
+    height: 36px;
+  }
+
+  .icon-btn.small {
+    width: 32px;
+    height: 32px;
+  }
+
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 14px;
+  }
+
+  .review-card-section h4 {
+    font-size: 13px;
+  }
+
+  .review-card-section p,
+  .review-card-section blockquote {
+    font-size: 13px;
+  }
+
+  .citation-card {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .follow-up-chip {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .recommend-card {
+    padding: 12px;
+    font-size: 13px;
   }
 }
 </style>

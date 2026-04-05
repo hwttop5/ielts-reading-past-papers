@@ -151,9 +151,12 @@ describe('AssistantService', () => {
       userQuery: 'Where should I start?'
     })
 
-    expect(response.answer).toBe('Start with paragraph B.')
-    expect(response.followUps).toEqual(['Check paragraph B first.', 'Track the measurement method.'])
+    expect(response.answer).toBe('Start with the relevant paragraph.')
+    expect(response.followUps).toEqual(['Check the relevant paragraph first.', 'Track the measurement method.'])
     expect(response.citations.length).toBeGreaterThan(0)
+    expect(response.answerSections?.length).toBeGreaterThan(0)
+    expect(response.usedQuestionNumbers).toContain('12')
+    expect(response.usedParagraphLabels ?? []).toHaveLength(0)
     expect(provider.generate).toHaveBeenCalledOnce()
   })
 
@@ -190,6 +193,8 @@ describe('AssistantService', () => {
 
     expect(response.answer).toContain('start with Q12')
     expect(response.followUps).toHaveLength(3)
+    expect(response.answerSections?.length).toBeGreaterThan(0)
+    expect(response.confidence).toBeTruthy()
   })
 
   it('returns provider-generated review text while keeping local review cards', async () => {
@@ -218,6 +223,8 @@ describe('AssistantService', () => {
     expect(response.reviewItems).toHaveLength(1)
     expect(response.reviewItems?.[0]?.correctAnswer).toBe('B')
     expect(response.followUps).toEqual(['Re-read paragraph B.', 'Compare the stem with the method sentence.'])
+    expect(response.answerSections?.length).toBeGreaterThan(0)
+    expect(response.citations.length).toBeGreaterThan(0)
   })
 
   it('adds passage context when the question chunk does not reference a paragraph label', async () => {
@@ -297,5 +304,174 @@ describe('AssistantService', () => {
 
     const promptArg = provider.generate.mock.calls[0]?.[0]
     expect(promptArg.user).toContain('Paragraph B states')
+  })
+
+  it('passes attachments and explicit focus question numbers into the prompt', async () => {
+    const provider = {
+      generate: vi.fn().mockResolvedValue('{"answer":"Work from Q12 first.","answerSections":[{"type":"direct_answer","text":"Work from Q12 first."}],"followUps":["Compare Q12 with paragraph B."],"confidence":"high","missingContext":[]}')
+    }
+    const service = new AssistantService({
+      provider,
+      questionLoader: async () => question,
+      documentLoader: async () => document,
+      summariesLoader: async () => [document.summary]
+    })
+
+    await service.query({
+      questionId: question.id,
+      mode: 'hint',
+      locale: 'en',
+      userQuery: 'Use my notes and help with Q12.',
+      focusQuestionNumbers: ['12'],
+      attachments: [
+        {
+          name: 'notes.txt',
+          type: 'text/plain',
+          text: 'I keep confusing the method paragraph.',
+          truncated: false
+        }
+      ]
+    })
+
+    const promptArg = provider.generate.mock.calls[0]?.[0]
+    expect(promptArg.user).toContain('Focus question numbers: 12')
+    expect(promptArg.user).toContain('notes.txt')
+    expect(promptArg.user).toContain('I keep confusing the method paragraph.')
+  })
+
+  it('keeps single-question focus even when earlier history mentioned other questions', async () => {
+    const question13Chunk = createChunk({
+      id: 'question-13',
+      chunkType: 'question_item',
+      questionId: question.id,
+      title: question.title,
+      category: question.category,
+      difficulty: question.difficulty,
+      questionNumbers: ['13'],
+      paragraphLabels: ['C'],
+      content: 'Question 13: Which paragraph contrasts industrial and hunter-gatherer sleep patterns?'
+    })
+    const passage13Chunk = createChunk({
+      id: 'passage-13',
+      chunkType: 'passage_paragraph',
+      questionId: question.id,
+      title: question.title,
+      category: question.category,
+      difficulty: question.difficulty,
+      questionNumbers: [],
+      paragraphLabels: ['C'],
+      content: 'Paragraph C contrasts industrial sleep schedules with hunter-gatherer sleep timing.'
+    })
+    const customDocument: ParsedQuestionDocument = {
+      ...document,
+      questionChunks: [document.questionChunks[0], question13Chunk],
+      passageChunks: [document.passageChunks[0], passage13Chunk],
+      allChunks: [document.questionChunks[0], question13Chunk, document.passageChunks[0], passage13Chunk]
+    }
+
+    const service = new AssistantService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader: async () => customDocument,
+      summariesLoader: async () => [customDocument.summary]
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      mode: 'explain',
+      locale: 'en',
+      userQuery: 'Please explain question 13 only.',
+      history: [
+        { role: 'assistant', content: 'For Q12, start from paragraph B.' },
+        { role: 'user', content: 'Now explain question 13.' }
+      ]
+    })
+
+    expect(response.usedQuestionNumbers).toEqual(['13'])
+    expect(response.usedParagraphLabels).toEqual(['C'])
+  })
+
+  it('keeps draft review context even before submission is marked complete', async () => {
+    const service = new AssistantService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader: async () => document,
+      summariesLoader: async () => [document.summary]
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      mode: 'review',
+      locale: 'en',
+      userQuery: 'Check Q12 before I submit.',
+      focusQuestionNumbers: ['12'],
+      attemptContext: {
+        selectedAnswers: { '12': 'A' },
+        wrongQuestions: ['12'],
+        submitted: false
+      }
+    })
+
+    expect(response.reviewItems?.[0]?.selectedAnswer).toBe('A')
+    expect(response.answerSections?.length).toBeGreaterThan(0)
+    expect(response.usedQuestionNumbers).toContain('12')
+  })
+
+  it('deprioritizes recently practiced passages in similar recommendations', async () => {
+    const relatedSummary: QuestionSummaryDoc = {
+      ...createSummary({
+        ...question,
+        id: 'related-question',
+        title: 'Related Passage',
+        htmlPath: '/questionBank/related.html'
+      }),
+      questionId: 'related-question',
+      title: 'Related Passage',
+      keywords: ['sleep', 'study'],
+      questionTypes: ['multiple_choice']
+    }
+    const thirdSummary: QuestionSummaryDoc = {
+      ...createSummary({
+        ...question,
+        id: 'third-question',
+        title: 'Third Passage',
+        htmlPath: '/questionBank/third.html'
+      }),
+      questionId: 'third-question',
+      title: 'Third Passage',
+      keywords: ['sleep', 'hunter'],
+      questionTypes: ['multiple_choice']
+    }
+    const fourthSummary: QuestionSummaryDoc = {
+      ...createSummary({
+        ...question,
+        id: 'fourth-question',
+        title: 'Fourth Passage',
+        htmlPath: '/questionBank/fourth.html'
+      }),
+      questionId: 'fourth-question',
+      title: 'Fourth Passage',
+      keywords: ['routine', 'study'],
+      questionTypes: ['multiple_choice']
+    }
+
+    const service = new AssistantService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader: async () => document,
+      summariesLoader: async () => [document.summary, relatedSummary, thirdSummary, fourthSummary]
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      mode: 'similar',
+      locale: 'en',
+      recentPractice: [
+        { questionId: 'related-question', accuracy: 92, category: 'P1', duration: 900 }
+      ]
+    })
+
+    expect(response.recommendedQuestions?.[0]?.questionId).not.toBe('related-question')
+    expect(response.answerSections?.length).toBeGreaterThan(0)
   })
 })

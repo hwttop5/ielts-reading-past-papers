@@ -13,10 +13,10 @@ if (existsSync(envFile)) {
 }
 
 const envSchema = z.object({
-  LLM_PROVIDER: z.enum(['openrouter']).default('openrouter'),
+  LLM_PROVIDER: z.enum(['openrouter', 'coding-plan']).default('openrouter'),
   LLM_API_KEY: z.string().trim().optional(),
-  LLM_BASE_URL: z.string().trim().default('https://openrouter.ai/api/v1'),
-  LLM_CHAT_MODEL: z.string().trim().default('stepfun/step-3.5-flash:free'),
+  LLM_BASE_URL: z.string().trim().optional(),
+  LLM_CHAT_MODEL: z.string().trim().optional(),
   LLM_TIMEOUT_MS: z.coerce.number().int().positive().default(35000),
   LLM_APP_URL: z.string().trim().optional(),
   LLM_APP_NAME: z.string().trim().default('IELTS Reading Past Papers'),
@@ -33,14 +33,50 @@ const envSchema = z.object({
   PORT: z.coerce.number().int().positive().default(8787)
 })
 
-export const env = envSchema.parse(process.env)
+const parsedEnv = envSchema.parse(process.env)
+
+function getDefaultLlmBaseUrl(provider: typeof parsedEnv.LLM_PROVIDER) {
+  switch (provider) {
+    case 'coding-plan':
+      return 'https://coding.dashscope.aliyuncs.com/v1'
+    case 'openrouter':
+      return 'https://openrouter.ai/api/v1'
+  }
+}
+
+function getDefaultLlmChatModel(provider: typeof parsedEnv.LLM_PROVIDER) {
+  switch (provider) {
+    case 'coding-plan':
+      return 'qwen3.5-plus'
+    case 'openrouter':
+      return 'stepfun/step-3.5-flash:free'
+  }
+}
+
+export const env = {
+  ...parsedEnv,
+  LLM_BASE_URL: parsedEnv.LLM_BASE_URL || getDefaultLlmBaseUrl(parsedEnv.LLM_PROVIDER),
+  LLM_CHAT_MODEL: parsedEnv.LLM_CHAT_MODEL || getDefaultLlmChatModel(parsedEnv.LLM_PROVIDER)
+}
 
 export function hasAssistantLlmConfig() {
   return Boolean(env.LLM_API_KEY)
 }
 
+export function hasAssistantSemanticSearchConfig() {
+  return Boolean(env.OPENAI_API_KEY && env.QDRANT_URL)
+}
+
 export function getAssistantRuntimeMode() {
-  return hasAssistantLlmConfig() ? 'llm-enabled' : 'local-fallback'
+  if (hasAssistantLlmConfig() && hasAssistantSemanticSearchConfig()) {
+    return 'llm-enabled-hybrid-retrieval'
+  }
+
+  if (hasAssistantLlmConfig()) {
+    return 'llm-enabled'
+  }
+
+  return 'local-fallback'
 }
 
 export function requireAssistantEnv() {

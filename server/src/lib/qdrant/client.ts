@@ -14,6 +14,13 @@ interface QdrantPoint<TPayload> {
   payload?: TPayload
 }
 
+interface QdrantSearchResult<TPayload> {
+  id: string | number
+  score?: number
+  vector?: number[]
+  payload?: TPayload
+}
+
 function buildHeaders() {
   const { QDRANT_API_KEY } = requireAssistantEnv()
   const headers: Record<string, string> = {
@@ -90,6 +97,37 @@ export class QdrantClient {
         points
       })
     })
+  }
+
+  async searchPoints<TPayload>(
+    name: string,
+    vector: number[],
+    filter?: Record<string, unknown>,
+    limit = 8
+  ): Promise<StoredVectorPoint<TPayload>[]> {
+    const response = await qdrantRequest<QdrantResponse<Array<QdrantSearchResult<TPayload>>>>(
+      `collections/${name}/points/search`,
+      {
+        method: 'POST',
+        body: JSON.stringify({
+          vector,
+          limit,
+          with_payload: true,
+          with_vector: true,
+          filter
+        })
+      }
+    )
+
+    return response.result
+      .filter((point): point is Required<Pick<QdrantSearchResult<TPayload>, 'id' | 'vector' | 'payload'>> => (
+        Array.isArray(point.vector) && point.payload !== undefined
+      ))
+      .map((point) => ({
+        id: String(point.id),
+        vector: point.vector,
+        payload: point.payload
+      }))
   }
 
   async scrollPoints<TPayload>(name: string, filter?: Record<string, unknown>, limit = 256): Promise<StoredVectorPoint<TPayload>[]> {

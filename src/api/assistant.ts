@@ -1,4 +1,4 @@
-import type { AssistantQueryRequest, AssistantQueryResponse } from '@/types/assistant'
+import type { AssistantAnswerSection, AssistantConfidence, AssistantQueryRequest, AssistantQueryResponse } from '@/types/assistant'
 
 function resolveAssistantApiBaseUrl(): string {
   const configuredBaseUrl = (import.meta.env.VITE_ASSISTANT_API_BASE_URL || '').replace(/\/$/, '')
@@ -26,22 +26,57 @@ function buildAssistantUrl(path: string): string {
   return `${assistantApiBaseUrl}${path}`
 }
 
-function extractEmbeddedAnswerPayload(rawAnswer: string): Pick<AssistantQueryResponse, 'answer' | 'followUps'> | null {
+function isConfidence(value: unknown): value is AssistantConfidence {
+  return value === 'high' || value === 'medium' || value === 'low'
+}
+
+function normalizeAnswerSections(value: unknown): AssistantAnswerSection[] {
+  if (!Array.isArray(value)) {
+    return []
+  }
+
+  return value
+    .map((item) => {
+      if (!item || typeof item !== 'object') {
+        return null
+      }
+
+      const type = (item as { type?: AssistantAnswerSection['type'] }).type
+      const text = (item as { text?: string }).text
+      if (!type || typeof text !== 'string') {
+        return null
+      }
+
+      return { type, text: text.trim() }
+    })
+    .filter((item): item is AssistantAnswerSection => Boolean(item))
+}
+
+function extractEmbeddedAnswerPayload(rawAnswer: string): Pick<AssistantQueryResponse, 'answer' | 'followUps' | 'answerSections' | 'confidence' | 'missingContext'> | null {
   const trimmed = rawAnswer.trim()
   if (!trimmed.startsWith('{') || !trimmed.includes('"answer"')) {
     return null
   }
 
   try {
-    const parsed = JSON.parse(trimmed) as { answer?: string; followUps?: string[] }
+    const parsed = JSON.parse(trimmed) as {
+      answer?: string
+      followUps?: string[]
+      answerSections?: AssistantAnswerSection[]
+      confidence?: AssistantConfidence
+      missingContext?: string[]
+    }
     if (typeof parsed.answer === 'string') {
       return {
         answer: parsed.answer.trim(),
-        followUps: Array.isArray(parsed.followUps) ? parsed.followUps.filter(Boolean).slice(0, 3) : []
+        followUps: Array.isArray(parsed.followUps) ? parsed.followUps.filter(Boolean).slice(0, 3) : [],
+        answerSections: normalizeAnswerSections(parsed.answerSections),
+        confidence: isConfidence(parsed.confidence) ? parsed.confidence : undefined,
+        missingContext: Array.isArray(parsed.missingContext) ? parsed.missingContext.filter(Boolean).slice(0, 4) : []
       }
     }
   } catch {
-    const answerMatch = trimmed.match(/"answer"\s*:\s*"([\s\S]*?)"\s*(?:,?\s*"followUps"\s*:|[}\n])/i)
+    const answerMatch = trimmed.match(/"answer"\s*:\s*"([\s\S]*?)"\s*(?:,?\s*"(?:answerSections|followUps|confidence|missingContext)"\s*:|[}\n])/i)
     const followUpsBlockMatch = trimmed.match(/"followUps"\s*:\s*\[([\s\S]*?)\]/i)
 
     if (!answerMatch) {
@@ -57,7 +92,9 @@ function extractEmbeddedAnswerPayload(rawAnswer: string): Pick<AssistantQueryRes
 
     return {
       answer: answerMatch[1].replace(/\\"/g, '"').replace(/\\n/g, '\n').trim(),
-      followUps
+      followUps,
+      answerSections: [],
+      missingContext: []
     }
   }
 
@@ -73,7 +110,10 @@ function normalizeAssistantResponse(payload: AssistantQueryResponse): AssistantQ
   return {
     ...payload,
     answer: embedded.answer,
-    followUps: embedded.followUps.length > 0 ? embedded.followUps : payload.followUps
+    followUps: embedded.followUps.length > 0 ? embedded.followUps : payload.followUps,
+    answerSections: embedded.answerSections.length > 0 ? embedded.answerSections : payload.answerSections,
+    confidence: embedded.confidence || payload.confidence,
+    missingContext: embedded.missingContext.length > 0 ? embedded.missingContext : payload.missingContext
   }
 }
 

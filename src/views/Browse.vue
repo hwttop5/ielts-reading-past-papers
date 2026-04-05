@@ -20,18 +20,28 @@
           <option value="P2">P2</option>
           <option value="P3">P3</option>
         </select>
-        
+
         <span class="filter-label">{{ t('browse.frequency') }}:</span>
-        <select v-model="difficulty" class="filter-select">
+        <select v-model="frequency" class="filter-select">
           <option value="all">{{ t('browse.allFrequency') }}</option>
-          <option value="高频">{{ t('browse.difficulty.highFreq') }}</option>
-          <option value="次频">{{ t('browse.difficulty.lowFreq') }}</option>
+          <option value="high">{{ t('browse.frequency.high') }}</option>
+          <option value="medium">{{ t('browse.frequency.medium') }}</option>
+          <option value="low">{{ t('browse.frequency.low') }}</option>
         </select>
-        
-        <input 
-          type="text" 
-          v-model="searchText" 
-          class="filter-input" 
+
+        <span class="filter-label">{{ t('browse.sortLabel') }}:</span>
+        <select v-model="sortMode" class="filter-select">
+          <option value="title-asc">{{ t('browse.sort.titleAsc') }}</option>
+          <option value="number-asc">{{ t('browse.sort.numberAsc') }}</option>
+          <option value="number-desc">{{ t('browse.sort.numberDesc') }}</option>
+          <option value="accuracy-asc" :disabled="!hasPracticeRecords">{{ t('browse.sort.accuracyAsc') }}</option>
+          <option value="accuracy-desc" :disabled="!hasPracticeRecords">{{ t('browse.sort.accuracyDesc') }}</option>
+        </select>
+
+        <input
+          v-model="searchText"
+          type="text"
+          class="filter-input"
           :placeholder="t('browse.searchPlaceholder')"
         />
       </div>
@@ -62,53 +72,54 @@
 
     <div v-else>
       <div class="questions-grid">
-        <div v-for="q in paginatedQuestions" :key="q.id" class="question-card" @click="start(q)">
+        <div v-for="question in paginatedQuestions" :key="question.id" class="question-card" @click="start(question)">
           <div class="question-header">
-            <span class="question-title">{{ q.title }}</span>
-            <span :class="['question-category', `category-${q.category.toLowerCase()}`]">
-              {{ q.category }}
+            <span class="question-title">{{ question.title }}</span>
+            <span :class="['question-category', `category-${question.category.toLowerCase()}`]">
+              {{ question.category }}
             </span>
           </div>
-          
-          <div class="question-subtitle" v-if="currentLang === 'zh'">{{ q.titleCN }}</div>
-          
+
+          <div v-if="currentLang === 'zh' && question.titleCN" class="question-subtitle">{{ question.titleCN }}</div>
+
           <div class="question-tags">
-            <span :class="['tag', q.difficulty === '高频' ? 'tag-high' : 'tag-normal']">
-              {{ q.difficulty === '高频' ? t('browse.difficulty.highFreq') : t('browse.difficulty.lowFreq') }}
+            <span :class="['tag', `tag-${question.frequency}`]">
+              {{ getFrequencyLabel(question.frequency) }}
             </span>
-            <span :class="['tag tag-count', isQuestionCompleted(q.id) ? 'tag-completed' : '']">
-              <span class="material-icons" style="font-size: 14px; vertical-align: middle; margin-right: 4px;">
-                {{ isQuestionCompleted(q.id) ? 'check_circle' : 'pending' }}
+            <span v-if="question.launchMode === 'pdf_only'" :class="['tag', 'tag-mode', 'tag-mode-pdf']">
+              {{ t('browse.pdfOnlyMode') }}
+            </span>
+            <span :class="['tag', 'tag-count', isQuestionCompleted(question.id) ? 'tag-completed' : '']">
+              <span class="material-icons tag-icon">
+                {{ isQuestionCompleted(question.id) ? 'check_circle' : 'pending' }}
               </span>
-              {{ isQuestionCompleted(q.id) ? getQuestionScore(q.id) : `${q.totalQuestions} ${t('overview.questions')}` }}
+              {{ isQuestionCompleted(question.id) ? getQuestionScore(question.id) : `${question.totalQuestions} ${t('overview.questions')}` }}
             </span>
           </div>
 
           <div class="question-footer">
-            <button class="view-pdf-btn" @click.stop="viewPdf(q)" :title="t('browse.viewPdf')" :disabled="!q.pdfPath">
-              <span class="material-icons" style="font-size: 18px;">picture_as_pdf</span>
+            <button class="view-pdf-btn" @click.stop="viewPdf(question)" :title="t('browse.viewPdf')" :disabled="!question.pdfPath">
+              <span class="material-icons">picture_as_pdf</span>
             </button>
-            <button class="start-button" @click.stop="start(q)" :disabled="isNavigating">
-              {{ t('browse.startPractice') }} 
-              <span v-if="!isNavigating" class="material-icons" style="font-size: 16px; vertical-align: middle;">arrow_forward</span>
-              <span v-else class="material-icons rotating" style="font-size: 16px; vertical-align: middle;">autorenew</span>
+            <button class="start-button" @click.stop="start(question)" :disabled="isNavigating && question.launchMode === 'unified'">
+              {{ question.launchMode === 'unified' ? t('browse.startPractice') : t('browse.openPdfOnly') }}
+              <span v-if="!(isNavigating && question.launchMode === 'unified')" class="material-icons action-icon">
+                {{ question.launchMode === 'unified' ? 'arrow_forward' : 'open_in_new' }}
+              </span>
+              <span v-else class="material-icons rotating action-icon">autorenew</span>
             </button>
           </div>
         </div>
       </div>
 
       <div v-if="totalPages > 1" class="pagination-section">
-        <button 
-          class="pagination-button" 
-          :disabled="currentPage === 1"
-          @click="currentPage--"
-        >
-          <span class="material-icons" style="font-size: 18px; vertical-align: middle;">arrow_back</span> {{ t('browse.prev') }}
+        <button class="pagination-button" :disabled="currentPage === 1" @click="currentPage -= 1">
+          <span class="material-icons pagination-icon">arrow_back</span> {{ t('browse.prev') }}
         </button>
-        
+
         <div class="page-numbers">
           <template v-for="page in displayPages" :key="page">
-            <button 
+            <button
               v-if="page !== -1"
               :class="['page-number', { active: page === currentPage }]"
               @click="currentPage = page"
@@ -118,13 +129,9 @@
             <span v-else class="page-ellipsis">...</span>
           </template>
         </div>
-        
-        <button 
-          class="pagination-button" 
-          :disabled="currentPage === totalPages"
-          @click="currentPage++"
-        >
-          {{ t('browse.next') }} <span class="material-icons" style="font-size: 18px; vertical-align: middle;">arrow_forward</span>
+
+        <button class="pagination-button" :disabled="currentPage === totalPages" @click="currentPage += 1">
+          {{ t('browse.next') }} <span class="material-icons pagination-icon">arrow_forward</span>
         </button>
       </div>
     </div>
@@ -132,214 +139,318 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch, inject, nextTick } from 'vue'
+import { computed, inject, nextTick, onMounted, ref, watch, type Ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useQuestionStore } from '@/store/questionStore'
-import { usePracticeStore } from '@/store/practiceStore'
 import { message } from 'ant-design-vue'
+import { usePracticeStore } from '@/store/practiceStore'
+import { useQuestionStore, type Question } from '@/store/questionStore'
 
-const store = useQuestionStore()
+const questionStore = useQuestionStore()
 const practiceStore = usePracticeStore()
 const route = useRoute()
 const router = useRouter()
 const t = inject('t', (key: string) => key)
-const currentLang = inject('currentLang', { value: 'zh' })
+const currentLang = inject<Readonly<Ref<'zh' | 'en'>>>('currentLang', ref('zh') as Readonly<Ref<'zh' | 'en'>>)
 
-const category = ref<string>('all')
-const difficulty = ref<string>('all')
-const searchText = ref<string>('')
-const currentPage = ref<number>(1)
-const pageSize = ref<number>(12)
+const category = ref('all')
+const frequency = ref('all')
+const sortMode = ref('number-asc')
+const searchText = ref('')
+const currentPage = ref(1)
+const pageSize = ref(12)
 const isRestoring = ref(false)
 const isNavigating = ref(false)
 
-onMounted(() => {
-  store.loadQuestions()
-  practiceStore.load()
-  
-  isRestoring.value = true
-  if (route.query.category) {
-    category.value = route.query.category as string
+function normalizeLegacyFrequency(value: string | undefined): string {
+  switch (String(value || '').trim()) {
+    case '高频':
+      return 'high'
+    case '中频':
+      return 'medium'
+    case '低频':
+    case '次频':
+      return 'low'
+    default:
+      return value || 'all'
   }
-  if (route.query.difficulty) {
-    difficulty.value = route.query.difficulty as string
-  }
-  if (route.query.search) {
-    searchText.value = route.query.search as string
-  }
-  if (route.query.pageSize) {
-    const size = Number(route.query.pageSize)
-    if (Number.isFinite(size) && [6, 12, 24, 48].includes(size)) {
-      pageSize.value = size
-    }
-  }
-  // 页码必须在其他筛选条件之后设置，且不受筛选重置影响
-  if (route.query.page) {
-    const page = Number(route.query.page)
-    if (Number.isFinite(page) && page > 0) {
-      currentPage.value = page
-    }
-  }
-  
-  nextTick(() => {
-    isRestoring.value = false
-  })
-})
-
-// 检查题目是否已完成
-const isQuestionCompleted = (questionId: string) => {
-  return practiceStore.records.some(r => r.questionId === questionId)
 }
 
-// 获取题目得分（正确题数/总题数）
+function getFrequencyLabel(value: string): string {
+  switch (value) {
+    case 'high':
+      return t('browse.frequency.high')
+    case 'medium':
+      return t('browse.frequency.medium')
+    case 'low':
+      return t('browse.frequency.low')
+    default:
+      return value
+  }
+}
+
+function openPDFSafely(pdfPath: string, examTitle: string) {
+  const winName = `pdf_${Date.now()}`
+  const options = 'width=1000,height=800,scrollbars=yes,resizable=yes,status=yes,toolbar=yes'
+  let popup: Window | null = null
+
+  try {
+    popup = window.open(pdfPath, winName, options)
+  } catch {
+    popup = null
+  }
+
+  if (!popup) {
+    try {
+      window.location.href = pdfPath
+      return
+    } catch {
+      message.error(t('browse.pdfError'))
+      return
+    }
+  }
+
+  message.success(`${t('browse.pdfOpening')} ${examTitle}`)
+}
+
+const isQuestionCompleted = (questionId: string) => practiceStore.records.some((record) => record.questionId === questionId)
+const hasPracticeRecords = computed(() => practiceStore.records.length > 0)
+
 const getQuestionScore = (questionId: string) => {
-  const record = practiceStore.records.find(r => r.questionId === questionId)
-  if (record) {
-    return `${record.correctAnswers}/${record.totalQuestions}`
-  }
-  return ''
+  const record = practiceStore.records.find((item) => item.questionId === questionId)
+  return record ? `${record.correctAnswers}/${record.totalQuestions}` : ''
 }
 
-watch(() => route.query.category, (newCategory) => {
-  if (newCategory) {
-    category.value = newCategory as string
-  }
-})
+function getQuestionNumericOrder(question: Question): number {
+  const match = String(question.id).match(/(\d+)(?!.*\d)/)
+  return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER
+}
 
-watch(() => route.query.page, (newPage) => {
-  if (!newPage) return
-  const page = Number(newPage)
-  if (Number.isFinite(page) && page > 0) {
-    currentPage.value = page
+function compareQuestionNumberAsc(left: Question, right: Question): number {
+  const categoryOrder = ['P1', 'P2', 'P3']
+  const categoryDiff = categoryOrder.indexOf(left.category) - categoryOrder.indexOf(right.category)
+  if (categoryDiff !== 0) {
+    return categoryDiff
   }
-})
 
-watch([category, difficulty, searchText, pageSize], () => {
-  if (isRestoring.value) return
-  currentPage.value = 1
-})
+  const numericDiff = getQuestionNumericOrder(left) - getQuestionNumericOrder(right)
+  if (numericDiff !== 0) {
+    return numericDiff
+  }
+
+  return left.id.localeCompare(right.id)
+}
+
+function getLatestAccuracy(questionId: string): number | null {
+  const record = practiceStore.records.find((item) => item.questionId === questionId)
+  return record ? record.accuracy : null
+}
 
 const filtered = computed(() => {
-  let result = store.questions
+  let questions = questionStore.questions
 
   if (category.value !== 'all') {
-    result = result.filter(q => q.category === category.value)
+    questions = questions.filter((question) => question.category === category.value)
   }
 
-  if (difficulty.value !== 'all') {
-    result = result.filter(q => q.difficulty === difficulty.value)
+  if (frequency.value !== 'all') {
+    questions = questions.filter((question) => question.frequency === frequency.value)
   }
 
-  if (searchText.value) {
-    const search = searchText.value.toLowerCase()
-    result = result.filter(q => 
-      q.title.toLowerCase().includes(search) || 
-      q.titleCN.includes(search)
+  if (searchText.value.trim()) {
+    const keyword = searchText.value.trim().toLowerCase()
+    questions = questions.filter((question) =>
+      question.displayTitle.toLowerCase().includes(keyword)
+      || question.title.toLowerCase().includes(keyword)
+      || question.titleCN.toLowerCase().includes(keyword)
     )
   }
 
-  return result
+  const sorted = [...questions]
+  switch (sortMode.value) {
+    case 'title-asc':
+      sorted.sort((left, right) => left.title.localeCompare(right.title, 'en', { sensitivity: 'base' }))
+      break
+    case 'number-desc':
+      sorted.sort((left, right) => compareQuestionNumberAsc(right, left))
+      break
+    case 'accuracy-asc':
+    case 'accuracy-desc':
+      sorted.sort((left, right) => {
+        const leftAccuracy = getLatestAccuracy(left.id)
+        const rightAccuracy = getLatestAccuracy(right.id)
+        const leftHasAccuracy = leftAccuracy !== null
+        const rightHasAccuracy = rightAccuracy !== null
+
+        if (leftHasAccuracy && rightHasAccuracy && leftAccuracy !== rightAccuracy) {
+          return sortMode.value === 'accuracy-asc'
+            ? leftAccuracy - rightAccuracy
+            : rightAccuracy - leftAccuracy
+        }
+
+        if (leftHasAccuracy !== rightHasAccuracy) {
+          return leftHasAccuracy ? -1 : 1
+        }
+
+        return compareQuestionNumberAsc(left, right)
+      })
+      break
+    case 'number-asc':
+    default:
+      sorted.sort(compareQuestionNumberAsc)
+      break
+  }
+
+  return sorted
 })
 
-const totalPages = computed(() => {
-  return Math.ceil(filtered.value.length / pageSize.value) || 1
-})
+const totalPages = computed(() => Math.max(1, Math.ceil(filtered.value.length / pageSize.value)))
 
 const displayPages = computed(() => {
   const pages: number[] = []
   const total = totalPages.value
   const current = currentPage.value
-  
+
   if (total <= 7) {
-    for (let i = 1; i <= total; i++) pages.push(i)
-  } else {
-    if (current <= 4) {
-      for (let i = 1; i <= 5; i++) pages.push(i)
-      pages.push(-1)
-      pages.push(total)
-    } else if (current >= total - 3) {
-      pages.push(1)
-      pages.push(-1)
-      for (let i = total - 4; i <= total; i++) pages.push(i)
-    } else {
-      pages.push(1)
-      pages.push(-1)
-      for (let i = current - 1; i <= current + 1; i++) pages.push(i)
-      pages.push(-1)
-      pages.push(total)
+    for (let page = 1; page <= total; page += 1) {
+      pages.push(page)
     }
+    return pages
   }
-  
-  return pages
+
+  if (current <= 4) {
+    for (let page = 1; page <= 5; page += 1) {
+      pages.push(page)
+    }
+    pages.push(-1, total)
+    return pages
+  }
+
+  if (current >= total - 3) {
+    pages.push(1, -1)
+    for (let page = total - 4; page <= total; page += 1) {
+      pages.push(page)
+    }
+    return pages
+  }
+
+  return [1, -1, current - 1, current, current + 1, -1, total]
 })
 
 const paginatedQuestions = computed(() => {
   const start = (currentPage.value - 1) * pageSize.value
-  const end = start + pageSize.value
-  return filtered.value.slice(start, end)
+  return filtered.value.slice(start, start + pageSize.value)
 })
 
-const start = async (q: any) => {
-  if (isNavigating.value) return
+function buildBrowseQuery() {
+  const query: Record<string, string> = {
+    page: String(currentPage.value),
+    pageSize: String(pageSize.value)
+  }
+
+  if (category.value !== 'all') {
+    query.category = category.value
+  }
+
+  if (frequency.value !== 'all') {
+    query.frequency = frequency.value
+  }
+
+  if (searchText.value.trim()) {
+    query.search = searchText.value.trim()
+  }
+
+  if (sortMode.value !== 'number-asc') {
+    query.sort = sortMode.value
+  }
+
+  return query
+}
+
+function viewPdf(question: Question) {
+  if (!question.pdfPath) {
+    message.warning(t('browse.pdfNotFound'))
+    return
+  }
+
+  openPDFSafely(question.pdfPath, question.displayTitle || question.title || 'PDF')
+}
+
+async function start(question: Question) {
+  if (question.launchMode === 'pdf_only') {
+    viewPdf(question)
+    return
+  }
+
+  if (isNavigating.value) {
+    return
+  }
+
   isNavigating.value = true
-  
   try {
-    const query: Record<string, string> = {
-      id: q.id,
-      from: 'browse',
-      page: String(currentPage.value),
-      pageSize: String(pageSize.value)
-    }
-    if (category.value !== 'all') query.category = category.value
-    if (difficulty.value !== 'all') query.difficulty = difficulty.value
-    if (searchText.value.trim()) query.search = searchText.value
-    await router.push({ path: '/practice-mode', query })
-  } catch (e) {
+    await router.push({
+      path: '/practice-mode',
+      query: {
+        id: question.id,
+        from: 'browse',
+        ...buildBrowseQuery()
+      }
+    })
+  } finally {
     isNavigating.value = false
-    console.error(e)
   }
 }
 
-const openPDFSafely = (pdfPath: string, examTitle: string) => {
-  const winName = `pdf_${Date.now()}`
-  const opts = 'width=1000,height=800,scrollbars=yes,resizable=yes,status=yes,toolbar=yes'
-  let win: Window | null = null
-  try {
-    win = window.open(pdfPath, winName, opts)
-  } catch (_) {}
-  if (!win) {
-    try {
-      window.location.href = pdfPath
-  } catch (e) {
-    message.error(t('browse.pdfError'))
-  }
-  return
-}
-message.success(t('browse.pdfOpening'))
-}
+onMounted(() => {
+  questionStore.loadQuestions()
+  practiceStore.load()
 
-const viewPdf = (q: any) => {
-if (q.pdfPath) {
-  openPDFSafely(q.pdfPath, q.title || 'PDF')
-  return
-}
-// PDF 与 HTML 在同一目录，如 public/questionBank/1.P1 高频/
-const parts = q.htmlPath?.split('/').filter(Boolean)
-if (!parts || parts.length < 2) {
-  message.warning(t('browse.pdfNotFound'))
-  return
-}
-const folder = parts[parts.length - 2]   // 如 1.P1 高频
-const rawName = parts[parts.length - 1]?.replace(/\.html$/i, '')
-if (!rawName) {
-  message.warning(t('browse.pdfNotFound'))
-  return
-}
-  // PDF 文件名不含【高】/【次】后缀
-  const pdfFileName = rawName.replace(/【高】|【次】/g, '').trim() + '.pdf'
-  const fullPath = `/questionBank/${encodeURIComponent(folder)}/${encodeURIComponent(pdfFileName)}`
-  openPDFSafely(fullPath, q.title || 'PDF')
-}
+  isRestoring.value = true
+  category.value = typeof route.query.category === 'string' ? route.query.category : 'all'
+  frequency.value = typeof route.query.frequency === 'string'
+    ? route.query.frequency
+    : normalizeLegacyFrequency(typeof route.query.difficulty === 'string' ? route.query.difficulty : undefined)
+  sortMode.value = typeof route.query.sort === 'string' ? route.query.sort : 'number-asc'
+  if (!hasPracticeRecords.value && (sortMode.value === 'accuracy-asc' || sortMode.value === 'accuracy-desc')) {
+    sortMode.value = 'number-asc'
+  }
+  searchText.value = typeof route.query.search === 'string' ? route.query.search : ''
+
+  if (typeof route.query.pageSize === 'string') {
+    const parsedPageSize = Number(route.query.pageSize)
+    if (Number.isFinite(parsedPageSize) && [6, 12, 24, 48].includes(parsedPageSize)) {
+      pageSize.value = parsedPageSize
+    }
+  }
+
+  if (typeof route.query.page === 'string') {
+    const parsedPage = Number(route.query.page)
+    if (Number.isFinite(parsedPage) && parsedPage > 0) {
+      currentPage.value = parsedPage
+    }
+  }
+
+  nextTick(() => {
+    isRestoring.value = false
+  })
+})
+
+watch([category, frequency, searchText, pageSize, sortMode], () => {
+  if (!isRestoring.value) {
+    currentPage.value = 1
+  }
+})
+
+watch(hasPracticeRecords, (value) => {
+  if (!value && (sortMode.value === 'accuracy-asc' || sortMode.value === 'accuracy-desc')) {
+    sortMode.value = 'number-asc'
+  }
+})
+
+watch(totalPages, (value) => {
+  if (currentPage.value > value) {
+    currentPage.value = value
+  }
+})
 </script>
 
 <style scoped>
@@ -356,7 +467,7 @@ if (!rawName) {
   font-size: 32px;
   font-weight: 800;
   color: var(--text-primary);
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -364,7 +475,6 @@ if (!rawName) {
 
 .title-icon {
   font-size: 36px;
-  /* color removed */
 }
 
 .page-subtitle {
@@ -374,319 +484,354 @@ if (!rawName) {
 }
 
 .page-disclaimer {
-  font-size: 13px;
-  color: var(--text-tertiary);
-  margin: 8px 0 0 0;
-  font-style: normal;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 8px;
 }
 
 .disclaimer-icon {
-  font-size: 14px;
   color: var(--warning-color, #eab308);
-}
-
-.filter-section {
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  margin-bottom: 24px;
-}
-
-.filter-group {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 16px;
-}
-
-.filter-label {
-  font-size: 14px;
-  color: var(--text-secondary);
-  font-weight: 500;
-}
-
-.filter-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border-color);
-}
-
-.result-info {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-
-.result-count {
-  font-size: 14px;
-  color: var(--text-secondary);
-  font-weight: 500;
-}
-
-.page-info {
-  font-size: 14px;
-  color: var(--text-tertiary);
-}
-
-.page-size-selector {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.page-size-label {
-  font-size: 14px;
-  color: var(--text-secondary);
-}
-
-.filter-select {
-  padding: 8px 16px;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.filter-select.small {
-  padding: 6px 12px;
   font-size: 14px;
 }
 
-.filter-select:hover {
-  border-color: var(--primary-color);
-}
-
-.filter-input {
-  flex: 1;
-  min-width: 200px;
-  padding: 8px 16px;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-size: 14px;
-  transition: var(--transition);
-}
-
-.filter-input:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
-}
-
-.empty-state {
-  text-align: center;
-  padding: 64px 24px;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-}
-
-.empty-icon {
-  font-size: 48px;
-  margin-bottom: 16px;
-  color: var(--text-tertiary);
-}
-
-.empty-text {
-  font-size: 14px;
-  color: var(--text-secondary);
-}
-
-.questions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 20px;
-  margin-bottom: 32px;
-}
-
+.filter-section,
 .question-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 24px;
-  cursor: pointer;
-  transition: var(--transition);
-  display: flex;
-  flex-direction: column;
 }
 
-.question-card:hover {
-  box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
-  transform: translateY(-2px);
+.filter-section {
+  padding: 20px;
+  margin-bottom: 24px;
 }
 
-.question-header {
+.filter-group,
+.filter-footer,
+.page-size-selector,
+.result-info,
+.question-header,
+.question-tags,
+.question-footer,
+.pagination-section,
+.page-numbers {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 12px;
+  align-items: center;
+}
+
+.filter-group {
   gap: 12px;
-}
-
-.question-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-primary);
-  line-height: 1.5;
-  flex: 1;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: clip;
-}
-
-.question-category {
-  padding: 4px 10px;
-  border-radius: var(--radius-sm);
-  font-size: 13px;
-  font-weight: 600;
-  flex-shrink: 0;
-}
-
-.category-p1 {
-  background: #f0fdf4;
-  color: #16a34a;
-}
-
-.category-p2 {
-  background: #eff6ff;
-  color: #2563eb;
-}
-
-.category-p3 {
-  background: #faf5ff;
-  color: #9333ea;
-}
-
-.question-subtitle {
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
-  line-height: 1.5;
-}
-
-.question-tags {
-  display: flex;
-  gap: 8px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
-.tag {
-  padding: 4px 10px;
-  border-radius: var(--radius-sm);
-  font-size: 13px;
-  font-weight: 500;
-}
-
-.tag-type {
-  background: var(--bg-tertiary);
-  color: var(--text-secondary);
-}
-
-.tag-high {
-  background: #fef2f2;
-  color: #dc2626;
-}
-
-.tag-normal {
-  background: #fff7ed;
-  color: #ea580c;
-}
-
-.tag-count {
-  background: var(--bg-tertiary);
-  color: var(--text-tertiary);
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.tag-completed {
-  background: #f0fdf4;
-  color: #16a34a;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.question-footer {
-  display: flex;
+.filter-footer {
+  justify-content: space-between;
   gap: 12px;
-  align-items: center;
-  margin-top: auto;
+  flex-wrap: wrap;
   padding-top: 16px;
   border-top: 1px solid var(--border-color);
 }
 
-.view-pdf-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 40px;
+.filter-label,
+.page-size-label,
+.result-count,
+.page-info {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.page-info {
+  color: var(--text-tertiary);
+}
+
+.page-size-selector,
+.result-info {
+  gap: 8px;
+}
+
+.filter-select,
+.filter-input,
+.pagination-button,
+.page-number,
+.view-pdf-btn,
+.start-button {
+  transition: var(--transition, all 0.2s ease);
+}
+
+.filter-select,
+.filter-input {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
   background: var(--bg-primary);
   color: var(--text-primary);
+  font-size: 14px;
+}
+
+.filter-select {
+  padding: 8px 16px;
   cursor: pointer;
-  transition: var(--transition);
-  flex-shrink: 0;
+}
+
+.filter-select.small {
+  padding: 6px 12px;
+}
+
+.filter-input {
+  flex: 1;
+  min-width: 220px;
+  padding: 8px 16px;
+}
+
+.filter-select:hover,
+.filter-input:hover,
+.filter-input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.empty-state {
+  background: var(--bg-primary);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--text-tertiary);
+}
+
+.empty-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.questions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.question-card {
+  padding: 20px;
+  cursor: pointer;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 12px;
+}
+
+.question-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+  border-color: rgba(59, 130, 246, 0.25);
+}
+
+.question-header {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.question-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.question-subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.question-category {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.category-p1 {
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
+}
+
+.category-p2 {
+  background: rgba(59, 130, 246, 0.12);
+  color: #2563eb;
+}
+
+.category-p3 {
+  background: rgba(139, 92, 246, 0.12);
+  color: #7c3aed;
+}
+
+.question-tags {
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tag-high {
+  background: rgba(239, 68, 68, 0.1);
+  color: #dc2626;
+}
+
+.tag-medium {
+  background: rgba(234, 179, 8, 0.14);
+  color: #a16207;
+}
+
+.tag-low {
+  background: rgba(107, 114, 128, 0.12);
+  color: #4b5563;
+}
+
+.tag-mode {
+  border: 1px solid transparent;
+}
+
+.tag-mode-unified {
+  background: rgba(16, 185, 129, 0.1);
+  color: #047857;
+}
+
+.tag-mode-pdf {
+  background: rgba(59, 130, 246, 0.08);
+  color: #1d4ed8;
+}
+
+.tag-count {
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--text-secondary);
+}
+
+.tag-completed {
+  background: rgba(16, 185, 129, 0.1);
+  color: #047857;
+}
+
+.tag-icon,
+.action-icon,
+.pagination-icon,
+.view-pdf-btn .material-icons {
+  font-size: 16px;
+}
+
+.question-footer {
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.view-pdf-btn,
+.start-button,
+.pagination-button,
+.page-number {
+  border: none;
+  cursor: pointer;
+}
+
+.view-pdf-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid rgba(15, 23, 42, 0.2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .view-pdf-btn:hover {
-  background: #f0fdf4;
-  border-color: #16a34a;
-  color: #16a34a;
-  transform: translateY(-2px);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .view-pdf-btn:disabled {
-  opacity: 0.45;
+  opacity: 0.5;
   cursor: not-allowed;
-  transform: none;
+}
+
+.start-button,
+.pagination-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .start-button {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: var(--radius-sm);
-  background: var(--primary-color);
+  border-radius: 7px;
+  background: var(--primary-color, #2563eb);
   color: white;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.start-button:hover {
-  background: var(--primary-hover);
-  transform: translateX(2px);
 }
 
 .start-button:disabled {
   opacity: 0.7;
-  cursor: not-allowed;
-  transform: none;
+  cursor: wait;
+}
+
+.pagination-section {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.pagination-button,
+.page-number {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.pagination-button {
+  min-width: 112px;
+  border-radius: 12px;
+}
+
+.page-numbers {
+  gap: 8px;
+}
+
+.page-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.page-number.active {
+  background: var(--primary-color, #2563eb);
+  color: white;
+  border-color: transparent;
+}
+
+.page-ellipsis {
+  color: var(--text-tertiary);
 }
 
 .rotating {
@@ -694,138 +839,38 @@ if (!rawName) {
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.pagination-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 24px 0;
-}
-
-.pagination-button {
-  padding: 10px 16px;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  color: var(--text-primary);
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.pagination-button:hover:not(:disabled) {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
-}
-
-.pagination-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.page-numbers {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-}
-
-.page-number {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  color: var(--text-primary);
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.page-number:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
-}
-
-.page-number.active {
-  background: var(--primary-color);
-  border-color: var(--primary-color);
-  color: white;
-}
-
-.page-number:disabled {
-  cursor: default;
-  border: none;
-  background: transparent;
-  color: var(--text-tertiary);
-}
-
-.page-ellipsis {
-  padding: 0 8px;
-  color: var(--text-tertiary);
-  font-size: 14px;
-  display: flex;
-  align-items: center;
+@media (max-width: 1200px) {
+  .questions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
+  .page-title {
+    font-size: 28px;
+  }
+
   .questions-grid {
     grid-template-columns: 1fr;
   }
-  
+
+  .filter-footer,
+  .question-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .pagination-section {
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-  
-  .pagination-button {
-    padding: 8px 12px;
-    font-size: 13px;
-  }
-  
-  .page-number {
-    width: 36px;
-    height: 36px;
-    font-size: 13px;
-  }
-  
-  .page-numbers {
-    order: -1;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 8px;
-  }
-  
-  .filter-group {
-    flex-direction: column;
     align-items: stretch;
-  }
-  
-  .filter-select,
-  .filter-input {
-    width: 100%;
-  }
-  
-  .filter-footer {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-  }
-  
-  .result-info {
-    justify-content: center;
-  }
-  
-  .page-size-selector {
-    justify-content: center;
   }
 }
 </style>

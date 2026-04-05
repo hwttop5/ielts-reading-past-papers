@@ -1,15 +1,25 @@
 export type AssistantMode = 'hint' | 'explain' | 'review' | 'similar'
 export type AssistantLocale = 'zh' | 'en'
+export type AssistantAnswerSectionType = 'direct_answer' | 'reasoning' | 'evidence' | 'next_step'
+export type AssistantConfidence = 'high' | 'medium' | 'low'
 
 export interface AssistantHistoryItem {
   role: 'user' | 'assistant'
   content: string
 }
 
+export interface AssistantAttachment {
+  name: string
+  type: string
+  text?: string
+  truncated?: boolean
+}
+
 export interface AttemptContext {
   selectedAnswers?: Record<string, string>
   score?: number
   wrongQuestions?: string[]
+  submitted?: boolean
 }
 
 export interface RecentPracticeItem {
@@ -25,6 +35,8 @@ export interface AssistantQueryRequest {
   locale?: AssistantLocale
   userQuery?: string
   history?: AssistantHistoryItem[]
+  attachments?: AssistantAttachment[]
+  focusQuestionNumbers?: string[]
   attemptContext?: AttemptContext
   recentPractice?: RecentPracticeItem[]
 }
@@ -51,10 +63,20 @@ export interface AssistantReviewItem {
   paragraphLabel?: string
 }
 
+export interface AssistantAnswerSection {
+  type: AssistantAnswerSectionType
+  text: string
+}
+
 export interface AssistantQueryResponse {
   answer: string
   citations: AssistantCitation[]
   followUps: string[]
+  answerSections?: AssistantAnswerSection[]
+  usedQuestionNumbers?: string[]
+  usedParagraphLabels?: string[]
+  confidence?: AssistantConfidence
+  missingContext?: string[]
   recommendedQuestions?: SimilarQuestionRecommendation[]
   reviewItems?: AssistantReviewItem[]
 }
