@@ -21,7 +21,11 @@
     "audit:question-nav:e2e": "playwright test --config=playwright.config.ts",
     "audit:question-nav": "npm run audit:question-nav:static && npm run audit:question-nav:e2e",
     "test:server": "npm --prefix server run test",
-    "eval:rag": "cd evals/ragas && python run_eval.py --all"
+    "eval:rag": "cd evals/ragas && python run_eval.py --all",
+    "rag:up": "docker compose -f docker-compose.rag.local.yml up -d",
+    "rag:down": "docker compose -f docker-compose.rag.local.yml down",
+    "rag:logs": "docker compose -f docker-compose.rag.local.yml logs -f",
+    "rag:ps": "docker compose -f docker-compose.rag.local.yml ps"
   },
   "dependencies": {
     "ant-design-vue": "^4.0.0",

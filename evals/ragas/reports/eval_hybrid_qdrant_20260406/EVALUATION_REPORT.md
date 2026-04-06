@@ -1,10 +1,10 @@
 # IELTS Reading 助手 RAG 评测报告
 
-**生成时间**: 2026-04-06T01:04:07.961557
+**生成时间**: 2026-04-06T17:21:21.308309
 
 ## 运行配置说明
 
-本次为 **基线**：仅配置 **LLM API**（`LLM_`*），未单独配置嵌入专用 key；**未配置 Qdrant**（向量语义检索未启用）。助手运行时为 `llm-enabled`，检索以题号/段落等确定性上下文为主。
+本次为 **基线**：仅配置 **LLM API**（`LLM_*`），未单独配置嵌入专用 key；**未配置 Qdrant**（向量语义检索未启用）。助手运行时为 `llm-enabled`，检索以题号/段落等确定性上下文为主。
 
 **Ragas LLM 指标**：当前 Python 为 3.14 时已自动跳过（见 `ragas_*_skipped.txt`）；若需 faithfulness / context_precision 等，请用 Python 3.12/3.13 重跑或设置 `RAGAS_FORCE=1` 尝试。
 
@@ -13,13 +13,13 @@
 - 总样本数: 141
 - 成功调用: 137
 - 失败调用: 4
-- 平均延迟 (ms): 1156.4
-- Replay 文件: `reports/baseline_llm_only_no_qdrant\replay_20260406_010311.jsonl`
+- 平均延迟 (ms): 4384.5
+- Replay 文件: `reports/eval_hybrid_qdrant_20260406\replay_20260406_171754.jsonl`
 
 ## 检索质量（自定义指标）
 
 - **Question hit rate**: 2.94%
-- **Avg noise penalty**: 0.0241
+- **Avg noise penalty**: 0.0258
 - **Heading list hit rate**: 100.00%
 - 参与统计条数: 102
 - 跳过证据类指标条数: 35
@@ -31,9 +31,9 @@
 
 ## 答案质量（自定义指标）
 
-- **Avg answer score**: 0.8847
-- **Style match rate**: 75.91%
-- **Style violations 条数**: 54
+- **Avg answer score**: 0.8891
+- **Style match rate**: 81.02%
+- **Style violations 条数**: 44
 
 ### Ragas 答案阶段指标
 

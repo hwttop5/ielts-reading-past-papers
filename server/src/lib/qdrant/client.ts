@@ -1,4 +1,5 @@
-import { requireAssistantEnv } from '../../config/env.js'
+import { requireQdrantEnv } from '../../config/env.js'
+import { toQdrantPointId } from './point-id.js'
 import type { QuestionSummaryDoc, RagChunk, StoredVectorPoint } from '../../types/question-bank.js'
 
 interface QdrantResponse<T> {
@@ -22,7 +23,7 @@ interface QdrantSearchResult<TPayload> {
 }
 
 function buildHeaders() {
-  const { QDRANT_API_KEY } = requireAssistantEnv()
+  const { QDRANT_API_KEY } = requireQdrantEnv()
   const headers: Record<string, string> = {
     'Content-Type': 'application/json'
   }
@@ -35,7 +36,7 @@ function buildHeaders() {
 }
 
 function getQdrantBaseUrl(): string {
-  const { QDRANT_URL } = requireAssistantEnv()
+  const { QDRANT_URL } = requireQdrantEnv()
   if (!QDRANT_URL) {
     throw new Error('Missing QDRANT_URL in server/.env')
   }
@@ -55,19 +56,50 @@ async function qdrantRequest<TResponse>(path: string, init: RequestInit = {}): P
   })
 
   if (!response.ok) {
-    throw new Error(`Qdrant request failed: ${response.status} ${response.statusText}`)
+    const detail = await response.text().catch(() => '')
+    throw new Error(`Qdrant request failed: ${response.status} ${response.statusText}${detail ? ` — ${detail}` : ''}`)
   }
 
   return response.json() as Promise<TResponse>
 }
 
 export class QdrantClient {
+  /**
+   * Keyword index on `questionId` speeds up question-scoped filters.
+   * Safe to call on existing collections; ignores duplicate-index responses.
+   */
+  async ensureQuestionIdPayloadIndex(collectionName: string) {
+    const baseUrl = getQdrantBaseUrl()
+    const indexUrl = new URL(`collections/${collectionName}/index`, baseUrl)
+    indexUrl.searchParams.set('wait', 'true')
+    const response = await fetch(indexUrl, {
+      method: 'PUT',
+      headers: buildHeaders(),
+      body: JSON.stringify({
+        field_name: 'questionId',
+        field_schema: 'keyword'
+      })
+    })
+
+    if (response.ok) {
+      return
+    }
+
+    const text = await response.text()
+    if (response.status === 409 || /already exists/i.test(text)) {
+      return
+    }
+
+    throw new Error(`Failed to create payload index on ${collectionName}.questionId: ${response.status} ${text}`)
+  }
+
   async ensureCollection(name: string, vectorSize: number) {
     const baseUrl = getQdrantBaseUrl()
     const collectionUrl = new URL(`collections/${name}`, baseUrl)
     const existing = await fetch(collectionUrl, { headers: buildHeaders() })
 
     if (existing.ok) {
+      await this.ensureQuestionIdPayloadIndex(name)
       return
     }
 
@@ -84,6 +116,8 @@ export class QdrantClient {
         }
       })
     })
+
+    await this.ensureQuestionIdPayloadIndex(name)
   }
 
   async upsertPoints(name: string, points: StoredVectorPoint<QdrantPayload>[]) {
@@ -94,7 +128,11 @@ export class QdrantClient {
     await qdrantRequest(`collections/${name}/points?wait=true`, {
       method: 'PUT',
       body: JSON.stringify({
-        points
+        points: points.map((p) => ({
+          id: toQdrantPointId(p.id),
+          vector: p.vector,
+          payload: p.payload
+        }))
       })
     })
   }

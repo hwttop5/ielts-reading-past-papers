@@ -1,5 +1,7 @@
 # Ragas Evaluation Framework for IELTS Reading AI Assistant
 
+Embedding configuration for Ragas matches the server: **`EMBEDDING_BASE_URL` / `EMBEDDING_API_KEY` / `EMBEDDING_MODEL`** are read from `server/.env` first (see `evaluator.py`); legacy `OPENAI_EMBEDDING_BASE_URL` / `OPENAI_EMBED_MODEL` remain supported.
+
 ## Requirements
 
 - Python 3.10+

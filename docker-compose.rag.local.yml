@@ -1,0 +1,54 @@
+# Local RAG stack: Text Embeddings Inference (TEI) + Qdrant.
+# Requires Docker Desktop with WSL2 backend and NVIDIA GPU support for TEI.
+# See README.md / README.en.md (Local RAG / Docker) for ports and verification.
+#
+# Start: docker compose -f docker-compose.rag.local.yml up -d
+# Or from repo root: npm run rag:up
+
+services:
+  tei:
+    image: ghcr.io/huggingface/text-embeddings-inference:cuda-1.9
+    ports:
+      - "8080:80"
+    volumes:
+      - tei_data:/data
+    command:
+      - --model-id
+      - intfloat/multilingual-e5-base
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # Use absolute path: minimal PATH in healthcheck often omits /usr/bin
+    healthcheck:
+      test: ["CMD-SHELL", "/usr/bin/curl -fsS http://127.0.0.1:80/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 12
+      start_period: 180s
+
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    # 显式指定镜像内 Web UI 静态文件目录，避免部分环境下 /dashboard 返回 404
+    environment:
+      QDRANT__SERVICE__ENABLE_STATIC_CONTENT: "true"
+      QDRANT__SERVICE__STATIC_CONTENT_DIR: /qdrant/static
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    # qdrant image has no curl/wget in PATH; bash /dev/tcp checks listener
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'exec 3<>/dev/tcp/127.0.0.1/6333' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+
+volumes:
+  tei_data:
+  qdrant_storage:

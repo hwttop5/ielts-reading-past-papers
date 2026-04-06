@@ -5,7 +5,12 @@
  */
 
 import { OpenAIEmbeddings } from '@langchain/openai'
-import { env, hasAssistantSemanticSearchConfig } from '../../../config/env.js'
+import {
+  createAssistantEmbeddings,
+  env,
+  getResolvedEmbeddingConfig,
+  hasAssistantSemanticSearchConfig
+} from '../../../config/env.js'
 import type { QuestionSummaryDoc, RagChunk, StoredVectorPoint } from '../../../types/question-bank.js'
 import type {
   VectorStoreProvider,
@@ -41,39 +46,63 @@ export class QdrantAssistantSemanticSearch implements VectorStoreProvider {
   private readonly client: QdrantClient
 
   constructor(
-    embeddings: OpenAIEmbeddings = new OpenAIEmbeddings({
-      apiKey: env.OPENAI_API_KEY,
-      model: env.OPENAI_EMBED_MODEL,
-      ...(env.OPENAI_EMBEDDING_BASE_URL
-        ? { configuration: { baseURL: env.OPENAI_EMBEDDING_BASE_URL } }
-        : {})
-    }),
+    embeddings: OpenAIEmbeddings = createAssistantEmbeddings(),
     client: QdrantClient = new QdrantClient()
   ) {
     this.embeddings = embeddings
     this.client = client
   }
 
+  private async embedQueryForE5(queryText: string): Promise<number[]> {
+    const prefixed = `query: ${queryText}`
+    try {
+      return await this.embeddings.embedQuery(prefixed)
+    } catch (err: unknown) {
+      const emb = getResolvedEmbeddingConfig()
+      const hint = emb.baseURL
+        ? `Embedding 请求失败（请确认本地 TEI 可用：${emb.baseURL}）。`
+        : 'Embedding 请求失败（请检查 OPENAI_API_KEY / OPENAI_EMBEDDING_BASE_URL）。'
+      const prev = err instanceof Error ? err.message : String(err)
+      throw new Error(`${hint} ${prev}`)
+    }
+  }
+
   async searchChunks(input: ChunkSemanticSearchInput): Promise<RagChunk[]> {
-    const vector = await this.embeddings.embedQuery(input.queryText)
-    const points = await this.client.searchPoints<RagChunk>(
-      env.QDRANT_COLLECTION_CHUNKS,
-      vector,
-      buildQuestionFilter(input.questionId),
-      input.limit
-    )
+    const vector = await this.embedQueryForE5(input.queryText)
+    let points: StoredVectorPoint<RagChunk>[]
+    try {
+      points = await this.client.searchPoints<RagChunk>(
+        env.QDRANT_COLLECTION_CHUNKS,
+        vector,
+        buildQuestionFilter(input.questionId),
+        input.limit
+      )
+    } catch (err: unknown) {
+      const prev = err instanceof Error ? err.message : String(err)
+      throw new Error(
+        `Qdrant 不可用或 chunks 检索失败（请确认 QDRANT_URL 可访问且已灌库 ${env.QDRANT_COLLECTION_CHUNKS}）。 ${prev}`
+      )
+    }
 
     return this.uniqueValues(points.map((point: { payload: RagChunk }) => point.payload))
   }
 
   async searchSummaries(input: SummarySemanticSearchInput): Promise<QuestionSummaryDoc[]> {
-    const vector = await this.embeddings.embedQuery(input.queryText)
-    const points = await this.client.searchPoints<QuestionSummaryDoc>(
-      env.QDRANT_COLLECTION_SUMMARIES,
-      vector,
-      undefined,
-      Math.max(input.limit * 2, input.limit)
-    )
+    const vector = await this.embedQueryForE5(input.queryText)
+    let points: StoredVectorPoint<QuestionSummaryDoc>[]
+    try {
+      points = await this.client.searchPoints<QuestionSummaryDoc>(
+        env.QDRANT_COLLECTION_SUMMARIES,
+        vector,
+        undefined,
+        Math.max(input.limit * 2, input.limit)
+      )
+    } catch (err: unknown) {
+      const prev = err instanceof Error ? err.message : String(err)
+      throw new Error(
+        `Qdrant 不可用或 summaries 检索失败（请确认 QDRANT_URL 可访问且已灌库 ${env.QDRANT_COLLECTION_SUMMARIES}）。 ${prev}`
+      )
+    }
 
     const excluded = new Set(input.excludeQuestionIds ?? [])
 
@@ -94,8 +123,8 @@ export class QdrantAssistantSemanticSearch implements VectorStoreProvider {
   }
 
   async ensureCollections(): Promise<void> {
-    // Get vector size from embeddings
-    const sampleVector = await this.embeddings.embedQuery('sample')
+    // Get vector size from embeddings (E5 retrieval uses `query:` prefix)
+    const sampleVector = await this.embedQueryForE5('sample')
     const vectorSize = sampleVector.length
 
     await this.client.ensureCollection(env.QDRANT_COLLECTION_CHUNKS, vectorSize)

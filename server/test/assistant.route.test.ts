@@ -176,11 +176,23 @@ function createMockQuestionBankModule() {
   }
 }
 
+function llmJsonResponse(body: unknown) {
+  return new Response(JSON.stringify(body), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' }
+  })
+}
+
 describe('assistant route integration', () => {
   beforeEach(() => {
     process.env = { ...ORIGINAL_ENV }
-    delete process.env.QDRANT_URL
-    delete process.env.QDRANT_API_KEY
+    // Dotenv merges server/.env on first import and does not override existing keys.
+    // Pin empty strings so real Qdrant/TEI from .env are not applied — integration tests use mocks only.
+    process.env.QDRANT_URL = ''
+    process.env.QDRANT_API_KEY = ''
+    process.env.EMBEDDING_BASE_URL = ''
+    process.env.EMBEDDING_API_KEY = ''
+    process.env.OPENAI_EMBEDDING_BASE_URL = ''
     process.env.LLM_PROVIDER = 'openrouter'
     process.env.LLM_API_KEY = 'test-key'
     process.env.LLM_BASE_URL = 'https://openrouter.ai/api/v1'
@@ -217,18 +229,16 @@ describe('assistant route integration', () => {
       }
     })
 
-    global.fetch = vi.fn().mockResolvedValue(
-      new Response(JSON.stringify({
+    global.fetch = vi.fn(async () =>
+      llmJsonResponse({
         choices: [
           {
             message: {
-              content: '{"answer":"Start with the paragraph that explains how sleep was measured.","followUps":["Look for the measurement paragraph.","Track the evidence sentence."]}'
+              content:
+                '{"answer":"Start with the paragraph that explains how sleep was measured.","followUps":["Look for the measurement paragraph.","Track the evidence sentence."]}'
             }
           }
         ]
-      }), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
       })
     ) as typeof fetch
 
@@ -267,15 +277,18 @@ describe('assistant route integration', () => {
       }
     })
 
-    global.fetch = vi.fn().mockResolvedValue(
-      new Response(JSON.stringify({
+    global.fetch = vi.fn(async () =>
+      llmJsonResponse({
         choices: [
           {
             message: {
               content: JSON.stringify({
                 answer: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.',
                 answerSections: [
-                  { type: 'direct_answer', text: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.' }
+                  {
+                    type: 'direct_answer',
+                    text: 'Use the uploaded notes as a reminder to compare Q12 with the evidence sentence.'
+                  }
                 ],
                 followUps: ['Re-check Q12 against the passage evidence.'],
                 confidence: 'high',
@@ -284,9 +297,6 @@ describe('assistant route integration', () => {
             }
           }
         ]
-      }), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
       })
     ) as typeof fetch
 
