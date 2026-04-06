@@ -1,0 +1,208 @@
+{
+  "timestamp": "2026-04-06T17:21:21.308309",
+  "total_samples": 141,
+  "successful_evaluations": 137,
+  "failed_evaluations": 4,
+  "avg_latency_ms": 4384.530547761569,
+  "retrieval_metrics": {
+    "question_hit_rate": 0.029411764705882353,
+    "avg_noise_penalty": 0.025816993464052286,
+    "heading_list_hit_rate": 1.0,
+    "ragas_metrics": {},
+    "num_samples": 102,
+    "num_errors": 4,
+    "skipped_evidence_metrics": 35,
+    "assistant_route_counts": {
+      "page_grounded": 103,
+      "unrelated_chat": 33,
+      "ielts_general": 1
+    },
+    "heading_matching_total": 5,
+    "heading_matching_hits": 5
+  },
+  "answer_metrics": {
+    "avg_answer_score": 0.8890510948905109,
+    "style_match_rate": 0.8102189781021898,
+    "style_violations": [
+      [
+        "p1-high-24_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-high-24_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-high-27_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-high-27_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-high-27_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-high-31_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-high-31_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-high-79_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-29_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-medium-29_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-medium-33_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-33_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-33_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-medium-33_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-low-11_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-low-11_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-low-11_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-low-13_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-low-13_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-high-09_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-high-09_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-high-17_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-high-17_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-medium-10_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-medium-10_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-low-06_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-low-06_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-low-08_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-low-08_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-low-37_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-low-37_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-high-03_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-high-03_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-high-15_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-high-15_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-high-32_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p3-high-32_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-high-32_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-medium-66_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-medium-66_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-low-07_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-low-07_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-low-12_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-low-12_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ]
+    ],
+    "ragas_metrics": {},
+    "num_samples": 137
+  },
+  "replay_file": "reports/eval_hybrid_qdrant_20260406\\replay_20260406_171754.jsonl"
+}

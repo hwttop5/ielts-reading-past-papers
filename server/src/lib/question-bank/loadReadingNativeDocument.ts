@@ -225,7 +225,7 @@ function extractPassageParagraphs(exam: ReadingExamDocument, sourcePath: string)
   const chunks: RagChunk[] = []
   const VALID_PARAGRAPH_LABELS = new Set(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'])
 
-  for (const block of exam.passageBlocks) {
+  for (const [blockIndex, block] of exam.passageBlocks.entries()) {
     const paragraphElements = block.nodes.filter(
       (node): node is ReadingAstNode & { type: 'element'; tag: string; children: ReadingAstNode[] } =>
         node.type === 'element' && node.tag === 'p' && 'children' in node
@@ -271,7 +271,7 @@ function extractPassageParagraphs(exam: ReadingExamDocument, sourcePath: string)
       }
     }
 
-    for (const p of paragraphElements) {
+    for (const [paragraphIndex, p] of paragraphElements.entries()) {
       const text = extractTextFromNodes(p.children || [])
       if (!text) continue
 
@@ -280,13 +280,16 @@ function extractPassageParagraphs(exam: ReadingExamDocument, sourcePath: string)
         continue
       }
 
+      const suffixBase = extractedLabel || block.blockId || `block-${blockIndex + 1}`
+      const suffix = `${suffixBase}-${paragraphIndex + 1}`
+
       chunks.push(
         buildChunk(
           { id: exam.examId, title: exam.meta.title, category: exam.meta.category || 'P1', difficulty: exam.meta.frequency || 'unknown' } as QuestionIndexEntry,
           sourcePath,
           'passage_paragraph',
           false,
-          extractedLabel || block.blockId,
+          suffix,
           text,
           [],
           extractedLabel ? [extractedLabel] : [],
@@ -297,7 +300,7 @@ function extractPassageParagraphs(exam: ReadingExamDocument, sourcePath: string)
   }
 
   if (chunks.length === 0) {
-    for (const block of exam.passageBlocks) {
+    for (const [blockIndex, block] of exam.passageBlocks.entries()) {
       const text = extractTextFromNodes(block.nodes)
       if (text && !/^you should spend about/i.test(text) && !/^reading passage/i.test(text)) {
         chunks.push(
@@ -306,7 +309,7 @@ function extractPassageParagraphs(exam: ReadingExamDocument, sourcePath: string)
             sourcePath,
             'passage_paragraph',
             false,
-            block.blockId,
+            `${block.blockId || 'block'}-${blockIndex + 1}`,
             text,
             [],
             [],
@@ -383,8 +386,9 @@ function extractQuestionChunks(exam: ReadingExamDocument, sourcePath: string): R
     }
   }
 
-  for (const group of exam.questionGroups) {
+  for (const [groupIndex, group] of exam.questionGroups.entries()) {
     const questionType = inferQuestionType(group)
+    const groupSuffix = group.groupId || `group-${groupIndex + 1}`
 
     for (const questionId of group.questionIds) {
       const displayNumber = exam.questionDisplayMap[questionId] || questionId.replace('q', '')
@@ -408,7 +412,7 @@ function extractQuestionChunks(exam: ReadingExamDocument, sourcePath: string): R
           sourcePath,
           'question_item',
           false,
-          questionId,
+          `${groupSuffix}-${questionId}-${displayNumber}`,
           combinedText,
           [displayNumber],
           paragraphLabels,

@@ -25,9 +25,12 @@ def _sync_ragas_env_from_server() -> None:
         os.environ["OPENAI_API_KEY"] = os.environ["LLM_API_KEY"].strip()
     if not (os.getenv("OPENAI_BASE_URL") or "").strip() and (os.getenv("LLM_BASE_URL") or "").strip():
         os.environ["OPENAI_BASE_URL"] = os.environ["LLM_BASE_URL"].strip().rstrip("/")
-    # Embeddings client (LangChain reads OPENAI_API_BASE); server uses OPENAI_EMBEDDING_BASE_URL.
+    # Embeddings client (LangChain reads OPENAI_API_BASE); server prefers EMBEDDING_* then OPENAI_EMBEDDING_BASE_URL.
     if not (os.getenv("OPENAI_API_BASE") or "").strip():
-        emb = (os.getenv("OPENAI_EMBEDDING_BASE_URL") or "").strip()
+        emb = (
+            (os.getenv("EMBEDDING_BASE_URL") or "").strip()
+            or (os.getenv("OPENAI_EMBEDDING_BASE_URL") or "").strip()
+        )
         llm_base = (os.getenv("LLM_BASE_URL") or "").strip()
         if emb:
             os.environ["OPENAI_API_BASE"] = emb.rstrip("/")
@@ -506,8 +509,30 @@ def run_ragas_evaluation(
     if base:
         base = base.rstrip("/")
     ragas_llm = llm_factory(model=chat_model, base_url=base)
-    embed_model = os.getenv("OPENAI_EMBED_MODEL") or "text-embedding-3-small"
-    ragas_embeddings = embedding_factory(model=embed_model)
+    embed_model = (
+        (os.getenv("EMBEDDING_MODEL") or "").strip()
+        or (os.getenv("OPENAI_EMBED_MODEL") or "").strip()
+        or "text-embedding-3-small"
+    )
+    _saved_key = os.environ.get("OPENAI_API_KEY")
+    _saved_base = os.environ.get("OPENAI_API_BASE")
+    try:
+        emb_url = (os.getenv("EMBEDDING_BASE_URL") or "").strip()
+        if emb_url:
+            os.environ["OPENAI_API_BASE"] = emb_url.rstrip("/")
+            os.environ["OPENAI_API_KEY"] = (os.getenv("EMBEDDING_API_KEY") or "-").strip()
+        elif (os.getenv("OPENAI_EMBEDDING_BASE_URL") or "").strip():
+            os.environ["OPENAI_API_BASE"] = os.getenv("OPENAI_EMBEDDING_BASE_URL", "").strip().rstrip("/")
+        ragas_embeddings = embedding_factory(model=embed_model)
+    finally:
+        if _saved_key is None:
+            os.environ.pop("OPENAI_API_KEY", None)
+        else:
+            os.environ["OPENAI_API_KEY"] = _saved_key
+        if _saved_base is None:
+            os.environ.pop("OPENAI_API_BASE", None)
+        else:
+            os.environ["OPENAI_API_BASE"] = _saved_base
 
     try:
         result = evaluate(

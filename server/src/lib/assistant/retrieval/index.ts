@@ -1,7 +1,7 @@
 /**
  * Vector Store Provider Factory
  *
- * Semantic search uses Qdrant when OPENAI_API_KEY and QDRANT_URL are configured.
+ * Semantic search uses Qdrant when QDRANT_URL and a usable embedding endpoint (EMBEDDING_* or legacy OPENAI_*) are configured.
  */
 
 import { hasAssistantSemanticSearchConfig } from '../../../config/env.js'

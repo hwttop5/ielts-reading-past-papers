@@ -135,8 +135,11 @@
           </div>
           <div class="practice-meta">
             <div class="meta-left">
-              <span class="meta-tag category">{{ record.category }}</span>
-              <span class="meta-tag difficulty" v-if="getQuestionFrequency(record.questionId)">{{ getFrequencyLabel(record.questionId) }}</span>
+              <span :class="['meta-tag', categoryTagClass(record.category)]">{{ record.category }}</span>
+              <span
+                v-if="getQuestionFrequency(record.questionId)"
+                :class="['meta-tag', frequencyTagClass(record.questionId)]"
+              >{{ getFrequencyLabel(record.questionId) }}</span>
               <span class="meta-tag score highlight">
                 <span class="material-icons" style="font-size: 14px;">check_circle</span>
                 {{ record.correctAnswers }}/{{ record.totalQuestions }}
@@ -204,6 +207,20 @@ const getFrequencyLabel = (id: string) => {
   if (frequency === 'medium') return t('browse.frequency.medium')
   if (frequency === 'low') return t('browse.frequency.low')
   return frequency
+}
+
+/** 与题库页 Browse.vue 中 .category-p1 / p2 / p3 一致 */
+const categoryTagClass = (category: string) => {
+  const c = String(category || '').toLowerCase()
+  if (c === 'p1' || c === 'p2' || c === 'p3') return `meta-category-${c}`
+  return 'meta-category-default'
+}
+
+/** 与题库页 Browse.vue 中 .tag-high / .tag-medium / .tag-low 一致 */
+const frequencyTagClass = (questionId: string) => {
+  const f = getQuestionFrequency(questionId)
+  if (f === 'high' || f === 'medium' || f === 'low') return `meta-frequency-${f}`
+  return 'meta-frequency-default'
 }
 
 const viewRecord = (record: any) => {
@@ -755,15 +772,52 @@ const randomPractice = (category?: string) => {
   color: var(--text-secondary);
 }
 
-.meta-tag.category {
-  background: rgba(37, 99, 235, 0.1);
-  color: var(--primary-color);
+.meta-tag.meta-category-p1 {
   font-weight: 600;
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
 }
 
-.meta-tag.difficulty {
-  background: rgba(220, 38, 38, 0.1);
+.meta-tag.meta-category-p2 {
+  font-weight: 600;
+  background: rgba(59, 130, 246, 0.12);
+  color: #2563eb;
+}
+
+.meta-tag.meta-category-p3 {
+  font-weight: 600;
+  background: rgba(139, 92, 246, 0.12);
+  color: #7c3aed;
+}
+
+.meta-tag.meta-category-default {
+  font-weight: 600;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
+.meta-tag.meta-frequency-high {
+  font-weight: 600;
+  background: rgba(239, 68, 68, 0.1);
   color: #dc2626;
+}
+
+.meta-tag.meta-frequency-medium {
+  font-weight: 600;
+  background: rgba(234, 179, 8, 0.14);
+  color: #ea580c;
+}
+
+.meta-tag.meta-frequency-low {
+  font-weight: 600;
+  background: rgba(96, 165, 250, 0.12);
+  color: #60a5fa;
+}
+
+.meta-tag.meta-frequency-default {
+  font-weight: 600;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
 }
 
 .meta-tag.score {

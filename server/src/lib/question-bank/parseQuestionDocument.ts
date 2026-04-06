@@ -1,14 +1,25 @@
 import type { ParsedQuestionDocument, QuestionIndexEntry, QuestionSummaryDoc, RagChunk } from '../../types/question-bank.js'
 import { buildQualityReport } from './qualityCheck.js'
 import { parseQuestionDocument as parseQuestionHtmlDocument } from './parseQuestionHtml.js'
+import { parseReadingNativeDocument } from './loadReadingNativeDocument.js'
 import { parseQuestionPdf } from './parseQuestionPdf.js'
 
 export async function parseQuestionDocument(question: QuestionIndexEntry): Promise<ParsedQuestionDocument> {
+  const nativeDocument = await parseReadingNativeDocument(question)
+  if (nativeDocument) {
+    return nativeDocument
+  }
+
   if (question.pdfPath) {
     try {
+      const pdfDocumentPromise = parseQuestionPdf(question)
+      const htmlDocumentPromise = question.htmlPath
+        ? parseQuestionHtmlFallback(question).catch(() => null)
+        : Promise.resolve(null)
+
       const [pdfDocument, htmlDocument] = await Promise.all([
-        parseQuestionPdf(question),
-        parseQuestionHtmlFallback(question).catch(() => null)
+        pdfDocumentPromise,
+        htmlDocumentPromise
       ])
 
       return htmlDocument ? mergeParsedDocuments(question, pdfDocument, htmlDocument) : pdfDocument
@@ -21,6 +32,9 @@ export async function parseQuestionDocument(question: QuestionIndexEntry): Promi
 }
 
 async function parseQuestionHtmlFallback(question: QuestionIndexEntry): Promise<ParsedQuestionDocument> {
+  if (!question.htmlPath) {
+    throw new Error(`Question ${question.id} has no htmlPath for HTML fallback parsing.`)
+  }
   return parseQuestionHtmlDocument(question)
 }
 

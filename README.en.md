@@ -26,7 +26,7 @@ What you can use in the app, in plain language (no development or deployment det
 ## Requirements
 
 - Node.js ≥ 18 (npm)
-- For local AI features, configure `LLM_API_KEY` and related keys in `server/.env` (see `server/src/config/env.ts`). For **RAG semantic retrieval**, configure embeddings and **Qdrant** (`OPENAI_API_KEY`, `QDRANT_URL`, etc.). Without them, some behavior falls back to local template-only mode.
+- For local AI features, configure `LLM_API_KEY` and related keys in `server/.env` (see `server/src/config/env.ts`). For **RAG semantic retrieval**, configure an **embedding endpoint** (prefer `EMBEDDING_*`) and **`QDRANT_URL`**. Without them, some behavior falls back to local template-only mode.
 
 ---
 
@@ -57,10 +57,11 @@ npm run preview      # preview build (/api proxied to local assistant)
 
 ```
 repo-root/
-  src/            # frontend source
-  server/         # assistant API
-  evals/ragas/    # RAG eval
-  public/         # static assets (PDFs, etc.)
+  src/                          # frontend source
+  server/                       # assistant API
+  evals/ragas/                  # optional RAG evaluation
+  docker-compose.rag.local.yml  # local TEI embeddings + Qdrant (Docker)
+  public/                       # static assets (PDFs, etc.)
 ```
 
 ---
@@ -70,7 +71,7 @@ repo-root/
 | Layer | Stack |
 | --- | --- |
 | Frontend | Vue 3, TypeScript, Vite, Pinia, Vue Router, Ant Design Vue |
-| Assistant API | Node.js, Fastify, LangChain (OpenRouter or compatible APIs); semantic search uses **Qdrant** (`OPENAI_API_KEY` + `QDRANT_URL`) |
+| Assistant API | Node.js, Fastify, LangChain (OpenRouter or compatible APIs); semantic search uses **Qdrant** + OpenAI-compatible embeddings (prefer `EMBEDDING_*` + `QDRANT_URL`) |
 | Optional eval | `evals/ragas/`: Python + Ragas for offline retrieval/answer quality |
 
 ---
@@ -79,8 +80,45 @@ repo-root/
 
 - Copy from [`server/.env.example`](server/.env.example); field definitions and defaults are in [`server/src/config/env.ts`](server/src/config/env.ts).
 - **Chat and intent routing**: `LLM_API_KEY` and `LLM_*` (e.g. `LLM_PROVIDER`, `LLM_CHAT_MODEL`).
-- **RAG semantic retrieval**: `OPENAI_API_KEY` (embeddings) and **`QDRANT_URL`** (and `QDRANT_API_KEY` if required).
+- **RAG semantic retrieval**: **`QDRANT_URL`** plus a working embedding base URL/key (`EMBEDDING_*` preferred; legacy `OPENAI_EMBEDDING_BASE_URL` / `OPENAI_EMBED_MODEL` / `OPENAI_API_KEY` still supported).
 - **Web search** and other options (e.g. `TAVILY_API_KEY`) are documented in the env file comments.
+
+### Local RAG (Docker on Windows)
+
+This stack is for **local** vector retrieval only; it does not change production (e.g. Vercel static hosting). The assistant API can still run on your machine or any Node host.
+
+**Environment**: Prefer **Docker Desktop** with the **WSL2 backend** and **GPU containers** (NVIDIA) for TEI. Allocate roughly **8–10GB** RAM to the Linux engine; avoid running other heavy GPU workloads alongside TEI if VRAM is tight.
+
+**First-time Docker / `docker` or `winget` not found**:
+
+- **Docker Desktop** (PowerShell):  
+  `winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements`  
+  Then start Docker Desktop and wait until it is ready; run `docker version`.
+- **PATH**: If `docker` is still missing in a **new** terminal, add  
+  `C:\Program Files\Docker\Docker\resources\bin`.  
+  If `winget` is missing, add `%LOCALAPPDATA%\Microsoft\WindowsApps`.
+
+**Default stack** (see repo root `docker-compose.rag.local.yml`):
+
+| Service | Image | Host ports | Notes |
+| --- | --- | --- | --- |
+| TEI | `ghcr.io/huggingface/text-embeddings-inference:cuda-1.9` | **8080** (maps container **80**) | Model default `intfloat/multilingual-e5-base`, OpenAI-compatible `/v1/embeddings` |
+| Qdrant | `qdrant/qdrant` | **6333** (HTTP), **6334** (gRPC) | Dashboard: `http://localhost:6333/dashboard` |
+
+**Commands** (from repo root):
+
+- `npm run rag:up` / `npm run rag:down` / `npm run rag:logs` / `npm run rag:ps`
+
+**`server/.env` example** (same idea as [`server/.env.example`](server/.env.example)): `EMBEDDING_BASE_URL=http://127.0.0.1:8080/v1`, `EMBEDDING_API_KEY=-`, `EMBEDDING_MODEL=text-embeddings-inference`, `QDRANT_URL=http://127.0.0.1:6333`.
+
+**Smoke checks (TEI / Qdrant reachable on the host)**:
+
+- `docker compose -f docker-compose.rag.local.yml ps`: TEI should show **`0.0.0.0:8080->80/tcp`**, Qdrant **`6333->6333`**. If TEI only shows `80/tcp` with no host port, **`8080` was likely taken** when the container started, or publishing failed—free `8080` and run `docker compose -f docker-compose.rag.local.yml up -d --force-recreate tei`.
+- `curl -s http://127.0.0.1:8080/health` (200 after TEI is ready; first download/load can take minutes)
+- `curl -s http://127.0.0.1:6333/` (JSON with `version`)
+- With the assistant API running, open `http://127.0.0.1:8787/health`: `semanticSearchConfigured` should be `true`; if `LLM_API_KEY` is set, `assistantRuntimeMode` should be **`llm-enabled-hybrid-retrieval`**.
+
+**Ingestion**: After changing embedding models or moving from cloud to local embeddings, **rebuild the index**; do not mix old and new vectors. Start with `npm --prefix server run ingest -- --limit=5`, then run a full ingest without `--limit`.
 
 ---
 

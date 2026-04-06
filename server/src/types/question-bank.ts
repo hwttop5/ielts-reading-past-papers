@@ -10,7 +10,7 @@ export interface QuestionIndexEntry {
   titleCN?: string
   category: 'P1' | 'P2' | 'P3'
   difficulty: string
-  htmlPath: string
+  htmlPath?: string
   pdfPath?: string
 }
 

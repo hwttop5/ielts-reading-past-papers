@@ -1,5 +1,10 @@
 import Fastify from 'fastify'
-import { env, getAssistantRuntimeMode, hasAssistantLlmConfig } from './config/env.js'
+import {
+  env,
+  getAssistantRuntimeMode,
+  hasAssistantLlmConfig,
+  hasAssistantSemanticSearchConfig
+} from './config/env.js'
 import { registerAssistantRoutes } from './routes/assistant.js'
 
 const DEV_LOCAL_FRONTEND_ORIGINS = [
@@ -60,7 +65,9 @@ export async function createApp() {
   })
 
   app.get('/health', async () => ({
-    status: 'ok'
+    status: 'ok',
+    assistantRuntimeMode: getAssistantRuntimeMode(),
+    semanticSearchConfigured: hasAssistantSemanticSearchConfig()
   }))
 
   await registerAssistantRoutes(app)

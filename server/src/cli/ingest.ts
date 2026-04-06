@@ -1,5 +1,4 @@
-import { OpenAIEmbeddings } from '@langchain/openai'
-import { env, requireAssistantEnv } from '../config/env.js'
+import { createAssistantEmbeddings, env, requireRagIngestEnv } from '../config/env.js'
 import { loadQuestionIndex, parseQuestionDocument } from '../lib/question-bank/index.js'
 import { QdrantClient } from '../lib/qdrant/client.js'
 import { chunkArray } from '../lib/utils/text.js'
@@ -16,10 +15,12 @@ function getLimit(): number | undefined {
 }
 
 async function embedPayloads<TPayload extends RagChunk | QuestionSummaryDoc>(
-  embeddings: OpenAIEmbeddings,
+  embeddings: ReturnType<typeof createAssistantEmbeddings>,
   payloads: TPayload[]
 ): Promise<StoredVectorPoint<TPayload>[]> {
-  const vectors = await embeddings.embedDocuments(payloads.map((payload) => payload.content))
+  const vectors = await embeddings.embedDocuments(
+    payloads.map((payload) => `passage: ${payload.content}`)
+  )
   return payloads.map((payload, index) => ({
     id: payload.id,
     vector: vectors[index],
@@ -38,11 +39,8 @@ async function upsertInBatches<TPayload extends RagChunk | QuestionSummaryDoc>(
 }
 
 async function main() {
-  const assistantEnv = requireAssistantEnv()
-  const embeddings = new OpenAIEmbeddings({
-    apiKey: assistantEnv.OPENAI_API_KEY,
-    model: env.OPENAI_EMBED_MODEL
-  })
+  requireRagIngestEnv()
+  const embeddings = createAssistantEmbeddings()
   const qdrant = new QdrantClient()
   const limit = getLimit()
   const questions = await loadQuestionIndex()

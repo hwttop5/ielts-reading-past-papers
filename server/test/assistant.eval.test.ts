@@ -170,6 +170,15 @@ function createDocument(question: QuestionIndexEntry, overrides: Partial<ParsedQ
   }
 }
 
+function createService(
+  deps: ConstructorParameters<typeof AssistantService>[0] = {}
+): AssistantService {
+  return new AssistantService({
+    semanticSearch: null,
+    ...deps
+  })
+}
+
 describe('assistant eval suite', () => {
   const question = createQuestion()
   const document = createDocument(question)
@@ -225,7 +234,7 @@ describe('assistant eval suite', () => {
       allChunks: [paragraphMatchingQuestion, document.passageChunks[0]]
     })
 
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => paragraphDocument,
@@ -249,7 +258,7 @@ describe('assistant eval suite', () => {
       allChunks: document.questionChunks
     })
 
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => questionOnlyDocument,
@@ -286,7 +295,7 @@ describe('assistant eval suite', () => {
       allChunks: [paragraphMatchingQuestion, document.passageChunks[0]]
     })
 
-    const service = new AssistantService({
+    const service = createService({
       provider: {
         generate: vi.fn().mockResolvedValue('{"answer":"The answer is paragraph B.","answerSections":[{"type":"direct_answer","text":"The answer is paragraph B."}],"followUps":["Check paragraph B first."],"confidence":"high","missingContext":[]}')      },
       questionLoader: async () => question,
@@ -305,7 +314,7 @@ describe('assistant eval suite', () => {
   })
 
   it('covers multi-question explain requests without collapsing to one item', async () => {
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => document,
@@ -324,7 +333,7 @@ describe('assistant eval suite', () => {
   })
 
   it('keeps draft review context before submission', async () => {
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => document,
@@ -348,7 +357,7 @@ describe('assistant eval suite', () => {
   })
 
   it('keeps submitted review wording distinct from draft review wording', async () => {
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => document,
@@ -383,7 +392,7 @@ describe('assistant eval suite', () => {
       keywords: ['sleep', 'hunter']
     })
 
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => document,
@@ -420,7 +429,7 @@ describe('assistant eval suite', () => {
       questionTypes: ['multiple_choice']
     })
 
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => document,
@@ -449,7 +458,7 @@ describe('assistant eval suite', () => {
       searchSummaries: vi.fn(async () => [])
     }
 
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => document,
@@ -492,7 +501,7 @@ describe('assistant eval suite', () => {
       searchSummaries: vi.fn(async () => [])
     }
 
-    const service = new AssistantService({
+    const service = createService({
       provider: null,
       questionLoader: async () => question,
       documentLoader: async () => sparseDocument,
@@ -511,7 +520,7 @@ describe('assistant eval suite', () => {
   })
 
   it('falls back to the local response when the provider errors and keeps citations grounded', async () => {
-    const service = new AssistantService({
+    const service = createService({
       provider: {
         generate: vi.fn().mockRejectedValue(new Error('timeout'))
       },

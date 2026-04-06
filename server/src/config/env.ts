@@ -1,3 +1,4 @@
+import { OpenAIEmbeddings } from '@langchain/openai'
 import { config as loadDotenv } from 'dotenv'
 import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
@@ -21,6 +22,14 @@ const envSchema = z.object({
   LLM_APP_URL: z.string().trim().optional(),
   LLM_APP_NAME: z.string().trim().default('IELTS Reading Past Papers'),
   OPENAI_API_KEY: z.string().trim().optional(),
+  /** Dedicated embedding stack (e.g. local TEI OpenAI-compatible `/v1`). Takes precedence over OPENAI_EMBEDDING_BASE_URL / OPENAI_EMBED_MODEL for embedding calls. */
+  EMBEDDING_PROVIDER: z.enum(['openai_compatible']).default('openai_compatible'),
+  EMBEDDING_BASE_URL: z.string().trim().optional(),
+  /** TEI and some gateways accept a placeholder when auth is disabled. */
+  EMBEDDING_API_KEY: z.string().trim().optional(),
+  EMBEDDING_MODEL: z.string().trim().default('text-embeddings-inference'),
+  /** Batch size for embedding document requests. Keep conservative for local TEI to avoid 422 on oversized batches. */
+  EMBEDDING_BATCH_SIZE: z.coerce.number().int().positive().default(32),
   /** Optional; defaults to OpenAI API when unset. Use when embeddings must go through a proxy or compatible gateway (e.g. domestic). */
   OPENAI_EMBEDDING_BASE_URL: z.string().trim().optional(),
   OPENAI_CHAT_MODEL: z.string().trim().default('gpt-4.1-mini'),
@@ -126,8 +135,53 @@ export function hasAssistantLlmConfig() {
   return Boolean(env.LLM_API_KEY)
 }
 
+export type ResolvedEmbeddingConfig = {
+  /** OpenAI-compatible API base (e.g. `http://127.0.0.1:8080/v1`). Undefined = default OpenAI embeddings endpoint. */
+  baseURL: string | undefined
+  apiKey: string
+  model: string
+}
+
+/**
+ * Prefer `EMBEDDING_*`; fall back to `OPENAI_EMBEDDING_BASE_URL` + `OPENAI_EMBED_MODEL` + `OPENAI_API_KEY`.
+ */
+export function getResolvedEmbeddingConfig(): ResolvedEmbeddingConfig {
+  const embBase = parsedEnv.EMBEDDING_BASE_URL?.trim()
+  if (embBase) {
+    return {
+      baseURL: embBase.replace(/\/$/, ''),
+      apiKey: (parsedEnv.EMBEDDING_API_KEY ?? '-').trim(),
+      model: parsedEnv.EMBEDDING_MODEL.trim()
+    }
+  }
+
+  const legacyBase = parsedEnv.OPENAI_EMBEDDING_BASE_URL?.trim()
+  return {
+    baseURL: legacyBase ? legacyBase.replace(/\/$/, '') : undefined,
+    apiKey: parsedEnv.OPENAI_API_KEY?.trim() ?? '',
+    model: parsedEnv.OPENAI_EMBED_MODEL
+  }
+}
+
+export function createAssistantEmbeddings(): OpenAIEmbeddings {
+  const c = getResolvedEmbeddingConfig()
+  return new OpenAIEmbeddings({
+    apiKey: c.apiKey,
+    model: c.model,
+    batchSize: env.EMBEDDING_BATCH_SIZE,
+    ...(c.baseURL ? { configuration: { baseURL: c.baseURL } } : {})
+  })
+}
+
 export function hasAssistantSemanticSearchConfig() {
-  return Boolean(env.OPENAI_API_KEY && env.QDRANT_URL)
+  if (!parsedEnv.QDRANT_URL?.trim()) {
+    return false
+  }
+  const e = getResolvedEmbeddingConfig()
+  if (e.baseURL) {
+    return true
+  }
+  return Boolean(e.apiKey)
 }
 
 export function hasWebSearchConfig() {
@@ -150,13 +204,23 @@ export function isRouterEnabled() {
   return env.ASSISTANT_ROUTER_ENABLED && hasAssistantLlmConfig()
 }
 
-export function requireAssistantEnv() {
-  if (!env.OPENAI_API_KEY) {
-    throw new Error('Missing OPENAI_API_KEY in server/.env')
+/** Qdrant REST client: only needs Qdrant URL (and optional API key). */
+export function requireQdrantEnv() {
+  if (!parsedEnv.QDRANT_URL?.trim()) {
+    throw new Error('Missing QDRANT_URL in server/.env')
   }
 
-  if (!env.QDRANT_URL) {
-    throw new Error('Missing QDRANT_URL in server/.env')
+  return env
+}
+
+/** Ingest / RAG stack: Qdrant + any embedding endpoint (local TEI or OpenAI). */
+export function requireRagIngestEnv() {
+  requireQdrantEnv()
+  const e = getResolvedEmbeddingConfig()
+  if (!e.baseURL && !e.apiKey) {
+    throw new Error(
+      'Missing embedding configuration: set EMBEDDING_BASE_URL (local TEI) or OPENAI_API_KEY / OPENAI_EMBEDDING_BASE_URL in server/.env'
+    )
   }
 
   return env
