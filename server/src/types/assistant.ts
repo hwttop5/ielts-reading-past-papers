@@ -74,6 +74,34 @@ export type SearchMode = 'auto' | 'off' | 'required'
 // Answer source indicates where the response came from
 export type AnswerSource = 'local' | 'llm' | 'pdf_fallback' | 'web' | 'hybrid'
 
+export interface AssistantTimingMetrics {
+  load_ms: number
+  context_ms: number
+  model_ms: number
+  total_ms: number
+  source: AnswerSource
+  cache_hit: boolean
+  route_ms?: number
+  deterministic_retrieval_ms?: number
+  semantic_retrieval_ms?: number
+  answer_generation_ms?: number
+  postprocess_ms?: number
+}
+
+export interface AssistantRetrievalDiagnostics {
+  contextRoute: string
+  answerStyle: string
+  focusQuestionNumbers: string[]
+  resolvedQuestionType?: string
+  deterministicChunkCount: number
+  semanticChunkCount: number
+  semanticCandidateCount?: number
+  sharedInstructionChunkCount: number
+  semanticSearchSkipped: boolean
+  semanticSearchSkipReason?: string
+  cacheHit: boolean
+}
+
 // Web citation for displaying sources
 export interface WebCitation {
   title: string
@@ -135,6 +163,10 @@ export interface AssistantQueryResponse {
   answerSource?: AnswerSource
   searchUsed?: boolean
   webCitations?: WebCitation[]
+  timings?: AssistantTimingMetrics
+  missingContextCodes?: string[]
+  retrievalDiagnostics?: AssistantRetrievalDiagnostics
+  styleApplied?: string
   /** Populated only when eval retrieval is enabled (see server routes + env). */
   retrievedChunks?: AssistantRetrievedChunk[]
   /** Router layer (unrelated_chat | ielts_general | page_grounded); set with retrievedChunks for eval. */

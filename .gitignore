@@ -70,6 +70,7 @@ __pycache__/
 *.so
 .Python
 evals/ragas/.venv/
+evals/ragas/.venv312/
 evals/ragas/venv/
 .pytest_cache/
 .coverage

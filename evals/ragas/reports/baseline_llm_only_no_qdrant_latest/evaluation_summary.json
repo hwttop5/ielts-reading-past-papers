@@ -1,0 +1,548 @@
+{
+  "timestamp": "2026-04-06T23:42:28.038882",
+  "environment": {
+    "python_version": "3.14.3",
+    "full_metrics_supported": false,
+    "forced": false,
+    "mode": "degraded",
+    "reason": "Python 3.14+ skips Ragas LLM metrics; use Python 3.13 for official runs (Python 3.12 is acceptable for local fallback)."
+  },
+  "total_samples": 141,
+  "valid_samples": 137,
+  "invalid_samples": 4,
+  "unsupported_samples": 0,
+  "assistant_error_samples": 0,
+  "successful_evaluations": 137,
+  "failed_evaluations": 4,
+  "sample_status_counts": {
+    "evaluated": 137,
+    "dataset_invalid": 4
+  },
+  "avg_latency_ms": 1156.3576364169155,
+  "retrieval_metrics": {
+    "question_hit_rate": 0.45098039215686275,
+    "legacy_question_hit_rate": 0.029411764705882353,
+    "avg_noise_penalty": 0.02405228758169935,
+    "heading_list_hit_rate": 1.0,
+    "ragas_metrics": {},
+    "num_samples": 102,
+    "num_errors": 4,
+    "skipped_evidence_metrics": 35,
+    "assistant_route_counts": {
+      "page_grounded": 103,
+      "unrelated_chat": 33,
+      "ielts_general": 1
+    },
+    "heading_matching_total": 5,
+    "heading_matching_hits": 5
+  },
+  "answer_metrics": {
+    "avg_answer_score": 0.8817518248175182,
+    "style_match_rate": 0.7518248175182481,
+    "style_violations": [
+      [
+        "p1-high-24_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-high-27_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-high-27_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-high-31_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-high-31_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-high-79_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-high-79_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-high-79_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-medium-20_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-29_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-29_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-29_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-medium-29_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-medium-33_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-medium-33_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-medium-33_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-low-02_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-low-11_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-low-11_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p1-low-13_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-low-13_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p1-low-13_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p1-low-13_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-high-09_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-high-09_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-high-14_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-high-14_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-high-16_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-high-16_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-high-17_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-high-17_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-medium-10_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-medium-10_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-medium-58_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-medium-58_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-low-06_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p2-low-08_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-low-08_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p2-low-37_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p2-low-37_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-high-03_explain_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p3-high-03_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-high-03_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-high-15_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-high-15_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-high-32_hint_single",
+        "style_mismatch_full_tutoring"
+      ],
+      [
+        "p3-high-32_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-high-32_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-medium-18_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-medium-18_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-medium-66_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-medium-66_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-low-07_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-low-07_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ],
+      [
+        "p3-low-12_vocab_paraphrase",
+        "style_mismatch_vocab_paraphrase"
+      ],
+      [
+        "p3-low-12_vocab_paraphrase",
+        "vocab_used_full_tutoring"
+      ]
+    ],
+    "ragas_metrics": {},
+    "num_samples": 137
+  },
+  "metric_denominators": {
+    "answer_primary": 137,
+    "retrieval_primary": 102,
+    "heading_list_primary": 5
+  },
+  "by_question_type": {
+    "general": {
+      "total_samples": 100,
+      "status_counts": {
+        "evaluated": 100
+      },
+      "avg_answer_score": 0.976,
+      "style_match_rate": 0.88,
+      "question_hit_rate": 0.6212121212121212,
+      "legacy_question_hit_rate": 0.030303030303030304,
+      "avg_noise_penalty": 0.037171717171717175,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 100,
+        "retrieval": 66,
+        "heading_list": 0
+      }
+    },
+    "heading_matching": {
+      "total_samples": 5,
+      "status_counts": {
+        "evaluated": 5
+      },
+      "avg_answer_score": 1.0,
+      "style_match_rate": 1.0,
+      "question_hit_rate": 1.0,
+      "legacy_question_hit_rate": 0.2,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 1.0,
+      "metric_denominators": {
+        "answer": 5,
+        "retrieval": 5,
+        "heading_list": 5
+      }
+    },
+    "paragraph_matching": {
+      "total_samples": 1,
+      "status_counts": {
+        "dataset_invalid": 1
+      },
+      "avg_answer_score": 0.0,
+      "style_match_rate": 0.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 0,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "true_false_not_given": {
+      "total_samples": 1,
+      "status_counts": {
+        "dataset_invalid": 1
+      },
+      "avg_answer_score": 0.0,
+      "style_match_rate": 0.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 0,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "multiple_choice": {
+      "total_samples": 1,
+      "status_counts": {
+        "dataset_invalid": 1
+      },
+      "avg_answer_score": 0.0,
+      "style_match_rate": 0.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 0,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "sentence_completion": {
+      "total_samples": 1,
+      "status_counts": {
+        "evaluated": 1
+      },
+      "avg_answer_score": 1.0,
+      "style_match_rate": 1.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 1,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "summary_completion": {
+      "total_samples": 1,
+      "status_counts": {
+        "dataset_invalid": 1
+      },
+      "avg_answer_score": 0.0,
+      "style_match_rate": 0.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 0,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "vocabulary": {
+      "total_samples": 31,
+      "status_counts": {
+        "evaluated": 31
+      },
+      "avg_answer_score": 0.8580645161290323,
+      "style_match_rate": 0.2903225806451613,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 31,
+        "retrieval": 31,
+        "heading_list": 0
+      }
+    }
+  },
+  "by_route": {
+    "page_grounded": {
+      "total_samples": 103,
+      "status_counts": {
+        "evaluated": 103
+      },
+      "avg_answer_score": 0.9339805825242719,
+      "style_match_rate": 0.6699029126213593,
+      "question_hit_rate": 0.45098039215686275,
+      "legacy_question_hit_rate": 0.029411764705882353,
+      "avg_noise_penalty": 0.02405228758169935,
+      "heading_list_hit_rate": 1.0,
+      "metric_denominators": {
+        "answer": 103,
+        "retrieval": 102,
+        "heading_list": 5
+      }
+    },
+    "unrelated_chat": {
+      "total_samples": 33,
+      "status_counts": {
+        "evaluated": 33
+      },
+      "avg_answer_score": 1.0,
+      "style_match_rate": 1.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 33,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "unknown": {
+      "total_samples": 4,
+      "status_counts": {
+        "dataset_invalid": 4
+      },
+      "avg_answer_score": 0.0,
+      "style_match_rate": 0.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 0,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    },
+    "ielts_general": {
+      "total_samples": 1,
+      "status_counts": {
+        "evaluated": 1
+      },
+      "avg_answer_score": 1.0,
+      "style_match_rate": 1.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 1,
+        "retrieval": 0,
+        "heading_list": 0
+      }
+    }
+  },
+  "by_style": {
+    "full_tutoring": {
+      "total_samples": 107,
+      "status_counts": {
+        "evaluated": 104,
+        "dataset_invalid": 3
+      },
+      "avg_answer_score": 0.9769230769230769,
+      "style_match_rate": 0.8846153846153846,
+      "question_hit_rate": 0.6521739130434783,
+      "legacy_question_hit_rate": 0.028985507246376812,
+      "avg_noise_penalty": 0.03458937198067633,
+      "heading_list_hit_rate": 1.0,
+      "metric_denominators": {
+        "answer": 104,
+        "retrieval": 69,
+        "heading_list": 5
+      }
+    },
+    "vocab_paraphrase": {
+      "total_samples": 32,
+      "status_counts": {
+        "evaluated": 32
+      },
+      "avg_answer_score": 0.8625,
+      "style_match_rate": 0.3125,
+      "question_hit_rate": 0.03125,
+      "legacy_question_hit_rate": 0.03125,
+      "avg_noise_penalty": 0.0,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 32,
+        "retrieval": 32,
+        "heading_list": 0
+      }
+    },
+    "paragraph_focus": {
+      "total_samples": 2,
+      "status_counts": {
+        "evaluated": 1,
+        "dataset_invalid": 1
+      },
+      "avg_answer_score": 1.0,
+      "style_match_rate": 1.0,
+      "question_hit_rate": 0.0,
+      "legacy_question_hit_rate": 0.0,
+      "avg_noise_penalty": 0.06666666666666667,
+      "heading_list_hit_rate": 0.0,
+      "metric_denominators": {
+        "answer": 1,
+        "retrieval": 1,
+        "heading_list": 0
+      }
+    }
+  },
+  "semantic_retrieval": {
+    "samples_with_semantic_hits": 0,
+    "avg_semantic_chunk_count": 0.0,
+    "avg_semantic_candidate_count": 0.0,
+    "avg_deterministic_chunk_count": 0.0,
+    "semantic_contribution_rate": 0.0,
+    "semantic_skip_rate": 0.0
+  },
+  "replay_file": "evals/ragas/reports/baseline_llm_only_no_qdrant/replay_20260406_010311.jsonl"
+}

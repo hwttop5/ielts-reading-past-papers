@@ -62,9 +62,7 @@
                     <div class="assistant-response-column">
                       <div class="assistant-bubble">
                       <!-- Hide meta chips for chat/social/clarify/tool_result responses; only show for grounded and review -->
-                      <div v-if="(message.usedQuestionNumbers?.length || message.usedParagraphLabels?.length || message.confidence || message.missingContext?.length) && ['grounded', 'review'].includes(message.responseKind || '')" class="assistant-response-meta">
-                        <span v-if="message.usedQuestionNumbers?.length" class="assistant-meta-chip">Q{{ message.usedQuestionNumbers.join(', ') }}</span>
-                        <span v-if="message.usedParagraphLabels?.length" class="assistant-meta-chip">{{ responseParagraphLabel(message.usedParagraphLabels) }}</span>
+                      <div v-if="(message.confidence || message.searchUsed) && ['grounded', 'review'].includes(message.responseKind || '')" class="assistant-response-meta">
                         <span v-if="message.confidence" class="assistant-meta-chip" :class="`assistant-meta-chip--confidence-${message.confidence}`">{{ confidenceLabel(message.confidence) }}</span>
                         <span v-if="message.searchUsed" class="assistant-meta-chip assistant-meta-chip--web">联网</span>
                       </div>
@@ -620,9 +618,6 @@ function answerSectionTitle(type: AssistantAnswerSection['type']) {
     evidence: '证据锚点',
     next_step: '下一步'
   }[type]
-}
-function responseParagraphLabel(labels: string[]) {
-  return props.lang === 'en' ? `Paragraph ${labels.join(', ')}` : `段落 ${labels.join('、')}`
 }
 function confidenceLabel(confidence: AssistantConfidence) {
   if (props.lang === 'en') {

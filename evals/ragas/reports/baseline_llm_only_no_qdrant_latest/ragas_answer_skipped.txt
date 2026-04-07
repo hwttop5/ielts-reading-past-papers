@@ -1,0 +1,1 @@
+Ragas LLM metrics skipped on Python 3.14+ (incompatible nest_asyncio executor). Use Python 3.13 for official runs; Python 3.12 is an acceptable local fallback. Or set RAGAS_FORCE=1 to attempt anyway.

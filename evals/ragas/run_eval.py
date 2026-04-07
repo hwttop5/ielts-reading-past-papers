@@ -17,6 +17,7 @@ import os
 import subprocess
 import sys
 import time
+from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List
@@ -27,9 +28,16 @@ sys.path.insert(0, str(Path(__file__).parent))
 from evaluator import (
     EvalResult,
     EvalSample,
+    compute_heading_list_hit,
+    compute_legacy_question_hit,
+    compute_noise_penalty,
+    compute_question_hit,
+    effective_assistant_route,
     evaluate_answer_quality,
     evaluate_retrieval_quality,
+    evaluate_style_match,
     load_golden_dataset,
+    should_skip_evidence_retrieval_metrics,
 )
 
 ASSISTANT_API_URL = "http://127.0.0.1:8787/api/assistant/query"
@@ -38,6 +46,86 @@ EVAL_HEADERS = {
     "Content-Type": "application/json",
     "X-Assistant-Eval": "1",
 }
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+QUESTION_INDEX_PATH = REPO_ROOT / "src" / "utils" / "questionIndex.json"
+SAMPLE_STATUS_EVALUATED = "evaluated"
+SAMPLE_STATUS_DATASET_INVALID = "dataset_invalid"
+SAMPLE_STATUS_UNSUPPORTED = "unsupported"
+SAMPLE_STATUS_REQUEST_INVALID = "request_invalid"
+SAMPLE_STATUS_ASSISTANT_ERROR = "assistant_error"
+
+
+def load_valid_question_ids() -> set[str]:
+    with open(QUESTION_INDEX_PATH, encoding="utf-8") as f:
+        return {item["id"] for item in json.load(f)}
+
+
+def build_status_only_result(
+    sample: EvalSample,
+    status: str,
+    *,
+    error: str,
+    unsupported_reason: str | None = None,
+) -> EvalResult:
+    return EvalResult(
+        sample_id=sample.id,
+        question_id=sample.questionId,
+        mode=sample.mode,
+        user_query=sample.userQuery,
+        retrieved_chunks=[],
+        generated_answer="",
+        expected_answer=sample.expected_answer,
+        expected_evidence=sample.expected_evidence,
+        error=error,
+        sample_status=status,
+        unsupported_reason=unsupported_reason,
+    )
+
+
+def preflight_sample(sample: EvalSample, valid_question_ids: set[str]) -> EvalResult | None:
+    if sample.questionId not in valid_question_ids:
+        return build_status_only_result(
+            sample,
+            SAMPLE_STATUS_DATASET_INVALID,
+            error=f"dataset_invalid: unknown questionId {sample.questionId}",
+            unsupported_reason="unknown_question_id",
+        )
+    if not sample.userQuery.strip():
+        return build_status_only_result(
+            sample,
+            SAMPLE_STATUS_REQUEST_INVALID,
+            error="request_invalid: empty userQuery",
+            unsupported_reason="empty_user_query",
+        )
+    return None
+
+
+def ragas_capability() -> Dict[str, Any]:
+    forced = os.getenv("RAGAS_FORCE", "").strip().lower() in {"1", "true", "yes"}
+    supported = sys.version_info < (3, 14) or forced
+    return {
+        "python_version": f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}",
+        "full_metrics_supported": supported,
+        "forced": forced,
+        "mode": "full" if supported else "degraded",
+        "reason": None if supported else "Python 3.14+ skips Ragas LLM metrics; use Python 3.13 for official runs (Python 3.12 is acceptable for local fallback).",
+    }
+
+
+def classify_error_status(response: Dict[str, Any]) -> tuple[str, str | None]:
+    error = str(response.get("error") or "")
+    error_code = response.get("error_code")
+    error_message = str(response.get("error_message") or "")
+    combined = f"{error} {error_message}".lower()
+
+    if "unknown questionid" in combined:
+        return SAMPLE_STATUS_DATASET_INVALID, "unknown_question_id"
+    if error_code == "invalid_request" or "invalid request" in combined:
+        return SAMPLE_STATUS_REQUEST_INVALID, "invalid_request"
+    if "unsupported" in combined:
+        return SAMPLE_STATUS_UNSUPPORTED, "unsupported"
+    return SAMPLE_STATUS_ASSISTANT_ERROR, None
 
 
 def build_request_payload(sample: EvalSample) -> Dict[str, Any]:
@@ -82,7 +170,17 @@ async def call_assistant_api(
     def _post() -> Dict[str, Any]:
         with httpx.Client(timeout=120.0) as client:
             response = client.post(api_url, json=request_payload, headers=headers)
-            response.raise_for_status()
+            if response.is_error:
+                try:
+                    payload = response.json()
+                except Exception:
+                    payload = {"message": response.text}
+                return {
+                    "error": f"HTTP error: {response.status_code}",
+                    "http_status": response.status_code,
+                    "error_code": payload.get("error"),
+                    "error_message": payload.get("message") or response.text,
+                }
             return response.json()
 
     try:
@@ -99,6 +197,7 @@ def eval_result_from_api_response(
     latency_ms: float,
 ) -> EvalResult:
     if "error" in response:
+        status, unsupported_reason = classify_error_status(response)
         return EvalResult(
             sample_id=sample.id,
             question_id=sample.questionId,
@@ -110,11 +209,15 @@ def eval_result_from_api_response(
             expected_evidence=sample.expected_evidence,
             latency_ms=latency_ms,
             error=str(response["error"]),
+            sample_status=status,
+            unsupported_reason=unsupported_reason,
             raw_api_response=response,
         )
     answer = response.get("answer", "")
     retrieved_chunks = extract_retrieved_chunks(response)
     route = response.get("assistantRoute")
+    retrieval_diagnostics = response.get("retrievalDiagnostics") or {}
+    timings = response.get("timings") or {}
     return EvalResult(
         sample_id=sample.id,
         question_id=sample.questionId,
@@ -125,7 +228,18 @@ def eval_result_from_api_response(
         expected_answer=sample.expected_answer,
         expected_evidence=sample.expected_evidence,
         latency_ms=latency_ms,
+        sample_status=SAMPLE_STATUS_EVALUATED,
         assistant_route=route,
+        response_kind=response.get("responseKind"),
+        answer_source=response.get("answerSource"),
+        timings=timings,
+        deterministic_chunk_count=int(retrieval_diagnostics.get("deterministicChunkCount") or 0),
+        semantic_chunk_count=int(retrieval_diagnostics.get("semanticChunkCount") or 0),
+        semantic_candidate_count=int(retrieval_diagnostics.get("semanticCandidateCount") or 0),
+        cache_hit=bool(retrieval_diagnostics.get("cacheHit") or timings.get("cache_hit")),
+        missing_context_codes=response.get("missingContextCodes") or [],
+        retrieval_diagnostics=retrieval_diagnostics,
+        style_applied=response.get("styleApplied"),
         raw_api_response=response,
     )
 
@@ -142,7 +256,7 @@ async def evaluate_sample(
 
 
 def load_replay_file(path: str) -> Dict[str, Dict[str, Any]]:
-    """Map sample id -> row dict: {error,} or {response, latency_ms}."""
+    """Map sample id -> replay row."""
     by_id: Dict[str, Dict[str, Any]] = {}
     with open(path, encoding="utf-8") as f:
         for line in f:
@@ -151,75 +265,291 @@ def load_replay_file(path: str) -> Dict[str, Dict[str, Any]]:
                 continue
             row = json.loads(line)
             sid = row["id"]
-            if "error" in row:
-                by_id[sid] = {"error": row["error"]}
-            else:
-                by_id[sid] = {
-                    "response": row.get("response") or {},
-                    "latency_ms": float(row.get("latency_ms", 0) or 0),
-                }
+            by_id[sid] = row
     return by_id
 
 
 def results_from_replay(samples: List[EvalSample], by_id: Dict[str, Dict[str, Any]]) -> List[EvalResult]:
     out: List[EvalResult] = []
+    valid_question_ids = load_valid_question_ids()
     for sample in samples:
+        preflight = preflight_sample(sample, valid_question_ids)
+        if preflight is not None:
+            out.append(preflight)
+            continue
         raw = by_id.get(sample.id)
         if raw is None:
             out.append(
-                EvalResult(
-                    sample_id=sample.id,
-                    question_id=sample.questionId,
-                    mode=sample.mode,
-                    user_query=sample.userQuery,
-                    retrieved_chunks=[],
-                    generated_answer="",
-                    expected_answer=sample.expected_answer,
-                    expected_evidence=sample.expected_evidence,
-                    latency_ms=0.0,
+                build_status_only_result(
+                    sample,
+                    SAMPLE_STATUS_ASSISTANT_ERROR,
                     error="missing_replay_row",
                 )
             )
             continue
         if "error" in raw:
-            out.append(
-                EvalResult(
-                    sample_id=sample.id,
-                    question_id=sample.questionId,
-                    mode=sample.mode,
-                    user_query=sample.userQuery,
-                    retrieved_chunks=[],
-                    generated_answer="",
-                    expected_answer=sample.expected_answer,
-                    expected_evidence=sample.expected_evidence,
-                    latency_ms=0.0,
-                    error=str(raw["error"]),
-                )
-            )
+            status = raw.get("sample_status") or SAMPLE_STATUS_ASSISTANT_ERROR
+            out.append(build_status_only_result(sample, status, error=str(raw["error"]), unsupported_reason=raw.get("unsupported_reason")))
             continue
         resp = raw.get("response") or {}
         lat = float(raw.get("latency_ms", 0) or 0)
-        out.append(eval_result_from_api_response(sample, resp, lat))
+        result = eval_result_from_api_response(sample, resp, lat)
+        if raw.get("sample_status"):
+            result.sample_status = raw["sample_status"]
+        if raw.get("unsupported_reason"):
+            result.unsupported_reason = raw["unsupported_reason"]
+        out.append(result)
     return out
 
 
 def write_replay_jsonl(path: str, samples: List[EvalSample], results: List[EvalResult]) -> None:
     with open(path, "w", encoding="utf-8") as f:
         for sample, result in zip(samples, results):
+            row: Dict[str, Any] = {
+                "id": sample.id,
+                "sample_status": result.sample_status,
+                "unsupported_reason": result.unsupported_reason,
+                "latency_ms": result.latency_ms,
+                "assistant_route": result.assistant_route,
+                "response_kind": result.response_kind,
+                "answer_source": result.answer_source,
+                "timings": result.timings,
+                "deterministic_chunk_count": result.deterministic_chunk_count,
+                "semantic_chunk_count": result.semantic_chunk_count,
+                "semantic_candidate_count": result.semantic_candidate_count,
+                "cache_hit": result.cache_hit,
+                "missing_context_codes": result.missing_context_codes or [],
+                "style_applied": result.style_applied,
+            }
             if result.error:
-                f.write(json.dumps({"id": sample.id, "error": result.error}, ensure_ascii=False) + "\n")
-            elif result.raw_api_response:
-                f.write(
-                    json.dumps(
-                        {
-                            "id": sample.id,
-                            "latency_ms": result.latency_ms,
-                            "response": result.raw_api_response,
-                        },
-                        ensure_ascii=False,
-                    )
-                    + "\n"
-                )
+                row["error"] = result.error
+            if result.raw_api_response:
+                row["response"] = result.raw_api_response
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def build_bucket_summaries(samples: List[EvalSample], results: List[EvalResult], bucket_kind: str) -> Dict[str, Any]:
+    buckets: Dict[str, Dict[str, Any]] = {}
+    for sample, result in zip(samples, results):
+        if bucket_kind == "question_type":
+            key = sample.expectedQuestionType or "general"
+        elif bucket_kind == "style":
+            key = sample.expectedStyle or "full_tutoring"
+        else:
+            key = effective_assistant_route(sample, result) or "unknown"
+        bucket = buckets.setdefault(
+            key,
+            {
+                "total_samples": 0,
+                "status_counts": {},
+                "retrieval_denominator": 0,
+                "question_hits": 0,
+                "legacy_question_hits": 0,
+                "heading_list_denominator": 0,
+                "heading_list_hits": 0,
+                "noise_penalties": [],
+                "answer_denominator": 0,
+                "answer_scores": [],
+                "style_matches": 0,
+            },
+        )
+        bucket["total_samples"] += 1
+        bucket["status_counts"][result.sample_status] = bucket["status_counts"].get(result.sample_status, 0) + 1
+
+        if result.error or result.sample_status != SAMPLE_STATUS_EVALUATED:
+            continue
+
+        response_kind = result.response_kind or sample.expectedResponseKind
+        style_match = evaluate_style_match(
+            result.generated_answer,
+            sample.expectedStyle,
+            question_type=sample.expectedQuestionType,
+            response_kind=response_kind,
+        )
+        score = 1.0
+        if not style_match:
+            score = max(0.0, score - 0.2)
+
+        bucket["answer_denominator"] += 1
+        bucket["answer_scores"].append(score)
+        bucket["style_matches"] += 1 if style_match else 0
+
+        if should_skip_evidence_retrieval_metrics(sample, result):
+            continue
+
+        bucket["retrieval_denominator"] += 1
+        bucket["question_hits"] += 1 if compute_question_hit(
+            result.retrieved_chunks,
+            result.expected_evidence,
+            sample.focusQuestionNumbers,
+            question_type=sample.expectedQuestionType,
+            heading_list_required=sample.headingListRequired,
+        ) else 0
+        bucket["legacy_question_hits"] += 1 if compute_legacy_question_hit(
+            result.retrieved_chunks,
+            result.expected_evidence,
+            sample.focusQuestionNumbers,
+            question_type=sample.expectedQuestionType,
+            heading_list_required=sample.headingListRequired,
+        ) else 0
+        bucket["noise_penalties"].append(
+            compute_noise_penalty(
+                result.retrieved_chunks,
+                result.expected_evidence,
+                sample.questionId,
+                question_type=sample.expectedQuestionType,
+            )
+        )
+
+        if sample.headingListRequired or sample.expectedQuestionType == "heading_matching":
+            bucket["heading_list_denominator"] += 1
+            bucket["heading_list_hits"] += 1 if compute_heading_list_hit(result.retrieved_chunks) else 0
+
+    summarized: Dict[str, Any] = {}
+    for key, bucket in buckets.items():
+        answer_denominator = bucket["answer_denominator"]
+        retrieval_denominator = bucket["retrieval_denominator"]
+        summarized[key] = {
+            "total_samples": bucket["total_samples"],
+            "status_counts": bucket["status_counts"],
+            "avg_answer_score": (sum(bucket["answer_scores"]) / answer_denominator) if answer_denominator else 0.0,
+            "style_match_rate": (bucket["style_matches"] / answer_denominator) if answer_denominator else 0.0,
+            "question_hit_rate": (bucket["question_hits"] / retrieval_denominator) if retrieval_denominator else 0.0,
+            "legacy_question_hit_rate": (bucket["legacy_question_hits"] / retrieval_denominator) if retrieval_denominator else 0.0,
+            "avg_noise_penalty": (sum(bucket["noise_penalties"]) / len(bucket["noise_penalties"])) if bucket["noise_penalties"] else 0.0,
+            "heading_list_hit_rate": (
+                bucket["heading_list_hits"] / bucket["heading_list_denominator"]
+            ) if bucket["heading_list_denominator"] else 0.0,
+            "metric_denominators": {
+                "answer": answer_denominator,
+                "retrieval": retrieval_denominator,
+                "heading_list": bucket["heading_list_denominator"],
+            },
+        }
+    return summarized
+
+
+def build_summary_payload(
+    samples: List[EvalSample],
+    results: List[EvalResult],
+    retrieval_results: Dict[str, Any],
+    answer_results: Dict[str, Any],
+    replay_path: str | None,
+) -> Dict[str, Any]:
+    status_counts: Dict[str, int] = {}
+    for result in results:
+        status_counts[result.sample_status] = status_counts.get(result.sample_status, 0) + 1
+
+    successful_results = [r for r in results if not r.error and r.sample_status == SAMPLE_STATUS_EVALUATED]
+    failed_results = [r for r in results if r.error]
+    valid_results = [r for r in results if r.sample_status == SAMPLE_STATUS_EVALUATED]
+    invalid_results = [
+        r for r in results if r.sample_status in {SAMPLE_STATUS_DATASET_INVALID, SAMPLE_STATUS_REQUEST_INVALID}
+    ]
+    unsupported_results = [r for r in results if r.sample_status == SAMPLE_STATUS_UNSUPPORTED]
+    assistant_error_results = [r for r in results if r.sample_status == SAMPLE_STATUS_ASSISTANT_ERROR]
+    retrieval_denominator = sum(
+        1
+        for sample, result in zip(samples, results)
+        if result.sample_status == SAMPLE_STATUS_EVALUATED
+        and not result.error
+        and not should_skip_evidence_retrieval_metrics(sample, result)
+    )
+
+    semantic_samples = [r for r in valid_results if r.semantic_chunk_count > 0]
+    semantic_skipped = [
+        r for r in valid_results
+        if (r.retrieval_diagnostics or {}).get("semanticSearchSkipped")
+    ]
+
+    return {
+        "timestamp": datetime.now().isoformat(),
+        "environment": ragas_capability(),
+        "total_samples": len(samples),
+        "valid_samples": len(valid_results),
+        "invalid_samples": len(invalid_results),
+        "unsupported_samples": len(unsupported_results),
+        "assistant_error_samples": len(assistant_error_results),
+        "successful_evaluations": len(successful_results),
+        "failed_evaluations": len(failed_results),
+        "sample_status_counts": status_counts,
+        "avg_latency_ms": (
+            sum(r.latency_ms for r in successful_results) / len(successful_results)
+            if successful_results
+            else 0.0
+        ),
+        "retrieval_metrics": retrieval_results,
+        "answer_metrics": answer_results,
+        "metric_denominators": {
+            "answer_primary": len(successful_results),
+            "retrieval_primary": retrieval_denominator,
+            "heading_list_primary": retrieval_results.get("heading_matching_total", 0),
+        },
+        "by_question_type": build_bucket_summaries(samples, results, "question_type"),
+        "by_route": build_bucket_summaries(samples, results, "route"),
+        "by_style": build_bucket_summaries(samples, results, "style"),
+        "semantic_retrieval": {
+            "samples_with_semantic_hits": len(semantic_samples),
+            "avg_semantic_chunk_count": (
+                sum(r.semantic_chunk_count for r in semantic_samples) / len(semantic_samples)
+                if semantic_samples
+                else 0.0
+            ),
+            "avg_semantic_candidate_count": (
+                sum(r.semantic_candidate_count for r in valid_results) / len(valid_results)
+                if valid_results
+                else 0.0
+            ),
+            "avg_deterministic_chunk_count": (
+                sum(r.deterministic_chunk_count for r in valid_results) / len(valid_results)
+                if valid_results
+                else 0.0
+            ),
+            "semantic_contribution_rate": (
+                len(semantic_samples) / len(valid_results)
+                if valid_results
+                else 0.0
+            ),
+            "semantic_skip_rate": (
+                len(semantic_skipped) / len(valid_results)
+                if valid_results
+                else 0.0
+            ),
+        },
+        "replay_file": replay_path,
+    }
+
+
+def load_summary_file(path: str | Path) -> Dict[str, Any]:
+    summary_path = Path(path)
+    with open(summary_path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def merge_summary_payload(
+    base_summary: Dict[str, Any],
+    *,
+    retrieval_results: Dict[str, Any] | None = None,
+    answer_results: Dict[str, Any] | None = None,
+    replay_path: str | None = None,
+) -> Dict[str, Any]:
+    merged = deepcopy(base_summary)
+    merged["timestamp"] = datetime.now().isoformat()
+    merged["environment"] = ragas_capability()
+    if retrieval_results is not None:
+        merged["retrieval_metrics"] = retrieval_results
+    if answer_results is not None:
+        merged["answer_metrics"] = answer_results
+    if replay_path is not None:
+        merged["replay_file"] = replay_path
+    return merged
+
+
+def write_summary_payload(output_dir: str, summary: Dict[str, Any]) -> None:
+    os.makedirs(output_dir, exist_ok=True)
+    summary_path = os.path.join(output_dir, "evaluation_summary.json")
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2, ensure_ascii=False)
 
 
 def write_metrics_summary_file(
@@ -231,26 +561,39 @@ def write_metrics_summary_file(
     replay_path: str | None,
 ) -> None:
     """Persist combined summary after retrieval + answer metrics (replay or live)."""
-    successful_results = [r for r in results if not r.error]
-    failed_results = [r for r in results if r.error]
-    summary = {
-        "timestamp": datetime.now().isoformat(),
-        "total_samples": len(samples),
-        "successful_evaluations": len(successful_results),
-        "failed_evaluations": len(failed_results),
-        "avg_latency_ms": sum(r.latency_ms for r in successful_results) / len(successful_results)
-        if successful_results
-        else 0,
-        "retrieval_metrics": retrieval_results,
-        "answer_metrics": answer_results,
-        "replay_file": replay_path,
-    }
-    summary_path = os.path.join(output_dir, "evaluation_summary.json")
-    with open(summary_path, "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2, ensure_ascii=False)
+    summary = build_summary_payload(samples, results, retrieval_results, answer_results, replay_path)
+    write_summary_payload(output_dir, summary)
+
+
+def write_merged_metrics_summary_file(
+    output_dir: str,
+    merge_from_path: str,
+    *,
+    retrieval_results: Dict[str, Any] | None,
+    answer_results: Dict[str, Any] | None,
+    replay_path: str | None,
+) -> None:
+    base_summary = load_summary_file(merge_from_path)
+    merged_summary = merge_summary_payload(
+        base_summary,
+        retrieval_results=retrieval_results,
+        answer_results=answer_results,
+        replay_path=replay_path,
+    )
+    write_summary_payload(output_dir, merged_summary)
 
 
 def write_markdown_report(output_dir: str, config_note: str) -> None:
+    from report_from_run import write_run_report
+
+    _ = config_note
+    write_run_report(
+        Path(output_dir) / "evaluation_summary.json",
+        Path(output_dir) / "EVALUATION_REPORT.md",
+        config_note="Run generated from replay or live evaluation artifacts. Official full-score runs should use Python 3.13.",
+    )
+    return
+
     """Readable Chinese report for humans; compare with a future full RAG+Qdrant run."""
     summary_path = os.path.join(output_dir, "evaluation_summary.json")
     with open(summary_path, encoding="utf-8") as f:
@@ -323,6 +666,15 @@ async def run_full_evaluation(
     os.makedirs(output_dir, exist_ok=True)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     replay_path = os.path.join(output_dir, f"replay_{ts}.jsonl")
+    valid_question_ids = load_valid_question_ids()
+    preflight_results: Dict[str, EvalResult] = {}
+    runnable_samples: List[EvalSample] = []
+    for sample in samples:
+        preflight = preflight_sample(sample, valid_question_ids)
+        if preflight is not None:
+            preflight_results[sample.id] = preflight
+        else:
+            runnable_samples.append(sample)
 
     semaphore = asyncio.Semaphore(max_concurrency)
 
@@ -330,14 +682,16 @@ async def run_full_evaluation(
         async with semaphore:
             return await evaluate_sample(sample, ASSISTANT_API_URL)
 
-    tasks = [bounded_evaluate(sample) for sample in samples]
-    results = await asyncio.gather(*tasks)
+    tasks = [bounded_evaluate(sample) for sample in runnable_samples]
+    live_results = await asyncio.gather(*tasks)
+    live_by_id = {result.sample_id: result for result in live_results}
+    results = [preflight_results.get(sample.id) or live_by_id[sample.id] for sample in samples]
 
     if write_replay:
         write_replay_jsonl(replay_path, samples, list(results))
         print(f"Wrote replay file: {replay_path}", flush=True)
 
-    successful_results = [r for r in results if not r.error]
+    successful_results = [r for r in results if not r.error and r.sample_status == SAMPLE_STATUS_EVALUATED]
     failed_results = [r for r in results if r.error]
 
     if failed_results:
@@ -350,18 +704,7 @@ async def run_full_evaluation(
         print("\nSkipping metrics (no replay file).")
         retrieval_results: Dict[str, Any] = {}
         answer_results: Dict[str, Any] = {}
-        summary = {
-            "timestamp": datetime.now().isoformat(),
-            "total_samples": len(samples),
-            "successful_evaluations": len(successful_results),
-            "failed_evaluations": len(failed_results),
-            "avg_latency_ms": sum(r.latency_ms for r in successful_results) / len(successful_results)
-            if successful_results
-            else 0,
-            "retrieval_metrics": retrieval_results,
-            "answer_metrics": answer_results,
-            "replay_file": None,
-        }
+        summary = build_summary_payload(samples, list(results), retrieval_results, answer_results, None)
         summary_path = os.path.join(output_dir, "evaluation_summary.json")
         with open(summary_path, "w", encoding="utf-8") as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
@@ -435,6 +778,7 @@ def run_metrics_only(
     answers: bool,
     replay_path: str | None = None,
     write_summary: bool = False,
+    merge_summary_from: str | None = None,
 ) -> None:
     os.makedirs(output_dir, exist_ok=True)
     retrieval_results: Dict[str, Any] = {}
@@ -448,8 +792,23 @@ def run_metrics_only(
         answer_results = evaluate_answer_quality(samples, results, output_dir)
         print(json.dumps(answer_results, indent=2, ensure_ascii=False))
     if write_summary and retrieval and answers:
-        write_metrics_summary_file(
-            output_dir, samples, results, retrieval_results, answer_results, replay_path
+        write_metrics_summary_file(output_dir, samples, results, retrieval_results, answer_results, replay_path)
+        print(f"Wrote {os.path.join(output_dir, 'evaluation_summary.json')}")
+        write_markdown_report(
+            output_dir,
+            config_note=(
+                "鏈涓?**鍩虹嚎**锛氫粎閰嶇疆 **LLM API**锛坄LLM_*`锛夛紝"
+                "鏈崟鐙厤缃祵鍏ヤ笓鐢?key锛?*鏈厤缃?Qdrant**锛堝悜閲忚涔夋绱㈡湭鍚敤锛夈€?"
+                "鍔╂墜杩愯鏃朵负 `llm-enabled`锛屾绱互棰樺彿/娈佃惤绛夌‘瀹氭€т笂涓嬫枃涓轰富銆?"
+            ),
+        )
+    elif write_summary and merge_summary_from:
+        write_merged_metrics_summary_file(
+            output_dir,
+            merge_summary_from,
+            retrieval_results=retrieval_results if retrieval else None,
+            answer_results=answer_results if answers else None,
+            replay_path=replay_path,
         )
         print(f"Wrote {os.path.join(output_dir, 'evaluation_summary.json')}")
         write_markdown_report(
@@ -481,6 +840,12 @@ def main() -> None:
         help="Path to golden dataset JSON",
     )
     parser.add_argument(
+        "--styles",
+        type=str,
+        default="",
+        help="Optional comma-separated expectedStyle filter, e.g. vocab_paraphrase,paragraph_focus,full_tutoring",
+    )
+    parser.add_argument(
         "--output",
         type=str,
         default=str(Path(__file__).parent / "reports"),
@@ -508,6 +873,12 @@ def main() -> None:
         action="store_true",
         help="With --replay, write evaluation_summary.json after metrics",
     )
+    parser.add_argument(
+        "--merge-summary-from",
+        type=str,
+        default=None,
+        help="With --replay and a single metric group, merge updated metrics into an existing evaluation_summary.json",
+    )
 
     args = parser.parse_args()
 
@@ -523,6 +894,10 @@ def main() -> None:
 
     print(f"Loading dataset from: {args.dataset}")
     samples = load_golden_dataset(args.dataset)
+    if args.styles.strip():
+        requested_styles = {part.strip() for part in args.styles.split(",") if part.strip()}
+        samples = [sample for sample in samples if sample.expectedStyle in requested_styles]
+        print(f"Filtered dataset to styles {sorted(requested_styles)} -> {len(samples)} samples")
     print(f"Loaded {len(samples)} evaluation samples")
 
     ASSISTANT_API_URL = args.api_url
@@ -540,6 +915,14 @@ def main() -> None:
             do_r, do_a = False, True
         else:
             do_r, do_a = True, True
+        if args.merge_summary_from and not args.write_metrics_summary:
+            parser.error("--merge-summary-from requires --write-metrics-summary.")
+        if args.write_metrics_summary and (do_r ^ do_a) and not args.merge_summary_from:
+            parser.error(
+                "Single-group replay summary writes require --merge-summary-from <existing evaluation_summary.json>."
+            )
+        if args.merge_summary_from and not (do_r ^ do_a):
+            parser.error("--merge-summary-from only applies when exactly one metric group is selected.")
         run_metrics_only(
             samples,
             results,
@@ -548,6 +931,7 @@ def main() -> None:
             answers=do_a,
             replay_path=args.replay,
             write_summary=args.write_metrics_summary,
+            merge_summary_from=args.merge_summary_from,
         )
         return
 
