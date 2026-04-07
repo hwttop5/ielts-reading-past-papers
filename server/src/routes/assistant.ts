@@ -1,4 +1,5 @@
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify'
+import { Readable } from 'node:stream'
 import { z } from 'zod'
 import { env } from '../config/env.js'
 import { AssistantService } from '../lib/assistant/service.js'
@@ -211,18 +212,22 @@ export async function registerAssistantRoutes(app: FastifyInstance) {
     }
 
     try {
-      reply.header('Content-Type', 'application/x-ndjson')
-      reply.header('Cache-Control', 'no-cache')
-      reply.header('X-Accel-Buffering', 'no')
+      // Use reply.send(Readable) instead of reply.raw.write so Fastify applies onRequest CORS headers.
+      // Direct raw writes can omit Access-Control-Allow-Origin on the stream response (browser shows CORS error on POST).
+      const ndjsonStream = Readable.from(
+        (async function* () {
+          for await (const chunk of service.queryStream(payload)) {
+            yield JSON.stringify(chunk) + '\n'
+          }
+        })(),
+        { encoding: 'utf8' }
+      )
 
-      // Start streaming
-      const stream = await service.queryStream(payload)
-
-      for await (const chunk of stream) {
-        reply.raw.write(JSON.stringify(chunk) + '\n')
-      }
-
-      reply.raw.end()
+      return reply
+        .header('Cache-Control', 'no-cache')
+        .header('X-Accel-Buffering', 'no')
+        .type('application/x-ndjson')
+        .send(ndjsonStream)
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Assistant stream request failed.'
       reply.code(502).send({

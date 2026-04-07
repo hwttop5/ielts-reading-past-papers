@@ -608,6 +608,19 @@ function buildSocialUnrelatedFollowUps(locale: 'zh' | 'en'): string[] {
   return normalizeFollowUpStrings(raw)
 }
 
+/**
+ * When the LLM returns grounded structured sections but omits followUps (common on small/cold models),
+ * provide three generic tap labels so the chat UI still shows next steps. Skipped for single-section
+ * replies (e.g. vocabulary-only) where prompts intentionally use empty followUps.
+ */
+function buildGroundedFollowUpFallback(locale: 'zh' | 'en'): string[] {
+  const raw =
+    locale === 'zh'
+      ? ['帮我梳理段落证据', '对比选项与原文', '核对题干关键词']
+      : ['Help me trace evidence in the passage', 'Compare options to the text', 'Check the question stem keywords']
+  return normalizeFollowUpStrings(raw)
+}
+
 function buildUnrelatedChatReply(request: AssistantQueryRequest, locale: 'zh' | 'en'): string {
   const query = (request.userQuery || '').trim()
   const lower = query.toLowerCase()
@@ -2462,11 +2475,18 @@ export class AssistantService {
     }
 
     const modelFollowUps = normalizeFollowUpStrings(uniqueValues(adjusted.followUps).slice(0, MAX_ASSISTANT_FOLLOW_UPS))
+    const followUpsOut =
+      modelFollowUps.length > 0
+        ? modelFollowUps
+        : sanitizedSections.length >= 2
+          ? buildGroundedFollowUpFallback(locale)
+          : modelFollowUps
+
     return this.attachGroundedDiagnostics({
       answer: buildAnswerFromSections(sanitizedSections),
       answerSections: sanitizedSections,
       citations,
-      followUps: modelFollowUps,
+      followUps: followUpsOut,
       responseKind: 'grounded',
       usedQuestionNumbers: context.usedQuestionNumbers,
       usedParagraphLabels: context.usedParagraphLabels,

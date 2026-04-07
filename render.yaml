@@ -1,0 +1,35 @@
+# Render Blueprint: IELTS Reading assistant API (Fastify, no RAG).
+# After push, use Render Dashboard → New → Blueprint → connect repo, or attach this file to an existing service.
+# Set sync:false secrets in the dashboard (LLM_API_KEY, FRONTEND_ORIGIN). Do not set QDRANT_* / EMBEDDING_* for LLM-only mode.
+#
+# Vercel frontend: set VITE_ASSISTANT_API_BASE_URL to this service's public HTTPS URL at build time (no trailing slash).
+
+services:
+  - type: web
+    name: ielts-reading-assistant
+    runtime: node
+    region: oregon
+    plan: free
+    rootDir: server
+    # Install includes devDependencies if needed; typescript/@types/node are in dependencies for production builds.
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: LLM_PROVIDER
+        value: openrouter
+      - key: LLM_BASE_URL
+        value: https://openrouter.ai/api/v1
+      - key: LLM_CHAT_MODEL
+        value: stepfun/step-3.5-flash:free
+      - key: LLM_TIMEOUT_MS
+        value: "35000"
+      - key: LLM_APP_NAME
+        value: IELTS Reading Past Papers
+      # Comma-separated origins, e.g. https://your-app.vercel.app — must match the browser address (CORS).
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: LLM_API_KEY
+        sync: false

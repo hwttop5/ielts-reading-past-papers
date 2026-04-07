@@ -26,7 +26,7 @@ What you can use in the app, in plain language (no development or deployment det
 ## Requirements
 
 - Node.js ≥ 18 (npm)
-- For local AI features, configure `LLM_API_KEY` and related keys in `server/.env` (see `server/src/config/env.ts`). For **RAG semantic retrieval**, configure an **embedding endpoint** (prefer `EMBEDDING_*`) and **`QDRANT_URL`**. Without them, some behavior falls back to local template-only mode.
+- For local AI features, configure `LLM_API_KEY` and related keys in `server/.env` (see `server/src/config/env.ts`). For **RAG semantic retrieval**, configure an **embedding endpoint** (prefer `EMBEDDING_*`) and **`QDRANT_URL`**. If **`LLM_API_KEY` is unset**, the assistant stays mostly in local template mode; with LLM configured but **without** RAG, you still get LLM replies but no vector retrieval boost.
 
 ---
 
@@ -41,11 +41,15 @@ npm run dev:status   # ports, process state
 npm run dev:logs     # recent logs
 npm run dev:down     # stop both services
 
-npm run build        # production build → dist/
-npm run preview      # preview build (/api proxied to local assistant)
+npm run build        # production build → dist/ (set VITE_ASSISTANT_API_BASE_URL; for a local prod bundle test only, use SKIP_ASSISTANT_ENV_CHECK=1)
+npm run preview      # preview build; default http://localhost:4173 (dev uses 5175—see terminal). /api → 127.0.0.1:8787; start the assistant first
 ```
 
-- **Deployment**: Host `dist/` on static hosting; run the assistant as its own Node service (or container). If the frontend and assistant are on **different origins**, set `VITE_ASSISTANT_API_BASE_URL` at build time to the assistant base URL (scheme, host, port).
+- **Deployment**: Host `dist/` on static hosting; run the assistant as its own Node service (or container). **Production builds** must set `VITE_ASSISTANT_API_BASE_URL` (assistant base URL: scheme + host + port, no trailing `/`); otherwise `vite build` fails. On Vercel, set it under Project → Environment Variables → **Production**.
+  - **Vercel (frontend)**: **Import** this repo in Vercel, set the Production branch to **`main`**, and enable **Git auto-deploy**. [`vercel.json`](vercel.json) pins the Vite build and SPA rewrites. Set **Production** `VITE_ASSISTANT_API_BASE_URL` (and Preview envs if needed) under Project → Environment Variables. **No** GitHub repository secrets are required; pushes to **`main`** are built and deployed by Vercel automatically.
+  - **Render (assistant API, no RAG)**: Create a **Web Service** from the same GitHub repo, set **Root Directory** to `server`, Production branch to **`main`**, and enable auto-deploy (or use the [`render.yaml`](render.yaml) Blueprint). Add `LLM_API_KEY` and `FRONTEND_ORIGIN` in the dashboard; omit `QDRANT_URL` / `EMBEDDING_*`. **No** Deploy Hook or GitHub Actions is required.
+  - **Verify**: After the API is live, run `npm run verify:deployment -- https://<assistant-base-url>`. For a strict no-RAG check, set `EXPECT_NO_RAG=1` first, then run the same command.
+  - **Assistant API URL (frontend)**: Priority **①** build env `VITE_ASSISTANT_API_BASE_URL` (Vercel Production) → **②** [`public/assistant-api.json`](public/assistant-api.json) `apiBaseUrl` (when non-empty, applied at runtime after redeploy; the repo defaults to `""` and relies on build env). For local production builds, copy [.env.production.example](.env.production.example) to `.env.production` and fill in the value; overview in [.env.example](.env.example).
 
 ---
 
@@ -94,9 +98,9 @@ This stack is for **local** vector retrieval only; it does not change production
 - **Docker Desktop** (PowerShell):  
   `winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements`  
   Then start Docker Desktop and wait until it is ready; run `docker version`.
-- **PATH**: If `docker` is still missing in a **new** terminal, add  
-  `C:\Program Files\Docker\Docker\resources\bin`.  
-  If `winget` is missing, add `%LOCALAPPDATA%\Microsoft\WindowsApps`.
+- **PATH**: If `docker` is still missing in a **new** terminal, **manually** add  
+  `C:\Program Files\Docker\Docker\resources\bin` to your user or system `Path`.  
+  If `winget` is missing, add `%LOCALAPPDATA%\Microsoft\WindowsApps` the same way; open a new terminal afterward.
 
 **Default stack** (see repo root `docker-compose.rag.local.yml`):
 
