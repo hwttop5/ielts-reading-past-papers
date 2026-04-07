@@ -164,9 +164,25 @@ class TestStyleMatch(unittest.TestCase):
             expected_style='vocab_paraphrase'
         ))
 
+    def test_vocab_paraphrase_rejects_walkthrough_markers(self):
+        """Test vocab_paraphrase rejected when it expands into a question walkthrough."""
+        answer = "For question 8, go back to paragraph A first, then compare option B against the original sentence."
+        self.assertFalse(evaluate_style_match(
+            answer,
+            expected_style='vocab_paraphrase'
+        ))
+
     def test_paragraph_focus_success(self):
         """Test paragraph_focus style with correct content."""
         answer = "段落 D 讲述了茶从亚洲传入欧洲的历史过程，葡萄牙人凭借其海军技术成为首个记录茶的欧洲人。"
+        self.assertTrue(evaluate_style_match(
+            answer,
+            expected_style='paragraph_focus'
+        ))
+
+    def test_paragraph_focus_accepts_explicit_missing_notice(self):
+        """Test paragraph_focus accepts grounded missing-context answers."""
+        answer = "I have not hit the original text for paragraph D yet, so I should not summarize it from memory."
         self.assertTrue(evaluate_style_match(
             answer,
             expected_style='paragraph_focus'

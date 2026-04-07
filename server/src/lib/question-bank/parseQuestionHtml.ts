@@ -848,6 +848,10 @@ export function parseQuestionHtml(question: QuestionIndexEntry, sourcePath: stri
 }
 
 export async function parseQuestionDocument(question: QuestionIndexEntry): Promise<ParsedQuestionDocument> {
+  if (!question.htmlPath) {
+    throw new Error(`Question ${question.id} is missing htmlPath`)
+  }
+
   const sourcePath = question.htmlPath.startsWith('/')
     ? resolve(publicRoot, `.${question.htmlPath}`)
     : resolve(publicRoot, question.htmlPath)

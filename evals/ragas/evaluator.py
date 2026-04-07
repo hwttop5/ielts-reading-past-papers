@@ -113,7 +113,19 @@ class EvalResult:
     # Metadata
     latency_ms: float = 0.0
     error: Optional[str] = None
+    sample_status: str = "evaluated"
+    unsupported_reason: Optional[str] = None
     assistant_route: Optional[str] = None
+    response_kind: Optional[str] = None
+    answer_source: Optional[str] = None
+    timings: Optional[Dict[str, Any]] = None
+    deterministic_chunk_count: int = 0
+    semantic_chunk_count: int = 0
+    semantic_candidate_count: int = 0
+    cache_hit: bool = False
+    missing_context_codes: Optional[List[str]] = None
+    retrieval_diagnostics: Optional[Dict[str, Any]] = None
+    style_applied: Optional[str] = None
     raw_api_response: Optional[Dict[str, Any]] = None
 
 
@@ -166,7 +178,7 @@ def should_skip_evidence_retrieval_metrics(sample: EvalSample, result: EvalResul
     return False
 
 
-def compute_question_hit(
+def compute_legacy_question_hit(
     retrieved_chunks: List[Dict],
     expected_evidence: Optional[Dict],
     focus_question_numbers: List[str],
@@ -272,6 +284,83 @@ def compute_question_hit(
     return False
 
 
+def _chunk_matches_focus_question(chunk: Dict[str, Any], focus_question_numbers: List[str]) -> bool:
+    if not focus_question_numbers:
+        return False
+    return bool(set(chunk.get("questionNumbers", [])) & set(focus_question_numbers))
+
+
+def _chunk_matches_expected_paragraphs(chunk: Dict[str, Any], expected_paragraphs: set[str]) -> bool:
+    if not expected_paragraphs:
+        return False
+    return bool(set(chunk.get("paragraphLabels", [])) & expected_paragraphs)
+
+
+def _chunk_matches_key_phrases(chunk: Dict[str, Any], key_phrases: List[str]) -> bool:
+    if not key_phrases:
+        return False
+    content = (chunk.get("content") or "").lower()
+    matches = sum(1 for phrase in key_phrases if phrase.lower() in content)
+    return matches >= max(1, len(key_phrases) // 2)
+
+
+def _chunk_has_option_list(chunk: Dict[str, Any]) -> bool:
+    if chunk.get("chunkType") != "question_item":
+        return False
+    content = chunk.get("content") or ""
+    return bool("Options:" in content or "List of " in content or "Shared instructions:" in content)
+
+
+def _question_type_requires_option_list(question_type: Optional[str]) -> bool:
+    return question_type in {
+        "heading_matching",
+        "paragraph_matching",
+        "multiple_choice",
+        "summary_completion",
+        "true_false_not_given",
+    }
+
+
+def compute_question_hit(
+    retrieved_chunks: List[Dict],
+    expected_evidence: Optional[Dict],
+    focus_question_numbers: List[str],
+    question_type: Optional[str] = None,
+    heading_list_required: bool = False
+) -> bool:
+    """Primary retrieval hit metric with question-type-specific rules."""
+    if not expected_evidence:
+        return True
+    if not retrieved_chunks:
+        return False
+
+    expected_paragraphs = set(expected_evidence.get("paragraphLabels", []))
+    expected_chunk_type = expected_evidence.get("chunkType")
+    key_phrases = expected_evidence.get("keyPhrases", [])
+
+    has_heading_list = compute_heading_list_hit(retrieved_chunks)
+    has_option_list = any(_chunk_has_option_list(chunk) for chunk in retrieved_chunks)
+    has_question_block = any(_chunk_matches_focus_question(chunk, focus_question_numbers) for chunk in retrieved_chunks)
+    has_evidence_block = any(
+        (not expected_chunk_type or chunk.get("chunkType") == expected_chunk_type)
+        and (
+            _chunk_matches_expected_paragraphs(chunk, expected_paragraphs)
+            or _chunk_matches_key_phrases(chunk, key_phrases)
+        )
+        for chunk in retrieved_chunks
+    )
+
+    if question_type == "heading_matching" or heading_list_required:
+        return has_heading_list and has_evidence_block
+
+    if question_type in {"paragraph_matching", "multiple_choice", "summary_completion", "true_false_not_given"}:
+        if _question_type_requires_option_list(question_type) and not has_option_list:
+            return False
+        return has_question_block or has_evidence_block
+
+    return has_question_block or has_evidence_block
+
+
 def compute_heading_list_hit(retrieved_chunks: List[Dict]) -> bool:
     """
     Check if heading list is retrieved (for heading_matching questions).
@@ -328,13 +417,15 @@ def evaluate_style_match(
         tutoring_phrases = ['解题思路', '首先', '步骤', '定位', '段落', '证据', 'reasoning', 'step']
         uses_tutoring_template = any(phrase in answer_text for phrase in tutoring_phrases)
 
-        # Should be relatively short (<200 chars for vocab answers)
-        is_too_long = answer_len > 200
+        # Should be relatively short and stay on the lexical point itself
+        is_too_long = answer_len > 220
+        line_count = len([line for line in generated_answer.splitlines() if line.strip()])
+        has_walkthrough_markers = any(marker in answer_text for marker in ['question ', 'q1', 'q2', 'option ', 'paragraph '])
 
         # Should provide synonyms or definitions directly
         has_content = len(answer_text.strip()) > 0
 
-        return has_content and not uses_tutoring_template and not is_too_long
+        return has_content and not uses_tutoring_template and not is_too_long and line_count <= 3 and not has_walkthrough_markers
 
     elif expected_style == 'paragraph_focus':
         # Should focus on paragraph content without extended reasoning
@@ -346,10 +437,11 @@ def evaluate_style_match(
         paragraph_refs = ['段落', 'paragraph', 'section', '文中', '原文']
         has_paragraph_ref = any(ref in answer_text for ref in paragraph_refs)
 
-        # Should not be too brief (needs actual content)
+        # Should not be too brief (needs actual content), unless it explicitly reports missing paragraph text
         is_too_brief = answer_len < 30
+        explicitly_reports_missing = any(marker in answer_text for marker in ['missing paragraph', 'not hit the original text', '缺少该段', '没有命中'])
 
-        return has_paragraph_ref and not has_excessive_structure and not is_too_brief
+        return has_paragraph_ref and not has_excessive_structure and (explicitly_reports_missing or not is_too_brief)
 
     elif expected_style == 'full_tutoring':
         # Full tutoring mode should have structured explanation
@@ -471,9 +563,23 @@ def build_ragas_dataset(
     })
 
 
+def should_include_answer_ragas_metrics(sample: EvalSample, result: EvalResult) -> bool:
+    if result.error or result.sample_status != "evaluated":
+        return False
+    response_kind = result.response_kind or sample.expectedResponseKind or ""
+    if response_kind in {"social", "chat", "clarify"}:
+        return False
+    if not result.retrieved_chunks:
+        return False
+    if not result.generated_answer.strip():
+        return False
+    return True
+
+
 def run_ragas_evaluation(
     dataset: Dataset,
-    output_path: str
+    output_path: str,
+    metric_names: Optional[List[str]] = None,
 ) -> Dict[str, float]:
     """
     Run Ragas evaluation and save results.
@@ -484,17 +590,20 @@ def run_ragas_evaluation(
         print("Error: Ragas not available. Install with: pip install ragas datasets")
         return {}
 
+    err_path = output_path.replace(".json", "_error.txt")
+    skip_path = output_path.replace(".json", "_skipped.txt")
+
     if len(dataset) == 0:
         print("Warning: Ragas skipped (empty dataset — no successful samples).")
         return {}
 
     # Ragas 0.2 + nest_asyncio 在 Python 3.14 上会触发 "Timeout should be used inside a task"，指标全 NaN
     if sys.version_info >= (3, 14) and os.getenv("RAGAS_FORCE", "").strip() not in ("1", "true", "yes"):
-        skip_path = output_path.replace(".json", "_skipped.txt")
         with open(skip_path, "w", encoding="utf-8") as f:
             f.write(
                 "Ragas LLM metrics skipped on Python 3.14+ (incompatible nest_asyncio executor). "
-                "Use Python 3.12/3.13 for full Ragas scores, or set RAGAS_FORCE=1 to attempt anyway.\n"
+                "Use Python 3.13 for official runs; Python 3.12 is an acceptable local fallback. "
+                "Or set RAGAS_FORCE=1 to attempt anyway.\n"
             )
         print(f"Warning: Ragas LLM metrics skipped on Python {sys.version_info.major}.{sys.version_info.minor}. See {skip_path}")
         return {}
@@ -534,20 +643,28 @@ def run_ragas_evaluation(
         else:
             os.environ["OPENAI_API_BASE"] = _saved_base
 
+    available_metrics = {
+        "context_precision": context_precision,
+        "context_recall": context_recall,
+        "faithfulness": faithfulness,
+        "answer_relevancy": answer_relevancy,
+    }
+    selected_metric_names = metric_names or [
+        "context_precision",
+        "context_recall",
+        "faithfulness",
+        "answer_relevancy",
+    ]
+    metrics_to_run = [available_metrics[name] for name in selected_metric_names if name in available_metrics]
+
     try:
         result = evaluate(
             dataset,
-            metrics=[
-                context_precision,
-                context_recall,
-                faithfulness,
-                answer_relevancy,
-            ],
+            metrics=metrics_to_run,
             llm=ragas_llm,
             embeddings=ragas_embeddings,
         )
     except Exception as e:
-        err_path = output_path.replace(".json", "_error.txt")
         with open(err_path, "w", encoding="utf-8") as ef:
             ef.write(str(e))
         print(f"Warning: Ragas evaluate() failed ({e}). See {err_path}")
@@ -572,6 +689,10 @@ def run_ragas_evaluation(
     with open(output_path, 'w') as f:
         json.dump(aggregate, f, indent=2)
 
+    for marker_path in (err_path, skip_path):
+        if os.path.exists(marker_path):
+            os.remove(marker_path)
+
     return aggregate
 
 
@@ -593,6 +714,7 @@ def evaluate_retrieval_quality(
 
     # Compute custom metrics (only samples with expected passage-level evidence)
     question_hits = []
+    legacy_question_hits = []
     noise_penalties = []
     heading_list_hits = []
     heading_list_total = 0
@@ -600,7 +722,7 @@ def evaluate_retrieval_quality(
     route_counts: Dict[str, int] = {}
 
     for sample, result in zip(samples, responses):
-        if result.error:
+        if result.error or result.sample_status != "evaluated":
             continue
         r = effective_assistant_route(sample, result) or 'unknown'
         route_counts[r] = route_counts.get(r, 0) + 1
@@ -616,6 +738,15 @@ def evaluate_retrieval_quality(
             heading_list_required=sample.headingListRequired
         )
         question_hits.append(hit)
+        legacy_question_hits.append(
+            compute_legacy_question_hit(
+                result.retrieved_chunks,
+                result.expected_evidence,
+                sample.focusQuestionNumbers,
+                question_type=sample.expectedQuestionType,
+                heading_list_required=sample.headingListRequired,
+            )
+        )
 
         penalty = compute_noise_penalty(
             result.retrieved_chunks,
@@ -634,7 +765,7 @@ def evaluate_retrieval_quality(
     ev_samples: List[EvalSample] = []
     ev_responses: List[EvalResult] = []
     for sample, result in zip(samples, responses):
-        if result.error or should_skip_evidence_retrieval_metrics(sample, result):
+        if result.error or result.sample_status != "evaluated" or should_skip_evidence_retrieval_metrics(sample, result):
             continue
         ev_samples.append(sample)
         ev_responses.append(result)
@@ -643,10 +774,15 @@ def evaluate_retrieval_quality(
     if ev_samples:
         ragas_dataset = build_ragas_dataset(ev_samples, ev_responses)
         ragas_output = os.path.join(output_dir, 'ragas_retrieval.json')
-        ragas_metrics = run_ragas_evaluation(ragas_dataset, ragas_output)
+        ragas_metrics = run_ragas_evaluation(
+            ragas_dataset,
+            ragas_output,
+            metric_names=["context_precision", "context_recall", "faithfulness", "answer_relevancy"],
+        )
 
     return {
         'question_hit_rate': sum(question_hits) / len(question_hits) if question_hits else 0.0,
+        'legacy_question_hit_rate': sum(legacy_question_hits) / len(legacy_question_hits) if legacy_question_hits else 0.0,
         'avg_noise_penalty': sum(noise_penalties) / len(noise_penalties) if noise_penalties else 0.0,
         'heading_list_hit_rate': sum(heading_list_hits) / len(heading_list_hits) if heading_list_hits else 0.0,
         'ragas_metrics': ragas_metrics,
@@ -680,7 +816,7 @@ def evaluate_answer_quality(
     style_matches = []
 
     for sample, result in zip(samples, responses):
-        if result.error:
+        if result.error or result.sample_status != "evaluated":
             continue
 
         score = 1.0  # Start with perfect score
@@ -701,7 +837,7 @@ def evaluate_answer_quality(
             result.generated_answer,
             sample.expectedStyle,
             question_type=sample.expectedQuestionType,
-            response_kind=sample.expectedResponseKind
+            response_kind=result.response_kind or sample.expectedResponseKind
         )
         style_matches.append(style_match)
 
@@ -723,10 +859,21 @@ def evaluate_answer_quality(
         answer_scores.append(max(score, 0.0))
 
     # Build Ragas dataset for answer similarity
-    ragas_dataset = build_ragas_dataset(samples, responses)
+    ragas_samples: List[EvalSample] = []
+    ragas_responses: List[EvalResult] = []
+    for sample, result in zip(samples, responses):
+        if should_include_answer_ragas_metrics(sample, result):
+            ragas_samples.append(sample)
+            ragas_responses.append(result)
+
+    ragas_dataset = build_ragas_dataset(ragas_samples, ragas_responses)
 
     ragas_output = os.path.join(output_dir, 'ragas_answer.json')
-    ragas_metrics = run_ragas_evaluation(ragas_dataset, ragas_output)
+    ragas_metrics = run_ragas_evaluation(
+        ragas_dataset,
+        ragas_output,
+        metric_names=["faithfulness", "answer_relevancy"],
+    )
 
     return {
         'avg_answer_score': sum(answer_scores) / len(answer_scores) if answer_scores else 0.0,

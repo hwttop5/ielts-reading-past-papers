@@ -38,14 +38,8 @@ const VOCAB_PATTERNS_EN = [
 ]
 
 const PARAGRAPH_FOCUS_ZH = [
-  /段落\s*[A-H].* 内容/,
-  /段落\s*[A-H].* 原文/,
-  /段落\s*[A-H].* 大意/,
-  /段落\s*[A-H].* 讲/,
-  /第\s*[A-H]\s*段.* 内容/,
-  /第\s*[A-H]\s*段.* 原文/,
-  /第\s*[A-H]\s*段.* 大意/,
-  /第\s*[A-H]\s*段.* 讲/,
+  /段落\s*[A-H].*(内容|原文|大意|主旨|在讲|讲什么|说什么)/,
+  /第\s*[A-H]\s*段.*(内容|原文|大意|主旨|在讲|讲什么|说什么)/,
   /Paragraph\s*[A-H].* 内容/i,
   /Paragraph\s*[A-H].* 原文/i,
   /Paragraph\s*[A-H].* 大意/i,

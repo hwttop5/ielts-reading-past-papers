@@ -8,8 +8,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from evaluator import (
     EvalResult,
     EvalSample,
-    should_skip_evidence_retrieval_metrics,
     compute_question_hit,
+    should_skip_evidence_retrieval_metrics,
 )
 
 
@@ -59,6 +59,20 @@ def test_hit_with_chunks():
         compute_question_hit(chunks, ev, ["1"], question_type="general", heading_list_required=False)
         is True
     )
+
+
+def test_option_list_required_for_matching_like_questions():
+    chunks = [
+        {
+            "chunkType": "question_item",
+            "questionNumbers": ["1"],
+            "paragraphLabels": ["A"],
+            "content": "Question stem only",
+            "metadata": {"questionType": "multiple_choice"},
+        }
+    ]
+    ev = {"paragraphLabels": ["A"], "chunkType": "question_item", "keyPhrases": []}
+    assert compute_question_hit(chunks, ev, ["1"], question_type="multiple_choice") is False
 
 
 if __name__ == "__main__":
