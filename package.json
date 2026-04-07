@@ -17,6 +17,7 @@
     "preview": "vite preview",
     "generate:index": "node scripts/generate-index.mjs",
     "validate:index": "node scripts/validate-index.mjs",
+    "verify:deployment": "node scripts/check-deployment.mjs",
     "audit:question-nav:static": "node scripts/audit-question-nav-static.mjs",
     "audit:question-nav:e2e": "playwright test --config=playwright.config.ts",
     "audit:question-nav": "npm run audit:question-nav:static && npm run audit:question-nav:e2e",

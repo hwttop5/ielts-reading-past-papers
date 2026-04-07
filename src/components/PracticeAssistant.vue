@@ -67,7 +67,23 @@
                         <span v-if="message.searchUsed" class="assistant-meta-chip assistant-meta-chip--web">联网</span>
                       </div>
                       <template v-if="message.typewriterPending">
-                        <div class="assistant-message-text assistant-md" v-html="renderAssistantMarkdown(message.content)"></div>
+                        <div
+                          v-if="message.content.trim()"
+                          class="assistant-message-text assistant-md"
+                          v-html="renderAssistantMarkdown(message.content)"
+                        ></div>
+                        <div
+                          v-else
+                          class="assistant-inline-thinking"
+                          :class="{ 'assistant-inline-thinking--slow': loadingSlowHintVisible }"
+                          role="status"
+                          aria-live="polite"
+                        >
+                          <span class="material-icons loading-icon">autorenew</span>
+                          <span class="assistant-inline-thinking-text">{{
+                            loadingSlowHintVisible ? copy.loadingSlowHint : copy.loading
+                          }}</span>
+                        </div>
                       </template>
                       <template v-else>
                       <!-- Tool cards for selection tools and review workspace -->
@@ -185,10 +201,34 @@
                   </div>
                 </div>
               </article>
-              <div v-if="isLoading" class="assistant-loading">
-                <span class="material-icons loading-icon">autorenew</span>
-                <span>{{ copy.loading }}</span>
-              </div>
+              <!-- Same layout as assistant rows in the loop: avatar + bubble + inline thinking (waiting for stream start). -->
+              <article
+                v-if="isLoading && !lastAssistantIsTypewriter"
+                class="assistant-message assistant"
+              >
+                <div class="assistant-response">
+                  <div class="assistant-response-content">
+                    <div class="assistant-avatar">
+                      <span class="material-icons">smart_toy</span>
+                    </div>
+                    <div class="assistant-response-column">
+                      <div class="assistant-bubble">
+                        <div
+                          class="assistant-inline-thinking"
+                          :class="{ 'assistant-inline-thinking--slow': loadingSlowHintVisible }"
+                          role="status"
+                          aria-live="polite"
+                        >
+                          <span class="material-icons loading-icon">autorenew</span>
+                          <span class="assistant-inline-thinking-text">{{
+                            loadingSlowHintVisible ? copy.loadingSlowHint : copy.loading
+                          }}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </section>
           </div>
 
@@ -269,6 +309,8 @@ interface Copy {
   welcomeSimilarTitle: string
   welcomeSimilarSubtitle: string
   loading: string
+  /** Shown after loading exceeds LOADING_SLOW_HINT_MS (cold start on free hosting). */
+  loadingSlowHint: string
   reviewHint: string
   closeTitle: string
   expandTitle: string
@@ -329,6 +371,8 @@ const COMPACT_DIALOG_BREAKPOINT = 420
 const FLOATING_DIALOG_MIN_WIDTH = 450
 /** Match server cap: only show this many follow-up chips under each reply */
 const MAX_FOLLOW_UP_CHIPS = 3
+/** After this many ms of loading, explain free-tier cold start instead of the short “thinking” line */
+const LOADING_SLOW_HINT_MS = 10_000
 
 const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
 const router = useRouter()
@@ -346,6 +390,8 @@ const zh: Copy = {
   welcomeSimilarTitle: '推荐相似练习',
   welcomeSimilarSubtitle: '按主题与难度推荐下一组',
   loading: '正在思考',
+  loadingSlowHint:
+    '助教服务使用的免费托管，长时间无人访问后首次提问时，服务唤醒可能需要约一分钟，属正常现象，请耐心等待或稍后重试。',
   reviewHint: '提交本次作答后，可解锁错误分析和相似推荐功能。',
   closeTitle: '关闭',
   expandTitle: '切换为大窗口',
@@ -385,6 +431,8 @@ const en: Copy = {
   welcomeSimilarTitle: 'Similar practice',
   welcomeSimilarSubtitle: 'Next set by topic and level',
   loading: 'Thinking…',
+  loadingSlowHint:
+    'The coach runs on free hosting: after a long idle period, the first question may take up to about a minute while the service wakes. This is normal—please wait or try again in a moment.',
   reviewHint: 'Review and similar mode unlock after you submit this attempt.',
   closeTitle: 'Close',
   expandTitle: 'Expand assistant',
@@ -517,7 +565,31 @@ const dialogRef = ref<HTMLElement | null>(null)
 const fileInputRef = ref<HTMLInputElement | null>(null)
 const typewriterTimer = ref<number | null>(null)
 const isLoading = computed(() => status.value === 'loading')
+/** Hide the footer "thinking" row while the active assistant bubble is handling streaming/typewriter (incl. empty placeholder). */
+const lastAssistantIsTypewriter = computed(() => {
+  const last = messages.value[messages.value.length - 1]
+  return Boolean(last && last.role === 'assistant' && last.typewriterPending)
+})
+const loadingSlowHintVisible = ref(false)
+let loadingSlowHintTimer: ReturnType<typeof setTimeout> | null = null
+function clearLoadingSlowHintTimer() {
+  if (loadingSlowHintTimer !== null) {
+    clearTimeout(loadingSlowHintTimer)
+    loadingSlowHintTimer = null
+  }
+}
+watch(isLoading, (loading) => {
+  clearLoadingSlowHintTimer()
+  loadingSlowHintVisible.value = false
+  if (loading) {
+    loadingSlowHintTimer = window.setTimeout(() => {
+      loadingSlowHintVisible.value = true
+      loadingSlowHintTimer = null
+    }, LOADING_SLOW_HINT_MS)
+  }
+})
 const canSubmit = computed(() => draft.value.trim().length > 0 || attachments.value.length > 0)
+
 const isCompactDialog = computed(() => viewMode.value === 'floating' && dialogSize.value.width <= COMPACT_DIALOG_BREAKPOINT)
 const placeholder = computed(() => {
   return props.lang === 'zh'
@@ -994,7 +1066,6 @@ async function sendMessage(
     // Streaming mode
     let accumulatedAnswer = ''
     let finalResponse: AssistantQueryResponse | null = null
-    let hasStarted = false
 
     try {
       for await (const event of queryPracticeAssistantStream({
@@ -1014,7 +1085,6 @@ async function sendMessage(
         searchMode: searchMode || (promptKind === 'freeform' ? 'auto' : undefined)
       })) {
         if (event.type === 'start') {
-          hasStarted = true
           const startPayload = event.payload as { responseKind?: string }
           messages.value = [
             ...messages.value,
@@ -1028,45 +1098,97 @@ async function sendMessage(
           const deltaPayload = event.payload as { text: string }
           if (deltaPayload.text) {
             accumulatedAnswer += deltaPayload.text
-            const targetIndex = messages.value.length - 1
-            if (targetIndex >= 0 && messages.value[targetIndex].role === 'assistant') {
-              messages.value[targetIndex].content = accumulatedAnswer
-              // Scroll while typing
-              const container = messageListRef.value
-              if (container) {
-                const isNearBottom = container.scrollHeight - container.scrollTop - container.clientHeight < 100
-                if (isNearBottom) {
-                  container.scrollTop = container.scrollHeight - container.clientHeight
-                }
-              }
-            }
           }
         } else if (event.type === 'final') {
           finalResponse = normalizeAssistantResponse(event.payload as AssistantQueryResponse)
-          const idx = messages.value.length - 1
-          const m = messages.value[idx]
-          if (!m || m.role !== 'assistant') {
-            return
-          }
-          m.typewriterPending = false
-          m.content = finalResponse.answer || m.content
-          m.answerSections = finalResponse.answerSections
-          m.reviewItems = finalResponse.reviewItems
-          m.toolCards = finalResponse.toolCards
-          m.citations = normalizeCitationsForDisplay(finalResponse.citations)
-          m.followUps = finalResponse.followUps
-          m.recommendedQuestions = finalResponse.recommendedQuestions
-          m.webCitations = finalResponse.webCitations
-          m.usedQuestionNumbers = finalResponse.usedQuestionNumbers
-          m.usedParagraphLabels = finalResponse.usedParagraphLabels
-          m.confidence = finalResponse.confidence
-          m.missingContext = finalResponse.missingContext
-          m.responseKind = finalResponse.responseKind
-          m.answerSource = finalResponse.answerSource
-          m.searchUsed = finalResponse.searchUsed
         } else if (event.type === 'error') {
           const errorPayload = event.payload as { message: string }
           throw new Error(errorPayload.message)
+        }
+      }
+
+      // All stream finals use the same typewriter as non-stream (including after NDJSON deltas; we do not paint delta text until final).
+      if (finalResponse) {
+        const idx = messages.value.length - 1
+        const m = messages.value[idx]
+        if (m && m.role === 'assistant') {
+          const fullAnswer = (finalResponse.answer ?? '').trim()
+          const hasStructuredBody =
+            Boolean(finalResponse.answerSections?.length) ||
+            Boolean(finalResponse.reviewItems?.length) ||
+            Boolean(finalResponse.toolCards?.length)
+          const deferStructuredForTypewriter = Boolean(fullAnswer) && hasStructuredBody
+
+          const sharedMeta = {
+            usedQuestionNumbers: finalResponse.usedQuestionNumbers,
+            usedParagraphLabels: finalResponse.usedParagraphLabels,
+            confidence: finalResponse.confidence,
+            missingContext: finalResponse.missingContext,
+            responseKind: finalResponse.responseKind,
+            answerSource: finalResponse.answerSource,
+            searchUsed: finalResponse.searchUsed,
+            lang: props.lang
+          }
+
+          if (deferStructuredForTypewriter) {
+            Object.assign(m, {
+              ...sharedMeta,
+              typewriterPending: true,
+              content: ''
+            })
+            typewriterEffect(finalResponse.answer, {}, 10, () => {
+              const mm = messages.value[messages.value.length - 1]
+              if (!mm || mm.role !== 'assistant') {
+                return
+              }
+              mm.typewriterPending = false
+              mm.answerSections = finalResponse.answerSections
+              mm.reviewItems = finalResponse.reviewItems
+              mm.toolCards = finalResponse.toolCards
+              mm.citations = normalizeCitationsForDisplay(finalResponse.citations)
+              mm.followUps = finalResponse.followUps
+              mm.recommendedQuestions = finalResponse.recommendedQuestions
+              mm.webCitations = finalResponse.webCitations
+              mm.content = finalResponse.answer || ''
+              mm.usedQuestionNumbers = finalResponse.usedQuestionNumbers
+              mm.usedParagraphLabels = finalResponse.usedParagraphLabels
+              mm.confidence = finalResponse.confidence
+              mm.missingContext = finalResponse.missingContext
+              mm.responseKind = finalResponse.responseKind
+              mm.answerSource = finalResponse.answerSource
+              mm.searchUsed = finalResponse.searchUsed
+            })
+          } else if (fullAnswer) {
+            Object.assign(m, {
+              citations: normalizeCitationsForDisplay(finalResponse.citations),
+              followUps: finalResponse.followUps,
+              recommendedQuestions: finalResponse.recommendedQuestions,
+              reviewItems: finalResponse.reviewItems,
+              answerSections: finalResponse.answerSections,
+              toolCards: finalResponse.toolCards,
+              webCitations: finalResponse.webCitations,
+              ...sharedMeta,
+              typewriterPending: false
+            })
+            typewriterEffect(finalResponse.answer, {})
+          } else {
+            m.typewriterPending = false
+            m.content = finalResponse.answer || m.content
+            m.answerSections = finalResponse.answerSections
+            m.reviewItems = finalResponse.reviewItems
+            m.toolCards = finalResponse.toolCards
+            m.citations = normalizeCitationsForDisplay(finalResponse.citations)
+            m.followUps = finalResponse.followUps
+            m.recommendedQuestions = finalResponse.recommendedQuestions
+            m.webCitations = finalResponse.webCitations
+            m.usedQuestionNumbers = finalResponse.usedQuestionNumbers
+            m.usedParagraphLabels = finalResponse.usedParagraphLabels
+            m.confidence = finalResponse.confidence
+            m.missingContext = finalResponse.missingContext
+            m.responseKind = finalResponse.responseKind
+            m.answerSource = finalResponse.answerSource
+            m.searchUsed = finalResponse.searchUsed
+          }
         }
       }
 
@@ -1176,7 +1298,13 @@ async function sendMessage(
         status.value = 'success'
       } catch (fallbackError) {
         const detail = fallbackError instanceof Error ? fallbackError.message : copy.value.fallbackUnavailable
-        messages.value = [...messages.value, createMessage('assistant', detail, { isError: true })]
+        messages.value = [...messages.value, createMessage('assistant', '', { isError: true, typewriterPending: true })]
+        typewriterEffect(detail, { isError: true }, 10, () => {
+          const mm = messages.value[messages.value.length - 1]
+          if (mm && mm.role === 'assistant') {
+            mm.typewriterPending = false
+          }
+        })
         status.value = 'error'
       }
     } finally {
@@ -1222,9 +1350,21 @@ function extractDomain(url: string): string {
   }
 }
 function openRecommendedQuestion(questionId: string) { router.push({ path: route.path, query: { ...route.query, id: questionId } }) }
-watch(isOpen, async (open) => { syncListeners(open); if (open) { await scrollToTop(); await focusComposer() } })
+watch(isOpen, async (open) => {
+  syncListeners(open)
+  if (open) {
+    await scrollToTop()
+    await focusComposer()
+  }
+})
 watch(() => props.questionId, () => { clearTypewriter(); history.value = []; messages.value = []; draft.value = ''; attachments.value = []; lastFocusQuestionNumbers.value = undefined; dialogPosition.value = null; dialogSize.value = { width: FLOATING_DIALOG_WIDTH, height: FLOATING_DIALOG_HEIGHT }; status.value = 'idle' })
-onUnmounted(() => { clearTypewriter(); stopDrag(); stopResize(); syncListeners(false) })
+onUnmounted(() => {
+  clearLoadingSlowHintTimer()
+  clearTypewriter()
+  stopDrag()
+  stopResize()
+  syncListeners(false)
+})
 </script>
 
 <style scoped>
@@ -1478,6 +1618,13 @@ onUnmounted(() => { clearTypewriter(); stopDrag(); stopResize(); syncListeners(f
   gap: 18px;
   min-height: 100%;
   padding-top: 0;
+  min-width: 0;
+  width: 100%;
+}
+
+.assistant-hero-copy {
+  min-width: 0;
+  width: 100%;
 }
 
 .assistant-hero-copy h3 {
@@ -1491,7 +1638,9 @@ onUnmounted(() => { clearTypewriter(); stopDrag(); stopResize(); syncListeners(f
   color: var(--text-secondary);
   font-size: 14px;
   line-height: 1.62;
-  max-width: 44ch;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .assistant-suggestion-list {
@@ -2311,11 +2460,30 @@ onUnmounted(() => { clearTypewriter(); stopDrag(); stopResize(); syncListeners(f
   color: var(--text-primary);
 }
 
-.assistant-loading {
+/* Thinking state inside the bubble before first streamed token (avoids collapsed empty bubble). */
+.assistant-inline-thinking {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-height: 44px;
+  padding: 6px 0;
   color: var(--text-secondary);
+}
+
+.assistant-inline-thinking-text {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.assistant-inline-thinking--slow {
+  align-items: flex-start;
+}
+
+.assistant-inline-thinking--slow .assistant-inline-thinking-text {
+  font-size: 13px;
+  color: var(--text-tertiary);
 }
 
 .assistant-dock {

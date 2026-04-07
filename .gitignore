@@ -25,6 +25,7 @@ dist/
 .env.* 
 !.env.example
 !**/.env.example
+!.env.production.example
 .env.local
 .env.*.local
 
@@ -75,3 +76,5 @@ evals/ragas/venv/
 .pytest_cache/
 .coverage
 *.egg-info/
+
+.vercel

@@ -1,12 +1,46 @@
 import type { AssistantAnswerSection, AssistantConfidence, AssistantQueryRequest, AssistantQueryResponse } from '@/types/assistant'
 
-function resolveAssistantApiBaseUrl(): string {
+/** Normalize assistant API root (no trailing slash). */
+export function normalizeAssistantBaseUrl(url: string): string {
+  return url.trim().replace(/\/$/, '')
+}
+
+/** Filled by `public/assistant-api.json` via `loadAssistantPublicConfig()` (runtime, no rebuild). */
+let assistantPublicConfigBaseUrl = ''
+
+/**
+ * Load optional `/assistant-api.json` from `public/` (deployed as site root).
+ * Call once from `main.ts` before mounting the app so the first assistant request sees the URL.
+ */
+export async function loadAssistantPublicConfig(): Promise<void> {
+  if (typeof window === 'undefined') {
+    return
+  }
+  try {
+    const res = await fetch('/assistant-api.json', { cache: 'no-store' })
+    if (!res.ok) {
+      return
+    }
+    const data = (await res.json()) as { apiBaseUrl?: unknown }
+    if (typeof data.apiBaseUrl === 'string' && data.apiBaseUrl.trim()) {
+      assistantPublicConfigBaseUrl = normalizeAssistantBaseUrl(data.apiBaseUrl)
+    }
+  } catch {
+    // Missing file or invalid JSON is fine.
+  }
+}
+
+function resolveEnvAssistantApiBaseUrl(): string {
   const configuredBaseUrl = (import.meta.env.VITE_ASSISTANT_API_BASE_URL || '').replace(/\/$/, '')
 
   // If VITE_ASSISTANT_API_BASE_URL is explicitly configured, use it (even in dev mode).
   // This allows developers to bypass Vite proxy if needed.
   if (configuredBaseUrl) {
     return configuredBaseUrl
+  }
+
+  if (assistantPublicConfigBaseUrl) {
+    return assistantPublicConfigBaseUrl
   }
 
   // Dev: use same-origin `/api/*` so Vite proxies to 8787.
@@ -25,14 +59,18 @@ function resolveAssistantApiBaseUrl(): string {
   return ''
 }
 
-const assistantApiBaseUrl = resolveAssistantApiBaseUrl()
+/** Effective base URL for assistant HTTP API (no trailing slash). Empty = same-origin `/api/*`. */
+export function getAssistantApiBaseUrl(): string {
+  return resolveEnvAssistantApiBaseUrl()
+}
 
 function buildAssistantUrl(path: string): string {
-  if (!assistantApiBaseUrl) {
+  const base = getAssistantApiBaseUrl()
+  if (!base) {
     return path
   }
 
-  return `${assistantApiBaseUrl}${path}`
+  return `${base}${path}`
 }
 
 function isConfidence(value: unknown): value is AssistantConfidence {
@@ -124,6 +162,54 @@ function extractEmbeddedAnswerPayload(rawAnswer: string): Pick<AssistantQueryRes
   return null
 }
 
+const NDJSON_STREAM_EVENT_TYPES = ['start', 'delta', 'final', 'error'] as const
+
+function isNdjsonStreamEvent(chunk: unknown): chunk is { type: string; payload: unknown } {
+  if (typeof chunk !== 'object' || chunk === null || !('type' in chunk)) {
+    return false
+  }
+  const t = (chunk as { type: unknown }).type
+  return typeof t === 'string' && (NDJSON_STREAM_EVENT_TYPES as readonly string[]).includes(t)
+}
+
+/**
+ * When `/api/assistant/query/stream` returns a single JSON body (e.g. ASSISTANT_STREAM_ENABLED=false),
+ * the payload is a plain AssistantQueryResponse with no `type` field. Expand to the NDJSON events the UI expects.
+ */
+function isPlainAssistantResponseBody(chunk: unknown): chunk is AssistantQueryResponse {
+  if (typeof chunk !== 'object' || chunk === null) {
+    return false
+  }
+  const c = chunk as { answer?: unknown; type?: unknown }
+  return typeof c.answer === 'string' && !isNdjsonStreamEvent(chunk)
+}
+
+function expandStreamChunk(chunk: unknown): Array<{ type: string; payload: unknown }> {
+  if (isNdjsonStreamEvent(chunk)) {
+    return [chunk]
+  }
+  if (isPlainAssistantResponseBody(chunk)) {
+    const normalized = normalizeAssistantResponse(chunk)
+    return [
+      { type: 'start', payload: { responseKind: normalized.responseKind } },
+      { type: 'final', payload: normalized }
+    ]
+  }
+  return [chunk as { type: string; payload: unknown }]
+}
+
+/** True when server sent a single JSON document (e.g. stream off), not NDJSON lines. */
+function shouldReadAssistantStreamAsSingleJsonDocument(contentTypeHeader: string | null): boolean {
+  const ct = (contentTypeHeader || '').toLowerCase()
+  if (!ct.includes('application/json')) {
+    return false
+  }
+  if (ct.includes('ndjson') || ct.includes('x-ndjson')) {
+    return false
+  }
+  return true
+}
+
 /** Unwrap embedded JSON in `answer` (same as non-stream responses). Use on stream `final` payloads. */
 export function normalizeAssistantResponse(payload: AssistantQueryResponse): AssistantQueryResponse {
   const embedded = extractEmbeddedAnswerPayload(payload.answer)
@@ -156,8 +242,8 @@ export async function queryPracticeAssistant(payload: AssistantQueryRequest): Pr
   } catch {
     throw new Error(
       locale === 'en'
-        ? 'Assistant backend is not reachable. Start the local server or configure VITE_ASSISTANT_API_BASE_URL.'
-        : '智能助手后端当前不可达。请先启动本地 assistant 服务，或配置 VITE_ASSISTANT_API_BASE_URL。'
+        ? 'Assistant backend is not reachable. Start the local assistant, set VITE_ASSISTANT_API_BASE_URL for production builds, or set apiBaseUrl in public/assistant-api.json.'
+        : '智能助手后端当前不可达。请启动本地 assistant，或在构建环境配置 VITE_ASSISTANT_API_BASE_URL，或在 public/assistant-api.json 中设置 apiBaseUrl。'
     )
   }
 
@@ -174,7 +260,7 @@ export async function queryPracticeAssistant(payload: AssistantQueryRequest): Pr
         ? raw.slice(0, 400)
         : locale === 'en'
           ? `Assistant request failed (HTTP ${response.status}).`
-          : `智能助手请求失败（HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}）。请确认 assistant 已启动；本地开发请使用 Vite 并保留对 /api 的代理。`
+          : `智能助手请求失败（HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}）。请确认 assistant 已启动；本地开发请使用 Vite 并保留对 /api 的代理；线上请检查 VITE_ASSISTANT_API_BASE_URL 与 public/assistant-api.json。`
     throw new Error(parsed?.message || fallbackDetail)
   }
 
@@ -201,8 +287,8 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
   } catch {
     throw new Error(
       locale === 'en'
-        ? 'Assistant backend is not reachable. Start the local server or configure VITE_ASSISTANT_API_BASE_URL.'
-        : '智能助手后端当前不可达。请先启动本地 assistant 服务，或配置 VITE_ASSISTANT_API_BASE_URL。'
+        ? 'Assistant backend is not reachable. Start the local assistant, set VITE_ASSISTANT_API_BASE_URL for production builds, or set apiBaseUrl in public/assistant-api.json.'
+        : '智能助手后端当前不可达。请启动本地 assistant，或在构建环境配置 VITE_ASSISTANT_API_BASE_URL，或在 public/assistant-api.json 中设置 apiBaseUrl。'
     )
   }
 
@@ -219,8 +305,29 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
         ? raw.slice(0, 400)
         : locale === 'en'
           ? `Assistant stream request failed (HTTP ${response.status}).`
-          : `智能助手流式请求失败（HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}）。`
+          : `智能助手流式请求失败（HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}）。请检查 VITE_ASSISTANT_API_BASE_URL、assistant-api.json 或后端是否可用。`
     throw new Error(parsed?.message || fallbackDetail)
+  }
+
+  const streamContentType = response.headers.get('content-type')
+  const useSingleJsonBody = shouldReadAssistantStreamAsSingleJsonDocument(streamContentType)
+
+  if (useSingleJsonBody) {
+    const raw = await response.text()
+    const trimmedBody = raw.replace(/^\uFEFF/, '').trim()
+    if (!trimmedBody) {
+      throw new Error(locale === 'en' ? 'Response body is empty.' : '响应体为空。')
+    }
+    let chunk: Record<string, unknown>
+    try {
+      chunk = JSON.parse(trimmedBody) as Record<string, unknown>
+    } catch {
+      throw new Error(locale === 'en' ? 'Invalid assistant stream JSON response.' : '助教流式响应 JSON 无效。')
+    }
+    for (const ev of expandStreamChunk(chunk)) {
+      yield ev
+    }
+    return
   }
 
   if (!response.body) {
@@ -243,8 +350,10 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
       for (const line of lines) {
         if (!line.trim()) continue
         try {
-          const chunk = JSON.parse(line)
-          yield chunk
+          const chunk = JSON.parse(line) as Record<string, unknown>
+          for (const ev of expandStreamChunk(chunk)) {
+            yield ev
+          }
         } catch (error) {
           console.warn('Failed to parse stream chunk:', line, error)
         }
@@ -254,8 +363,10 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
     // Process remaining buffer
     if (buffer.trim()) {
       try {
-        const chunk = JSON.parse(buffer)
-        yield chunk
+        const chunk = JSON.parse(buffer) as Record<string, unknown>
+        for (const ev of expandStreamChunk(chunk)) {
+          yield ev
+        }
       } catch (error) {
         console.warn('Failed to parse final buffer:', buffer, error)
       }
