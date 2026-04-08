@@ -45,12 +45,25 @@
         </div>
 
         <div class="filter-item filter-input-wrapper">
-          <a-input
-            v-model:value="searchText"
-            class="filter-input"
-            :placeholder="t('browse.searchPlaceholder')"
-            allow-clear
-          />
+          <span class="filter-label">{{ t('browse.searchLabel') }}:</span>
+          <div class="filter-search-wrap" :class="{ 'has-value': searchText.length > 0 }">
+            <input
+              v-model="searchText"
+              type="text"
+              class="filter-search-field"
+              :placeholder="t('browse.searchPlaceholder')"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button
+              v-show="searchText.length > 0"
+              type="button"
+              class="filter-search-clear"
+              @click="searchText = ''"
+            >
+              <span class="material-icons" aria-hidden="true">close</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -542,13 +555,91 @@ watch(totalPages, (value) => {
   gap: 8px;
 }
 
+/* 与前三项同一行；PC 占满该行剩余横向空间 */
 .filter-item.filter-input-wrapper {
-  flex: 1;
-  min-width: 200px;
+  flex: 1 1 160px;
+  min-width: 0;
+  max-width: 100%;
 }
 
-.filter-input-wrapper .filter-input {
+.filter-item.filter-input-wrapper .filter-label {
+  flex-shrink: 0;
+}
+
+/* 仅一层边框：不用 ant-input，也不叠用 .filter-select，避免与浏览器 input 默认样式冲突 */
+.filter-search-wrap {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.filter-search-field {
+  display: block;
   width: 100%;
+  margin: 0;
+  cursor: text;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 14px;
+  padding: 8px 16px;
+  min-height: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  line-height: 22px;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+
+.filter-search-field:hover {
+  border-color: var(--primary-color);
+}
+
+.filter-search-field:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: none;
+}
+
+.filter-search-wrap.has-value .filter-search-field {
+  padding-right: 36px;
+}
+
+.filter-search-clear {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-tertiary);
+  cursor: pointer;
+}
+
+.filter-search-clear:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+.filter-search-clear .material-icons {
+  font-size: 18px;
 }
 
 .filter-footer {
@@ -577,7 +668,7 @@ watch(totalPages, (value) => {
 }
 
 .filter-select,
-.filter-input,
+.filter-search-field,
 .pagination-button,
 .page-number,
 .view-pdf-btn,
@@ -585,55 +676,36 @@ watch(totalPages, (value) => {
   transition: var(--transition, all 0.2s ease);
 }
 
-.filter-select,
-.filter-input {
+.filter-select {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
-  background: var(--bg-primary);
+  background-color: var(--bg-primary);
   color: var(--text-primary);
   font-size: 14px;
-}
-
-.filter-select {
   padding: 8px 16px;
+  /* 自定义箭头；距右缘 10px，右侧留白收紧 */
+  padding-right: 34px;
+  min-height: 40px;
+  box-sizing: border-box;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 18px 18px;
 }
 
 .filter-select.small {
   padding: 6px 12px;
+  padding-right: 30px;
+  min-height: auto;
+  background-position: right 10px center;
+  background-size: 16px 16px;
 }
 
-.filter-input {
-  flex: 1;
-  min-width: 220px;
-}
-
-.filter-input :deep(.ant-input) {
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-size: 14px;
-  padding: 8px 36px 8px 16px;
-}
-
-.filter-input :deep(.ant-input:hover),
-.filter-input :deep(.ant-input:focus) {
-  border-color: var(--primary-color);
-  box-shadow: none;
-}
-
-.filter-input :deep(.ant-input-clear-icon) {
-  color: var(--text-tertiary);
-}
-
-.filter-input :deep(.ant-input-clear-icon:hover) {
-  color: var(--text-primary);
-}
-
-.filter-select:hover,
-.filter-input:hover,
-.filter-input:focus {
+.filter-select:hover {
   border-color: var(--primary-color);
   outline: none;
 }
@@ -799,9 +871,9 @@ watch(totalPages, (value) => {
   width: 40px;
   height: 40px;
   border-radius: 7px;
-  background: transparent;
+  background: var(--bg-tertiary);
   color: var(--text-primary);
-  border: 1px solid rgba(15, 23, 42, 0.2);
+  border: 1px solid var(--border-color);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -809,6 +881,7 @@ watch(totalPages, (value) => {
 
 .view-pdf-btn:hover {
   border-color: var(--primary-color);
+  background: var(--bg-primary);
   color: var(--primary-color);
 }
 
@@ -917,18 +990,28 @@ watch(totalPages, (value) => {
 
   .filter-item {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     width: 100%;
   }
 
+  /* 列布局下勿沿用 PC 的 flex:1 1 160px，否则 160px 作用在「高度」上会撑出大块空白 */
   .filter-item.filter-input-wrapper {
+    flex: 0 1 auto;
     min-width: auto;
   }
 
   .filter-group .filter-select,
-  .filter-group .filter-input {
+  .filter-group .filter-search-field {
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .filter-group .filter-search-wrap {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
   }
 
   .filter-label {
