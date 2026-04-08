@@ -1371,25 +1371,45 @@ onErrorCaptured((error) => {
 }
 .question-content :deep(table) { width: 100%; border-collapse: collapse; }
 /* Paragraph–letter matching grids (A–J): keep all columns reachable; avoid clipping J on narrow panes */
-.question-content :deep(div[style*='overflow-x']) {
+.question-content :deep(div[style*='overflow-x']),
+.question-content :deep(div:has(> table.matching-table)) {
   display: block;
   width: 100%;
   max-width: 100%;
+  min-width: 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-gutter: stable;
 }
+/*
+  段落匹配表：选项列 min/max 定宽；首列在 auto 布局下吃掉「容器宽度 − 选项带」。
+  勿对 table 使用 min-width:max-content（会把首列撑到 800px+，见 debug-1238fb：scrollW 1294 / 首列 876px）。
+  使用 table-layout:auto + width:100%，表宽等于滚动容器，首列与选项同屏可见。
+  min-width 仅在卷面过窄时保证可点选，略大于 11rem+10 列选项宽。
+*/
 .question-content :deep(table.matching-table) {
-  width: max-content;
+  width: 100%;
+  min-width: calc(11rem + 10 * 2.6rem);
   max-width: none;
   table-layout: auto;
   /* Inherit left so statement column is left-aligned; letter columns override below */
   text-align: left;
 }
 /* 使用 :first-of-type：AST 常在 tr 内保留空白文本节点，导致 td:first-child 匹配不到首列 */
-.question-content :deep(table.matching-table th:not(:first-of-type)),
-.question-content :deep(table.matching-table td:not(:first-of-type)) {
+/* 表头：单字母 A–J 定宽；长标题卷（如 A. University …）不设 max，避免截断 */
+.question-content :deep(table.matching-table th:not(:first-of-type)) {
   min-width: 2.35rem;
+  box-sizing: border-box;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+/* 选项格：固定宽度，保证右侧「选项带」宽度稳定 */
+.question-content :deep(table.matching-table td:not(:first-of-type)) {
+  width: 2.6rem;
+  min-width: 2.6rem;
+  max-width: 2.6rem;
+  box-sizing: border-box;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -1400,8 +1420,8 @@ onErrorCaptured((error) => {
 }
 .question-content :deep(table.matching-table th:first-of-type),
 .question-content :deep(table.matching-table td:first-of-type) {
-  min-width: min(180px, 38vw) !important;
-  max-width: min(42rem, min(70vw, 100%));
+  min-width: 11rem;
+  max-width: none;
   white-space: normal;
   text-align: left !important;
   overflow-wrap: break-word;
