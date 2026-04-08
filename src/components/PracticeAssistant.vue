@@ -372,7 +372,7 @@ const FLOATING_DIALOG_MIN_WIDTH = 450
 /** Match server cap: only show this many follow-up chips under each reply */
 const MAX_FOLLOW_UP_CHIPS = 3
 /** After this many ms of loading, explain free-tier cold start instead of the short “thinking” line */
-const LOADING_SLOW_HINT_MS = 10_000
+const LOADING_SLOW_HINT_MS = 5_000
 
 const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
 const router = useRouter()
@@ -1100,7 +1100,7 @@ async function sendMessage(
             accumulatedAnswer += deltaPayload.text
           }
         } else if (event.type === 'final') {
-          finalResponse = normalizeAssistantResponse(event.payload as AssistantQueryResponse)
+          finalResponse = normalizeAssistantResponse(event.payload as AssistantQueryResponse, props.lang)
         } else if (event.type === 'error') {
           const errorPayload = event.payload as { message: string }
           throw new Error(errorPayload.message)
@@ -1161,7 +1161,6 @@ async function sendMessage(
           } else if (fullAnswer) {
             Object.assign(m, {
               citations: normalizeCitationsForDisplay(finalResponse.citations),
-              followUps: finalResponse.followUps,
               recommendedQuestions: finalResponse.recommendedQuestions,
               reviewItems: finalResponse.reviewItems,
               answerSections: finalResponse.answerSections,
@@ -1170,7 +1169,12 @@ async function sendMessage(
               ...sharedMeta,
               typewriterPending: false
             })
-            typewriterEffect(finalResponse.answer, {})
+            typewriterEffect(finalResponse.answer, {}, 10, () => {
+              const mm = messages.value[messages.value.length - 1]
+              if (mm && mm.role === 'assistant') {
+                mm.followUps = finalResponse.followUps
+              }
+            })
           } else {
             m.typewriterPending = false
             m.content = finalResponse.answer || m.content
@@ -1277,7 +1281,6 @@ async function sendMessage(
             ...messages.value,
             createMessage('assistant', '', {
               citations: response.citations,
-              followUps: response.followUps,
               recommendedQuestions: response.recommendedQuestions,
               reviewItems: response.reviewItems,
               answerSections: response.answerSections,
@@ -1288,7 +1291,12 @@ async function sendMessage(
             })
           ]
           if (fullAnswer) {
-            typewriterEffect(response.answer, {})
+            typewriterEffect(response.answer, {}, 10, () => {
+              const mm = messages.value[messages.value.length - 1]
+              if (mm && mm.role === 'assistant') {
+                mm.followUps = response.followUps
+              }
+            })
           }
         }
         if (response.responseKind === 'grounded' || response.responseKind === 'review') {
@@ -1625,6 +1633,9 @@ onUnmounted(() => {
 .assistant-hero-copy {
   min-width: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .assistant-hero-copy h3 {
@@ -1634,7 +1645,7 @@ onUnmounted(() => {
 }
 
 .assistant-hero-copy p {
-  margin: 10px 0 0;
+  margin: 0;
   color: var(--text-secondary);
   font-size: 14px;
   line-height: 1.62;
@@ -2496,15 +2507,15 @@ onUnmounted(() => {
 }
 
 .assistant-composer {
-  padding: 14px 16px 12px;
-  border-radius: 28px;
+  padding: 12px 14px 10px;
+  border-radius: 20px;
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
   transition: var(--transition);
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .assistant-composer.focused,
@@ -2628,15 +2639,17 @@ onUnmounted(() => {
 
 .assistant-input {
   width: 100%;
-  min-height: 96px;
-  margin-top: 12px;
+  min-height: 88px;
+  margin-top: 0;
+  padding: 0 2px 0 4px;
+  box-sizing: border-box;
   border: none;
   resize: none;
   background: transparent;
   color: var(--text-primary);
   font: inherit;
-  font-size: 17px;
-  line-height: 1.68;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 .assistant-input::placeholder {
@@ -2653,11 +2666,18 @@ onUnmounted(() => {
   justify-content: space-between;
   gap: 12px;
   margin-top: 4px;
+  padding: 8px 2px 0;
+  border-top: 1px solid var(--border-light);
 }
 
 .assistant-left-actions,
 .assistant-right-actions {
   min-width: 0;
+}
+
+/* Align footer control column with textarea text (same inset as placeholder start). */
+.assistant-left-actions {
+  padding-left: 2px;
 }
 
 .assistant-dialog.compact .assistant-topbar,
@@ -2706,7 +2726,7 @@ onUnmounted(() => {
 }
 
 .assistant-dialog.compact .assistant-hero-copy p {
-  margin-top: 8px;
+  margin-top: 0;
   font-size: 13px;
   line-height: 1.58;
 }
@@ -2765,8 +2785,8 @@ onUnmounted(() => {
 }
 
 .assistant-dialog.compact .assistant-input {
-  min-height: 84px;
-  margin-top: 10px;
+  min-height: 80px;
+  margin-top: 0;
   font-size: 15px;
   line-height: 1.62;
 }

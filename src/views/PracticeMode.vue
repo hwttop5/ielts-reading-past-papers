@@ -64,7 +64,6 @@
             >
               <div class="pane-header">
                 <div>
-                  <p class="pane-kicker">Passage</p>
                   <h2>{{ session.exam.meta.title }}</h2>
                 </div>
                 <div v-if="session.submitted && session.result" class="score-pill">
@@ -74,7 +73,7 @@
 
               <div class="pane-content passage-content">
                 <PracticeNodeRenderer
-                  :nodes="passageNodes"
+                  :nodes="passageNodesForDisplay"
                   scope="passage"
                   :draft-state="session.draftState"
                   :submitted="session.submitted"
@@ -336,7 +335,7 @@ import { useQuestionStore } from '@/store/questionStore'
 import { ACHIEVEMENT_UNLOCKED, eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { formatAnswerDisplay } from '@/utils/readingPractice'
 import type { AttemptContext, RecentPracticeItem } from '@/types/assistant'
-import type { HighlightScope, PracticeFontScale, PracticeRouteMode } from '@/types/readingNative'
+import type { HighlightScope, PracticeFontScale, PracticeRouteMode, ReadingAstNode } from '@/types/readingNative'
 
 interface SelectionToolbarState {
   visible: boolean
@@ -423,6 +422,42 @@ const isResizing = ref(false)
 const resizerLayoutRef = ref<HTMLElement | null>(null)
 
 const passageNodes = computed(() => sessionState.exam.value?.passageBlocks.flatMap((block) => block.nodes) || [])
+
+/** Flatten text from an AST node (for matching duplicate headings). */
+function flattenAstText(node: ReadingAstNode): string {
+  if (node.type === 'text') {
+    return node.text
+  }
+  if (node.type === 'element') {
+    return node.children.map(flattenAstText).join('')
+  }
+  return ''
+}
+
+/**
+ * Source HTML often repeats the article title as &lt;h3&gt; after "READING PASSAGE n" while the pane
+ * header already shows `meta.title` — hide that duplicate for cleaner hierarchy.
+ */
+function stripDuplicatePassageArticleHeading(nodes: ReadingAstNode[], articleTitle: string | undefined): ReadingAstNode[] {
+  const t = articleTitle?.trim()
+  if (!t || !nodes.length) {
+    return nodes
+  }
+  const dupIndex = nodes.findIndex((n) => {
+    if (n.type !== 'element' || n.tag !== 'h3') {
+      return false
+    }
+    return flattenAstText(n).trim() === t
+  })
+  if (dupIndex < 0) {
+    return nodes
+  }
+  return nodes.filter((_, i) => i !== dupIndex)
+}
+
+const passageNodesForDisplay = computed(() =>
+  stripDuplicatePassageArticleHeading(passageNodes.value, sessionState.exam.value?.meta.title)
+)
 const passageHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'passage').map((item) => item.text))
 const questionHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'questions').map((item) => item.text))
 const answeredCount = computed(() => Object.values(sessionState.answerMap.value || {}).filter((value) => hasAnswerValue(value)).length)
@@ -1013,13 +1048,40 @@ onErrorCaptured((error) => {
   display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 20px 22px 16px;
   border-bottom: 1px solid var(--border-light); position: sticky; top: 0; z-index: 5; background: var(--bg-secondary);
 }
+.passage-pane .pane-header {
+  align-items: flex-start;
+}
+.passage-pane .pane-header > div:first-child {
+  min-width: 0;
+}
 .pane-kicker { margin: 0 0 4px; color: var(--text-tertiary); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 .pane-header h2, .notes-header h3 { margin: 0; font-size: 20px; color: var(--text-primary); }
+.passage-pane .pane-header h2 {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
 .pane-toolbar .toolbar-btn { min-height: 38px; padding: 0 12px; }
 .pane-toolbar .font-btn { width: 34px; height: 34px; }
 .pane-content { padding: 20px 24px 28px; color: var(--text-primary); font-size: var(--practice-copy-size); line-height: 1.8; }
 .passage-content :deep(h2), .passage-content :deep(h3), .passage-content :deep(h4), .question-content :deep(h2), .question-content :deep(h3), .question-content :deep(h4) { color: var(--text-primary); line-height: 1.3; }
 .passage-content :deep(h2), .question-content :deep(h2) { font-size: calc(var(--practice-heading-size) * 0.92); }
+/* IELTS template: first h2 is "READING PASSAGE n" — style as eyebrow, not a second page title */
+.passage-content :deep(h2:first-of-type) {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin: 0 0 8px;
+}
+.passage-content :deep(h2:first-of-type + p) {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin: 0 0 16px;
+}
 .passage-content :deep(h3), .question-content :deep(h3) { font-size: calc(var(--practice-heading-size) * 0.8); }
 .passage-content :deep(h4), .question-content :deep(h4) { font-size: calc(var(--practice-heading-size) * 0.68); }
 .passage-content :deep(p), .passage-content :deep(li), .question-content :deep(p), .question-content :deep(li), .question-content :deep(label), .question-content :deep(td), .question-content :deep(th) { font-size: var(--practice-copy-size); }
@@ -1029,6 +1091,32 @@ onErrorCaptured((error) => {
 .question-content :deep(label) { display: inline-flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 12px; background: var(--bg-tertiary); }
 .question-content :deep(ul), .question-content :deep(ol) { padding-left: 20px; }
 .question-content :deep(table) { width: 100%; border-collapse: collapse; }
+/* Paragraph–letter matching grids (A–J): keep all columns reachable; avoid clipping J on narrow panes */
+.question-content :deep(div[style*='overflow-x']) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable;
+}
+.question-content :deep(table.matching-table) {
+  width: max-content;
+  max-width: none;
+  table-layout: auto;
+}
+.question-content :deep(table.matching-table th:not(:first-child)),
+.question-content :deep(table.matching-table td:not(:first-child)) {
+  min-width: 2.35rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.question-content :deep(table.matching-table th:first-child),
+.question-content :deep(table.matching-table td:first-child) {
+  min-width: min(200px, 42vw) !important;
+  max-width: min(280px, 52vw);
+  white-space: normal;
+}
 .question-content :deep(td), .question-content :deep(th) { padding: 10px 12px; border: 1px solid var(--border-light); vertical-align: top; }
 .question-group-card + .question-group-card { margin-top: 18px; }
 .score-pill { padding: 8px 12px; border-radius: 999px; background: rgba(37,99,235,0.1); color: var(--primary-color); font-weight: 700; }
@@ -1234,9 +1322,38 @@ onErrorCaptured((error) => {
     padding: 16px;
   }
 
-  .pane-toolbar {
-    flex-wrap: wrap;
-    width: 100%;
+  /* 题目面板工具栏：移动端标题在左，三行按钮在右且右对齐 */
+  .question-pane .pane-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .question-pane .pane-header > div:first-child {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .question-pane .pane-toolbar {
+    margin-left: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    width: auto;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .question-pane .pane-toolbar .toolbar-btn {
+    width: auto;
+    align-self: flex-end;
+    justify-content: center;
+  }
+
+  .question-pane .pane-toolbar .font-switcher {
+    width: auto;
+    justify-content: flex-end;
   }
 
   .nav-shell {

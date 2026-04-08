@@ -184,12 +184,12 @@ function isPlainAssistantResponseBody(chunk: unknown): chunk is AssistantQueryRe
   return typeof c.answer === 'string' && !isNdjsonStreamEvent(chunk)
 }
 
-function expandStreamChunk(chunk: unknown): Array<{ type: string; payload: unknown }> {
+function expandStreamChunk(chunk: unknown, locale: 'zh' | 'en'): Array<{ type: string; payload: unknown }> {
   if (isNdjsonStreamEvent(chunk)) {
     return [chunk]
   }
   if (isPlainAssistantResponseBody(chunk)) {
-    const normalized = normalizeAssistantResponse(chunk)
+    const normalized = normalizeAssistantResponse(chunk, locale)
     return [
       { type: 'start', payload: { responseKind: normalized.responseKind } },
       { type: 'final', payload: normalized }
@@ -210,21 +210,54 @@ function shouldReadAssistantStreamAsSingleJsonDocument(contentTypeHeader: string
   return true
 }
 
+/**
+ * When the model omits followUps but returns multi-section grounded/review answers, the server fills
+ * defaults (`buildGroundedFollowUpFallback`). The client applies the same labels if the payload is
+ * still empty (CDN/cache drift, proxies, or embedded-JSON merge dropping the field).
+ */
+function applyGroundedFollowUpFallback(r: AssistantQueryResponse, locale: 'zh' | 'en'): AssistantQueryResponse {
+  const kind = r.responseKind
+  if (kind !== 'grounded' && kind !== 'review') {
+    return r
+  }
+  if ((r.followUps?.length ?? 0) > 0) {
+    return r
+  }
+  if ((r.answerSections?.length ?? 0) < 2) {
+    return r
+  }
+  const followUps =
+    locale === 'en'
+      ? ['Help me trace evidence in the passage', 'Compare options to the text', 'Check the question stem keywords']
+      : ['帮我梳理段落证据', '对比选项与原文', '核对题干关键词']
+  return { ...r, followUps }
+}
+
 /** Unwrap embedded JSON in `answer` (same as non-stream responses). Use on stream `final` payloads. */
-export function normalizeAssistantResponse(payload: AssistantQueryResponse): AssistantQueryResponse {
+export function normalizeAssistantResponse(
+  payload: AssistantQueryResponse,
+  locale: 'zh' | 'en' = 'zh'
+): AssistantQueryResponse {
   const embedded = extractEmbeddedAnswerPayload(payload.answer)
+  let merged: AssistantQueryResponse
+
   if (!embedded) {
-    return payload
+    merged = {
+      ...payload,
+      followUps: payload.followUps ?? []
+    }
+  } else {
+    merged = {
+      ...payload,
+      answer: embedded.answer,
+      followUps: embedded.followUps.length > 0 ? embedded.followUps : (payload.followUps ?? []),
+      answerSections: embedded.answerSections.length > 0 ? embedded.answerSections : (payload.answerSections ?? []),
+      confidence: embedded.confidence ?? payload.confidence,
+      missingContext: embedded.missingContext.length > 0 ? embedded.missingContext : (payload.missingContext ?? [])
+    }
   }
 
-  return {
-    ...payload,
-    answer: embedded.answer,
-    followUps: embedded.followUps.length > 0 ? embedded.followUps : payload.followUps,
-    answerSections: embedded.answerSections.length > 0 ? embedded.answerSections : payload.answerSections,
-    confidence: embedded.confidence || payload.confidence,
-    missingContext: embedded.missingContext.length > 0 ? embedded.missingContext : payload.missingContext
-  }
+  return applyGroundedFollowUpFallback(merged, locale)
 }
 
 export async function queryPracticeAssistant(payload: AssistantQueryRequest): Promise<AssistantQueryResponse> {
@@ -265,7 +298,7 @@ export async function queryPracticeAssistant(payload: AssistantQueryRequest): Pr
   }
 
   const data = await response.json() as AssistantQueryResponse
-  return normalizeAssistantResponse(data)
+  return normalizeAssistantResponse(data, locale)
 }
 
 /**
@@ -324,7 +357,7 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
     } catch {
       throw new Error(locale === 'en' ? 'Invalid assistant stream JSON response.' : '助教流式响应 JSON 无效。')
     }
-    for (const ev of expandStreamChunk(chunk)) {
+    for (const ev of expandStreamChunk(chunk, locale)) {
       yield ev
     }
     return
@@ -351,7 +384,7 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
         if (!line.trim()) continue
         try {
           const chunk = JSON.parse(line) as Record<string, unknown>
-          for (const ev of expandStreamChunk(chunk)) {
+          for (const ev of expandStreamChunk(chunk, locale)) {
             yield ev
           }
         } catch (error) {
@@ -364,7 +397,7 @@ export async function* queryPracticeAssistantStream(payload: AssistantQueryReque
     if (buffer.trim()) {
       try {
         const chunk = JSON.parse(buffer) as Record<string, unknown>
-        for (const ev of expandStreamChunk(chunk)) {
+        for (const ev of expandStreamChunk(chunk, locale)) {
           yield ev
         }
       } catch (error) {
