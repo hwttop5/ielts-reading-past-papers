@@ -11,7 +11,7 @@
     "dev:status": "node scripts/dev-manager.mjs status",
     "dev:logs": "node scripts/dev-manager.mjs logs",
     "dev:raw": "concurrently \"npm:dev:web\" \"npm:dev:assistant\"",
-    "dev:web": "vite --host localhost --port 5175 --strictPort",
+    "dev:web": "vite --port 5175 --strictPort",
     "dev:assistant": "npm --prefix server run dev",
     "build": "vite build",
     "preview": "vite preview",

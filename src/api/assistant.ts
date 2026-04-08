@@ -30,17 +30,54 @@ export async function loadAssistantPublicConfig(): Promise<void> {
   }
 }
 
+/** True when env points at the default local assistant port (same as Vite `/api` proxy target). */
+function isLocalAssistantDevPort(url: string): boolean {
+  try {
+    const u = new URL(url)
+    const port = u.port || (u.protocol === 'https:' ? '443' : '80')
+    return (u.hostname === 'localhost' || u.hostname === '127.0.0.1') && port === '8787'
+  } catch {
+    return false
+  }
+}
+
+/** Docs/shell placeholders — must not win over same-origin `/api` in dev (Vite injects process env VITE_*). */
+function isDevPlaceholderAssistantBase(url: string): boolean {
+  try {
+    const host = new URL(url).hostname.toLowerCase()
+    return host === 'example.com' || host === 'www.example.com' || host === 'your-assistant.example.com'
+  } catch {
+    return false
+  }
+}
+
 function resolveEnvAssistantApiBaseUrl(): string {
-  const configuredBaseUrl = (import.meta.env.VITE_ASSISTANT_API_BASE_URL || '').replace(/\/$/, '')
+  let configuredBaseUrl = (import.meta.env.VITE_ASSISTANT_API_BASE_URL || '').replace(/\/$/, '')
+
+  // In dev, ignore `http://127.0.0.1:8787` / `http://localhost:8787` — use same-origin `/api` + Vite proxy.
+  // A root `.env` with direct 8787 bypasses the proxy and can cause cross-origin/stream/CORS issues vs `npm run dev:web`.
+  if (import.meta.env.DEV && configuredBaseUrl && isLocalAssistantDevPort(configuredBaseUrl)) {
+    configuredBaseUrl = ''
+  }
+
+  // In dev, ignore placeholder hosts (e.g. https://example.com) often set via system/CI `VITE_ASSISTANT_API_BASE_URL`.
+  if (import.meta.env.DEV && configuredBaseUrl && isDevPlaceholderAssistantBase(configuredBaseUrl)) {
+    configuredBaseUrl = ''
+  }
 
   // If VITE_ASSISTANT_API_BASE_URL is explicitly configured, use it (even in dev mode).
-  // This allows developers to bypass Vite proxy if needed.
+  // This allows developers to bypass Vite proxy if needed (e.g. remote staging API).
   if (configuredBaseUrl) {
     return configuredBaseUrl
   }
 
-  if (assistantPublicConfigBaseUrl) {
-    return assistantPublicConfigBaseUrl
+  let publicBase = assistantPublicConfigBaseUrl
+  if (import.meta.env.DEV && publicBase && isDevPlaceholderAssistantBase(publicBase)) {
+    publicBase = ''
+  }
+
+  if (publicBase) {
+    return publicBase
   }
 
   // Dev: use same-origin `/api/*` so Vite proxies to 8787.

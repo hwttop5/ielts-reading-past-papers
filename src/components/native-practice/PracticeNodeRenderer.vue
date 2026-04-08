@@ -13,7 +13,7 @@
       v-bind="elementAttrs(node.attrs)"
     >
       <PracticeNodeRenderer
-        :nodes="node.children"
+        :nodes="elementChildNodes(node)"
         :scope="scope"
         :draft-state="draftState"
         :submitted="submitted"
@@ -210,6 +210,32 @@ function elementAttrs(attrs: Record<string, string>): Record<string, string> {
   return attrs
 }
 
+/** MCQ 选项容器在 AST 里夹了大量仅含换行/空白的 text 节点；子节点会渲染成 #text/空 span，若父级用 CSS grid 会把每个都当成一格，导致选项错位、看似居中。 */
+function shouldStripInterstitialWhitespace(node: ReadingElementNode): boolean {
+  const cls = String(node.attrs?.class || '')
+  if (node.tag === 'ul' && /\b(options-list|radio-options-list|question-options-list|mcq-options)\b/.test(cls)) {
+    return true
+  }
+  if (node.tag === 'div' && /\b(radio-options|mcq-options|multiple-choice-options|multi-choice-options|checkbox-options)\b/.test(cls)) {
+    return true
+  }
+  if (node.tag === 'div' && /\boptions-pool\b/.test(cls)) {
+    return true
+  }
+  /* 与 options-pool 嵌套：AST 在 optionChip 之间保留缩进换行，flex 会把每个空白 #text 当成一格，首行会整体右移 */
+  if (node.tag === 'div' && /\bpool-items\b/.test(cls)) {
+    return true
+  }
+  return false
+}
+
+function elementChildNodes(node: ReadingElementNode): ReadingAstNode[] {
+  if (!shouldStripInterstitialWhitespace(node)) {
+    return node.children
+  }
+  return node.children.filter((child) => !(child.type === 'text' && !child.text.trim()))
+}
+
 function controlAttrs(attrs: Record<string, string>): Record<string, string> {
   const { type, value, checked, selected, draggable, ...rest } = attrs as Record<string, string>
   return rest
@@ -305,24 +331,97 @@ function handleDropzoneClick(node: ReadingDropzoneNode) {
   })
 }
 
+/** Letters/digits; hyphen/apostrophe only when between id chars (compound words). */
+function isIdCharAt(text: string, i: number): boolean {
+  const c = text[i]
+  if (c === undefined) {
+    return false
+  }
+  if (/[\p{L}\p{N}]/u.test(c)) {
+    return true
+  }
+  if ((c === '-' || c === "'") && i > 0 && i < text.length - 1) {
+    return isIdCharAt(text, i - 1) && isIdCharAt(text, i + 1)
+  }
+  return false
+}
+
+/** Expand a raw [start,end) match so highlights never begin/end inside a word. */
+function expandRangeToWordEdges(text: string, start: number, end: number): [number, number] {
+  let s = start
+  let e = end
+  while (s > 0 && isIdCharAt(text, s - 1)) {
+    s--
+  }
+  while (e < text.length && isIdCharAt(text, e)) {
+    e++
+  }
+  return [s, e]
+}
+
+function mergeIntervals(intervals: [number, number][]): [number, number][] {
+  if (!intervals.length) {
+    return []
+  }
+  const sorted = [...intervals].sort((a, b) => a[0] - b[0])
+  const out: [number, number][] = [[sorted[0]![0], sorted[0]![1]]]
+  for (let i = 1; i < sorted.length; i++) {
+    const [cs, ce] = sorted[i]!
+    const last = out[out.length - 1]!
+    if (cs <= last[1]) {
+      last[1] = Math.max(last[1], ce)
+    } else {
+      out.push([cs, ce])
+    }
+  }
+  return out
+}
+
 function highlightSegments(text: string): HighlightSegment[] {
   if (!text || !props.highlightTerms || !props.highlightTerms.length) {
     return [{ text, highlight: false }]
   }
 
   const uniqueTerms = Array.from(new Set(props.highlightTerms.map((term) => term.trim()).filter(Boolean)))
-  if (!uniqueTerms || !uniqueTerms.length) {
+  if (!uniqueTerms.length) {
     return [{ text, highlight: false }]
   }
 
-  const pattern = new RegExp(`(${uniqueTerms.map(escapeRegExp).sort((left, right) => right.length - left.length).join('|')})`, 'g')
-  const parts = text.split(pattern)
-  return parts
-    .filter((entry) => entry.length > 0)
-    .map((entry) => ({
-      text: entry,
-      highlight: uniqueTerms?.includes(entry) || false
-    }))
+  const raw: [number, number][] = []
+  for (const term of uniqueTerms) {
+    const re = new RegExp(escapeRegExp(term), 'gi')
+    let m: RegExpExecArray | null
+    while ((m = re.exec(text)) !== null) {
+      const matched = m[0]
+      if (!matched.length) {
+        continue
+      }
+      const idx = m.index
+      if (idx === undefined) {
+        continue
+      }
+      raw.push(expandRangeToWordEdges(text, idx, idx + matched.length))
+    }
+  }
+
+  if (!raw.length) {
+    return [{ text, highlight: false }]
+  }
+
+  const merged = mergeIntervals(raw)
+  const out: HighlightSegment[] = []
+  let pos = 0
+  for (const [hs, he] of merged) {
+    if (pos < hs) {
+      out.push({ text: text.slice(pos, hs), highlight: false })
+    }
+    out.push({ text: text.slice(hs, he), highlight: true })
+    pos = he
+  }
+  if (pos < text.length) {
+    out.push({ text: text.slice(pos), highlight: false })
+  }
+  return out
 }
 
 function escapeRegExp(value: string): string {
@@ -334,14 +433,21 @@ function escapeRegExp(value: string): string {
 .native-highlight {
   background: rgba(250, 204, 21, 0.32);
   color: inherit;
-  padding: 0 1px;
-  border-radius: 3px;
+  padding: 0;
+  margin: 0;
+  border-radius: 2px;
+  line-height: inherit;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
-.native-choice-input {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+/* Radio/checkbox are replaced elements — avoid inline-flex here (breaks vertical alignment vs text). */
+.native-choice-input[type='radio'],
+.native-choice-input[type='checkbox'] {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  margin: 0;
 }
 
 .native-choice-input.locked {
@@ -375,25 +481,32 @@ function escapeRegExp(value: string): string {
   min-height: 38px;
   padding: 8px 10px;
   margin: 0 4px;
-  border: 1px dashed rgba(37, 99, 235, 0.35);
+  border: 2px dashed color-mix(in srgb, var(--primary-color) 65%, var(--border-color));
   border-radius: 12px;
-  background: rgba(37, 99, 235, 0.06);
+  background: color-mix(in srgb, var(--primary-color) 14%, var(--bg-tertiary));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary-color) 22%, transparent);
   color: var(--text-secondary);
   cursor: pointer;
+  vertical-align: baseline;
 }
 
 .native-dropzone.filled {
   border-style: solid;
-  background: rgba(37, 99, 235, 0.12);
+  border-color: color-mix(in srgb, var(--primary-color) 88%, var(--border-color));
+  background: color-mix(in srgb, var(--primary-color) 16%, var(--bg-secondary));
   color: var(--text-primary);
 }
 
 .native-dropzone.active {
-  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.18);
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--primary-color) 35%, transparent);
 }
 
 .native-dropzone.appearance-paragraph {
   min-width: 160px;
+}
+
+.native-dropzone.appearance-summary {
+  min-width: 11rem;
 }
 
 .dropzone-main {
