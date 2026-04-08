@@ -1,6 +1,8 @@
 # IELTS Reading Past Papers
 
 > [简体中文](./README.md)
+>
+> [Changelog](./CHANGELOG.md)
 
 | Live demo | [https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app) |
 
