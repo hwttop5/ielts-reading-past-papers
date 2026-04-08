@@ -1152,7 +1152,7 @@ onErrorCaptured((error) => {
 .passage-content :deep(h3), .question-content :deep(h3) { font-size: calc(var(--practice-heading-size) * 0.8); }
 .passage-content :deep(h4), .question-content :deep(h4) { font-size: calc(var(--practice-heading-size) * 0.68); }
 .passage-content :deep(p), .passage-content :deep(li), .question-content :deep(p), .question-content :deep(li), .question-content :deep(label), .question-content :deep(td), .question-content :deep(th) { font-size: var(--practice-copy-size); }
-.passage-content :deep(.paragraph-wrapper), .question-content :deep(.question-item), .question-content :deep(.table-wrapper), .question-content :deep(table) { margin-bottom: 18px; }
+.passage-content :deep(.paragraph-wrapper), .question-content :deep(.question-item), .question-content :deep(.tfng-item), .question-content :deep(.tfng-question), .question-content :deep(.table-wrapper), .question-content :deep(table) { margin-bottom: 18px; }
 .question-content :deep(.question-item) { padding: 16px 18px; border-radius: 16px; background: var(--bg-tertiary); border: 1px solid var(--border-light); }
 /* 勿把 ul.options-list / div.radio-options 放在 flex 里，会与下方 grid 冲突；题型用 div+label 时仍走 flex 会错位 */
 .question-content :deep(.summary-choices), .question-content :deep(.matching-headings), .question-content :deep(.matching-options), .question-content :deep(.pool-items), .question-content :deep(.cardpool), .question-content :deep(.drag-options), .question-content :deep(.options-pool), .question-content :deep(#word-options), .question-content :deep(#word-options-pool) { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
@@ -1188,18 +1188,34 @@ onErrorCaptured((error) => {
   gap: 10px 14px;
   margin-top: 12px;
 }
-/* TFNG（TRUE / FALSE / NOT GIVEN）：此前未进上列 flex，三枚 label 仅靠 inline 排列过密；单独加大列间距 */
+/* TFNG / YNNG：三选一纵向左对齐（.radio-options 与 .tfng-options 题库结构均覆盖） */
 .question-content :deep(.tfng-options),
-.question-content :deep(.radio-options.tfng-options) {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 24px;
+.question-content :deep(.radio-options.tfng-options),
+.question-content :deep(.question-item .tfng-options),
+.question-content :deep(.tfng-item .tfng-options),
+.question-content :deep(.tfng-question .tfng-options),
+.question-content :deep(.question-item .radio-options:has(input[value='TRUE']):has(input[value='FALSE']):has(input[value='NOT GIVEN'])),
+.question-content :deep(.question-item .radio-options:has(input[value='YES']):has(input[value='NO']):has(input[value='NOT GIVEN'])) {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 8px !important;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   margin-top: 10px;
+  font-size: var(--practice-copy-size);
+  line-height: 1.5;
 }
-/* 题库在内联 style 里写 column 的 MCQ 容器（优先级高于无 !important 的类选择器） */
-.question-content :deep(.radio-options[style]),
+/* 题库在内联 style 里写 column 的 MCQ 容器（优先级高于无 !important 的类选择器）；排除 TFNG/YNNG 三选一 */
+.question-content
+  :deep(
+    .radio-options[style]:not(:has(input[value='TRUE']):has(input[value='FALSE']):has(input[value='NOT GIVEN'])):not(
+        :has(input[value='YES']):has(input[value='NO']):has(input[value='NOT GIVEN'])
+      )
+  ),
 .question-content :deep(.mcq-options[style]),
 .question-content :deep(.multiple-choice-options[style]),
 .question-content :deep(.multi-choice-options[style]),
@@ -1280,18 +1296,6 @@ onErrorCaptured((error) => {
   font-size: 0;
   line-height: 0;
 }
-.question-content :deep(.question-item .tfng-options),
-.question-content :deep(.question-item .radio-options.tfng-options) {
-  display: flex !important;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 24px !important;
-  justify-content: flex-start;
-  margin-top: 10px;
-  font-size: var(--practice-copy-size);
-  line-height: 1.5;
-}
 .question-content :deep(.question-item .options-list > li),
 .question-content :deep(.question-item .radio-options-list > li),
 .question-content :deep(.question-item .question-options-list > li) {
@@ -1363,6 +1367,18 @@ onErrorCaptured((error) => {
   box-sizing: border-box;
   overflow-wrap: break-word;
 }
+/* TFNG/YNNG：短标签不用 grid+1fr，避免与纵向排列不一致 */
+.question-content :deep(.question-item .radio-options:has(input[value='TRUE']):has(input[value='FALSE']):has(input[value='NOT GIVEN']) > label),
+.question-content :deep(.question-item .radio-options:has(input[value='YES']):has(input[value='NO']):has(input[value='NOT GIVEN']) > label),
+.question-content :deep(.tfng-options > label),
+.question-content :deep(.radio-options.tfng-options > label) {
+  display: inline-flex !important;
+  align-items: center !important;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
 /* 多行选项时控件与首行对齐；微上移以补偿单行 cap-height */
 .question-content :deep(.question-item label) .native-choice-input[type='radio'],
 .question-content :deep(.question-item label) .native-choice-input[type='checkbox'] {
@@ -1371,25 +1387,45 @@ onErrorCaptured((error) => {
 }
 .question-content :deep(table) { width: 100%; border-collapse: collapse; }
 /* Paragraph–letter matching grids (A–J): keep all columns reachable; avoid clipping J on narrow panes */
-.question-content :deep(div[style*='overflow-x']) {
+.question-content :deep(div[style*='overflow-x']),
+.question-content :deep(div:has(> table.matching-table)) {
   display: block;
   width: 100%;
   max-width: 100%;
+  min-width: 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-gutter: stable;
 }
+/*
+  段落匹配表：选项列 min/max 定宽；首列在 auto 布局下吃掉「容器宽度 − 选项带」。
+  勿对 table 使用 min-width:max-content（会把首列撑到 800px+，见 debug-1238fb：scrollW 1294 / 首列 876px）。
+  使用 table-layout:auto + width:100%，表宽等于滚动容器，首列与选项同屏可见。
+  min-width 仅在卷面过窄时保证可点选，略大于 11rem+10 列选项宽。
+*/
 .question-content :deep(table.matching-table) {
-  width: max-content;
+  width: 100%;
+  min-width: calc(11rem + 10 * 2.6rem);
   max-width: none;
   table-layout: auto;
   /* Inherit left so statement column is left-aligned; letter columns override below */
   text-align: left;
 }
 /* 使用 :first-of-type：AST 常在 tr 内保留空白文本节点，导致 td:first-child 匹配不到首列 */
-.question-content :deep(table.matching-table th:not(:first-of-type)),
-.question-content :deep(table.matching-table td:not(:first-of-type)) {
+/* 表头：单字母 A–J 定宽；长标题卷（如 A. University …）不设 max，避免截断 */
+.question-content :deep(table.matching-table th:not(:first-of-type)) {
   min-width: 2.35rem;
+  box-sizing: border-box;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+/* 选项格：固定宽度，保证右侧「选项带」宽度稳定 */
+.question-content :deep(table.matching-table td:not(:first-of-type)) {
+  width: 2.6rem;
+  min-width: 2.6rem;
+  max-width: 2.6rem;
+  box-sizing: border-box;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -1400,8 +1436,8 @@ onErrorCaptured((error) => {
 }
 .question-content :deep(table.matching-table th:first-of-type),
 .question-content :deep(table.matching-table td:first-of-type) {
-  min-width: min(180px, 38vw) !important;
-  max-width: min(42rem, min(70vw, 100%));
+  min-width: 11rem;
+  max-width: none;
   white-space: normal;
   text-align: left !important;
   overflow-wrap: break-word;
@@ -1690,36 +1726,6 @@ onErrorCaptured((error) => {
   .header-actions .icon-btn[title*="fullscreen"],
   .header-actions .icon-btn[title*="Fullscreen"] {
     display: none !important;
-  }
-
-  /* TFNG 选项左对齐 - 覆盖默认 inline-flex 行为 */
-  .question-content :deep(.tfng-item),
-  .question-content :deep(.tfng-options) {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 8px !important;
-    width: 100% !important;
-    margin-top: 8px !important;
-  }
-
-  .question-content :deep(.tfng-item > label),
-  .question-content :deep(.tfng-options > label) {
-    display: flex !important;
-    justify-content: flex-start !important;
-    align-items: center !important;
-    width: 100% !important;
-    margin-right: 0 !important;
-    margin-bottom: 4px !important;
-    background: var(--bg-tertiary) !important;
-    padding: 8px 10px !important;
-    border-radius: 12px !important;
-  }
-
-  .question-content :deep(.tfng-item input[type="radio"]),
-  .question-content :deep(.tfng-options input[type="radio"]) {
-    margin-right: 8px !important;
-    flex-shrink: 0 !important;
   }
 }
 
