@@ -363,7 +363,7 @@ async function startFrontendWithRetries(frontendEnv, backendPid) {
 
     const frontendProcess = spawnDetachedProcess({
       command: nodeCmd,
-      args: [viteCliPath, '--host', 'localhost', '--port', String(frontendPort), '--strictPort'],
+      args: [viteCliPath, '--port', String(frontendPort), '--strictPort'],
       cwd: rootDir,
       env: frontendEnv,
       stdoutPath: frontendLogPath,

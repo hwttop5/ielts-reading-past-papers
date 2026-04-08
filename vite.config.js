@@ -19,7 +19,8 @@ export default defineConfig(({ mode }) => {
   return {
   plugins: [vue()],
   server: {
-    host: 'localhost',
+    // Listen on IPv4 + IPv6 loopback so both http://127.0.0.1:5175 and http://localhost:5175 work (Windows often bound ::1 only with host: 'localhost').
+    host: true,
     port: 5175,
     strictPort: true,
     proxy: {
@@ -31,7 +32,7 @@ export default defineConfig(({ mode }) => {
     }
   },
   preview: {
-    host: 'localhost',
+    host: true,
     proxy: {
       '/api': {
         target: 'http://127.0.0.1:8787',

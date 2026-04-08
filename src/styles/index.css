@@ -14,3 +14,8 @@ body {
 #app {
   min-height: 100vh;
 }
+
+/* Ant Design Vue Message：需高于 PracticeAssistant 侧栏（约 1200），否则提交成功提示被挡住 */
+.ant-message {
+  z-index: 2600 !important;
+}

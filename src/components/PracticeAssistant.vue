@@ -63,8 +63,11 @@
                       <div class="assistant-bubble">
                       <!-- Hide meta chips for chat/social/clarify/tool_result responses; only show for grounded and review -->
                       <div v-if="(message.confidence || message.searchUsed) && ['grounded', 'review'].includes(message.responseKind || '')" class="assistant-response-meta">
-                        <span v-if="message.confidence" class="assistant-meta-chip" :class="`assistant-meta-chip--confidence-${message.confidence}`">{{ confidenceLabel(message.confidence) }}</span>
-                        <span v-if="message.searchUsed" class="assistant-meta-chip assistant-meta-chip--web">联网</span>
+                        <div class="assistant-response-meta-left">
+                          <span v-if="message.confidence" class="assistant-meta-chip" :class="`assistant-meta-chip--confidence-${message.confidence}`">{{ confidenceLabel(message.confidence) }}</span>
+                          <span v-if="message.searchUsed" class="assistant-meta-chip assistant-meta-chip--web">联网</span>
+                        </div>
+                        <span v-if="message.answeredAt" class="assistant-meta-time">{{ formatAssistantMessageTime(message.answeredAt) }}</span>
                       </div>
                       <template v-if="message.typewriterPending">
                         <div
@@ -343,6 +346,8 @@ interface Msg {
   usedQuestionNumbers?: string[]
   usedParagraphLabels?: string[]
   confidence?: AssistantConfidence
+  /** Local receipt time (ms) when the reply metadata was finalized; shown after confidence chips. */
+  answeredAt?: number
   missingContext?: string[]
   isError?: boolean
   responseKind?: 'chat' | 'grounded' | 'tool_result' | 'review' | 'clarify' | 'social'
@@ -372,7 +377,7 @@ const FLOATING_DIALOG_MIN_WIDTH = 450
 /** Match server cap: only show this many follow-up chips under each reply */
 const MAX_FOLLOW_UP_CHIPS = 3
 /** After this many ms of loading, explain free-tier cold start instead of the short “thinking” line */
-const LOADING_SLOW_HINT_MS = 5_000
+const LOADING_SLOW_HINT_MS = 8_000
 
 const props = defineProps<{ questionId: string; questionTitle: string; questionTitleLocalized?: string; hasSubmitted: boolean; attemptContext: AttemptContext | null; recentPractice: RecentPracticeItem[]; lang: 'zh' | 'en' }>()
 const router = useRouter()
@@ -705,6 +710,13 @@ function confidenceLabel(confidence: AssistantConfidence) {
     medium: '中等把握',
     low: '低把握'
   }[confidence]
+}
+
+/** Local wall time, `yyyy-mm-dd hh:mm:ss` (24h). */
+function formatAssistantMessageTime(ts: number): string {
+  const d = new Date(ts)
+  const p = (n: number) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`
 }
 async function focusComposer() { await nextTick(); composerRef.value?.focus() }
 async function scrollToTop() { await nextTick(); if (messageListRef.value) messageListRef.value.scrollTop = 0 }
@@ -1127,7 +1139,8 @@ async function sendMessage(
             responseKind: finalResponse.responseKind,
             answerSource: finalResponse.answerSource,
             searchUsed: finalResponse.searchUsed,
-            lang: props.lang
+            lang: props.lang,
+            answeredAt: Date.now()
           }
 
           if (deferStructuredForTypewriter) {
@@ -1192,6 +1205,7 @@ async function sendMessage(
             m.responseKind = finalResponse.responseKind
             m.answerSource = finalResponse.answerSource
             m.searchUsed = finalResponse.searchUsed
+            m.answeredAt = Date.now()
           }
         }
       }
@@ -1250,7 +1264,8 @@ async function sendMessage(
           responseKind: response.responseKind,
           answerSource: response.answerSource,
           searchUsed: response.searchUsed,
-          lang: props.lang
+          lang: props.lang,
+          answeredAt: Date.now()
         }
 
         if (deferStructuredForTypewriter) {
@@ -1783,6 +1798,7 @@ onUnmounted(() => {
   max-width: 100%;
   overflow-wrap: anywhere;
   word-break: break-word;
+  text-align: left;
 }
 
 .assistant-bubble .assistant-md {
@@ -1827,8 +1843,19 @@ onUnmounted(() => {
 .assistant-response-meta {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   gap: 8px;
+  width: 100%;
   margin-bottom: 12px;
+}
+
+.assistant-response-meta-left {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
 }
 
 .assistant-meta-chip {
@@ -1861,6 +1888,16 @@ onUnmounted(() => {
 .assistant-meta-chip--confidence-low {
   background: rgba(239, 68, 68, 0.12);
   color: #dc2626;
+}
+
+.assistant-meta-time {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-tertiary);
+  line-height: 1.3;
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .assistant-section-list {
@@ -2032,6 +2069,7 @@ onUnmounted(() => {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   word-break: break-word;
+  text-align: left;
 }
 
 .assistant-message-text--summary {
@@ -2084,6 +2122,7 @@ onUnmounted(() => {
 
 .assistant-md :deep(p) {
   margin: 0 0 0.75em;
+  text-align: left;
 }
 
 .assistant-md :deep(p:last-child) {

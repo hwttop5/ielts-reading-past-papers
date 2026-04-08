@@ -326,6 +326,7 @@
 import { computed, inject, nextTick, onErrorCaptured, onMounted, onUnmounted, proxyRefs, ref, watch, type Ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
+import { useI18n } from '@/i18n'
 import PracticeAssistant from '@/components/PracticeAssistant.vue'
 import PracticeNodeRenderer from '@/components/native-practice/PracticeNodeRenderer.vue'
 import { useReadingPracticeSession } from '@/composables/useReadingPracticeSession'
@@ -335,7 +336,59 @@ import { useQuestionStore } from '@/store/questionStore'
 import { ACHIEVEMENT_UNLOCKED, eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { formatAnswerDisplay } from '@/utils/readingPractice'
 import type { AttemptContext, RecentPracticeItem } from '@/types/assistant'
-import type { HighlightScope, PracticeFontScale, PracticeRouteMode, ReadingAstNode } from '@/types/readingNative'
+import type { HighlightScope, PracticeFontScale, PracticeHighlightRecord, PracticeRouteMode, ReadingAstNode } from '@/types/readingNative'
+
+/** 宽松包含匹配的最短长度，避免 "the" 误匹配 "there" 等 */
+const HIGHLIGHT_LOOSE_MIN_LEN = 4
+
+function normalizeHighlightComparable(s: string): string {
+  return s.trim().replace(/\s+/g, ' ')
+}
+
+/**
+ * 将当前划选与已存高亮对齐：精确 / 空白规范化 / 大小写不敏感 / 双向包含（用于划选与存储不完全一致时仍能点 Remove）。
+ */
+function findHighlightMatchForSelection(
+  highlights: PracticeHighlightRecord[],
+  scope: HighlightScope,
+  selectedRaw: string
+): PracticeHighlightRecord | null {
+  const selected = normalizeHighlightComparable(selectedRaw)
+  if (!selected) {
+    return null
+  }
+  const list = highlights.filter((e) => e.scope === scope)
+  const selectedLower = selected.toLowerCase()
+
+  for (const e of list) {
+    const stored = normalizeHighlightComparable(e.text)
+    if (stored === selected) {
+      return e
+    }
+    if (stored.toLowerCase() === selectedLower) {
+      return e
+    }
+  }
+
+  for (const e of list) {
+    if (e.text.trim() === selectedRaw.trim()) {
+      return e
+    }
+  }
+
+  for (const e of list) {
+    const stored = normalizeHighlightComparable(e.text)
+    const sl = stored.toLowerCase()
+    if (stored.length < HIGHLIGHT_LOOSE_MIN_LEN || selected.length < HIGHLIGHT_LOOSE_MIN_LEN) {
+      continue
+    }
+    if (sl.includes(selectedLower) || selectedLower.includes(sl)) {
+      return e
+    }
+  }
+
+  return null
+}
 
 interface SelectionToolbarState {
   visible: boolean
@@ -347,6 +400,7 @@ interface SelectionToolbarState {
 
 const route = useRoute()
 const router = useRouter()
+const { t } = useI18n()
 const questionStore = useQuestionStore()
 const practiceStore = usePracticeStore()
 const achievementStore = useAchievementStore()
@@ -488,9 +542,11 @@ const reviewEntries = computed(() => {
     }
   })
 })
-const selectionAlreadyHighlighted = computed(() =>
-  (sessionState.highlights.value || []).some((entry) => entry.scope === selectionToolbar.value.scope && entry.text === selectionToolbar.value.text)
+const matchingHighlightForSelection = computed(() =>
+  findHighlightMatchForSelection(sessionState.highlights.value || [], selectionToolbar.value.scope, selectionToolbar.value.text)
 )
+
+const selectionAlreadyHighlighted = computed(() => Boolean(matchingHighlightForSelection.value))
 
 function hasAnswerValue(value: string | string[]) {
   if (Array.isArray(value)) {
@@ -557,11 +613,7 @@ function savePracticeRecord() {
   }
   practiceStore.add(record as PracticeRecord)
   eventBus.emit(PRACTICE_UPDATED, { record, records: practiceStore.records })
-  const unlocked = achievementStore.check()
-  unlocked.forEach((achievement) => {
-    eventBus.emit(ACHIEVEMENT_UNLOCKED, { achievement })
-  })
-  message.success(`Saved practice record | ${record.correctAnswers}/${record.totalQuestions}`)
+  achievementStore.check()
 }
 
 function submitPractice() {
@@ -571,6 +623,20 @@ function submitPractice() {
   }
   applyAttemptContext()
   savePracticeRecord()
+  const s = resultEntry.scoreInfo
+  const toastText = t('practiceMode.submitResultBanner', {
+    correct: String(s.correct),
+    total: String(s.totalQuestions),
+    accuracy: String(s.percentage)
+  })
+  // 全屏练习时 message 默认挂在 body，会落在全屏层之外而不可见
+  message.config({
+    getContainer: () => (document.fullscreenElement as HTMLElement | null) ?? document.body
+  })
+  message.success({
+    content: toastText,
+    duration: 4.5
+  })
 }
 
 function openPdf() {
@@ -842,10 +908,11 @@ function applySelectionHighlight() {
 }
 
 function removeSelectionHighlight() {
-  sessionState.removeHighlight({
-    scope: selectionToolbar.value.scope,
-    text: selectionToolbar.value.text
-  })
+  const hit = matchingHighlightForSelection.value
+  if (!hit) {
+    return
+  }
+  sessionState.removeHighlight({ scope: hit.scope, text: hit.text })
   clearBrowserSelection()
   closeSelectionToolbar()
 }
@@ -1087,9 +1154,221 @@ onErrorCaptured((error) => {
 .passage-content :deep(p), .passage-content :deep(li), .question-content :deep(p), .question-content :deep(li), .question-content :deep(label), .question-content :deep(td), .question-content :deep(th) { font-size: var(--practice-copy-size); }
 .passage-content :deep(.paragraph-wrapper), .question-content :deep(.question-item), .question-content :deep(.table-wrapper), .question-content :deep(table) { margin-bottom: 18px; }
 .question-content :deep(.question-item) { padding: 16px 18px; border-radius: 16px; background: var(--bg-tertiary); border: 1px solid var(--border-light); }
-.question-content :deep(.radio-options), .question-content :deep(.mcq-options), .question-content :deep(.summary-choices), .question-content :deep(.matching-headings), .question-content :deep(.matching-options), .question-content :deep(.pool-items), .question-content :deep(.cardpool), .question-content :deep(.drag-options), .question-content :deep(.options-list) { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+/* 勿把 ul.options-list / div.radio-options 放在 flex 里，会与下方 grid 冲突；题型用 div+label 时仍走 flex 会错位 */
+.question-content :deep(.summary-choices), .question-content :deep(.matching-headings), .question-content :deep(.matching-options), .question-content :deep(.pool-items), .question-content :deep(.cardpool), .question-content :deep(.drag-options), .question-content :deep(.options-pool), .question-content :deep(#word-options), .question-content :deep(#word-options-pool) { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; justify-content: flex-start; align-content: flex-start; align-items: flex-start; }
+/* 部分题库在 .pool-items 上内联了 flex-direction:column，需覆盖为横向换行 */
+.question-content :deep(.pool-items) {
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: flex-start !important;
+}
+/* 少数试卷在内联 style 里把选项容器写成 column；覆盖为与 MCQ 一致的换行横排 */
+.question-content :deep(.question-item > div[style*='flex-direction: column']) {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 10px 14px !important;
+}
+.question-content :deep(.question-item > div[style*='flex-direction: column'] > label) {
+  width: auto !important;
+  max-width: min(100%, 38rem) !important;
+  box-sizing: border-box;
+}
+/* MCQ 选项：横向换行，短标签同排；长文由 label max-width + overflow-wrap 控制 */
+.question-content :deep(.radio-options),
+.question-content :deep(.mcq-options),
+.question-content :deep(.multiple-choice-options),
+.question-content :deep(.multi-choice-options),
+.question-content :deep(.checkbox-options) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-top: 12px;
+}
+/* TFNG（TRUE / FALSE / NOT GIVEN）：此前未进上列 flex，三枚 label 仅靠 inline 排列过密；单独加大列间距 */
+.question-content :deep(.tfng-options),
+.question-content :deep(.radio-options.tfng-options) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  margin-top: 10px;
+}
+/* 题库在内联 style 里写 column 的 MCQ 容器（优先级高于无 !important 的类选择器） */
+.question-content :deep(.radio-options[style]),
+.question-content :deep(.mcq-options[style]),
+.question-content :deep(.multiple-choice-options[style]),
+.question-content :deep(.multi-choice-options[style]),
+.question-content :deep(.checkbox-options[style]) {
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+}
+/* 无外层 .mcq-options 时题干下直接铺 label.mcq-option：题干块独占一行，选项区换行排列 */
+.question-content :deep(.question-item:has(> label.mcq-option)) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+}
+.question-content :deep(.question-item:has(> label.mcq-option) > :not(label.mcq-option)) {
+  flex: 1 1 100%;
+  width: 100%;
+  min-width: 0;
+}
+.question-content :deep(.question-item > label.mcq-option) {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+  row-gap: 4px;
+  align-items: start;
+  width: auto;
+  max-width: min(100%, 38rem);
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+/* 多选 TWO/THREE 等题型用 div.choice-item 包 label，此前未设间距，选项会上下贴死 */
+.question-content :deep(.choice-item) {
+  display: block;
+  margin-bottom: 12px;
+}
+.question-content :deep(.choice-item:last-child) {
+  margin-bottom: 0;
+}
+.question-content :deep(.question-item > label.mcq-option ~ label.mcq-option) {
+  margin-top: 12px;
+}
 .question-content :deep(label) { display: inline-flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 12px; background: var(--bg-tertiary); }
 .question-content :deep(ul), .question-content :deep(ol) { padding-left: 20px; }
+/* 配对/标题等列表：仍可换行多列；与 MCQ 分列定义，避免 MCQ 宽屏挤成两列 */
+.question-content :deep(.question-item .options-list),
+.question-content :deep(.question-item .radio-options-list),
+.question-content :deep(.question-item .question-options-list) {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-left: 0;
+  padding-inline-start: 0;
+  margin-left: 0;
+  margin-top: 12px;
+  list-style: none;
+  font-size: 0;
+  line-height: 0;
+}
+.question-content :deep(.question-item .radio-options),
+.question-content :deep(.question-item .mcq-options),
+.question-content :deep(.question-item .multiple-choice-options),
+.question-content :deep(.question-item .multi-choice-options),
+.question-content :deep(.question-item .checkbox-options) {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  justify-content: flex-start;
+  padding-left: 0;
+  padding-inline-start: 0;
+  margin-left: 0;
+  margin-top: 12px;
+  list-style: none;
+  font-size: 0;
+  line-height: 0;
+}
+.question-content :deep(.question-item .tfng-options),
+.question-content :deep(.question-item .radio-options.tfng-options) {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px !important;
+  justify-content: flex-start;
+  margin-top: 10px;
+  font-size: var(--practice-copy-size);
+  line-height: 1.5;
+}
+.question-content :deep(.question-item .options-list > li),
+.question-content :deep(.question-item .radio-options-list > li),
+.question-content :deep(.question-item .question-options-list > li) {
+  flex: 0 1 auto;
+  max-width: min(100%, 38rem);
+  min-width: 0;
+  box-sizing: border-box;
+  font-size: var(--practice-copy-size);
+  line-height: 1.5;
+}
+.question-content :deep(.question-item .mcq-options > li),
+.question-content :deep(.question-item .radio-options > label),
+.question-content :deep(.question-item .mcq-options > label),
+.question-content :deep(.question-item .multiple-choice-options > label),
+.question-content :deep(.question-item .multi-choice-options > label),
+.question-content :deep(.question-item .checkbox-options > label) {
+  flex: 0 1 auto;
+  width: auto;
+  max-width: min(100%, 38rem);
+  min-width: 0;
+  box-sizing: border-box;
+  font-size: var(--practice-copy-size);
+  line-height: 1.5;
+}
+.question-content :deep(.question-item .options-list li),
+.question-content :deep(.question-item .radio-options-list li),
+.question-content :deep(.question-item .question-options-list li) {
+  list-style: none;
+}
+.question-content :deep(.question-item .options-list li label),
+.question-content :deep(.question-item .radio-options-list li label),
+.question-content :deep(.question-item .question-options-list li label) {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+  row-gap: 4px;
+  align-items: start;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+.question-content :deep(.question-item .mcq-options li label) {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+  row-gap: 4px;
+  align-items: start;
+  width: auto;
+  max-width: min(100%, 38rem);
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+/* MCQ 直接子 label（含 .mcq-options > label）：与 flex 换行一致，不用 100% 拉满整行 */
+.question-content :deep(.question-item .radio-options > label),
+.question-content :deep(.question-item .mcq-options > label),
+.question-content :deep(.question-item .multiple-choice-options > label),
+.question-content :deep(.question-item .multi-choice-options > label),
+.question-content :deep(.question-item .checkbox-options > label) {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+  row-gap: 4px;
+  align-items: start;
+  width: auto;
+  max-width: min(100%, 38rem);
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+/* 多行选项时控件与首行对齐；微上移以补偿单行 cap-height */
+.question-content :deep(.question-item label) .native-choice-input[type='radio'],
+.question-content :deep(.question-item label) .native-choice-input[type='checkbox'] {
+  margin-top: 0.2em;
+  vertical-align: top;
+}
 .question-content :deep(table) { width: 100%; border-collapse: collapse; }
 /* Paragraph–letter matching grids (A–J): keep all columns reachable; avoid clipping J on narrow panes */
 .question-content :deep(div[style*='overflow-x']) {
@@ -1104,18 +1383,35 @@ onErrorCaptured((error) => {
   width: max-content;
   max-width: none;
   table-layout: auto;
+  /* Inherit left so statement column is left-aligned; letter columns override below */
+  text-align: left;
 }
-.question-content :deep(table.matching-table th:not(:first-child)),
-.question-content :deep(table.matching-table td:not(:first-child)) {
+/* 使用 :first-of-type：AST 常在 tr 内保留空白文本节点，导致 td:first-child 匹配不到首列 */
+.question-content :deep(table.matching-table th:not(:first-of-type)),
+.question-content :deep(table.matching-table td:not(:first-of-type)) {
   min-width: 2.35rem;
   text-align: center;
   white-space: nowrap;
+  vertical-align: middle;
 }
-.question-content :deep(table.matching-table th:first-child),
-.question-content :deep(table.matching-table td:first-child) {
-  min-width: min(200px, 42vw) !important;
-  max-width: min(280px, 52vw);
+.question-content :deep(table.matching-table td:not(:first-of-type) input.native-choice-input) {
+  display: block;
+  margin-inline: auto;
+}
+.question-content :deep(table.matching-table th:first-of-type),
+.question-content :deep(table.matching-table td:first-of-type) {
+  min-width: min(180px, 38vw) !important;
+  max-width: min(42rem, min(70vw, 100%));
   white-space: normal;
+  text-align: left !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  vertical-align: top;
+}
+/* 题干格内常见 <p>/<strong> 等若带居中样式，强制跟随左对齐 */
+.question-content :deep(table.matching-table td:first-of-type p),
+.question-content :deep(table.matching-table td:first-of-type li) {
+  text-align: left !important;
 }
 .question-content :deep(td), .question-content :deep(th) { padding: 10px 12px; border: 1px solid var(--border-light); vertical-align: top; }
 .question-group-card + .question-group-card { margin-top: 18px; }
