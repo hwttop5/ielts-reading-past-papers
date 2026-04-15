@@ -1,4 +1,9 @@
 import { defineStore } from 'pinia'
+import type {
+  PracticeHighlightRecord,
+  PracticeRouteMode,
+  PracticeSessionResult
+} from '@/types/readingNative'
 
 export interface PracticeRecord {
   id: string
@@ -11,6 +16,118 @@ export interface PracticeRecord {
   totalQuestions: number
   accuracy: number
   score: number
+  mode?: PracticeRouteMode
+  markedQuestions?: string[]
+  highlights?: PracticeHighlightRecord[]
+  resultSnapshot?: PracticeSessionResult
+}
+
+export type PracticeRecordInput = Omit<PracticeRecord, 'id' | 'time'> & Partial<Pick<PracticeRecord, 'id' | 'time'>>
+
+function stringValue(value: unknown): string {
+  return typeof value === 'string' ? value.trim() : ''
+}
+
+function finiteNumber(value: unknown, fallback = 0): number {
+  const next = Number(value)
+  return Number.isFinite(next) ? next : fallback
+}
+
+function percentageValue(value: unknown): number {
+  const next = finiteNumber(value, 0)
+  return Math.min(100, Math.max(0, next))
+}
+
+function stringList(value: unknown): string[] | undefined {
+  if (!Array.isArray(value)) {
+    return undefined
+  }
+  return value.map((entry) => stringValue(entry)).filter(Boolean)
+}
+
+function isPracticeMode(value: unknown): value is PracticeRouteMode {
+  return value === 'single' || value === 'review' || value === 'simulation'
+}
+
+function isPracticeHighlightRecord(value: unknown): value is PracticeHighlightRecord {
+  if (!value || typeof value !== 'object') {
+    return false
+  }
+  const source = value as Partial<PracticeHighlightRecord>
+  return (source.scope === 'passage' || source.scope === 'questions') && typeof source.text === 'string' && Boolean(source.text.trim())
+}
+
+function highlightList(value: unknown): PracticeHighlightRecord[] | undefined {
+  if (!Array.isArray(value)) {
+    return undefined
+  }
+  const highlights = value.filter(isPracticeHighlightRecord).map((entry) => ({
+    scope: entry.scope,
+    text: entry.text.trim()
+  }))
+  return highlights.length ? highlights : undefined
+}
+
+function resultSnapshot(value: unknown): PracticeSessionResult | undefined {
+  if (!value || typeof value !== 'object') {
+    return undefined
+  }
+  return value as PracticeSessionResult
+}
+
+export function normalizePracticeRecord(value: unknown): PracticeRecord | null {
+  if (!value || typeof value !== 'object') {
+    return null
+  }
+
+  const source = value as Record<string, unknown>
+  const questionId = stringValue(source.questionId)
+  if (!questionId) {
+    return null
+  }
+
+  const now = Date.now()
+  const time = finiteNumber(source.time, now)
+  const record: PracticeRecord = {
+    id: stringValue(source.id) || `${questionId}-${time}`,
+    questionId,
+    questionTitle: stringValue(source.questionTitle),
+    category: stringValue(source.category),
+    time,
+    duration: Math.max(0, finiteNumber(source.duration, 0)),
+    correctAnswers: Math.max(0, finiteNumber(source.correctAnswers, 0)),
+    totalQuestions: Math.max(0, finiteNumber(source.totalQuestions, 0)),
+    accuracy: percentageValue(source.accuracy),
+    score: Math.max(0, finiteNumber(source.score, finiteNumber(source.correctAnswers, 0)))
+  }
+
+  if (isPracticeMode(source.mode)) {
+    record.mode = source.mode
+  }
+
+  const markedQuestions = stringList(source.markedQuestions)
+  if (markedQuestions) {
+    record.markedQuestions = markedQuestions
+  }
+
+  const highlights = highlightList(source.highlights)
+  if (highlights) {
+    record.highlights = highlights
+  }
+
+  const snapshot = resultSnapshot(source.resultSnapshot)
+  if (snapshot) {
+    record.resultSnapshot = snapshot
+  }
+
+  return record
+}
+
+export function normalizePracticeRecords(value: unknown): PracticeRecord[] {
+  if (!Array.isArray(value)) {
+    return []
+  }
+  return value.map((entry) => normalizePracticeRecord(entry)).filter((entry): entry is PracticeRecord => Boolean(entry))
 }
 
 export const usePracticeStore = defineStore('practice', {
@@ -39,17 +156,32 @@ export const usePracticeStore = defineStore('practice', {
   actions: {
     load() {
       const raw = localStorage.getItem('ielts_practice')
-      if (raw) {
-        this.records = JSON.parse(raw)
+      if (!raw) {
+        this.records = []
+        return
+      }
+
+      try {
+        this.records = normalizePracticeRecords(JSON.parse(raw))
+        localStorage.setItem('ielts_practice', JSON.stringify(this.records))
+      } catch {
+        this.records = []
+        localStorage.removeItem('ielts_practice')
       }
     },
 
-    add(record: PracticeRecord) {
-      this.records.unshift({
+    add(record: PracticeRecordInput) {
+      const now = Date.now()
+      const normalized = normalizePracticeRecord({
         ...record,
-        id: Date.now().toString(),
-        time: Date.now()
+        id: record.id || now.toString(),
+        time: record.time || now
       })
+      if (!normalized) {
+        return
+      }
+
+      this.records.unshift(normalized)
       localStorage.setItem('ielts_practice', JSON.stringify(this.records))
     },
 

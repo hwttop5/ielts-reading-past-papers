@@ -23,7 +23,7 @@ services:
       - key: LLM_BASE_URL
         value: https://openrouter.ai/api/v1
       - key: LLM_CHAT_MODEL
-        value: stepfun/step-3.5-flash:free
+        value: openrouter/free
       - key: LLM_TIMEOUT_MS
         value: "35000"
       - key: LLM_APP_NAME
