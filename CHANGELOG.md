@@ -43,3 +43,33 @@ Refactored the explanation and practice pages with a more unified workflow, bett
 #### 3. Added AI Coach
 
 Added an AI coach to practice sessions, with support for hints, reasoning walkthroughs, and mistake review to help users understand questions and revise more efficiently.
+
+## v2.0.1 - 2026-04-15
+
+### 中文说明
+
+#### 1. 切换 OpenRouter 免费模型
+
+将 AI 助教默认 LLM 运行时切换到 OpenRouter 免费模型路由器 `openrouter/free`，同步更新 Render 与示例配置，并保留旧 Coding Plan provider 兼容。
+
+#### 2. 修复填空题提交异常
+
+修复填空题输入后提交时的事件转发异常，避免 `questionId` 读取失败；同时清洗损坏的本地练习记录，防止旧 `ielts_practice` 数据污染练习历史。
+
+#### 3. 补充回归验证
+
+新增练习记录清洗单测与填空题提交 E2E 回归测试，覆盖损坏本地记录、非法 JSON 与 `p1-high-05` 填空题提交流程。
+
+### English Notes
+
+#### 1. Switched to OpenRouter Free Router
+
+Switched the AI coach default LLM runtime to the OpenRouter free model router `openrouter/free`, updated Render and example configuration, and kept the legacy Coding Plan provider compatible.
+
+#### 2. Fixed Fill-in Submission Errors
+
+Fixed the event forwarding issue that could break fill-in submissions when reading `questionId`, and sanitized damaged local practice history so stale `ielts_practice` data no longer pollutes recent practice records.
+
+#### 3. Added Regression Coverage
+
+Added practice-history sanitization unit tests and a fill-in submission E2E regression test covering damaged local records, malformed JSON, and the `p1-high-05` fill-in flow.
