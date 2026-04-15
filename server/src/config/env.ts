@@ -117,7 +117,7 @@ function getDefaultLlmChatModel(provider: typeof parsedEnv.LLM_PROVIDER) {
     case 'coding-plan':
       return 'qwen3.5-plus'
     case 'openrouter':
-      return 'stepfun/step-3.5-flash:free'
+      return 'openrouter/free'
   }
 }
 

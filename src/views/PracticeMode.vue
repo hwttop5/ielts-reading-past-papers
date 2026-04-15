@@ -34,7 +34,7 @@
       <template v-else>
         <div v-if="session.loadError || runtimeError" class="state-banner">
           <div class="state-banner-copy">
-            <strong>Failed to load practice data</strong>
+            <strong>{{ runtimeError ? 'Practice runtime error' : 'Failed to load practice data' }}</strong>
             <span>{{ runtimeError || session.loadError }}</span>
           </div>
           <div class="state-actions">
@@ -331,7 +331,7 @@ import PracticeAssistant from '@/components/PracticeAssistant.vue'
 import PracticeNodeRenderer from '@/components/native-practice/PracticeNodeRenderer.vue'
 import { useReadingPracticeSession } from '@/composables/useReadingPracticeSession'
 import { useAchievementStore } from '@/store/achievementStore'
-import { usePracticeStore, type PracticeRecord } from '@/store/practiceStore'
+import { usePracticeStore, type PracticeRecord, type PracticeRecordInput } from '@/store/practiceStore'
 import { useQuestionStore } from '@/store/questionStore'
 import { ACHIEVEMENT_UNLOCKED, eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { formatAnswerDisplay } from '@/utils/readingPractice'
@@ -516,12 +516,15 @@ const passageHighlightTerms = computed(() => (sessionState.highlights.value || [
 const questionHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'questions').map((item) => item.text))
 const answeredCount = computed(() => Object.values(sessionState.answerMap.value || {}).filter((value) => hasAnswerValue(value)).length)
 const recentPractice = computed<RecentPracticeItem[]>(() =>
-  practiceStore.records.slice(0, 10).map((record) => ({
-    questionId: record.questionId,
-    accuracy: record.accuracy,
-    category: record.category,
-    duration: record.duration
-  }))
+  practiceStore.records
+    .filter(isUsablePracticeRecord)
+    .slice(0, 10)
+    .map((record) => ({
+      questionId: record.questionId,
+      accuracy: record.accuracy,
+      category: record.category,
+      duration: record.duration
+    }))
 )
 const reviewEntries = computed(() => {
   if (!sessionState.result.value || !sessionState.exam.value) {
@@ -553,6 +556,15 @@ function hasAnswerValue(value: string | string[]) {
     return value.some((entry) => String(entry || '').trim())
   }
   return Boolean(String(value || '').trim())
+}
+
+function isUsablePracticeRecord(record: unknown): record is PracticeRecord {
+  return Boolean(
+    record
+      && typeof record === 'object'
+      && typeof (record as PracticeRecord).questionId === 'string'
+      && (record as PracticeRecord).questionId.trim()
+  )
 }
 
 function questionLabel(questionIdValue: string) {
@@ -603,7 +615,7 @@ function buildPracticeRecord() {
     markedQuestions: [...sessionState.markedQuestions.value],
     highlights: [...sessionState.highlights.value],
     resultSnapshot: sessionState.result.value
-  } satisfies Omit<PracticeRecord, 'id' | 'time'>
+  } satisfies PracticeRecordInput
 }
 
 function savePracticeRecord() {
@@ -611,7 +623,7 @@ function savePracticeRecord() {
   if (!record) {
     return
   }
-  practiceStore.add(record as PracticeRecord)
+  practiceStore.add(record)
   eventBus.emit(PRACTICE_UPDATED, { record, records: practiceStore.records })
   achievementStore.check()
 }
