@@ -73,3 +73,33 @@ Fixed the event forwarding issue that could break fill-in submissions when readi
 #### 3. Added Regression Coverage
 
 Added practice-history sanitization unit tests and a fill-in submission E2E regression test covering damaged local records, malformed JSON, and the `p1-high-05` fill-in flow.
+
+## v2.0.2 - 2026-04-16
+
+### 中文说明
+
+#### 1. 恢复相似文章推荐卡片
+
+修复“推荐相似题目”在流式接口中退化为普通文本回答的问题，统一复用静态相似文章推荐数据，确保返回 `recommendedQuestions` 并继续支持文章卡片跳转。
+
+#### 2. 优化 AI 助手本地回复可靠性
+
+优化本地 deterministic 回复的置信度与缺上下文提示：缺选项列表时不再高置信，缺原文证据时降为低置信；同时清理 `Qthe current set`、`the cited evidence area附近` 等占位文案。
+
+#### 3. 补充本地评估与回归验证
+
+新增不触发 LLM/RAGAS 指标的 local-only replay 报告入口，并补充相似推荐、缺选项列表、缺原文证据和本地文案的后端回归测试。
+
+### English Notes
+
+#### 1. Restored Similar Passage Recommendation Cards
+
+Fixed the issue where “recommend similar questions” could fall back to a plain text answer in the streaming API, reusing static similar-passage recommendations so `recommendedQuestions` is returned for clickable passage cards.
+
+#### 2. Improved Local AI Assistant Reliability
+
+Improved confidence gating and missing-context messaging for deterministic local replies: missing option lists no longer produce high confidence, missing passage evidence is downgraded to low confidence, and placeholder wording such as `Qthe current set` and `the cited evidence area附近` has been removed.
+
+#### 3. Added Local Evaluation and Regression Coverage
+
+Added a local-only replay report mode that does not invoke LLM/RAGAS metrics, plus backend regression coverage for similar recommendations, missing option lists, missing passage evidence, and local fallback wording.
