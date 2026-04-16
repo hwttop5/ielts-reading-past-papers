@@ -474,6 +474,7 @@ function applyAnswerStyleToParsedModel(parsed: ParsedModelResponse, style: Answe
 interface ConfidenceFactors {
   llmConfidence?: AssistantConfidence
   missingContext: string[]
+  missingContextCodes?: string[]
   intent?: IntentClassification
   hasQuestionChunks: boolean
   hasPassageChunks: boolean
@@ -492,9 +493,35 @@ function normalizeConfidence(factors: ConfidenceFactors): AssistantConfidence {
     return factors.llmConfidence
   }
 
-  const { missingContext, intent, hasQuestionChunks, hasPassageChunks, hasParagraphEvidence, contextChunkCount, isLocalResponse, hasPrimaryQuestionChunk, hasPrimaryEvidenceChunk, focusQuestionCount } = factors
+  const { missingContext, missingContextCodes = [], intent, hasQuestionChunks, hasPassageChunks, hasParagraphEvidence, contextChunkCount, isLocalResponse, hasPrimaryQuestionChunk, hasPrimaryEvidenceChunk, focusQuestionCount } = factors
+  const missingCodeSet = new Set(missingContextCodes)
+  const hasMissingPassageEvidence =
+    missingCodeSet.has('missing_passage_evidence') ||
+    missingContext.some((item) => /证据段落|supporting passage paragraph/i.test(item))
+  const hasMissingOptionList =
+    missingCodeSet.has('missing_option_list') ||
+    missingContext.some((item) => /选项列表|option list/i.test(item))
+  const hasMissingQuestionPrompt =
+    missingCodeSet.has('missing_question_prompt') ||
+    missingContext.some((item) => /题干内容|question prompt/i.test(item))
+  const missingCoreCount = [
+    hasMissingQuestionPrompt,
+    hasMissingOptionList,
+    hasMissingPassageEvidence
+  ].filter(Boolean).length
+
+  // Local deterministic answers must not look more certain than their retrieved context.
+  if (isLocalResponse) {
+    if (hasMissingPassageEvidence || missingCoreCount >= 2) {
+      return 'low'
+    }
+    if (hasMissingOptionList) {
+      return 'medium'
+    }
+  }
 
   // Social/smalltalk and clarification responses have high confidence by design
+  // only when the local grounded context did not already report missing evidence/options.
   if (intent?.kind === 'social_or_smalltalk' || intent?.kind === 'clarify' || intent?.kind === 'general_chat') {
     return 'high'
   }
@@ -1156,7 +1183,7 @@ function describeQuestionType(questionType: string | undefined, locale: 'zh' | '
       case 'dropdown_choice':
         return '下拉选择题'
       default:
-        return '雅思阅读题'
+        return '当前题型暂未识别'
     }
   }
 
@@ -1182,8 +1209,61 @@ function describeQuestionType(questionType: string | undefined, locale: 'zh' | '
     case 'dropdown_choice':
       return 'dropdown selection'
     default:
-      return 'IELTS reading question'
+      return 'unidentified IELTS reading task'
   }
+}
+
+function formatFocusQuestionTarget(focusQuestionNumbers: string[], locale: 'zh' | 'en'): string {
+  if (focusQuestionNumbers.length === 0) {
+    return locale === 'zh' ? '当前题组' : 'the current question set'
+  }
+  const joined = focusQuestionNumbers.join(', ')
+  return focusQuestionNumbers.length === 1 ? `Q${joined}` : `Q${joined}`
+}
+
+function buildQuestionTypeStrategyText(questionType: string | undefined, locale: 'zh' | 'en'): string {
+  if (questionType) {
+    const label = describeQuestionType(questionType, locale)
+    return locale === 'zh'
+      ? `先把它当作${label}来做：先看清题干要求，再标出关键词、对比词和限定词，然后用这些线索去缩小范围。`
+      : `Treat it as ${label}: read the stem carefully, mark the key nouns, contrast words, and limits, then use those cues to narrow the search window.`
+  }
+  return locale === 'zh'
+    ? '当前题型暂未识别，只能先按定位方法处理：先看清题干要求，再标出关键词、对比词和限定词，然后用这些线索去缩小范围。'
+    : 'The current question type is not identified yet, so use a locating method first: read the stem carefully, mark key nouns, contrast words, and limits, then narrow the search window.'
+}
+
+function buildLocalContextWarnings(context: RetrievalContext, locale: 'zh' | 'en'): string[] {
+  const codes = new Set(context.missingContextCodes)
+  const warnings: string[] = []
+  if (codes.has('missing_option_list')) {
+    warnings.push(locale === 'zh'
+      ? '当前未命中选项列表，只能给定位方法，不能比较选项。'
+      : 'The option list was not retrieved, so I can only give a locating method rather than compare choices.')
+  }
+  if (codes.has('missing_passage_evidence')) {
+    warnings.push(locale === 'zh'
+      ? '当前未命中足够的原文证据段落，所以这不是完整解析。'
+      : 'The supporting passage evidence was not retrieved, so this is not a complete explanation.')
+  }
+  return warnings
+}
+
+function applyLocalContextWarnings(sections: AssistantAnswerSection[], context: RetrievalContext, locale: 'zh' | 'en'): AssistantAnswerSection[] {
+  const warnings = buildLocalContextWarnings(context, locale)
+  if (warnings.length === 0) {
+    return sections
+  }
+  const warningText = warnings.join(locale === 'zh' ? '' : ' ')
+  const directIndex = sections.findIndex((section) => section.type === 'direct_answer')
+  if (directIndex < 0) {
+    const warningSection = createAnswerSection('direct_answer', warningText)
+    return warningSection ? [warningSection, ...sections] : sections
+  }
+  return sections.map((section, index) => index === directIndex
+    ? { ...section, text: compactMultiline(`${section.text}\n${warningText}`) }
+    : section
+  )
 }
 
 function buildWeakCategorySet(items: AssistantQueryRequest['recentPractice'] = []): Set<string> {
@@ -1402,7 +1482,8 @@ function chunkHasOptionListContent(chunk: RagChunk): boolean {
   if (chunk.chunkType !== 'question_item') {
     return false
   }
-  return /(?:^|\n)(Options:|选项:|List of |Shared instructions:)/i.test(chunk.content)
+  return /(?:^|\n)\s*(Options:|选项:|Shared instructions:)/i.test(chunk.content)
+    || /(?:^|\n)\s*(?:[ivxlcdm]+|[A-Z]|\d+)(?:[).、]|\s+)\S+/im.test(chunk.content)
 }
 
 function questionTypeNeedsOptionList(questionType?: string): boolean {
@@ -1473,11 +1554,16 @@ function collectSharedInstructionChunks(
 ): RagChunk[] {
   const focusSet = new Set(focusQuestionNumbers)
   const candidates = allowed.filter(chunkHasOptionListContent)
-  const matchingFocus = candidates.filter((chunk) => chunk.questionNumbers.some((value) => focusSet.has(value)))
+  const matchingFocus = focusSet.size > 0
+    ? candidates.filter((chunk) => chunk.questionNumbers.some((value) => focusSet.has(value)))
+    : []
   const matchingType = questionType
     ? candidates.filter((chunk) => chunk.metadata.questionType === questionType)
     : []
-  return dedupeChunks([...matchingFocus, ...matchingType]).slice(0, 3)
+  const matchingLike = !questionType
+    ? candidates.filter((chunk) => questionTypeNeedsOptionList(chunk.metadata.questionType))
+    : []
+  return dedupeChunks([...matchingFocus, ...matchingType, ...matchingLike, ...candidates]).slice(0, 3)
 }
 
 function pickFocusQuestionNumbers(document: ParsedQuestionDocument, request: AssistantQueryRequest, intent?: IntentClassification): string[] {
@@ -1667,7 +1753,6 @@ function buildHintSections(question: QuestionIndexEntry, context: RetrievalConte
     passageChunk = contextChunks.find((chunk) => chunk.chunkType === 'passage_paragraph')
   }
 
-  const questionType = describeQuestionType(questionChunk?.metadata.questionType, locale)
   const questionTypeRaw = questionChunk?.metadata.questionType
   const paragraphHint = passageChunk?.paragraphLabels[0]
   const evidenceText = passageChunk ? toExcerpt(passageChunk.content, locale === 'zh' ? 160 : 180) : ''
@@ -1676,7 +1761,7 @@ function buildHintSections(question: QuestionIndexEntry, context: RetrievalConte
   const isHeadingMatching = questionTypeRaw === 'heading_matching'
   const paragraphHintText = isHeadingMatching
     ? (locale === 'zh' ? '相关段落' : 'the relevant paragraph')
-    : (paragraphHint ? `段落 ${paragraphHint}` : 'the cited evidence area')
+    : (paragraphHint ? `段落 ${paragraphHint}` : (locale === 'zh' ? '相关证据位置' : 'the cited evidence area'))
   const paragraphHintTextEn = isHeadingMatching
     ? 'the relevant paragraph'
     : (paragraphHint ? `paragraph ${paragraphHint}` : 'the cited evidence area')
@@ -1685,9 +1770,7 @@ function buildHintSections(question: QuestionIndexEntry, context: RetrievalConte
     createAnswerSection('direct_answer', locale === 'zh'
       ? `${question.title} 这组题建议先从${focusQuestion ? `第 ${focusQuestion} 题` : '当前题组'}入手，优先回到${paragraphHintText}附近找线索。`
       : `For ${question.title}, start with ${focusQuestion ? `Q${focusQuestion}` : 'the current question set'} and begin near ${paragraphHintTextEn}.`),
-    createAnswerSection('reasoning', locale === 'zh'
-      ? `先把它当作${questionType}来做：先看清题干要求，再标出关键词、对比词和限定词，然后用这些线索去缩小范围。`
-      : `Treat it as ${questionType}: read the stem carefully, mark the key nouns, contrast words, and limits, then use those cues to narrow the search window.`),
+    createAnswerSection('reasoning', buildQuestionTypeStrategyText(questionTypeRaw, locale)),
     evidenceText && !isHeadingMatching ? createAnswerSection('evidence', locale === 'zh' ? `你现在最值得核对的证据是：${evidenceText}` : `The most useful evidence to inspect next is: ${evidenceText}`) : null,
     createAnswerSection('next_step', locale === 'zh'
       ? '先排除一个明显不成立的选项或段落，再决定最终答案，避免一上来就锁死。'
@@ -1696,7 +1779,7 @@ function buildHintSections(question: QuestionIndexEntry, context: RetrievalConte
 }
 
 function buildExplainSections(question: QuestionIndexEntry, context: RetrievalContext, locale: 'zh' | 'en', contextChunks: RagChunk[]): AssistantAnswerSection[] {
-  const focusQuestions = context.focusQuestionNumbers.length > 0 ? context.focusQuestionNumbers.join(', ') : 'the current set'
+  const focusQuestions = formatFocusQuestionTarget(context.focusQuestionNumbers, locale)
   const focusQuestionSet = new Set(context.focusQuestionNumbers)
 
   // Find question chunk that matches the focus question numbers
@@ -1720,16 +1803,19 @@ function buildExplainSections(question: QuestionIndexEntry, context: RetrievalCo
   }
 
   const questionType = describeQuestionType(questionChunk?.metadata.questionType, locale)
+  const questionTypeRaw = questionChunk?.metadata.questionType
   const paragraphHint = passageChunk?.paragraphLabels[0]
   const evidenceText = passageChunk ? toExcerpt(passageChunk.content, locale === 'zh' ? 180 : 220) : ''
 
   return [
     createAnswerSection('direct_answer', locale === 'zh'
-      ? `${question.title} 这组题最稳的做法，是把 Q${focusQuestions} 当作 ${questionType} 来处理，并先锁定最相关的证据段。`
-      : `The safest way to work through ${question.title} is to handle Q${focusQuestions} as ${questionType} and lock onto the most relevant evidence paragraph first.`),
-    createAnswerSection('reasoning', locale === 'zh'
-      ? '先判断题目到底要找事实、对比、分类还是同义改写，再把题干和原文逐句对照，不要只看有没有出现完全相同的单词。'
-      : 'First decide whether the task is asking for fact, comparison, classification, or paraphrase, then compare the stem against the passage sentence by sentence rather than chasing exact word matches.'),
+      ? `${question.title} 这组题最稳的做法，是把${focusQuestions}按${questionType}来处理，并先锁定最相关的证据段。`
+      : `The safest way to work through ${question.title} is to handle ${focusQuestions} as ${questionType} and lock onto the most relevant evidence paragraph first.`),
+    createAnswerSection('reasoning', questionTypeRaw
+      ? (locale === 'zh'
+          ? '先判断题目到底要找事实、对比、分类还是同义改写，再把题干和原文逐句对照，不要只看有没有出现完全相同的单词。'
+          : 'First decide whether the task is asking for fact, comparison, classification, or paraphrase, then compare the stem against the passage sentence by sentence rather than chasing exact word matches.')
+      : buildQuestionTypeStrategyText(undefined, locale)),
     evidenceText ? createAnswerSection('evidence', locale === 'zh'
       ? `${paragraphHint ? `段落 ${paragraphHint}` : '相关证据段'}里最关键的线索是：${evidenceText}`
       : `The key clue in ${paragraphHint ? `paragraph ${paragraphHint}` : 'the supporting passage'} is: ${evidenceText}`) : null,
@@ -2215,11 +2301,20 @@ export class AssistantService {
 
     const finalChunks = budgetFinalChunks(route, sortedChunks, budget)
 
-    // Ensure heading list chunk is always included for heading_matching questions
+    // Ensure option/shared-instruction chunks survive the final budget when matching-like tasks need them.
     let expandedChunks = finalChunks
-    if (headingListChunk && !finalChunks.some(c => c.id === headingListChunk!.id)) {
-      expandedChunks = dedupeChunks([headingListChunk, ...finalChunks])
-      this.logger.info?.({ headingListChunkId: headingListChunk.id }, 'Context expansion: added heading list chunk for heading_matching question.')
+    const requiredInstructionChunks = dedupeChunks([
+      ...(headingListChunk ? [headingListChunk] : []),
+      ...sharedInstructionChunks
+    ])
+    const missingRequiredInstructionChunks = requiredInstructionChunks.filter(
+      (required) => !expandedChunks.some((chunk) => chunk.id === required.id)
+    )
+    if (missingRequiredInstructionChunks.length > 0) {
+      expandedChunks = dedupeChunks([...missingRequiredInstructionChunks, ...expandedChunks])
+      this.logger.info?.({
+        addedInstructionChunkIds: missingRequiredInstructionChunks.map((chunk) => chunk.id)
+      }, 'Context expansion: added required instruction chunks for matching-like question.')
     }
 
     // Detect missing English text and expand context if needed
@@ -2487,6 +2582,7 @@ export class AssistantService {
       const questionType = context.primaryQuestionChunk?.metadata.questionType
       answerSections = sanitizeHintAnswerSections(answerSections, questionType, locale)
     }
+    answerSections = applyLocalContextWarnings(answerSections, context, locale)
 
     return this.attachGroundedDiagnostics(this.finalizeResponse(route, context.chunks, {
       answer: buildAnswerFromSections(answerSections),
@@ -2498,6 +2594,7 @@ export class AssistantService {
       usedParagraphLabels: context.usedParagraphLabels,
       confidence: normalizeConfidence({
         missingContext: context.missingContext,
+        missingContextCodes: context.missingContextCodes,
         intent: resolvedIntent,
         hasQuestionChunks: context.chunks.some(c => c.chunkType === 'question_item'),
         hasPassageChunks: context.chunks.some(c => c.chunkType === 'passage_paragraph'),
@@ -2527,6 +2624,7 @@ export class AssistantService {
       usedParagraphLabels: context.usedParagraphLabels,
       confidence: normalizeConfidence({
         missingContext: context.missingContext,
+        missingContextCodes: context.missingContextCodes,
         intent: resolvedIntent,
         hasQuestionChunks: context.chunks.some(c => c.chunkType === 'question_item'),
         hasPassageChunks: context.chunks.some(c => c.chunkType === 'passage_paragraph'),
@@ -2554,7 +2652,7 @@ export class AssistantService {
     const adjusted = applyAnswerStyleToParsedModel(modelResponse, context.answerStyle)
 
     // Sanitize answer sections for tutor route to prevent revealing answers
-    let sanitizedSections = context.answerStyle === 'full_tutoring'
+    let sanitizedSections = context.answerStyle === 'full_tutoring' && wantsExplain
       ? ensureFullTutoringSections(question, context, locale, adjusted.answerSections)
       : adjusted.answerSections
     if (route === 'tutor' && !wantsExplain) {
@@ -2581,6 +2679,7 @@ export class AssistantService {
       confidence: normalizeConfidence({
         llmConfidence: adjusted.confidence,
         missingContext: [...context.missingContext, ...adjusted.missingContext],
+        missingContextCodes: context.missingContextCodes,
         hasQuestionChunks: context.chunks.some(c => c.chunkType === 'question_item'),
         hasPassageChunks: context.chunks.some(c => c.chunkType === 'passage_paragraph'),
         hasParagraphEvidence: context.usedParagraphLabels.length > 0,

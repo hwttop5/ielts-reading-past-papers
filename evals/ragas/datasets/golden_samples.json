@@ -1,5 +1,25 @@
 [
   {
+    "id": "similar_recommendation_cards_static",
+    "questionId": "p1-high-01",
+    "mode": "similar",
+    "locale": "zh",
+    "userQuery": "推荐相似题目",
+    "focusQuestionNumbers": [],
+    "expected_answer": "recommendedQuestions",
+    "expected_evidence": null,
+    "official_explanation": "相似推荐应返回 recommendedQuestions 文章卡片，并通过 questionId 支持跳转；该路径应优先使用静态推荐表，不依赖 LLM 或语义检索。",
+    "query_variants": [
+      "推荐相似文章",
+      "找同类型练习",
+      "推荐相关文章"
+    ],
+    "expectedStyle": "full_tutoring",
+    "expectedResponseKind": "grounded",
+    "expectedAssistantRoute": "page_grounded",
+    "action": "recommend_drills"
+  },
+  {
     "id": "hint_single_question",
     "questionId": "p1-high-01",
     "mode": "hint",

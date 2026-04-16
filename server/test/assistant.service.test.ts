@@ -340,6 +340,101 @@ describe('AssistantService', () => {
     expect(response.confidence).toBeTruthy()
   })
 
+  it('caps local confidence and warns when option lists are missing', async () => {
+    const service = new AssistantService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader: async () => document,
+      summariesLoader: async () => [document.summary],
+      semanticSearch: null
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      locale: 'zh',
+      userQuery: '讲解第 12 题（缺原文证据测试）',
+      focusQuestionNumbers: ['12']
+    }, { includeRetrieval: true })
+
+    expect(response.missingContextCodes).toContain('missing_option_list')
+    expect(response.confidence).toBe('medium')
+    expect(response.answer).toContain('当前未命中选项列表，只能给定位方法，不能比较选项。')
+    expect(response.answer).not.toContain('Qthe current set')
+    expect(response.answer).not.toContain('the cited evidence area')
+  })
+
+  it('drops local confidence to low when passage evidence is missing', async () => {
+    const questionOnlyDocument: ParsedQuestionDocument = {
+      ...document,
+      passageChunks: [],
+      answerKeyChunks: [],
+      answerExplanationChunks: [],
+      allChunks: document.questionChunks
+    }
+    const service = new AssistantService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader: async () => questionOnlyDocument,
+      summariesLoader: async () => [document.summary],
+      semanticSearch: null
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      locale: 'zh',
+      userQuery: '讲解第 12 题，比较选项列表',
+      focusQuestionNumbers: ['12']
+    }, { includeRetrieval: true })
+
+    expect(response.missingContextCodes).toContain('missing_passage_evidence')
+    expect(response.confidence).toBe('low')
+    expect(response.answer).toContain('当前未命中足够的原文证据段落，所以这不是完整解析。')
+    expect(response.answer).not.toContain('the cited evidence area')
+  })
+
+  it('keeps shared option-list instructions in local matching-like context', async () => {
+    const optionInstructionChunk = createChunk({
+      id: 'question-12-options',
+      chunkType: 'question_item',
+      questionId: question.id,
+      title: question.title,
+      category: question.category,
+      difficulty: question.difficulty,
+      questionNumbers: ['12'],
+      paragraphLabels: [],
+      content: [
+        'Question 12',
+        'Shared instructions:',
+        'Options:',
+        'A Method used in the study',
+        'B A historical background'
+      ].join('\n'),
+      metadata: { questionType: 'multiple_choice' }
+    })
+    const optionDocument: ParsedQuestionDocument = {
+      ...document,
+      questionChunks: [...document.questionChunks, optionInstructionChunk],
+      allChunks: [...document.allChunks, optionInstructionChunk]
+    }
+    const service = new AssistantService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader: async () => optionDocument,
+      summariesLoader: async () => [document.summary],
+      semanticSearch: null
+    })
+
+    const response = await service.query({
+      questionId: question.id,
+      locale: 'zh',
+      userQuery: '讲解第 12 题',
+      focusQuestionNumbers: ['12']
+    }, { includeRetrieval: true })
+
+    expect(response.missingContextCodes ?? []).not.toContain('missing_option_list')
+    expect(response.retrievalDiagnostics?.sharedInstructionChunkCount).toBeGreaterThan(0)
+  })
+
   it('returns provider-generated review text while keeping local review cards', async () => {
     const service = new AssistantService({
       provider: {

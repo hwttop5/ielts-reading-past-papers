@@ -25,6 +25,9 @@ from typing import Any, Dict, List
 # server/.env + LLM_* → OPENAI_* sync happens in evaluator on import
 sys.path.insert(0, str(Path(__file__).parent))
 
+if "--local-only-report" in sys.argv:
+    os.environ.setdefault("RAGAS_SUPPRESS_IMPORT_WARNING", "1")
+
 from evaluator import (
     EvalResult,
     EvalSample,
@@ -821,6 +824,189 @@ def run_metrics_only(
         )
 
 
+def write_local_only_report(
+    output_dir: str,
+    samples: List[EvalSample],
+    results: List[EvalResult],
+    replay_path: str | None,
+) -> Dict[str, Any]:
+    """Write deterministic local-response diagnostics without Ragas, embeddings, or LLM calls."""
+    os.makedirs(output_dir, exist_ok=True)
+
+    def confidence_of(result: EvalResult) -> str:
+        raw = result.raw_api_response or {}
+        return str(raw.get("confidence") or "missing")
+
+    def recommended_count(result: EvalResult) -> int:
+        raw = result.raw_api_response or {}
+        items = raw.get("recommendedQuestions")
+        return len(items) if isinstance(items, list) else 0
+
+    status_counts: Dict[str, int] = {}
+    source_counts: Dict[str, int] = {}
+    kind_counts: Dict[str, int] = {}
+    route_counts: Dict[str, int] = {}
+    confidence_counts: Dict[str, int] = {}
+    style_counts: Dict[str, int] = {}
+    missing_code_counts: Dict[str, int] = {}
+    concern_counts: Dict[str, int] = {}
+    phrase_counts: Dict[str, int] = {}
+    confidence_by_kind: Dict[str, Dict[str, int]] = {}
+    missing_codes_by_confidence: Dict[str, Dict[str, int]] = {}
+    concern_examples: List[Dict[str, Any]] = []
+    phrase_examples: List[Dict[str, Any]] = []
+
+    for result in results:
+      status_counts[result.sample_status] = status_counts.get(result.sample_status, 0) + 1
+      source_key = result.answer_source or "missing"
+      source_counts[source_key] = source_counts.get(source_key, 0) + 1
+
+    local_pairs = [
+        (sample, result)
+        for sample, result in zip(samples, results)
+        if result.answer_source == "local"
+    ]
+
+    bad_phrases = {
+        "english_cited_evidence_placeholder": "the cited evidence area",
+        "mixed_q_current_set": "Qthe current set",
+        "generic_ielts_question_type": "雅思阅读题",
+    }
+
+    api_latencies = [result.latency_ms for _, result in local_pairs if result.latency_ms]
+    service_total_ms = [
+        float((result.timings or {}).get("total_ms"))
+        for _, result in local_pairs
+        if isinstance((result.timings or {}).get("total_ms"), (int, float))
+    ]
+    retrieved_counts = [len(result.retrieved_chunks) for _, result in local_pairs]
+    deterministic_counts = [result.deterministic_chunk_count for _, result in local_pairs]
+    semantic_counts = [result.semantic_chunk_count for _, result in local_pairs]
+
+    for sample, result in local_pairs:
+        kind = result.response_kind or sample.expectedResponseKind or "missing"
+        route = result.assistant_route or sample.expectedAssistantRoute or "missing"
+        confidence = confidence_of(result)
+        style = result.style_applied or sample.expectedStyle or "missing"
+
+        kind_counts[kind] = kind_counts.get(kind, 0) + 1
+        route_counts[route] = route_counts.get(route, 0) + 1
+        confidence_counts[confidence] = confidence_counts.get(confidence, 0) + 1
+        style_counts[style] = style_counts.get(style, 0) + 1
+        confidence_by_kind.setdefault(kind, {})[confidence] = confidence_by_kind.setdefault(kind, {}).get(confidence, 0) + 1
+
+        codes = result.missing_context_codes or []
+        for code in codes:
+            missing_code_counts[code] = missing_code_counts.get(code, 0) + 1
+            bucket = missing_codes_by_confidence.setdefault(confidence, {})
+            bucket[code] = bucket.get(code, 0) + 1
+
+        if confidence == "high" and codes:
+            concern_counts["high_confidence_with_missing_context"] = concern_counts.get("high_confidence_with_missing_context", 0) + 1
+            if len(concern_examples) < 8:
+                concern_examples.append({
+                    "id": sample.id,
+                    "codes": codes,
+                    "preview": result.generated_answer.replace("\n", " ")[:220],
+                })
+
+        for label, phrase in bad_phrases.items():
+            if phrase in result.generated_answer:
+                phrase_counts[label] = phrase_counts.get(label, 0) + 1
+                if len(phrase_examples) < 8:
+                    phrase_examples.append({
+                        "id": sample.id,
+                        "phrase": label,
+                        "preview": result.generated_answer.replace("\n", " ")[:220],
+                    })
+
+    similar_card_rows = sum(1 for _, result in local_pairs if recommended_count(result) > 0)
+    similar_dataset_rows = sum(1 for sample, _ in local_pairs if sample.action == "recommend_drills")
+
+    def avg(values: List[float]) -> float:
+        return (sum(values) / len(values)) if values else 0.0
+
+    summary: Dict[str, Any] = {
+        "timestamp": datetime.now().isoformat(),
+        "mode": "local_only_no_llm",
+        "replay_file": replay_path,
+        "total_rows": len(results),
+        "local_rows": len(local_pairs),
+        "status_counts": status_counts,
+        "answer_source_counts": source_counts,
+        "response_kind_counts": kind_counts,
+        "assistant_route_counts": route_counts,
+        "confidence_counts": confidence_counts,
+        "style_counts": style_counts,
+        "missing_context_code_counts": missing_code_counts,
+        "concern_counts": concern_counts,
+        "phrase_defect_counts": phrase_counts,
+        "confidence_by_kind": confidence_by_kind,
+        "missing_codes_by_confidence": missing_codes_by_confidence,
+        "similar_dataset_rows": similar_dataset_rows,
+        "similar_card_rows": similar_card_rows,
+        "avg_api_latency_ms": avg(api_latencies),
+        "max_api_latency_ms": max(api_latencies) if api_latencies else 0.0,
+        "avg_service_total_ms": avg(service_total_ms),
+        "avg_retrieved_chunks": avg([float(v) for v in retrieved_counts]),
+        "avg_deterministic_chunks": avg([float(v) for v in deterministic_counts]),
+        "avg_semantic_chunks": avg([float(v) for v in semantic_counts]),
+        "concern_examples": concern_examples,
+        "phrase_examples": phrase_examples,
+    }
+
+    json_path = os.path.join(output_dir, "local_only_metrics.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2, ensure_ascii=False)
+
+    lines = [
+        "# Local-only AI Assistant Metrics",
+        "",
+        f"- Replay: `{replay_path or 'n/a'}`",
+        f"- Total rows: {summary['total_rows']}",
+        f"- Local rows: {summary['local_rows']}",
+        f"- Similar recommendation dataset rows: {similar_dataset_rows}",
+        f"- Similar recommendation rows with cards: {similar_card_rows}",
+        f"- Average API replay latency: {summary['avg_api_latency_ms']:.1f}ms",
+        f"- Average service total_ms: {summary['avg_service_total_ms']:.1f}ms",
+        f"- Average semantic chunks: {summary['avg_semantic_chunks']:.2f}",
+        "",
+    ]
+
+    for title, payload in [
+        ("Response Kinds", kind_counts),
+        ("Routes", route_counts),
+        ("Confidence", confidence_counts),
+        ("Applied Styles", style_counts),
+        ("Missing Context Codes", missing_code_counts),
+        ("Concerns", concern_counts),
+        ("Phrase Defects", phrase_counts),
+    ]:
+        lines.append(f"## {title}")
+        if payload:
+            for key, value in sorted(payload.items(), key=lambda item: (-item[1], item[0])):
+                lines.append(f"- {key}: {value}")
+        else:
+            lines.append("- none")
+        lines.append("")
+
+    lines.append("## Examples")
+    for example in concern_examples:
+        lines.append(f"- high_confidence_with_missing_context: `{example['id']}` codes={example['codes']} preview={example['preview']}")
+    for example in phrase_examples:
+        lines.append(f"- {example['phrase']}: `{example['id']}` preview={example['preview']}")
+    if not concern_examples and not phrase_examples:
+        lines.append("- none")
+
+    markdown_path = os.path.join(output_dir, "LOCAL_ONLY_METRICS.md")
+    with open(markdown_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+    print(f"Wrote {json_path}")
+    print(f"Wrote {markdown_path}")
+    return summary
+
+
 def main() -> None:
     global ASSISTANT_API_URL
     parser = argparse.ArgumentParser(description="Ragas-based RAG evaluation")
@@ -879,17 +1065,22 @@ def main() -> None:
         default=None,
         help="With --replay and a single metric group, merge updated metrics into an existing evaluation_summary.json",
     )
+    parser.add_argument(
+        "--local-only-report",
+        action="store_true",
+        help="Replay only: write local deterministic diagnostics without Ragas, embeddings, or LLM calls",
+    )
 
     args = parser.parse_args()
 
     # `--replay` alone should run both metric groups (matches README one-liner)
-    if args.replay and not any([args.all, args.retrieval, args.answers]):
+    if args.replay and not any([args.all, args.retrieval, args.answers, args.local_only_report]):
         args.retrieval = True
         args.answers = True
 
-    if not any([args.all, args.retrieval, args.answers]):
+    if not any([args.all, args.retrieval, args.answers, args.local_only_report]):
         parser.print_help()
-        print("\nError: Please specify --all, --retrieval, or --answers")
+        print("\nError: Please specify --all, --retrieval, --answers, or --local-only-report")
         sys.exit(1)
 
     print(f"Loading dataset from: {args.dataset}")
@@ -905,6 +1096,9 @@ def main() -> None:
     if args.replay:
         by_id = load_replay_file(args.replay)
         results = results_from_replay(samples, by_id)
+        if args.local_only_report:
+            write_local_only_report(args.output, samples, results, args.replay)
+            return
         if args.all:
             print("Note: --all is ignored when --replay is set; metrics are computed from the replay file.")
         if args.retrieval and args.answers:
@@ -934,6 +1128,10 @@ def main() -> None:
             merge_summary_from=args.merge_summary_from,
         )
         return
+
+    if args.local_only_report:
+        print("--local-only-report requires --replay <replay_*.jsonl>; it never calls the live API.")
+        sys.exit(1)
 
     if (args.retrieval or args.answers) and not args.all:
         print("For --retrieval / --answers without live API, pass --replay <replay_*.jsonl>.")

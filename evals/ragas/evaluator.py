@@ -5,6 +5,8 @@ This module provides retrieval and answer quality evaluation using Ragas metrics
 with custom metrics for question hit detection and noise penalty.
 """
 
+from __future__ import annotations
+
 import json
 import os
 import sys
@@ -12,7 +14,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    def load_dotenv(*_args, **_kwargs):
+        return False
 
 # Match server/.env loading (server uses LLM_*; Ragas defaults to OPENAI_*).
 _REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -58,7 +64,8 @@ try:
     RAGAS_AVAILABLE = True
 except ImportError:
     RAGAS_AVAILABLE = False
-    print("Warning: Ragas not installed. Run: pip install ragas datasets")
+    if os.getenv("RAGAS_SUPPRESS_IMPORT_WARNING", "").strip().lower() not in {"1", "true", "yes"}:
+        print("Warning: Ragas not installed. Run: pip install ragas datasets")
 
 
 @dataclass
