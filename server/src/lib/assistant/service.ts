@@ -32,6 +32,13 @@ import { serializeRetrievedChunksForEval } from './evalSerialization.js'
 import { dedupeChunks } from './retrieval/dedupe.js'
 import { budgetFinalChunks } from './retrieval/mergeContext.js'
 import { createAssistantSemanticSearch, type AssistantSemanticSearch } from './semantic.js'
+import {
+  getSharedKeywords,
+  getSharedQuestionTypes,
+  getStaticSimilarCandidates,
+  scoreQuestionSummarySimilarity,
+  type StaticSimilarCandidate
+} from './similarRecommendations.js'
 import { findQuestionIndexEntry, loadQuestionIndex, parseQuestionDocument, parseReadingNativeDocument } from '../question-bank/index.js'
 
 interface AssistantLogger {
@@ -45,6 +52,7 @@ interface AssistantServiceDeps {
   questionLoader?: (questionId: string) => Promise<QuestionIndexEntry>
   documentLoader?: (question: QuestionIndexEntry) => Promise<ParsedQuestionDocument>
   summariesLoader?: () => Promise<QuestionSummaryDoc[]>
+  similarCandidatesLoader?: (questionId: string) => Promise<StaticSimilarCandidate[]>
   semanticSearch?: AssistantSemanticSearch | null
   webSearch?: WebSearchProvider | null
 }
@@ -1199,8 +1207,8 @@ function buildWeakCategorySet(items: AssistantQueryRequest['recentPractice'] = [
 }
 
 function buildSimilarReason(current: QuestionSummaryDoc, candidate: QuestionSummaryDoc, locale: 'zh' | 'en', weakCategories: Set<string>): string {
-  const sharedKeywords = candidate.keywords.filter((keyword) => current.keywords.includes(keyword)).slice(0, 3)
-  const sharedTypes = candidate.questionTypes.filter((type) => current.questionTypes.includes(type)).slice(0, 2)
+  const sharedKeywords = getSharedKeywords(current, candidate).slice(0, 3)
+  const sharedTypes = getSharedQuestionTypes(current, candidate).slice(0, 2)
   const isWeakCategory = weakCategories.has(candidate.category)
 
   if (locale === 'zh') {
@@ -1224,11 +1232,32 @@ function buildSimilarReason(current: QuestionSummaryDoc, candidate: QuestionSumm
   return parts.join('. ') || 'Similar passage topic and IELTS reasoning pattern.'
 }
 
-function localSimilarityScore(current: QuestionSummaryDoc, candidate: QuestionSummaryDoc): number {
-  const keywordScore = current.keywords.filter((keyword) => candidate.keywords.includes(keyword)).length * 2
-  const typeScore = current.questionTypes.filter((type) => candidate.questionTypes.includes(type)).length * 1.5
-  const categoryScore = current.category === candidate.category ? 0.5 : 0
-  return keywordScore + typeScore + categoryScore
+function buildStaticSimilarReason(candidate: StaticSimilarCandidate, locale: 'zh' | 'en', weakCategories: Set<string>): string {
+  const isWeakCategory = weakCategories.has(candidate.category)
+  const sharedTopicCues = uniqueValues([
+    ...(candidate.sharedTitleTerms ?? []),
+    ...candidate.sharedKeywords
+  ]).slice(0, 3)
+
+  if (locale === 'zh') {
+    const parts = [
+      sharedTopicCues.length > 0 ? `共同主题线索：${sharedTopicCues.join('、')}` : '',
+      candidate.sharedQuestionTypes.length > 0 ? `共同题型：${candidate.sharedQuestionTypes.slice(0, 2).join('、')}` : '',
+      candidate.sameCategory ? `同一文章分类：${candidate.category}` : '',
+      isWeakCategory ? `还能补你最近较弱的 ${candidate.category} 分类。` : ''
+    ].filter(Boolean)
+
+    return parts.join('；') || '主题和解题路径都和当前文章接近。'
+  }
+
+  const parts = [
+    sharedTopicCues.length > 0 ? `Shared topic cues: ${sharedTopicCues.join(', ')}` : '',
+    candidate.sharedQuestionTypes.length > 0 ? `Shared question types: ${candidate.sharedQuestionTypes.slice(0, 2).join(', ')}` : '',
+    candidate.sameCategory ? `Same passage category: ${candidate.category}` : '',
+    isWeakCategory ? 'Also helps a weaker recent category.' : ''
+  ].filter(Boolean)
+
+  return parts.join('. ') || 'Similar passage topic and IELTS reasoning pattern.'
 }
 
 function buildSearchTerms(request: AssistantQueryRequest, focusQuestionChunks: RagChunk[]): string[] {
@@ -1883,6 +1912,7 @@ export class AssistantService {
   private readonly questionLoader: (questionId: string) => Promise<QuestionIndexEntry>
   private readonly documentLoader: (question: QuestionIndexEntry) => Promise<ParsedQuestionDocument>
   private readonly summariesLoader: () => Promise<QuestionSummaryDoc[]>
+  private readonly similarCandidatesLoader: (questionId: string) => Promise<StaticSimilarCandidate[]>
   private readonly semanticSearch: AssistantSemanticSearch | null
   private readonly webSearch: WebSearchProvider | null
 
@@ -1892,6 +1922,7 @@ export class AssistantService {
     this.questionLoader = deps.questionLoader ?? defaultQuestionLoader
     this.documentLoader = deps.documentLoader ?? getParsedDocument
     this.summariesLoader = deps.summariesLoader ?? getAllSummaries
+    this.similarCandidatesLoader = deps.similarCandidatesLoader ?? getStaticSimilarCandidates
     this.semanticSearch = deps.semanticSearch === undefined ? createAssistantSemanticSearch() : deps.semanticSearch
     this.webSearch = deps.webSearch === undefined ? createWebSearchProvider() : deps.webSearch
 
@@ -2303,13 +2334,70 @@ export class AssistantService {
     return { shouldRun: true, reason: 'deterministic_context_thin' }
   }
 
-  private async buildSimilarResponse(question: QuestionIndexEntry, request: AssistantQueryRequest): Promise<AssistantQueryResponse> {
+  private async buildSimilarResponse(question: QuestionIndexEntry, request: AssistantQueryRequest, loadedDocument?: ParsedQuestionDocument): Promise<AssistantQueryResponse> {
     const locale = resolveLocale(request)
-    const currentDocument = await this.documentLoader(question)
-    const summaries = await this.summariesLoader()
     const recentPractice = request.recentPractice ?? []
     const recentIds = new Set(recentPractice.map((item) => item.questionId))
     const weakCategories = buildWeakCategorySet(recentPractice)
+    const staticCandidates = await this.similarCandidatesLoader(question.id)
+
+    if (staticCandidates.length > 0) {
+      const ranked = staticCandidates
+        .map((candidate) => {
+          let score = candidate.baseScore
+          if (weakCategories.has(candidate.category)) {
+            score += 1.5
+          }
+          if (recentIds.has(candidate.questionId)) {
+            score -= 8
+          }
+          return { candidate, score }
+        })
+        .sort((left, right) => right.score - left.score)
+
+      const preferred = ranked.filter(({ candidate }) => !recentIds.has(candidate.questionId))
+      const fallback = ranked.filter(({ candidate }) => recentIds.has(candidate.questionId))
+      const recommendations = [...preferred, ...fallback].slice(0, MAX_SIMILAR_RECOMMENDATIONS)
+      const recommendedQuestions: SimilarQuestionRecommendation[] = recommendations.map(({ candidate }) => ({
+        questionId: candidate.questionId,
+        title: candidate.title,
+        reason: buildStaticSimilarReason(candidate, locale, weakCategories)
+      }))
+      const answerSections = buildSimilarSections(question, recommendedQuestions, locale)
+
+      this.logger.info?.({
+        contextRoute: 'similar',
+        questionId: question.id,
+        source: 'static-map',
+        candidateCount: staticCandidates.length,
+        recommendedCount: recommendedQuestions.length,
+        recentPracticeCount: recentPractice.length
+      }, 'Assistant similar recommendations ranked.')
+
+      return {
+        answer: buildAnswerFromSections(answerSections),
+        answerSections,
+        citations: recommendations.map(({ candidate }) => ({
+          chunkType: 'question_summary',
+          questionNumbers: [],
+          paragraphLabels: [],
+          excerpt: toExcerpt([
+            `Title: ${candidate.title}`,
+            `Shared keywords: ${candidate.sharedKeywords.join(', ')}`,
+            `Shared question types: ${candidate.sharedQuestionTypes.join(', ')}`,
+            `Base score: ${candidate.baseScore}`
+          ].join('\n'))
+        })),
+        followUps: [],
+        recommendedQuestions,
+        responseKind: 'grounded',
+        confidence: recommendedQuestions.length >= 3 ? 'high' : 'medium',
+        missingContext: []
+      }
+    }
+
+    const currentDocument = loadedDocument ?? await this.documentLoader(question)
+    const summaries = await this.summariesLoader()
 
     let semanticSummaries: QuestionSummaryDoc[] = []
     if (this.semanticSearch) {
@@ -2330,7 +2418,7 @@ export class AssistantService {
     const ranked = dedupeSummaries([...semanticSummaries, ...summaries])
       .filter((summary) => summary.questionId !== question.id)
       .map((summary) => {
-        let score = localSimilarityScore(currentDocument.summary, summary)
+        let score = scoreQuestionSummarySimilarity(currentDocument.summary, summary)
         if (semanticRankMap.has(summary.questionId)) {
           score += Math.max(0, 6 - semanticRankMap.get(summary.questionId)!)
         }
@@ -3003,12 +3091,38 @@ export class AssistantService {
       return this.handleIeltsGeneral(request, locale, routingDecision, cacheKey, startTime, routeMs, includeRetrieval)
     }
 
+    const contextRoute = resolveContextRoute(request)
+    if (contextRoute === 'similar') {
+      const answerBuildStart = Date.now()
+      const response = await this.buildSimilarResponse(question, request)
+      const answerGenerationMs = Date.now() - answerBuildStart
+      const totalMs = Date.now() - startTime
+      const result: AssistantQueryResponseWithMeta = {
+        ...response,
+        answerSource: 'local',
+        timings: {
+          load_ms: 0,
+          context_ms: 0,
+          model_ms: 0,
+          total_ms: totalMs,
+          source: 'local',
+          cache_hit: false,
+          route_ms: routeMs,
+          answer_generation_ms: answerGenerationMs,
+          postprocess_ms: 0
+        }
+      }
+      const similarOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', [])
+      this.setCachedResponse(cacheKey, similarOut)
+      return similarOut
+    }
+
     // Route 3: page_grounded - Questions about current passage/questions (requires document load + RAG)
     // Continue with existing flow below
     const loadStart = Date.now()
     const document = await this.documentLoader(question)
     const loadMs = Date.now() - loadStart
-    const route = resolveContextRoute(request)
+    const route = contextRoute
 
     // Classify intent with full document context for routing decisions
     const availableQuestionNumbers = new Set(document.questionChunks.flatMap((chunk) => chunk.questionNumbers))
@@ -3126,9 +3240,7 @@ export class AssistantService {
 
       const answerBuildStart = Date.now()
       let response: AssistantQueryResponse
-      if (route === 'similar') {
-        response = await this.buildSimilarResponse(question, request)
-      } else if (route === 'review') {
+      if (route === 'review') {
         response = this.buildLocalReviewResponse(question, request, context, collectReviewItems(request, document.answerExplanationChunks), document, intent)
       } else {
         response = this.buildLocalTutoringResponse(question, request, context, document, intent)
@@ -3167,37 +3279,6 @@ export class AssistantService {
       }, 'Assistant local response generated.')
 
       return localOut
-    }
-
-    // LLM-preferred: similar recommendations stay local (no LLM synthesis of full answer)
-    if (route === 'similar') {
-      const contextStart = Date.now()
-      const similarContext = await this.collectContext(question, document, request)
-      const contextMs = Date.now() - contextStart
-      const answerBuildStart = Date.now()
-      const response = await this.buildSimilarResponse(question, request)
-      const answerGenerationMs = Date.now() - answerBuildStart
-      const totalMs = Date.now() - startTime
-      const result: AssistantQueryResponseWithMeta = {
-        ...response,
-        answerSource: source,
-        timings: {
-          load_ms: loadMs,
-          context_ms: contextMs,
-          model_ms: 0,
-          total_ms: totalMs,
-          source,
-          cache_hit: false,
-          route_ms: routeMs,
-          deterministic_retrieval_ms: similarContext.retrievalTimings?.deterministic_retrieval_ms,
-          semantic_retrieval_ms: similarContext.retrievalTimings?.semantic_retrieval_ms,
-          answer_generation_ms: answerGenerationMs,
-          postprocess_ms: 0
-        }
-      }
-      const similarOut = this.applyEvalAugmentation(result, includeRetrieval, 'page_grounded', similarContext.chunks)
-      this.setCachedResponse(cacheKey, similarOut)
-      return similarOut
     }
 
     const contextStart = Date.now()
@@ -3408,7 +3489,7 @@ export class AssistantService {
         return
       }
 
-      // Step 3: page_grounded - load document and do RAG
+      // Step 3: page_grounded - answer from current passage context, or static similar map.
       const cacheKey = this.buildCacheKey(request)
       const cached = this.getCachedResponse(cacheKey)
 
@@ -3419,10 +3500,24 @@ export class AssistantService {
         return
       }
 
-      // Load document
-      const question = await defaultQuestionLoader(request.questionId)
-      const document = await getParsedDocument(question)
       const route = resolveContextRoute(request)
+
+      const question = await this.getQuestion(request.questionId)
+      if (route === 'similar') {
+        const similarResponse = await this.buildSimilarResponse(question, request)
+        const finalResponse: AssistantQueryResponse = {
+          ...similarResponse,
+          answerSource: 'local'
+        }
+
+        yield { type: 'delta', payload: { text: finalResponse.answer } }
+        yield { type: 'final', payload: finalResponse }
+        this.setCachedResponse(cacheKey, finalResponse)
+        return
+      }
+
+      // Load document
+      const document = await this.documentLoader(question)
 
       // Get retrieval context
       const context = await this.collectContext(question, document, request)

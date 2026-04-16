@@ -11,6 +11,8 @@
     "test:watch": "vitest -c vitest.config.ts",
     "ingest": "tsx src/cli/ingest.ts",
     "check:index": "tsx src/cli/check-index.ts",
+    "generate:similar": "tsx src/cli/generateSimilarMap.ts",
+    "check:similar": "tsx src/cli/generateSimilarMap.ts --check",
     "eval:rag": "cd ../evals/ragas && python run_eval.py --all",
     "eval:rag:retrieval": "cd ../evals/ragas && python run_eval.py --retrieval",
     "eval:rag:answer": "cd ../evals/ragas && python run_eval.py --answers"

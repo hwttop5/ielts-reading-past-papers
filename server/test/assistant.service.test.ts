@@ -1,5 +1,6 @@
 import { describe, expect, it, vi } from 'vitest'
 import { AssistantService, parseModelResponse } from '../src/lib/assistant/service.js'
+import type { AssistantQueryResponse } from '../src/types/assistant.js'
 import type { QuestionIndexEntry, ParsedQuestionDocument, RagChunk, QuestionSummaryDoc } from '../src/types/question-bank.js'
 
 function createChunk(overrides: Partial<RagChunk>): RagChunk {
@@ -611,6 +612,67 @@ describe('AssistantService', () => {
 
     expect(response.recommendedQuestions?.[0]?.questionId).not.toBe('related-question')
     expect(response.answerSections?.length).toBeGreaterThan(0)
+  })
+
+  it('streams static similar recommendations without provider or document retrieval', async () => {
+    const streamQuestion: QuestionIndexEntry = {
+      ...question,
+      id: 'stream-similar-question',
+      title: 'Stream Similar Passage'
+    }
+    const provider = {
+      generate: vi.fn()
+    }
+    const documentLoader = vi.fn(async () => document)
+    const summariesLoader = vi.fn(async () => [document.summary])
+    const service = new AssistantService({
+      provider,
+      questionLoader: async () => streamQuestion,
+      documentLoader,
+      summariesLoader,
+      similarCandidatesLoader: async () => [
+        {
+          questionId: 'tea-history',
+          title: 'The History of Tea',
+          category: 'P1',
+          difficulty: 'high',
+          baseScore: 9,
+          sharedTitleTerms: ['tea'],
+          sharedKeywords: ['tea'],
+          sharedQuestionTypes: [],
+          sameCategory: true,
+          sameDifficulty: true
+        },
+        {
+          questionId: 'clipper-races',
+          title: 'The Clipper Races',
+          category: 'P1',
+          difficulty: 'low',
+          baseScore: 5,
+          sharedKeywords: ['tea'],
+          sharedQuestionTypes: [],
+          sameCategory: true
+        }
+      ]
+    })
+    summariesLoader.mockClear()
+
+    const chunks: Array<{ type: string; payload: unknown }> = []
+    for await (const chunk of service.queryStream({
+      questionId: streamQuestion.id,
+      action: 'recommend_drills',
+      locale: 'en',
+      userQuery: 'Recommend similar practice questions.'
+    })) {
+      chunks.push(chunk)
+    }
+
+    const finalResponse = chunks.find((chunk) => chunk.type === 'final')?.payload as AssistantQueryResponse | undefined
+    expect(finalResponse?.recommendedQuestions?.map((item) => item.questionId)).toEqual(['tea-history', 'clipper-races'])
+    expect(finalResponse?.answerSource).toBe('local')
+    expect(provider.generate).not.toHaveBeenCalled()
+    expect(documentLoader).not.toHaveBeenCalled()
+    expect(summariesLoader).not.toHaveBeenCalled()
   })
 
   describe('dynamic follow-ups', () => {

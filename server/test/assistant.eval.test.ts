@@ -1,5 +1,6 @@
 import { describe, expect, it, vi } from 'vitest'
 import { AssistantService, parseModelResponse } from '../src/lib/assistant/service.js'
+import type { StaticSimilarCandidate } from '../src/lib/assistant/similarRecommendations.js'
 import type { AssistantSemanticSearch } from '../src/lib/assistant/semantic.js'
 import type { ParsedQuestionDocument, QuestionIndexEntry, QuestionSummaryDoc, RagChunk } from '../src/types/question-bank.js'
 
@@ -448,6 +449,78 @@ describe('assistant eval suite', () => {
     })
 
     expect(response.recommendedQuestions?.[0]?.questionId).toBe('weak-category')
+  })
+
+  it('uses static similar recommendations without loading summaries or semantic search', async () => {
+    const staticCandidates: StaticSimilarCandidate[] = [
+      {
+        questionId: 'recent-static',
+        title: 'Recently Practiced Static Passage',
+        category: 'P1',
+        difficulty: 'high',
+        baseScore: 10,
+        sharedKeywords: ['sleep', 'study'],
+        sharedQuestionTypes: ['multiple_choice'],
+        sameCategory: true
+      },
+      {
+        questionId: 'weak-static',
+        title: 'Weak Category Static Passage',
+        category: 'P2',
+        difficulty: 'medium',
+        baseScore: 9,
+        sharedKeywords: ['sleep'],
+        sharedQuestionTypes: ['multiple_choice'],
+        sameCategory: false
+      },
+      {
+        questionId: 'fresh-static',
+        title: 'Fresh Static Passage',
+        category: 'P3',
+        difficulty: 'low',
+        baseScore: 8,
+        sharedKeywords: ['study'],
+        sharedQuestionTypes: ['summary_completion'],
+        sameCategory: false
+      }
+    ]
+    const documentLoader = vi.fn(async () => document)
+    const summariesLoader = vi.fn(async () => [document.summary])
+    const semanticSearch: AssistantSemanticSearch = {
+      searchChunks: vi.fn(async () => []),
+      searchSummaries: vi.fn(async () => [])
+    }
+
+    const service = createService({
+      provider: null,
+      questionLoader: async () => question,
+      documentLoader,
+      summariesLoader,
+      similarCandidatesLoader: async () => staticCandidates,
+      semanticSearch
+    })
+    summariesLoader.mockClear()
+
+    const response = await service.query({
+      questionId: question.id,
+      action: 'recommend_drills',
+      locale: 'en',
+      recentPractice: [
+        { questionId: 'recent-static', accuracy: 95, category: 'P1', duration: 600 },
+        { questionId: 'old-p2', accuracy: 20, category: 'P2', duration: 900 },
+        { questionId: 'old-p3', accuracy: 75, category: 'P3', duration: 750 }
+      ]
+    })
+
+    expect(response.recommendedQuestions?.map((item) => item.questionId)).toEqual([
+      'weak-static',
+      'fresh-static',
+      'recent-static'
+    ])
+    expect(documentLoader).not.toHaveBeenCalled()
+    expect(summariesLoader).not.toHaveBeenCalled()
+    expect(semanticSearch.searchSummaries).not.toHaveBeenCalled()
+    expect(response.citations[0]?.excerpt).toContain('Weak Category Static Passage')
   })
 
   it('falls back cleanly when semantic chunk retrieval fails', async () => {

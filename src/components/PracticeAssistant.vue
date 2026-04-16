@@ -2506,7 +2506,8 @@ onUnmounted(() => {
 
 .recommend-card strong {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 0;
+  font-size: 16px;
   color: var(--text-primary);
 }
 
