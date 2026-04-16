@@ -15,7 +15,7 @@ export function resolveContextRoute(request: AssistantQueryRequest): AssistantCo
   }
 
   const q = (request.userQuery || '').trim()
-  if (/相似|推荐.*练习|同质|同类型|similar\s+practice|recommend\s+similar/i.test(q)) {
+  if (/相似|类似|同质|同类型|同类题|推荐.*(?:练习|题目|文章)|找.*(?:同类型|类似)|similar\s+(?:practice|passages?|questions?|articles?)|recommend\s+similar/i.test(q)) {
     return 'similar'
   }
 

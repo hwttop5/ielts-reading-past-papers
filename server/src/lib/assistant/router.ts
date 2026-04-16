@@ -44,6 +44,13 @@ function preRouteWithRules(request: AssistantQueryRequest, locale: 'zh' | 'en'):
 
   const q = query.trim()
 
+  if (
+    request.action === 'recommend_drills' ||
+    /相似|类似|同质|同类型|同类题|推荐.*(?:练习|题目|文章)|找.*(?:同类型|类似)|similar\s+(?:practice|passages?|questions?|articles?)|recommend\s+similar/i.test(q)
+  ) {
+    return 'page_grounded'
+  }
+
   // === unrelated_chat detection (check FIRST - highest priority) ===
   // Chinese greetings and chit-chat -> unrelated_chat
   if (locale === 'zh') {
