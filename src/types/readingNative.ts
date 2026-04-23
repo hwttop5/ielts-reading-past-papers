@@ -203,8 +203,13 @@ export interface PracticeDraftState {
 }
 
 export interface PracticeHighlightRecord {
+  id?: string
   scope: HighlightScope
   text: string
+  startPath?: string
+  startOffset?: number
+  endPath?: string
+  endOffset?: number
 }
 
 export interface PracticeScrollState {

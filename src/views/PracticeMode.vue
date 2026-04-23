@@ -79,7 +79,7 @@
                   :submitted="session.submitted"
                   :read-only="session.readOnly"
                   :selected-option-key="session.selectedOptionKey"
-                  :highlight-terms="passageHighlightTerms"
+                  :highlights="passageHighlights"
                   :used-option-values="session.usedOptionValuesByPool"
                   @update:text="session.setTextAnswer"
                   @update:textarea="session.setTextareaAnswer"
@@ -113,7 +113,7 @@
                   <h2>{{ modeLabel }}</h2>
                 </div>
                 <div class="pane-toolbar">
-                  <button class="toolbar-btn quiet toolbar-btn-compact" type="button" @click="clearSelections">
+                  <button v-if="!session.reviewMode" class="toolbar-btn quiet toolbar-btn-compact" type="button" @click="clearSelections">
                     <span class="material-icons">delete</span>
                     <span>Clear Highlights</span>
                   </button>
@@ -169,7 +169,7 @@
                     :submitted="session.submitted"
                     :read-only="session.readOnly"
                     :selected-option-key="session.selectedOptionKey"
-                    :highlight-terms="questionHighlightTerms"
+                    :highlights="questionHighlights"
                     :used-option-values="session.usedOptionValuesByPool"
                     @update:text="session.setTextAnswer"
                     @update:textarea="session.setTextareaAnswer"
@@ -186,7 +186,7 @@
                     :submitted="session.submitted"
                     :read-only="session.readOnly"
                     :selected-option-key="session.selectedOptionKey"
-                    :highlight-terms="questionHighlightTerms"
+                    :highlights="questionHighlights"
                     :used-option-values="session.usedOptionValuesByPool"
                     @update:text="session.setTextAnswer"
                     @update:textarea="session.setTextareaAnswer"
@@ -274,7 +274,7 @@
           </div>
 
           <div
-            v-if="selectionToolbar.visible"
+            v-if="selectionToolbar.visible && !session.reviewMode"
             class="selection-toolbar"
             :style="{ top: `${selectionToolbar.top}px`, left: `${selectionToolbar.left}px` }"
           >
@@ -334,6 +334,7 @@ import { useAchievementStore } from '@/store/achievementStore'
 import { usePracticeStore, type PracticeRecord, type PracticeRecordInput } from '@/store/practiceStore'
 import { useQuestionStore } from '@/store/questionStore'
 import { ACHIEVEMENT_UNLOCKED, eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
+import { createSelectionHighlightRecord, findMatchingHighlightRecord } from '@/utils/practiceHighlights'
 import { formatAnswerDisplay } from '@/utils/readingPractice'
 import type { AttemptContext, RecentPracticeItem } from '@/types/assistant'
 import type { HighlightScope, PracticeFontScale, PracticeHighlightRecord, PracticeRouteMode, ReadingAstNode } from '@/types/readingNative'
@@ -396,6 +397,7 @@ interface SelectionToolbarState {
   text: string
   top: number
   left: number
+  record: PracticeHighlightRecord | null
 }
 
 const route = useRoute()
@@ -459,7 +461,8 @@ const selectionToolbar = ref<SelectionToolbarState>({
   scope: 'passage',
   text: '',
   top: 0,
-  left: 0
+  left: 0,
+  record: null
 })
 
 const noteModal = ref({
@@ -512,8 +515,8 @@ function stripDuplicatePassageArticleHeading(nodes: ReadingAstNode[], articleTit
 const passageNodesForDisplay = computed(() =>
   stripDuplicatePassageArticleHeading(passageNodes.value, sessionState.exam.value?.meta.title)
 )
-const passageHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'passage').map((item) => item.text))
-const questionHighlightTerms = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'questions').map((item) => item.text))
+const passageHighlights = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'passage'))
+const questionHighlights = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'questions'))
 const answeredCount = computed(() => Object.values(sessionState.answerMap.value || {}).filter((value) => hasAnswerValue(value)).length)
 const recentPractice = computed<RecentPracticeItem[]>(() =>
   practiceStore.records
@@ -546,7 +549,7 @@ const reviewEntries = computed(() => {
   })
 })
 const matchingHighlightForSelection = computed(() =>
-  findHighlightMatchForSelection(sessionState.highlights.value || [], selectionToolbar.value.scope, selectionToolbar.value.text)
+  findMatchingHighlightRecord(sessionState.highlights.value || [], selectionToolbar.value.record)
 )
 
 const selectionAlreadyHighlighted = computed(() => Boolean(matchingHighlightForSelection.value))
@@ -663,6 +666,10 @@ function openPdf() {
 }
 
 function goBack() {
+  if (routeMode.value === 'review') {
+    router.push({ path: '/practice' })
+    return
+  }
   const query: Record<string, string> = {}
   const keys = ['category', 'frequency', 'search', 'page', 'pageSize', 'sort']
   keys.forEach((key) => {
@@ -850,11 +857,16 @@ function closeSelectionToolbar() {
     scope: 'passage',
     text: '',
     top: 0,
-    left: 0
+    left: 0,
+    record: null
   }
 }
 
 function handleSelection(scope: HighlightScope) {
+  if (sessionState.reviewMode.value) {
+    closeSelectionToolbar()
+    return
+  }
   const selection = window.getSelection()
   const text = String(selection?.toString() || '').trim()
   const pane = scope === 'passage' ? passagePane.value : questionPane.value
@@ -894,12 +906,19 @@ function handleSelection(scope: HighlightScope) {
   // 使用 fixed 定位，直接使用视口坐标
   const rect = range.getBoundingClientRect()
   
+  const record = createSelectionHighlightRecord(scope, range, pane)
+  if (!record) {
+    closeSelectionToolbar()
+    return
+  }
+
   selectionToolbar.value = {
     visible: true,
     scope,
-    text,
+    text: record.text || text,
     top: rect.top - 45,
-    left: rect.left + rect.width / 2 - 48
+    left: rect.left + rect.width / 2 - 48,
+    record
   }
 }
 
@@ -911,10 +930,10 @@ function clearBrowserSelection() {
 }
 
 function applySelectionHighlight() {
-  sessionState.addHighlight({
-    scope: selectionToolbar.value.scope,
-    text: selectionToolbar.value.text
-  })
+  if (!selectionToolbar.value.record) {
+    return
+  }
+  sessionState.addHighlight(selectionToolbar.value.record)
   clearBrowserSelection()
   closeSelectionToolbar()
 }
@@ -924,7 +943,7 @@ function removeSelectionHighlight() {
   if (!hit) {
     return
   }
-  sessionState.removeHighlight({ scope: hit.scope, text: hit.text })
+  sessionState.removeHighlight(hit)
   clearBrowserSelection()
   closeSelectionToolbar()
 }

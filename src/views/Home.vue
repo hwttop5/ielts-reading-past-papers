@@ -126,7 +126,13 @@
     <div class="section">
       <h2 class="notion-section-title"><span class="material-icons section-icon">article</span> {{ t('overview.latestPractice') }}</h2>
       <div v-if="practiceStore.records.length > 0" class="latest-practice-list">
-        <div v-for="record in latestPractices" :key="record.id" class="practice-card" @click="viewRecord(record)">
+        <div
+          v-for="record in latestPractices"
+          :key="record.id"
+          class="practice-card"
+          :class="{ reviewable: canReviewRecord(record), unavailable: !canReviewRecord(record) }"
+          @click="viewRecord(record)"
+        >
           <div class="practice-header">
             <div class="title-group">
               <span class="practice-title">{{ record.questionTitle }}</span>
@@ -145,7 +151,10 @@
                 {{ record.correctAnswers }}/{{ record.totalQuestions }}
               </span>
             </div>
-            <span class="practice-time">{{ formatDate(record.time) }}</span>
+            <div class="practice-status">
+              <span class="practice-time">{{ formatDate(record.time) }}</span>
+              <span class="practice-review-link">{{ reviewLabel(record) }}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -160,12 +169,13 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, inject, ref, type Ref, type Readonly } from 'vue'
 import { useRouter } from 'vue-router'
-import { usePracticeStore } from '@/store/practiceStore'
+import { usePracticeStore, type PracticeRecord } from '@/store/practiceStore'
 import { useQuestionStore } from '@/store/questionStore'
 import { useAchievementStore } from '@/store/achievementStore'
 import { message } from 'ant-design-vue'
 import { eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { getAchievementIcon, getAchievementColor } from '@/utils/achievementUtils'
+import { buildPracticeReviewRoute, canReviewPracticeRecord } from '@/utils/practiceReview'
 
 const router = useRouter()
 const practiceStore = usePracticeStore()
@@ -223,8 +233,18 @@ const frequencyTagClass = (questionId: string) => {
   return 'meta-frequency-default'
 }
 
-const viewRecord = (record: any) => {
-  router.push('/practice')
+const canReviewRecord = (record: PracticeRecord) => canReviewPracticeRecord(record)
+
+const reviewLabel = (record: PracticeRecord) =>
+  canReviewPracticeRecord(record)
+    ? currentLang.value === 'en' ? 'Open review' : '查看复盘'
+    : currentLang.value === 'en' ? 'Review unavailable' : '暂不可复盘'
+
+const viewRecord = (record: PracticeRecord) => {
+  if (!canReviewPracticeRecord(record)) {
+    return
+  }
+  router.push(buildPracticeReviewRoute(record))
 }
 
 const hasProgressData = computed(() => practiceStore.totalCount > 0)
@@ -718,6 +738,17 @@ const randomPractice = (category?: string) => {
   border-color: var(--primary-color);
 }
 
+.practice-card.unavailable {
+  cursor: default;
+  opacity: 0.88;
+}
+
+.practice-card.unavailable:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--border-color);
+}
+
 .practice-header {
   display: flex;
   justify-content: space-between;
@@ -749,6 +780,19 @@ const randomPractice = (category?: string) => {
   font-size: 12px;
   color: var(--text-tertiary);
   white-space: nowrap;
+}
+
+.practice-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.practice-review-link {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
 .practice-meta {

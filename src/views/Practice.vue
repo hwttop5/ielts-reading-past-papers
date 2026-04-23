@@ -78,7 +78,13 @@
       </div>
 
       <div v-else class="timeline">
-        <div v-for="item in paginatedRecords" :key="item.id" class="timeline-item">
+        <div
+          v-for="item in paginatedRecords"
+          :key="item.id"
+          class="timeline-item"
+          :class="{ reviewable: canReviewRecord(item), unavailable: !canReviewRecord(item) }"
+          @click="openReview(item)"
+        >
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="record-header">
@@ -103,6 +109,10 @@
                 <span class="material-icons meta-icon" style="font-size: 16px;">trending_up</span>
                 {{ item.accuracy }}%
               </span>
+            </div>
+            <div class="record-footer">
+              <span class="record-review-link">{{ reviewLabel(item) }}</span>
+              <span v-if="!canReviewRecord(item)" class="record-review-hint">{{ reviewUnavailableHint }}</span>
             </div>
           </div>
         </div>
@@ -135,16 +145,20 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, inject, ref, watch } from 'vue'
-import { usePracticeStore } from '@/store/practiceStore'
+import { computed, onMounted, onUnmounted, inject, ref, watch, type Readonly, type Ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { usePracticeStore, type PracticeRecord } from '@/store/practiceStore'
 import { useAchievementStore } from '@/store/achievementStore'
 import { message } from 'ant-design-vue'
 import { eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { exportBackup, importBackup } from '@/utils/backup'
+import { buildPracticeReviewRoute, canReviewPracticeRecord } from '@/utils/practiceReview'
 
+const router = useRouter()
 const store = usePracticeStore()
 const achievementStore = useAchievementStore()
 const t = inject('t', (key: string) => key)
+const currentLang = inject<Readonly<Ref<'zh' | 'en'>>>('currentLang', ref('zh') as Readonly<Ref<'zh' | 'en'>>)
 const fileInput = ref<HTMLInputElement | null>(null)
 
 // 分页状态
@@ -244,6 +258,26 @@ const clear = () => {
 const format = (ts: number) => {
   const date = new Date(ts)
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`
+}
+
+const canReviewRecord = (record: PracticeRecord) => canReviewPracticeRecord(record)
+
+const reviewLabel = (record: PracticeRecord) =>
+  canReviewPracticeRecord(record)
+    ? currentLang.value === 'en' ? 'Open review' : '查看复盘'
+    : currentLang.value === 'en' ? 'Review unavailable' : '暂不可复盘'
+
+const reviewUnavailableHint = computed(() =>
+  currentLang.value === 'en'
+    ? 'This older record does not include an attempt snapshot, so its highlights and answers cannot be restored.'
+    : '这条旧记录没有作答快照，无法恢复当时的高亮和答案。'
+)
+
+const openReview = (record: PracticeRecord) => {
+  if (!canReviewPracticeRecord(record)) {
+    return
+  }
+  router.push(buildPracticeReviewRoute(record))
 }
 
 const exportData = () => {
@@ -521,6 +555,15 @@ const handleImport = async (event: Event) => {
   padding-bottom: 24px;
 }
 
+.timeline-item.reviewable {
+  cursor: pointer;
+}
+
+.timeline-item.unavailable {
+  cursor: default;
+  opacity: 0.88;
+}
+
 .timeline-item:last-child {
   padding-bottom: 0;
 }
@@ -545,7 +588,7 @@ const handleImport = async (event: Event) => {
   transition: var(--transition);
 }
 
-.timeline-content:hover {
+.timeline-item.reviewable .timeline-content:hover {
   border-color: var(--primary-color);
   box-shadow: var(--shadow-sm);
 }
@@ -575,6 +618,25 @@ const handleImport = async (event: Event) => {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+.record-footer {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.record-review-link {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.record-review-hint {
+  font-size: 12px;
+  color: var(--text-secondary);
 }
 
 .meta-item {
