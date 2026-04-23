@@ -84,4 +84,55 @@ describe('Practice Store', () => {
     expect(store.records).toEqual([])
     expect(backingStore.ielts_practice).toBeUndefined()
   })
+
+  it('normalizes both legacy and anchored highlights when loading records', () => {
+    backingStore.ielts_practice = JSON.stringify([
+      {
+        id: 'record-1',
+        questionId: 'p1-high-05',
+        questionTitle: 'Katherine Mansfield',
+        time: 1710000000000,
+        duration: 90,
+        correctAnswers: 7,
+        totalQuestions: 13,
+        accuracy: 54,
+        score: 7,
+        category: 'P1',
+        highlights: [
+          {
+            scope: 'passage',
+            text: '  keyword  '
+          },
+          {
+            scope: 'questions',
+            text: 'answer',
+            startPath: '2.1',
+            startOffset: '3',
+            endPath: '2.1',
+            endOffset: 9
+          }
+        ]
+      }
+    ])
+
+    const store = usePracticeStore()
+    store.load()
+
+    expect(store.records[0]?.highlights).toEqual([
+      expect.objectContaining({
+        scope: 'passage',
+        text: 'keyword',
+        id: expect.stringContaining('legacy:')
+      }),
+      expect.objectContaining({
+        scope: 'questions',
+        text: 'answer',
+        startPath: '2.1',
+        startOffset: 3,
+        endPath: '2.1',
+        endOffset: 9,
+        id: expect.stringContaining('range:')
+      })
+    ])
+  })
 })

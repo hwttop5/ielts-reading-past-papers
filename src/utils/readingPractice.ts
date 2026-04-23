@@ -13,6 +13,7 @@ import type {
   ReadingNativeManifest,
   ReadingNativeManifestEntry
 } from '@/types/readingNative'
+import { normalizePracticeHighlightRecord } from '@/utils/practiceHighlights'
 
 const examModules = import.meta.glob('../generated/reading-native/exams/*.json')
 const explanationModules = import.meta.glob('../generated/reading-native/explanations/*.json')
@@ -384,7 +385,11 @@ export function readSimulationDraft(context: PracticeRouteContext): PracticeSess
     return {
       answers: typeof parsed.answers === 'object' && parsed.answers ? parsed.answers as Record<string, string | string[]> : {},
       markedQuestions: Array.isArray(parsed.markedQuestions) ? parsed.markedQuestions.filter((entry: unknown): entry is string => typeof entry === 'string') : [],
-      highlights: Array.isArray(parsed.highlights) ? parsed.highlights.filter(isHighlightRecord) : [],
+      highlights: Array.isArray(parsed.highlights)
+        ? parsed.highlights
+          .map((entry) => normalizePracticeHighlightRecord(entry))
+          .filter((entry): entry is PracticeHighlightRecord => Boolean(entry))
+        : [],
       scrollState: normalizeScrollState(parsed.scrollState)
     }
   } catch {
@@ -554,12 +559,7 @@ export function formatAnswerDisplay(value: string | string[]): string {
 }
 
 export function isHighlightRecord(value: unknown): value is PracticeHighlightRecord {
-  return Boolean(
-    value
-    && typeof value === 'object'
-    && (value as PracticeHighlightRecord).scope
-    && (value as PracticeHighlightRecord).text
-  )
+  return Boolean(normalizePracticeHighlightRecord(value))
 }
 
 function normalizeScrollState(value: unknown): PracticeScrollState {

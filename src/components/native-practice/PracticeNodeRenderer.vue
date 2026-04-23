@@ -1,9 +1,9 @@
 <template>
   <template v-for="(node, index) in nodes" :key="nodeKey(node, index)">
     <template v-if="node.type === 'text'">
-      <template v-for="(segment, segmentIndex) in highlightSegments(node.text)" :key="`${nodeKey(node, index)}-${segmentIndex}`">
-        <mark v-if="segment.highlight" class="native-highlight">{{ segment.text }}</mark>
-        <span v-else>{{ segment.text }}</span>
+      <template v-for="(segment, segmentIndex) in highlightSegments(node.text, nodePath(index))" :key="`${nodeKey(node, index)}-${segmentIndex}`">
+        <mark v-if="segment.highlight" class="native-highlight" v-bind="segmentAttrs(nodePath(index), segment)">{{ segment.text }}</mark>
+        <span v-else v-bind="segmentAttrs(nodePath(index), segment)">{{ segment.text }}</span>
       </template>
     </template>
 
@@ -19,8 +19,9 @@
         :submitted="submitted"
         :read-only="readOnly"
         :selected-option-key="selectedOptionKey"
-        :highlight-terms="highlightTerms"
+        :highlights="highlights"
         :used-option-values="usedOptionValues"
+        :node-path-prefix="nodePath(index)"
         @update:text="(questionId, value) => emit('update:text', questionId, value)"
         @update:textarea="(questionId, value) => emit('update:textarea', questionId, value)"
         @update:select="(questionId, value) => emit('update:select', questionId, value)"
@@ -144,9 +145,17 @@
 
 <script setup lang="ts">
 import { canonicalizeAnswerToken } from '@/utils/readingPractice'
+import {
+  buildHighlightSegments,
+  HIGHLIGHT_NODE_PATH_ATTR,
+  HIGHLIGHT_SEGMENT_END_ATTR,
+  HIGHLIGHT_SEGMENT_START_ATTR,
+  type HighlightSegment
+} from '@/utils/practiceHighlights'
 import type {
   HighlightScope,
   PracticeDraftState,
+  PracticeHighlightRecord,
   ReadingAstNode,
   ReadingChoiceInputNode,
   ReadingDropzoneNode,
@@ -156,11 +165,6 @@ import type {
 
 defineOptions({ name: 'PracticeNodeRenderer' })
 
-interface HighlightSegment {
-  text: string
-  highlight: boolean
-}
-
 const props = defineProps<{
   nodes: ReadingAstNode[]
   scope: HighlightScope
@@ -168,8 +172,9 @@ const props = defineProps<{
   submitted: boolean
   readOnly: boolean
   selectedOptionKey: string
-  highlightTerms: string[]
+  highlights: PracticeHighlightRecord[]
   usedOptionValues: Record<string, string[]>
+  nodePathPrefix?: string
 }>()
 
 const emit = defineEmits<{
@@ -200,6 +205,10 @@ function nodeKey(node: ReadingAstNode, index: number): string {
     default:
       return `node-${index}`
   }
+}
+
+function nodePath(index: number): string {
+  return props.nodePathPrefix ? `${props.nodePathPrefix}.${index}` : String(index)
 }
 
 function eventValue(event: Event): string {
@@ -331,101 +340,16 @@ function handleDropzoneClick(node: ReadingDropzoneNode) {
   })
 }
 
-/** Letters/digits; hyphen/apostrophe only when between id chars (compound words). */
-function isIdCharAt(text: string, i: number): boolean {
-  const c = text[i]
-  if (c === undefined) {
-    return false
+function segmentAttrs(path: string, segment: HighlightSegment): Record<string, string> {
+  return {
+    [HIGHLIGHT_NODE_PATH_ATTR]: path,
+    [HIGHLIGHT_SEGMENT_START_ATTR]: String(segment.startOffset),
+    [HIGHLIGHT_SEGMENT_END_ATTR]: String(segment.endOffset)
   }
-  if (/[\p{L}\p{N}]/u.test(c)) {
-    return true
-  }
-  if ((c === '-' || c === "'") && i > 0 && i < text.length - 1) {
-    return isIdCharAt(text, i - 1) && isIdCharAt(text, i + 1)
-  }
-  return false
 }
 
-/** Expand a raw [start,end) match so highlights never begin/end inside a word. */
-function expandRangeToWordEdges(text: string, start: number, end: number): [number, number] {
-  let s = start
-  let e = end
-  while (s > 0 && isIdCharAt(text, s - 1)) {
-    s--
-  }
-  while (e < text.length && isIdCharAt(text, e)) {
-    e++
-  }
-  return [s, e]
-}
-
-function mergeIntervals(intervals: [number, number][]): [number, number][] {
-  if (!intervals.length) {
-    return []
-  }
-  const sorted = [...intervals].sort((a, b) => a[0] - b[0])
-  const out: [number, number][] = [[sorted[0]![0], sorted[0]![1]]]
-  for (let i = 1; i < sorted.length; i++) {
-    const [cs, ce] = sorted[i]!
-    const last = out[out.length - 1]!
-    if (cs <= last[1]) {
-      last[1] = Math.max(last[1], ce)
-    } else {
-      out.push([cs, ce])
-    }
-  }
-  return out
-}
-
-function highlightSegments(text: string): HighlightSegment[] {
-  if (!text || !props.highlightTerms || !props.highlightTerms.length) {
-    return [{ text, highlight: false }]
-  }
-
-  const uniqueTerms = Array.from(new Set(props.highlightTerms.map((term) => term.trim()).filter(Boolean)))
-  if (!uniqueTerms.length) {
-    return [{ text, highlight: false }]
-  }
-
-  const raw: [number, number][] = []
-  for (const term of uniqueTerms) {
-    const re = new RegExp(escapeRegExp(term), 'gi')
-    let m: RegExpExecArray | null
-    while ((m = re.exec(text)) !== null) {
-      const matched = m[0]
-      if (!matched.length) {
-        continue
-      }
-      const idx = m.index
-      if (idx === undefined) {
-        continue
-      }
-      raw.push(expandRangeToWordEdges(text, idx, idx + matched.length))
-    }
-  }
-
-  if (!raw.length) {
-    return [{ text, highlight: false }]
-  }
-
-  const merged = mergeIntervals(raw)
-  const out: HighlightSegment[] = []
-  let pos = 0
-  for (const [hs, he] of merged) {
-    if (pos < hs) {
-      out.push({ text: text.slice(pos, hs), highlight: false })
-    }
-    out.push({ text: text.slice(hs, he), highlight: true })
-    pos = he
-  }
-  if (pos < text.length) {
-    out.push({ text: text.slice(pos), highlight: false })
-  }
-  return out
-}
-
-function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+function highlightSegments(text: string, path: string): HighlightSegment[] {
+  return buildHighlightSegments(text, path, props.highlights || [])
 }
 </script>
 

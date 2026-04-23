@@ -4,6 +4,7 @@ import type {
   PracticeRouteMode,
   PracticeSessionResult
 } from '@/types/readingNative'
+import { normalizePracticeHighlightRecord } from '@/utils/practiceHighlights'
 
 export interface PracticeRecord {
   id: string
@@ -49,22 +50,13 @@ function isPracticeMode(value: unknown): value is PracticeRouteMode {
   return value === 'single' || value === 'review' || value === 'simulation'
 }
 
-function isPracticeHighlightRecord(value: unknown): value is PracticeHighlightRecord {
-  if (!value || typeof value !== 'object') {
-    return false
-  }
-  const source = value as Partial<PracticeHighlightRecord>
-  return (source.scope === 'passage' || source.scope === 'questions') && typeof source.text === 'string' && Boolean(source.text.trim())
-}
-
 function highlightList(value: unknown): PracticeHighlightRecord[] | undefined {
   if (!Array.isArray(value)) {
     return undefined
   }
-  const highlights = value.filter(isPracticeHighlightRecord).map((entry) => ({
-    scope: entry.scope,
-    text: entry.text.trim()
-  }))
+  const highlights = value
+    .map((entry) => normalizePracticeHighlightRecord(entry))
+    .filter((entry): entry is PracticeHighlightRecord => Boolean(entry))
   return highlights.length ? highlights : undefined
 }
 
@@ -72,7 +64,18 @@ function resultSnapshot(value: unknown): PracticeSessionResult | undefined {
   if (!value || typeof value !== 'object') {
     return undefined
   }
-  return value as PracticeSessionResult
+  const snapshot = value as PracticeSessionResult
+  if (!snapshot.metadata || typeof snapshot.metadata !== 'object') {
+    return snapshot
+  }
+  return {
+    ...snapshot,
+    metadata: {
+      ...snapshot.metadata,
+      markedQuestions: stringList(snapshot.metadata.markedQuestions) || [],
+      highlights: highlightList(snapshot.metadata.highlights) || []
+    }
+  }
 }
 
 export function normalizePracticeRecord(value: unknown): PracticeRecord | null {

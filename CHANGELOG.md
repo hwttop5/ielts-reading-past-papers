@@ -1,5 +1,35 @@
 # 版本说明 / Changelog
 
+## v2.0.3 - 2026-04-23
+
+### 中文说明
+
+#### 1. 高亮改为按选区精确回放
+
+练习页高亮从“按词条全文匹配”改为“按当次选区范围锚定”，同一个单词在文章中多次出现时，只会高亮用户当时选中的那一处，并可在复盘时准确回放。
+
+#### 2. 练习记录支持进入复盘页
+
+练习记录列表与首页最近练习卡片都可直接进入 `review` 模式，恢复该次作答快照、标记题目与历史高亮，便于回看思路和定位失分点。
+
+#### 3. 补充兼容与回归验证
+
+兼容旧版仅保存文本内容的高亮记录，对缺少 `resultSnapshot` 的旧练习记录给出不可复盘提示；同时补充存储归一化、范围高亮与复盘入口的测试与真实页面回归验证。
+
+### English Notes
+
+#### 1. Anchored Highlight Replay
+
+Practice highlights now anchor to the exact selection range instead of globally matching the same word everywhere in the passage, so review mode replays only the originally selected occurrence.
+
+#### 2. Review Entry from Practice History
+
+Both the practice history list and the latest-practice cards on Home can now open `review` mode, restoring that attempt's answers, marked questions, and saved highlights for post-practice review.
+
+#### 3. Compatibility and Regression Coverage
+
+Legacy text-only highlight records remain supported, older records without `resultSnapshot` now surface a clear unavailable-review state, and regression coverage was added for normalization, anchored replay, and review entry flows.
+
 ## v1.0.0 - 2026-03-09
 
 ### 中文说明

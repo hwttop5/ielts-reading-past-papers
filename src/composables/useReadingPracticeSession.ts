@@ -31,6 +31,7 @@ import {
   saveSimulationDraft,
   type PracticeRouteContext
 } from '@/utils/readingPractice'
+import { normalizePracticeHighlightRecord, sameHighlightRecord } from '@/utils/practiceHighlights'
 
 interface SessionOptions {
   examId: Ref<string>
@@ -324,18 +325,22 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function addHighlight(record: PracticeHighlightRecord) {
-    const text = record.text.trim()
-    if (!text) {
+    const normalized = normalizePracticeHighlightRecord(record)
+    if (!normalized) {
       return
     }
-    if ((highlights.value || []).some((entry) => entry.scope === record.scope && entry.text === text)) {
+    if ((highlights.value || []).some((entry) => sameHighlightRecord(entry, normalized))) {
       return
     }
-    highlights.value = [...(highlights.value || []), { scope: record.scope, text }]
+    highlights.value = [...(highlights.value || []), normalized]
   }
 
   function removeHighlight(record: PracticeHighlightRecord) {
-    highlights.value = (highlights.value || []).filter((entry) => !(entry.scope === record.scope && entry.text === record.text.trim()))
+    const normalized = normalizePracticeHighlightRecord(record)
+    if (!normalized) {
+      return
+    }
+    highlights.value = (highlights.value || []).filter((entry) => !sameHighlightRecord(entry, normalized))
   }
 
   function clearHighlights() {
