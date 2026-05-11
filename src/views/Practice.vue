@@ -334,11 +334,12 @@ const handleImport = async (event: Event) => {
   display: flex;
   align-items: center;
   gap: 12px;
+  line-height: 1.2;
 }
 
 .title-icon {
   font-size: 36px;
-  /* color removed */
+  color: var(--primary-color);
 }
 
 .page-subtitle {
@@ -357,23 +358,33 @@ const handleImport = async (event: Event) => {
 .stat-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 24px;
   display: flex;
   align-items: center;
   gap: 16px;
   transition: var(--transition);
+  box-shadow: var(--shadow-xs);
 }
 
 .stat-card:hover {
   box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
+  border-color: var(--primary-border);
+  transform: translateY(-1px);
 }
 
 .stat-icon {
-  font-size: 36px;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  font-size: 28px;
   flex-shrink: 0;
-  color: var(--primary-color);
+  color: white;
+  box-shadow: var(--primary-shadow-md);
 }
 
 .stat-content {
@@ -404,8 +415,9 @@ const handleImport = async (event: Event) => {
 .section {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 24px;
+  box-shadow: var(--shadow-xs);
 }
 
 .section-header {
@@ -442,9 +454,9 @@ const handleImport = async (event: Event) => {
   border: 1px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
   display: flex;
@@ -455,15 +467,16 @@ const handleImport = async (event: Event) => {
 .action-button:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
+  background: var(--surface-hover);
 }
 
 .action-button.danger {
-  color: #dc2626;
+  color: var(--danger-color);
 }
 
 .action-button.danger:hover {
-  border-color: #dc2626;
-  background: rgba(220, 38, 38, 0.1);
+  border-color: var(--danger-color);
+  background: var(--danger-soft);
 }
 
 @media (max-width: 768px) {
@@ -499,12 +512,14 @@ const handleImport = async (event: Event) => {
 .empty-state {
   text-align: center;
   padding: 64px 24px;
+  border-radius: var(--radius-lg);
 }
 
 .empty-icon {
   font-size: 64px;
   margin-bottom: 16px;
   color: var(--text-tertiary);
+  opacity: 0.72;
 }
 
 .empty-text {
@@ -528,11 +543,14 @@ const handleImport = async (event: Event) => {
   justify-content: center;
   gap: 8px;
   margin: 0 auto;
+  box-shadow: var(--primary-shadow-md);
 }
 
 .start-button:hover {
   background: var(--primary-hover);
   border-color: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--primary-shadow-md);
 }
 
 .timeline {
@@ -583,13 +601,13 @@ const handleImport = async (event: Event) => {
 .timeline-content {
   background: var(--bg-secondary);
   border: 1px solid var(--border-light);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 16px;
   transition: var(--transition);
 }
 
 .timeline-item.reviewable .timeline-content:hover {
-  border-color: var(--primary-color);
+  border-color: var(--primary-border);
   box-shadow: var(--shadow-sm);
 }
 
@@ -652,15 +670,15 @@ const handleImport = async (event: Event) => {
 }
 
 .meta-item.accuracy.high {
-  color: #16a34a;
+  color: var(--success-color);
 }
 
 .meta-item.accuracy.medium {
-  color: #ea580c;
+  color: var(--warning-strong);
 }
 
 .meta-item.accuracy.low {
-  color: #dc2626;
+  color: var(--danger-color);
 }
 
 .pagination-section {
@@ -685,7 +703,7 @@ const handleImport = async (event: Event) => {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   color: var(--text-primary);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   min-width: 112px;
   cursor: pointer;
   transition: var(--transition);
@@ -694,6 +712,7 @@ const handleImport = async (event: Event) => {
 .pagination-button:hover:not(:disabled) {
   border-color: var(--primary-color);
   color: var(--primary-color);
+  background: var(--surface-hover);
 }
 
 .pagination-button:disabled {
@@ -720,7 +739,7 @@ const handleImport = async (event: Event) => {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   color: var(--text-primary);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   cursor: pointer;
   transition: var(--transition);
   font-size: 14px;
@@ -730,12 +749,14 @@ const handleImport = async (event: Event) => {
 .page-number:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
+  background: var(--surface-hover);
 }
 
 .page-number.active {
   background: var(--primary-color);
   color: white;
   border-color: transparent;
+  box-shadow: var(--primary-shadow-sm);
 }
 
 .page-ellipsis {
@@ -757,7 +778,7 @@ const handleImport = async (event: Event) => {
 .filter-select {
   padding: 8px 16px;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   background: var(--bg-primary);
   color: var(--text-primary);
   font-size: 14px;
@@ -771,6 +792,12 @@ const handleImport = async (event: Event) => {
 
 .filter-select:hover {
   border-color: var(--primary-color);
+}
+
+.filter-select:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--primary-ring);
 }
 
 @media (max-width: 768px) {

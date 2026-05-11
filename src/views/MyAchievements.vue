@@ -172,11 +172,12 @@ const formatDate = (ts?: number) => {
   display: flex;
   align-items: center;
   gap: 12px;
+  line-height: 1.2;
 }
 
 .title-icon {
   font-size: 36px;
-  /* color removed */
+  color: var(--primary-color);
 }
 
 .page-subtitle {
@@ -190,9 +191,9 @@ const formatDate = (ts?: number) => {
   align-items: center;
   gap: 12px;
   background: var(--bg-primary);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-xs);
   min-width: auto;
   height: 60px;
   padding: 0 24px;
@@ -255,38 +256,40 @@ const formatDate = (ts?: number) => {
 .achievement-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 .achievement-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: 24px;
-  padding: 24px;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  transition: var(--transition);
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  box-shadow: var(--shadow-xs);
 }
 
 .achievement-card.unlocked {
-  border-color: transparent;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+  border-color: var(--primary-border-soft);
+  box-shadow: var(--shadow-sm);
 }
 
 .achievement-card:not(.unlocked) {
-  opacity: 0.7;
+  opacity: 0.78;
   filter: grayscale(0.9);
 }
 
 .achievement-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-border);
 }
 
 .achievement-card.unlocked:hover {
-  border-color: var(--primary-color);
+  border-color: var(--primary-border-strong);
 }
 
 /* Rarity Borders/Glows for unlocked cards */
@@ -313,17 +316,17 @@ const formatDate = (ts?: number) => {
 .icon-wrapper {
   width: 64px;
   height: 64px;
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: transform 0.5s ease;
+  transition: var(--transition);
   flex-shrink: 0;
 }
 
 .achievement-card:hover .icon-wrapper {
-  transform: scale(1.1) rotate(5deg);
+  transform: translateY(-1px);
 }
 
 .achievement-icon {
@@ -337,7 +340,7 @@ const formatDate = (ts?: number) => {
   right: -4px;
   width: 20px;
   height: 20px;
-  background: #10b981;
+  background: var(--success-color);
   border: 2px solid var(--bg-primary);
   border-radius: 50%;
   display: flex;
@@ -377,16 +380,17 @@ const formatDate = (ts?: number) => {
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 2px 6px;
+  padding: 3px 7px;
   border-radius: 6px;
   margin-left: 8px;
   flex-shrink: 0;
+  border: 1px solid transparent;
 }
 
-.rarity-tag.common { background: #e2e8f0; color: #64748b; }
-.rarity-tag.rare { background: #dbeafe; color: #2563eb; }
-.rarity-tag.epic { background: #f3e8ff; color: #7c3aed; }
-.rarity-tag.legendary { background: #fef3c7; color: #d97706; }
+.rarity-tag.common { background: var(--control-muted-bg); color: var(--text-secondary); border-color: var(--border-color); }
+.rarity-tag.rare { background: var(--info-soft); color: var(--info-color); border-color: var(--info-border); }
+.rarity-tag.epic { background: var(--purple-soft); color: var(--purple-color); border-color: var(--purple-border); }
+.rarity-tag.legendary { background: var(--orange-soft); color: var(--orange-color); border-color: var(--orange-border); }
 
 .achievement-desc {
   font-size: 13px;
@@ -410,14 +414,15 @@ const formatDate = (ts?: number) => {
   font-size: 12px;
   font-weight: 600;
   color: var(--text-tertiary);
-  background: var(--bg-tertiary);
+  background: var(--control-muted-bg);
   padding: 4px 8px;
   border-radius: 8px;
+  border: 1px solid var(--border-light);
 }
 
 .points-icon {
   font-size: 14px;
-  color: #f59e0b;
+  color: var(--orange-color);
 }
 
 .unlock-date {

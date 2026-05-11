@@ -1,5 +1,35 @@
 # 版本说明 / Changelog
 
+## v2.0.4 - 2026-05-11
+
+### 中文说明
+
+#### 1. 修复深色模式视觉问题
+
+修复浏览题库、顶部导航、移动菜单、PDF 按钮、筛选控件、分页与标签在深色模式下残留浅色背景或低对比文字的问题，统一改用主题语义变量。
+
+#### 2. 完善中英文与响应式样式
+
+核对中文、英文、浅色、深色在 PC 与移动端的展示，优化按钮、卡片、状态标签、成就徽章和 404 页的主题一致性，避免横向溢出。
+
+#### 3. 补充保守版 UI 设计资料
+
+新增保守版 UI polish 参考资料、当前截图、GPT image2 提示词和实现验证截图，保留页面结构和答题流程不变，方便后续继续做视觉细节优化。
+
+### English Notes
+
+#### 1. Fixed Dark Mode Visual Issues
+
+Fixed light-background and low-contrast leftovers in Browse, the main header, mobile menu, PDF buttons, filters, pagination, and status tags by moving them to semantic theme variables.
+
+#### 2. Improved Bilingual Responsive Styling
+
+Reviewed Chinese and English layouts across light and dark themes on desktop and mobile, polishing buttons, cards, status tags, achievement badges, and the 404 page while avoiding horizontal overflow.
+
+#### 3. Added Conservative UI Polish References
+
+Added conservative UI polish references, current screenshots, GPT image2 prompts, and implementation verification screenshots while preserving existing page structure and practice workflows.
+
 ## v2.0.3 - 2026-04-23
 
 ### 中文说明

@@ -24,15 +24,16 @@ const t = inject('t', (key: string) => key)
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
   text-align: center;
+  padding: 24px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
 }
 
 .icon {
@@ -59,18 +60,22 @@ p {
   padding: 10px 24px;
   background: var(--primary-color);
   color: white;
-  border: none;
+  border: 1px solid var(--primary-color);
   border-radius: var(--radius-md);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 8px;
   transition: var(--transition);
+  box-shadow: var(--primary-shadow-md);
 }
 
 .action-button:hover {
   background: var(--primary-hover);
+  border-color: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--primary-shadow-md);
 }
 </style>
