@@ -492,10 +492,12 @@ watch(totalPages, (value) => {
   display: flex;
   align-items: center;
   gap: 12px;
+  line-height: 1.2;
 }
 
 .title-icon {
   font-size: 36px;
+  color: var(--primary-color);
 }
 
 .page-subtitle {
@@ -522,7 +524,8 @@ watch(totalPages, (value) => {
 .question-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xs);
 }
 
 .filter-section {
@@ -587,7 +590,7 @@ watch(totalPages, (value) => {
   margin: 0;
   cursor: text;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   background: var(--bg-primary);
   color: var(--text-primary);
   font-size: 14px;
@@ -608,7 +611,7 @@ watch(totalPages, (value) => {
 .filter-search-field:focus {
   outline: none;
   border-color: var(--primary-color);
-  box-shadow: none;
+  box-shadow: 0 0 0 3px var(--primary-ring);
 }
 
 .filter-search-wrap.has-value .filter-search-field {
@@ -635,7 +638,7 @@ watch(totalPages, (value) => {
 
 .filter-search-clear:hover {
   color: var(--text-primary);
-  background: var(--bg-tertiary);
+  background: var(--surface-hover);
 }
 
 .filter-search-clear .material-icons {
@@ -658,6 +661,11 @@ watch(totalPages, (value) => {
   color: var(--text-secondary);
 }
 
+.filter-label,
+.page-size-label {
+  font-weight: 600;
+}
+
 .page-info {
   color: var(--text-tertiary);
 }
@@ -678,7 +686,7 @@ watch(totalPages, (value) => {
 
 .filter-select {
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   background-color: var(--bg-primary);
   color: var(--text-primary);
   font-size: 14px;
@@ -710,13 +718,20 @@ watch(totalPages, (value) => {
   outline: none;
 }
 
+.filter-select:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--primary-ring);
+}
+
 .empty-state {
   background: var(--bg-primary);
   border: 1px dashed var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 48px 24px;
   text-align: center;
   color: var(--text-tertiary);
+  box-shadow: var(--shadow-xs);
 }
 
 .empty-icon {
@@ -737,14 +752,13 @@ watch(totalPages, (value) => {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid rgba(59, 130, 246, 0.35);
-  border-radius: 12px;
+  border: 1px solid var(--border-color);
 }
 
 .question-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
-  border-color: rgba(59, 130, 246, 0.25);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-border);
 }
 
 .question-header {
@@ -772,21 +786,22 @@ watch(totalPages, (value) => {
   border-radius: 999px;
   font-size: 12px;
   font-weight: 600;
+  border: 1px solid transparent;
 }
 
 .category-p1 {
-  background: rgba(16, 185, 129, 0.12);
-  color: #059669;
+  background: var(--success-soft);
+  color: var(--success-color);
 }
 
 .category-p2 {
-  background: rgba(59, 130, 246, 0.12);
-  color: #2563eb;
+  background: var(--info-soft);
+  color: var(--info-color);
 }
 
 .category-p3 {
-  background: rgba(139, 92, 246, 0.12);
-  color: #7c3aed;
+  background: var(--purple-soft);
+  color: var(--purple-color);
 }
 
 .question-tags {
@@ -794,7 +809,7 @@ watch(totalPages, (value) => {
   flex-wrap: wrap;
   margin-top: 18px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  border-bottom: 1px solid var(--divider-subtle);
 }
 
 .tag {
@@ -808,18 +823,18 @@ watch(totalPages, (value) => {
 }
 
 .tag-high {
-  background: rgba(239, 68, 68, 0.1);
-  color: #dc2626;
+  background: var(--danger-soft);
+  color: var(--danger-color);
 }
 
 .tag-medium {
-  background: rgba(234, 179, 8, 0.14);
-  color: #ea580c;
+  background: var(--warning-soft);
+  color: var(--warning-strong);
 }
 
 .tag-low {
-  background: rgba(96, 165, 250, 0.12);
-  color: #60a5fa;
+  background: var(--info-soft);
+  color: var(--info-color);
 }
 
 .tag-mode {
@@ -827,23 +842,24 @@ watch(totalPages, (value) => {
 }
 
 .tag-mode-unified {
-  background: rgba(16, 185, 129, 0.1);
-  color: #047857;
+  background: var(--success-soft);
+  color: var(--success-color);
 }
 
 .tag-mode-pdf {
-  background: rgba(59, 130, 246, 0.08);
-  color: #1d4ed8;
+  background: var(--info-soft);
+  color: var(--info-color);
 }
 
 .tag-count {
   background: rgba(148, 163, 184, 0.12);
   color: var(--text-secondary);
+  border-color: rgba(148, 163, 184, 0.16);
 }
 
 .tag-completed {
-  background: rgba(16, 185, 129, 0.1);
-  color: #047857;
+  background: var(--success-soft);
+  color: var(--success-color);
 }
 
 .tag-icon,
@@ -870,8 +886,8 @@ watch(totalPages, (value) => {
 .view-pdf-btn {
   width: 40px;
   height: 40px;
-  border-radius: 7px;
-  background: var(--bg-tertiary);
+  border-radius: var(--radius-md);
+  background: var(--control-muted-bg);
   color: var(--text-primary);
   border: 1px solid var(--border-color);
   display: inline-flex;
@@ -881,7 +897,7 @@ watch(totalPages, (value) => {
 
 .view-pdf-btn:hover {
   border-color: var(--primary-color);
-  background: var(--bg-primary);
+  background: var(--surface-active);
   color: var(--primary-color);
 }
 
@@ -903,9 +919,15 @@ watch(totalPages, (value) => {
 
 .start-button {
   flex: 1;
-  border-radius: 7px;
+  border-radius: var(--radius-md);
   background: var(--primary-color, #2563eb);
   color: white;
+  box-shadow: var(--primary-shadow-sm);
+}
+
+.start-button:hover:not(:disabled) {
+  background: var(--primary-hover);
+  box-shadow: var(--primary-shadow-md);
 }
 
 .start-button:disabled {
@@ -929,7 +951,19 @@ watch(totalPages, (value) => {
 
 .pagination-button {
   min-width: 112px;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
+}
+
+.pagination-button:hover:not(:disabled),
+.page-number:hover:not(.active) {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--surface-hover);
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .page-numbers {
@@ -939,13 +973,14 @@ watch(totalPages, (value) => {
 .page-number {
   width: 40px;
   height: 40px;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
 }
 
 .page-number.active {
   background: var(--primary-color, #2563eb);
   color: white;
   border-color: transparent;
+  box-shadow: var(--primary-shadow-sm);
 }
 
 .page-ellipsis {

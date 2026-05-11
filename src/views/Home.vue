@@ -342,11 +342,12 @@ const randomPractice = (category?: string) => {
   display: flex;
   align-items: center;
   gap: 12px;
+  line-height: 1.2;
 }
 
 .title-icon {
   font-size: 36px;
-  /* color removed as requested */
+  color: var(--primary-color);
 }
 
 .page-subtitle {
@@ -382,7 +383,7 @@ const randomPractice = (category?: string) => {
 .stat-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 20px;
   cursor: pointer;
   transition: var(--transition);
@@ -390,23 +391,25 @@ const randomPractice = (category?: string) => {
   align-items: center;
   gap: 16px;
   position: relative;
+  box-shadow: var(--shadow-xs);
 }
 
 .stat-card:hover {
   box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
-  transform: translateY(-2px);
+  border-color: var(--primary-border);
+  transform: translateY(-1px);
 }
 
 .stat-icon-wrapper {
   width: 56px;
   height: 56px;
   background: var(--primary-color);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  box-shadow: var(--primary-shadow-md);
 }
 
 .stat-icon {
@@ -421,6 +424,7 @@ const randomPractice = (category?: string) => {
 .stat-label {
   font-size: 14px;
   color: var(--text-secondary);
+  font-weight: 600;
   margin-bottom: 4px;
 }
 
@@ -471,6 +475,7 @@ const randomPractice = (category?: string) => {
   text-align: center;
   max-width: 100%;
   width: 100%;
+  box-shadow: var(--shadow-xs);
 }
 
 .welcome-icon-wrapper {
@@ -482,6 +487,7 @@ const randomPractice = (category?: string) => {
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px;
+  box-shadow: var(--primary-shadow-md);
 }
 
 .welcome-icon {
@@ -529,24 +535,29 @@ const randomPractice = (category?: string) => {
 .welcome-btn:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
+  background: var(--surface-hover);
 }
 
 .welcome-btn.primary {
   background: var(--primary-color);
   border-color: var(--primary-color);
   color: white;
+  box-shadow: var(--primary-shadow-md);
 }
 
 .welcome-btn.primary:hover {
   background: var(--primary-hover);
   border-color: var(--primary-hover);
+  color: white;
+  transform: translateY(-1px);
 }
 
 .progress-overview {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 24px;
+  box-shadow: var(--shadow-xs);
 }
 
 .progress-summary {
@@ -600,15 +611,17 @@ const randomPractice = (category?: string) => {
 .category-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 20px;
   transition: var(--transition);
   width: 100%;
+  box-shadow: var(--shadow-xs);
 }
 
 .category-card:hover {
   box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
+  border-color: var(--primary-border);
+  transform: translateY(-1px);
 }
 
 .category-header {
@@ -640,9 +653,9 @@ const randomPractice = (category?: string) => {
   padding: 10px 16px;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-primary);
   cursor: pointer;
   transition: var(--transition);
@@ -651,6 +664,7 @@ const randomPractice = (category?: string) => {
 .action-button:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
+  background: var(--surface-hover);
 }
 
 .action-button.primary {
@@ -662,6 +676,7 @@ const randomPractice = (category?: string) => {
 .action-button.primary:hover {
   background: var(--primary-hover);
   border-color: var(--primary-hover);
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -722,7 +737,7 @@ const randomPractice = (category?: string) => {
 .practice-card {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 16px;
   cursor: pointer;
   transition: var(--transition);
@@ -730,12 +745,13 @@ const randomPractice = (category?: string) => {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: var(--shadow-xs);
 }
 
 .practice-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
+  border-color: var(--primary-border);
 }
 
 .practice-card.unavailable {
@@ -810,28 +826,29 @@ const randomPractice = (category?: string) => {
 
 .meta-tag {
   font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 4px;
+  padding: 3px 8px;
+  border-radius: 999px;
   background: var(--bg-tertiary);
   color: var(--text-secondary);
+  border: 1px solid transparent;
 }
 
 .meta-tag.meta-category-p1 {
   font-weight: 600;
-  background: rgba(16, 185, 129, 0.12);
-  color: #059669;
+  background: var(--success-soft);
+  color: var(--success-color);
 }
 
 .meta-tag.meta-category-p2 {
   font-weight: 600;
-  background: rgba(59, 130, 246, 0.12);
-  color: #2563eb;
+  background: var(--info-soft);
+  color: var(--info-color);
 }
 
 .meta-tag.meta-category-p3 {
   font-weight: 600;
-  background: rgba(139, 92, 246, 0.12);
-  color: #7c3aed;
+  background: var(--purple-soft);
+  color: var(--purple-color);
 }
 
 .meta-tag.meta-category-default {
@@ -842,20 +859,20 @@ const randomPractice = (category?: string) => {
 
 .meta-tag.meta-frequency-high {
   font-weight: 600;
-  background: rgba(239, 68, 68, 0.1);
-  color: #dc2626;
+  background: var(--danger-soft);
+  color: var(--danger-color);
 }
 
 .meta-tag.meta-frequency-medium {
   font-weight: 600;
-  background: rgba(234, 179, 8, 0.14);
-  color: #ea580c;
+  background: var(--warning-soft);
+  color: var(--warning-strong);
 }
 
 .meta-tag.meta-frequency-low {
   font-weight: 600;
-  background: rgba(96, 165, 250, 0.12);
-  color: #60a5fa;
+  background: var(--info-soft);
+  color: var(--info-color);
 }
 
 .meta-tag.meta-frequency-default {
@@ -871,9 +888,9 @@ const randomPractice = (category?: string) => {
 }
 
 .meta-tag.score.highlight {
-  background: rgba(22, 163, 74, 0.1);
-  color: #16a34a;
-  border: 1px solid rgba(22, 163, 74, 0.2);
+  background: var(--success-soft);
+  color: var(--success-color);
+  border: 1px solid var(--success-border);
   font-weight: 600;
 }
 
@@ -882,8 +899,9 @@ const randomPractice = (category?: string) => {
   padding: 40px;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   color: var(--text-tertiary);
+  box-shadow: var(--shadow-xs);
 }
 
 .no-data-icon {
@@ -912,7 +930,7 @@ const randomPractice = (category?: string) => {
 }
 
 .view-all-btn:hover {
-  background: var(--bg-secondary);
+  background: var(--primary-soft);
 }
 
 .latest-achievements-grid {
@@ -945,15 +963,16 @@ const randomPractice = (category?: string) => {
   gap: 16px;
   background: var(--bg-primary);
   border: 1px solid var(--border-light);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   padding: 20px;
   transition: var(--transition);
+  box-shadow: var(--shadow-xs);
 }
 
 .mini-achievement-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
-  border-color: var(--primary-color);
+  border-color: var(--primary-border);
 }
 
 .mini-icon-wrapper {
@@ -996,8 +1015,9 @@ const randomPractice = (category?: string) => {
   padding: 32px;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   color: var(--text-tertiary);
+  box-shadow: var(--shadow-xs);
 }
 
 .no-data-icon {

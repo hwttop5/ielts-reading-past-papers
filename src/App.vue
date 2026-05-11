@@ -10,11 +10,13 @@ import { provideI18n } from '@/i18n'
 import { eventBus, ACHIEVEMENT_UNLOCKED } from '@/utils/eventBus'
 import { notification } from 'ant-design-vue'
 import type { Achievement } from '@/store/achievementStore'
+import { useThemeStore } from '@/store/themeStore'
 
 // 提供全局 i18n
 const { t, currentLang } = provideI18n()
 provide('t', t)
 provide('currentLang', currentLang)
+const themeStore = useThemeStore()
 
 const getRarityColor = (rarity: string) => {
   switch (rarity) {
@@ -56,6 +58,7 @@ const handleAchievementUnlocked = (event: CustomEvent) => {
 }
 
 onMounted(() => {
+  themeStore.initTheme()
   eventBus.on(ACHIEVEMENT_UNLOCKED, handleAchievementUnlocked)
 })
 
@@ -69,7 +72,7 @@ onUnmounted(() => {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: var(--text-primary);
   min-height: 100vh;
 }
 </style>

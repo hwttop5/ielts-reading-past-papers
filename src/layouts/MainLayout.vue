@@ -119,12 +119,14 @@
 import { ref, onMounted, onUnmounted, provide, readonly } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useQuestionStore } from '@/store/questionStore'
+import { useThemeStore } from '@/store/themeStore'
 import { message } from 'ant-design-vue'
 import { useI18n, type Locale } from '@/i18n'
 
 const route = useRoute()
 const router = useRouter()
 const questionStore = useQuestionStore()
+const themeStore = useThemeStore()
 const { t, currentLang, setLocale } = useI18n()
 
 const isDarkMode = ref(false)
@@ -201,8 +203,7 @@ const toggleLang = () => {
 
 const toggleTheme = () => {
   isDarkMode.value = !isDarkMode.value
-  document.documentElement.classList.toggle('dark', isDarkMode.value)
-  localStorage.setItem('ielts_theme', isDarkMode.value ? 'dark' : 'light')
+  themeStore.setTheme(isDarkMode.value ? 'dark' : 'light')
   message.success(isDarkMode.value ? t('theme.switchedToDark') : t('theme.switchedToLight'))
 }
 
@@ -219,11 +220,8 @@ const handleScroll = () => {
 }
 
 onMounted(() => {
-  const savedTheme = localStorage.getItem('ielts_theme')
-  if (savedTheme === 'dark') {
-    isDarkMode.value = true
-    document.documentElement.classList.add('dark')
-  }
+  themeStore.initTheme()
+  isDarkMode.value = document.documentElement.classList.contains('dark')
   
   document.addEventListener('keydown', handleKeydown)
   window.addEventListener('scroll', handleScroll)
@@ -249,9 +247,10 @@ onUnmounted(() => {
   right: 0;
   z-index: 1000;
   height: 72px;
-  background: var(--bg-primary);
+  background: var(--header-bg);
   border-bottom: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-xs);
+  backdrop-filter: blur(12px);
   transition: all 0.3s ease;
 }
 
@@ -283,7 +282,7 @@ onUnmounted(() => {
   flex-direction: column;
   cursor: pointer;
   padding: 6px 0;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   transition: all 0.2s ease;
   line-height: 1.2;
 }
@@ -294,16 +293,16 @@ onUnmounted(() => {
 
 .logo-text-main {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 750;
   color: var(--text-primary);
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
 .logo-text-sub {
   font-size: 11px;
   color: var(--text-secondary);
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .main-nav {
@@ -325,18 +324,19 @@ onUnmounted(() => {
   cursor: pointer;
   transition: all 0.2s ease;
   color: var(--text-secondary);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
 }
 
 .nav-item-main:hover {
-  background: var(--bg-tertiary);
+  background: var(--surface-hover);
   color: var(--text-primary);
 }
 
 .nav-item.active > .nav-item-main {
-  background: rgba(37, 99, 235, 0.1);
+  background: var(--primary-soft);
   color: var(--primary-color);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.05);
 }
 
 .nav-item.active > .nav-item-main::after {
@@ -369,8 +369,8 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   border: 1px solid var(--border-color);
   background: var(--bg-primary);
   border-radius: var(--radius-md);
@@ -383,8 +383,9 @@ onUnmounted(() => {
 
 .quick-action:hover {
   border-color: var(--primary-color);
-  background: var(--bg-tertiary);
+  background: var(--surface-hover);
   color: var(--primary-color);
+  box-shadow: var(--primary-shadow-sm);
 }
 
 .action-icon {
@@ -443,7 +444,7 @@ onUnmounted(() => {
   width: 360px;
   max-width: 85vw;
   background: var(--bg-primary);
-  box-shadow: var(--shadow-xl);
+  box-shadow: var(--shadow-lg);
   display: flex;
   flex-direction: column;
   border-left: 1px solid var(--border-color);
@@ -455,7 +456,7 @@ onUnmounted(() => {
   justify-content: center;
   width: 36px;
   height: 36px;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   background: var(--bg-tertiary);
   border: none;
   cursor: pointer;
@@ -503,12 +504,12 @@ onUnmounted(() => {
 }
 
 .mobile-nav-item:hover {
-  background: var(--bg-tertiary);
+  background: var(--surface-hover);
   color: var(--text-primary);
 }
 
 .mobile-nav-item.active {
-  background: rgba(37, 99, 235, 0.1);
+  background: var(--primary-soft);
   color: var(--primary-color);
 }
 
