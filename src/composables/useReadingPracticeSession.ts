@@ -335,6 +335,16 @@ export function useReadingPracticeSession(options: SessionOptions) {
     highlights.value = [...(highlights.value || []), normalized]
   }
 
+  function upsertHighlight(record: PracticeHighlightRecord) {
+    const normalized = normalizePracticeHighlightRecord(record)
+    if (!normalized) {
+      return
+    }
+    const existing = highlights.value || []
+    const next = existing.filter((entry) => !sameHighlightRecord(entry, normalized))
+    highlights.value = [...next, normalized]
+  }
+
   function removeHighlight(record: PracticeHighlightRecord) {
     const normalized = normalizePracticeHighlightRecord(record)
     if (!normalized) {
@@ -454,6 +464,7 @@ export function useReadingPracticeSession(options: SessionOptions) {
     toggleMarkedQuestion,
     setScrollState,
     addHighlight,
+    upsertHighlight,
     removeHighlight,
     clearHighlights,
     submit,

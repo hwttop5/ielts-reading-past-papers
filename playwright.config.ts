@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   outputDir: './output/question-nav/test-results',
   use: {
-    baseURL: 'http://localhost:5175',
+    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:5175',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure'

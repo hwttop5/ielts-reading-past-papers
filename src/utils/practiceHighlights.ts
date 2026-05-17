@@ -11,6 +11,9 @@ export interface HighlightSegment {
   highlight: boolean
   startOffset: number
   endOffset: number
+  note?: string
+  highlightId?: string
+  record?: PracticeHighlightRecord
 }
 
 function stringValue(value: unknown): string {
@@ -120,10 +123,19 @@ export function normalizePracticeHighlightRecord(value: unknown): PracticeHighli
   }
 
   const id = stringValue(source.id) || buildPracticeHighlightId(base)
-  return {
+  const note = stringValue(source.note)
+  const noteUpdatedAt = stringValue(source.noteUpdatedAt)
+  const normalized: PracticeHighlightRecord = {
     id,
     ...base
   }
+  if (note) {
+    normalized.note = note
+  }
+  if (noteUpdatedAt) {
+    normalized.noteUpdatedAt = noteUpdatedAt
+  }
+  return normalized
 }
 
 export function sameHighlightRecord(left: PracticeHighlightRecord | null | undefined, right: PracticeHighlightRecord | null | undefined): boolean {
@@ -245,7 +257,7 @@ function collectRangeIntervalForNode(
   nodePath: string,
   textLength: number,
   record: PracticeHighlightRecord
-): [number, number] | null {
+): { start: number; end: number; record: PracticeHighlightRecord } | null {
   if (!hasRangeAnchor(record) || record.startOffset == null || record.endOffset == null || !record.startPath || !record.endPath) {
     return null
   }
@@ -263,7 +275,11 @@ function collectRangeIntervalForNode(
     return null
   }
 
-  return [start, end]
+  return { start, end, record }
+}
+
+function collectLegacyMatchIntervalsWithRecord(text: string, record: PracticeHighlightRecord): Array<{ start: number; end: number; record: PracticeHighlightRecord }> {
+  return collectLegacyMatchIntervals(text, record.text).map(([start, end]) => ({ start, end, record }))
 }
 
 export function buildHighlightSegments(
@@ -275,7 +291,7 @@ export function buildHighlightSegments(
     return [{ text, highlight: false, startOffset: 0, endOffset: 0 }]
   }
 
-  const rawIntervals: Array<[number, number]> = []
+  const rawIntervals: Array<{ start: number; end: number; record: PracticeHighlightRecord }> = []
   for (const highlight of highlights) {
     if (hasRangeAnchor(highlight)) {
       const interval = collectRangeIntervalForNode(nodePath, text.length, highlight)
@@ -285,12 +301,12 @@ export function buildHighlightSegments(
       continue
     }
 
-    rawIntervals.push(...collectLegacyMatchIntervals(text, highlight.text))
+    rawIntervals.push(...collectLegacyMatchIntervalsWithRecord(text, highlight))
   }
 
   const merged = mergeIntervals(
     rawIntervals
-      .map(([start, end]) => [clamp(start, 0, text.length), clamp(end, 0, text.length)] as [number, number])
+      .map(({ start, end }) => [clamp(start, 0, text.length), clamp(end, 0, text.length)] as [number, number])
       .filter(([start, end]) => end > start)
   )
 
@@ -315,7 +331,8 @@ export function buildHighlightSegments(
       text: text.slice(highlightStart, highlightEnd),
       highlight: true,
       startOffset: highlightStart,
-      endOffset: highlightEnd
+      endOffset: highlightEnd,
+      ...segmentHighlightMeta(rawIntervals, highlightStart, highlightEnd)
     })
     position = highlightEnd
   }
@@ -330,6 +347,22 @@ export function buildHighlightSegments(
   }
 
   return segments
+}
+
+function segmentHighlightMeta(
+  intervals: Array<{ start: number; end: number; record: PracticeHighlightRecord }>,
+  start: number,
+  end: number
+): Pick<HighlightSegment, 'note' | 'highlightId' | 'record'> {
+  const hit = intervals.find((interval) => interval.start < end && interval.end > start && Boolean(interval.record.note))
+  if (!hit) {
+    return {}
+  }
+  return {
+    note: hit.record.note,
+    highlightId: hit.record.id,
+    record: hit.record
+  }
 }
 
 function parseSegmentMeta(segment: HTMLElement): { path: string; start: number; end: number } | null {

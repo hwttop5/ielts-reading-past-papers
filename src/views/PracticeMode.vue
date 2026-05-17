@@ -88,6 +88,7 @@
                   @select:option="handleOptionSelection"
                   @set:dropzone="handleDropzoneSet"
                   @clear:dropzone="session.clearDropzoneValue"
+                  @open:note="openExistingNoteModal"
                 />
               </div>
             </section>
@@ -178,6 +179,7 @@
                     @select:option="handleOptionSelection"
                     @set:dropzone="handleDropzoneSet"
                     @clear:dropzone="session.clearDropzoneValue"
+                    @open:note="openExistingNoteModal"
                   />
                   <PracticeNodeRenderer
                     :nodes="group.contentNodes"
@@ -195,6 +197,7 @@
                     @select:option="handleOptionSelection"
                     @set:dropzone="handleDropzoneSet"
                     @clear:dropzone="session.clearDropzoneValue"
+                    @open:note="openExistingNoteModal"
                   />
                 </article>
 
@@ -297,11 +300,12 @@
             class="note-modal"
             :style="{ top: `${noteModal.top}px`, left: `${noteModal.left}px` }"
           >
-            <div class="note-modal-header">Add Note</div>
+            <div class="note-modal-header">{{ noteModal.record?.note ? 'Note' : 'Add Note' }}</div>
             <div class="note-modal-text">{{ noteModal.selectedText }}</div>
             <textarea v-model="noteModal.userNote" class="note-modal-input" placeholder="Add your note..."></textarea>
             <div class="note-modal-actions">
-              <button class="selection-btn quiet" type="button" @click="cancelNoteModal">Cancel</button>
+              <button v-if="noteModal.record?.note" class="selection-btn danger" type="button" @click="deleteNoteFromSession">Delete</button>
+              <button class="selection-btn quiet" type="button" @click="cancelNoteModal">Close</button>
               <button class="selection-btn primary" type="button" @click="saveNoteToSession">Save</button>
             </div>
           </div>
@@ -400,6 +404,15 @@ interface SelectionToolbarState {
   record: PracticeHighlightRecord | null
 }
 
+interface NoteModalState {
+  visible: boolean
+  selectedText: string
+  userNote: string
+  top: number
+  left: number
+  record: PracticeHighlightRecord | null
+}
+
 const route = useRoute()
 const router = useRouter()
 const { t } = useI18n()
@@ -465,12 +478,13 @@ const selectionToolbar = ref<SelectionToolbarState>({
   record: null
 })
 
-const noteModal = ref({
+const noteModal = ref<NoteModalState>({
   visible: false,
   selectedText: '',
   userNote: '',
   top: 0,
-  left: 0
+  left: 0,
+  record: null
 })
 
 // 拖拽调整宽度相关
@@ -950,31 +964,72 @@ function removeSelectionHighlight() {
 
 function openNoteModal() {
   const text = selectionToolbar.value.text
-  if (text) {
+  const record = selectionToolbar.value.record
+  if (text && record) {
+    const existing = findMatchingHighlightRecord(sessionState.highlights.value || [], record)
     noteModal.value = {
       visible: true,
-      selectedText: text,
-      userNote: '',
+      selectedText: existing?.text || record.text || text,
+      userNote: existing?.note || '',
       top: selectionToolbar.value.top - 180,
-      left: selectionToolbar.value.left - 60
+      left: selectionToolbar.value.left - 60,
+      record: existing || record
     }
   }
   closeSelectionToolbar()
 }
 
 function cancelNoteModal() {
-  noteModal.value.visible = false
+  noteModal.value = {
+    visible: false,
+    selectedText: '',
+    userNote: '',
+    top: 0,
+    left: 0,
+    record: null
+  }
+  clearBrowserSelection()
+}
+
+function openExistingNoteModal(payload: { record: PracticeHighlightRecord; top: number; left: number }) {
+  const existing = findMatchingHighlightRecord(sessionState.highlights.value || [], payload.record) || payload.record
+  noteModal.value = {
+    visible: true,
+    selectedText: existing.text,
+    userNote: existing.note || '',
+    top: payload.top,
+    left: payload.left,
+    record: existing
+  }
+  closeSelectionToolbar()
   clearBrowserSelection()
 }
 
 function saveNoteToSession() {
-  const text = noteModal.value.selectedText
-  const userNote = noteModal.value.userNote
-  const finalNote = userNote ? `${text}\nNote: ${userNote}` : text
-  const currentNotes = sessionState.notesText.value || ''
-  sessionState.notesText.value = currentNotes ? `${currentNotes}\n${finalNote}` : finalNote
-  sessionState.notesOpen.value = true
-  noteModal.value.visible = false
+  const record = noteModal.value.record
+  const note = noteModal.value.userNote.trim()
+  if (!record || !note) {
+    return
+  }
+  sessionState.upsertHighlight({
+    ...record,
+    note,
+    noteUpdatedAt: new Date().toISOString()
+  })
+  cancelNoteModal()
+}
+
+function deleteNoteFromSession() {
+  const record = noteModal.value.record
+  if (!record) {
+    cancelNoteModal()
+    return
+  }
+  const nextRecord: PracticeHighlightRecord = { ...record }
+  delete nextRecord.note
+  delete nextRecord.noteUpdatedAt
+  sessionState.upsertHighlight(nextRecord)
+  cancelNoteModal()
   clearBrowserSelection()
 }
 
@@ -1006,6 +1061,7 @@ watch(
     practiceStartedAt.value = Date.now()
     restorePaneScroll()
     closeSelectionToolbar()
+    cancelNoteModal()
     applyAttemptContext()
 
     // Initialize active question number to the first question's display number
@@ -1547,6 +1603,7 @@ onErrorCaptured((error) => {
   position: fixed; z-index: 9999; display: flex; gap: 4px; padding: 6px 8px; border-radius: 12px;
   border: 1px solid var(--border-color); background: var(--bg-primary); box-shadow: 0 18px 34px rgba(0,0,0,0.18);
 }
+.selection-btn.danger { color: #b91c1c; border-color: rgba(185,28,28,0.24); background: rgba(254,226,226,0.72); }
 .selection-btn .material-icons { font-size: 16px; }
 .note-modal {
   position: fixed; z-index: 9999;
