@@ -210,6 +210,8 @@ export interface PracticeHighlightRecord {
   startOffset?: number
   endPath?: string
   endOffset?: number
+  note?: string
+  noteUpdatedAt?: string
 }
 
 export interface PracticeScrollState {

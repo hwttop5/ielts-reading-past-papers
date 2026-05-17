@@ -1,5 +1,35 @@
 # 版本说明 / Changelog
 
+## v2.0.5 - 2026-05-17
+
+### 中文说明
+
+#### 1. 修复大字号拖拽答题
+
+修复 `p1-high-01` 在 L 字号下 q9-13 国家选项与题目难以稳定同屏的问题，匹配题选项改用应用层 pointer 拖拽，并加入题区自动滚动和释放命中兜底，提升独立滚动题区内的拖放稳定性。
+
+#### 2. 原文支持可点击 Note 标记
+
+Note 现在会绑定到具体原文选区，保存后在原文中显示暖色标记，点击即可查看、编辑或删除该条 Note；没有 Note 的旧高亮记录仍按普通高亮兼容显示。
+
+#### 3. 统一首页交互并约束提交格式
+
+统一首页四个统计卡片的 hover 箭头反馈，并新增 Conventional Commits 提交格式校验，后续提交会通过 commit-msg hook 保持版本历史格式一致。
+
+### English Notes
+
+#### 1. Fixed Large-Font Drag Answers
+
+Fixed the `p1-high-01` large-font case where q9-13 country options and drop targets could not stay reliably visible together, replacing fragile native drag behavior with pointer-based dragging, pane auto-scroll, and drop fallback targeting.
+
+#### 2. Added Clickable In-Passage Note Markers
+
+Notes now bind to the selected passage range and render as warm clickable markers in the original text, allowing users to view, edit, or delete the note while preserving compatibility with older plain highlights.
+
+#### 3. Unified Home Hover Feedback and Commit Rules
+
+Unified the hover arrow feedback across all four Home statistic cards and added Conventional Commits enforcement through a commit-msg hook so future history keeps the established release format.
+
 ## v2.0.4 - 2026-05-11
 
 ### 中文说明

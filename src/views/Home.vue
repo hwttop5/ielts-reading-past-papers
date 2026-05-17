@@ -31,6 +31,9 @@
           <div class="stat-value">{{ practiceStore.avgAccuracy }}</div>
           <div class="stat-unit">%</div>
         </div>
+        <div class="stat-action">
+          <span class="material-icons action-arrow">arrow_forward</span>
+        </div>
       </div>
 
       <div class="stat-card" @click="handleStatClick('time')">
@@ -42,6 +45,9 @@
           <div class="stat-value">{{ Math.floor(practiceStore.totalTime / 60) }}</div>
           <div class="stat-unit">{{ t('overview.minutes') }}</div>
         </div>
+        <div class="stat-action">
+          <span class="material-icons action-arrow">arrow_forward</span>
+        </div>
       </div>
 
       <div class="stat-card" @click="handleStatClick('count')">
@@ -52,6 +58,9 @@
           <div class="stat-label">{{ t('overview.practiceCount') }}</div>
           <div class="stat-value">{{ practiceStore.totalCount }}</div>
           <div class="stat-unit">{{ t('overview.times') }}</div>
+        </div>
+        <div class="stat-action">
+          <span class="material-icons action-arrow">arrow_forward</span>
         </div>
       </div>
     </div>

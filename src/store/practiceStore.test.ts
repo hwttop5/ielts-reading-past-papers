@@ -109,7 +109,9 @@ describe('Practice Store', () => {
             startPath: '2.1',
             startOffset: '3',
             endPath: '2.1',
-            endOffset: 9
+            endOffset: 9,
+            note: '  Check paragraph B  ',
+            noteUpdatedAt: '2026-05-17T10:00:00.000Z'
           }
         ]
       }
@@ -131,6 +133,8 @@ describe('Practice Store', () => {
         startOffset: 3,
         endPath: '2.1',
         endOffset: 9,
+        note: 'Check paragraph B',
+        noteUpdatedAt: '2026-05-17T10:00:00.000Z',
         id: expect.stringContaining('range:')
       })
     ])
