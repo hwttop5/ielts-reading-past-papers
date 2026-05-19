@@ -1,27 +1,29 @@
-# Ragas Evaluation Framework
+# Ragas 评估框架
 
-This directory contains the offline evaluation tooling for the IELTS Reading assistant.
+> 本目录的执行约束、命令使用规则和 Python 版本策略由同目录 [`AGENTS.md`](./AGENTS.md) 维护。
 
-## Workflow
+本目录包含 IELTS 阅读助教的离线评估工具。
 
-The evaluation flow now has four explicit stages:
+## 工作流
 
-1. Dataset preflight
-2. Live execution or replay loading
-3. Offline scoring
-4. Report generation
+当前评估流程分为四个明确阶段：
 
-Invalid dataset samples, such as unknown `questionId` values, are classified before scoring and excluded from the primary denominator.
+1. 数据集预检
+2. 实时执行或加载 replay
+3. 离线打分
+4. 生成报告
 
-## Python Version Policy
+无效数据样本，例如未知 `questionId`，会在打分前被分类，并从主统计分母中排除。
 
-- Official runs: Python 3.13
-- Python 3.14+: allowed for degraded runs only
-- On Python 3.14+, RAGAS LLM metrics are skipped unless `RAGAS_FORCE=1` is set
+## Python 版本策略
 
-The run summary records whether the run was `full` or `degraded`.
+- 官方运行版本：Python 3.13
+- Python 3.14+：仅允许用于 degraded runs
+- 在 Python 3.14+ 下，除非显式设置 `RAGAS_FORCE=1`，否则跳过 RAGAS LLM 指标
 
-## Setup
+运行摘要会记录当前运行是 `full` 还是 `degraded`。
+
+## 安装
 
 ```bash
 cd evals/ragas
@@ -30,22 +32,22 @@ uv venv
 uv pip install -r requirements.txt
 ```
 
-## Commands
+## 命令
 
-### Full run against the assistant API
+### 针对助教 API 执行完整评估
 
 ```bash
 cd evals/ragas
 python run_eval.py --all
 ```
 
-This writes:
+该命令会写出：
 
 - `replay_*.jsonl`
 - `evaluation_summary.json`
 - `EVALUATION_REPORT.md`
 
-### Score a prior replay
+### 对历史 replay 重新打分
 
 ```bash
 python run_eval.py --replay reports/replay_YYYYMMDD_HHMMSS.jsonl
@@ -53,40 +55,40 @@ python run_eval.py --replay reports/replay_YYYYMMDD_HHMMSS.jsonl --retrieval
 python run_eval.py --replay reports/replay_YYYYMMDD_HHMMSS.jsonl --answers
 ```
 
-### Run a style regression subset
+### 运行 style regression 子集
 
 ```bash
 python scripts/build_style_regression_dataset.py
 python run_eval.py --all --dataset datasets/style_regression_samples.json
 ```
 
-Or filter styles directly from the main golden dataset:
+也可以直接从主 golden dataset 中筛选 style：
 
 ```bash
 python run_eval.py --replay reports/replay_YYYYMMDD_HHMMSS.jsonl --styles vocab_paraphrase,paragraph_focus,full_tutoring
 ```
 
-### Dataset audit only
+### 仅做数据集审计
 
 ```bash
 python dataset_audit.py
 ```
 
-### Generate a report from a real run summary
+### 基于真实运行摘要生成报告
 
 ```bash
 python report_from_run.py reports/some_run/evaluation_summary.json
 ```
 
-### Legacy alias
+### 旧别名
 
 ```bash
 python generate_report.py
 ```
 
-`generate_report.py` is now only a wrapper to `dataset_audit.py`. It no longer generates static “expected performance” conclusions.
+`generate_report.py` 现在只是 `dataset_audit.py` 的包装器，不再生成静态的“expected performance”结论。
 
-### Compare two real run summaries
+### 对比两个真实运行摘要
 
 ```bash
 python scripts/compare_eval_summaries.py \
@@ -94,9 +96,9 @@ python scripts/compare_eval_summaries.py \
   --new reports/current/evaluation_summary.json
 ```
 
-## Summary Schema
+## 摘要 Schema
 
-`evaluation_summary.json` now includes:
+`evaluation_summary.json` 当前包含：
 
 - `valid_samples`
 - `invalid_samples`
@@ -109,7 +111,7 @@ python scripts/compare_eval_summaries.py \
 - `semantic_retrieval`
 - `environment`
 
-Replay rows now include:
+replay 行当前包含：
 
 - `sample_status`
 - `unsupported_reason`
@@ -120,7 +122,7 @@ Replay rows now include:
 - `semantic_chunk_count`
 - `cache_hit`
 
-## Unit Tests
+## 单元测试
 
 ```bash
 python test_heading_matching.py -v

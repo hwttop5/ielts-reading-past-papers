@@ -47,6 +47,7 @@ Thumbs.db
 
 # Playwright CLI
 .playwright-cli/
+.playwright-mcp/
 
 # Local RAG tooling (Qdrant binary + pid file; not committed)
 .tools/
@@ -63,6 +64,16 @@ tmp/
 output/
 test-results/
 evals/ragas/results/
+ielts-practice-shell-snapshot.md
+
+# Local UI design handoff / screenshot artifacts (do not commit to OSS repo)
+docs/ui-redesign-*/
+docs/ui-*/current-screenshots/
+docs/ui-*/gpt-image2-designs/
+docs/ui-*/implementation-screenshots/
+docs/ui-*/reference-boards/
+docs/ui-*/verification-*.png
+docs/ui-*/gpt-image2-prompts.md
 
 # Python
 __pycache__/
