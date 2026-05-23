@@ -8,6 +8,7 @@ import './styles/index.css'
 import App from './App.vue'
 import router from './router'
 import { loadAssistantPublicConfig } from './api/assistant'
+import { setupPwa } from './pwa'
 
 async function bootstrap() {
   await loadAssistantPublicConfig()
@@ -36,6 +37,7 @@ async function bootstrap() {
   app.use(Antd)
 
   app.mount('#app')
+  setupPwa()
 }
 
 void bootstrap()

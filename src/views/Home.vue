@@ -7,6 +7,35 @@
       </div>
     </div>
 
+    <div v-if="showPwaInstallCard" class="pwa-install-card">
+      <div class="pwa-install-copy">
+        <div class="pwa-install-title-row">
+          <span class="material-icons pwa-install-icon">phonelink_setup</span>
+          <h2 class="pwa-install-title">{{ pwaInstallTitle }}</h2>
+        </div>
+        <p class="pwa-install-description">{{ pwaInstallDescription }}</p>
+      </div>
+      <div class="pwa-install-actions">
+        <button
+          class="pwa-install-button primary"
+          type="button"
+          @click="handleInstallApp"
+          :disabled="pwa.installPending.value"
+        >
+          <span class="material-icons" style="font-size: 16px;">download</span>
+          <span>{{ t('pwa.installAction') }}</span>
+        </button>
+        <button
+          class="pwa-install-button secondary"
+          type="button"
+          @click="handleDismissInstallCard"
+          :disabled="pwa.installPending.value"
+        >
+          <span>{{ t('pwa.notNowAction') }}</span>
+        </button>
+      </div>
+    </div>
+
     <div class="stats-grid">
       <div class="stat-card" @click="handleStatClick('practice')">
         <div class="stat-icon-wrapper">
@@ -185,6 +214,7 @@ import { message } from 'ant-design-vue'
 import { eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { getAchievementIcon, getAchievementColor } from '@/utils/achievementUtils'
 import { buildPracticeReviewRoute, canReviewPracticeRecord } from '@/utils/practiceReview'
+import { dismissHomeInstallCard, promptPwaInstall, usePwaState } from '@/pwa'
 
 const router = useRouter()
 const practiceStore = usePracticeStore()
@@ -192,6 +222,15 @@ const questionStore = useQuestionStore()
 const achievementStore = useAchievementStore()
 const t = inject('t', (key: string) => key)
 const currentLang = inject<Readonly<Ref<'zh' | 'en'>>>('currentLang', ref('zh') as Readonly<Ref<'zh' | 'en'>>)
+const pwa = usePwaState()
+
+const showPwaInstallCard = computed(() => pwa.showHomeInstallCard.value)
+const pwaInstallTitle = computed(() =>
+  pwa.showIosInstallHint.value ? t('pwa.iosInstallTitle') : t('pwa.installTitle')
+)
+const pwaInstallDescription = computed(() =>
+  pwa.showIosInstallHint.value ? t('pwa.iosInstallDescription') : t('pwa.installDescription')
+)
 
 const latestAchievements = computed(() => {
   return achievementStore.unlockedAchievements.slice(0, 4)
@@ -331,6 +370,22 @@ const randomPractice = (category?: string) => {
   const randomQuestion = questions[randomIndex]
   router.push({ path: '/practice-mode', query: { id: randomQuestion.id } })
 }
+
+const handleInstallApp = async () => {
+  const result = await promptPwaInstall()
+  if (result === 'accepted') {
+    message.success(t('pwa.installAccepted'))
+    return
+  }
+
+  if (result === 'ios-manual') {
+    message.info(t('pwa.iosInstallToast'))
+  }
+}
+
+const handleDismissInstallCard = () => {
+  dismissHomeInstallCard()
+}
 </script>
 
 <style scoped>
@@ -341,6 +396,104 @@ const randomPractice = (category?: string) => {
 
 .page-header {
   margin-bottom: 40px;
+}
+
+.pwa-install-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 32px;
+  padding: 24px;
+  border: 1px solid var(--primary-border);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, var(--bg-primary), rgba(37, 99, 235, 0.04));
+  box-shadow: var(--shadow-xs);
+}
+
+.pwa-install-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.pwa-install-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.pwa-install-icon {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.pwa-install-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pwa-install-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.pwa-install-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 176px;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--radius-md);
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--primary-shadow-md);
+  transition: var(--transition);
+}
+
+.pwa-install-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 176px;
+}
+
+.pwa-install-button.primary {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.pwa-install-button.secondary {
+  border-color: var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.pwa-install-button:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+.pwa-install-button.secondary:hover {
+  border-color: var(--primary-color);
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--primary-color);
+}
+
+.pwa-install-button:disabled {
+  cursor: wait;
+  opacity: 0.78;
+  transform: none;
 }
 
 .page-title {
@@ -689,6 +842,20 @@ const randomPractice = (category?: string) => {
 }
 
 @media (max-width: 768px) {
+  .pwa-install-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+  }
+
+  .pwa-install-actions {
+    min-width: 0;
+  }
+
+  .pwa-install-button {
+    width: 100%;
+  }
+
   .stats-grid {
     grid-template-columns: 1fr;
   }

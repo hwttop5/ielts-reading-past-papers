@@ -332,7 +332,25 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.exitFullscreen': '退出全屏',
     'practiceMode.loading': '题目加载中...',
     'practiceMode.loadingTimeout': '加载超时，如果内容未显示请刷新页面',
-    
+
+    // PWA
+    'pwa.installTitle': '添加到手机桌面',
+    'pwa.installDescription': '将应用安装到主屏幕，便于快速打开，并支持首页、题库、练习记录和访问过的结构化练习离线回访。',
+    'pwa.installAction': '添加到桌面',
+    'pwa.notNowAction': '暂不安装',
+    'pwa.installAccepted': '安装请求已发送',
+    'pwa.iosInstallTitle': '在 iPhone 上添加到主屏幕',
+    'pwa.iosInstallDescription': '点右下角分享按钮，再选择“添加到主屏幕”即可安装到桌面。',
+    'pwa.iosInstallToast': 'iPhone 需通过分享菜单添加到主屏幕',
+    'pwa.updateTitle': '发现新版本',
+    'pwa.updateDescription': '刷新后即可加载最新界面与缓存内容。',
+    'pwa.updateAction': '立即更新',
+    'pwa.laterAction': '稍后',
+    'pwa.offlineReadyTitle': '已支持离线回访',
+    'pwa.offlineReadyDescription': '首页、题库、练习记录和访问过的结构化练习现在可以离线打开。',
+    'pwa.dismissAction': '知道了',
+    'pwa.updateError': '更新失败，请稍后重试',
+
     // Logo/App
     'app.name': 'IELTS Reading',
     'app.subtitle': 'Past Papers',
@@ -682,7 +700,25 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.exitFullscreen': 'Exit Fullscreen',
     'practiceMode.loading': 'Loading question...',
     'practiceMode.loadingTimeout': 'Loading timed out, please refresh if content is missing',
-    
+
+    // PWA
+    'pwa.installTitle': 'Add to Home Screen',
+    'pwa.installDescription': 'Install the app for quick access and offline return to Home, Library, Practice History, and the structured practice pages you have already opened.',
+    'pwa.installAction': 'Install App',
+    'pwa.notNowAction': 'Not now',
+    'pwa.installAccepted': 'Install prompt opened',
+    'pwa.iosInstallTitle': 'Add to Home Screen on iPhone',
+    'pwa.iosInstallDescription': 'Open the Share menu, then tap Add to Home Screen to install it.',
+    'pwa.iosInstallToast': 'On iPhone, use the Share menu to add this app to your Home Screen.',
+    'pwa.updateTitle': 'Update available',
+    'pwa.updateDescription': 'Refresh to load the latest interface and cached content.',
+    'pwa.updateAction': 'Update now',
+    'pwa.laterAction': 'Later',
+    'pwa.offlineReadyTitle': 'Offline return is ready',
+    'pwa.offlineReadyDescription': 'Home, Library, Practice History, and the structured practice pages you have already visited can now open offline.',
+    'pwa.dismissAction': 'Got it',
+    'pwa.updateError': 'Update failed. Please try again later.',
+
     // Logo/App
     'app.name': 'IELTS Reading',
     'app.subtitle': 'Past Papers',

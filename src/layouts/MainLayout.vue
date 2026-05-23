@@ -26,6 +26,15 @@
         </div>
 
         <div class="header-right">
+          <button
+            v-if="pwa.canInstall.value"
+            class="quick-action pwa-action"
+            @click="handleInstallApp"
+            :disabled="pwa.installPending.value"
+            :title="t('pwa.installAction')"
+          >
+            <span class="material-icons action-icon">download</span>
+          </button>
           <button class="quick-action" @click="toggleLang" :title="currentLang === 'zh' ? t('lang.en') : t('lang.zh')">
             <span class="material-icons action-icon">translate</span>
           </button>
@@ -46,6 +55,43 @@
 
     <main class="layout-content">
       <div class="content-wrapper">
+        <transition name="slide-down">
+          <div v-if="pwa.needRefresh.value" class="pwa-banner update-banner">
+            <div class="pwa-banner-copy">
+              <strong>{{ t('pwa.updateTitle') }}</strong>
+              <span>{{ t('pwa.updateDescription') }}</span>
+            </div>
+            <div class="pwa-banner-actions">
+              <button class="pwa-banner-btn primary" type="button" @click="applyUpdate">{{ t('pwa.updateAction') }}</button>
+              <button class="pwa-banner-btn" type="button" @click="dismissUpdate">{{ t('pwa.laterAction') }}</button>
+            </div>
+          </div>
+        </transition>
+
+        <transition name="slide-down">
+          <div v-if="pwa.offlineReady.value" class="pwa-banner offline-banner">
+            <div class="pwa-banner-copy">
+              <strong>{{ t('pwa.offlineReadyTitle') }}</strong>
+              <span>{{ t('pwa.offlineReadyDescription') }}</span>
+            </div>
+            <div class="pwa-banner-actions">
+              <button class="pwa-banner-btn primary" type="button" @click="dismissOffline">{{ t('pwa.dismissAction') }}</button>
+            </div>
+          </div>
+        </transition>
+
+        <transition name="slide-down">
+          <div v-if="pwa.showIosInstallHint.value" class="pwa-banner install-banner">
+            <div class="pwa-banner-copy">
+              <strong>{{ t('pwa.iosInstallTitle') }}</strong>
+              <span>{{ t('pwa.iosInstallDescription') }}</span>
+            </div>
+            <div class="pwa-banner-actions">
+              <button class="pwa-banner-btn primary" type="button" @click="dismissIosInstall">{{ t('pwa.dismissAction') }}</button>
+            </div>
+          </div>
+        </transition>
+
         <transition name="page-fade" mode="out-in">
           <router-view :key="$route.path" />
         </transition>
@@ -95,6 +141,17 @@
                 <span class="mobile-nav-text">{{ isDarkMode ? t('theme.lightMode') : t('theme.darkMode') }}</span>
               </div>
 
+              <button
+                v-if="pwa.canInstall.value"
+                class="mobile-nav-item mobile-nav-button"
+                type="button"
+                @click="handleInstallFromMenu"
+                :disabled="pwa.installPending.value"
+              >
+                <span class="material-icons mobile-nav-icon">download</span>
+                <span class="mobile-nav-text">{{ t('pwa.installAction') }}</span>
+              </button>
+
               <!-- GitHub -->
               <a
                 class="mobile-nav-item"
@@ -116,18 +173,25 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, provide, readonly } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useQuestionStore } from '@/store/questionStore'
 import { useThemeStore } from '@/store/themeStore'
 import { message } from 'ant-design-vue'
 import { useI18n, type Locale } from '@/i18n'
+import {
+  applyPwaUpdate,
+  dismissIosInstallHint,
+  dismissNeedRefresh,
+  dismissOfflineReady,
+  promptPwaInstall,
+  usePwaState
+} from '@/pwa'
 
 const route = useRoute()
 const router = useRouter()
-const questionStore = useQuestionStore()
 const themeStore = useThemeStore()
 const { t, currentLang, setLocale } = useI18n()
+const pwa = usePwaState()
 
 const isDarkMode = ref(false)
 const showMobileMenu = ref(false)
@@ -205,6 +269,44 @@ const toggleTheme = () => {
   isDarkMode.value = !isDarkMode.value
   themeStore.setTheme(isDarkMode.value ? 'dark' : 'light')
   message.success(isDarkMode.value ? t('theme.switchedToDark') : t('theme.switchedToLight'))
+}
+
+const handleInstallApp = async () => {
+  const result = await promptPwaInstall()
+  if (result === 'accepted') {
+    message.success(t('pwa.installAccepted'))
+    return
+  }
+
+  if (result === 'ios-manual') {
+    message.info(t('pwa.iosInstallToast'))
+  }
+}
+
+const handleInstallFromMenu = async () => {
+  await handleInstallApp()
+  showMobileMenu.value = false
+}
+
+const applyUpdate = async () => {
+  try {
+    await applyPwaUpdate()
+  } catch (error) {
+    console.error('[PWA] update failed', error)
+    message.error(t('pwa.updateError'))
+  }
+}
+
+const dismissUpdate = () => {
+  dismissNeedRefresh()
+}
+
+const dismissOffline = () => {
+  dismissOfflineReady()
+}
+
+const dismissIosInstall = () => {
+  dismissIosInstallHint()
 }
 
 const handleKeydown = (e: KeyboardEvent) => {
@@ -365,6 +467,10 @@ onUnmounted(() => {
   gap: 8px;
 }
 
+.pwa-action {
+  color: var(--primary-color);
+}
+
 .quick-action {
   display: flex;
   align-items: center;
@@ -423,6 +529,82 @@ onUnmounted(() => {
   max-width: 1400px;
   margin: 0 auto;
   padding: 32px 24px;
+}
+
+.pwa-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding: 16px 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  box-shadow: var(--shadow-xs);
+}
+
+.update-banner {
+  border-color: var(--primary-border);
+}
+
+.offline-banner {
+  border-color: var(--success-border);
+}
+
+.install-banner {
+  border-color: var(--orange-border);
+  background: linear-gradient(180deg, var(--bg-primary), rgba(245, 158, 11, 0.08));
+}
+
+.pwa-banner-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pwa-banner-copy strong {
+  font-size: 15px;
+  color: var(--text-primary);
+}
+
+.pwa-banner-copy span {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.pwa-banner-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.pwa-banner-btn {
+  height: 36px;
+  padding: 0 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pwa-banner-btn.primary {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: all 0.25s ease;
+}
+
+.slide-down-enter-from,
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
 }
 
 .mobile-menu-overlay {
@@ -495,6 +677,13 @@ onUnmounted(() => {
   margin-bottom: 8px;
   color: var(--text-primary);
   text-decoration: none;
+}
+
+.mobile-nav-button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--border-color);
+  background: transparent;
 }
 
 .mobile-nav-item.settings-divider {
@@ -582,7 +771,7 @@ onUnmounted(() => {
     display: none;
   }
   
-  .header-right .quick-action:not(.mobile-menu-toggle) {
+  .header-right .quick-action:not(.mobile-menu-toggle):not(.pwa-action) {
     display: none;
   }
   
@@ -596,6 +785,19 @@ onUnmounted(() => {
   
   .content-wrapper {
     padding: 20px 16px;
+  }
+
+  .pwa-banner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pwa-banner-actions {
+    width: 100%;
+  }
+
+  .pwa-banner-btn {
+    flex: 1;
   }
 }
 </style>
