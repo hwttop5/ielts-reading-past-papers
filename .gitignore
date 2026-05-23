@@ -28,6 +28,8 @@ dist/
 !.env.production.example
 .env.local
 .env.*.local
+deploy/.env
+deploy/certs/*.pem
 
 # Editor / OS
 .vscode/

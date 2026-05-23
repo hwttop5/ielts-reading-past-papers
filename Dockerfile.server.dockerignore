@@ -1,0 +1,9 @@
+**
+!server/
+!server/**
+!public/
+!public/**
+!src/generated/
+!src/generated/**
+!src/utils/
+!src/utils/questionIndex.json

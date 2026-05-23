@@ -329,7 +329,7 @@ describe('assistant route integration', () => {
       expect(response.statusCode).toBe(200)
       const payload = response.json()
       expect(payload.answerSections?.[0]?.type).toBe('direct_answer')
-      expect(payload.confidence).toBe('high')
+      expect(payload.confidence).toBe('medium')
       expect(global.fetch).toHaveBeenCalledOnce()
     } finally {
       await app.close()

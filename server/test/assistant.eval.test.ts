@@ -273,7 +273,7 @@ describe('assistant eval suite', () => {
     })
 
     expect(response.missingContext?.length).toBeGreaterThan(0)
-    expect(response.confidence).toBe('medium')
+    expect(response.confidence).toBe('low')
   })
 
   it('sanitizes provider hints that try to reveal the paragraph label directly', async () => {

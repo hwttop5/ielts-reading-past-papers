@@ -1,0 +1,11 @@
+**
+!package.json
+!package-lock.json
+!vite.config.js
+!index.html
+!src/
+!src/**
+!public/
+!public/**
+!deploy/nginx/
+!deploy/nginx/nginx.conf

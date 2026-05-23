@@ -1,0 +1,22 @@
+FROM node:22-bookworm-slim AS build
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci --ignore-scripts
+
+COPY . .
+
+ARG VITE_SELF_HOSTED_SAME_ORIGIN=1
+ENV VITE_SELF_HOSTED_SAME_ORIGIN=${VITE_SELF_HOSTED_SAME_ORIGIN}
+
+RUN npm run build
+
+FROM nginx:1.27-alpine
+
+COPY deploy/nginx/nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /app/dist /usr/share/nginx/html
+
+EXPOSE 80 443
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+  CMD wget -q -O /dev/null http://127.0.0.1/healthz || exit 1

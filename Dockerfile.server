@@ -1,0 +1,33 @@
+FROM node:20-bookworm-slim AS build
+WORKDIR /app
+
+COPY server/package.json server/package-lock.json ./server/
+RUN npm --prefix server ci
+
+COPY server ./server
+COPY public ./public
+COPY src/generated ./src/generated
+COPY src/utils/questionIndex.json ./src/utils/questionIndex.json
+
+RUN npm --prefix server run build
+
+FROM node:20-bookworm-slim AS runtime
+WORKDIR /app
+ENV NODE_ENV=production
+
+COPY server/package.json server/package-lock.json ./server/
+RUN npm --prefix server ci
+
+COPY --from=build /app/server/src ./server/src
+COPY --from=build /app/server/scripts ./server/scripts
+COPY --from=build /app/server/tsconfig.json ./server/tsconfig.json
+COPY --from=build /app/server/dist ./server/dist
+COPY --from=build /app/public ./public
+COPY --from=build /app/src/generated ./src/generated
+COPY --from=build /app/src/utils/questionIndex.json ./src/utils/questionIndex.json
+
+WORKDIR /app/server
+
+EXPOSE 8787
+
+CMD ["node", "dist/server.js"]

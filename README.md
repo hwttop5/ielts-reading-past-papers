@@ -2,8 +2,6 @@
 
 > [English README](./README.en.md)
 
-| 在线预览 | [https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app) |
-
 面向雅思阅读备考的 Web 应用，围绕 **民间题库** 与 **AI 助教** 提供更高效的练习、复盘与错题讲解体验。
 
 ## 功能概览

@@ -70,7 +70,8 @@ describe('assistant provider selection', () => {
   it('uses Coding Plan defaults and omits OpenRouter-only headers', async () => {
     process.env.LLM_PROVIDER = 'coding-plan'
     process.env.LLM_API_KEY = 'coding-plan-test-key'
-    delete process.env.LLM_BASE_URL
+    // Empty string prevents dotenv (on env re-import) from re-injecting LLM_BASE_URL from server/.env
+    process.env.LLM_BASE_URL = ''
     // Empty string prevents dotenv (on env re-import) from re-injecting LLM_CHAT_MODEL from .env
     process.env.LLM_CHAT_MODEL = ''
     process.env.LLM_APP_URL = 'http://localhost:5175'

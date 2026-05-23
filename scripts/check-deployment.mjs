@@ -2,7 +2,7 @@
 /**
  * Smoke-check assistant API after deploy (no RAG).
  * Usage: node scripts/check-deployment.mjs <assistantBaseUrl>
- * Example: node scripts/check-deployment.mjs https://<your-assistant-host>
+ * Example: node scripts/check-deployment.mjs https://<your-domain>
  */
 const base = (process.argv[2] || '').replace(/\/$/, '')
 if (!base || !base.startsWith('http')) {
