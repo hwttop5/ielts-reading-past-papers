@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
 import { usePracticeStore } from './practiceStore'
-import { eventBus, ACHIEVEMENT_UNLOCKED } from '@/utils/eventBus'
+import { ACHIEVEMENT_UNLOCKED, SYNC_LOCAL_CHANGED, eventBus } from '@/utils/eventBus'
+import { markAchievementsReset, readSyncMetadata, touchAchievementSync } from '@/sync/localSyncMetadata'
 
 export type Rarity = 'common' | 'rare' | 'epic' | 'legendary'
 
@@ -83,7 +84,7 @@ export const useAchievementStore = defineStore('achievement', {
       }
     },
 
-    save() {
+    persist(trackSync = true) {
       localStorage.setItem(
         'ielts_achievements',
         JSON.stringify(this.achievements.map(a => ({
@@ -92,6 +93,33 @@ export const useAchievementStore = defineStore('achievement', {
           unlockedAt: a.unlockedAt
         })))
       )
+      if (trackSync) {
+        touchAchievementSync()
+        eventBus.emit(SYNC_LOCAL_CHANGED, { scope: 'achievements' })
+      }
+    },
+
+    replaceFromSync(unlocked: Array<{ id: string; unlockedAt: number }>) {
+      const unlockedMap = new Map(unlocked.map((entry) => [entry.id, entry.unlockedAt]))
+      this.achievements.forEach((a) => {
+        const unlockedAt = unlockedMap.get(a.id)
+        a.unlocked = typeof unlockedAt === 'number'
+        a.unlockedAt = typeof unlockedAt === 'number' ? unlockedAt : undefined
+      })
+      this.totalPoints = this.achievements.reduce((sum, a) => (a.unlocked ? sum + a.points : sum), 0)
+      this.persist(false)
+    },
+
+    getSyncState() {
+      const meta = readSyncMetadata()
+      return {
+        unlocked: this.achievements.filter((a) => a.unlocked && typeof a.unlockedAt === 'number').map((a) => ({
+          id: a.id,
+          unlockedAt: a.unlockedAt as number
+        })),
+        resetAt: meta.achievements.resetAt,
+        updatedAt: meta.achievements.updatedAt
+      }
     },
 
     unlock(id: string) {
@@ -100,7 +128,7 @@ export const useAchievementStore = defineStore('achievement', {
         a.unlocked = true
         a.unlockedAt = Date.now()
         this.totalPoints += a.points
-        this.save()
+        this.persist()
         eventBus.emit(ACHIEVEMENT_UNLOCKED, { achievement: a })
         return true
       }
@@ -212,7 +240,9 @@ export const useAchievementStore = defineStore('achievement', {
     reset() {
       this.achievements = JSON.parse(JSON.stringify(INITIAL_ACHIEVEMENTS))
       this.totalPoints = 0
-      this.save()
+      markAchievementsReset()
+      this.persist(false)
+      eventBus.emit(SYNC_LOCAL_CHANGED, { scope: 'achievements' })
     }
   }
 })

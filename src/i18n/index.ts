@@ -13,6 +13,25 @@ const i18nKey: InjectionKey<I18nContext> = Symbol('i18n')
 // 翻译字典
 const translations: Record<Locale, Record<string, string>> = {
   zh: {
+    'auth.guest': '游客',
+    'auth.guestMode': '游客模式',
+    'auth.account': '账号',
+    'auth.login': '登录',
+    'auth.register': '注册',
+    'auth.email': '邮箱',
+    'auth.password': '密码',
+    'auth.syncNow': '立即同步',
+    'auth.logout': '退出登录',
+    'auth.invalidInput': '请输入有效邮箱和至少 8 位密码',
+    'auth.registerSuccess': '注册成功，正在同步数据',
+    'auth.loginSuccess': '登录成功，正在同步数据',
+    'auth.logoutSuccess': '已退出登录，本地数据仍可使用',
+    'auth.failed': '操作失败',
+    'sync.bootstrapping': '合并中',
+    'sync.syncing': '同步中',
+    'sync.synced': '已同步',
+    'sync.error': '同步失败',
+    'sync.ready': '待同步',
     // 菜单
     'menu.home': '首页总览',
     'menu.browse': '民间题库',
@@ -379,6 +398,25 @@ const translations: Record<Locale, Record<string, string>> = {
     'mode.exam': '模拟考试',
   },
   en: {
+    'auth.guest': 'Guest',
+    'auth.guestMode': 'Guest mode',
+    'auth.account': 'Account',
+    'auth.login': 'Log in',
+    'auth.register': 'Register',
+    'auth.email': 'Email',
+    'auth.password': 'Password',
+    'auth.syncNow': 'Sync now',
+    'auth.logout': 'Log out',
+    'auth.invalidInput': 'Enter a valid email and a password with at least 8 characters.',
+    'auth.registerSuccess': 'Registered. Sync is starting.',
+    'auth.loginSuccess': 'Logged in. Sync is starting.',
+    'auth.logoutSuccess': 'Logged out. Local data remains available.',
+    'auth.failed': 'Operation failed.',
+    'sync.bootstrapping': 'Merging',
+    'sync.syncing': 'Syncing',
+    'sync.synced': 'Synced',
+    'sync.error': 'Sync failed',
+    'sync.ready': 'Ready',
     // Menu
     'menu.home': 'Home',
     'menu.browse': 'Folk Past Papers',
@@ -755,7 +793,7 @@ const savedLang = typeof localStorage !== 'undefined'
 
 const currentLang = ref<Locale>(savedLang || 'zh')
 
-const setLocale = (lang: Locale) => {
+export const setLocale = (lang: Locale) => {
   currentLang.value = lang
   if (typeof localStorage !== 'undefined') {
     localStorage.setItem('ielts-language', lang)

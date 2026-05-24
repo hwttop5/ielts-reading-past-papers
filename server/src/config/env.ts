@@ -85,6 +85,8 @@ const envSchema = z.object({
     },
     z.boolean()
   ).default(false),
+  SESSION_JWT_SECRET: z.string().trim().optional(),
+  SYNC_DATABASE_PATH: z.string().trim().optional(),
   /** Stream response mode */
   ASSISTANT_STREAM_ENABLED: z.preprocess(
     (val) => {
@@ -128,7 +130,14 @@ export const env = {
   ASSISTANT_ROUTER_MODEL: parsedEnv.ASSISTANT_ROUTER_MODEL || parsedEnv.LLM_CHAT_MODEL || getDefaultLlmChatModel(parsedEnv.LLM_PROVIDER),
   ASSISTANT_FAST_MODEL: parsedEnv.ASSISTANT_FAST_MODEL || parsedEnv.LLM_CHAT_MODEL || getDefaultLlmChatModel(parsedEnv.LLM_PROVIDER),
   ASSISTANT_ROUTER_ENABLED: parsedEnv.ASSISTANT_ROUTER_ENABLED ?? true,
-  ASSISTANT_STREAM_ENABLED: parsedEnv.ASSISTANT_STREAM_ENABLED ?? false
+  ASSISTANT_STREAM_ENABLED: parsedEnv.ASSISTANT_STREAM_ENABLED ?? false,
+  SESSION_JWT_SECRET:
+    parsedEnv.SESSION_JWT_SECRET?.trim() ||
+    (process.env.NODE_ENV === 'production'
+      ? ''
+      : 'ielts-reading-past-papers-dev-session-secret'),
+  SYNC_DATABASE_PATH:
+    parsedEnv.SYNC_DATABASE_PATH?.trim() || resolve(serverRoot, 'data', 'ielts-sync.sqlite')
 }
 
 export function hasAssistantLlmConfig() {
@@ -224,4 +233,12 @@ export function requireRagIngestEnv() {
   }
 
   return env
+}
+
+export function requireSessionJwtSecret() {
+  if (!env.SESSION_JWT_SECRET) {
+    throw new Error('Missing SESSION_JWT_SECRET in server/.env')
+  }
+
+  return env.SESSION_JWT_SECRET
 }

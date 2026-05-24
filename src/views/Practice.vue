@@ -153,6 +153,7 @@ import { message } from 'ant-design-vue'
 import { eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { exportBackup, importBackup } from '@/utils/backup'
 import { buildPracticeReviewRoute, canReviewPracticeRecord } from '@/utils/practiceReview'
+import { markLocalDataImported } from '@/sync/syncManager'
 
 const router = useRouter()
 const store = usePracticeStore()
@@ -303,6 +304,7 @@ const handleImport = async (event: Event) => {
     if (success) {
       store.load()
       achievementStore.load()
+      markLocalDataImported()
       message.success(t('practice.importSuccess') || 'Import successful')
     } else {
       message.error(t('practice.importFailed') || 'Import failed')

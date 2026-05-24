@@ -13,6 +13,8 @@ export default defineConfig({
       // Long-running local LLM benchmarks; run explicitly: npx vitest run test/llm.benchmark.test.ts
       '**/llm.benchmark.test.ts',
       '**/llm.allmodels.benchmark.test.ts',
+      '**/llm.e2e.test.ts',
+      '**/llm.fullchain.test.ts',
       '**/assistant.performance.benchmark.test.ts'
     ],
     clearMocks: true,

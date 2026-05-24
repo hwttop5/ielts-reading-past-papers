@@ -64,13 +64,13 @@ docker compose logs --tail=200 qdrant
 小样本验证：
 
 ```bash
-docker compose run --rm server npm run ingest -- --limit=5
+docker compose run --rm server node dist/cli/ingest.js --limit=5
 ```
 
 全量灌库：
 
 ```bash
-docker compose run --rm server npm run ingest
+docker compose run --rm server node dist/cli/ingest.js
 ```
 
 也可以使用：
@@ -114,7 +114,7 @@ docker compose up -d
 如果题库或 RAG 数据依赖发生变化，重跑灌库：
 
 ```bash
-docker compose run --rm server npm run ingest
+docker compose run --rm server node dist/cli/ingest.js
 ```
 
 ## 7. 回滚

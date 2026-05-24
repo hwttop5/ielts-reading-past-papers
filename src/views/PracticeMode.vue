@@ -641,7 +641,6 @@ function savePracticeRecord() {
     return
   }
   practiceStore.add(record)
-  eventBus.emit(PRACTICE_UPDATED, { record, records: practiceStore.records })
   achievementStore.check()
 }
 

@@ -1,11 +1,16 @@
 import Fastify from 'fastify'
+import fastifyCookie from '@fastify/cookie'
+import fastifyJwt from '@fastify/jwt'
 import {
   env,
   getAssistantRuntimeMode,
+  hasAssistantSemanticSearchConfig,
   hasAssistantLlmConfig,
-  hasAssistantSemanticSearchConfig
+  requireSessionJwtSecret
 } from './config/env.js'
 import { registerAssistantRoutes } from './routes/assistant.js'
+import { registerAuthRoutes } from './routes/auth.js'
+import { registerSyncRoutes } from './routes/sync.js'
 
 const DEV_LOCAL_FRONTEND_ORIGINS = [
   'http://localhost:5173',
@@ -56,14 +61,23 @@ export async function createApp() {
       reply.header('Access-Control-Allow-Origin', fallbackOrigin)
     }
 
+    reply.header('Access-Control-Allow-Credentials', 'true')
     reply.header('Access-Control-Allow-Methods', 'GET,POST,OPTIONS')
-    reply.header('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+    reply.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-CSRF-Token')
+    reply.header('Vary', 'Origin')
 
     if (request.method === 'OPTIONS') {
       reply.code(204).send()
     }
   })
 
+  await app.register(fastifyCookie)
+  await app.register(fastifyJwt, {
+    secret: requireSessionJwtSecret()
+  })
+
+  await registerAuthRoutes(app)
+  await registerSyncRoutes(app)
   app.get('/health', async () => ({
     status: 'ok',
     assistantRuntimeMode: getAssistantRuntimeMode(),

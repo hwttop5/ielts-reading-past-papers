@@ -9,11 +9,22 @@ import App from './App.vue'
 import router from './router'
 import { loadAssistantPublicConfig } from './api/assistant'
 import { setupPwa } from './pwa'
+import { runAppMigration } from './utils/appMigration'
+import { usePracticeStore } from './store/practiceStore'
+import { useAchievementStore } from './store/achievementStore'
+import { useSettingStore } from './store/settingStore'
+import { useThemeStore } from './store/themeStore'
+import { useAuthStore } from './store/authStore'
+import { installSyncManager, loadLocalStores } from './sync/syncManager'
 
 async function bootstrap() {
   await loadAssistantPublicConfig()
+  if (typeof window !== 'undefined') {
+    runAppMigration()
+  }
 
   const app = createApp(App)
+  const pinia = createPinia()
 
   // Global error handlers for debugging
   app.config.errorHandler = (err, instance, info) => {
@@ -32,9 +43,17 @@ async function bootstrap() {
     })
   }
 
-  app.use(createPinia())
+  app.use(pinia)
   app.use(router)
   app.use(Antd)
+
+  usePracticeStore(pinia)
+  useAchievementStore(pinia)
+  useSettingStore(pinia)
+  useThemeStore(pinia)
+  loadLocalStores()
+  installSyncManager()
+  void useAuthStore(pinia).bootstrapSession()
 
   app.mount('#app')
   setupPwa()

@@ -41,6 +41,19 @@
           <button class="quick-action" @click="toggleTheme" :title="isDarkMode ? t('theme.lightMode') : t('theme.darkMode')">
             <span class="material-icons action-icon">{{ isDarkMode ? 'light_mode' : 'dark_mode' }}</span>
           </button>
+          <div class="sync-indicator" :class="`sync-${sync.status.value}`" :title="syncTooltip">
+            <span class="material-icons sync-icon">{{ syncIcon }}</span>
+            <span class="sync-label">{{ syncLabel }}</span>
+          </div>
+          <button
+            class="quick-action account-action"
+            type="button"
+            @click="openAuthPanel()"
+            :title="accountTitle"
+            data-testid="account-entry"
+          >
+            <span class="material-icons action-icon">{{ accountIcon }}</span>
+          </button>
           <a class="quick-action" href="https://github.com/hwttop5/ielts-reading-past-papers" target="_blank" rel="noopener noreferrer" :title="t('menu.github')">
             <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true">
               <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
@@ -97,6 +110,73 @@
         </transition>
       </div>
     </main>
+
+    <a-modal
+      v-model:open="authPanelOpen"
+      :title="authModalTitle"
+      :footer="null"
+      :width="430"
+      destroy-on-close
+    >
+      <div class="auth-panel">
+        <template v-if="authStore.isAuthenticated && authStore.user">
+          <div class="auth-user-summary">
+            <span class="material-icons auth-user-icon">account_circle</span>
+            <div class="auth-user-copy">
+              <div class="auth-user-email" data-testid="account-email">{{ authStore.user.email }}</div>
+              <div class="auth-user-status">
+                <span class="material-icons auth-sync-icon">{{ syncIcon }}</span>
+                <span>{{ syncLabel }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div v-if="sync.lastError.value" class="auth-error">{{ sync.lastError.value }}</div>
+
+          <div class="auth-actions">
+            <button class="auth-button primary" type="button" @click="handleSyncNow" :disabled="sync.status.value === 'syncing' || sync.status.value === 'bootstrapping'">
+              <span class="material-icons">sync</span>
+              <span>{{ t('auth.syncNow') }}</span>
+            </button>
+            <button class="auth-button" type="button" @click="handleLogout">
+              <span class="material-icons">logout</span>
+              <span>{{ t('auth.logout') }}</span>
+            </button>
+          </div>
+        </template>
+
+        <template v-else>
+          <div class="guest-line">
+            <span class="material-icons">person</span>
+            <span>{{ t('auth.guestMode') }}</span>
+          </div>
+
+          <div class="auth-segment">
+            <button type="button" :class="{ active: authMode === 'login' }" @click="authMode = 'login'">{{ t('auth.login') }}</button>
+            <button type="button" :class="{ active: authMode === 'register' }" @click="authMode = 'register'">{{ t('auth.register') }}</button>
+          </div>
+
+          <form class="auth-form" @submit.prevent="submitAuthForm">
+            <label class="auth-field">
+              <span>{{ t('auth.email') }}</span>
+              <input v-model.trim="authEmail" type="email" autocomplete="email" data-testid="auth-email" />
+            </label>
+
+            <label class="auth-field">
+              <span>{{ t('auth.password') }}</span>
+              <input v-model="authPassword" type="password" autocomplete="current-password" data-testid="auth-password" />
+            </label>
+
+            <div v-if="authError" class="auth-error" data-testid="auth-error">{{ authError }}</div>
+
+            <button class="auth-button primary full" type="submit" :disabled="authSubmitting" data-testid="auth-submit">
+              <span class="material-icons">{{ authMode === 'register' ? 'person_add' : 'login' }}</span>
+              <span>{{ authSubmitLabel }}</span>
+            </button>
+          </form>
+        </template>
+      </div>
+    </a-modal>
 
     <transition name="slide-left">
       <div v-if="showMobileMenu" class="mobile-menu-overlay" @click="showMobileMenu = false">
@@ -173,11 +253,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { computed, ref, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useThemeStore } from '@/store/themeStore'
+import { useSettingStore } from '@/store/settingStore'
+import { useAuthStore } from '@/store/authStore'
 import { message } from 'ant-design-vue'
 import { useI18n, type Locale } from '@/i18n'
+import { useSyncManager } from '@/sync/syncManager'
 import {
   applyPwaUpdate,
   dismissIosInstallHint,
@@ -190,12 +273,21 @@ import {
 const route = useRoute()
 const router = useRouter()
 const themeStore = useThemeStore()
+const settingStore = useSettingStore()
+const authStore = useAuthStore()
+const sync = useSyncManager()
 const { t, currentLang, setLocale } = useI18n()
 const pwa = usePwaState()
 
 const isDarkMode = ref(false)
 const showMobileMenu = ref(false)
 const isScrolled = ref(false)
+const authPanelOpen = ref(false)
+const authMode = ref<'login' | 'register'>('login')
+const authEmail = ref('')
+const authPassword = ref('')
+const authSubmitting = ref(false)
+const authError = ref('')
 
 // 一级导航菜单 - 更多工具提升为一级
 const mainMenuItems = [
@@ -262,13 +354,119 @@ const goHome = () => {
 const toggleLang = () => {
   const newLang: Locale = currentLang.value === 'zh' ? 'en' : 'zh'
   setLocale(newLang)
+  settingStore.updateSettings({ language: newLang })
   message.success(t(`lang.switchTo${newLang.charAt(0).toUpperCase() + newLang.slice(1)}`))
 }
 
 const toggleTheme = () => {
   isDarkMode.value = !isDarkMode.value
-  themeStore.setTheme(isDarkMode.value ? 'dark' : 'light')
+  const nextTheme = isDarkMode.value ? 'dark' : 'light'
+  themeStore.setTheme(nextTheme)
+  settingStore.updateSettings({ theme: nextTheme })
   message.success(isDarkMode.value ? t('theme.switchedToDark') : t('theme.switchedToLight'))
+}
+
+const syncIcon = computed(() => {
+  switch (sync.status.value) {
+    case 'bootstrapping':
+    case 'syncing':
+      return 'sync'
+    case 'synced':
+      return 'cloud_done'
+    case 'error':
+      return 'cloud_off'
+    case 'guest':
+      return 'person'
+    default:
+      return authStore.isAuthenticated ? 'cloud_queue' : 'person'
+  }
+})
+
+const syncLabel = computed(() => {
+  if (!authStore.isAuthenticated) {
+    return t('auth.guest')
+  }
+  switch (sync.status.value) {
+    case 'bootstrapping':
+      return t('sync.bootstrapping')
+    case 'syncing':
+      return t('sync.syncing')
+    case 'synced':
+      return t('sync.synced')
+    case 'error':
+      return t('sync.error')
+    default:
+      return t('sync.ready')
+  }
+})
+
+const syncTooltip = computed(() => {
+  if (sync.lastError.value) {
+    return sync.lastError.value
+  }
+  return authStore.isAuthenticated ? `${authStore.user?.email || ''} - ${syncLabel.value}` : t('auth.guestMode')
+})
+
+const accountIcon = computed(() => (authStore.isAuthenticated ? 'account_circle' : 'person'))
+const accountTitle = computed(() => (authStore.isAuthenticated ? authStore.user?.email || t('auth.account') : t('auth.guestMode')))
+const authModalTitle = computed(() => {
+  if (authStore.isAuthenticated) {
+    return t('auth.account')
+  }
+  return authMode.value === 'register' ? t('auth.register') : t('auth.login')
+})
+const authSubmitLabel = computed(() => (authMode.value === 'register' ? t('auth.register') : t('auth.login')))
+
+const openAuthPanel = (mode?: 'login' | 'register') => {
+  if (mode) {
+    authMode.value = mode
+  }
+  authError.value = ''
+  authPanelOpen.value = true
+}
+
+const submitAuthForm = async () => {
+  authError.value = ''
+  const email = authEmail.value.trim().toLowerCase()
+  const password = authPassword.value
+  if (!email || password.length < 8) {
+    authError.value = t('auth.invalidInput')
+    return
+  }
+
+  authSubmitting.value = true
+  try {
+    if (authMode.value === 'register') {
+      await authStore.register({ email, password })
+      message.success(t('auth.registerSuccess'))
+    } else {
+      await authStore.login({ email, password })
+      message.success(t('auth.loginSuccess'))
+    }
+    authPassword.value = ''
+    authPanelOpen.value = false
+  } catch (error) {
+    authError.value = error instanceof Error ? error.message : t('auth.failed')
+  } finally {
+    authSubmitting.value = false
+  }
+}
+
+const handleLogout = async () => {
+  await authStore.logout()
+  authPanelOpen.value = false
+  message.success(t('auth.logoutSuccess'))
+}
+
+const handleSyncNow = async () => {
+  try {
+    await sync.syncNow()
+    if (sync.status.value === 'synced') {
+      message.success(t('sync.synced'))
+    }
+  } catch (error) {
+    message.error(error instanceof Error ? error.message : t('sync.error'))
+  }
 }
 
 const handleInstallApp = async () => {
@@ -328,6 +526,13 @@ onMounted(() => {
   document.addEventListener('keydown', handleKeydown)
   window.addEventListener('scroll', handleScroll)
 })
+
+watch(
+  () => themeStore.theme,
+  () => {
+    isDarkMode.value = document.documentElement.classList.contains('dark')
+  }
+)
 
 onUnmounted(() => {
   document.removeEventListener('keydown', handleKeydown)
@@ -465,6 +670,44 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.sync-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  background: var(--bg-primary);
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.sync-icon {
+  font-size: 16px;
+}
+
+.sync-synced {
+  color: var(--success-color);
+  border-color: var(--success-border);
+  background: var(--success-soft);
+}
+
+.sync-syncing,
+.sync-bootstrapping {
+  color: var(--primary-color);
+  border-color: var(--primary-border);
+  background: var(--primary-soft);
+}
+
+.sync-error {
+  color: var(--danger-color);
+  border-color: var(--danger-color);
+  background: var(--danger-soft);
 }
 
 .pwa-action {
@@ -750,6 +993,150 @@ onUnmounted(() => {
   transform: translateY(-10px);
 }
 
+.auth-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.auth-user-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-secondary);
+}
+
+.auth-user-icon {
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.auth-user-copy {
+  min-width: 0;
+}
+
+.auth-user-email {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  overflow-wrap: anywhere;
+}
+
+.auth-user-status,
+.guest-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.auth-sync-icon {
+  font-size: 16px;
+}
+
+.auth-segment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.auth-segment button {
+  min-height: 38px;
+  border: 0;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-segment button.active {
+  color: var(--primary-color);
+  background: var(--primary-soft);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.auth-field input {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0 12px;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-size: 14px;
+}
+
+.auth-field input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--primary-ring);
+}
+
+.auth-error {
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--danger-color);
+  color: var(--danger-color);
+  background: var(--danger-soft);
+  font-size: 13px;
+}
+
+.auth-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.auth-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-button.primary {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.auth-button.full {
+  width: 100%;
+}
+
+.auth-button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
 @media (max-width: 768px) {
   .fixed-header {
     height: 56px;
@@ -771,7 +1158,17 @@ onUnmounted(() => {
     display: none;
   }
   
-  .header-right .quick-action:not(.mobile-menu-toggle):not(.pwa-action) {
+  .sync-label {
+    display: none;
+  }
+
+  .sync-indicator {
+    min-width: 36px;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .header-right .quick-action:not(.mobile-menu-toggle):not(.pwa-action):not(.account-action) {
     display: none;
   }
   

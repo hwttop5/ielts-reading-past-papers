@@ -5,6 +5,8 @@ import type {
   PracticeSessionResult
 } from '@/types/readingNative'
 import { normalizePracticeHighlightRecord } from '@/utils/practiceHighlights'
+import { eventBus, PRACTICE_UPDATED, SYNC_LOCAL_CHANGED } from '@/utils/eventBus'
+import { markPracticeRecordDeleted, markPracticeRecordsCleared, readSyncMetadata, touchPracticeSync } from '@/sync/localSyncMetadata'
 
 export interface PracticeRecord {
   id: string
@@ -157,6 +159,15 @@ export const usePracticeStore = defineStore('practice', {
   },
 
   actions: {
+    persistRecords(trackSync = true) {
+      localStorage.setItem('ielts_practice', JSON.stringify(this.records))
+      if (trackSync) {
+        touchPracticeSync()
+        eventBus.emit(PRACTICE_UPDATED, { records: this.records })
+        eventBus.emit(SYNC_LOCAL_CHANGED, { scope: 'practice' })
+      }
+    },
+
     load() {
       const raw = localStorage.getItem('ielts_practice')
       if (!raw) {
@@ -166,10 +177,25 @@ export const usePracticeStore = defineStore('practice', {
 
       try {
         this.records = normalizePracticeRecords(JSON.parse(raw))
-        localStorage.setItem('ielts_practice', JSON.stringify(this.records))
+        this.persistRecords(false)
       } catch {
         this.records = []
         localStorage.removeItem('ielts_practice')
+      }
+    },
+
+    replaceFromSync(records: unknown[]) {
+      this.records = normalizePracticeRecords(records).sort((left, right) => right.time - left.time)
+      this.persistRecords(false)
+    },
+
+    getSyncState() {
+      const meta = readSyncMetadata()
+      return {
+        records: normalizePracticeRecords(this.records),
+        deletedRecordIds: meta.practice.deletedRecordIds,
+        clearedAt: meta.practice.clearedAt,
+        updatedAt: meta.practice.updatedAt
       }
     },
 
@@ -185,19 +211,25 @@ export const usePracticeStore = defineStore('practice', {
       }
 
       this.records.unshift(normalized)
-      localStorage.setItem('ielts_practice', JSON.stringify(this.records))
+      this.persistRecords()
     },
 
     clear() {
       this.records = []
       localStorage.removeItem('ielts_practice')
+      markPracticeRecordsCleared()
+      eventBus.emit(PRACTICE_UPDATED, { records: this.records })
+      eventBus.emit(SYNC_LOCAL_CHANGED, { scope: 'practice' })
     },
 
     deleteRecord(id: string) {
       const index = this.records.findIndex(r => r.id === id)
       if (index > -1) {
         this.records.splice(index, 1)
-        localStorage.setItem('ielts_practice', JSON.stringify(this.records))
+        markPracticeRecordDeleted(id)
+        this.persistRecords(false)
+        eventBus.emit(PRACTICE_UPDATED, { records: this.records })
+        eventBus.emit(SYNC_LOCAL_CHANGED, { scope: 'practice' })
       }
     }
   }

@@ -1,8 +1,6 @@
 const STORAGE_SCHEMA_VERSION_KEY = 'ielts_storage_schema_version'
 const STORAGE_SCHEMA_VERSION = '2026-04-03-reading-reference-v1'
 const LEGACY_KEYS_TO_CLEAR = [
-  'ielts_practice',
-  'ielts_achievements',
   'ielts_questions',
   'ielts_questions_version'
 ]

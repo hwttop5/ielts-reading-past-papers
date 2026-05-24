@@ -1,5 +1,35 @@
 # 版本说明 / Changelog
 
+## v2.0.6 - 2026-05-24
+
+### 中文说明
+
+#### 1. 加入可选账号登录
+
+新增邮箱密码注册、登录、登出与会话检查，游客仍可完整使用；登录态使用 httpOnly cookie 与 CSRF 防护，服务端通过 SQLite 持久化用户与同步数据。
+
+#### 2. 同步学习记录、成就与偏好
+
+登录后会拉取远端快照并合并本机游客数据，练习记录按 id 去重，成就与偏好按更新时间合并；主题、语言和设置现在会跟随账号恢复。
+
+#### 3. 完善同步验证与自托管持久化
+
+补充 auth/sync 服务端、前端 store/sync manager 和 Playwright smoke 覆盖，并同步 Docker/环境示例，使 `server/data/` 可作为 SQLite 持久化目录挂载。
+
+### English Notes
+
+#### 1. Added Optional Account Sign-In
+
+Added email/password registration, login, logout, and session checks while keeping guest mode fully usable; sessions use httpOnly cookies with CSRF protection, backed by SQLite for users and sync data.
+
+#### 2. Synced Learning Records, Achievements, and Preferences
+
+Signed-in startup now pulls the remote snapshot, merges guest data, deduplicates practice records by id, and restores achievements plus theme, language, and settings preferences.
+
+#### 3. Expanded Sync Verification and Self-Hosted Persistence
+
+Added server auth/sync tests, frontend store and sync manager coverage, and a Playwright smoke test, with Docker/env examples updated for persistent `server/data/` SQLite storage.
+
 ## v2.0.5 - 2026-05-17
 
 ### 中文说明
