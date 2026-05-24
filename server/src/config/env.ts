@@ -1,6 +1,7 @@
 import { OpenAIEmbeddings } from '@langchain/openai'
 import { config as loadDotenv } from 'dotenv'
-import { existsSync } from 'node:fs'
+import { randomBytes } from 'node:crypto'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { z } from 'zod'
 import { serverRoot } from './paths.js'
@@ -123,6 +124,28 @@ function getDefaultLlmChatModel(provider: typeof parsedEnv.LLM_PROVIDER) {
   }
 }
 
+const defaultSyncDatabasePath =
+  parsedEnv.SYNC_DATABASE_PATH?.trim() || resolve(serverRoot, 'data', 'ielts-sync.sqlite')
+
+function getSessionSecretPath() {
+  return resolve(defaultSyncDatabasePath, '..', 'session-secret')
+}
+
+function getOrCreateGeneratedSessionSecret() {
+  const secretPath = getSessionSecretPath()
+  if (existsSync(secretPath)) {
+    const secret = readFileSync(secretPath, 'utf8').trim()
+    if (secret) {
+      return secret
+    }
+  }
+
+  mkdirSync(resolve(secretPath, '..'), { recursive: true })
+  const secret = randomBytes(48).toString('base64url')
+  writeFileSync(secretPath, `${secret}\n`, { encoding: 'utf8', flag: 'w', mode: 0o600 })
+  return secret
+}
+
 export const env = {
   ...parsedEnv,
   LLM_BASE_URL: parsedEnv.LLM_BASE_URL || getDefaultLlmBaseUrl(parsedEnv.LLM_PROVIDER),
@@ -134,10 +157,9 @@ export const env = {
   SESSION_JWT_SECRET:
     parsedEnv.SESSION_JWT_SECRET?.trim() ||
     (process.env.NODE_ENV === 'production'
-      ? ''
+      ? getOrCreateGeneratedSessionSecret()
       : 'ielts-reading-past-papers-dev-session-secret'),
-  SYNC_DATABASE_PATH:
-    parsedEnv.SYNC_DATABASE_PATH?.trim() || resolve(serverRoot, 'data', 'ielts-sync.sqlite')
+  SYNC_DATABASE_PATH: defaultSyncDatabasePath
 }
 
 export function hasAssistantLlmConfig() {

@@ -1,4 +1,4 @@
-import { mkdtempSync, rmSync } from 'node:fs'
+import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import type { FastifyInstance } from 'fastify'
@@ -159,6 +159,35 @@ describe('auth and sync routes', () => {
       expect(logout.statusCode).toBe(200)
       expect(logout.json()).toEqual({ ok: true })
     })
+  })
+
+  it('generates a persistent production session secret when none is configured', async () => {
+    const dir = mkdtempSync(join(tmpdir(), 'ielts-auth-secret-'))
+    process.env = {
+      ...ORIGINAL_ENV,
+      NODE_ENV: 'production',
+      SESSION_JWT_SECRET: '',
+      SYNC_DATABASE_PATH: join(dir, 'sync.sqlite'),
+      FRONTEND_ORIGIN: 'https://example.com'
+    }
+    vi.resetModules()
+
+    try {
+      const { env, requireSessionJwtSecret } = await import('../src/config/env.js')
+      const firstSecret = requireSessionJwtSecret()
+      const secretPath = join(dir, 'session-secret')
+
+      expect(firstSecret).toHaveLength(64)
+      expect(env.SESSION_JWT_SECRET).toBe(firstSecret)
+      expect(existsSync(secretPath)).toBe(true)
+      expect(readFileSync(secretPath, 'utf8').trim()).toBe(firstSecret)
+
+      vi.resetModules()
+      const reloaded = await import('../src/config/env.js')
+      expect(reloaded.requireSessionJwtSecret()).toBe(firstSecret)
+    } finally {
+      rmSync(dir, { recursive: true, force: true })
+    }
   })
 
   it('guards sync routes with session and CSRF', async () => {
