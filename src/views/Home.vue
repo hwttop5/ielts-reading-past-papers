@@ -453,6 +453,7 @@ const handleDismissInstallCard = () => {
   background: var(--primary-color);
   color: #fff;
   font-size: 14px;
+  line-height: 20px;
   font-weight: 700;
   cursor: pointer;
   box-shadow: var(--primary-shadow-md);

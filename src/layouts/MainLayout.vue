@@ -42,7 +42,7 @@
             <span class="material-icons action-icon">{{ isDarkMode ? 'light_mode' : 'dark_mode' }}</span>
           </button>
           <div class="sync-indicator" :class="`sync-${sync.status.value}`" :title="syncTooltip">
-            <span class="material-icons sync-icon">{{ syncIcon }}</span>
+            <span v-if="authStore.isAuthenticated" class="material-icons sync-icon">{{ syncIcon }}</span>
             <span class="sync-label">{{ syncLabel }}</span>
           </div>
           <button
@@ -134,11 +134,11 @@
           <div v-if="sync.lastError.value" class="auth-error">{{ sync.lastError.value }}</div>
 
           <div class="auth-actions">
-            <button class="auth-button primary" type="button" @click="handleSyncNow" :disabled="sync.status.value === 'syncing' || sync.status.value === 'bootstrapping'">
-              <span class="material-icons">sync</span>
+            <button class="auth-button primary" type="button" @click="handleSyncNow" :class="{ loading: isSyncBusy }" :disabled="isSyncBusy" :aria-busy="isSyncBusy">
+              <span :class="['material-icons', { 'auth-loading-icon': isSyncBusy }]">sync</span>
               <span>{{ t('auth.syncNow') }}</span>
             </button>
-            <button class="auth-button" type="button" @click="handleLogout">
+            <button class="auth-button primary" type="button" @click="handleLogout">
               <span class="material-icons">logout</span>
               <span>{{ t('auth.logout') }}</span>
             </button>
@@ -147,7 +147,6 @@
 
         <template v-else>
           <div class="guest-line">
-            <span class="material-icons">person</span>
             <span>{{ t('auth.guestMode') }}</span>
           </div>
 
@@ -169,8 +168,8 @@
 
             <div v-if="authError" class="auth-error" data-testid="auth-error">{{ authError }}</div>
 
-            <button class="auth-button primary full" type="submit" :disabled="authSubmitting" data-testid="auth-submit">
-              <span class="material-icons">{{ authMode === 'register' ? 'person_add' : 'login' }}</span>
+            <button class="auth-button primary full" type="submit" :class="{ loading: authSubmitting }" :disabled="authSubmitting" :aria-busy="authSubmitting" data-testid="auth-submit">
+              <span :class="['material-icons', { 'auth-loading-icon': authSubmitting }]">{{ authSubmitIcon }}</span>
               <span>{{ authSubmitLabel }}</span>
             </button>
           </form>
@@ -416,6 +415,13 @@ const authModalTitle = computed(() => {
   return authMode.value === 'register' ? t('auth.register') : t('auth.login')
 })
 const authSubmitLabel = computed(() => (authMode.value === 'register' ? t('auth.register') : t('auth.login')))
+const authSubmitIcon = computed(() => {
+  if (authSubmitting.value) {
+    return 'sync'
+  }
+  return authMode.value === 'register' ? 'person_add' : 'login'
+})
+const isSyncBusy = computed(() => sync.status.value === 'syncing' || sync.status.value === 'bootstrapping')
 
 const openAuthPanel = (mode?: 'login' | 'register') => {
   if (mode) {
@@ -829,6 +835,8 @@ onUnmounted(() => {
   border: 1px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -1102,9 +1110,26 @@ onUnmounted(() => {
 }
 
 .auth-actions {
+  align-self: stretch;
   display: flex;
   gap: 10px;
-  justify-content: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.auth-actions .auth-button {
+  flex: 0 0 126px;
+  height: 40px;
+  width: 126px;
+  white-space: nowrap;
+}
+
+.auth-button .material-icons {
+  flex: 0 0 18px;
+  width: 18px;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
 }
 
 .auth-button {
@@ -1137,6 +1162,16 @@ onUnmounted(() => {
   cursor: wait;
 }
 
+.auth-loading-icon {
+  animation: auth-button-spin 0.9s linear infinite;
+}
+
+@keyframes auth-button-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (max-width: 768px) {
   .fixed-header {
     height: 56px;
@@ -1159,13 +1194,14 @@ onUnmounted(() => {
   }
   
   .sync-label {
-    display: none;
+    display: inline;
   }
 
   .sync-indicator {
-    min-width: 36px;
+    height: 40px;
+    min-width: auto;
     justify-content: center;
-    padding: 0;
+    padding: 0 12px;
   }
 
   .header-right .quick-action:not(.mobile-menu-toggle):not(.pwa-action):not(.account-action) {

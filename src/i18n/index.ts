@@ -353,7 +353,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.loadingTimeout': '加载超时，如果内容未显示请刷新页面',
 
     // PWA
-    'pwa.installTitle': '添加到手机桌面',
+    'pwa.installTitle': '添加到桌面',
     'pwa.installDescription': '将应用安装到主屏幕，便于快速打开，并支持首页、题库、练习记录和访问过的结构化练习离线回访。',
     'pwa.installAction': '添加到桌面',
     'pwa.notNowAction': '暂不安装',
