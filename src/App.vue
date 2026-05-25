@@ -44,7 +44,7 @@ const handleAchievementUnlocked = (event: CustomEvent) => {
     message: t('achievement.unlocked'),
     description: h('div', [
       h('div', { style: 'font-weight: bold; margin-bottom: 4px;' }, t(achievement.titleKey)),
-      h('div', { style: 'font-size: 13px; color: #666;' }, t(achievement.descKey)),
+      h('div', { style: 'font-size: 13px; color: var(--text-secondary);' }, t(achievement.descKey)),
       h('div', { style: `margin-top: 8px; color: ${getRarityColor(achievement.rarity)}; font-size: 12px; font-weight: 600;` }, `+${achievement.points} pts`)
     ]),
     icon: () => h('span', { 

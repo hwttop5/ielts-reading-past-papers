@@ -433,11 +433,16 @@ a:focus-visible {
 }
 
 .ant-modal-content {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
   border-radius: var(--radius-lg) !important;
   box-shadow: var(--shadow-lg) !important;
+  overflow: hidden !important;
 }
 
 .ant-modal-header {
+  background: var(--bg-primary) !important;
   border-bottom: 1px solid var(--border-light) !important;
   padding: 20px 24px !important;
 }
@@ -449,7 +454,70 @@ a:focus-visible {
 }
 
 .ant-modal-body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
   padding: 24px !important;
+}
+
+.ant-modal-close {
+  color: var(--text-secondary) !important;
+  border-radius: var(--radius-sm) !important;
+  transition: var(--transition) !important;
+}
+
+.ant-modal-close:hover,
+.ant-modal-close:focus-visible {
+  background: var(--surface-hover) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-modal-close-x,
+.ant-modal-close-icon {
+  color: inherit !important;
+}
+
+.ant-message-notice-content {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+.ant-message-custom-content {
+  color: var(--text-primary) !important;
+}
+
+.ant-notification-notice {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+.ant-notification-notice-message {
+  color: var(--text-primary) !important;
+}
+
+.ant-notification-notice-description {
+  color: var(--text-secondary) !important;
+}
+
+.ant-notification-notice-close {
+  color: var(--text-secondary) !important;
+  border-radius: var(--radius-sm) !important;
+  transition: var(--transition) !important;
+}
+
+.ant-notification-notice-close:hover,
+.ant-notification-notice-close:focus-visible {
+  background: var(--surface-hover) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-notification-notice-close-icon {
+  color: inherit !important;
 }
 
 .ant-page-header {

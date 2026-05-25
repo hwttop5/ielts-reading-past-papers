@@ -17,7 +17,7 @@
             <a-tag color="blue">{{ item.duration }} 秒</a-tag>
             <a-tag color="green">{{ item.accuracy }}%</a-tag>
           </div>
-          <div style="margin-top: 4px; color: #888">
+          <div style="margin-top: 4px; color: var(--text-secondary)">
             {{ format(item.time) }}
           </div>
         </a-card>

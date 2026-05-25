@@ -42,8 +42,8 @@ defineProps<{
 
 .timeline-item-content {
   padding: 12px 16px;
-  background: #fafafa;
+  background: var(--bg-secondary);
   border-radius: 8px;
-  border: 1px solid #f0f0f0;
+  border: 1px solid var(--border-light);
 }
 </style>
