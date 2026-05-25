@@ -7,9 +7,28 @@ RUN npm ci --ignore-scripts
 COPY . .
 
 ARG VITE_SELF_HOSTED_SAME_ORIGIN=1
+ARG VITE_BAIDU_TONGJI_ID=
 ENV VITE_SELF_HOSTED_SAME_ORIGIN=${VITE_SELF_HOSTED_SAME_ORIGIN}
 
-RUN npm run build
+RUN set -eu; \
+  tongji_id="${VITE_BAIDU_TONGJI_ID}"; \
+  if [ -z "$tongji_id" ] && [ -f .env ]; then \
+    tongji_id="$(sed -n 's/^VITE_BAIDU_TONGJI_ID=//p' .env | tail -n 1)"; \
+  fi; \
+  if [ -z "$tongji_id" ] && [ -f deploy/vite-build.env ]; then \
+    tongji_id="$(sed -n 's/^VITE_BAIDU_TONGJI_ID=//p' deploy/vite-build.env | tail -n 1)"; \
+  fi; \
+  if [ -z "$tongji_id" ] && [ -f .env.production.local ]; then \
+    tongji_id="$(sed -n 's/^VITE_BAIDU_TONGJI_ID=//p' .env.production.local | tail -n 1)"; \
+  fi; \
+  if [ -n "$tongji_id" ]; then \
+    echo "VITE_BAIDU_TONGJI_ID is configured for production build"; \
+    VITE_BAIDU_TONGJI_ID="$tongji_id" npm run build; \
+  else \
+    echo "VITE_BAIDU_TONGJI_ID is not configured; Baidu Tongji will be disabled"; \
+    unset VITE_BAIDU_TONGJI_ID; \
+    npm run build; \
+  fi
 
 FROM nginx:1.27-alpine
 

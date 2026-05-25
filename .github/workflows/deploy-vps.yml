@@ -53,7 +53,28 @@ jobs:
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
+          VITE_BAIDU_TONGJI_ID: ${{ vars.VITE_BAIDU_TONGJI_ID }}
         run: |
           set -euo pipefail
+          test -n "$VITE_BAIDU_TONGJI_ID"
+          escaped_tongji_id=$(printf '%q' "$VITE_BAIDU_TONGJI_ID")
           ssh -i ~/.ssh/deploy_key -p 22 "$VPS_USER@$VPS_HOST" \
-            "/opt/stacks/deploy-hooks/deploy-stack.sh ielts-reading-past-papers"
+            "VITE_BAIDU_TONGJI_ID=$escaped_tongji_id bash -se" <<'REMOTE'
+          set -euo pipefail
+          cd /opt/stacks/ielts-reading-past-papers
+          touch .env
+          sed -i '/^VITE_BAIDU_TONGJI_ID=/d' .env
+          printf '%s\n' "VITE_BAIDU_TONGJI_ID=$VITE_BAIDU_TONGJI_ID" >> .env
+          mkdir -p deploy
+          printf '%s\n' "VITE_BAIDU_TONGJI_ID=$VITE_BAIDU_TONGJI_ID" > deploy/vite-build.env
+          printf '%s\n' "VITE_BAIDU_TONGJI_ID=$VITE_BAIDU_TONGJI_ID" > .env.production.local
+          export VITE_BAIDU_TONGJI_ID
+          /opt/stacks/deploy-hooks/deploy-stack.sh ielts-reading-past-papers </dev/null
+          for attempt in $(seq 1 30); do
+            web_health=$(docker inspect --format '{{.State.Health.Status}}' ielts-reading-past-papers-web-1 2>/dev/null || true)
+            test "$web_health" = healthy && break
+            sleep 2
+          done
+          test "$web_health" = healthy
+          docker exec -e VITE_BAIDU_TONGJI_ID="$VITE_BAIDU_TONGJI_ID" ielts-reading-past-papers-web-1 sh -lc 'grep -R "$VITE_BAIDU_TONGJI_ID" /usr/share/nginx/html/assets/*.js >/dev/null'
+          REMOTE

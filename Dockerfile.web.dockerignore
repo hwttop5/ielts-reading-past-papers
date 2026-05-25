@@ -7,5 +7,7 @@
 !src/**
 !public/
 !public/**
+!deploy/
+!deploy/vite-build.env
 !deploy/nginx/
 !deploy/nginx/nginx.conf

@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile.web
       args:
         VITE_SELF_HOSTED_SAME_ORIGIN: "1"
+        VITE_BAIDU_TONGJI_ID: ${VITE_BAIDU_TONGJI_ID:-}
     depends_on:
       server:
         condition: service_healthy

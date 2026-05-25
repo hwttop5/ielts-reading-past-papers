@@ -29,6 +29,7 @@ dist/
 .env.local
 .env.*.local
 deploy/.env
+deploy/vite-build.env
 deploy/certs/*.pem
 server/data/
 

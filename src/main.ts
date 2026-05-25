@@ -7,6 +7,7 @@ import './styles/index.css'
 
 import App from './App.vue'
 import router from './router'
+import { installBaiduTongji } from './analytics/baiduTongji'
 import { loadAssistantPublicConfig } from './api/assistant'
 import { setupPwa } from './pwa'
 import { runAppMigration } from './utils/appMigration'
@@ -44,6 +45,7 @@ async function bootstrap() {
   }
 
   app.use(pinia)
+  installBaiduTongji(router)
   app.use(router)
   app.use(Antd)
 

@@ -16,6 +16,14 @@
 cp deploy/.env.example deploy/.env
 ```
 
+前端构建期变量不读取 `deploy/.env`。如需启用百度统计，请在仓库根目录 `.env`、Shell 环境变量或 CI 环境变量中设置统计 ID 后重新构建前端镜像：
+
+```bash
+VITE_BAIDU_TONGJI_ID=your-baidu-tongji-id
+docker compose build web
+docker compose up -d web
+```
+
 可选：也可以直接使用仓库脚本代替原始 `docker compose` 命令。
 
 ## 2. 必填环境变量
