@@ -69,6 +69,22 @@
     <main class="layout-content">
       <div class="content-wrapper">
         <transition name="slide-down">
+          <div v-if="showMigrationNotice" class="pwa-banner migration-banner" data-testid="migration-banner">
+            <div class="migration-banner-icon" aria-hidden="true">
+              <span class="material-icons">campaign</span>
+            </div>
+            <div class="pwa-banner-copy migration-banner-copy">
+              <strong>{{ t('migration.title') }}</strong>
+              <span>{{ t('migration.descriptionPrefix') }}<a :href="NEW_SITE_URL" class="migration-link">{{ NEW_SITE_URL }}</a>{{ t('migration.descriptionSuffix') }}</span>
+            </div>
+            <div class="pwa-banner-actions">
+              <a class="pwa-banner-btn primary migration-banner-action" :href="NEW_SITE_URL">
+                {{ t('migration.action') }}
+              </a>
+            </div>
+          </div>
+        </transition>
+        <transition name="slide-down">
           <div v-if="pwa.needRefresh.value" class="pwa-banner update-banner">
             <div class="pwa-banner-copy">
               <strong>{{ t('pwa.updateTitle') }}</strong>
@@ -268,6 +284,7 @@ import {
   promptPwaInstall,
   usePwaState
 } from '@/pwa'
+import { NEW_SITE_URL, shouldShowMigrationNotice } from '@/utils/siteMigration'
 
 const route = useRoute()
 const router = useRouter()
@@ -287,6 +304,7 @@ const authEmail = ref('')
 const authPassword = ref('')
 const authSubmitting = ref(false)
 const authError = ref('')
+const showMigrationNotice = shouldShowMigrationNotice()
 
 // 一级导航菜单 - 更多工具提升为一级
 const mainMenuItems = [
@@ -588,6 +606,7 @@ onUnmounted(() => {
   align-items: center;
   gap: 40px;
   flex: 1;
+  min-width: 0;
 }
 
 .logo-text {
@@ -622,6 +641,7 @@ onUnmounted(() => {
   display: flex;
   gap: 4px;
   flex: 1;
+  min-width: 0;
 }
 
 .nav-item {
@@ -639,6 +659,7 @@ onUnmounted(() => {
   color: var(--text-secondary);
   font-weight: 600;
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .nav-item-main:hover {
@@ -676,6 +697,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 .sync-indicator {
@@ -805,6 +827,28 @@ onUnmounted(() => {
   border-color: var(--orange-border);
   background: linear-gradient(180deg, var(--bg-primary), rgba(245, 158, 11, 0.08));
 }
+.migration-banner {
+  align-items: center;
+  border-color: var(--primary-border);
+  background: linear-gradient(180deg, var(--bg-primary), rgba(37, 99, 235, 0.08));
+}
+
+.migration-banner-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  background: var(--primary-soft);
+  color: var(--primary-color);
+  flex: 0 0 36px;
+}
+
+.migration-banner-icon .material-icons {
+  font-size: 20px;
+}
+
 
 .pwa-banner-copy {
   display: flex;
@@ -820,6 +864,22 @@ onUnmounted(() => {
 .pwa-banner-copy span {
   font-size: 13px;
   color: var(--text-secondary);
+}
+.migration-banner-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.migration-link {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.migration-link:hover,
+.migration-link:focus-visible {
+  text-decoration: underline;
 }
 
 .pwa-banner-actions {
@@ -845,6 +905,14 @@ onUnmounted(() => {
   border-color: var(--primary-color);
   background: var(--primary-color);
   color: #fff;
+}
+
+.migration-banner-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .slide-down-enter-active,
@@ -1225,12 +1293,81 @@ onUnmounted(() => {
     align-items: stretch;
   }
 
+  .migration-banner {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .migration-banner-copy {
+    flex: 1 1 calc(100% - 52px);
+  }
+
   .pwa-banner-actions {
     width: 100%;
   }
 
   .pwa-banner-btn {
     flex: 1;
+  }
+}
+
+@media (max-width: 1180px) and (min-width: 769px) {
+  .fixed-header {
+    height: 64px;
+  }
+
+  .header-container {
+    padding: 0 16px;
+  }
+
+  .header-left {
+    gap: 20px;
+  }
+
+  .logo-text {
+    padding: 0;
+  }
+
+  .logo-text-main {
+    font-size: 15px;
+  }
+
+  .logo-text-sub {
+    display: none;
+  }
+
+  .main-nav {
+    gap: 2px;
+  }
+
+  .nav-item-main {
+    gap: 0;
+    padding: 9px 12px;
+    font-size: 13px;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .header-right {
+    gap: 6px;
+  }
+
+  .sync-indicator {
+    min-height: 36px;
+    padding: 0 8px;
+    font-size: 11px;
+  }
+
+  .quick-action {
+    width: 36px;
+    height: 36px;
+  }
+
+  .layout-content {
+    margin-top: 64px;
   }
 }
 </style>

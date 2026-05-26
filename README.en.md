@@ -2,7 +2,7 @@
 
 > [简体中文](./README.md)
 
-| Live demo | [https://ielts-reading-past-papers.vercel.app](https://ielts-reading-past-papers.vercel.app) |
+| Live demo | [https://ielts.ttop5.cc](https://ielts.ttop5.cc) |
 
 An IELTS Reading practice app built around a **community question bank** and an **AI assistant**, with support for guided practice, review, history, achievements, and optional RAG-enhanced tutoring.
 

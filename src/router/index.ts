@@ -7,8 +7,9 @@ import PracticeMode from '@/views/PracticeMode.vue'
 import MyAchievements from '@/views/MyAchievements.vue'
 import NotFound from '@/views/NotFound.vue'
 import questionIndex from '@/utils/questionIndex.json'
+import { NEW_SITE_URL } from '@/utils/siteMigration'
 
-const SITE_URL = 'https://ielts-reading-past-papers.vercel.app'
+const SITE_URL = NEW_SITE_URL
 const DEFAULT_TITLE = 'IELTS Reading Past Papers'
 const DEFAULT_DESCRIPTION = 'Practice IELTS Reading past papers online with a community question bank, PDF references, progress tracking, review tools, and an AI study assistant.'
 
@@ -100,17 +101,17 @@ const router = createRouter({
             description: 'View local IELTS Reading study achievements and progress milestones.',
             robots: 'noindex,follow'
           }
+        },
+        {
+          path: ':pathMatch(.*)*',
+          component: NotFound,
+          meta: {
+            title: 'Page Not Found | IELTS Reading Past Papers',
+            description: DEFAULT_DESCRIPTION,
+            robots: 'noindex,follow'
+          }
         }
       ]
-    },
-    {
-      path: '/:pathMatch(.*)*',
-      component: NotFound,
-      meta: {
-        title: 'Page Not Found | IELTS Reading Past Papers',
-        description: DEFAULT_DESCRIPTION,
-        robots: 'noindex,follow'
-      }
     }
   ]
 })

@@ -367,6 +367,10 @@ const translations: Record<Locale, Record<string, string>> = {
     'pwa.laterAction': '稍后',
     'pwa.offlineReadyTitle': '已支持离线回访',
     'pwa.offlineReadyDescription': '首页、题库、练习记录和访问过的结构化练习现在可以离线打开。',
+    'migration.title': '站点迁移通知',
+    'migration.descriptionPrefix': '为了提供更好的服务，已迁移到新站点 ',
+    'migration.descriptionSuffix': '。新站点将支持更多功能并持续更新，老站点将停止维护。请先在旧站点“练习记录”页导出数据，再到新站点同一入口导入数据。',
+    'migration.action': '前往新站点',
     'pwa.dismissAction': '知道了',
     'pwa.updateError': '更新失败，请稍后重试',
 
@@ -754,6 +758,10 @@ const translations: Record<Locale, Record<string, string>> = {
     'pwa.laterAction': 'Later',
     'pwa.offlineReadyTitle': 'Offline return is ready',
     'pwa.offlineReadyDescription': 'Home, Library, Practice History, and the structured practice pages you have already visited can now open offline.',
+    'migration.title': 'Site migration notice',
+    'migration.descriptionPrefix': 'For better service, this site has moved to ',
+    'migration.descriptionSuffix': '. The new site will support more features and ongoing updates, while this old site will stop being maintained. Please export your data from Practice History here first, then import it from the same entry on the new site.',
+    'migration.action': 'Open new site',
     'pwa.dismissAction': 'Got it',
     'pwa.updateError': 'Update failed. Please try again later.',
 
