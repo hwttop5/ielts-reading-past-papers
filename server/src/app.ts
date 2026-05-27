@@ -10,6 +10,7 @@ import {
 } from './config/env.js'
 import { registerAssistantRoutes } from './routes/assistant.js'
 import { registerAuthRoutes } from './routes/auth.js'
+import { registerContactAdRoutes } from './routes/contactAd.js'
 import { registerSyncRoutes } from './routes/sync.js'
 
 const DEV_LOCAL_FRONTEND_ORIGINS = [
@@ -78,6 +79,7 @@ export async function createApp() {
 
   await registerAuthRoutes(app)
   await registerSyncRoutes(app)
+  await registerContactAdRoutes(app)
   app.get('/health', async () => ({
     status: 'ok',
     assistantRuntimeMode: getAssistantRuntimeMode(),

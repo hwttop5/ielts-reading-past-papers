@@ -67,6 +67,9 @@ const envSchema = z.object({
   QDRANT_COLLECTION_CHUNKS: z.string().trim().default('ielts_question_chunks_v1'),
   QDRANT_COLLECTION_SUMMARIES: z.string().trim().default('ielts_question_summaries_v1'),
   FRONTEND_ORIGIN: z.string().trim().default('http://localhost:5175'),
+  CONTACT_AD_GITHUB_TOKEN: z.string().trim().optional(),
+  GITHUB_TOKEN: z.string().trim().optional(),
+  GH_TOKEN: z.string().trim().optional(),
   RATE_LIMIT_MAX: z.coerce.number().int().positive().default(30),
   RATE_LIMIT_WINDOW_MINUTES: z.coerce.number().int().positive().default(60),
   PORT: z.coerce.number().int().positive().default(8787),
@@ -182,6 +185,11 @@ export const env = {
   ASSISTANT_FAST_MODEL: parsedEnv.ASSISTANT_FAST_MODEL || parsedEnv.LLM_CHAT_MODEL || getDefaultLlmChatModel(parsedEnv.LLM_PROVIDER),
   ASSISTANT_ROUTER_ENABLED: parsedEnv.ASSISTANT_ROUTER_ENABLED ?? true,
   ASSISTANT_STREAM_ENABLED: parsedEnv.ASSISTANT_STREAM_ENABLED ?? false,
+  CONTACT_AD_GITHUB_TOKEN:
+    parsedEnv.CONTACT_AD_GITHUB_TOKEN?.trim() ||
+    parsedEnv.GITHUB_TOKEN?.trim() ||
+    parsedEnv.GH_TOKEN?.trim() ||
+    undefined,
   SESSION_JWT_SECRET:
     parsedEnv.SESSION_JWT_SECRET?.trim() ||
     (process.env.NODE_ENV === 'production'
