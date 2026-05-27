@@ -182,6 +182,17 @@
               <input v-model="authPassword" type="password" autocomplete="current-password" data-testid="auth-password" />
             </label>
 
+            <button
+              v-if="authMode === 'login'"
+              class="auth-link-button"
+              type="button"
+              :disabled="passwordResetSubmitting"
+              @click="handlePasswordResetRequest"
+              data-testid="auth-forgot-password"
+            >
+              {{ t('auth.forgotPassword') }}
+            </button>
+
             <div v-if="authError" class="auth-error" data-testid="auth-error">{{ authError }}</div>
 
             <button class="auth-button primary full" type="submit" :class="{ loading: authSubmitting }" :disabled="authSubmitting" :aria-busy="authSubmitting" data-testid="auth-submit">
@@ -273,6 +284,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useThemeStore } from '@/store/themeStore'
 import { useSettingStore } from '@/store/settingStore'
 import { useAuthStore } from '@/store/authStore'
+import { ApiRequestError } from '@/api/authSync'
 import { message } from 'ant-design-vue'
 import { useI18n, type Locale } from '@/i18n'
 import { useSyncManager } from '@/sync/syncManager'
@@ -303,6 +315,7 @@ const authMode = ref<'login' | 'register'>('login')
 const authEmail = ref('')
 const authPassword = ref('')
 const authSubmitting = ref(false)
+const passwordResetSubmitting = ref(false)
 const authError = ref('')
 const showMigrationNotice = shouldShowMigrationNotice()
 
@@ -473,6 +486,39 @@ const submitAuthForm = async () => {
     authError.value = error instanceof Error ? error.message : t('auth.failed')
   } finally {
     authSubmitting.value = false
+  }
+}
+
+const getPasswordResetRequestErrorMessage = (error: unknown) => {
+  if (error instanceof ApiRequestError) {
+    if (error.code === 'mail_unavailable') {
+      return t('auth.resetMailUnavailable')
+    }
+
+    if (error.code === 'network_error' || error.status === 0 || error.status >= 500) {
+      return t('auth.resetRequestUnavailable')
+    }
+  }
+
+  return error instanceof Error ? error.message : t('auth.failed')
+}
+
+const handlePasswordResetRequest = async () => {
+  authError.value = ''
+  const email = authEmail.value.trim().toLowerCase()
+  if (!email) {
+    authError.value = t('auth.resetEmailRequired')
+    return
+  }
+
+  passwordResetSubmitting.value = true
+  try {
+    await authStore.requestPasswordReset({ email, locale: currentLang.value })
+    message.success(t('auth.resetRequestSuccess'))
+  } catch (error) {
+    authError.value = getPasswordResetRequestErrorMessage(error)
+  } finally {
+    passwordResetSubmitting.value = false
   }
 }
 
@@ -1166,6 +1212,22 @@ onUnmounted(() => {
   outline: none;
   border-color: var(--primary-color);
   box-shadow: 0 0 0 3px var(--primary-ring);
+}
+
+.auth-link-button {
+  align-self: flex-start;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--primary-color);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-link-button:disabled {
+  opacity: 0.65;
+  cursor: wait;
 }
 
 .auth-error {

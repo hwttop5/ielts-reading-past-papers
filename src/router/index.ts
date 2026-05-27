@@ -5,6 +5,7 @@ import Browse from '@/views/Browse.vue'
 import Practice from '@/views/Practice.vue'
 import PracticeMode from '@/views/PracticeMode.vue'
 import MyAchievements from '@/views/MyAchievements.vue'
+import ResetPassword from '@/views/ResetPassword.vue'
 import NotFound from '@/views/NotFound.vue'
 import questionIndex from '@/utils/questionIndex.json'
 import { NEW_SITE_URL } from '@/utils/siteMigration'
@@ -100,6 +101,15 @@ const router = createRouter({
             title: 'My Achievements | IELTS Reading Past Papers',
             description: 'View local IELTS Reading study achievements and progress milestones.',
             robots: 'noindex,follow'
+          }
+        },
+        {
+          path: 'reset-password',
+          component: ResetPassword,
+          meta: {
+            title: 'Reset Password | IELTS Reading Past Papers',
+            description: 'Set a new password for your IELTS Reading Past Papers account.',
+            robots: 'noindex,nofollow'
           }
         },
         {

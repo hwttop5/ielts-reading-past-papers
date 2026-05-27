@@ -1,7 +1,7 @@
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify'
 import { randomBytes } from 'node:crypto'
-import { env } from '../config/env.js'
 import type { SessionClaims, SessionUser } from '../types/auth.js'
+import { getUserById } from './userStore.js'
 
 export const SESSION_COOKIE_NAME = 'ielts_session'
 const SESSION_MAX_AGE_SECONDS = 60 * 60 * 24 * 30
@@ -20,16 +20,29 @@ export function buildSessionCookieOptions() {
   }
 }
 
-export function buildSessionClaims(user: SessionUser): SessionClaims {
+function claimSessionVersion(claims: SessionClaims): number {
+  return typeof claims.ver === 'number' ? claims.ver : 0
+}
+
+function isCurrentSessionVersion(claims: SessionClaims): boolean {
+  const user = getUserById(claims.sub)
+  if (!user) {
+    return false
+  }
+  return claimSessionVersion(claims) === user.sessionVersion
+}
+
+export function buildSessionClaims(user: SessionUser, sessionVersion = 0): SessionClaims {
   return {
     sub: user.id,
     email: user.email,
-    csrf: randomBytes(16).toString('hex')
+    csrf: randomBytes(16).toString('hex'),
+    ver: sessionVersion
   }
 }
 
-export function signSessionToken(app: FastifyInstance, user: SessionUser): { token: string; claims: SessionClaims } {
-  const claims = buildSessionClaims(user)
+export function signSessionToken(app: FastifyInstance, user: SessionUser, sessionVersion = 0): { token: string; claims: SessionClaims } {
+  const claims = buildSessionClaims(user, sessionVersion)
   const token = app.jwt.sign(claims, {
     expiresIn: `${SESSION_MAX_AGE_SECONDS}s`
   })
@@ -50,6 +63,12 @@ export function readSessionClaims(app: FastifyInstance, request: FastifyRequest)
     if (typeof claims.sub !== 'string' || typeof claims.email !== 'string' || typeof claims.csrf !== 'string') {
       return null
     }
+    if (claims.ver !== undefined && typeof claims.ver !== 'number') {
+      return null
+    }
+    if (!isCurrentSessionVersion(claims)) {
+      return null
+    }
     return claims
   } catch {
     return null
@@ -59,6 +78,7 @@ export function readSessionClaims(app: FastifyInstance, request: FastifyRequest)
 export function requireSessionClaims(app: FastifyInstance, request: FastifyRequest, reply: FastifyReply): SessionClaims | null {
   const claims = readSessionClaims(app, request)
   if (!claims) {
+    clearSessionCookie(reply)
     reply.code(401).send({
       error: 'unauthorized',
       message: 'Authentication required.'

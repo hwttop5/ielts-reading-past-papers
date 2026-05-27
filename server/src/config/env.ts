@@ -14,6 +14,32 @@ if (existsSync(envFile)) {
   loadDotenv()
 }
 
+function parseOptionalNumber(val: unknown) {
+  if (val === undefined || val === null || val === '') {
+    return undefined
+  }
+  return Number(val)
+}
+
+function parseBoolean(defaultValue: boolean) {
+  return (val: unknown) => {
+    if (val === undefined || val === null || val === '') {
+      return defaultValue
+    }
+    if (typeof val === 'boolean') {
+      return val
+    }
+    const s = String(val).trim().toLowerCase()
+    if (['true', '1', 'yes', 'on'].includes(s)) {
+      return true
+    }
+    if (['false', '0', 'no', 'off'].includes(s)) {
+      return false
+    }
+    return defaultValue
+  }
+}
+
 const envSchema = z.object({
   LLM_PROVIDER: z.enum(['openrouter', 'coding-plan']).default('openrouter'),
   LLM_API_KEY: z.string().trim().optional(),
@@ -88,20 +114,17 @@ const envSchema = z.object({
   ).default(false),
   SESSION_JWT_SECRET: z.string().trim().optional(),
   SYNC_DATABASE_PATH: z.string().trim().optional(),
+  SMTP_HOST: z.string().trim().optional(),
+  SMTP_PORT: z.preprocess(parseOptionalNumber, z.number().int().positive().optional()),
+  SMTP_SECURE: z.preprocess(parseBoolean(false), z.boolean()).default(false),
+  SMTP_USER: z.string().trim().optional(),
+  SMTP_PASS: z.string().optional(),
+  SMTP_FROM: z.string().trim().optional(),
+  PASSWORD_RESET_URL_BASE: z.string().trim().optional(),
+  PASSWORD_RESET_TOKEN_TTL_MINUTES: z.coerce.number().int().positive().default(30),
+  PASSWORD_RESET_COOLDOWN_MINUTES: z.coerce.number().int().positive().default(5),
   /** Stream response mode */
-  ASSISTANT_STREAM_ENABLED: z.preprocess(
-    (val) => {
-      if (val === undefined || val === null || val === '') {
-        return false
-      }
-      if (typeof val === 'boolean') {
-        return val
-      }
-      const s = String(val).trim().toLowerCase()
-      return ['true', '1', 'yes', 'on'].includes(s)
-    },
-    z.boolean()
-  ).default(false)
+  ASSISTANT_STREAM_ENABLED: z.preprocess(parseBoolean(false), z.boolean()).default(false)
 })
 
 const parsedEnv = envSchema.parse(process.env)
@@ -126,6 +149,11 @@ function getDefaultLlmChatModel(provider: typeof parsedEnv.LLM_PROVIDER) {
 
 const defaultSyncDatabasePath =
   parsedEnv.SYNC_DATABASE_PATH?.trim() || resolve(serverRoot, 'data', 'ielts-sync.sqlite')
+
+const defaultPasswordResetUrlBase =
+  parsedEnv.PASSWORD_RESET_URL_BASE?.trim() ||
+  parsedEnv.FRONTEND_ORIGIN.split(',').map((value) => value.trim()).filter(Boolean)[0] ||
+  'http://localhost:5175'
 
 function getSessionSecretPath() {
   return resolve(defaultSyncDatabasePath, '..', 'session-secret')
@@ -159,7 +187,8 @@ export const env = {
     (process.env.NODE_ENV === 'production'
       ? getOrCreateGeneratedSessionSecret()
       : 'ielts-reading-past-papers-dev-session-secret'),
-  SYNC_DATABASE_PATH: defaultSyncDatabasePath
+  SYNC_DATABASE_PATH: defaultSyncDatabasePath,
+  PASSWORD_RESET_URL_BASE: defaultPasswordResetUrlBase
 }
 
 export function hasAssistantLlmConfig() {

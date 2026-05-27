@@ -31,6 +31,9 @@ docker compose up -d web
 编辑 `deploy/.env`，至少填写：
 
 - `FRONTEND_ORIGIN`
+- `SMTP_HOST`
+- `SMTP_PORT`
+- `SMTP_FROM`
 - `LLM_API_KEY`
 - `EMBEDDING_BASE_URL`
 - `EMBEDDING_API_KEY`
@@ -39,6 +42,8 @@ docker compose up -d web
 说明：
 
 - `QDRANT_URL` 不需要手填，`docker-compose.yml` 已固定注入为 `http://qdrant:6333`
+- 忘记密码功能使用 SMTP 发送重置邮件；如果 SMTP 服务需要账号密码，同时填写 `SMTP_USER` 和 `SMTP_PASS`
+- `PASSWORD_RESET_URL_BASE` 默认可以和 `FRONTEND_ORIGIN` 相同，用于生成 `/reset-password?token=...` 邮件链接
 - 若缺少 `EMBEDDING_*` 或兼容的 `OPENAI_*` 配置，服务仍可启动，但不会具备完整 RAG 检索能力
 
 ## 3. 启动主栈

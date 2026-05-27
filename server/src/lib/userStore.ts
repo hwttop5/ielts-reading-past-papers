@@ -12,6 +12,7 @@ export interface DbUserRow {
   email: string
   passwordHash: string
   createdAt: number
+  sessionVersion: number
 }
 
 export interface DbSyncRow {
@@ -21,10 +22,27 @@ export interface DbSyncRow {
   updatedAt: number
 }
 
+export interface DbPasswordResetTokenRow {
+  id: string
+  userId: string
+  tokenHash: string
+  createdAt: number
+  expiresAt: number
+  usedAt: number | null
+}
+
 let db: Database.Database | null = null
 
 function ensureDirectory(filePath: string): void {
   mkdirSync(dirname(filePath), { recursive: true })
+}
+
+function ensureUserSchema(instance: Database.Database): void {
+  const userColumns = instance.prepare('PRAGMA table_info(users)').all() as Array<{ name: string }>
+  const hasSessionVersion = userColumns.some((column) => column.name === 'session_version')
+  if (!hasSessionVersion) {
+    instance.exec('ALTER TABLE users ADD COLUMN session_version INTEGER NOT NULL DEFAULT 0')
+  }
 }
 
 function createDatabase(): Database.Database {
@@ -37,7 +55,8 @@ function createDatabase(): Database.Database {
       id TEXT PRIMARY KEY,
       email TEXT NOT NULL UNIQUE COLLATE NOCASE,
       password_hash TEXT NOT NULL,
-      created_at INTEGER NOT NULL
+      created_at INTEGER NOT NULL,
+      session_version INTEGER NOT NULL DEFAULT 0
     );
 
     CREATE TABLE IF NOT EXISTS sync_state (
@@ -46,7 +65,20 @@ function createDatabase(): Database.Database {
       snapshot_json TEXT NOT NULL,
       updated_at INTEGER NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS password_reset_tokens (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      token_hash TEXT NOT NULL UNIQUE,
+      created_at INTEGER NOT NULL,
+      expires_at INTEGER NOT NULL,
+      used_at INTEGER
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_password_reset_tokens_user_created
+      ON password_reset_tokens(user_id, created_at DESC);
   `)
+  ensureUserSchema(instance)
   return instance
 }
 
@@ -101,9 +133,9 @@ export function createUser(email: string, passwordHash: string): SessionUser {
   const id = randomUUID()
 
   const insertUser = database.prepare(
-    'INSERT INTO users (id, email, password_hash, created_at) VALUES (?, ?, ?, ?)'
+    'INSERT INTO users (id, email, password_hash, created_at, session_version) VALUES (?, ?, ?, ?, ?)'
   )
-  insertUser.run(id, email, passwordHash, now)
+  insertUser.run(id, email, passwordHash, now, 0)
   ensureSyncRow(id, now)
 
   return {
@@ -116,7 +148,7 @@ export function createUser(email: string, passwordHash: string): SessionUser {
 export function getUserByEmail(email: string): DbUserRow | null {
   const database = getDatabase()
   const row = database
-    .prepare('SELECT id, email, password_hash AS passwordHash, created_at AS createdAt FROM users WHERE email = ?')
+    .prepare('SELECT id, email, password_hash AS passwordHash, created_at AS createdAt, session_version AS sessionVersion FROM users WHERE email = ?')
     .get(email) as DbUserRow | undefined
 
   return row ?? null
@@ -125,7 +157,7 @@ export function getUserByEmail(email: string): DbUserRow | null {
 export function getUserById(id: string): DbUserRow | null {
   const database = getDatabase()
   const row = database
-    .prepare('SELECT id, email, password_hash AS passwordHash, created_at AS createdAt FROM users WHERE id = ?')
+    .prepare('SELECT id, email, password_hash AS passwordHash, created_at AS createdAt, session_version AS sessionVersion FROM users WHERE id = ?')
     .get(id) as DbUserRow | undefined
 
   return row ?? null
@@ -185,4 +217,82 @@ export function mergeAndSaveSyncState(
     clientRevision: baseRevision ?? current.revision,
     clientWasStale: baseRevision !== null ? baseRevision !== current.revision : false
   }
+}
+
+export function getRecentPasswordResetToken(userId: string, since: number): DbPasswordResetTokenRow | null {
+  const database = getDatabase()
+  const row = database
+    .prepare(
+      'SELECT id, user_id AS userId, token_hash AS tokenHash, created_at AS createdAt, expires_at AS expiresAt, used_at AS usedAt FROM password_reset_tokens WHERE user_id = ? AND created_at >= ? ORDER BY created_at DESC LIMIT 1'
+    )
+    .get(userId, since) as DbPasswordResetTokenRow | undefined
+
+  return row ?? null
+}
+
+export function createPasswordResetToken(userId: string, tokenHash: string, expiresAt: number, now = Date.now()): DbPasswordResetTokenRow {
+  const database = getDatabase()
+  const id = randomUUID()
+
+  const transaction = database.transaction(() => {
+    database
+      .prepare('UPDATE password_reset_tokens SET used_at = ? WHERE user_id = ? AND used_at IS NULL')
+      .run(now, userId)
+    database
+      .prepare(
+        'INSERT INTO password_reset_tokens (id, user_id, token_hash, created_at, expires_at, used_at) VALUES (?, ?, ?, ?, ?, NULL)'
+      )
+      .run(id, userId, tokenHash, now, expiresAt)
+  })
+  transaction()
+
+  return {
+    id,
+    userId,
+    tokenHash,
+    createdAt: now,
+    expiresAt,
+    usedAt: null
+  }
+}
+
+export function getPasswordResetTokenByHash(tokenHash: string): DbPasswordResetTokenRow | null {
+  const database = getDatabase()
+  const row = database
+    .prepare(
+      'SELECT id, user_id AS userId, token_hash AS tokenHash, created_at AS createdAt, expires_at AS expiresAt, used_at AS usedAt FROM password_reset_tokens WHERE token_hash = ?'
+    )
+    .get(tokenHash) as DbPasswordResetTokenRow | undefined
+
+  return row ?? null
+}
+
+export function markPasswordResetTokenUsed(id: string, now = Date.now()): void {
+  const database = getDatabase()
+  database
+    .prepare('UPDATE password_reset_tokens SET used_at = ? WHERE id = ? AND used_at IS NULL')
+    .run(now, id)
+}
+
+export function resetUserPasswordWithToken(userId: string, tokenId: string, passwordHash: string, now = Date.now()): DbUserRow | null {
+  const database = getDatabase()
+  const transaction = database.transaction(() => {
+    const used = database
+      .prepare('UPDATE password_reset_tokens SET used_at = ? WHERE id = ? AND user_id = ? AND used_at IS NULL')
+      .run(now, tokenId, userId)
+    if (used.changes !== 1) {
+      return null
+    }
+
+    database
+      .prepare('UPDATE password_reset_tokens SET used_at = ? WHERE user_id = ? AND used_at IS NULL')
+      .run(now, userId)
+    database
+      .prepare('UPDATE users SET password_hash = ?, session_version = session_version + 1 WHERE id = ?')
+      .run(passwordHash, userId)
+
+    return getUserById(userId)
+  })
+
+  return transaction()
 }

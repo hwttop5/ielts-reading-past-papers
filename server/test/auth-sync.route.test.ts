@@ -7,15 +7,32 @@ import type { SyncSnapshot } from '../src/types/sync.js'
 
 const ORIGINAL_ENV = { ...process.env }
 const PASSWORD = 'password123'
+const RESET_ENV = {
+  SMTP_HOST: 'smtp.example.test',
+  SMTP_PORT: '587',
+  SMTP_SECURE: 'false',
+  SMTP_FROM: 'IELTS Reading <no-reply@example.test>',
+  PASSWORD_RESET_URL_BASE: 'https://ielts.example.test',
+  PASSWORD_RESET_TOKEN_TTL_MINUTES: '30',
+  PASSWORD_RESET_COOLDOWN_MINUTES: '5'
+}
 
-async function withTestApp<T>(run: (app: FastifyInstance) => Promise<T>): Promise<T> {
+async function withTestApp<T>(run: (app: FastifyInstance) => Promise<T>, envOverrides: Record<string, string> = {}): Promise<T> {
   const dir = mkdtempSync(join(tmpdir(), 'ielts-auth-sync-'))
   process.env = {
     ...ORIGINAL_ENV,
     NODE_ENV: 'test',
     SESSION_JWT_SECRET: 'test-session-secret',
     SYNC_DATABASE_PATH: join(dir, 'sync.sqlite'),
-    FRONTEND_ORIGIN: 'http://localhost:5175'
+    FRONTEND_ORIGIN: 'http://localhost:5175',
+    SMTP_HOST: '',
+    SMTP_PORT: '',
+    SMTP_SECURE: '',
+    SMTP_USER: '',
+    SMTP_PASS: '',
+    SMTP_FROM: '',
+    PASSWORD_RESET_URL_BASE: '',
+    ...envOverrides
   }
   vi.resetModules()
   const { createApp } = await import('../src/app.js')
@@ -212,6 +229,193 @@ describe('auth and sync routes', () => {
       })
       expect(forbiddenPush.statusCode).toBe(403)
     })
+  })
+
+  it('returns the same password reset request result for registered and unknown emails', async () => {
+    await withTestApp(async (app) => {
+      const sent: Array<{ to: string; resetUrl: string; locale: 'zh' | 'en'; expiresInMinutes: number }> = []
+      const { setPasswordResetMailerForTests } = await import('../src/lib/passwordResetMailer.js')
+      setPasswordResetMailerForTests((payload) => {
+        sent.push(payload)
+      })
+
+      await register(app)
+
+      const unknown = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/request',
+        payload: {
+          email: 'missing@example.com',
+          locale: 'en'
+        }
+      })
+      expect(unknown.statusCode).toBe(200)
+      expect(unknown.json()).toEqual({ ok: true })
+      expect(sent).toHaveLength(0)
+
+      const known = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/request',
+        payload: {
+          email: 'USER@example.com',
+          locale: 'en'
+        }
+      })
+      expect(known.statusCode).toBe(200)
+      expect(known.json()).toEqual({ ok: true })
+      expect(sent).toHaveLength(1)
+      expect(sent[0].to).toBe('user@example.com')
+      expect(sent[0].locale).toBe('en')
+
+      const duplicate = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/request',
+        payload: {
+          email: 'user@example.com',
+          locale: 'en'
+        }
+      })
+      expect(duplicate.statusCode).toBe(200)
+      expect(sent).toHaveLength(1)
+    }, RESET_ENV)
+  })
+
+  it('requires SMTP configuration before accepting password reset requests', async () => {
+    await withTestApp(async (app) => {
+      const response = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/request',
+        payload: {
+          email: 'user@example.com'
+        }
+      })
+
+      expect(response.statusCode).toBe(503)
+      expect(response.json().error).toBe('mail_unavailable')
+    })
+  })
+
+  it('resets a password with a one-time hashed token and invalidates old sessions', async () => {
+    await withTestApp(async (app) => {
+      const sent: Array<{ resetUrl: string }> = []
+      const { setPasswordResetMailerForTests } = await import('../src/lib/passwordResetMailer.js')
+      setPasswordResetMailerForTests((payload) => {
+        sent.push(payload)
+      })
+
+      const registered = await register(app)
+      const request = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/request',
+        payload: {
+          email: 'user@example.com'
+        }
+      })
+      expect(request.statusCode).toBe(200)
+      expect(sent).toHaveLength(1)
+
+      const resetUrl = new URL(sent[0].resetUrl)
+      expect(resetUrl.origin).toBe('https://ielts.example.test')
+      expect(resetUrl.pathname).toBe('/reset-password')
+      const rawToken = resetUrl.searchParams.get('token')
+      expect(rawToken).toBeTruthy()
+
+      const { getDatabase } = await import('../src/lib/userStore.js')
+      const tokenRow = getDatabase()
+        .prepare('SELECT token_hash AS tokenHash FROM password_reset_tokens')
+        .get() as { tokenHash: string }
+      expect(tokenRow.tokenHash).toHaveLength(64)
+      expect(tokenRow.tokenHash).not.toBe(rawToken)
+
+      const confirm = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/confirm',
+        payload: {
+          token: rawToken,
+          password: 'new-password-123'
+        }
+      })
+      expect(confirm.statusCode).toBe(200)
+      expect(confirm.json().user.email).toBe('user@example.com')
+
+      const oldSessionSync = await app.inject({
+        method: 'GET',
+        url: '/api/sync/pull',
+        headers: {
+          cookie: registered.cookie
+        }
+      })
+      expect(oldSessionSync.statusCode).toBe(401)
+
+      const oldPassword = await app.inject({
+        method: 'POST',
+        url: '/api/auth/login',
+        payload: {
+          email: 'user@example.com',
+          password: PASSWORD
+        }
+      })
+      expect(oldPassword.statusCode).toBe(401)
+
+      const newPassword = await app.inject({
+        method: 'POST',
+        url: '/api/auth/login',
+        payload: {
+          email: 'user@example.com',
+          password: 'new-password-123'
+        }
+      })
+      expect(newPassword.statusCode).toBe(200)
+
+      const reuse = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/confirm',
+        payload: {
+          token: rawToken,
+          password: 'another-password-123'
+        }
+      })
+      expect(reuse.statusCode).toBe(400)
+      expect(reuse.json().error).toBe('invalid_reset_token')
+    }, RESET_ENV)
+  })
+
+  it('rejects expired password reset tokens', async () => {
+    await withTestApp(async (app) => {
+      const sent: Array<{ resetUrl: string }> = []
+      const { setPasswordResetMailerForTests } = await import('../src/lib/passwordResetMailer.js')
+      setPasswordResetMailerForTests((payload) => {
+        sent.push(payload)
+      })
+
+      await register(app)
+      const request = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/request',
+        payload: {
+          email: 'user@example.com'
+        }
+      })
+      expect(request.statusCode).toBe(200)
+      const rawToken = new URL(sent[0].resetUrl).searchParams.get('token')
+      expect(rawToken).toBeTruthy()
+
+      const { getDatabase } = await import('../src/lib/userStore.js')
+      getDatabase()
+        .prepare('UPDATE password_reset_tokens SET expires_at = ?')
+        .run(Date.now() - 1)
+
+      const confirm = await app.inject({
+        method: 'POST',
+        url: '/api/auth/password-reset/confirm',
+        payload: {
+          token: rawToken,
+          password: 'new-password-123'
+        }
+      })
+      expect(confirm.statusCode).toBe(400)
+      expect(confirm.json().error).toBe('invalid_reset_token')
+    }, RESET_ENV)
   })
 
   it('merges first-login visitor data into the account snapshot', async () => {

@@ -1,9 +1,17 @@
 import { defineStore } from 'pinia'
-import { getCurrentSession, loginAccount, logoutAccount, registerAccount } from '@/api/authSync'
-import type { LoginRequest, SessionUser } from '@/types/auth'
+import {
+  confirmPasswordReset,
+  getCurrentSession,
+  loginAccount,
+  logoutAccount,
+  registerAccount,
+  requestPasswordReset
+} from '@/api/authSync'
+import type { LoginRequest, PasswordResetConfirmRequest, PasswordResetRequest, SessionUser } from '@/types/auth'
 import { AUTH_SESSION_CHANGED, eventBus } from '@/utils/eventBus'
 
 export type AuthStatus = 'idle' | 'loading' | 'guest' | 'authenticated' | 'error'
+type AuthSessionChangeSource = 'bootstrap' | 'login' | 'register' | 'logout' | 'password-reset'
 
 export interface AuthSessionState {
   user: SessionUser | null
@@ -29,7 +37,7 @@ export const useAuthStore = defineStore('auth', {
   },
 
   actions: {
-    emitSessionChanged(source: 'bootstrap' | 'login' | 'register' | 'logout') {
+    emitSessionChanged(source: AuthSessionChangeSource) {
       eventBus.emit(AUTH_SESSION_CHANGED, {
         source,
         user: this.user,
@@ -37,7 +45,7 @@ export const useAuthStore = defineStore('auth', {
       })
     },
 
-    setSession(user: SessionUser | null, csrfToken: string | null, source: 'bootstrap' | 'login' | 'register' | 'logout') {
+    setSession(user: SessionUser | null, csrfToken: string | null, source: AuthSessionChangeSource) {
       this.user = user
       this.csrfToken = csrfToken
       this.status = user ? 'authenticated' : 'guest'
@@ -83,6 +91,30 @@ export const useAuthStore = defineStore('auth', {
       } catch (error) {
         this.status = 'guest'
         this.error = error instanceof Error ? error.message : 'Login failed.'
+        throw error
+      }
+    },
+
+    async requestPasswordReset(payload: PasswordResetRequest) {
+      this.error = ''
+      try {
+        return await requestPasswordReset(payload)
+      } catch (error) {
+        this.error = error instanceof Error ? error.message : 'Password reset request failed.'
+        throw error
+      }
+    },
+
+    async confirmPasswordReset(payload: PasswordResetConfirmRequest) {
+      this.status = 'loading'
+      this.error = ''
+      try {
+        const response = await confirmPasswordReset(payload)
+        this.setSession(response.user, response.csrfToken, 'password-reset')
+        return response
+      } catch (error) {
+        this.status = 'guest'
+        this.error = error instanceof Error ? error.message : 'Password reset failed.'
         throw error
       }
     },

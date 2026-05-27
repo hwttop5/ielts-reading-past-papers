@@ -15,6 +15,7 @@ export interface SessionClaims {
   sub: string
   email: string
   csrf: string
+  ver?: number
 }
 
 export interface AuthSessionResponse {
@@ -28,5 +29,19 @@ export interface CurrentSessionResponse {
 }
 
 export interface LogoutResponse {
+  ok: true
+}
+
+export interface PasswordResetRequest {
+  email: string
+  locale?: 'zh' | 'en'
+}
+
+export interface PasswordResetConfirmRequest {
+  token: string
+  password: string
+}
+
+export interface PasswordResetRequestResponse {
   ok: true
 }
