@@ -1381,7 +1381,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A disruptive and unpredictable",
                   "attrs": {
                     "id": "word-A",
@@ -1396,7 +1396,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B everyday",
                   "attrs": {
                     "id": "word-B",
@@ -1411,7 +1411,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C loveable",
                   "attrs": {
                     "id": "word-C",
@@ -1426,7 +1426,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D controversial",
                   "attrs": {
                     "id": "word-D",
@@ -1441,7 +1441,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E exotic and ordinary",
                   "attrs": {
                     "id": "word-E",
@@ -1456,7 +1456,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F isolated",
                   "attrs": {
                     "id": "word-F",
@@ -1471,7 +1471,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G unconfident",
                   "attrs": {
                     "id": "word-G",
@@ -1486,7 +1486,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H unsurprising but satisfying",
                   "attrs": {
                     "id": "word-H",
@@ -1501,7 +1501,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "I",
                   "label": "I magical",
                   "attrs": {
                     "id": "word-I",
@@ -2765,47 +2765,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A disruptive and unpredictable"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B everyday"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C loveable"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D controversial"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E exotic and ordinary"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F isolated"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G unconfident"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H unsurprising but satisfying"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "I",
       "label": "I magical"
     }
   ],

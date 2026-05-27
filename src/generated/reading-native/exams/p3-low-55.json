@@ -1286,7 +1286,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "A consumers",
+                      "value": "consumers",
                       "label": "A consumers",
                       "attrs": {
                         "class": "drag-item",
@@ -1300,7 +1300,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "B design engineers",
+                      "value": "design engineers",
                       "label": "B design engineers",
                       "attrs": {
                         "class": "drag-item",
@@ -1314,7 +1314,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "C external design team",
+                      "value": "external design team",
                       "label": "C external design team",
                       "attrs": {
                         "class": "drag-item",
@@ -1328,7 +1328,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "D in-house design team",
+                      "value": "in-house design team",
                       "label": "D in-house design team",
                       "attrs": {
                         "class": "drag-item",
@@ -1342,7 +1342,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "E marketing team",
+                      "value": "marketing team",
                       "label": "E marketing team",
                       "attrs": {
                         "class": "drag-item",
@@ -1356,7 +1356,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "F pharmaceutical industry",
+                      "value": "pharmaceutical industry",
                       "label": "F pharmaceutical industry",
                       "attrs": {
                         "class": "drag-item",
@@ -1370,7 +1370,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "practice-pool-2",
-                      "value": "G pharmacists",
+                      "value": "pharmacists",
                       "label": "G pharmacists",
                       "attrs": {
                         "class": "drag-item",
@@ -2152,37 +2152,37 @@
     },
     {
       "poolId": "practice-pool-2",
-      "value": "A consumers",
+      "value": "consumers",
       "label": "A consumers"
     },
     {
       "poolId": "practice-pool-2",
-      "value": "B design engineers",
+      "value": "design engineers",
       "label": "B design engineers"
     },
     {
       "poolId": "practice-pool-2",
-      "value": "C external design team",
+      "value": "external design team",
       "label": "C external design team"
     },
     {
       "poolId": "practice-pool-2",
-      "value": "D in-house design team",
+      "value": "in-house design team",
       "label": "D in-house design team"
     },
     {
       "poolId": "practice-pool-2",
-      "value": "E marketing team",
+      "value": "marketing team",
       "label": "E marketing team"
     },
     {
       "poolId": "practice-pool-2",
-      "value": "F pharmaceutical industry",
+      "value": "pharmaceutical industry",
       "label": "F pharmaceutical industry"
     },
     {
       "poolId": "practice-pool-2",
-      "value": "G pharmacists",
+      "value": "pharmacists",
       "label": "G pharmacists"
     }
   ],

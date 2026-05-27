@@ -1317,7 +1317,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A teachers",
                   "attrs": {
                     "id": "word-A",
@@ -1332,7 +1332,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B school",
                   "attrs": {
                     "id": "word-B",
@@ -1347,7 +1347,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C dislocation",
                   "attrs": {
                     "id": "word-C",
@@ -1362,7 +1362,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D rate",
                   "attrs": {
                     "id": "word-D",
@@ -1377,7 +1377,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E time",
                   "attrs": {
                     "id": "word-E",
@@ -1392,7 +1392,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F family",
                   "attrs": {
                     "id": "word-F",
@@ -1407,7 +1407,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G communication",
                   "attrs": {
                     "id": "word-G",
@@ -1422,7 +1422,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H type",
                   "attrs": {
                     "id": "word-H",
@@ -1437,7 +1437,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "I",
                   "label": "I ability",
                   "attrs": {
                     "id": "word-I",
@@ -1452,7 +1452,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-J",
+                  "value": "J",
                   "label": "J area",
                   "attrs": {
                     "id": "word-J",
@@ -2539,52 +2539,52 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A teachers"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B school"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C dislocation"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D rate"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E time"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F family"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G communication"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H type"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "I",
       "label": "I ability"
     },
     {
       "poolId": "word-options",
-      "value": "word-J",
+      "value": "J",
       "label": "J area"
     }
   ],

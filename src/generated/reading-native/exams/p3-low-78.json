@@ -2379,7 +2379,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A nutrition",
+                  "value": "A",
                   "label": "A nutrition",
                   "attrs": {
                     "class": "draggable-word",
@@ -2393,7 +2393,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B range",
+                  "value": "B",
                   "label": "B range",
                   "attrs": {
                     "class": "draggable-word",
@@ -2407,7 +2407,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C progress",
+                  "value": "C",
                   "label": "C progress",
                   "attrs": {
                     "class": "draggable-word",
@@ -2421,7 +2421,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D dislike",
+                  "value": "D",
                   "label": "D dislike",
                   "attrs": {
                     "class": "draggable-word",
@@ -2435,7 +2435,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E incentive",
+                  "value": "E",
                   "label": "E incentive",
                   "attrs": {
                     "class": "draggable-word",
@@ -2449,7 +2449,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F increase",
+                  "value": "F",
                   "label": "F increase",
                   "attrs": {
                     "class": "draggable-word",
@@ -2463,7 +2463,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G independence",
+                  "value": "G",
                   "label": "G independence",
                   "attrs": {
                     "class": "draggable-word",
@@ -2477,7 +2477,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H production",
+                  "value": "H",
                   "label": "H production",
                   "attrs": {
                     "class": "draggable-word",
@@ -2491,7 +2491,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I insistence",
+                  "value": "I",
                   "label": "I insistence",
                   "attrs": {
                     "class": "draggable-word",
@@ -2624,47 +2624,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A nutrition",
+      "value": "A",
       "label": "A nutrition"
     },
     {
       "poolId": "word-options",
-      "value": "B range",
+      "value": "B",
       "label": "B range"
     },
     {
       "poolId": "word-options",
-      "value": "C progress",
+      "value": "C",
       "label": "C progress"
     },
     {
       "poolId": "word-options",
-      "value": "D dislike",
+      "value": "D",
       "label": "D dislike"
     },
     {
       "poolId": "word-options",
-      "value": "E incentive",
+      "value": "E",
       "label": "E incentive"
     },
     {
       "poolId": "word-options",
-      "value": "F increase",
+      "value": "F",
       "label": "F increase"
     },
     {
       "poolId": "word-options",
-      "value": "G independence",
+      "value": "G",
       "label": "G independence"
     },
     {
       "poolId": "word-options",
-      "value": "H production",
+      "value": "H",
       "label": "H production"
     },
     {
       "poolId": "word-options",
-      "value": "I insistence",
+      "value": "I",
       "label": "I insistence"
     }
   ],

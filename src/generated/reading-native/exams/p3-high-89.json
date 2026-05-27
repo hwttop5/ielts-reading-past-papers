@@ -2603,7 +2603,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A emperors",
+                  "value": "A",
                   "label": "A emperors",
                   "attrs": {
                     "class": "draggable-word",
@@ -2617,7 +2617,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B setting",
+                  "value": "B",
                   "label": "B setting",
                   "attrs": {
                     "class": "draggable-word",
@@ -2631,7 +2631,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C values",
+                  "value": "C",
                   "label": "C values",
                   "attrs": {
                     "class": "draggable-word",
@@ -2645,7 +2645,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D peasants",
+                  "value": "D",
                   "label": "D peasants",
                   "attrs": {
                     "class": "draggable-word",
@@ -2659,7 +2659,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E city-dwellers",
+                  "value": "E",
                   "label": "E city-dwellers",
                   "attrs": {
                     "class": "draggable-word",
@@ -2673,7 +2673,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F social classes",
+                  "value": "F",
                   "label": "F social classes",
                   "attrs": {
                     "class": "draggable-word",
@@ -2687,7 +2687,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G myths",
+                  "value": "G",
                   "label": "G myths",
                   "attrs": {
                     "class": "draggable-word",
@@ -2701,7 +2701,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H period",
+                  "value": "H",
                   "label": "H period",
                   "attrs": {
                     "class": "draggable-word",
@@ -2715,7 +2715,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I investigation",
+                  "value": "I",
                   "label": "I investigation",
                   "attrs": {
                     "class": "draggable-word",
@@ -2843,47 +2843,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A emperors",
+      "value": "A",
       "label": "A emperors"
     },
     {
       "poolId": "word-options",
-      "value": "B setting",
+      "value": "B",
       "label": "B setting"
     },
     {
       "poolId": "word-options",
-      "value": "C values",
+      "value": "C",
       "label": "C values"
     },
     {
       "poolId": "word-options",
-      "value": "D peasants",
+      "value": "D",
       "label": "D peasants"
     },
     {
       "poolId": "word-options",
-      "value": "E city-dwellers",
+      "value": "E",
       "label": "E city-dwellers"
     },
     {
       "poolId": "word-options",
-      "value": "F social classes",
+      "value": "F",
       "label": "F social classes"
     },
     {
       "poolId": "word-options",
-      "value": "G myths",
+      "value": "G",
       "label": "G myths"
     },
     {
       "poolId": "word-options",
-      "value": "H period",
+      "value": "H",
       "label": "H period"
     },
     {
       "poolId": "word-options",
-      "value": "I investigation",
+      "value": "I",
       "label": "I investigation"
     }
   ],

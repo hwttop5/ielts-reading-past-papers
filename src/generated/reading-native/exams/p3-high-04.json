@@ -713,7 +713,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A form and function",
+                  "value": "A",
                   "label": "A form and function",
                   "attrs": {
                     "class": "draggable-word",
@@ -727,7 +727,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B long yawns",
+                  "value": "B",
                   "label": "B long yawns",
                   "attrs": {
                     "class": "draggable-word",
@@ -741,7 +741,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C 3 seconds",
+                  "value": "C",
                   "label": "C 3 seconds",
                   "attrs": {
                     "class": "draggable-word",
@@ -755,7 +755,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D fixed-action pattern",
+                  "value": "D",
                   "label": "D fixed-action pattern",
                   "attrs": {
                     "class": "draggable-word",
@@ -769,7 +769,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E 68 seconds",
+                  "value": "E",
                   "label": "E 68 seconds",
                   "attrs": {
                     "class": "draggable-word",
@@ -783,7 +783,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F short yawns",
+                  "value": "F",
                   "label": "F short yawns",
                   "attrs": {
                     "class": "draggable-word",
@@ -797,7 +797,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G reflex",
+                  "value": "G",
                   "label": "G reflex",
                   "attrs": {
                     "class": "draggable-word",
@@ -811,7 +811,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H sneeze",
+                  "value": "H",
                   "label": "H sneeze",
                   "attrs": {
                     "class": "draggable-word",
@@ -825,7 +825,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I short duration",
+                  "value": "I",
                   "label": "I short duration",
                   "attrs": {
                     "class": "draggable-word",
@@ -839,7 +839,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "J 6 seconds",
+                  "value": "J",
                   "label": "J 6 seconds",
                   "attrs": {
                     "class": "draggable-word",
@@ -853,7 +853,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "K half-yawns",
+                  "value": "K",
                   "label": "K half-yawns",
                   "attrs": {
                     "class": "draggable-word",
@@ -2645,57 +2645,57 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A form and function",
+      "value": "A",
       "label": "A form and function"
     },
     {
       "poolId": "word-options",
-      "value": "B long yawns",
+      "value": "B",
       "label": "B long yawns"
     },
     {
       "poolId": "word-options",
-      "value": "C 3 seconds",
+      "value": "C",
       "label": "C 3 seconds"
     },
     {
       "poolId": "word-options",
-      "value": "D fixed-action pattern",
+      "value": "D",
       "label": "D fixed-action pattern"
     },
     {
       "poolId": "word-options",
-      "value": "E 68 seconds",
+      "value": "E",
       "label": "E 68 seconds"
     },
     {
       "poolId": "word-options",
-      "value": "F short yawns",
+      "value": "F",
       "label": "F short yawns"
     },
     {
       "poolId": "word-options",
-      "value": "G reflex",
+      "value": "G",
       "label": "G reflex"
     },
     {
       "poolId": "word-options",
-      "value": "H sneeze",
+      "value": "H",
       "label": "H sneeze"
     },
     {
       "poolId": "word-options",
-      "value": "I short duration",
+      "value": "I",
       "label": "I short duration"
     },
     {
       "poolId": "word-options",
-      "value": "J 6 seconds",
+      "value": "J",
       "label": "J 6 seconds"
     },
     {
       "poolId": "word-options",
-      "value": "K half-yawns",
+      "value": "K",
       "label": "K half-yawns"
     }
   ],

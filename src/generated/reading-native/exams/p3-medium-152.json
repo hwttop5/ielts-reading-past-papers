@@ -2243,7 +2243,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A business leaders",
                   "attrs": {
                     "id": "word-A",
@@ -2258,7 +2258,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B MBA graduates",
                   "attrs": {
                     "id": "word-B",
@@ -2273,7 +2273,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C promotion structures",
                   "attrs": {
                     "id": "word-C",
@@ -2288,7 +2288,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D reward strategy",
                   "attrs": {
                     "id": "word-D",
@@ -2303,7 +2303,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E magic formula",
                   "attrs": {
                     "id": "word-E",
@@ -2318,7 +2318,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F strategic planning",
                   "attrs": {
                     "id": "word-F",
@@ -2333,7 +2333,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G back-to-front thinking",
                   "attrs": {
                     "id": "word-G",
@@ -2348,7 +2348,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H business environments",
                   "attrs": {
                     "id": "word-H",
@@ -2363,7 +2363,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "I",
                   "label": "I human nature",
                   "attrs": {
                     "id": "word-I",
@@ -2497,47 +2497,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A business leaders"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B MBA graduates"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C promotion structures"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D reward strategy"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E magic formula"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F strategic planning"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G back-to-front thinking"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H business environments"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "I",
       "label": "I human nature"
     }
   ],

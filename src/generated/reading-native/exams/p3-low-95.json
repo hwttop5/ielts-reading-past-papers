@@ -2449,7 +2449,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A back",
+                  "value": "A",
                   "label": "A back",
                   "attrs": {
                     "class": "draggable-word",
@@ -2463,7 +2463,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B brain",
+                  "value": "B",
                   "label": "B brain",
                   "attrs": {
                     "class": "draggable-word",
@@ -2477,7 +2477,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C view",
+                  "value": "C",
                   "label": "C view",
                   "attrs": {
                     "class": "draggable-word",
@@ -2491,7 +2491,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D round",
+                  "value": "D",
                   "label": "D round",
                   "attrs": {
                     "class": "draggable-word",
@@ -2505,7 +2505,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E sight",
+                  "value": "E",
                   "label": "E sight",
                   "attrs": {
                     "class": "draggable-word",
@@ -2519,7 +2519,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F nose",
+                  "value": "F",
                   "label": "F nose",
                   "attrs": {
                     "class": "draggable-word",
@@ -2533,7 +2533,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G convex",
+                  "value": "G",
                   "label": "G convex",
                   "attrs": {
                     "class": "draggable-word",
@@ -2547,7 +2547,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H hollow",
+                  "value": "H",
                   "label": "H hollow",
                   "attrs": {
                     "class": "draggable-word",
@@ -2561,7 +2561,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I drawing",
+                  "value": "I",
                   "label": "I drawing",
                   "attrs": {
                     "class": "draggable-word",
@@ -2575,7 +2575,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "J preconception",
+                  "value": "J",
                   "label": "J preconception",
                   "attrs": {
                     "class": "draggable-word",
@@ -2673,52 +2673,52 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A back",
+      "value": "A",
       "label": "A back"
     },
     {
       "poolId": "word-options",
-      "value": "B brain",
+      "value": "B",
       "label": "B brain"
     },
     {
       "poolId": "word-options",
-      "value": "C view",
+      "value": "C",
       "label": "C view"
     },
     {
       "poolId": "word-options",
-      "value": "D round",
+      "value": "D",
       "label": "D round"
     },
     {
       "poolId": "word-options",
-      "value": "E sight",
+      "value": "E",
       "label": "E sight"
     },
     {
       "poolId": "word-options",
-      "value": "F nose",
+      "value": "F",
       "label": "F nose"
     },
     {
       "poolId": "word-options",
-      "value": "G convex",
+      "value": "G",
       "label": "G convex"
     },
     {
       "poolId": "word-options",
-      "value": "H hollow",
+      "value": "H",
       "label": "H hollow"
     },
     {
       "poolId": "word-options",
-      "value": "I drawing",
+      "value": "I",
       "label": "I drawing"
     },
     {
       "poolId": "word-options",
-      "value": "J preconception",
+      "value": "J",
       "label": "J preconception"
     }
   ],

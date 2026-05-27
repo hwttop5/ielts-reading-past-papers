@@ -75,7 +75,7 @@ export function useReadingPracticeSession(options: SessionOptions) {
       return {}
     }
     return exam.value.options.reduce<Record<string, string[]>>((accumulator, option) => {
-      accumulator[option.poolId] = getUsedOptionValuesForPool(draftState.value, option.poolId)
+      accumulator[option.poolId] = getUsedOptionValuesForPool(draftState.value, option.poolId, exam.value || undefined)
       return accumulator
     }, {})
   })

@@ -1608,7 +1608,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-A",
+                      "value": "A",
                       "label": "A America",
                       "attrs": {
                         "class": "drag-item",
@@ -1623,7 +1623,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-B",
+                      "value": "B",
                       "label": "B Philippines",
                       "attrs": {
                         "class": "drag-item",
@@ -1638,7 +1638,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-C",
+                      "value": "C",
                       "label": "C Australia",
                       "attrs": {
                         "class": "drag-item",
@@ -1653,7 +1653,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-D",
+                      "value": "D",
                       "label": "D Bahrain",
                       "attrs": {
                         "class": "drag-item",
@@ -1668,7 +1668,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-E",
+                      "value": "E",
                       "label": "E China",
                       "attrs": {
                         "class": "drag-item",
@@ -1683,7 +1683,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-F",
+                      "value": "F",
                       "label": "F Japan",
                       "attrs": {
                         "class": "drag-item",
@@ -1698,7 +1698,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-G",
+                      "value": "G",
                       "label": "G India",
                       "attrs": {
                         "class": "drag-item",
@@ -1713,7 +1713,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-H",
+                      "value": "H",
                       "label": "H Egypt",
                       "attrs": {
                         "class": "drag-item",
@@ -1728,7 +1728,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-I",
+                      "value": "I",
                       "label": "I Myanmar",
                       "attrs": {
                         "class": "drag-item",
@@ -1743,7 +1743,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-J",
+                      "value": "J",
                       "label": "J Persia",
                       "attrs": {
                         "class": "drag-item",
@@ -1758,7 +1758,7 @@
                     {
                       "type": "optionChip",
                       "poolId": "word-pool",
-                      "value": "word-K",
+                      "value": "K",
                       "label": "K Mallorca",
                       "attrs": {
                         "class": "drag-item",
@@ -2431,57 +2431,57 @@
   "options": [
     {
       "poolId": "word-pool",
-      "value": "word-A",
+      "value": "A",
       "label": "A America"
     },
     {
       "poolId": "word-pool",
-      "value": "word-B",
+      "value": "B",
       "label": "B Philippines"
     },
     {
       "poolId": "word-pool",
-      "value": "word-C",
+      "value": "C",
       "label": "C Australia"
     },
     {
       "poolId": "word-pool",
-      "value": "word-D",
+      "value": "D",
       "label": "D Bahrain"
     },
     {
       "poolId": "word-pool",
-      "value": "word-E",
+      "value": "E",
       "label": "E China"
     },
     {
       "poolId": "word-pool",
-      "value": "word-F",
+      "value": "F",
       "label": "F Japan"
     },
     {
       "poolId": "word-pool",
-      "value": "word-G",
+      "value": "G",
       "label": "G India"
     },
     {
       "poolId": "word-pool",
-      "value": "word-H",
+      "value": "H",
       "label": "H Egypt"
     },
     {
       "poolId": "word-pool",
-      "value": "word-I",
+      "value": "I",
       "label": "I Myanmar"
     },
     {
       "poolId": "word-pool",
-      "value": "word-J",
+      "value": "J",
       "label": "J Persia"
     },
     {
       "poolId": "word-pool",
-      "value": "word-K",
+      "value": "K",
       "label": "K Mallorca"
     }
   ],

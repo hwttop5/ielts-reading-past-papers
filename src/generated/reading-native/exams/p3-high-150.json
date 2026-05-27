@@ -558,7 +558,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A facial expressions",
                   "attrs": {
                     "id": "word-A",
@@ -573,7 +573,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B purposes",
                   "attrs": {
                     "id": "word-B",
@@ -588,7 +588,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C printed words",
                   "attrs": {
                     "id": "word-C",
@@ -603,7 +603,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D effects",
                   "attrs": {
                     "id": "word-D",
@@ -618,7 +618,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E word meanings",
                   "attrs": {
                     "id": "word-E",
@@ -633,7 +633,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F gender differences",
                   "attrs": {
                     "id": "word-F",
@@ -648,7 +648,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G feelings",
                   "attrs": {
                     "id": "word-G",
@@ -663,7 +663,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H characteristics",
                   "attrs": {
                     "id": "word-H",
@@ -2770,42 +2770,42 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A facial expressions"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B purposes"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C printed words"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D effects"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E word meanings"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F gender differences"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G feelings"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H characteristics"
     }
   ],

@@ -1456,7 +1456,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A more",
                   "attrs": {
                     "id": "word-A",
@@ -1471,7 +1471,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B counterintuitive",
                   "attrs": {
                     "id": "word-B",
@@ -1486,7 +1486,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C simple",
                   "attrs": {
                     "id": "word-C",
@@ -1501,7 +1501,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D better",
                   "attrs": {
                     "id": "word-D",
@@ -1516,7 +1516,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E conscious",
                   "attrs": {
                     "id": "word-E",
@@ -1531,7 +1531,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F obvious",
                   "attrs": {
                     "id": "word-F",
@@ -1546,7 +1546,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G complex",
                   "attrs": {
                     "id": "word-G",
@@ -1561,7 +1561,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H less",
                   "attrs": {
                     "id": "word-H",
@@ -1576,7 +1576,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "I",
                   "label": "I worse",
                   "attrs": {
                     "id": "word-I",
@@ -2658,47 +2658,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A more"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B counterintuitive"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C simple"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D better"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E conscious"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F obvious"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G complex"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H less"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "I",
       "label": "I worse"
     }
   ],

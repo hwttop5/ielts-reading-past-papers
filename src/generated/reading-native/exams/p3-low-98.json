@@ -1369,7 +1369,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A rich landowners",
+                  "value": "A",
                   "label": "A rich landowners",
                   "attrs": {
                     "class": "draggable-word",
@@ -1383,7 +1383,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B injuries",
+                  "value": "B",
                   "label": "B injuries",
                   "attrs": {
                     "class": "draggable-word",
@@ -1397,7 +1397,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C food",
+                  "value": "C",
                   "label": "C food",
                   "attrs": {
                     "class": "draggable-word",
@@ -1411,7 +1411,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D accidental falls",
+                  "value": "D",
                   "label": "D accidental falls",
                   "attrs": {
                     "class": "draggable-word",
@@ -1425,7 +1425,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E environment",
+                  "value": "E",
                   "label": "E environment",
                   "attrs": {
                     "class": "draggable-word",
@@ -1439,7 +1439,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F dangerous area",
+                  "value": "F",
                   "label": "F dangerous area",
                   "attrs": {
                     "class": "draggable-word",
@@ -1453,7 +1453,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G use of irrigation",
+                  "value": "G",
                   "label": "G use of irrigation",
                   "attrs": {
                     "class": "draggable-word",
@@ -1467,7 +1467,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H unpleasant smells",
+                  "value": "H",
                   "label": "H unpleasant smells",
                   "attrs": {
                     "class": "draggable-word",
@@ -1481,7 +1481,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I treatment",
+                  "value": "I",
                   "label": "I treatment",
                   "attrs": {
                     "class": "draggable-word",
@@ -1495,7 +1495,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "J diseases",
+                  "value": "J",
                   "label": "J diseases",
                   "attrs": {
                     "class": "draggable-word",
@@ -2503,52 +2503,52 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A rich landowners",
+      "value": "A",
       "label": "A rich landowners"
     },
     {
       "poolId": "word-options",
-      "value": "B injuries",
+      "value": "B",
       "label": "B injuries"
     },
     {
       "poolId": "word-options",
-      "value": "C food",
+      "value": "C",
       "label": "C food"
     },
     {
       "poolId": "word-options",
-      "value": "D accidental falls",
+      "value": "D",
       "label": "D accidental falls"
     },
     {
       "poolId": "word-options",
-      "value": "E environment",
+      "value": "E",
       "label": "E environment"
     },
     {
       "poolId": "word-options",
-      "value": "F dangerous area",
+      "value": "F",
       "label": "F dangerous area"
     },
     {
       "poolId": "word-options",
-      "value": "G use of irrigation",
+      "value": "G",
       "label": "G use of irrigation"
     },
     {
       "poolId": "word-options",
-      "value": "H unpleasant smells",
+      "value": "H",
       "label": "H unpleasant smells"
     },
     {
       "poolId": "word-options",
-      "value": "I treatment",
+      "value": "I",
       "label": "I treatment"
     },
     {
       "poolId": "word-options",
-      "value": "J diseases",
+      "value": "J",
       "label": "J diseases"
     }
   ],

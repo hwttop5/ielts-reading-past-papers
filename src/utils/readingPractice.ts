@@ -197,6 +197,33 @@ export function compareAnswers(userAnswer: unknown, correctAnswer: unknown): boo
   return tokenEquivalent(actualTokens[0], expectedTokens[0])
 }
 
+export function normalizeDropzoneAnswerValue(
+  exam: ReadingExamDocument,
+  value: unknown,
+  poolId = ''
+): string {
+  const raw = String(value ?? '').replace(/\s+/g, ' ').trim()
+  const normalized = canonicalizeAnswerToken(value)
+  const candidateOptions = (exam.options || []).filter((option) => !poolId || option.poolId === poolId)
+  const labelMatchedOption = candidateOptions.find((option) => String(option.label || '').replace(/\s+/g, ' ').trim() === raw)
+  if (labelMatchedOption) {
+    return canonicalizeAnswerToken(labelMatchedOption.value)
+  }
+
+  const legacyWordMatch = String(value ?? '').trim().match(/^word-([A-Za-z0-9]+)$/i)
+  if (!legacyWordMatch) {
+    return normalized
+  }
+
+  const legacyKey = legacyWordMatch[1].toLowerCase()
+  const matchedOption = candidateOptions.find((option) => {
+    const labelPrefix = String(option.label || '').trim().match(/^([A-Za-z0-9]+)(?:[.)])?\b/)
+    return Boolean(labelPrefix && labelPrefix[1].toLowerCase() === legacyKey)
+  })
+
+  return matchedOption ? canonicalizeAnswerToken(matchedOption.value) : canonicalizeAnswerToken(legacyWordMatch[1])
+}
+
 export function questionWeight(correctAnswer: string | string[]): number {
   const normalized = splitAnswerTokens(correctAnswer)
   return normalized.length > 0 ? normalized.length : 1
@@ -257,9 +284,10 @@ export function collectAnswers(
       return
     }
 
-    const dropzoneValue = draftState.dropzoneAnswers[questionId]?.value || ''
+    const dropzoneEntry = draftState.dropzoneAnswers[questionId]
+    const dropzoneValue = dropzoneEntry?.value || ''
     if (dropzoneValue) {
-      answers[questionId] = canonicalizeAnswerToken(dropzoneValue)
+      answers[questionId] = normalizeDropzoneAnswerValue(exam, dropzoneValue, dropzoneEntry?.poolId)
       return
     }
 
@@ -473,13 +501,13 @@ export function hydrateDraftState(
 
   exam.fields.dropzoneQuestions.forEach((questionId) => {
     const answer = answers[questionId]
-    const token = splitAnswerTokens(answer)[0] || ''
+    const token = normalizeDropzoneAnswerValue(exam, splitAnswerTokens(answer)[0] || '')
     if (!token) {
       return
     }
     const matchedOption = exam.options.find((option) => compareAnswers(option.value, token))
     state.dropzoneAnswers[questionId] = {
-      value: token,
+      value: matchedOption?.value || token,
       label: matchedOption?.label || token,
       poolId: matchedOption?.poolId || ''
     }
@@ -519,21 +547,28 @@ export function assignDropzoneValue(
     textareaAnswers: { ...current.textareaAnswers },
     dropzoneAnswers: { ...current.dropzoneAnswers }
   }
+  const normalizedNextValue = nextValue
+    ? {
+        ...nextValue,
+        value: normalizeDropzoneAnswerValue(exam, nextValue.value, nextValue.poolId)
+      }
+    : null
 
   const meta = groupMetaByQuestionId[questionId]
-  if (meta && nextValue && !meta.allowOptionReuse) {
+  if (meta && normalizedNextValue && !meta.allowOptionReuse) {
     meta.questionIds.forEach((relatedQuestionId) => {
       if (relatedQuestionId === questionId) {
         return
       }
       const existing = nextState.dropzoneAnswers[relatedQuestionId]
-      if (existing && compareAnswers(existing.value, nextValue.value)) {
+      const existingValue = existing ? normalizeDropzoneAnswerValue(exam, existing.value, existing.poolId) : ''
+      if (existing && compareAnswers(existingValue, normalizedNextValue.value)) {
         nextState.dropzoneAnswers[relatedQuestionId] = null
       }
     })
   }
 
-  nextState.dropzoneAnswers[questionId] = nextValue
+  nextState.dropzoneAnswers[questionId] = normalizedNextValue
   exam.fields.dropzoneQuestions.forEach((id) => {
     if (!(id in nextState.dropzoneAnswers)) {
       nextState.dropzoneAnswers[id] = null
@@ -544,11 +579,12 @@ export function assignDropzoneValue(
 
 export function getUsedOptionValuesForPool(
   draftState: PracticeDraftState,
-  poolId: string
+  poolId: string,
+  exam?: ReadingExamDocument
 ): string[] {
   return Object.values(draftState.dropzoneAnswers)
     .filter((entry): entry is PracticeDropzoneValue => Boolean(entry && entry.poolId === poolId))
-    .map((entry) => canonicalizeAnswerToken(entry.value))
+    .map((entry) => exam ? normalizeDropzoneAnswerValue(exam, entry.value, entry.poolId) : canonicalizeAnswerToken(entry.value))
 }
 
 export function formatAnswerDisplay(value: string | string[]): string {

@@ -204,6 +204,8 @@ function createOptionChipNode(state, element) {
   const attrs = sanitizeAttributes(element)
   const explicitValue = element.getAttribute('data-option')
     || element.getAttribute('data-heading')
+    || element.getAttribute('data-word')
+    || element.getAttribute('data-key')
     || element.getAttribute('data-value')
     || element.getAttribute('value')
     || element.getAttribute('id')

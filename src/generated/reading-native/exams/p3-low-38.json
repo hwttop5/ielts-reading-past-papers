@@ -696,7 +696,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A authoritarianism",
                   "attrs": {
                     "id": "word-A",
@@ -711,7 +711,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B competence",
                   "attrs": {
                     "id": "word-B",
@@ -726,7 +726,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C emergence",
                   "attrs": {
                     "id": "word-C",
@@ -741,7 +741,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D learning",
                   "attrs": {
                     "id": "word-D",
@@ -756,7 +756,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E observation",
                   "attrs": {
                     "id": "word-E",
@@ -771,7 +771,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F personality",
                   "attrs": {
                     "id": "word-F",
@@ -786,7 +786,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G processes",
                   "attrs": {
                     "id": "word-G",
@@ -801,7 +801,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H reliability",
                   "attrs": {
                     "id": "word-H",
@@ -816,7 +816,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "I",
                   "label": "I training",
                   "attrs": {
                     "id": "word-I",
@@ -831,7 +831,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-J",
+                  "value": "J",
                   "label": "J verbal behavior",
                   "attrs": {
                     "id": "word-J",
@@ -2418,52 +2418,52 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A authoritarianism"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B competence"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C emergence"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D learning"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E observation"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F personality"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G processes"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H reliability"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "I",
       "label": "I training"
     },
     {
       "poolId": "word-options",
-      "value": "word-J",
+      "value": "J",
       "label": "J verbal behavior"
     },
     {

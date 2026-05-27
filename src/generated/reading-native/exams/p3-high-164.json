@@ -466,7 +466,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "A",
                   "label": "A gestures",
                   "attrs": {
                     "id": "word-A",
@@ -481,7 +481,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "B",
                   "label": "B clients",
                   "attrs": {
                     "id": "word-B",
@@ -496,7 +496,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "C",
                   "label": "C transactions",
                   "attrs": {
                     "id": "word-C",
@@ -511,7 +511,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "D",
                   "label": "D assumption",
                   "attrs": {
                     "id": "word-D",
@@ -526,7 +526,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "E",
                   "label": "E accurate",
                   "attrs": {
                     "id": "word-E",
@@ -541,7 +541,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "F",
                   "label": "F documents",
                   "attrs": {
                     "id": "word-F",
@@ -556,7 +556,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "G",
                   "label": "G managers",
                   "attrs": {
                     "id": "word-G",
@@ -571,7 +571,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "H",
                   "label": "H body language",
                   "attrs": {
                     "id": "word-H",
@@ -586,7 +586,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "I",
                   "label": "I long-term",
                   "attrs": {
                     "id": "word-I",
@@ -601,7 +601,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-J",
+                  "value": "J",
                   "label": "J effective",
                   "attrs": {
                     "id": "word-J",
@@ -616,7 +616,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-K",
+                  "value": "K",
                   "label": "K rivals",
                   "attrs": {
                     "id": "word-K",
@@ -631,7 +631,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-L",
+                  "value": "L",
                   "label": "L costly",
                   "attrs": {
                     "id": "word-L",
@@ -1586,62 +1586,62 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "A",
       "label": "A gestures"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "B",
       "label": "B clients"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "C",
       "label": "C transactions"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "D",
       "label": "D assumption"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "E",
       "label": "E accurate"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "F",
       "label": "F documents"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "G",
       "label": "G managers"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "H",
       "label": "H body language"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "I",
       "label": "I long-term"
     },
     {
       "poolId": "word-options",
-      "value": "word-J",
+      "value": "J",
       "label": "J effective"
     },
     {
       "poolId": "word-options",
-      "value": "word-K",
+      "value": "K",
       "label": "K rivals"
     },
     {
       "poolId": "word-options",
-      "value": "word-L",
+      "value": "L",
       "label": "L costly"
     }
   ],

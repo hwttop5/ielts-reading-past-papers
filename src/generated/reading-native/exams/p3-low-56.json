@@ -1822,7 +1822,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A request",
+                  "value": "A",
                   "label": "A request",
                   "attrs": {
                     "class": "draggable-word",
@@ -1836,7 +1836,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B attempts",
+                  "value": "B",
                   "label": "B attempts",
                   "attrs": {
                     "class": "draggable-word",
@@ -1850,7 +1850,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C strategies",
+                  "value": "C",
                   "label": "C strategies",
                   "attrs": {
                     "class": "draggable-word",
@@ -1864,7 +1864,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D misunderstandings",
+                  "value": "D",
                   "label": "D misunderstandings",
                   "attrs": {
                     "class": "draggable-word",
@@ -1878,7 +1878,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E responsibility",
+                  "value": "E",
                   "label": "E responsibility",
                   "attrs": {
                     "class": "draggable-word",
@@ -1892,7 +1892,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F agreement",
+                  "value": "F",
                   "label": "F agreement",
                   "attrs": {
                     "class": "draggable-word",
@@ -1906,7 +1906,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G judgement",
+                  "value": "G",
                   "label": "G judgement",
                   "attrs": {
                     "class": "draggable-word",
@@ -1920,7 +1920,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H refusal",
+                  "value": "H",
                   "label": "H refusal",
                   "attrs": {
                     "class": "draggable-word",
@@ -1934,7 +1934,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I behaviour",
+                  "value": "I",
                   "label": "I behaviour",
                   "attrs": {
                     "class": "draggable-word",
@@ -2790,47 +2790,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A request",
+      "value": "A",
       "label": "A request"
     },
     {
       "poolId": "word-options",
-      "value": "B attempts",
+      "value": "B",
       "label": "B attempts"
     },
     {
       "poolId": "word-options",
-      "value": "C strategies",
+      "value": "C",
       "label": "C strategies"
     },
     {
       "poolId": "word-options",
-      "value": "D misunderstandings",
+      "value": "D",
       "label": "D misunderstandings"
     },
     {
       "poolId": "word-options",
-      "value": "E responsibility",
+      "value": "E",
       "label": "E responsibility"
     },
     {
       "poolId": "word-options",
-      "value": "F agreement",
+      "value": "F",
       "label": "F agreement"
     },
     {
       "poolId": "word-options",
-      "value": "G judgement",
+      "value": "G",
       "label": "G judgement"
     },
     {
       "poolId": "word-options",
-      "value": "H refusal",
+      "value": "H",
       "label": "H refusal"
     },
     {
       "poolId": "word-options",
-      "value": "I behaviour",
+      "value": "I",
       "label": "I behaviour"
     }
   ],

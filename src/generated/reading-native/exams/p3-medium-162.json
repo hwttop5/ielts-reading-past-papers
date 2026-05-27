@@ -1553,7 +1553,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-A",
+                  "value": "correct",
                   "label": "A correct",
                   "attrs": {
                     "id": "word-A",
@@ -1568,7 +1568,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-B",
+                  "value": "theories",
                   "label": "B theories",
                   "attrs": {
                     "id": "word-B",
@@ -1583,7 +1583,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-C",
+                  "value": "brain",
                   "label": "C brain",
                   "attrs": {
                     "id": "word-C",
@@ -1598,7 +1598,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-D",
+                  "value": "simple",
                   "label": "D simple",
                   "attrs": {
                     "id": "word-D",
@@ -1613,7 +1613,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-E",
+                  "value": "teachers",
                   "label": "E teachers",
                   "attrs": {
                     "id": "word-E",
@@ -1628,7 +1628,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-F",
+                  "value": "psychology",
                   "label": "F psychology",
                   "attrs": {
                     "id": "word-F",
@@ -1643,7 +1643,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-G",
+                  "value": "logical",
                   "label": "G logical",
                   "attrs": {
                     "id": "word-G",
@@ -1658,7 +1658,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-H",
+                  "value": "thought",
                   "label": "H thought",
                   "attrs": {
                     "id": "word-H",
@@ -1673,7 +1673,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "word-I",
+                  "value": "philosophers",
                   "label": "I philosophers",
                   "attrs": {
                     "id": "word-I",
@@ -2494,47 +2494,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "word-A",
+      "value": "correct",
       "label": "A correct"
     },
     {
       "poolId": "word-options",
-      "value": "word-B",
+      "value": "theories",
       "label": "B theories"
     },
     {
       "poolId": "word-options",
-      "value": "word-C",
+      "value": "brain",
       "label": "C brain"
     },
     {
       "poolId": "word-options",
-      "value": "word-D",
+      "value": "simple",
       "label": "D simple"
     },
     {
       "poolId": "word-options",
-      "value": "word-E",
+      "value": "teachers",
       "label": "E teachers"
     },
     {
       "poolId": "word-options",
-      "value": "word-F",
+      "value": "psychology",
       "label": "F psychology"
     },
     {
       "poolId": "word-options",
-      "value": "word-G",
+      "value": "logical",
       "label": "G logical"
     },
     {
       "poolId": "word-options",
-      "value": "word-H",
+      "value": "thought",
       "label": "H thought"
     },
     {
       "poolId": "word-options",
-      "value": "word-I",
+      "value": "philosophers",
       "label": "I philosophers"
     }
   ],

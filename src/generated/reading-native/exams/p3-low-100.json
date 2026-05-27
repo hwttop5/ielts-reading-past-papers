@@ -2360,7 +2360,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "A believe they can improve their looks by being friendly.",
+                  "value": "A",
                   "label": "A believe they can improve their looks by being friendly.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2374,7 +2374,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "B are confronted daily with their images in a variety of situations.",
+                  "value": "B",
                   "label": "B are confronted daily with their images in a variety of situations.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2388,7 +2388,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "C assume their image will get progressively smaller.",
+                  "value": "C",
                   "label": "C assume their image will get progressively smaller.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2402,7 +2402,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "D recognise familiar faces much more readily.",
+                  "value": "D",
                   "label": "D recognise familiar faces much more readily.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2416,7 +2416,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "E estimate the image to be larger than it actually is.",
+                  "value": "E",
                   "label": "E estimate the image to be larger than it actually is.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2430,7 +2430,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "F select those photographs which have not been altered.",
+                  "value": "F",
                   "label": "F select those photographs which have not been altered.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2444,7 +2444,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "G find there is little change in the image they face.",
+                  "value": "G",
                   "label": "G find there is little change in the image they face.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2458,7 +2458,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "H locate the photographs faster if they are made to look attractive.",
+                  "value": "H",
                   "label": "H locate the photographs faster if they are made to look attractive.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2472,7 +2472,7 @@
                 {
                   "type": "optionChip",
                   "poolId": "word-options",
-                  "value": "I create a positive generalised self-image.",
+                  "value": "I",
                   "label": "I create a positive generalised self-image.",
                   "attrs": {
                     "class": "draggable-word",
@@ -2570,47 +2570,47 @@
   "options": [
     {
       "poolId": "word-options",
-      "value": "A believe they can improve their looks by being friendly.",
+      "value": "A",
       "label": "A believe they can improve their looks by being friendly."
     },
     {
       "poolId": "word-options",
-      "value": "B are confronted daily with their images in a variety of situations.",
+      "value": "B",
       "label": "B are confronted daily with their images in a variety of situations."
     },
     {
       "poolId": "word-options",
-      "value": "C assume their image will get progressively smaller.",
+      "value": "C",
       "label": "C assume their image will get progressively smaller."
     },
     {
       "poolId": "word-options",
-      "value": "D recognise familiar faces much more readily.",
+      "value": "D",
       "label": "D recognise familiar faces much more readily."
     },
     {
       "poolId": "word-options",
-      "value": "E estimate the image to be larger than it actually is.",
+      "value": "E",
       "label": "E estimate the image to be larger than it actually is."
     },
     {
       "poolId": "word-options",
-      "value": "F select those photographs which have not been altered.",
+      "value": "F",
       "label": "F select those photographs which have not been altered."
     },
     {
       "poolId": "word-options",
-      "value": "G find there is little change in the image they face.",
+      "value": "G",
       "label": "G find there is little change in the image they face."
     },
     {
       "poolId": "word-options",
-      "value": "H locate the photographs faster if they are made to look attractive.",
+      "value": "H",
       "label": "H locate the photographs faster if they are made to look attractive."
     },
     {
       "poolId": "word-options",
-      "value": "I create a positive generalised self-image.",
+      "value": "I",
       "label": "I create a positive generalised self-image."
     }
   ],
