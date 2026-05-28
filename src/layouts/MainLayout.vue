@@ -297,7 +297,7 @@ import { useThemeStore } from '@/store/themeStore'
 import { useSettingStore } from '@/store/settingStore'
 import { useAuthStore } from '@/store/authStore'
 import { loadContactAdConfig } from '@/api/contactAd'
-import { ApiRequestError } from '@/api/authSync'
+import { getLocalizedApiErrorMessage } from '@/api/authErrors'
 import { message } from 'ant-design-vue'
 import type { ContactAdPayload } from '@/types/contactAd'
 import { useI18n, type Locale } from '@/i18n'
@@ -511,24 +511,17 @@ const submitAuthForm = async () => {
     authPassword.value = ''
     authPanelOpen.value = false
   } catch (error) {
-    authError.value = error instanceof Error ? error.message : t('auth.failed')
+    authError.value = getLocalizedApiErrorMessage(error, t, 'auth.failed')
   } finally {
     authSubmitting.value = false
   }
 }
 
 const getPasswordResetRequestErrorMessage = (error: unknown) => {
-  if (error instanceof ApiRequestError) {
-    if (error.code === 'mail_unavailable') {
-      return t('auth.resetMailUnavailable')
-    }
-
-    if (error.code === 'network_error' || error.status === 0 || error.status >= 500) {
-      return t('auth.resetRequestUnavailable')
-    }
-  }
-
-  return error instanceof Error ? error.message : t('auth.failed')
+  return getLocalizedApiErrorMessage(error, t, 'auth.failed', {
+    network_error: 'auth.resetRequestUnavailable',
+    request_failed: 'auth.resetRequestUnavailable'
+  })
 }
 
 const handlePasswordResetRequest = async () => {
@@ -563,7 +556,7 @@ const handleSyncNow = async () => {
       message.success(t('sync.synced'))
     }
   } catch (error) {
-    message.error(error instanceof Error ? error.message : t('sync.error'))
+    message.error(getLocalizedApiErrorMessage(error, t, 'sync.requestFailed'))
   }
 }
 

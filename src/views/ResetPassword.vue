@@ -41,6 +41,7 @@ import { computed, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
 import { useAuthStore } from '@/store/authStore'
+import { getLocalizedApiErrorMessage } from '@/api/authErrors'
 import { useI18n } from '@/i18n'
 
 const route = useRoute()
@@ -85,7 +86,7 @@ const submitResetPassword = async () => {
     message.success(t('auth.resetPasswordSuccess'))
     await router.replace('/home')
   } catch (err) {
-    error.value = err instanceof Error ? err.message : t('auth.failed')
+    error.value = getLocalizedApiErrorMessage(err, t, 'auth.failed')
   } finally {
     submitting.value = false
   }

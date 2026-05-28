@@ -1,11 +1,12 @@
 import { computed, ref } from 'vue'
+import { getLocalizedApiErrorMessage } from '@/api/authErrors'
 import { pullSyncSnapshot, pushSyncSnapshot } from '@/api/authSync'
 import { useAuthStore } from '@/store/authStore'
 import { useAchievementStore } from '@/store/achievementStore'
 import { usePracticeStore } from '@/store/practiceStore'
 import { useSettingStore } from '@/store/settingStore'
 import { useThemeStore } from '@/store/themeStore'
-import { setLocale } from '@/i18n'
+import { setLocale, useI18n } from '@/i18n'
 import {
   AUTH_SESSION_CHANGED,
   SYNC_LOCAL_CHANGED,
@@ -96,6 +97,11 @@ function applySnapshot(snapshot: ReturnType<typeof normalizeSyncSnapshot>, revis
   eventBus.emit(SYNC_REMOTE_APPLIED, { revision, mergedAt })
 }
 
+function getSyncErrorMessage(error: unknown): string {
+  const { t } = useI18n()
+  return getLocalizedApiErrorMessage(error, t, 'sync.requestFailed')
+}
+
 async function bootstrapRemoteSync(): Promise<void> {
   const { authStore } = getLocalStores()
   if (!authStore.isAuthenticated || !authStore.csrfToken || !authStore.user) {
@@ -127,7 +133,7 @@ async function bootstrapRemoteSync(): Promise<void> {
   } catch (error) {
     syncStatus.value = 'error'
     syncMessage.value = 'bootstrap'
-    lastError.value = error instanceof Error ? error.message : 'Failed to bootstrap sync.'
+    lastError.value = getSyncErrorMessage(error)
   } finally {
     bootstrapRunning = false
     if (syncRetryQueued) {
@@ -175,7 +181,7 @@ async function flushSync(): Promise<void> {
   } catch (error) {
     syncStatus.value = 'error'
     syncMessage.value = 'push'
-    lastError.value = error instanceof Error ? error.message : 'Failed to sync.'
+    lastError.value = getSyncErrorMessage(error)
   } finally {
     syncRunning = false
     if (syncRetryQueued) {
