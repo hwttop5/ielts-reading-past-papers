@@ -13,13 +13,11 @@ const CONTACT_AD_SNAPSHOT_PATH = resolve(CONTACT_AD_CACHE_ROOT, 'snapshot.json')
 const CONTACT_AD_ASSET_ROOT = resolve(CONTACT_AD_CACHE_ROOT, 'assets')
 
 export type ContactAdPayload =
-  | { enabled: false }
-  | {
-      enabled: true
-      title: string
-      markdown: string
-      updatedAt?: string
-    }
+  {
+    title: string
+    markdown: string
+    updatedAt?: string
+  }
 
 type ContactAdLogger = {
   info?: (...args: unknown[]) => void
@@ -47,26 +45,23 @@ type LocalContactAdSnapshot = {
 }
 
 type RemoteContactAdState =
-  | {
-      enabled: false
-      payloadUpdatedAt?: string
-      version: string
-    }
-  | {
-      bodyHtml?: string
-      enabled: true
-      markdown: string
-      payloadUpdatedAt?: string
-      title: string
-      version: string
-    }
+  {
+    bodyHtml?: string
+    markdown: string
+    payloadUpdatedAt?: string
+    title: string
+    version: string
+  }
 
 type DownloadedContactAdAsset = {
   asset: LocalContactAdAsset
   tempPath: string
 }
 
-const HIDDEN_CONTACT_AD: ContactAdPayload = { enabled: false }
+const EMPTY_CONTACT_AD: ContactAdPayload = {
+  title: '消息通知',
+  markdown: ''
+}
 const CONTACT_AD_ASSET_ID_PATTERN = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i
 const CONTACT_AD_ISSUE_ASSET_URL_PATTERN =
   /https:\/\/github\.com\/user-attachments\/assets\/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/gi
@@ -185,19 +180,13 @@ function normalizeLocalSnapshot(value: unknown): LocalContactAdSnapshot | null {
 
   const payloadValue = value.payload
   const payload: ContactAdPayload =
-    isRecord(payloadValue) &&
-    payloadValue.enabled === true &&
-    typeof payloadValue.title === 'string' &&
-    payloadValue.title.trim() &&
-    typeof payloadValue.markdown === 'string' &&
-    payloadValue.markdown.trim()
+    isRecord(payloadValue) && typeof payloadValue.title === 'string' && typeof payloadValue.markdown === 'string'
       ? {
-          enabled: true,
-          title: payloadValue.title.trim(),
-          markdown: payloadValue.markdown.trim(),
+          title: payloadValue.title.trim() || EMPTY_CONTACT_AD.title,
+          markdown: payloadValue.markdown.replace(/^\uFEFF/, ''),
           updatedAt: typeof payloadValue.updatedAt === 'string' && payloadValue.updatedAt.trim() ? payloadValue.updatedAt.trim() : undefined
         }
-      : HIDDEN_CONTACT_AD
+      : EMPTY_CONTACT_AD
 
   const assets = Array.isArray(value.assets)
     ? value.assets
@@ -251,24 +240,15 @@ function normalizeRemoteIssue(issue: ContactAdIssueResponse): RemoteContactAdSta
   }
 
   const { payloadUpdatedAt, version } = getRemoteIssueVersion(issue)
-  const markdown = issue.body.replace(/^\uFEFF/, '').trim()
-  if (!markdown) {
-    return {
-      enabled: false,
-      payloadUpdatedAt,
-      version
-    }
-  }
-
   const title = typeof issue.title === 'string' ? issue.title.trim() : ''
+  const markdown = typeof issue.body === 'string' ? issue.body.replace(/^\uFEFF/, '') : ''
 
-  if (!title || !markdown) {
+  if (!title) {
     return null
   }
 
   return {
     bodyHtml: typeof issue.body_html === 'string' ? issue.body_html : undefined,
-    enabled: true,
     markdown,
     payloadUpdatedAt,
     title,
@@ -390,18 +370,21 @@ async function persistLocalSnapshot(current: LocalContactAdSnapshot, previous: L
   await cleanupStaleAssets(previous, current)
 }
 
-function createHiddenSnapshot(version: string): LocalContactAdSnapshot {
+function createEmptySnapshot(version: string, updatedAt?: string): LocalContactAdSnapshot {
   return {
     assets: [],
     lastRemoteUpdatedAt: version,
-    payload: HIDDEN_CONTACT_AD,
+    payload: {
+      ...EMPTY_CONTACT_AD,
+      updatedAt
+    },
     syncedAt: new Date().toISOString()
   }
 }
 
 async function buildLocalSnapshot(remote: RemoteContactAdState): Promise<LocalContactAdSnapshot> {
-  if (!remote.enabled) {
-    return createHiddenSnapshot(remote.version)
+  if (!remote.markdown.trim()) {
+    return createEmptySnapshot(remote.version, remote.payloadUpdatedAt)
   }
 
   const downloadedAssets = await downloadRemoteAssets(remote.markdown, remote.bodyHtml)
@@ -411,7 +394,6 @@ async function buildLocalSnapshot(remote: RemoteContactAdState): Promise<LocalCo
     assets,
     lastRemoteUpdatedAt: remote.version,
     payload: {
-      enabled: true,
       title: remote.title,
       markdown: rewriteIssueAssetUrls(remote.markdown),
       updatedAt: remote.payloadUpdatedAt
@@ -497,7 +479,7 @@ export function resetContactAdCacheForTests(): void {
 export async function loadContactAd(options?: { logger?: ContactAdLogger }): Promise<ContactAdPayload> {
   const snapshot = await readLocalSnapshot()
   if (!snapshot) {
-    return HIDDEN_CONTACT_AD
+    return EMPTY_CONTACT_AD
   }
 
   return snapshot.payload

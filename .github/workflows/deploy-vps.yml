@@ -53,19 +53,26 @@ jobs:
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
+          CONTACT_AD_GITHUB_TOKEN: ${{ secrets.CONTACT_AD_GITHUB_TOKEN }}
           VITE_BAIDU_TONGJI_ID: ${{ vars.VITE_BAIDU_TONGJI_ID }}
         run: |
           set -euo pipefail
           test -n "$VITE_BAIDU_TONGJI_ID"
           escaped_tongji_id=$(printf '%q' "$VITE_BAIDU_TONGJI_ID")
+          escaped_contact_ad_github_token=$(printf '%q' "${CONTACT_AD_GITHUB_TOKEN:-}")
           ssh -i ~/.ssh/deploy_key -p 22 "$VPS_USER@$VPS_HOST" \
-            "VITE_BAIDU_TONGJI_ID=$escaped_tongji_id bash -se" <<'REMOTE'
+            "VITE_BAIDU_TONGJI_ID=$escaped_tongji_id CONTACT_AD_GITHUB_TOKEN=$escaped_contact_ad_github_token bash -se" <<'REMOTE'
           set -euo pipefail
           cd /opt/stacks/ielts-reading-past-papers
+          mkdir -p deploy
           touch .env
+          touch deploy/.env
           sed -i '/^VITE_BAIDU_TONGJI_ID=/d' .env
           printf '%s\n' "VITE_BAIDU_TONGJI_ID=$VITE_BAIDU_TONGJI_ID" >> .env
-          mkdir -p deploy
+          sed -i '/^CONTACT_AD_GITHUB_TOKEN=/d' deploy/.env
+          if [ -n "${CONTACT_AD_GITHUB_TOKEN:-}" ]; then
+            printf '%s\n' "CONTACT_AD_GITHUB_TOKEN=$CONTACT_AD_GITHUB_TOKEN" >> deploy/.env
+          fi
           printf '%s\n' "VITE_BAIDU_TONGJI_ID=$VITE_BAIDU_TONGJI_ID" > deploy/vite-build.env
           printf '%s\n' "VITE_BAIDU_TONGJI_ID=$VITE_BAIDU_TONGJI_ID" > .env.production.local
           export VITE_BAIDU_TONGJI_ID

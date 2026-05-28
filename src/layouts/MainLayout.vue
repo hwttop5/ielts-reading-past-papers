@@ -55,7 +55,6 @@
             <span class="material-icons action-icon">{{ accountIcon }}</span>
           </button>
           <button
-            v-if="showSponsorContactAction"
             class="quick-action contact-action"
             type="button"
             title="消息通知"
@@ -327,7 +326,10 @@ const isDarkMode = ref(false)
 const showMobileMenu = ref(false)
 const isScrolled = ref(false)
 const sponsorContactAdRef = ref<InstanceType<typeof SponsorContactAd> | null>(null)
-const contactAd = ref<ContactAdPayload>({ enabled: false })
+const contactAd = ref<ContactAdPayload>({
+  title: '消息通知',
+  markdown: ''
+})
 const authPanelOpen = ref(false)
 const authMode = ref<'login' | 'register'>('login')
 const authEmail = ref('')
@@ -462,8 +464,6 @@ const syncTooltip = computed(() => {
   }
   return authStore.isAuthenticated ? `${authStore.user?.email || ''} - ${syncLabel.value}` : t('auth.guestMode')
 })
-
-const showSponsorContactAction = computed(() => contactAd.value.enabled)
 
 const accountIcon = computed(() => (authStore.isAuthenticated ? 'account_circle' : 'person'))
 const accountTitle = computed(() => (authStore.isAuthenticated ? authStore.user?.email || t('auth.account') : t('auth.guestMode')))

@@ -49,7 +49,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import type { ContactAdPayload } from '@/types/contactAd'
-import { isEnabledContactAd } from '@/types/contactAd'
 import { renderAssistantMarkdown } from '@/utils/assistantMarkdown'
 import { loadFromLocalStorage, saveToLocalStorage } from '@/utils/storage'
 
@@ -71,14 +70,13 @@ const props = defineProps<{
 const modalOpen = ref(false)
 const autoOpenTimer = ref<number | null>(null)
 
-const adContent = computed(() => (isEnabledContactAd(props.content) ? props.content : null))
-const renderedMarkdown = computed(() => (adContent.value ? renderAssistantMarkdown(adContent.value.markdown) : ''))
+const EMPTY_NOTICE_MARKDOWN = '暂无公告'
+
+const adContent = computed(() => props.content)
+const hasAnnouncementBody = computed(() => adContent.value.markdown.trim().length > 0)
+const renderedMarkdown = computed(() => renderAssistantMarkdown(hasAnnouncementBody.value ? adContent.value.markdown : EMPTY_NOTICE_MARKDOWN))
 
 function getContentVersion(): string {
-  if (!adContent.value) {
-    return 'hidden'
-  }
-
   return adContent.value.updatedAt?.trim() || `${adContent.value.title}\n${adContent.value.markdown}`
 }
 
@@ -103,7 +101,7 @@ function readDismissState(): SponsorAdDismissState {
 }
 
 function shouldAutoOpen(): boolean {
-  if (!adContent.value) {
+  if (!hasAnnouncementBody.value) {
     return false
   }
 
@@ -128,10 +126,6 @@ function persistDismissState(nextState: SponsorAdDismissState): void {
 }
 
 async function openSponsorAd(): Promise<void> {
-  if (!adContent.value) {
-    return
-  }
-
   modalOpen.value = true
 }
 
@@ -165,12 +159,7 @@ watch(
   (content) => {
     clearAutoOpenTimer()
 
-    if (!content) {
-      modalOpen.value = false
-      return
-    }
-
-    if (!shouldAutoOpen()) {
+    if (!content.markdown.trim() || !shouldAutoOpen()) {
       return
     }
 

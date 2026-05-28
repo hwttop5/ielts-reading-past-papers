@@ -31,13 +31,14 @@ npm --prefix server run check:similar
 ## 消息通知维护约定
 
 - 公告上游源固定为 GitHub issue `hwttop5/github-actions#1`，服务端入口见 `src/lib/contactAd.ts`。
-- issue 标题直接作为公告标题；issue 正文直接作为 Markdown 公告正文；公告时间与镜像版本直接取 GitHub Issue API 的 `updated_at`。
-- issue 正文去空白后为空时，服务端写入隐藏快照并返回 `{ enabled: false }`；不再依赖 `enabled/title/updatedAt` frontmatter 控制显示。
+- issue 标题直接作为公告标题；issue 正文完整作为 Markdown 公告正文；公告时间与镜像版本直接取 GitHub Issue API 的 `updated_at`。
+- 不再解析或消费 issue 正文中的 `enabled/title/updatedAt` frontmatter；这些内容若还留在正文里，会按普通 Markdown 原样展示。
 - 页面运行时永远只读本地镜像：`GET /api/contact-ad` 只返回本地 `snapshot.json`，`GET /api/contact-ad/assets/:assetId` 只返回本地缓存图片，不在请求路径直接抓 GitHub。
 - 本地镜像缓存根目录位于 `SYNC_DATABASE_PATH` 同级的 `contact-ad-cache/`；镜像主文件为 `snapshot.json`，图片缓存位于 `assets/`。
 - 服务端启动后会立即检查一次上游，并每 5 分钟继续检查；只有 `updated_at` 版本变化时才刷新本地镜像。
 - issue 正文里的 `https://github.com/user-attachments/assets/...` 图片会被下载到本地缓存，并改写为 `/api/contact-ad/assets/:assetId` 供前端弹窗展示。
-- 前端右上角“消息通知”按钮和自动弹窗继续复用现有接口返回的 `enabled/title/markdown/updatedAt`，不要把展示规则重新分散到前端硬编码。
+- 右上角“消息通知”按钮常驻显示；仅当本地镜像正文非空时才自动弹窗，正文为空时点击显示“暂无公告”。
+- 生产环境必须提供 `CONTACT_AD_GITHUB_TOKEN` 才能读取 private issue 并刷新本地镜像。
 - 调整公告链路后，优先验证 `server/test/contact-ad.route.test.ts`，再看本地 `/api/contact-ad` 返回值和 `contact-ad-cache/` 内容是否符合预期。
 
 ## 修改约束

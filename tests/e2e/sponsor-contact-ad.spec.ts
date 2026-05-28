@@ -24,7 +24,6 @@ test.describe('Sponsor contact ad', () => {
         status: 200,
         contentType: 'application/json',
         body: JSON.stringify({
-          enabled: true,
           title: '消息通知',
           updatedAt: '2026-05-27T12:00:00+08:00',
           markdown:
@@ -73,13 +72,15 @@ test.describe('Sponsor contact ad', () => {
     await expect(page.getByTestId('sponsor-ad-modal')).toBeVisible()
   })
 
-  test('hides the trigger button and modal when the issue disables the announcement', async ({ page }) => {
+  test('keeps the trigger button and shows an empty state when the issue body is empty', async ({ page }) => {
     await page.route('**/api/contact-ad', async (route) => {
       await route.fulfill({
         status: 200,
         contentType: 'application/json',
         body: JSON.stringify({
-          enabled: false
+          title: '消息通知',
+          updatedAt: '2026-05-27T12:00:00+08:00',
+          markdown: ''
         })
       })
     })
@@ -87,11 +88,16 @@ test.describe('Sponsor contact ad', () => {
     await page.goto('/home', { waitUntil: 'networkidle' })
     await waitForAutoOpenWindow()
 
-    await expect(page.getByTestId('sponsor-contact-action')).toHaveCount(0)
+    await expect(page.getByTestId('sponsor-contact-action')).toBeVisible()
     await expect(page.getByTestId('sponsor-ad-modal')).toHaveCount(0)
+
+    await page.getByTestId('sponsor-contact-action').click()
+    await expect(page.getByTestId('sponsor-ad-modal')).toBeVisible()
+    await expect(page.locator('.sponsor-ad-title')).toHaveText('消息通知')
+    await expect(page.getByTestId('sponsor-ad-markdown')).toContainText('暂无公告')
   })
 
-  test('keeps the page usable and silently hides the announcement when the API fails', async ({ page }) => {
+  test('keeps the page usable and shows the empty-state entry when the API fails', async ({ page }) => {
     await page.route('**/api/contact-ad', async (route) => {
       await route.fulfill({
         status: 500,
@@ -105,7 +111,7 @@ test.describe('Sponsor contact ad', () => {
     await page.goto('/home', { waitUntil: 'networkidle' })
     await waitForAutoOpenWindow()
 
-    await expect(page.getByTestId('sponsor-contact-action')).toHaveCount(0)
+    await expect(page.getByTestId('sponsor-contact-action')).toBeVisible()
     await expect(page.getByTestId('sponsor-ad-modal')).toHaveCount(0)
     await expect(page.locator('.fixed-header')).toBeVisible()
   })

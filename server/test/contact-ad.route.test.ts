@@ -94,7 +94,6 @@ describe('contact ad route', () => {
       expect(response.statusCode).toBe(200)
       expect(response.headers['cache-control']).toBe('no-store')
       expect(response.json()).toEqual({
-        enabled: true,
         title: 'Latest announcement',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: '## New notice\n\n- First item\n- Second item\n\n[View details](https://example.com)'
@@ -105,9 +104,9 @@ describe('contact ad route', () => {
       expect(JSON.parse(readFileSync(snapshotPath, 'utf8'))).toMatchObject({
         lastRemoteUpdatedAt: '2026-05-27T12:00:00+08:00',
         payload: {
-          enabled: true,
           title: 'Latest announcement',
-          updatedAt: '2026-05-27T12:00:00+08:00'
+          updatedAt: '2026-05-27T12:00:00+08:00',
+          markdown: '## New notice\n\n- First item\n- Second item\n\n[View details](https://example.com)'
         }
       })
 
@@ -124,7 +123,11 @@ describe('contact ad route', () => {
   it('treats frontmatter-like lines in the body as normal markdown content', async () => {
     global.fetch = vi.fn(async () =>
       issueResponse(
-        `title: This stays in the markdown
+        `---
+enabled: false
+title: Ignore this
+updatedAt: 2000-01-01
+---
 
 Body content`,
         'Issue Title Source',
@@ -144,10 +147,9 @@ Body content`,
 
       expect(response.statusCode).toBe(200)
       expect(response.json()).toEqual({
-        enabled: true,
         title: 'Issue Title Source',
         updatedAt: '2026-05-27T12:00:00+08:00',
-        markdown: 'title: This stays in the markdown\n\nBody content'
+        markdown: '---\nenabled: false\ntitle: Ignore this\nupdatedAt: 2000-01-01\n---\n\nBody content'
       })
     })
   })
@@ -185,7 +187,6 @@ Body content`,
 
       expect(response.statusCode).toBe(200)
       expect(response.json()).toEqual({
-        enabled: true,
         title: 'Latest announcement',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: `![Telegram 二维码](/api/contact-ad/assets/${assetId})`
@@ -207,7 +208,7 @@ Body content`,
     })
   })
 
-  it('writes a hidden local snapshot when the issue body is empty', async () => {
+  it('writes an empty-state local snapshot when the issue body is empty', async () => {
     global.fetch = vi.fn(async () =>
       issueResponse('   \n\n', 'Hidden announcement', undefined, '2026-05-27T12:00:00+08:00')
     ) as typeof fetch
@@ -222,12 +223,20 @@ Body content`,
       })
 
       expect(response.statusCode).toBe(200)
-      expect(response.json()).toEqual({ enabled: false })
+      expect(response.json()).toEqual({
+        title: '消息通知',
+        updatedAt: '2026-05-27T12:00:00+08:00',
+        markdown: ''
+      })
 
       const { snapshotPath } = getCachePaths(dir)
       expect(JSON.parse(readFileSync(snapshotPath, 'utf8'))).toMatchObject({
         lastRemoteUpdatedAt: '2026-05-27T12:00:00+08:00',
-        payload: { enabled: false }
+        payload: {
+          title: '消息通知',
+          updatedAt: '2026-05-27T12:00:00+08:00',
+          markdown: ''
+        }
       })
     })
   })
@@ -246,7 +255,6 @@ Body content`,
         url: '/api/contact-ad'
       })
       expect(first.json()).toEqual({
-        enabled: true,
         title: 'Cached announcement',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: 'Cached body'
@@ -277,7 +285,10 @@ Body content`,
       })
 
       expect(response.statusCode).toBe(200)
-      expect(response.json()).toEqual({ enabled: false })
+      expect(response.json()).toEqual({
+        title: '消息通知',
+        markdown: ''
+      })
       expect(vi.mocked(global.fetch).mock.calls.length).toBe(fetchCallsBeforeRequest)
     })
   })
@@ -312,7 +323,6 @@ Body content`,
         url: '/api/contact-ad'
       })
       expect(first.json()).toEqual({
-        enabled: true,
         title: 'First title',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: 'First body'
@@ -347,7 +357,6 @@ Body content`,
         url: '/api/contact-ad'
       })
       expect(first.json()).toEqual({
-        enabled: true,
         title: 'First title',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: 'First body'
@@ -364,7 +373,6 @@ Body content`,
         url: '/api/contact-ad'
       })
       expect(second.json()).toEqual({
-        enabled: true,
         title: 'Second title',
         updatedAt: '2026-05-27T12:05:00+08:00',
         markdown: 'Second body'
