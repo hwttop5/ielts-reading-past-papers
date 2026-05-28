@@ -415,6 +415,7 @@ async function startServices() {
   const backendEnv = normalizeEnv(process.env, {
     FRONTEND_ORIGIN: `${frontendUrl},http://127.0.0.1:${frontendPort}`,
     LLM_APP_URL: frontendUrl,
+    NODE_USE_ENV_PROXY: '1',
     PORT: String(backendPort)
   })
 

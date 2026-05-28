@@ -179,15 +179,18 @@ defineExpose({
 })
 </script>
 
-<style scoped>
-:deep(.ant-modal-content) {
+<style>
+.sponsor-ad-modal-shell .ant-modal-content {
   overflow: hidden;
   padding: 0 !important;
 }
 
-:deep(.ant-modal-body) {
-  padding: 0 !important;
+.sponsor-ad-modal-shell .ant-modal-body {
+  padding: 24px !important;
 }
+</style>
+
+<style scoped>
 
 .sponsor-ad-modal {
   position: relative;
@@ -196,7 +199,7 @@ defineExpose({
   gap: 20px;
   max-height: calc(100vh - 72px);
   overflow-y: auto;
-  padding: 28px;
+  padding: 0;
   background: var(--bg-primary);
   color: var(--text-primary);
 }
@@ -476,7 +479,7 @@ defineExpose({
   .sponsor-ad-modal {
     gap: 18px;
     max-height: calc(100vh - 32px);
-    padding: 20px 16px 18px;
+    padding: 0;
   }
 
   .sponsor-ad-intro {
