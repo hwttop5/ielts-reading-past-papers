@@ -81,6 +81,7 @@
                   :selected-option-key="session.selectedOptionKey"
                   :highlights="passageHighlights"
                   :used-option-values="session.usedOptionValuesByPool"
+                  node-path-prefix="1000"
                   @update:text="session.setTextAnswer"
                   @update:textarea="session.setTextareaAnswer"
                   @update:select="session.setSelectAnswer"
@@ -89,6 +90,7 @@
                   @set:dropzone="handleDropzoneSet"
                   @clear:dropzone="session.clearDropzoneValue"
                   @open:note="openExistingNoteModal"
+                  @open:highlight="openExistingHighlightToolbar"
                 />
               </div>
             </section>
@@ -156,7 +158,7 @@
 
               <div class="pane-content question-content">
                 <article
-                  v-for="group in session.exam?.questionGroups"
+                  v-for="(group, groupIndex) in session.exam?.questionGroups"
                   :key="group.groupId"
                   class="question-group-card"
                   :id="`group-${group.groupId}`"
@@ -172,6 +174,7 @@
                     :selected-option-key="session.selectedOptionKey"
                     :highlights="questionHighlights"
                     :used-option-values="session.usedOptionValuesByPool"
+                    :node-path-prefix="`2000.${groupIndex}.0`"
                     @update:text="session.setTextAnswer"
                     @update:textarea="session.setTextareaAnswer"
                     @update:select="session.setSelectAnswer"
@@ -180,6 +183,7 @@
                     @set:dropzone="handleDropzoneSet"
                     @clear:dropzone="session.clearDropzoneValue"
                     @open:note="openExistingNoteModal"
+                    @open:highlight="openExistingHighlightToolbar"
                   />
                   <PracticeNodeRenderer
                     :nodes="group.contentNodes"
@@ -190,6 +194,7 @@
                     :selected-option-key="session.selectedOptionKey"
                     :highlights="questionHighlights"
                     :used-option-values="session.usedOptionValuesByPool"
+                    :node-path-prefix="`2000.${groupIndex}.1`"
                     @update:text="session.setTextAnswer"
                     @update:textarea="session.setTextareaAnswer"
                     @update:select="session.setSelectAnswer"
@@ -198,6 +203,7 @@
                     @set:dropzone="handleDropzoneSet"
                     @clear:dropzone="session.clearDropzoneValue"
                     @open:note="openExistingNoteModal"
+                    @open:highlight="openExistingHighlightToolbar"
                   />
                 </article>
 
@@ -1001,6 +1007,22 @@ function openExistingNoteModal(payload: { record: PracticeHighlightRecord; top: 
     record: existing
   }
   closeSelectionToolbar()
+  clearBrowserSelection()
+}
+
+function openExistingHighlightToolbar(payload: { record: PracticeHighlightRecord; top: number; left: number }) {
+  if (sessionState.reviewMode.value) {
+    return
+  }
+  const existing = findMatchingHighlightRecord(sessionState.highlights.value || [], payload.record) || payload.record
+  selectionToolbar.value = {
+    visible: true,
+    scope: existing.scope,
+    text: existing.text,
+    top: payload.top,
+    left: payload.left,
+    record: existing
+  }
   clearBrowserSelection()
 }
 

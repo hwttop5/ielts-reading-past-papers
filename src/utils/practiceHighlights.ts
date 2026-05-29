@@ -298,6 +298,9 @@ export function buildHighlightSegments(
       if (interval) {
         rawIntervals.push(interval)
       }
+      if (!interval && !String(highlight.startPath || '').includes('.')) {
+        rawIntervals.push(...collectLegacyMatchIntervalsWithRecord(text, highlight))
+      }
       continue
     }
 
@@ -354,7 +357,7 @@ function segmentHighlightMeta(
   start: number,
   end: number
 ): Pick<HighlightSegment, 'note' | 'highlightId' | 'record'> {
-  const hit = intervals.find((interval) => interval.start < end && interval.end > start && Boolean(interval.record.note))
+  const hit = intervals.find((interval) => interval.start < end && interval.end > start)
   if (!hit) {
     return {}
   }

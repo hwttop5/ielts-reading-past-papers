@@ -38,6 +38,7 @@
         @set:dropzone="emit('set:dropzone', $event)"
         @clear:dropzone="emit('clear:dropzone', $event)"
         @open:note="emit('open:note', $event)"
+        @open:highlight="emit('open:highlight', $event)"
       />
     </component>
 
@@ -48,6 +49,8 @@
       v-bind="controlAttrs(node.attrs)"
       :type="node.inputType"
       :name="node.fieldName"
+      :value="node.value"
+      :data-choice-value="node.value"
       :data-question="node.questionId"
       :data-nav-target="node.questionId"
       :checked="isChoiceChecked(node.fieldName, node.value)"
@@ -200,6 +203,7 @@ const emit = defineEmits<{
   (e: 'set:dropzone', payload: { questionId: string; poolId: string; value: string; label: string }): void
   (e: 'clear:dropzone', questionId: string): void
   (e: 'open:note', payload: { record: PracticeHighlightRecord; top: number; left: number }): void
+  (e: 'open:highlight', payload: { record: PracticeHighlightRecord; top: number; left: number }): void
 }>()
 
 const DRAG_START_THRESHOLD = 6
@@ -659,11 +663,11 @@ function highlightSegments(text: string, path: string): HighlightSegment[] {
 }
 
 function handleHighlightClick(segment: HighlightSegment, event: MouseEvent) {
-  if (!segment.note || !segment.record) {
+  if (!segment.record) {
     return
   }
   event.stopPropagation()
-  emit('open:note', {
+  emit(segment.note ? 'open:note' : 'open:highlight', {
     record: segment.record,
     top: event.clientY + 12,
     left: event.clientX + 12

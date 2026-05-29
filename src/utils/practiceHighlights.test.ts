@@ -78,12 +78,14 @@ describe('practice highlight utils', () => {
         startOffset: 0,
         endOffset: 11
       },
-      {
+      expect.objectContaining({
         text: 'alpha',
         highlight: true,
         startOffset: 11,
-        endOffset: 16
-      }
+        endOffset: 16,
+        highlightId: anchored?.id,
+        record: anchored
+      })
     ])
   })
 
@@ -107,21 +109,25 @@ describe('practice highlight utils', () => {
         startOffset: 0,
         endOffset: 6
       },
-      {
+      expect.objectContaining({
         text: 'world',
         highlight: true,
         startOffset: 6,
-        endOffset: 11
-      }
+        endOffset: 11,
+        highlightId: anchored?.id,
+        record: anchored
+      })
     ])
 
     expect(secondNodeSegments).toEqual([
-      {
+      expect.objectContaining({
         text: 'again',
         highlight: true,
         startOffset: 0,
-        endOffset: 5
-      },
+        endOffset: 5,
+        highlightId: anchored?.id,
+        record: anchored
+      }),
       {
         text: ' soon',
         highlight: false,

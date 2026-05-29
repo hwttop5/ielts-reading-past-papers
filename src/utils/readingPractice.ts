@@ -141,14 +141,28 @@ export function canonicalizeAnswerToken(value: unknown): string {
 
 export function splitAnswerTokens(value: unknown): string[] {
   if (Array.isArray(value)) {
-    return value.flatMap((entry) => splitAnswerTokens(entry))
+    return value
+      .map((entry) => canonicalizeAnswerToken(entry))
+      .filter(Boolean)
   }
   const cleaned = String(value ?? '').trim()
   if (!cleaned) {
     return []
   }
   return cleaned
-    .split(/[\n,;/]+/g)
+    .split(/[\n;]+/g)
+    .map((entry) => canonicalizeAnswerToken(entry))
+    .filter(Boolean)
+}
+
+function answerAliasTokens(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value
+      .map((entry) => canonicalizeAnswerToken(entry))
+      .filter(Boolean)
+  }
+  return String(value ?? '')
+    .split(/[\n;/]+/g)
     .map((entry) => canonicalizeAnswerToken(entry))
     .filter(Boolean)
 }
@@ -158,7 +172,8 @@ export function compareAnswers(userAnswer: unknown, correctAnswer: unknown): boo
     Array.from(new Set(splitAnswerTokens(value).filter(Boolean)))
 
   const actualTokens = toTokens(userAnswer)
-  const expectedTokens = toTokens(correctAnswer)
+  const expectedTokens = Array.from(new Set(answerAliasTokens(correctAnswer).filter(Boolean)))
+  const expectedIsAliasAnswer = Array.isArray(correctAnswer) || String(correctAnswer ?? '').includes('/')
 
   if (!actualTokens.length && !expectedTokens.length) {
     return null
@@ -183,7 +198,7 @@ export function compareAnswers(userAnswer: unknown, correctAnswer: unknown): boo
     leftValues.length === rightValues.length
     && leftValues.every((leftItem) => rightValues.some((rightItem) => tokenEquivalent(leftItem, rightItem)))
 
-  if (Array.isArray(correctAnswer)) {
+  if (expectedIsAliasAnswer) {
     if (actualTokens.length === 1) {
       return expectedTokens.some((token) => tokenEquivalent(token, actualTokens[0]))
     }
@@ -225,6 +240,9 @@ export function normalizeDropzoneAnswerValue(
 }
 
 export function questionWeight(correctAnswer: string | string[]): number {
+  if (Array.isArray(correctAnswer) || String(correctAnswer ?? '').includes('/')) {
+    return 1
+  }
   const normalized = splitAnswerTokens(correctAnswer)
   return normalized.length > 0 ? normalized.length : 1
 }
