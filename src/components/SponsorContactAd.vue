@@ -188,6 +188,12 @@ defineExpose({
 .sponsor-ad-modal-shell .ant-modal-body {
   padding: 24px !important;
 }
+
+@media (max-width: 768px) {
+  .sponsor-ad-modal-shell .ant-modal-body {
+    padding: 20px !important;
+  }
+}
 </style>
 
 <style scoped>
@@ -245,7 +251,11 @@ defineExpose({
 }
 
 .sponsor-ad-close .material-icons {
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
   font-size: 22px;
+  line-height: 1;
 }
 
 .sponsor-ad-intro-icon {
@@ -254,11 +264,13 @@ defineExpose({
   justify-content: center;
   width: var(--sponsor-ad-intro-icon-size);
   height: var(--sponsor-ad-intro-icon-size);
+  overflow: hidden;
   border: 1px solid var(--primary-border);
   border-radius: 50%;
   background: var(--primary-soft);
   color: var(--primary-color);
   font-size: calc(var(--sponsor-ad-title-size) * 0.72);
+  line-height: 1;
 }
 
 .sponsor-ad-title {
@@ -468,7 +480,12 @@ defineExpose({
 
 .sponsor-ad-primary .material-icons,
 .sponsor-ad-secondary .material-icons {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
   font-size: 18px;
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
@@ -478,24 +495,29 @@ defineExpose({
 
   .sponsor-ad-modal {
     gap: 18px;
-    max-height: calc(100vh - 32px);
+    max-height: calc(100dvh - 32px);
     padding: 0;
   }
 
   .sponsor-ad-intro {
     --sponsor-ad-title-size: 19px;
     --sponsor-ad-title-line-height: 1.3;
-    column-gap: 12px;
-    padding-right: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding-right: 0;
   }
 
   .sponsor-ad-intro-icon {
+    width: 36px;
+    height: 36px;
     font-size: calc(var(--sponsor-ad-title-size) * 0.74);
   }
 
   .sponsor-ad-close {
-    top: 16px;
-    right: 14px;
+    top: 0;
+    right: 0;
     width: 38px;
     height: 38px;
   }
@@ -509,13 +531,67 @@ defineExpose({
     line-height: 1.7;
   }
 
+  .assistant-md :deep(table) {
+    display: block;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .assistant-md :deep(thead),
+  .assistant-md :deep(tbody) {
+    display: block;
+  }
+
+  .assistant-md :deep(tr) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(18px, 5vw, 28px);
+  }
+
+  .assistant-md :deep(thead tr) {
+    overflow: hidden;
+    border-radius: var(--radius-sm);
+    background: var(--bg-tertiary);
+  }
+
+  .assistant-md :deep(th),
+  .assistant-md :deep(td) {
+    display: block;
+    border: 0;
+  }
+
+  .assistant-md :deep(th) {
+    padding: 9px 10px;
+    background: transparent;
+  }
+
+  .assistant-md :deep(td) {
+    padding: 12px 0 0;
+    vertical-align: top;
+  }
+
+  .assistant-md :deep(img) {
+    width: 100%;
+    max-width: 210px;
+    object-fit: contain;
+  }
+
   .sponsor-ad-actions {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
   }
 
   .sponsor-ad-primary,
   .sponsor-ad-secondary {
-    width: 100%;
+    width: auto;
+    min-width: 112px;
+    min-height: 38px;
+    padding: 0 12px;
+    white-space: nowrap;
   }
 }
 </style>
