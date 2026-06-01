@@ -4,5 +4,17 @@
   "installCommand": "npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://ielts.ttop5.cc",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!sw\\.js$).*)",
+      "destination": "https://ielts.ttop5.cc/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }

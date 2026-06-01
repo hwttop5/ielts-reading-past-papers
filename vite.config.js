@@ -14,6 +14,8 @@ export default defineConfig(({ mode }) => {
     process.env.VITE_SELF_HOSTED_SAME_ORIGIN === 'true'
   const skipCheck =
     process.env.SKIP_ASSISTANT_ENV_CHECK === '1' || process.env.SKIP_ASSISTANT_ENV_CHECK === 'true'
+  const isVercelBuild =
+    Boolean(process.env.VERCEL || process.env.VERCEL_URL || process.env.VERCEL_ENV)
 
   if (mode === 'production' && !selfHostedSameOrigin && !skipCheck && !String(assistantFromEnv).trim()) {
     throw new Error(
@@ -29,6 +31,7 @@ export default defineConfig(({ mode }) => {
         strategies: 'generateSW',
         injectRegister: false,
         registerType: 'prompt',
+        selfDestroying: isVercelBuild,
         manifest: false,
         includeAssets: [
           'favicon.svg',
