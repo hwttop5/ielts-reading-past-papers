@@ -68,6 +68,7 @@ describe('contact ad route', () => {
   })
 
   it('syncs the GitHub issue title, body, and updated_at into the local mirror', async () => {
+    const bodyHtml = '<h2>New notice</h2><ul><li>First item</li><li>Second item</li></ul><p><a href="https://example.com">View details</a></p>'
     global.fetch = vi.fn(async () =>
       issueResponse(
         `## New notice
@@ -77,7 +78,7 @@ describe('contact ad route', () => {
 
 [View details](https://example.com)`,
         'Latest announcement',
-        undefined,
+        bodyHtml,
         '2026-05-27T12:00:00+08:00'
       )
     ) as typeof fetch
@@ -94,6 +95,7 @@ describe('contact ad route', () => {
       expect(response.statusCode).toBe(200)
       expect(response.headers['cache-control']).toBe('no-store')
       expect(response.json()).toEqual({
+        html: bodyHtml,
         title: 'Latest announcement',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: '## New notice\n\n- First item\n- Second item\n\n[View details](https://example.com)'
@@ -104,6 +106,7 @@ describe('contact ad route', () => {
       expect(JSON.parse(readFileSync(snapshotPath, 'utf8'))).toMatchObject({
         lastRemoteUpdatedAt: '2026-05-27T12:00:00+08:00',
         payload: {
+          html: bodyHtml,
           title: 'Latest announcement',
           updatedAt: '2026-05-27T12:00:00+08:00',
           markdown: '## New notice\n\n- First item\n- Second item\n\n[View details](https://example.com)'
@@ -187,6 +190,7 @@ Body content`,
 
       expect(response.statusCode).toBe(200)
       expect(response.json()).toEqual({
+        html: `<p><img src="/api/contact-ad/assets/${assetId}" alt="Telegram 二维码"></p>`,
         title: 'Latest announcement',
         updatedAt: '2026-05-27T12:00:00+08:00',
         markdown: `![Telegram 二维码](/api/contact-ad/assets/${assetId})`

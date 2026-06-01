@@ -14,6 +14,7 @@ const CONTACT_AD_ASSET_ROOT = resolve(CONTACT_AD_CACHE_ROOT, 'assets')
 
 export type ContactAdPayload =
   {
+    html?: string
     title: string
     markdown: string
     updatedAt?: string
@@ -95,14 +96,26 @@ function extractSignedAssetUrls(bodyHtml: string): Map<string, string> {
   return assetUrls
 }
 
-function rewriteIssueAssetUrls(markdown: string): string {
-  return markdown.replace(CONTACT_AD_ISSUE_ASSET_URL_PATTERN, (_match, assetId: string) => {
+function rewriteIssueAssetUrls(content: string): string {
+  return content.replace(CONTACT_AD_ISSUE_ASSET_URL_PATTERN, (_match, assetId: string) => {
     const normalizedAssetId = normalizeAssetId(assetId)
     return normalizedAssetId ? `/api/contact-ad/assets/${normalizedAssetId}` : _match
   })
 }
 
-function extractIssueAssetIds(markdown: string): string[] {
+function rewriteSignedAssetUrls(content: string): string {
+  return content.replace(CONTACT_AD_SIGNED_ASSET_URL_PATTERN, (match: string) => {
+    const decodedUrl = decodeHtmlAttribute(match)
+    const normalizedAssetId = normalizeAssetId(decodedUrl.match(CONTACT_AD_ASSET_ID_PATTERN)?.[0] || '')
+    return normalizedAssetId ? `/api/contact-ad/assets/${normalizedAssetId}` : match
+  })
+}
+
+function rewriteContactAdAssetUrls(content: string): string {
+  return rewriteSignedAssetUrls(rewriteIssueAssetUrls(content))
+}
+
+function extractIssueAssetIds(markdown: string, bodyHtml?: string): string[] {
   const assetIds = new Set<string>()
 
   for (const match of markdown.matchAll(CONTACT_AD_ISSUE_ASSET_URL_PATTERN)) {
@@ -110,6 +123,10 @@ function extractIssueAssetIds(markdown: string): string[] {
     if (assetId) {
       assetIds.add(assetId)
     }
+  }
+
+  for (const assetId of extractSignedAssetUrls(bodyHtml || '').keys()) {
+    assetIds.add(assetId)
   }
 
   return Array.from(assetIds)
@@ -126,7 +143,7 @@ function getRemoteIssueVersion(issue: ContactAdIssueResponse): { payloadUpdatedA
   }
 
   return {
-    version: createHash('sha256').update(`${String(issue.title || '')}\n${String(issue.body || '')}`).digest('hex')
+    version: createHash('sha256').update(`${String(issue.title || '')}\n${String(issue.body || '')}\n${String(issue.body_html || '')}`).digest('hex')
   }
 }
 
@@ -182,6 +199,7 @@ function normalizeLocalSnapshot(value: unknown): LocalContactAdSnapshot | null {
   const payload: ContactAdPayload =
     isRecord(payloadValue) && typeof payloadValue.title === 'string' && typeof payloadValue.markdown === 'string'
       ? {
+          html: typeof payloadValue.html === 'string' && payloadValue.html.trim() ? payloadValue.html.replace(/^\uFEFF/, '') : undefined,
           title: payloadValue.title.trim() || EMPTY_CONTACT_AD.title,
           markdown: payloadValue.markdown.replace(/^\uFEFF/, ''),
           updatedAt: typeof payloadValue.updatedAt === 'string' && payloadValue.updatedAt.trim() ? payloadValue.updatedAt.trim() : undefined
@@ -280,7 +298,7 @@ async function fetchRemoteIssue(): Promise<RemoteContactAdState | null> {
 }
 
 async function downloadRemoteAssets(markdown: string, bodyHtml: string | undefined): Promise<DownloadedContactAdAsset[]> {
-  const assetIds = extractIssueAssetIds(markdown)
+  const assetIds = extractIssueAssetIds(markdown, bodyHtml)
   if (assetIds.length === 0) {
     return []
   }
@@ -376,6 +394,7 @@ function createEmptySnapshot(version: string, updatedAt?: string): LocalContactA
     lastRemoteUpdatedAt: version,
     payload: {
       ...EMPTY_CONTACT_AD,
+      html: undefined,
       updatedAt
     },
     syncedAt: new Date().toISOString()
@@ -394,8 +413,9 @@ async function buildLocalSnapshot(remote: RemoteContactAdState): Promise<LocalCo
     assets,
     lastRemoteUpdatedAt: remote.version,
     payload: {
+      html: remote.bodyHtml ? rewriteContactAdAssetUrls(remote.bodyHtml) : undefined,
       title: remote.title,
-      markdown: rewriteIssueAssetUrls(remote.markdown),
+      markdown: rewriteContactAdAssetUrls(remote.markdown),
       updatedAt: remote.payloadUpdatedAt
     },
     syncedAt: new Date().toISOString()

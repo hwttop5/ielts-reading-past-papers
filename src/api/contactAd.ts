@@ -25,10 +25,12 @@ function normalizeContactAdPayload(value: unknown): ContactAdPayload {
   }
 
   const title = toTrimmedString(value.title)
+  const html = typeof value.html === 'string' ? value.html.replace(/^\uFEFF/, '') : ''
   const markdown = typeof value.markdown === 'string' ? value.markdown.replace(/^\uFEFF/, '') : ''
   const updatedAt = toTrimmedString(value.updatedAt)
 
   return {
+    html: html.trim() ? html : undefined,
     title: title || EMPTY_CONTACT_AD.title,
     markdown,
     updatedAt: updatedAt || undefined

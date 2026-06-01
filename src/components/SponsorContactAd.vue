@@ -20,7 +20,7 @@
         </div>
       </header>
 
-      <div class="sponsor-ad-copy assistant-md" data-testid="sponsor-ad-markdown" v-html="renderedMarkdown"></div>
+      <div class="sponsor-ad-copy assistant-md" data-testid="sponsor-ad-markdown" v-html="renderedContent"></div>
 
       <div class="sponsor-ad-actions">
         <button
@@ -49,7 +49,7 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import type { ContactAdPayload } from '@/types/contactAd'
-import { renderAssistantMarkdown } from '@/utils/assistantMarkdown'
+import { renderAssistantHtml, renderAssistantMarkdown } from '@/utils/assistantMarkdown'
 import { loadFromLocalStorage, saveToLocalStorage } from '@/utils/storage'
 
 const STORAGE_KEY = 'ielts-reading-past-papers:sponsor-contact-ad'
@@ -73,11 +73,15 @@ const autoOpenTimer = ref<number | null>(null)
 const EMPTY_NOTICE_MARKDOWN = '暂无公告'
 
 const adContent = computed(() => props.content)
-const hasAnnouncementBody = computed(() => adContent.value.markdown.trim().length > 0)
-const renderedMarkdown = computed(() => renderAssistantMarkdown(hasAnnouncementBody.value ? adContent.value.markdown : EMPTY_NOTICE_MARKDOWN))
+const renderedContent = computed(() => {
+  if (adContent.value.html?.trim()) {
+    return renderAssistantHtml(adContent.value.html)
+  }
+  return renderAssistantMarkdown(adContent.value.markdown.trim() ? adContent.value.markdown : EMPTY_NOTICE_MARKDOWN)
+})
 
 function getContentVersion(): string {
-  return adContent.value.updatedAt?.trim() || `${adContent.value.title}\n${adContent.value.markdown}`
+  return adContent.value.updatedAt?.trim() || `${adContent.value.title}\n${adContent.value.markdown}\n${adContent.value.html || ''}`
 }
 
 function clearAutoOpenTimer(): void {
@@ -101,7 +105,7 @@ function readDismissState(): SponsorAdDismissState {
 }
 
 function shouldAutoOpen(): boolean {
-  if (!hasAnnouncementBody.value) {
+  if (!adContent.value.markdown.trim() && !adContent.value.html?.trim()) {
     return false
   }
 
@@ -159,7 +163,11 @@ watch(
   (content) => {
     clearAutoOpenTimer()
 
-    if (!content.markdown.trim() || !shouldAutoOpen()) {
+    if (!content.markdown.trim() && !content.html?.trim()) {
+      return
+    }
+
+    if (!shouldAutoOpen()) {
       return
     }
 
@@ -197,7 +205,6 @@ defineExpose({
 </style>
 
 <style scoped>
-
 .sponsor-ad-modal {
   position: relative;
   display: flex;
@@ -282,9 +289,8 @@ defineExpose({
 }
 
 .sponsor-ad-copy {
-  color: var(--text-secondary);
-  font-size: 14px;
-  line-height: 1.7;
+  color: inherit;
+  overflow-x: auto;
 }
 
 .assistant-md {
@@ -292,73 +298,10 @@ defineExpose({
   white-space: normal;
 }
 
-.assistant-md :deep(h1),
-.assistant-md :deep(h2),
-.assistant-md :deep(h3),
-.assistant-md :deep(h4) {
-  margin: 1em 0 0.5em;
-  font-weight: 700;
-  line-height: 1.35;
-  color: var(--text-primary);
-}
-
-.assistant-md :deep(h1) {
-  font-size: 1.25em;
-}
-
-.assistant-md :deep(h2) {
-  font-size: 1.15em;
-}
-
-.assistant-md :deep(h3),
-.assistant-md :deep(h4) {
-  font-size: 1.05em;
-}
-
-.assistant-md :deep(h1:first-child),
-.assistant-md :deep(h2:first-child),
-.assistant-md :deep(h3:first-child),
-.assistant-md :deep(h4:first-child) {
-  margin-top: 0;
-}
-
-.assistant-md :deep(p) {
-  margin: 0 0 0.75em;
-  text-align: left;
-}
-
-.assistant-md :deep(p:last-child) {
-  margin-bottom: 0;
-}
-
-.assistant-md :deep(ul),
-.assistant-md :deep(ol) {
-  margin: 0 0 0.75em;
-  padding-left: 1.35em;
-}
-
-.assistant-md :deep(li) {
-  margin: 0.25em 0;
-}
-
-.assistant-md :deep(li > p) {
-  margin: 0;
-}
-
-.assistant-md :deep(blockquote) {
-  margin: 0 0 0.75em;
-  padding: 8px 12px;
-  border-left: 3px solid rgba(100, 116, 139, 0.35);
-  background: rgba(100, 116, 139, 0.06);
-  color: var(--text-secondary);
-}
-
 .assistant-md :deep(pre) {
   margin: 0 0 0.75em;
   padding: 10px 12px;
   border-radius: 10px;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-light);
   overflow-x: auto;
   font-size: 0.9em;
   line-height: 1.5;
@@ -378,56 +321,11 @@ defineExpose({
   background: rgba(100, 116, 139, 0.12);
 }
 
-.assistant-md :deep(a) {
-  color: var(--primary-color);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.assistant-md :deep(hr) {
-  margin: 0.75em 0;
-  border: none;
-  border-top: 1px solid var(--border-light);
-}
-
-.assistant-md :deep(table) {
-  width: 100%;
-  max-width: 100%;
-  border-collapse: collapse;
-  margin: 0 0 0.75em;
-  font-size: 0.9em;
-  display: table;
-  table-layout: auto;
-}
-
-.assistant-md :deep(th),
-.assistant-md :deep(td) {
-  border: 1px solid var(--border-color);
-  text-align: center;
-}
-
-.assistant-md :deep(th) {
-  padding: 6px 8px;
-  background: var(--bg-tertiary);
-}
-
-.assistant-md :deep(td) {
-  padding: 0;
-  vertical-align: middle;
-}
-
-.assistant-md :deep(th > p),
-.assistant-md :deep(td > p) {
-  margin: 0;
-}
-
 .assistant-md :deep(img) {
   display: block;
-  max-width: min(100%, 240px);
+  max-width: 100%;
   width: auto;
   height: auto;
-  margin-inline: auto;
-  border-radius: var(--radius-md);
 }
 
 .sponsor-ad-actions {
@@ -527,54 +425,7 @@ defineExpose({
   }
 
   .sponsor-ad-copy {
-    font-size: 14px;
-    line-height: 1.7;
-  }
-
-  .assistant-md :deep(table) {
-    display: block;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin-bottom: 0.5em;
-  }
-
-  .assistant-md :deep(thead),
-  .assistant-md :deep(tbody) {
-    display: block;
-  }
-
-  .assistant-md :deep(tr) {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: clamp(18px, 5vw, 28px);
-  }
-
-  .assistant-md :deep(thead tr) {
-    overflow: hidden;
-    border-radius: var(--radius-sm);
-    background: var(--bg-tertiary);
-  }
-
-  .assistant-md :deep(th),
-  .assistant-md :deep(td) {
-    display: block;
-    border: 0;
-  }
-
-  .assistant-md :deep(th) {
-    padding: 9px 10px;
-    background: transparent;
-  }
-
-  .assistant-md :deep(td) {
-    padding: 12px 0 0;
-    vertical-align: top;
-  }
-
-  .assistant-md :deep(img) {
-    width: 100%;
-    max-width: 210px;
-    object-fit: contain;
+    overflow-x: auto;
   }
 
   .sponsor-ad-actions {
