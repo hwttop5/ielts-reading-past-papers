@@ -1,5 +1,35 @@
 # 版本说明 / Changelog
 
+## v2.0.7 - 2026-06-03
+
+### 中文说明
+
+#### 1. 完善账号恢复与迁站体验
+
+新增忘记密码重置流程，补齐 auth/sync 错误的本地化提示，并加入旧站迁移提醒与旧域名跳转，让账号恢复、同步异常和站点迁移路径更清晰。
+
+#### 2. 接入赞助联系通知链路
+
+新增赞助联系弹窗与服务端 `contact-ad` 通知接口，支持将 issue 通知镜像到本地展示，并修复空 issue、移动端布局和 HTML 正文渲染等场景。
+
+#### 3. 修复做题、高亮与站点细节
+
+修复 dropzone 词组选项归一化、高亮锚点和评分别名回归，优化暗色遮罩、账号/游客入口与 Baidu Tongji 埋点，并同步更新题库生成数据。
+
+### English Notes
+
+#### 1. Improved Account Recovery and Migration UX
+
+Added the forgot-password reset flow, localized auth/sync error messages, and introduced legacy-site migration notices plus old-domain redirects so recovery, sync failures, and migration paths are clearer.
+
+#### 2. Added Sponsor Contact Notifications
+
+Added the sponsor contact modal and server-side `contact-ad` notification route, mirrored issue notifications into local notices, and fixed empty issue bodies, mobile layout, and faithful HTML body rendering.
+
+#### 3. Fixed Practice, Highlights, and Site Details
+
+Fixed dropzone word-option normalization, highlight anchors, and scoring alias regressions, refined dark overlays, account/guest header actions, and Baidu Tongji analytics, and refreshed generated question data.
+
 ## v2.0.6 - 2026-05-24
 
 ### 中文说明

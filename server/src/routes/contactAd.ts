@@ -2,7 +2,10 @@ import type { FastifyInstance } from 'fastify'
 import { loadContactAd, loadContactAdAsset, startContactAdSyncScheduler } from '../lib/contactAd.js'
 
 export async function registerContactAdRoutes(app: FastifyInstance) {
-  const stopContactAdSync = startContactAdSyncScheduler({ logger: app.log })
+  const shouldStartContactAdSync = process.env.NODE_ENV !== 'test'
+  const stopContactAdSync = shouldStartContactAdSync
+    ? startContactAdSyncScheduler({ logger: app.log })
+    : () => undefined
   app.addHook('onClose', async () => {
     stopContactAdSync()
   })
