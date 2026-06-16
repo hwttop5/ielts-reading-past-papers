@@ -606,8 +606,15 @@ const handleKeydown = (e: KeyboardEvent) => {
   }
 }
 
+let scrollRafId = 0
 const handleScroll = () => {
-  isScrolled.value = window.scrollY > 10
+  if (scrollRafId) {
+    return
+  }
+  scrollRafId = window.requestAnimationFrame(() => {
+    isScrolled.value = window.scrollY > 10
+    scrollRafId = 0
+  })
 }
 
 onMounted(() => {
@@ -615,7 +622,7 @@ onMounted(() => {
   isDarkMode.value = document.documentElement.classList.contains('dark')
 
   document.addEventListener('keydown', handleKeydown)
-  window.addEventListener('scroll', handleScroll)
+  window.addEventListener('scroll', handleScroll, { passive: true })
   void refreshContactAd()
 })
 
@@ -629,6 +636,16 @@ watch(
 onUnmounted(() => {
   document.removeEventListener('keydown', handleKeydown)
   window.removeEventListener('scroll', handleScroll)
+  if (scrollRafId) {
+    window.cancelAnimationFrame(scrollRafId)
+    scrollRafId = 0
+  }
+  document.body.style.overflow = ''
+})
+
+// 移动端菜单打开时锁定背景滚动，关闭后恢复
+watch(showMobileMenu, (open) => {
+  document.body.style.overflow = open ? 'hidden' : ''
 })
 </script>
 

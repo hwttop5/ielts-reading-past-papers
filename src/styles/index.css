@@ -1,21 +1,20 @@
 @import './theme.css';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  direction: ltr;
-}
-
-#app {
-  min-height: 100vh;
-}
+/* 全局 reset 与 body/字体规则统一在 theme.css 中定义，避免重复 */
 
 /* Ant Design Vue Message：需高于 PracticeAssistant 侧栏（约 1200），否则提交成功提示被挡住 */
 .ant-message {
   z-index: 2600 !important;
+}
+
+/* 无障碍：尊重系统「减少动态效果」偏好，统一降级过渡与动画 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -68,10 +68,8 @@ onUnmounted(() => {
 </script>
 
 <style>
+/* 字体栈与字体平滑统一由 theme.css 的 body 规则提供，此处仅保留布局相关样式 */
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: var(--text-primary);
   min-height: 100vh;
 }
