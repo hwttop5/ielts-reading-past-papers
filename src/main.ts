@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import Antd from 'ant-design-vue'
+import { Modal } from 'ant-design-vue'
 import 'ant-design-vue/dist/reset.css'
 
 import './styles/index.css'
@@ -18,8 +18,9 @@ import { useThemeStore } from './store/themeStore'
 import { useAuthStore } from './store/authStore'
 import { installSyncManager, loadLocalStores } from './sync/syncManager'
 
-async function bootstrap() {
-  await loadAssistantPublicConfig()
+function bootstrap() {
+  void loadAssistantPublicConfig()
+
   if (typeof window !== 'undefined') {
     runAppMigration()
   }
@@ -47,7 +48,7 @@ async function bootstrap() {
   app.use(pinia)
   installBaiduTongji(router)
   app.use(router)
-  app.use(Antd)
+  app.use(Modal)
 
   usePracticeStore(pinia)
   useAchievementStore(pinia)
@@ -61,4 +62,4 @@ async function bootstrap() {
   setupPwa()
 }
 
-void bootstrap()
+bootstrap()

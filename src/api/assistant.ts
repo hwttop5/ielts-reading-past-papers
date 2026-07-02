@@ -7,12 +7,20 @@ export function normalizeAssistantBaseUrl(url: string): string {
 
 /** Filled by `public/assistant-api.json` via `loadAssistantPublicConfig()` (runtime, no rebuild). */
 let assistantPublicConfigBaseUrl = ''
+let assistantPublicConfigPromise: Promise<void> | null = null
 
 /**
  * Load optional `/assistant-api.json` from `public/` (deployed as site root).
- * Call once from `main.ts` before mounting the app so the first assistant request sees the URL.
+ * This can be kicked off during startup without blocking Vue mount. Assistant requests await it before sending.
  */
 export async function loadAssistantPublicConfig(): Promise<void> {
+  if (!assistantPublicConfigPromise) {
+    assistantPublicConfigPromise = fetchAssistantPublicConfig()
+  }
+  return assistantPublicConfigPromise
+}
+
+async function fetchAssistantPublicConfig(): Promise<void> {
   if (typeof window === 'undefined') {
     return
   }
@@ -300,6 +308,7 @@ export function normalizeAssistantResponse(
 export async function queryPracticeAssistant(payload: AssistantQueryRequest): Promise<AssistantQueryResponse> {
   let response: Response
   const locale = payload.locale === 'en' ? 'en' : 'zh'
+  await loadAssistantPublicConfig()
 
   try {
     response = await fetch(buildAssistantUrl('/api/assistant/query'), {
@@ -345,6 +354,7 @@ export async function queryPracticeAssistant(payload: AssistantQueryRequest): Pr
 export async function* queryPracticeAssistantStream(payload: AssistantQueryRequest): AsyncGenerator<{ type: string; payload: unknown }> {
   const locale = payload.locale === 'en' ? 'en' : 'zh'
   let response: Response
+  await loadAssistantPublicConfig()
 
   try {
     response = await fetch(buildAssistantUrl('/api/assistant/query/stream'), {

@@ -1,18 +1,29 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, type RouteLocationNormalizedLoaded } from 'vue-router'
 import MainLayout from '@/layouts/MainLayout.vue'
-import Home from '@/views/Home.vue'
-import Browse from '@/views/Browse.vue'
-import Practice from '@/views/Practice.vue'
-import PracticeMode from '@/views/PracticeMode.vue'
-import MyAchievements from '@/views/MyAchievements.vue'
-import ResetPassword from '@/views/ResetPassword.vue'
-import NotFound from '@/views/NotFound.vue'
-import questionIndex from '@/utils/questionIndex.json'
 import { NEW_SITE_URL } from '@/utils/siteMigration'
+
+const Home = () => import('@/views/Home.vue')
+const Browse = () => import('@/views/Browse.vue')
+const Practice = () => import('@/views/Practice.vue')
+const PracticeMode = () => import('@/views/PracticeMode.vue')
+const MyAchievements = () => import('@/views/MyAchievements.vue')
+const ResetPassword = () => import('@/views/ResetPassword.vue')
+const NotFound = () => import('@/views/NotFound.vue')
 
 const SITE_URL = NEW_SITE_URL
 const DEFAULT_TITLE = 'IELTS Reading Past Papers'
 const DEFAULT_DESCRIPTION = 'Practice IELTS Reading past papers online with a community question bank, PDF references, progress tracking, review tools, and an AI study assistant.'
+type QuestionHeadEntry = { id: string; title: string; category?: string }
+
+let questionIndexPromise: Promise<QuestionHeadEntry[]> | null = null
+
+function loadQuestionIndex(): Promise<QuestionHeadEntry[]> {
+  if (!questionIndexPromise) {
+    questionIndexPromise = import('@/utils/questionIndex.json')
+      .then((module) => module.default as QuestionHeadEntry[])
+  }
+  return questionIndexPromise
+}
 
 function setMeta(name: string, content: string, attribute = 'name') {
   let element = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${name}"]`)
@@ -34,12 +45,13 @@ function setCanonical(url: string) {
   element.setAttribute('href', url)
 }
 
-function getPracticeModeHead(queryId: unknown) {
+async function getPracticeModeHead(queryId: unknown) {
   if (typeof queryId !== 'string') {
     return null
   }
 
-  const question = (questionIndex as Array<{ id: string; title: string; category?: string }>).find((item) => item.id === queryId)
+  const questionIndex = await loadQuestionIndex()
+  const question = questionIndex.find((item) => item.id === queryId)
   if (!question) {
     return null
   }
@@ -48,6 +60,27 @@ function getPracticeModeHead(queryId: unknown) {
     title: `${question.title} | IELTS Reading Practice`,
     description: `Practice ${question.title}${question.category ? ` (${question.category})` : ''} online with IELTS Reading answers, review tools, PDF reference, and an AI study assistant.`
   }
+}
+
+async function applyRouteHead(to: RouteLocationNormalizedLoaded) {
+  const routeFullPath = to.fullPath
+  const practiceModeHead = to.path === '/practice-mode' ? await getPracticeModeHead(to.query.id) : null
+  if (router.currentRoute.value.fullPath !== routeFullPath) {
+    return
+  }
+
+  const title = practiceModeHead?.title || (typeof to.meta.title === 'string' ? to.meta.title : DEFAULT_TITLE)
+  const description = practiceModeHead?.description || (typeof to.meta.description === 'string' ? to.meta.description : DEFAULT_DESCRIPTION)
+  const robots = typeof to.meta.robots === 'string' ? to.meta.robots : 'index,follow'
+  const canonicalUrl = `${SITE_URL}${to.path === '/' ? '/home' : to.path}`
+
+  document.title = title
+  setMeta('description', description)
+  setMeta('robots', robots)
+  setMeta('og:title', title, 'property')
+  setMeta('og:description', description, 'property')
+  setMeta('og:url', canonicalUrl, 'property')
+  setCanonical(canonicalUrl)
 }
 
 const router = createRouter({
@@ -127,19 +160,7 @@ const router = createRouter({
 })
 
 router.afterEach((to) => {
-  const practiceModeHead = to.path === '/practice-mode' ? getPracticeModeHead(to.query.id) : null
-  const title = practiceModeHead?.title || (typeof to.meta.title === 'string' ? to.meta.title : DEFAULT_TITLE)
-  const description = practiceModeHead?.description || (typeof to.meta.description === 'string' ? to.meta.description : DEFAULT_DESCRIPTION)
-  const robots = typeof to.meta.robots === 'string' ? to.meta.robots : 'index,follow'
-  const canonicalUrl = `${SITE_URL}${to.path === '/' ? '/home' : to.path}`
-
-  document.title = title
-  setMeta('description', description)
-  setMeta('robots', robots)
-  setMeta('og:title', title, 'property')
-  setMeta('og:description', description, 'property')
-  setMeta('og:url', canonicalUrl, 'property')
-  setCanonical(canonicalUrl)
+  void applyRouteHead(to)
 })
 
 export default router

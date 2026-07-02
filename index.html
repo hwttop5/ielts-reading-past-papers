@@ -24,10 +24,287 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" rel="stylesheet">
+    <style>
+      :root {
+        --startup-primary: #2563eb;
+        --startup-text: #1f2937;
+        --startup-muted: #6b7280;
+        --startup-bg: #f9fafb;
+        --startup-card: #ffffff;
+        --startup-border: #e5e7eb;
+        --startup-skeleton: #eef2f7;
+        --startup-skeleton-strong: #e2e8f0;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --startup-primary: #3b82f6;
+          --startup-text: #f9fafb;
+          --startup-muted: #d1d5db;
+          --startup-bg: #1f2937;
+          --startup-card: #111827;
+          --startup-border: #374151;
+          --startup-skeleton: #273244;
+          --startup-skeleton-strong: #334155;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--startup-bg);
+        color: var(--startup-text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+
+      #app {
+        min-height: 100vh;
+        background: var(--startup-bg);
+      }
+
+      .startup-shell {
+        min-height: 100vh;
+        background: var(--startup-bg);
+      }
+
+      .startup-header {
+        height: 72px;
+        border-bottom: 1px solid var(--startup-border);
+        background: var(--startup-card);
+      }
+
+      .startup-header-inner,
+      .startup-main {
+        width: min(100%, 1400px);
+        margin: 0 auto;
+        padding-inline: 24px;
+      }
+
+      .startup-header-inner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .startup-brand {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+      }
+
+      .startup-brand-main {
+        font-size: 16px;
+        font-weight: 750;
+        letter-spacing: 0;
+      }
+
+      .startup-brand-sub {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--startup-muted);
+        letter-spacing: 0;
+      }
+
+      .startup-header-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .startup-action {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--startup-border);
+        border-radius: 8px;
+        background: var(--startup-card);
+      }
+
+      .startup-main {
+        padding-top: 32px;
+        padding-bottom: 48px;
+      }
+
+      .startup-title {
+        width: min(320px, 74vw);
+        height: 38px;
+        border-radius: 8px;
+        background: var(--startup-skeleton-strong);
+      }
+
+      .startup-subtitle {
+        width: min(520px, 88vw);
+        height: 20px;
+        margin-top: 12px;
+        border-radius: 8px;
+        background: var(--startup-skeleton);
+      }
+
+      .startup-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 40px;
+      }
+
+      .startup-card {
+        min-height: 112px;
+        padding: 20px;
+        border: 1px solid var(--startup-border);
+        border-radius: 8px;
+        background: var(--startup-card);
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .startup-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 8px;
+        background: var(--startup-primary);
+        opacity: 0.92;
+        flex: 0 0 56px;
+      }
+
+      .startup-lines {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .startup-line {
+        height: 14px;
+        border-radius: 8px;
+        background: var(--startup-skeleton);
+      }
+
+      .startup-line.strong {
+        width: 64%;
+        height: 26px;
+        margin-top: 10px;
+        background: var(--startup-skeleton-strong);
+      }
+
+      .startup-section {
+        margin-top: 32px;
+        padding: 24px;
+        border: 1px solid var(--startup-border);
+        border-radius: 8px;
+        background: var(--startup-card);
+      }
+
+      .startup-section-line {
+        height: 16px;
+        border-radius: 8px;
+        background: var(--startup-skeleton);
+      }
+
+      .startup-section-line + .startup-section-line {
+        margin-top: 14px;
+      }
+
+      .startup-section-line.short {
+        width: 42%;
+      }
+
+      @media (max-width: 900px) {
+        .startup-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 768px) {
+        .startup-header {
+          height: 56px;
+        }
+
+        .startup-header-inner,
+        .startup-main {
+          padding-inline: 16px;
+        }
+
+        .startup-brand-sub {
+          display: none;
+        }
+
+        .startup-action {
+          width: 40px;
+          height: 40px;
+        }
+
+        .startup-main {
+          padding-top: 20px;
+        }
+
+        .startup-grid {
+          grid-template-columns: 1fr;
+          margin-top: 28px;
+        }
+      }
+    </style>
     <title>IELTS Reading Past Papers</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="startup-shell" aria-hidden="true">
+        <header class="startup-header">
+          <div class="startup-header-inner">
+            <div class="startup-brand">
+              <span class="startup-brand-main">IELTS Reading</span>
+              <span class="startup-brand-sub">Past Papers</span>
+            </div>
+            <div class="startup-header-actions">
+              <div class="startup-action"></div>
+              <div class="startup-action"></div>
+              <div class="startup-action"></div>
+            </div>
+          </div>
+        </header>
+        <main class="startup-main">
+          <div class="startup-title"></div>
+          <div class="startup-subtitle"></div>
+          <section class="startup-grid">
+            <div class="startup-card">
+              <div class="startup-icon"></div>
+              <div class="startup-lines">
+                <div class="startup-line"></div>
+                <div class="startup-line strong"></div>
+              </div>
+            </div>
+            <div class="startup-card">
+              <div class="startup-icon"></div>
+              <div class="startup-lines">
+                <div class="startup-line"></div>
+                <div class="startup-line strong"></div>
+              </div>
+            </div>
+            <div class="startup-card">
+              <div class="startup-icon"></div>
+              <div class="startup-lines">
+                <div class="startup-line"></div>
+                <div class="startup-line strong"></div>
+              </div>
+            </div>
+            <div class="startup-card">
+              <div class="startup-icon"></div>
+              <div class="startup-lines">
+                <div class="startup-line"></div>
+                <div class="startup-line strong"></div>
+              </div>
+            </div>
+          </section>
+          <section class="startup-section">
+            <div class="startup-section-line"></div>
+            <div class="startup-section-line"></div>
+            <div class="startup-section-line short"></div>
+          </section>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
