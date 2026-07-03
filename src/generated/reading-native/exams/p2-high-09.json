@@ -682,7 +682,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. multi choice (Questions 14-15)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 15
+        },
+        "text": "题目 14\n答案：A\nPDF 定位：第2段：..a legalised, formal and hierarchical structure called a \"bureaucracy.\"；同段又说\"clearchain of command\"\nPDF 解析：hierarchical/clearchainof command→有明显的等级序列(markedranking order)。排除B\"重视每个人工作\"文中从未出现；C\"年长者晋升\"与原文 \"promotion...basedonabilityandexperience（按能力经验）\"不等同；E\"更多福利\" 未提。\n\n题目 15\n答案：D\nPDF 定位：第2段末句：\"..characterisedby...an impersonal climate.\nPDF 解析：impersonalclimate→中性/非个人化的工作环境（neutralworking environment)。排除见上。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：A\nPDF 定位：第2段：..a legalised, formal and hierarchical structure called a \"bureaucracy.\"；同段又说\"clearchain of command\"\nPDF 解析：hierarchical/clearchainof command→有明显的等级序列(markedranking order)。排除B\"重视每个人工作\"文中从未出现；C\"年长者晋升\"与原文 \"promotion...basedonabilityandexperience（按能力经验）\"不等同；E\"更多福利\" 未提。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：D\nPDF 定位：第2段末句：\"..characterisedby...an impersonal climate.\nPDF 解析：impersonalclimate→中性/非个人化的工作环境（neutralworking environment)。排除见上。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1039,7 +1059,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. multi choice (Questions 16-17)",
+        "mode": "group",
+        "questionRange": {
+          "start": 16,
+          "end": 17
+        },
+        "text": "题目 16\n答案：B\nPDF 定位：第4段:...advantages...could become disadvantages if the theory were applied dogmaticall...adhering excessively to rules....\nPDF 解析：applieddogmatically/excessively→实施过于僵化严格会变负面对应B。排除 A\"制定太多指南\"未提；C\"经理与员工无法合作\"未提；D虽貌似接近，但文中更强 调\"僵化执行\"的问题与\"世界变了\"，最贴合B、E。\n\n题目 17\n答案：E\nPDF 定位：第5段:..the world no longer fits the assumptions in Weber's model..so a bureaucracy might not yield beneficial results.\"\nPDF 解析：过去假定能产生正面效果，但如今未必→预期的积极结果在今天不太可能对应E。",
+        "items": [
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：B\nPDF 定位：第4段:...advantages...could become disadvantages if the theory were applied dogmaticall...adhering excessively to rules....\nPDF 解析：applieddogmatically/excessively→实施过于僵化严格会变负面对应B。排除 A\"制定太多指南\"未提；C\"经理与员工无法合作\"未提；D虽貌似接近，但文中更强 调\"僵化执行\"的问题与\"世界变了\"，最贴合B、E。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：E\nPDF 定位：第5段:..the world no longer fits the assumptions in Weber's model..so a bureaucracy might not yield beneficial results.\"\nPDF 解析：过去假定能产生正面效果，但如今未必→预期的积极结果在今天不太可能对应E。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -1396,7 +1436,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. multi choice (Questions 18-19)",
+        "mode": "group",
+        "questionRange": {
+          "start": 18,
+          "end": 19
+        },
+        "text": "题目 18\n答案：A\nPDF 定位：第6段（承上古典缺陷）：..neglectofthehumanelement...twoobjectives: economic effectiveness and employee satisfaction.\"; 第8段: Argyris \"... acknowledged human needs and feelings...\nPDF 解析：把员工当\"人\"、关注个体需要/感受→A。\n\n题目 19\n答案：D\nPDF 定位：第6段末:..improved by permitting more subordinate participation in decision-making.\"; 第7段 (McGregor, Theory Y): ..lower-level participation in decision-making is encouraged.\"\nPDF 解析：中\"更非正式文化\"相反；C\"改变生产方法\"未提；E\"晋升程序标准化\"是古典对\"规 则/任人唯贤\"的偏好，非新古典目标。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：A\nPDF 定位：第6段（承上古典缺陷）：..neglectofthehumanelement...twoobjectives: economic effectiveness and employee satisfaction.\"; 第8段: Argyris \"... acknowledged human needs and feelings...\nPDF 解析：把员工当\"人\"、关注个体需要/感受→A。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：D\nPDF 定位：第6段末:..improved by permitting more subordinate participation in decision-making.\"; 第7段 (McGregor, Theory Y): ..lower-level participation in decision-making is encouraged.\"\nPDF 解析：中\"更非正式文化\"相反；C\"改变生产方法\"未提；E\"晋升程序标准化\"是古典对\"规 则/任人唯贤\"的偏好，非新古典目标。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-4",
@@ -1753,7 +1813,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "4. multi choice (Questions 20-21)",
+        "mode": "group",
+        "questionRange": {
+          "start": 20,
+          "end": 21
+        },
+        "text": "题目 20\n答案：C\nPDF 定位：第11段首句：\"They overlook environmental,technological,and other variables... and overemphasise psychological..\nPDF 解析：忽视环境/技术等情境因素→忽视工作环境影响→C。B与原文\"过度强调心理行为 变量\"相反。\n\n题目 21\n答案：E\nPDF 定位：第11段中段:\"Theories X and Y oversimplify human motivation... Not everyone is motivated by the non-monetary aspects of work, nor is all work satisfying.\"\nPDF 解析：把人都当成为了兴趣（非金钱）而工作→假定人人享受工作而非为经济收益→E。排",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：C\nPDF 定位：第11段首句：\"They overlook environmental,technological,and other variables... and overemphasise psychological..\nPDF 解析：忽视环境/技术等情境因素→忽视工作环境影响→C。B与原文\"过度强调心理行为 变量\"相反。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：E\nPDF 定位：第11段中段:\"Theories X and Y oversimplify human motivation... Not everyone is motivated by the non-monetary aspects of work, nor is all work satisfying.\"\nPDF 解析：把人都当成为了兴趣（非金钱）而工作→假定人人享受工作而非为经济收益→E。排"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-5",
@@ -2252,38 +2332,38 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "5. 人物观点配对（Questions 22–26）",
+        "sectionTitle": "5. matching (Questions 22-26)",
         "mode": "group",
         "questionRange": {
           "start": 22,
           "end": 26
         },
-        "text": "答案：B (Douglas McGregor)\n解析：第七段，McGregor的X理论指出，古典方法的垂直分工源于对工人的“negative and false assumptions”（消极和错误的假设）。\n答案：D (Rensis Likert)\n解析：第十段，Likert的理想模型System 4的特点是“extensive participation in decision-making and problem-solving groups”以及团队间的沟通机制。\n答案：A (Max Weber)\n解析：第二段，根据Weber，高效组织的特点是“the specialisation of tasks”（任务专业化）。\n答案：C (Chris Argyris)\n解析：第八段，Argyris主张一种“acknowledged human needs and feelings”（承认人的需求和感受）的组织设计。\n答案：A (Max Weber)\n解析：第三段，Weber认为“clearly specified authority and responsibility made performance easier to evaluate and reward.”（明确的权责使绩效评估和奖励更容易）。",
+        "text": "题目 22\n答案：B\nPDF 定位：第7段: ..vertical division... derived from negative and false\nPDF 解析：认为古典建立在管理者对员工的错误假设之上。\n\n题目 23\n答案：D\nPDF 定位：第10 段:System 4 \"extensive participation in decision-making and problem-solving groups... some individuals... belong to other work groups to ensure communication between them.\"\nPDF 解析：描述共享决策+团队间互动的理想组织模型。\n\n题目 24\n答案：A\nPDF 定位/解析：第2段：..characterised by the specialisation of tasks...\n\n题目 25\n答案：C\nPDF 定位：第8段:..acknowledged human needs and feelings, and increased workers' satisfaction.\"\nPDF 解析：主张组织要考虑人的情感/需要。\n\n题目 26\n答案：A\nPDF 定位：performance easier to evaluate and reward.\nPDF 解析：古典的清晰权责/规则使对员工能力与绩效的评估更直接。",
         "items": [
           {
             "questionId": "q9",
             "questionNumber": 22,
-            "text": "(1) 题目 22：The classical approach relied upon managers having incorrect views about workers. （古典方法依赖于管理者对工人持有不正确的看法。）\n答案：B (Douglas McGregor)\n解析：第七段，McGregor的X理论指出，古典方法的垂直分工源于对工人的“negative and false assumptions”（消极和错误的假设）。"
+            "text": "题目 22\n答案：B\nPDF 定位：第7段: ..vertical division... derived from negative and false\nPDF 解析：认为古典建立在管理者对员工的错误假设之上。"
           },
           {
             "questionId": "q10",
             "questionNumber": 23,
-            "text": "(2) 题目 23：In the best organisational model, there is shared decision-making and interaction between teams at work. （在最佳组织模型中，工作团队之间存在共享决策和互动。）\n答案：D (Rensis Likert)\n解析：第十段，Likert的理想模型System 4的特点是“extensive participation in decision-making and problem-solving groups”以及团队间的沟通机制。"
+            "text": "题目 23\n答案：D\nPDF 定位：第10 段:System 4 \"extensive participation in decision-making and problem-solving groups... some individuals... belong to other work groups to ensure communication between them.\"\nPDF 解析：描述共享决策+团队间互动的理想组织模型。"
           },
           {
             "questionId": "q11",
             "questionNumber": 24,
-            "text": "(3) 题目 24：In an efficient organisation, workers develop expertise in particular areas. （在一个高效的组织中，工人在特定领域发展专长。）\n答案：A (Max Weber)\n解析：第二段，根据Weber，高效组织的特点是“the specialisation of tasks”（任务专业化）。"
+            "text": "题目 24\n答案：A\nPDF 定位/解析：第2段：..characterised by the specialisation of tasks..."
           },
           {
             "questionId": "q12",
             "questionNumber": 25,
-            "text": "(4) 题目 25：An organisation must take into account the emotional demands of people. （一个组织必须考虑到人的情感需求。）\n答案：C (Chris Argyris)\n解析：第八段，Argyris主张一种“acknowledged human needs and feelings”（承认人的需求和感受）的组织设计。"
+            "text": "题目 25\n答案：C\nPDF 定位：第8段:..acknowledged human needs and feelings, and increased workers' satisfaction.\"\nPDF 解析：主张组织要考虑人的情感/需要。"
           },
           {
             "questionId": "q13",
             "questionNumber": 26,
-            "text": "(5) 题目 26：The classical approach allowed workers' skills to be assessed in a straightforward way. （古典方法使得工人的技能能够以一种直接的方式被评估。）\n答案：A (Max Weber)\n解析：第三段，Weber认为“clearly specified authority and responsibility made performance easier to evaluate and reward.”（明确的权责使绩效评估和奖励更容易）。"
+            "text": "题目 26\n答案：A\nPDF 定位：performance easier to evaluate and reward.\nPDF 解析：古典的清晰权责/规则使对员工能力与绩效的评估更直接。"
           }
         ]
       }

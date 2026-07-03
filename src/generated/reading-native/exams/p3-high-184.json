@@ -2653,38 +2653,83 @@
       ],
       "contentNodes": [],
       "explanationSection": {
-        "sectionTitle": "1. 判断题（Questions 27–31：YES/NO/NOT GIVEN）",
-        "mode": "per_question",
+        "sectionTitle": "1. short answer (Questions 27-40)",
+        "mode": "group",
         "questionRange": {
           "start": 27,
-          "end": 31
+          "end": 40
         },
-        "text": "答案：NO（错误）\n解析：定位 Paragraph 1 中 “Mahy, too, has ventured into imaginative territory unknown to other local writers”，“探索其他本地作家未触及的领域” 与题干 “传统主题” 描述矛盾，因此判定为 NO。\n答案：NOT GIVEN（未提及）\n解析：全文仅提到 “儿童书和青少年书均有特色”，未比较 “受欢迎程度”，无相关信息，因此判定为 NOT GIVEN。\n答案：NOT GIVEN（未提及）\n解析：Paragraph 1 仅提到 “诺克斯是马希的继承者”，未提及 “相互批评”，无相关信息，因此判定为 NOT GIVEN。\n答案：YES（正确）\n解析：定位 Paragraph 1 中 “As with all journalists, she is generous to a fault with her time and attention”，“对记者慷慨” 对应 “welcoming to interviewers”，与题干描述一致，因此判定为 YES。\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “she isn’t truly comfortable making herself or her life the heart of any conversation”，“不愿将自己的生活作为谈话核心” 与题干 “自在谈论经历” 描述矛盾，因此判定为 NO。",
+        "text": "题目 27\n答案：NO\nPDF 定位：\"Mahy... has ventured into imaginative territory unknown to other local writers\"\nPDF 解析：NO 作者强调她走出传统、风格独特，因此与\"传统 主题\"相反\n\n题目 28\n答案：NOT GIVEN\nPDF 定位：文中只说两类作品\"standgloriouslyalone\"， 未比较受欢迎程度\nPDF 解析：NOT GIVEN 缺乏直接信息\n\n题目 29\n答案：NOT GIVEN\nPDF 定位：仅称Knox是Mahy的\"clearestheir\"，没有 提到批评\nPDF 解析：缺乏相关信息 NOT GIVEN\n\n题目 30\n答案：YES\nPDF 定位：\"She is generous to a fault with her time and attention\"\nPDF 解析：YES 慷慨待访=欢迎采访者\n\n题目 31\n答案：NO\nPDF 定位：..she isn't truly comfortable making herself or her life the heart of any conversation.\" 佐证句\nPDF 解析：与\"atease\"相反 NO\n\n题目 32\n答案：B\nPDF 定位：\"finding inspiration from her immediate environment ... writing on the side of a bus..\nPDF 解析：灵感来自日常场景\n\n题目 33\n答案：E\nPDF 定位：\"adventures on the high seas or in Antarctica, and also in quite unassuming places like the library...\nPDF 解析：同时包含奇异与普通地点\n\n题目 34\n答案：I\nPDF 定位：\"a young adult burdened with special powers, such as the ability to cast spells\"\nPDF 解析：主角常具魔法能力\n\n题目 35\n答案：H\nPDF 定位：\"while the conclusions ... are usually predictable, they leave the reader feeling absolutely complete\" 关键原句\nPDF 解析：结尾可预见但令人满足 解析\n\n题目 36\n答案：B\nPDF 定位：\"The story ballooned ... to 8oo pages and has been through at least two substantial rewrites. Now half its original size....\nPDF 解析：说明写作过程中被大幅重构\n\n题目 37\n答案：C\nPDF 定位：\"Bubble Trouble... first appeared in 1991... has been recited by Mahy at countless private and public functions... children and their parents know so well\"\nPDF 解析：体现\"许多家庭的老少皆爱\"\n\n题目 38\n答案：D\nPDF 定位：第五段列举自己、继女、子女、孙辈都读Mahy的作品\nPDF 解析：用家族例子说明作品跨世代受欢迎\n\n题目 39\n答案：C\nPDF 定位：\"a book is not properly finished ... until it has been read, because a reader brings something important\"\nPDF 解析：读者被视为完成作品所必需\n\n题目 40\n答案：A\nPDF 定位：末段引用David Hill故事→\"His storywasa wonderful commentonMahy's vision\"\nPDF 解析：用幽默例子阐释Mahy的世界观",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "（1）题目 27：Mahy explores the traditional themes of New Zealand literature.（马希探讨新西兰文学的传统主题）\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “Mahy, too, has ventured into imaginative territory unknown to other local writers”，“探索其他本地作家未触及的领域” 与题干 “传统主题” 描述矛盾，因此判定为 NO。"
+            "text": "题目 27\n答案：NO\nPDF 定位：\"Mahy... has ventured into imaginative territory unknown to other local writers\"\nPDF 解析：NO 作者强调她走出传统、风格独特，因此与\"传统 主题\"相反"
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "（2）题目 28：Mahy’s children’s books have been more popular than her teenage books.（马希的儿童书比青少年书更受欢迎）\n答案：NOT GIVEN（未提及）\n解析：全文仅提到 “儿童书和青少年书均有特色”，未比较 “受欢迎程度”，无相关信息，因此判定为 NOT GIVEN。"
+            "text": "题目 28\n答案：NOT GIVEN\nPDF 定位：文中只说两类作品\"standgloriouslyalone\"， 未比较受欢迎程度\nPDF 解析：NOT GIVEN 缺乏直接信息"
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "（3）题目 29：Mahy and Knox have sometimes criticised each other’s work.（马希和诺克斯有时批评彼此的作品）\n答案：NOT GIVEN（未提及）\n解析：Paragraph 1 仅提到 “诺克斯是马希的继承者”，未提及 “相互批评”，无相关信息，因此判定为 NOT GIVEN。"
+            "text": "题目 29\n答案：NOT GIVEN\nPDF 定位：仅称Knox是Mahy的\"clearestheir\"，没有 提到批评\nPDF 解析：缺乏相关信息 NOT GIVEN"
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "（4）题目 30：Mahy is welcoming to interviewers.（马希对采访者友好）\n答案：YES（正确）\n解析：定位 Paragraph 1 中 “As with all journalists, she is generous to a fault with her time and attention”，“对记者慷慨” 对应 “welcoming to interviewers”，与题干描述一致，因此判定为 YES。"
+            "text": "题目 30\n答案：YES\nPDF 定位：\"She is generous to a fault with her time and attention\"\nPDF 解析：YES 慷慨待访=欢迎采访者"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "（5）题目 31：Mahy is at ease speaking about her experiences.（马希谈论自己的经历时很自在）\n答案：NO（错误）\n解析：定位 Paragraph 1 中 “she isn’t truly comfortable making herself or her life the heart of any conversation”，“不愿将自己的生活作为谈话核心” 与题干 “自在谈论经历” 描述矛盾，因此判定为 NO。"
+            "text": "题目 31\n答案：NO\nPDF 定位：..she isn't truly comfortable making herself or her life the heart of any conversation.\" 佐证句\nPDF 解析：与\"atease\"相反 NO"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：B\nPDF 定位：\"finding inspiration from her immediate environment ... writing on the side of a bus..\nPDF 解析：灵感来自日常场景"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：E\nPDF 定位：\"adventures on the high seas or in Antarctica, and also in quite unassuming places like the library...\nPDF 解析：同时包含奇异与普通地点"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：I\nPDF 定位：\"a young adult burdened with special powers, such as the ability to cast spells\"\nPDF 解析：主角常具魔法能力"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：H\nPDF 定位：\"while the conclusions ... are usually predictable, they leave the reader feeling absolutely complete\" 关键原句\nPDF 解析：结尾可预见但令人满足 解析"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：B\nPDF 定位：\"The story ballooned ... to 8oo pages and has been through at least two substantial rewrites. Now half its original size....\nPDF 解析：说明写作过程中被大幅重构"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：C\nPDF 定位：\"Bubble Trouble... first appeared in 1991... has been recited by Mahy at countless private and public functions... children and their parents know so well\"\nPDF 解析：体现\"许多家庭的老少皆爱\""
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：D\nPDF 定位：第五段列举自己、继女、子女、孙辈都读Mahy的作品\nPDF 解析：用家族例子说明作品跨世代受欢迎"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：C\nPDF 定位：\"a book is not properly finished ... until it has been read, because a reader brings something important\"\nPDF 解析：读者被视为完成作品所必需"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：A\nPDF 定位：末段引用David Hill故事→\"His storywasa wonderful commentonMahy's vision\"\nPDF 解析：用幽默例子阐释Mahy的世界观"
           }
         ]
       }

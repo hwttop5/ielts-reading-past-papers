@@ -832,7 +832,52 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. matching (Questions 14-20)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 20
+        },
+        "text": "题目 14\n答案：x\nPDF 定位：x The original definition of celebrity\nPDF 解析：结尾两句直接给出\"celebrity\"一词的拉丁语词根celeber及其本义 整段核心是定义来源。\n\n题目 15\n答案：ii\nPDF 定位：ii The influence of non-human celebrities on societies\nPDF 解析：主语是希腊、罗马的神（非人类)；\"immortalswhohadadirect impactontheirlives\"说明其对社会的影响。\n\n题目 16\n答案：v\nPDF 定位：v Admiration forphysicalachievement\nPDF 解析：全段聚焦古奥运冠军与角斗士的\"heroicsandseeminglysuperhuman strength\"，典型的对体能成就的崇拜。\n\n题目 17\n答案：vii\nPDF 定位：vii A result of hardship\nPDF 解析：黑暗时代大众面临\"war,diseaseandfoodshortages\"；在困苦环 境中，宗教人物的神奇事迹为民众带来精神慰藉一-名人崇拜正是 困境的产物。\n\n题目 18\n答案：iv\nPDF 定位：iv Creativity having greater value\nPDF 解析：文艺复兴时期艺术家因\"theirworksandpersonalachievements\"而凌 驾君主宗教人物，说明创造力价值提升。\n\n题目 19\n答案：viii\nPDF 定位：vili Literacy and widespread celebrity\nPDF 解析：17oo年代出版技术成熟→\"hugeriseinthenumberofcommon peoplewhocouldread\"，阅读能力普及导致名声大范围传播。\n\n题目 20\n答案：iii\nPDF 定位：ili The impact of broadcasting on concepts of celebrity\nPDF 解析：段落主体是广播、电视直至真人秀如何改变名人概念（动物也能红、外 表>才能等)。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：x\nPDF 定位：x The original definition of celebrity\nPDF 解析：结尾两句直接给出\"celebrity\"一词的拉丁语词根celeber及其本义 整段核心是定义来源。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：ii\nPDF 定位：ii The influence of non-human celebrities on societies\nPDF 解析：主语是希腊、罗马的神（非人类)；\"immortalswhohadadirect impactontheirlives\"说明其对社会的影响。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：v\nPDF 定位：v Admiration forphysicalachievement\nPDF 解析：全段聚焦古奥运冠军与角斗士的\"heroicsandseeminglysuperhuman strength\"，典型的对体能成就的崇拜。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：vii\nPDF 定位：vii A result of hardship\nPDF 解析：黑暗时代大众面临\"war,diseaseandfoodshortages\"；在困苦环 境中，宗教人物的神奇事迹为民众带来精神慰藉一-名人崇拜正是 困境的产物。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：iv\nPDF 定位：iv Creativity having greater value\nPDF 解析：文艺复兴时期艺术家因\"theirworksandpersonalachievements\"而凌 驾君主宗教人物，说明创造力价值提升。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：viii\nPDF 定位：vili Literacy and widespread celebrity\nPDF 解析：17oo年代出版技术成熟→\"hugeriseinthenumberofcommon peoplewhocouldread\"，阅读能力普及导致名声大范围传播。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：iii\nPDF 定位：ili The impact of broadcasting on concepts of celebrity\nPDF 解析：段落主体是广播、电视直至真人秀如何改变名人概念（动物也能红、外 表>才能等)。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1268,28 +1313,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "2. 历史时期配对（Questions 21–23）",
+        "sectionTitle": "2. matching (Questions 21-23)",
         "mode": "group",
         "questionRange": {
           "start": 21,
           "end": 23
         },
-        "text": "答案：D Modern era （现代）\n解析：G段提到真人秀“allowed all kinds of people with little ability to enjoy a short burst of fame”。\n答案：A Ancient times （古代）\n解析：B段提到这种了解的需求导致了“the creation of myths, which personalised the gods”。\n答案：C Renaissance （文艺复兴时期）\n解析：E段开头说“interest in ruling figures faded...”，艺术家开始超越政治人物。",
+        "text": "题目 21\n答案：D\nPDF 解析：D Modern era G段谈到真人秀\"allowed allkindsof peoplewith littleabilityto enjoy a short burst of fame\"。\n\n题目 22\n答案：A\nPDF 解析：A Ancienttimes B 段\"This need to know led to the creation of myths, which personalised the gods\"。\n\n题目 23\n答案：C\nPDF 解析：C Renaissance E段开头\"interest in ruling figures faded ... artists began to surpass political and religious individuals\"",
         "items": [
           {
             "questionId": "q8",
             "questionNumber": 21,
-            "text": "(1) 题目 21：A wide variety of people achieve a brief period of fame. （各种各样的人获得短暂的名声。）\n答案：D Modern era （现代）\n解析：G段提到真人秀“allowed all kinds of people with little ability to enjoy a short burst of fame”。"
+            "text": "题目 21\n答案：D\nPDF 解析：D Modern era G段谈到真人秀\"allowed allkindsof peoplewith littleabilityto enjoy a short burst of fame\"。"
           },
           {
             "questionId": "q9",
             "questionNumber": 22,
-            "text": "(2) 题目 22：Stories are invented about celebrities' lives. （关于名人生平的故事是被创造出来的。）\n答案：A Ancient times （古代）\n解析：B段提到这种了解的需求导致了“the creation of myths, which personalised the gods”。"
+            "text": "题目 22\n答案：A\nPDF 解析：A Ancienttimes B 段\"This need to know led to the creation of myths, which personalised the gods\"。"
           },
           {
             "questionId": "q10",
             "questionNumber": 23,
-            "text": "(3) 题目 23：The fame of rulers is starting to diminish. （统治者的声望开始减弱。）\n答案：C Renaissance （文艺复兴时期）\n解析：E段开头说“interest in ruling figures faded...”，艺术家开始超越政治人物。"
+            "text": "题目 23\n答案：C\nPDF 解析：C Renaissance E段开头\"interest in ruling figures faded ... artists began to surpass political and religious individuals\""
           }
         ]
       }
@@ -1515,28 +1560,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "3. 摘要填空（Questions 24–26）",
+        "sectionTitle": "3. summary completion (Questions 24-26)",
         "mode": "group",
         "questionRange": {
           "start": 24,
           "end": 26
         },
-        "text": "答案：newspapers\n解析：F段提到，人们“could now be read about in newspapers around the world”。\n答案：appearance\n解析：G段提到，在真人秀时代，“All you needed, it seemed, was an attractive appearance”。\n答案：audience\n解析：G段结尾说，“with the audience deciding whether someone deserves to become a celebrity or not”。",
+        "text": "题目 24\n答案：newspapers\nPDF 定位/解析：F段:people\"could now be read about in newspapers around the world\"。\n\n题目 25\n答案：appearance\nPDF 定位/解析：G段：在真人秀时代，\"All youneeded,itseemed,，wasanattractiveappearance\"。\n\n题目 26\n答案：audience\nPDF 定位/解析：G段结尾：\"with the audiencedecidingwhether someone deserves to become a celebrity or not\"。",
         "items": [
           {
             "questionId": "q11",
             "questionNumber": 24,
-            "text": "(1) 题目 24：A growing number of people could read, which meant they had the chance to become informed about their favourite figures by reading 24 \\___\\___. （越来越多的人能够阅读，这意味着他们有机会通过阅读报纸来了解他们最喜欢的人物。）\n答案：newspapers\n解析：F段提到，人们“could now be read about in newspapers around the world”。"
+            "text": "题目 24\n答案：newspapers\nPDF 定位/解析：F段:people\"could now be read about in newspapers around the world\"。"
           },
           {
             "questionId": "q12",
             "questionNumber": 25,
-            "text": "(2) 题目 25：The recent rise of reality television has also meant that a person's 25 \\___\\___ rather than their talent can bring fame. （真人秀的兴起也意味着一个人的外貌而非其才华可以带来名声。）\n答案：appearance\n解析：G段提到，在真人秀时代，“All you needed, it seemed, was an attractive appearance”。"
+            "text": "题目 25\n答案：appearance\nPDF 定位/解析：G段：在真人秀时代，\"All youneeded,itseemed,，wasanattractiveappearance\"。"
           },
           {
             "questionId": "q13",
             "questionNumber": 26,
-            "text": "(3) 题目 26：With this type of television programme, fame may be entirely dependent on the response of the 26 \\___\\___. （通过这类电视节目，名声可能完全取决于观众的反应。）\n答案：audience\n解析：G段结尾说，“with the audience deciding whether someone deserves to become a celebrity or not”。"
+            "text": "题目 26\n答案：audience\nPDF 定位/解析：G段结尾：\"with the audiencedecidingwhether someone deserves to become a celebrity or not\"。"
           }
         ]
       }

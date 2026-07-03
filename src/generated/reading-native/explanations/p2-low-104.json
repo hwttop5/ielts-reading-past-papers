@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-low-104",
+  "meta": {
+    "examId": "p2-low-104",
+    "title": "1115Should we stop eating meat",
+    "category": "P2",
+    "sourceDoc": "192. P2(1115纸笔) - Should we stop eating meat 是否应该吃素.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "1115纸笔Should we stop eating meat 是否应该吃素",
+    "ocrPages": [
+      5,
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-17)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 17
+      },
+      "text": "题目 14\n答案：E\nPDF 定位：段落E中段 *By giving them your leftovers, she says, they deal with your rubbish, and you get meat. Garnett admits, though, that if this kind of approach were generally adopted, it would require a major adjustment in food preferences; people would have to get used to chicken, for example, with less fat.*\nPDF 解析：\"她说，把剩饭剩菜给这普动物，它们帮你处理 题干里的 *adapt to a different quality of 垃圾，而你得到肉。不过Garnett也承认，如 meat\" 对应 \"major adjustment in food preferences\" 和 \"chicken.. with less fat\", 意 果普遍采用这种方式，人们在饮食偏好上就必 须作出巨大调整；例如，人们得习惯吃脂肪更 思是：如果我们用剩饭喂鸡，鸡的肉会比较癌， 人们要习惯这种质量/口感不同的肉。故选E。 少的鸡肉。\"\n\n题目 15\n答案：D\nPDF 定位：段落D开头 对过去动物如何进食方式的描述 *For most of human history, livestock grazed on land that wasn't suitable for ploughing. and in doing so they converted inedible grass into edible meat and milk.*\nPDF 解析：题干关键词\"in the past\"\"the way animals \"在人类历史的大部分时间里，家畜都在不适合 精种的土地上吃草放牧，通过这种方式把人类不 fed* 对应 \"For most of human history\" 和 能吃的草转化为可以食用的肉和奶。\" \"grazedonland\"，具体描述的是：过去家畜主 要靠在贫土地上吃草来获取食物。故选D。\n\n题目 16\n答案：H\nPDF 定位：关于人类对肉类需求的预测 段落H末尾 \"The United Nations' best guess is that by 2050, the world will need to more than double its production of meat, an increase that would be environmentally disastrous.\"\nPDF 解析：\"联合国的最佳估计是，到2050年，世界将需 \"best gues...by 2050, the world will need 要把肉类产量提高到现在的两倍以上，而这种增 to.\"是标准的\"预测\"表达，对未来肉类需求 的预估，与题干\"a prediction in regard to 长在环境上将是灾难性的。\" human demand for meat\"完全对应。故选 H。\n\n题目 17\n答案：F\nPDF 定位：段落F开头 *Another downside to a meat-free world 肉类世界消失对纺织工业的潜在影响 would be the disappearance of animal by products. Such a world would have to replace the 11 million tonnes of leather and 2 million tonnes of wool that come annually from livestock farming and which are turned into clothing.\"\nPDF 解析：\"没有肉类的世界的另一大缺点是动物副产品会 题干中的\"textile industries\"指的是纺织/服装 行业，对应文中leather..wool..turned into 消失，这样的世界就必须想办法替代每年来自 clothing\"。如果世界不再养畜，就要替代这些纺 畜牧业、并被制成衣物的1100万吨皮革和200 万吨羊毛.\" 织原料，这是对纺织业的潜在后果。故选F。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：E\nPDF 定位：段落E中段 *By giving them your leftovers, she says, they deal with your rubbish, and you get meat. Garnett admits, though, that if this kind of approach were generally adopted, it would require a major adjustment in food preferences; people would have to get used to chicken, for example, with less fat.*\nPDF 解析：\"她说，把剩饭剩菜给这普动物，它们帮你处理 题干里的 *adapt to a different quality of 垃圾，而你得到肉。不过Garnett也承认，如 meat\" 对应 \"major adjustment in food preferences\" 和 \"chicken.. with less fat\", 意 果普遍采用这种方式，人们在饮食偏好上就必 须作出巨大调整；例如，人们得习惯吃脂肪更 思是：如果我们用剩饭喂鸡，鸡的肉会比较癌， 人们要习惯这种质量/口感不同的肉。故选E。 少的鸡肉。\""
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：D\nPDF 定位：段落D开头 对过去动物如何进食方式的描述 *For most of human history, livestock grazed on land that wasn't suitable for ploughing. and in doing so they converted inedible grass into edible meat and milk.*\nPDF 解析：题干关键词\"in the past\"\"the way animals \"在人类历史的大部分时间里，家畜都在不适合 精种的土地上吃草放牧，通过这种方式把人类不 fed* 对应 \"For most of human history\" 和 能吃的草转化为可以食用的肉和奶。\" \"grazedonland\"，具体描述的是：过去家畜主 要靠在贫土地上吃草来获取食物。故选D。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：H\nPDF 定位：关于人类对肉类需求的预测 段落H末尾 \"The United Nations' best guess is that by 2050, the world will need to more than double its production of meat, an increase that would be environmentally disastrous.\"\nPDF 解析：\"联合国的最佳估计是，到2050年，世界将需 \"best gues...by 2050, the world will need 要把肉类产量提高到现在的两倍以上，而这种增 to.\"是标准的\"预测\"表达，对未来肉类需求 的预估，与题干\"a prediction in regard to 长在环境上将是灾难性的。\" human demand for meat\"完全对应。故选 H。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：F\nPDF 定位：段落F开头 *Another downside to a meat-free world 肉类世界消失对纺织工业的潜在影响 would be the disappearance of animal by products. Such a world would have to replace the 11 million tonnes of leather and 2 million tonnes of wool that come annually from livestock farming and which are turned into clothing.\"\nPDF 解析：\"没有肉类的世界的另一大缺点是动物副产品会 题干中的\"textile industries\"指的是纺织/服装 行业，对应文中leather..wool..turned into 消失，这样的世界就必须想办法替代每年来自 clothing\"。如果世界不再养畜，就要替代这些纺 畜牧业、并被制成衣物的1100万吨皮革和200 万吨羊毛.\" 织原料，这是对纺织业的潜在后果。故选F。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 18-22)",
+      "mode": "group",
+      "questionRange": {
+        "start": 18,
+        "end": 22
+      },
+      "text": "题目 18\n答案：irrigation\nPDF 定位：*All agriculture damages the environment. 现代农业中经常使用的， 段落B，句1-2 Take for example the felled forests and the common use of irrigation systems.*\nPDF 解析：\"所有农业都会破坏环境。举例来说，有被砍伐 概要里说\"the frequent use of__ in modern 的森林，以及灌强系统的普遍使用。 farming\", 与原文\"common use of irigation systems同义。只需用一个词，所以填 irrigation,\n\n题目 19\n答案：transport\nPDF 定位：造成的还多 段落B，甸3 *And it may surprise you to know that agriculture creates more greenhouse gases than all methods of transport put together.\nPDF 解析：\"你可能会惊诉：农业产生的逼室气体比所有形 概要中\"more so than, is\"指代产生温室气 体的另一个来源。原文明确对比agriculturevs 式的交通运输加起来还多，\" transport, 所以填 transport.\n\n题目 20\n答案：land\nPDF 定位：实际上更少的， 可以用于种植作物 段落B .if we switched to a vegan diet.. the land currently required for crops would drop by an estimated 21 per cent..*\nPDF 解析：\"如果我们改为纯素饮食， 概要里的 \"A meat-free diet would mean that ，当前种植作物所需的 actually less _ could be used for crops\" 把 土地预计将减少21%。\" \"would drop\"改写为\"could be used\"，这里指 的就是作物所需的land，\n\n题目 21\n答案：nitrogen\nPDF 定位：.尤其是以 的形式，也会大大减少 段落C开头 .that of the nitrogen emitted from agricultural processes, which spreads into both waterways and land.*\nPDF 解析：\"（会减弱的环境影响之一）就是农业过程排放的 概要里提到」\"Far less chemical pollution, specifically in the form of_, would also be 氢，它扩散到水路和土地中。\" released..\",与原文\"nitrogen emitted..\"完 全对应，因此填nitrogen。\n\n题目 22\n答案：erosion\nPDF 定位：是由放牧用地需求造成的 …·大量的 段落C中部 *Global statistics are hard to come by, but in the US at least, livestock account for 55% of erosion, mostly from forests being cut down to make way for grazing land.*\nPDF 解析：概要句说\"considerable_is caused by the \"全球的数据很难获得，但至少在美国，畜牧业 demand for grazing land\", 和原文\"erosion.. 要对55%的水土流失/侵蚀负责，这主要是因为 要欲伐森林来开辟故牧地。 from forests being cut down to make way for grazing land\"完全平行，所以答案是 erosion。",
+      "items": [
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：irrigation\nPDF 定位：*All agriculture damages the environment. 现代农业中经常使用的， 段落B，句1-2 Take for example the felled forests and the common use of irrigation systems.*\nPDF 解析：\"所有农业都会破坏环境。举例来说，有被砍伐 概要里说\"the frequent use of__ in modern 的森林，以及灌强系统的普遍使用。 farming\", 与原文\"common use of irigation systems同义。只需用一个词，所以填 irrigation,"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：transport\nPDF 定位：造成的还多 段落B，甸3 *And it may surprise you to know that agriculture creates more greenhouse gases than all methods of transport put together.\nPDF 解析：\"你可能会惊诉：农业产生的逼室气体比所有形 概要中\"more so than, is\"指代产生温室气 体的另一个来源。原文明确对比agriculturevs 式的交通运输加起来还多，\" transport, 所以填 transport."
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：land\nPDF 定位：实际上更少的， 可以用于种植作物 段落B .if we switched to a vegan diet.. the land currently required for crops would drop by an estimated 21 per cent..*\nPDF 解析：\"如果我们改为纯素饮食， 概要里的 \"A meat-free diet would mean that ，当前种植作物所需的 actually less _ could be used for crops\" 把 土地预计将减少21%。\" \"would drop\"改写为\"could be used\"，这里指 的就是作物所需的land，"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：nitrogen\nPDF 定位：.尤其是以 的形式，也会大大减少 段落C开头 .that of the nitrogen emitted from agricultural processes, which spreads into both waterways and land.*\nPDF 解析：\"（会减弱的环境影响之一）就是农业过程排放的 概要里提到」\"Far less chemical pollution, specifically in the form of_, would also be 氢，它扩散到水路和土地中。\" released..\",与原文\"nitrogen emitted..\"完 全对应，因此填nitrogen。"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：erosion\nPDF 定位：是由放牧用地需求造成的 …·大量的 段落C中部 *Global statistics are hard to come by, but in the US at least, livestock account for 55% of erosion, mostly from forests being cut down to make way for grazing land.*\nPDF 解析：概要句说\"considerable_is caused by the \"全球的数据很难获得，但至少在美国，畜牧业 demand for grazing land\", 和原文\"erosion.. 要对55%的水土流失/侵蚀负责，这主要是因为 要欲伐森林来开辟故牧地。 from forests being cut down to make way for grazing land\"完全平行，所以答案是 erosion。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. matching (Questions 23-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 23,
+        "end": 26
+      },
+      "text": "题目 23\n答案：C\nPDF 定位：段落 F中后部(Annette Pinner)\nPDF 解析：**Whilst there's no doubt that considerable \"AnnettePinner说：\"尽管毫无疑间，大幅减少 始强调要小心声移\"全世界都吃素是最佳方案\"， 肉类消费会给环境带来好处，但在说\"如果全世 也就是说不能简单认为素食适合所有人和所 reduction of meat consumption would have an environmental benefit, we do have to be 界都变成素食者那就是最好的解决方案\"时，我 有国家，正好对应题干。故23选CAnnette careful about saying it would be the best 们必须谨慎。\" Pinner. solution if the whole world went vegetarian,\n\n题目 24\n答案：E\nPDF 定位：段落|中部 (Walter Falcon)\nPDF 解析：\"农业经济学家WalterFalcon认为，这意味着 *According to Walter Falcon, an agricultural 这里\"intensiveones\"=集约化/高密度慢养系 要减少在绿地上放养的牛和羊。他说：\"如果你要 统，前文背景是\"producing the most meat economist, this means fewer free range catte and sheep in green fields. f you're 保雷一些畜牧系统，我认为你会想保留的是部些 at the lowest environmental cost\",在雅思 going to keep some livestock systems,Ithink 题中常把\"成本任、更高效\"视作\"经济上更可 集约化饲养的系统。\"\" the ones youll want to keep are the intensive 取\", 与干 \"economically preferable to farm animals in limited space\"对应，因此 24 逸 E ones, he says.* Walter Falcon,\n\n题目 25\n答案：D\nPDF 定位：段落 G 中部 (Helmut Haberl)\nPDF 解析：\"HelmutHaberl说：特向只喝奶不吃肉的饮食 他的意思是：如果续喝奶，就一定会有大量公 **it's difficult to switch to a no-meat-but- 牛出生，如果出于\"素食\"立场不吃这蓝肉，就 milk diet, says Helmut Haberl.. wile many 是很难的...尽管许多素食者出于道德理由不想 vegetarians see moral reasons not to kiland 杀死并吃掉这些雄性动物，但从实际角度看，并 等于浪费-从\"practical\"角度看不合理。对应 eat the males, there is surely no practical 墨于 *it does not make sense to give up meat 没有理由浪费这么多肉。\" reason to waste so much meat.* without giving up dairy products too.* 数 25 D Helmut Haberl,\n\n题目 26\n答案：B\nPDF 定位：段落E开头(Tara Garnett)\nPDF 解析：\"Tara Garnett.. points out the usefulness of \"Tara Garnett指出了这费动物的用速。她说。 these animals. By giving them your leftovers, 给鸡，相当于用动物来回收处理废弃物，与 把你的剩饭剩菜给它们，它们就帮你处理垃圾， she says, they deal with your rubbish, and 于 *fed in a way thatallows waste to be 而你还靠得到肉。\" you get meat.* recycled\"正好对应，故 26选 B Tara Garnett，",
+      "items": [
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：C\nPDF 定位：段落 F中后部(Annette Pinner)\nPDF 解析：**Whilst there's no doubt that considerable \"AnnettePinner说：\"尽管毫无疑间，大幅减少 始强调要小心声移\"全世界都吃素是最佳方案\"， 肉类消费会给环境带来好处，但在说\"如果全世 也就是说不能简单认为素食适合所有人和所 reduction of meat consumption would have an environmental benefit, we do have to be 界都变成素食者那就是最好的解决方案\"时，我 有国家，正好对应题干。故23选CAnnette careful about saying it would be the best 们必须谨慎。\" Pinner. solution if the whole world went vegetarian,"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：E\nPDF 定位：段落|中部 (Walter Falcon)\nPDF 解析：\"农业经济学家WalterFalcon认为，这意味着 *According to Walter Falcon, an agricultural 这里\"intensiveones\"=集约化/高密度慢养系 要减少在绿地上放养的牛和羊。他说：\"如果你要 统，前文背景是\"producing the most meat economist, this means fewer free range catte and sheep in green fields. f you're 保雷一些畜牧系统，我认为你会想保留的是部些 at the lowest environmental cost\",在雅思 going to keep some livestock systems,Ithink 题中常把\"成本任、更高效\"视作\"经济上更可 集约化饲养的系统。\"\" the ones youll want to keep are the intensive 取\", 与干 \"economically preferable to farm animals in limited space\"对应，因此 24 逸 E ones, he says.* Walter Falcon,"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：D\nPDF 定位：段落 G 中部 (Helmut Haberl)\nPDF 解析：\"HelmutHaberl说：特向只喝奶不吃肉的饮食 他的意思是：如果续喝奶，就一定会有大量公 **it's difficult to switch to a no-meat-but- 牛出生，如果出于\"素食\"立场不吃这蓝肉，就 milk diet, says Helmut Haberl.. wile many 是很难的...尽管许多素食者出于道德理由不想 vegetarians see moral reasons not to kiland 杀死并吃掉这些雄性动物，但从实际角度看，并 等于浪费-从\"practical\"角度看不合理。对应 eat the males, there is surely no practical 墨于 *it does not make sense to give up meat 没有理由浪费这么多肉。\" reason to waste so much meat.* without giving up dairy products too.* 数 25 D Helmut Haberl,"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：B\nPDF 定位：段落E开头(Tara Garnett)\nPDF 解析：\"Tara Garnett.. points out the usefulness of \"Tara Garnett指出了这费动物的用速。她说。 these animals. By giving them your leftovers, 给鸡，相当于用动物来回收处理废弃物，与 把你的剩饭剩菜给它们，它们就帮你处理垃圾， she says, they deal with your rubbish, and 于 *fed in a way thatallows waste to be 而你还靠得到肉。\" you get meat.* recycled\"正好对应，故 26选 B Tara Garnett，"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：E\nPDF 定位：段落E中段 *By giving them your leftovers, she says, they deal with your rubbish, and you get meat. Garnett admits, though, that if this kind of approach were generally adopted, it would require a major adjustment in food preferences; people would have to get used to chicken, for example, with less fat.*\nPDF 解析：\"她说，把剩饭剩菜给这普动物，它们帮你处理 题干里的 *adapt to a different quality of 垃圾，而你得到肉。不过Garnett也承认，如 meat\" 对应 \"major adjustment in food preferences\" 和 \"chicken.. with less fat\", 意 果普遍采用这种方式，人们在饮食偏好上就必 须作出巨大调整；例如，人们得习惯吃脂肪更 思是：如果我们用剩饭喂鸡，鸡的肉会比较癌， 人们要习惯这种质量/口感不同的肉。故选E。 少的鸡肉。\""
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：D\nPDF 定位：段落D开头 对过去动物如何进食方式的描述 *For most of human history, livestock grazed on land that wasn't suitable for ploughing. and in doing so they converted inedible grass into edible meat and milk.*\nPDF 解析：题干关键词\"in the past\"\"the way animals \"在人类历史的大部分时间里，家畜都在不适合 精种的土地上吃草放牧，通过这种方式把人类不 fed* 对应 \"For most of human history\" 和 能吃的草转化为可以食用的肉和奶。\" \"grazedonland\"，具体描述的是：过去家畜主 要靠在贫土地上吃草来获取食物。故选D。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：H\nPDF 定位：关于人类对肉类需求的预测 段落H末尾 \"The United Nations' best guess is that by 2050, the world will need to more than double its production of meat, an increase that would be environmentally disastrous.\"\nPDF 解析：\"联合国的最佳估计是，到2050年，世界将需 \"best gues...by 2050, the world will need 要把肉类产量提高到现在的两倍以上，而这种增 to.\"是标准的\"预测\"表达，对未来肉类需求 的预估，与题干\"a prediction in regard to 长在环境上将是灾难性的。\" human demand for meat\"完全对应。故选 H。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：F\nPDF 定位：段落F开头 *Another downside to a meat-free world 肉类世界消失对纺织工业的潜在影响 would be the disappearance of animal by products. Such a world would have to replace the 11 million tonnes of leather and 2 million tonnes of wool that come annually from livestock farming and which are turned into clothing.\"\nPDF 解析：\"没有肉类的世界的另一大缺点是动物副产品会 题干中的\"textile industries\"指的是纺织/服装 行业，对应文中leather..wool..turned into 消失，这样的世界就必须想办法替代每年来自 clothing\"。如果世界不再养畜，就要替代这些纺 畜牧业、并被制成衣物的1100万吨皮革和200 万吨羊毛.\" 织原料，这是对纺织业的潜在后果。故选F。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：irrigation\nPDF 定位：*All agriculture damages the environment. 现代农业中经常使用的， 段落B，句1-2 Take for example the felled forests and the common use of irrigation systems.*\nPDF 解析：\"所有农业都会破坏环境。举例来说，有被砍伐 概要里说\"the frequent use of__ in modern 的森林，以及灌强系统的普遍使用。 farming\", 与原文\"common use of irigation systems同义。只需用一个词，所以填 irrigation,"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：transport\nPDF 定位：造成的还多 段落B，甸3 *And it may surprise you to know that agriculture creates more greenhouse gases than all methods of transport put together.\nPDF 解析：\"你可能会惊诉：农业产生的逼室气体比所有形 概要中\"more so than, is\"指代产生温室气 体的另一个来源。原文明确对比agriculturevs 式的交通运输加起来还多，\" transport, 所以填 transport."
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：land\nPDF 定位：实际上更少的， 可以用于种植作物 段落B .if we switched to a vegan diet.. the land currently required for crops would drop by an estimated 21 per cent..*\nPDF 解析：\"如果我们改为纯素饮食， 概要里的 \"A meat-free diet would mean that ，当前种植作物所需的 actually less _ could be used for crops\" 把 土地预计将减少21%。\" \"would drop\"改写为\"could be used\"，这里指 的就是作物所需的land，"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：nitrogen\nPDF 定位：.尤其是以 的形式，也会大大减少 段落C开头 .that of the nitrogen emitted from agricultural processes, which spreads into both waterways and land.*\nPDF 解析：\"（会减弱的环境影响之一）就是农业过程排放的 概要里提到」\"Far less chemical pollution, specifically in the form of_, would also be 氢，它扩散到水路和土地中。\" released..\",与原文\"nitrogen emitted..\"完 全对应，因此填nitrogen。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：erosion\nPDF 定位：是由放牧用地需求造成的 …·大量的 段落C中部 *Global statistics are hard to come by, but in the US at least, livestock account for 55% of erosion, mostly from forests being cut down to make way for grazing land.*\nPDF 解析：概要句说\"considerable_is caused by the \"全球的数据很难获得，但至少在美国，畜牧业 demand for grazing land\", 和原文\"erosion.. 要对55%的水土流失/侵蚀负责，这主要是因为 要欲伐森林来开辟故牧地。 from forests being cut down to make way for grazing land\"完全平行，所以答案是 erosion。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：C\nPDF 定位：段落 F中后部(Annette Pinner)\nPDF 解析：**Whilst there's no doubt that considerable \"AnnettePinner说：\"尽管毫无疑间，大幅减少 始强调要小心声移\"全世界都吃素是最佳方案\"， 肉类消费会给环境带来好处，但在说\"如果全世 也就是说不能简单认为素食适合所有人和所 reduction of meat consumption would have an environmental benefit, we do have to be 界都变成素食者那就是最好的解决方案\"时，我 有国家，正好对应题干。故23选CAnnette careful about saying it would be the best 们必须谨慎。\" Pinner. solution if the whole world went vegetarian,"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：E\nPDF 定位：段落|中部 (Walter Falcon)\nPDF 解析：\"农业经济学家WalterFalcon认为，这意味着 *According to Walter Falcon, an agricultural 这里\"intensiveones\"=集约化/高密度慢养系 要减少在绿地上放养的牛和羊。他说：\"如果你要 统，前文背景是\"producing the most meat economist, this means fewer free range catte and sheep in green fields. f you're 保雷一些畜牧系统，我认为你会想保留的是部些 at the lowest environmental cost\",在雅思 going to keep some livestock systems,Ithink 题中常把\"成本任、更高效\"视作\"经济上更可 集约化饲养的系统。\"\" the ones youll want to keep are the intensive 取\", 与干 \"economically preferable to farm animals in limited space\"对应，因此 24 逸 E ones, he says.* Walter Falcon,"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：D\nPDF 定位：段落 G 中部 (Helmut Haberl)\nPDF 解析：\"HelmutHaberl说：特向只喝奶不吃肉的饮食 他的意思是：如果续喝奶，就一定会有大量公 **it's difficult to switch to a no-meat-but- 牛出生，如果出于\"素食\"立场不吃这蓝肉，就 milk diet, says Helmut Haberl.. wile many 是很难的...尽管许多素食者出于道德理由不想 vegetarians see moral reasons not to kiland 杀死并吃掉这些雄性动物，但从实际角度看，并 等于浪费-从\"practical\"角度看不合理。对应 eat the males, there is surely no practical 墨于 *it does not make sense to give up meat 没有理由浪费这么多肉。\" reason to waste so much meat.* without giving up dairy products too.* 数 25 D Helmut Haberl,"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：B\nPDF 定位：段落E开头(Tara Garnett)\nPDF 解析：\"Tara Garnett.. points out the usefulness of \"Tara Garnett指出了这费动物的用速。她说。 these animals. By giving them your leftovers, 给鸡，相当于用动物来回收处理废弃物，与 把你的剩饭剩菜给它们，它们就帮你处理垃圾， she says, they deal with your rubbish, and 于 *fed in a way thatallows waste to be 而你还靠得到肉。\" you get meat.* recycled\"正好对应，故 26选 B Tara Garnett，"
+    }
+  }
+}

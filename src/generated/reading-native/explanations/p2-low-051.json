@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-low-051",
+  "meta": {
+    "examId": "p2-low-051",
+    "title": "The dingo debate _",
+    "category": "P2",
+    "sourceDoc": "51. P2 - The dingo debate 澳洲野犬_澳洲野狗.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The dingo debate 澳洲野犬_澳洲野狗",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. single choice (Questions 14-20)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 20
+      },
+      "text": "题目 14\n答案：E\nPDF 定位：..it is there to keep dingoes out of southeast... the fence separates the main types of livestock found in Australia. To the northwest of the fence, cattle predominate; to the southwest, sheep fll the landscape.\" (段 E)\nPDF 解析：描述了2500km长的栅栏，既阻挡野狗，又把两种外来经济动物一 牛和羊 分隔在两侧。\n\n题目 15\n答案：D\nPDF 定位：\" Johnson says dingoes are the solution... because they keep cat and fox dingoes will kill them simply to lessen competition. (段 D)\nPDF 解析：说明野狗通过捕食甚至\"竞争性捕杀\"猫、孤来防止竞争物种数量过大。\n\n题目 16\n答案：C\nPDF 定位：\"Rabbits provide huge prey base for two other introduced species: the feral (wild) cat and the red fox.\" (段 C)\nPDF 解析：提到遍布全国的外来物种\"免子\"，并点出猫、狐狸依赖其为食。\n\n题目 17\n答案：B\nPDF 定位：\"About 4 0oo years ago, Asian sailors introduced dingoes to Australia.\" (段B)\nPDF 解析：明确说明野狗抵达澳大利亚的时间和方式。\n\n题目 18\n答案：F\nPDF 定位：...some of the highest rates of calf predation occurred in areas that had been\nPDF 解析：LeeAllen的研究发现：被诱杀后返巢的年轻野狗捕食小牛犊，表明野狗开始 吃幼年家畜。\n\n题目 19\n答案：A\nPDF 定位：\".drop 1 ooo small pieces of meat... each piece laced with poison; this practice is known as baiting.\" (段 A)\nPDF 解析：详细描述了飞机投放毒肉诱杀（baiting）的方法。\n\n题目 20\n答案：D\nPDF 解析：解释了群体结构（仅一只可繁殖雌性）如何限制种群增长速度。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：E\nPDF 定位：..it is there to keep dingoes out of southeast... the fence separates the main types of livestock found in Australia. To the northwest of the fence, cattle predominate; to the southwest, sheep fll the landscape.\" (段 E)\nPDF 解析：描述了2500km长的栅栏，既阻挡野狗，又把两种外来经济动物一 牛和羊 分隔在两侧。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：D\nPDF 定位：\" Johnson says dingoes are the solution... because they keep cat and fox dingoes will kill them simply to lessen competition. (段 D)\nPDF 解析：说明野狗通过捕食甚至\"竞争性捕杀\"猫、孤来防止竞争物种数量过大。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：C\nPDF 定位：\"Rabbits provide huge prey base for two other introduced species: the feral (wild) cat and the red fox.\" (段 C)\nPDF 解析：提到遍布全国的外来物种\"免子\"，并点出猫、狐狸依赖其为食。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：B\nPDF 定位：\"About 4 0oo years ago, Asian sailors introduced dingoes to Australia.\" (段B)\nPDF 解析：明确说明野狗抵达澳大利亚的时间和方式。"
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：F\nPDF 定位：...some of the highest rates of calf predation occurred in areas that had been\nPDF 解析：LeeAllen的研究发现：被诱杀后返巢的年轻野狗捕食小牛犊，表明野狗开始 吃幼年家畜。"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：A\nPDF 定位：\".drop 1 ooo small pieces of meat... each piece laced with poison; this practice is known as baiting.\" (段 A)\nPDF 解析：详细描述了飞机投放毒肉诱杀（baiting）的方法。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：D\nPDF 解析：解释了群体结构（仅一只可繁殖雌性）如何限制种群增长速度。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. single choice (Questions 21-23)",
+      "mode": "group",
+      "questionRange": {
+        "start": 21,
+        "end": 23
+      },
+      "text": "题目 21\n答案：D\nPDF 定位：..he is not convinced that they manage to catch cats that often, believing they are more likely to catch small native animals instead.\" (段G)\nPDF 解析：Clifford认为野狗主要捕食本土小动物，而不是其他外来捕食者（猫)。\n\n题目 22\n答案：A\nPDF 定位：\"Stuart McKechnie complains that graziers' livelihoods are threatened when dingoes prey on cattle.\" (段 A)\nPDF 解析：McKechnie指出野狗威胁牧民收入。\n\n题目 23\n答案：B\nPDF 定位：\"In the 4 ooo years that dingoes have been Australia, they have contributed to few, if any, extinctions, Johnson says.\" (段 D)\nPDF 解析：Johnson认为野狗对物种灭绝影响甚微。",
+      "items": [
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：D\nPDF 定位：..he is not convinced that they manage to catch cats that often, believing they are more likely to catch small native animals instead.\" (段G)\nPDF 解析：Clifford认为野狗主要捕食本土小动物，而不是其他外来捕食者（猫)。"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：A\nPDF 定位：\"Stuart McKechnie complains that graziers' livelihoods are threatened when dingoes prey on cattle.\" (段 A)\nPDF 解析：McKechnie指出野狗威胁牧民收入。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：B\nPDF 定位：\"In the 4 ooo years that dingoes have been Australia, they have contributed to few, if any, extinctions, Johnson says.\" (段 D)\nPDF 解析：Johnson认为野狗对物种灭绝影响甚微。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. sentence completion (Questions 24-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：Tasmanian tiger\nPDF 定位：...as the Tasmanian tiger disappeared completely from Australia, dingoes became Australia's top predators.\" (段 B)\nPDF 解析：说明袋狼消失后由野狗取代其顶级捕食者地位。\n\n题目 25\n答案：rabbits\nPDF 定位：..when bad seasons follow, rabbit numbers are significantly reduced and the dwindling but stillarge fox and cat populations are left with little to eat besides nativemammals.(段C)\nPDF 解析：当兔子数量下降时，狐与猫更倾向捕食本土动物。\n\n题目 26\n答案：overpopulation\nPDF 定位：\"Australian mammals generally reproduce much more slowly... an adaption to prevent overpopulation in the arid environment...\" (段 D)\nPDF 解析：慢速繁殖是一种避免\"过度繁殖\"（overpopulation）的自然适应。",
+      "items": [
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：Tasmanian tiger\nPDF 定位：...as the Tasmanian tiger disappeared completely from Australia, dingoes became Australia's top predators.\" (段 B)\nPDF 解析：说明袋狼消失后由野狗取代其顶级捕食者地位。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：rabbits\nPDF 定位：..when bad seasons follow, rabbit numbers are significantly reduced and the dwindling but stillarge fox and cat populations are left with little to eat besides nativemammals.(段C)\nPDF 解析：当兔子数量下降时，狐与猫更倾向捕食本土动物。"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：overpopulation\nPDF 定位：\"Australian mammals generally reproduce much more slowly... an adaption to prevent overpopulation in the arid environment...\" (段 D)\nPDF 解析：慢速繁殖是一种避免\"过度繁殖\"（overpopulation）的自然适应。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：E\nPDF 定位：..it is there to keep dingoes out of southeast... the fence separates the main types of livestock found in Australia. To the northwest of the fence, cattle predominate; to the southwest, sheep fll the landscape.\" (段 E)\nPDF 解析：描述了2500km长的栅栏，既阻挡野狗，又把两种外来经济动物一 牛和羊 分隔在两侧。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：D\nPDF 定位：\" Johnson says dingoes are the solution... because they keep cat and fox dingoes will kill them simply to lessen competition. (段 D)\nPDF 解析：说明野狗通过捕食甚至\"竞争性捕杀\"猫、孤来防止竞争物种数量过大。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：C\nPDF 定位：\"Rabbits provide huge prey base for two other introduced species: the feral (wild) cat and the red fox.\" (段 C)\nPDF 解析：提到遍布全国的外来物种\"免子\"，并点出猫、狐狸依赖其为食。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：B\nPDF 定位：\"About 4 0oo years ago, Asian sailors introduced dingoes to Australia.\" (段B)\nPDF 解析：明确说明野狗抵达澳大利亚的时间和方式。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：F\nPDF 定位：...some of the highest rates of calf predation occurred in areas that had been\nPDF 解析：LeeAllen的研究发现：被诱杀后返巢的年轻野狗捕食小牛犊，表明野狗开始 吃幼年家畜。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：A\nPDF 定位：\".drop 1 ooo small pieces of meat... each piece laced with poison; this practice is known as baiting.\" (段 A)\nPDF 解析：详细描述了飞机投放毒肉诱杀（baiting）的方法。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：D\nPDF 解析：解释了群体结构（仅一只可繁殖雌性）如何限制种群增长速度。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：D\nPDF 定位：..he is not convinced that they manage to catch cats that often, believing they are more likely to catch small native animals instead.\" (段G)\nPDF 解析：Clifford认为野狗主要捕食本土小动物，而不是其他外来捕食者（猫)。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：A\nPDF 定位：\"Stuart McKechnie complains that graziers' livelihoods are threatened when dingoes prey on cattle.\" (段 A)\nPDF 解析：McKechnie指出野狗威胁牧民收入。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：B\nPDF 定位：\"In the 4 ooo years that dingoes have been Australia, they have contributed to few, if any, extinctions, Johnson says.\" (段 D)\nPDF 解析：Johnson认为野狗对物种灭绝影响甚微。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：Tasmanian tiger\nPDF 定位：...as the Tasmanian tiger disappeared completely from Australia, dingoes became Australia's top predators.\" (段 B)\nPDF 解析：说明袋狼消失后由野狗取代其顶级捕食者地位。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：rabbits\nPDF 定位：..when bad seasons follow, rabbit numbers are significantly reduced and the dwindling but stillarge fox and cat populations are left with little to eat besides nativemammals.(段C)\nPDF 解析：当兔子数量下降时，狐与猫更倾向捕食本土动物。"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：overpopulation\nPDF 定位：\"Australian mammals generally reproduce much more slowly... an adaption to prevent overpopulation in the arid environment...\" (段 D)\nPDF 解析：慢速繁殖是一种避免\"过度繁殖\"（overpopulation）的自然适应。"
+    }
+  }
+}

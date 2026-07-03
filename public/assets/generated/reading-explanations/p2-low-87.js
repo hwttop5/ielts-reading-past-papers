@@ -8,112 +8,113 @@
   "examId": "p2-low-87",
   "meta": {
     "examId": "p2-low-87",
-    "title": "Speaking of Nothing 闲聊的意义",
+    "title": "1025纸笔Speaking of Nothing [Pretest] 闲聊的意义",
     "category": "P2",
-    "sourceDoc": "177. 1025纸笔P2 - Speaking of Nothing [Pretest] 闲聊的意义.pdf",
-    "noteType": "翻译+解析",
-    "matchedTitle": "Speaking of Nothing"
+    "sourceDoc": "177. P2（1025纸笔）[Pretest]  - Speaking of Nothing 闲聊的意义.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "1025纸笔Speaking of Nothing [Pretest] 闲聊的意义",
+    "ocrPages": [
+      6,
+      7
+    ],
+    "pdfPageCount": 7,
+    "fallbackQuestionCount": 0
   },
   "passageNotes": [
     {
-      "label": "Paragraph A",
-      "text": "一些职业（如保安、卡车司机、销售）长期被列为“最不快乐职业”，并不只因工时、薪酬或晋升受限，还因为缺少有意义交流，或必须进行空洞寒暄。文中把这类寒暄定义为天气、度假、食物等低信息量话题，并指出心理学界早已认为“与他人建立真实连接”是幸福感核心，但人究竟需要多少对话仍在研究中。"
-    },
-    {
-      "label": "Paragraph B",
-      "text": "亚利桑那大学的 Matthias R. Mehl 与 Simine Vazire 用录音设备跟踪受试者日常短对话，并把对话分成 small talk 与 substantive（实质性）两类。结果显示，实质性对话越多，个体越可能报告更高幸福感与满足感；最幸福学生的实质性对话量约为最不幸福者两倍，而其 small talk 占比仅约 10%，显著低于后者约 30%。"
-    },
-    {
-      "label": "Paragraph C",
-      "text": "作者并未否定 small talk 的价值。研究者认为它虽不以传递信息为主，却能促进社会纽带。Kulahci 团队在狐猴研究中发现：动物会把类似“呼应式聊天”的发声行为保留给它们最常互相梳理毛发的同伴，说明声音互动和身体接触共同指向亲密关系维护。"
-    },
-    {
-      "label": "Paragraph D",
-      "text": "芝加哥大学的 Epley 与 Schroeder 研究陌生人互动：让通勤者在火车上尝试与常见陌生人聊天。结果与参与者预期相反，主动开口者普遍获得积极回应，并报告更愉快旅程；人们原先以为他人更想独处，这一预测被实验推翻。"
-    },
-    {
-      "label": "Paragraph E",
-      "text": "在咖啡店、画廊、候诊室等场景，把“事务性交互”转成“社交性交互”会提升情绪和归属感。Sandstrom 与 Dunn 的研究显示，与服务人员发生简短社交互动者，比只想赶紧完成交易者感觉更好；画廊与实验室场景也呈现类似“连接的愉悦可传播”效应。"
-    },
-    {
-      "label": "Paragraph F",
-      "text": "并非所有人都擅长寒暄。Kashdan 研究指出，低好奇心者更难自然开启对话，但若提供能促使对方分享生活的主题词（topics），就更容易建立亲近感；高好奇心者则更能把普通话题转向深入交流。Fleeson 的实验也表明，让内向者短时采用外向行为同样会提升积极情绪。结论是：每个人都能从更多、且更有意义的对话中受益。"
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
     }
   ],
   "questionExplanations": [
     {
-      "sectionTitle": "1. 段落标题匹配（Questions 14–19）",
+      "sectionTitle": "1. matching (Questions 14-29)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 14,
-          "text": "题目：Paragraph A 的最佳标题。\n题目翻译：为 A 段选择最合适的小标题。\n答案：vii\n解析：A 段强调若职业中缺少有意义对话，幸福感会下降，且点名几类“几乎没有有趣交流”的工作，对应 vii。",
+          "text": "题目 14\n答案：vii\nPDF 定位：(vii) Some occupations involve lttle or no \"However, these three types of work interesting conversation=某些职业几乎没有 stand out for another reason: they're characterised by a lack of conversation 或没有有遵的交谈 or by meaningless smalltalk, which unfortunately represents an obligatory part of the job.\"(第A段)\nPDF 解析：\"然而，这三种工作还有另一个显著特点：要么 第A段以保安、卡车司机、推销员为例，核心 信息就是这些职业\"没有谈话/只有无意义的闲 缺少交谈，要么只有无意义的寒喧，而且不幸的 聊\"，与(vi)完全对应。排除：不是(iv)分类研 是，这种寒喧还是工作中不可或缺的一部分。\" 究；也不是(i)声音+身体接触。",
           "questionId": "q1"
         },
         {
           "questionNumber": 15,
-          "text": "题目：Paragraph B 的最佳标题。\n题目翻译：为 B 段选择最合适的小标题。\n答案：iv\n解析：B 段核心是把对话系统分成 small talk 与 substantive 两类并做统计分析，对应 iv（对口语交流类型进行分类研究）。",
+          "text": "题目 15\n答案：iv\nPDF 定位：(iv) A study that categorised types of *the researchers... catalogued each spoken exchanges=把口头交流按类型进行 overheard conversation as either 'small 分类的研究 talk'... or'substantive'... （第B段)\nPDF 解析：\"研究者..把愉听到的每段谈话归类为\"闲聊\"或 关键词\"catalogued...as either...or..\"正是 \"按类型分类\"。随后又比较两类谈话与幸福 实质性交谈 感的关系。",
           "questionId": "q2"
         },
         {
           "questionNumber": 16,
-          "text": "题目：Paragraph C 的最佳标题。\n题目翻译：为 C 段选择最合适的小标题。\n答案：i\n解析：C 段通过狐猴研究把“发声互动”与“梳理毛发（身体接触）”联系起来，说明二者共同强化社交纽带，对应 i。",
+          "text": "题目 16\n答案：i\nPDF 定位：(i) How sounds and physical contact *tested the relationship between vocal exchanges and grooming in lemurs... strengthen social connections =声音与身体 接触如何强化社会联结 animals reserve their call-and-response conversations...for the animals they groom the most\"(第C段）\nPDF 解析：\"（研究）测试孤猴的发声交流与互相梳理之间的 （身体接触）\"，说明二者共同巩围社会纽带，完 关系.它们把类似人类闲聊的你来我往的叫声 留给梳理关系最密切的个体。\" 全契合(1)。",
           "questionId": "q3"
         },
         {
           "questionNumber": 17,
-          "text": "题目：Paragraph D 的最佳标题。\n题目翻译：为 D 段选择最合适的小标题。\n答案：iii\n解析：D 段是火车通勤实验，结果与参与者事先预期相反，典型“令人意外的实验结果”，对应 iii。",
+          "text": "题目 17\n答案：iii\nPDF 定位：(ii) An experiment that led to surprising \"Those told to chat with others reported a results=产生出乎意料结果的实验 more pleasant journey.. Participants had predicted precisely the opposite outcome. They expected that the others... would have preferred to be left alone.\" (第 D段)\nPDF 解析：\"被要求与人聊天的参与者表示旅途更愉快...而 实验前后预期与实际相反，\"出人意料\"非常明 参与者事前的预测恰恰相反。他们以为别人宁愿 显：同时出现\"train commuters\"场景。 被独自留下。\"",
           "questionId": "q4"
         },
         {
           "questionNumber": 18,
-          "text": "题目：Paragraph E 的最佳标题。\n题目翻译：为 E 段选择最合适的小标题。\n答案：ix\n解析：E 段列举咖啡店、画廊、候诊室等多种日常场景，说明寒暄让这些场景体验变好，对应 ix。",
+          "text": "题目 18\n答案：ix\nPDF 定位：(ix) A range of common situations that were *in a study... in a coffee shop.. In similar enhancedbysmall talk=多种常见情境因闲 studies, when volunteers broke the silence 聊而更美好 at a gallery.. In a laboratory waiting room, participants who were talked to..\" (第E段)\nPDF 解析：一口气给出三种日常情境（咖啡店/美术馆/候诊 \"在咖啡店...在类似研究中，当志愿者在美术 室)，都因交谈而更积极，与(ix)完全对应。 馆打破沉默..在实验室候诊室里，被搭话的参 与者",
           "questionId": "q5"
         },
         {
           "questionNumber": 19,
-          "text": "题目：Paragraph F 的最佳标题。\n题目翻译：为 F 段选择最合适的小标题。\n答案：v\n解析：F 段比较不同人格（尤其好奇心高低、内外向差异）在 small talk 上的难易度，对应 v。",
+          "text": "题目 19\n答案：v\nPDF 定位：(v) The personality types that find small talk people rated as less curious'.. had moredifficult=某些人格更难进行闲聊 trouble getting a conversation going... people who were deemed 'curious' needed\nPDF 解析：\"被评为不太好奇\"的人..很难自己把谈 第F段对比\"lesscurious/curious\"（亦涉及 话开展起来.而被评为好奇的人则不需 外倾/内倾操级)，说明不同人格在闭聊能力上 差异显著。 要帮助。",
           "questionId": "q6"
+        },
+        {
+          "questionNumber": 27,
+          "text": "题目 27\n答案：commuters\nPDF 定位：在一项发生在火车上的研究中，志愿者接近的是 ..talk with other commuters who usually 经常乘坐该线的常规。 took the same train to work every day..* (第D段)\nPDF 解析：\"与其他通勤者交谈，那些人通常每天乘同- 空格名调复数，原调即\"commuters\"。 超列车去上班",
+          "questionId": "q14"
+        },
+        {
+          "questionNumber": 28,
+          "text": "题目 28\n答案：paintings\nPDF 定位：在美术馆实验中，当人们被带入谈话时，他们对 *.the visitors felt happier and more 的共鸣更强。 connected to the paintings than those who were not approached.\" (第E段)\nPDF 解析：\".被搭话的参观者比未被搭话者更快乐，也与 *connected to the paintings\" 对应\"related 这些西作建立了更强的联结。\" more to the.",
+          "questionId": "q15"
+        },
+        {
+          "questionNumber": 29,
+          "text": "题目 29\n答案：topics\nPDF 定位：内向者发现，被给予可以用来开启谈话的 *they had greater luck building closeness 很有帮助。 with others when they were supplied with topics that encouraged people to open up.\" (第F段)\nPDF 解析：\"当他们被提供一些话题以鼓励对方散开心底时， 文中\"less curious/更内向保守的人\"在被\"提 更容易与他人建立亲近感。\" 供话题(topics)**时更容易开展谈话。题目用 \"introverted\"概括此类人群，填原调\"topics\"。",
+          "questionId": "q16"
         }
       ],
       "questionRange": {
         "start": 14,
-        "end": 19
+        "end": 29
       },
-      "text": "题目 14-19 答案依次为 vii、iv、i、iii、ix、v。"
+      "text": "题目 14\n答案：vii\nPDF 定位：(vii) Some occupations involve lttle or no \"However, these three types of work interesting conversation=某些职业几乎没有 stand out for another reason: they're characterised by a lack of conversation 或没有有遵的交谈 or by meaningless smalltalk, which unfortunately represents an obligatory part of the job.\"(第A段)\nPDF 解析：\"然而，这三种工作还有另一个显著特点：要么 第A段以保安、卡车司机、推销员为例，核心 信息就是这些职业\"没有谈话/只有无意义的闲 缺少交谈，要么只有无意义的寒喧，而且不幸的 聊\"，与(vi)完全对应。排除：不是(iv)分类研 是，这种寒喧还是工作中不可或缺的一部分。\" 究；也不是(i)声音+身体接触。\n\n题目 15\n答案：iv\nPDF 定位：(iv) A study that categorised types of *the researchers... catalogued each spoken exchanges=把口头交流按类型进行 overheard conversation as either 'small 分类的研究 talk'... or'substantive'... （第B段)\nPDF 解析：\"研究者..把愉听到的每段谈话归类为\"闲聊\"或 关键词\"catalogued...as either...or..\"正是 \"按类型分类\"。随后又比较两类谈话与幸福 实质性交谈 感的关系。\n\n题目 16\n答案：i\nPDF 定位：(i) How sounds and physical contact *tested the relationship between vocal exchanges and grooming in lemurs... strengthen social connections =声音与身体 接触如何强化社会联结 animals reserve their call-and-response conversations...for the animals they groom the most\"(第C段）\nPDF 解析：\"（研究）测试孤猴的发声交流与互相梳理之间的 （身体接触）\"，说明二者共同巩围社会纽带，完 关系.它们把类似人类闲聊的你来我往的叫声 留给梳理关系最密切的个体。\" 全契合(1)。\n\n题目 17\n答案：iii\nPDF 定位：(ii) An experiment that led to surprising \"Those told to chat with others reported a results=产生出乎意料结果的实验 more pleasant journey.. Participants had predicted precisely the opposite outcome. They expected that the others... would have preferred to be left alone.\" (第 D段)\nPDF 解析：\"被要求与人聊天的参与者表示旅途更愉快...而 实验前后预期与实际相反，\"出人意料\"非常明 参与者事前的预测恰恰相反。他们以为别人宁愿 显：同时出现\"train commuters\"场景。 被独自留下。\"\n\n题目 18\n答案：ix\nPDF 定位：(ix) A range of common situations that were *in a study... in a coffee shop.. In similar enhancedbysmall talk=多种常见情境因闲 studies, when volunteers broke the silence 聊而更美好 at a gallery.. In a laboratory waiting room, participants who were talked to..\" (第E段)\nPDF 解析：一口气给出三种日常情境（咖啡店/美术馆/候诊 \"在咖啡店...在类似研究中，当志愿者在美术 室)，都因交谈而更积极，与(ix)完全对应。 馆打破沉默..在实验室候诊室里，被搭话的参 与者\n\n题目 19\n答案：v\nPDF 定位：(v) The personality types that find small talk people rated as less curious'.. had moredifficult=某些人格更难进行闲聊 trouble getting a conversation going... people who were deemed 'curious' needed\nPDF 解析：\"被评为不太好奇\"的人..很难自己把谈 第F段对比\"lesscurious/curious\"（亦涉及 话开展起来.而被评为好奇的人则不需 外倾/内倾操级)，说明不同人格在闭聊能力上 差异显著。 要帮助。\n\n题目 27\n答案：commuters\nPDF 定位：在一项发生在火车上的研究中，志愿者接近的是 ..talk with other commuters who usually 经常乘坐该线的常规。 took the same train to work every day..* (第D段)\nPDF 解析：\"与其他通勤者交谈，那些人通常每天乘同- 空格名调复数，原调即\"commuters\"。 超列车去上班\n\n题目 28\n答案：paintings\nPDF 定位：在美术馆实验中，当人们被带入谈话时，他们对 *.the visitors felt happier and more 的共鸣更强。 connected to the paintings than those who were not approached.\" (第E段)\nPDF 解析：\".被搭话的参观者比未被搭话者更快乐，也与 *connected to the paintings\" 对应\"related 这些西作建立了更强的联结。\" more to the.\n\n题目 29\n答案：topics\nPDF 定位：内向者发现，被给予可以用来开启谈话的 *they had greater luck building closeness 很有帮助。 with others when they were supplied with topics that encouraged people to open up.\" (第F段)\nPDF 解析：\"当他们被提供一些话题以鼓励对方散开心底时， 文中\"less curious/更内向保守的人\"在被\"提 更容易与他人建立亲近感。\" 供话题(topics)**时更容易开展谈话。题目用 \"introverted\"概括此类人群，填原调\"topics\"。"
     },
     {
-      "sectionTitle": "2. 人物观点匹配（Questions 20–25）",
+      "sectionTitle": "2. matching (Questions 20-25)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 20,
-          "text": "题目：Interacting socially is preferable to hurrying through a transaction.\n题目翻译：与其匆忙完成交易，不如进行社交互动更好。\n答案：D\n解析：Sandstrom 和 Dunn 的咖啡店研究显示，与服务者进行社交互动者情绪更好且归属感更强，对应 D。",
+          "text": "题目 20\n答案：D\nPDF 定位/解析：no help...\" (第F段)",
           "questionId": "q7"
         },
         {
           "questionNumber": 21,
-          "text": "题目：If someone is truly uninterested in the wider world, they'll find small talk more difficult.\n题目翻译：如果一个人对外部世界缺乏兴趣，他会更难进行寒暄。\n答案：E\n解析：Kashdan 研究中的 low-curiosity 人群更难自主开启对话，正对应该陈述，对应 E。",
+          "text": "题目 21\n答案：E\nPDF 定位：如果一个人对更广阅的世界缺乏兴趣，他会更难 进行闲聊。 那些起初不愿主动开口的人，最后也享受了这次\nPDF 解析：\"lesscurious（不太好奇/不愿兴题）→小谈话 \"people who were rated as less curious'.. \"被评为不太好寄\"的人很难自己把谈话开 had trouble getting a conversation going 展\"起来，\" 更困难\"，与题意一致。 on their own.\" (第F段) \"Those told to chat with others reported a \"被要求与人事谈的人报告放速更愉快..参与者 参与者原本以为别人不想被打扰（不愿开口/不",
           "questionId": "q8"
         },
         {
           "questionNumber": 22,
-          "text": "题目：People who had been unwilling to start a conversation ended up enjoying a social exchange.\n题目翻译：原本不愿开口交谈的人最终也享受了社交互动。\n答案：C\n解析：Epley 与 Schroeder 的火车实验中，参与者原本回避交谈，但实际体验更积极，对应 C。",
+          "text": "题目 22\n答案：C\nPDF 定位：社交。\nPDF 解析：愿开始)，但真正去聊后，反馈积极、旅程更愉 more pleasant journey.. Participants had 先前预测恰好相反：他们以为别人宁愿独处。\" 快→与题干\"最后享受社交\"陶合。 predicted precisely the opposite outcome. They expected the others. preferred to be left alone.* (第 Df段)",
           "questionId": "q9"
         },
         {
           "questionNumber": 23,
-          "text": "题目：People whose conversations are mainly of a personal and meaningful nature are more satisfied with their lives.\n题目翻译：对话以有意义、较深入内容为主的人，生活满意度更高。\n答案：A\n解析：Mehl 与 Vazire 的数据表明 substantive conversation 更高的人更幸福、更满足，对应 A。",
+          "text": "题目 23\n答案：A\nPDF 定位：主要进行个性化且有意义的读话的人对生活更满 意,\nPDF 解析：\"people who had more substantive \"拥有更多实质性交读的人更可能表示自己整体 \"substantive(有实质/有意义)\"与\"牵福满足\" 正向相美→选A。 conversations were more likely to say they 上感到幸福且满足。\" were feling happy and fulilled overall (第B段)",
           "questionId": "q10"
         },
         {
           "questionNumber": 24,
-          "text": "题目：There is more than one species whose members communicate for social reasons.\n题目翻译：不止一种物种会为了社交目的进行交流。\n答案：B\n解析：Kulahci 对狐猴的研究与人类寒暄并列讨论，体现跨物种的社交交流现象，对应 B。",
+          "text": "题目 24\n答案：B\nPDF 定位：不止一种物种会为了社交而交流。\nPDF 解析：\"在据累身上测试发声交流与机理的关系.看 \"tested the relationship between vocal 文段明确：动物（至少基聚+对比人类）也用 exchanges and grooming in lemurs.. It 起来，即便在动物当中，发声交流也表明强社 \"阔聊式\"发声维系关系→\"不止一种物种\"。 appears that, even among animals, vocal 会纽带。\" exchanges indicate strong social bonds.* (第C段)",
           "questionId": "q11"
         },
         {
           "questionNumber": 25,
-          "text": "题目：Some people find it easier than others to change the subject of a conversation.\n题目翻译：有些人比其他人更容易把对话转到新话题。\n答案：E\n解析：Kashdan 研究指出高好奇心者更容易把普通话题转向深入交流，符合该陈述，对应 E。",
+          "text": "题目 25\n答案：E\nPDF 定位：有些人比另一些人更容易把读适引向新的主题，\nPDF 解析：\"被评为\"\"好奇\"的人无需帮助就能把关于日常 关键词\"transforming...intoother areas(把 \"people who were deemed\"curious' needed no help transforming conversations 话题转向别处)\"，体现\"更容易换话题\"，因 话题的谈话转入其他领域\"，从而达成更亲密 此选E. 的交流。\" about ordinary things.. into other areas of conversation that allowed for intimate exchanges.\" (第F段)",
           "questionId": "q12"
         }
       ],
@@ -121,39 +122,40 @@
         "start": 20,
         "end": 25
       },
-      "text": "题目 20-25 答案依次为 D、E、C、A、B、E。"
+      "text": "题目 20\n答案：D\nPDF 定位/解析：no help...\" (第F段)\n\n题目 21\n答案：E\nPDF 定位：如果一个人对更广阅的世界缺乏兴趣，他会更难 进行闲聊。 那些起初不愿主动开口的人，最后也享受了这次\nPDF 解析：\"lesscurious（不太好奇/不愿兴题）→小谈话 \"people who were rated as less curious'.. \"被评为不太好寄\"的人很难自己把谈话开 had trouble getting a conversation going 展\"起来，\" 更困难\"，与题意一致。 on their own.\" (第F段) \"Those told to chat with others reported a \"被要求与人事谈的人报告放速更愉快..参与者 参与者原本以为别人不想被打扰（不愿开口/不\n\n题目 22\n答案：C\nPDF 定位：社交。\nPDF 解析：愿开始)，但真正去聊后，反馈积极、旅程更愉 more pleasant journey.. Participants had 先前预测恰好相反：他们以为别人宁愿独处。\" 快→与题干\"最后享受社交\"陶合。 predicted precisely the opposite outcome. They expected the others. preferred to be left alone.* (第 Df段)\n\n题目 23\n答案：A\nPDF 定位：主要进行个性化且有意义的读话的人对生活更满 意,\nPDF 解析：\"people who had more substantive \"拥有更多实质性交读的人更可能表示自己整体 \"substantive(有实质/有意义)\"与\"牵福满足\" 正向相美→选A。 conversations were more likely to say they 上感到幸福且满足。\" were feling happy and fulilled overall (第B段)\n\n题目 24\n答案：B\nPDF 定位：不止一种物种会为了社交而交流。\nPDF 解析：\"在据累身上测试发声交流与机理的关系.看 \"tested the relationship between vocal 文段明确：动物（至少基聚+对比人类）也用 exchanges and grooming in lemurs.. It 起来，即便在动物当中，发声交流也表明强社 \"阔聊式\"发声维系关系→\"不止一种物种\"。 appears that, even among animals, vocal 会纽带。\" exchanges indicate strong social bonds.* (第C段)\n\n题目 25\n答案：E\nPDF 定位：有些人比另一些人更容易把读适引向新的主题，\nPDF 解析：\"被评为\"\"好奇\"的人无需帮助就能把关于日常 关键词\"transforming...intoother areas(把 \"people who were deemed\"curious' needed no help transforming conversations 话题转向别处)\"，体现\"更容易换话题\"，因 话题的谈话转入其他领域\"，从而达成更亲密 此选E. 的交流。\" about ordinary things.. into other areas of conversation that allowed for intimate exchanges.\" (第F段)"
     },
     {
-      "sectionTitle": "3. 句子填空（Questions 26–29）",
+      "sectionTitle": "3. sentence completion (Questions 26-29)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 26,
-          "text": "题目：In the case of salespeople, some meaningless small talk is ______ when dealing with customers.\n题目翻译：对销售人员来说，与顾客交流时一些无意义寒暄是 ______ 的。\n答案：obligatory\n解析：A 段原句写到 meaningless small talk represents an obligatory part of the job，因此填 obligatory。",
+          "text": "题目 26\n答案：obligatory\nPDF 定位：就推销员而言，与顾客打交道时，一些无意义的 *.meaningless small alk, which unfortunately represents an obligatory part 寒喧是 的。 of the job.\" (第A段)\nPDF 解析：\"..无意义的闲聊，不率的是这是工作中必不可 题干指\"与顾客交往的推销员\"，属于A段三类职 业之一；原文给出\"obligatory（必需/硬性)\"。 少的一部分。\"",
           "questionId": "q13"
         },
         {
           "questionNumber": 27,
-          "text": "题目：In a study that took place on a train, volunteers approached people who were regular ______.\n题目翻译：在一项火车研究中，志愿者接触的是固定的 ______。\n答案：commuters\n解析：D 段写 volunteers talked with other commuters who usually took the same train，答案是 commuters。",
-          "questionId": "q1"
+          "text": "题目 27\n答案：commuters\nPDF 定位：在一项发生在火车上的研究中，志愿者接近的是 ..talk with other commuters who usually 经常乘坐该线的常规。 took the same train to work every day..* (第D段)\nPDF 解析：\"与其他通勤者交谈，那些人通常每天乘同- 空格名调复数，原调即\"commuters\"。 超列车去上班",
+          "questionId": "q14"
         },
         {
           "questionNumber": 28,
-          "text": "题目：In an experiment in an art gallery, people related more to the ______ when they were drawn into a conversation.\n题目翻译：在美术馆实验中，被拉入对话后，人们与 ______ 的联系更强。\n答案：paintings\n解析：E 段指出画廊访客交谈后 felt happier and more connected to the paintings，因此填 paintings。",
-          "questionId": "q2"
+          "text": "题目 28\n答案：paintings\nPDF 定位：在美术馆实验中，当人们被带入谈话时，他们对 *.the visitors felt happier and more 的共鸣更强。 connected to the paintings than those who were not approached.\" (第E段)\nPDF 解析：\".被搭话的参观者比未被搭话者更快乐，也与 *connected to the paintings\" 对应\"related 这些西作建立了更强的联结。\" more to the.",
+          "questionId": "q15"
         },
         {
           "questionNumber": 29,
-          "text": "题目：Introverted people found it helpful to be given ______ which they could use to start conversations.\n题目翻译：内向者发现，给他们提供可用于开启对话的 ______ 会有帮助。\n答案：topics\n解析：F 段说低好奇心者在被提供 topics 后更容易建立亲近感，答案是 topics。",
-          "questionId": "q3"
+          "text": "题目 29\n答案：topics\nPDF 定位：内向者发现，被给予可以用来开启谈话的 *they had greater luck building closeness 很有帮助。 with others when they were supplied with topics that encouraged people to open up.\" (第F段)\nPDF 解析：\"当他们被提供一些话题以鼓励对方散开心底时， 文中\"less curious/更内向保守的人\"在被\"提 更容易与他人建立亲近感。\" 供话题(topics)**时更容易开展谈话。题目用 \"introverted\"概括此类人群，填原调\"topics\"。",
+          "questionId": "q16"
         }
       ],
       "questionRange": {
         "start": 26,
         "end": 29
       },
-      "text": "题目 26-29 答案依次为 obligatory、commuters、paintings、topics。"
+      "text": "题目 26\n答案：obligatory\nPDF 定位：就推销员而言，与顾客打交道时，一些无意义的 *.meaningless small alk, which unfortunately represents an obligatory part 寒喧是 的。 of the job.\" (第A段)\nPDF 解析：\"..无意义的闲聊，不率的是这是工作中必不可 题干指\"与顾客交往的推销员\"，属于A段三类职 业之一；原文给出\"obligatory（必需/硬性)\"。 少的一部分。\"\n\n题目 27\n答案：commuters\nPDF 定位：在一项发生在火车上的研究中，志愿者接近的是 ..talk with other commuters who usually 经常乘坐该线的常规。 took the same train to work every day..* (第D段)\nPDF 解析：\"与其他通勤者交谈，那些人通常每天乘同- 空格名调复数，原调即\"commuters\"。 超列车去上班\n\n题目 28\n答案：paintings\nPDF 定位：在美术馆实验中，当人们被带入谈话时，他们对 *.the visitors felt happier and more 的共鸣更强。 connected to the paintings than those who were not approached.\" (第E段)\nPDF 解析：\".被搭话的参观者比未被搭话者更快乐，也与 *connected to the paintings\" 对应\"related 这些西作建立了更强的联结。\" more to the.\n\n题目 29\n答案：topics\nPDF 定位：内向者发现，被给予可以用来开启谈话的 *they had greater luck building closeness 很有帮助。 with others when they were supplied with topics that encouraged people to open up.\" (第F段)\nPDF 解析：\"当他们被提供一些话题以鼓励对方散开心底时， 文中\"less curious/更内向保守的人\"在被\"提 更容易与他人建立亲近感。\" 供话题(topics)**时更容易开展谈话。题目用 \"introverted\"概括此类人群，填原调\"topics\"。"
     }
   ]
-});
+}
+  );
 })(typeof window !== "undefined" ? window : globalThis);

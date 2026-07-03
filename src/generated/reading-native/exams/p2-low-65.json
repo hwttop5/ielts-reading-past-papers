@@ -11,7 +11,7 @@
     "questionIntroHtml": "<h3>Questions</h3>",
     "originalTitle": "Boring Buildings 无聊建筑"
   },
-  "explanationKey": null,
+  "explanationKey": "p2-low-65",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1489,7 +1489,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. table completion (Questions 14-18)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 18
+        },
+        "text": "题目 14\n答案：F\nPDF 定位：From the outside, the facade jolts city dwellers from their daily commutes, while energizing employees who enter it each morning... And they're likely to be happier maybe even nicer to each otherbecause ofit.\"\"·第F段\nPDF 解析：\"从外观上看，立面会让城市通勤者从日常通 题干间\"正面影响\"，F段描述赫斯特大厦对路人 勤的麻木中一震，同时给进入大楼的员工注 和员工的积极情绪与行为影响，完全对应。 入能量....因此他们可能会更开心，基至彼此 更友善。\"\n\n题目 15\n答案：A\nPDF 定位：\"People, they argue, function best in intricate settings, not \"big, blank, boxy offices!\"·第A段；另：.live surrounded by variety or work in welldesigned, unique spaces...\"·第A段\nPDF 解析：\"functionbest\"直接对应\"工作表现更好/效 研究者认为，人们在复奈的环境中表现最好， 而不是在\"巨大、空白、盒子般的办公室\"。\"； 率更高\"。A段把工作场所的设计与人的功能 \"..当人们在设计良好且独特的空间里工作时 表现挂钩。 更健康\n\n题目 16\n答案：B\nPDF 定位：*Passing the monolithic Whole Foods Market, people's state of arousal plummeted...In contrast... at the other test site... people measured high levels of excitement.\" . 第B段\nPDF 解析：\"经过这家整体如巨石般的超市时，人们的唤醒 同一实验对比两处街区的生理/主观反应强弱， 完全符合\"两个城市环境中的反应强度\"。 水平疆降..相反，在另一处测试点...人们测得 兴奋度很高。\"\n\n题目 17\n答案：D\nPDF 定位：*After only a minute of virtual images, those who said they were awed also felt less pressedfor time.\"·第D段\nPDF 解析：\"仅仅观看一分钟的虚拟影像，那些表示感到敬 \"less pressed fortime\"即压力感降低；与前 畏的人也感到时间压力更小。\" 文\"awe.. make people more patient and less materialistic\"一起说明观看瀑布/鲸/宇航员短 片带来缓解焦虑效应。\n\n题目 18\n答案：C\nPDF 定位：*Complexity is thrilling whether in an amusement park or architecture.\"-第C段\nPDF 解析：\"不论是在游乐园还是在建筑中，复杂性都令 一种情绪反应(thrilling)。 人兴畜。\"",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：F\nPDF 定位：From the outside, the facade jolts city dwellers from their daily commutes, while energizing employees who enter it each morning... And they're likely to be happier maybe even nicer to each otherbecause ofit.\"\"·第F段\nPDF 解析：\"从外观上看，立面会让城市通勤者从日常通 题干间\"正面影响\"，F段描述赫斯特大厦对路人 勤的麻木中一震，同时给进入大楼的员工注 和员工的积极情绪与行为影响，完全对应。 入能量....因此他们可能会更开心，基至彼此 更友善。\""
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：A\nPDF 定位：\"People, they argue, function best in intricate settings, not \"big, blank, boxy offices!\"·第A段；另：.live surrounded by variety or work in welldesigned, unique spaces...\"·第A段\nPDF 解析：\"functionbest\"直接对应\"工作表现更好/效 研究者认为，人们在复奈的环境中表现最好， 而不是在\"巨大、空白、盒子般的办公室\"。\"； 率更高\"。A段把工作场所的设计与人的功能 \"..当人们在设计良好且独特的空间里工作时 表现挂钩。 更健康"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：B\nPDF 定位：*Passing the monolithic Whole Foods Market, people's state of arousal plummeted...In contrast... at the other test site... people measured high levels of excitement.\" . 第B段\nPDF 解析：\"经过这家整体如巨石般的超市时，人们的唤醒 同一实验对比两处街区的生理/主观反应强弱， 完全符合\"两个城市环境中的反应强度\"。 水平疆降..相反，在另一处测试点...人们测得 兴奋度很高。\""
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：D\nPDF 定位：*After only a minute of virtual images, those who said they were awed also felt less pressedfor time.\"·第D段\nPDF 解析：\"仅仅观看一分钟的虚拟影像，那些表示感到敬 \"less pressed fortime\"即压力感降低；与前 畏的人也感到时间压力更小。\" 文\"awe.. make people more patient and less materialistic\"一起说明观看瀑布/鲸/宇航员短 片带来缓解焦虑效应。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：C\nPDF 定位：*Complexity is thrilling whether in an amusement park or architecture.\"-第C段\nPDF 解析：\"不论是在游乐园还是在建筑中，复杂性都令 一种情绪反应(thrilling)。 人兴畜。\""
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2017,7 +2052,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. matching (Questions 19-23)",
+        "mode": "group",
+        "questionRange": {
+          "start": 19,
+          "end": 23
+        },
+        "text": "题目 19\n答案：A\nPDF 定位：良好城市规划的目标是提供多样/变化 \"llard explains that the main objective of urban design should be to produce some kind of novelty or change every few seconds; otherwise, we become cognitively disengaged.\"·第B段\nPDF 解析：\"Ellard解释，城市设计的主要目标应当是每隔 \"novelty or change\"=多样/变化，且由 Ellard 几秒就带来某种新意或变化，否则我们会在认 明确提出，是城市规划/设计的目标。 知上脱离。\"\n\n题目 20\n答案：D\nPDF 定位：乱一些的区域里人们更乐于助人 \"He found a strong correlation between messier blocks and prosocial behavior... Pedestrians at active sites were nearly five times more likely to offer assistance than at inactive ones.\"·第E段\nPDF 解析：\"他发现更杂乱的街区与亲社会行为之间存在强 \"messier/active\"=不那么整洁；\"offer 相关在活跃\"地点的行人提供帮助的可能性 assistance\"=更乐于助人。 几乎是\"不活跃\"地点的五倍。\"\n\n题目 21\n答案：C\nPDF 定位：刚感到惊叹的人会更不重物质 \"the feeling of awe' can make people.. less materialistic.\"·第D段\nPDF 解析：直接对应。 \"\"敬畏\"之感会让人更不物质化。\"\n\n题目 22\n答案：D\nPDF 定位：\"People often confuse successful \"好看\"的地方不一定最让人愉快 architecture with whether an area looks pleasant..Some of the happiest blocks in New York City.. are \"kind of ugly and messy.\"·第E段\nPDF 解析：\"人们常把成功的建筑与\"看起来是否悦目\"混为 说明审美+体验，驳斥\"好看=最宜人\"，与题 千一致。 一谈..纽约一些最幸福的街区挺丑且凌乱\"\n\n题目 23\n答案：A\nPDF 定位：某一栋建筑缺乏视觉刺激 \"the long, blank facade of the Whole Foods Market building.. Passing the monolithic Whole Foods Market, people's state of arousal plummeted.-第B段\nPDF 解析：\"blankfacade\"+\"唤醒下降\"显示该建筑末能提 \"整整一整块空白的立面....经过这家如巨石般的 供足够视觉刺激。 超市时，人们的唤醒水平骤降。\"",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：A\nPDF 定位：良好城市规划的目标是提供多样/变化 \"llard explains that the main objective of urban design should be to produce some kind of novelty or change every few seconds; otherwise, we become cognitively disengaged.\"·第B段\nPDF 解析：\"Ellard解释，城市设计的主要目标应当是每隔 \"novelty or change\"=多样/变化，且由 Ellard 几秒就带来某种新意或变化，否则我们会在认 明确提出，是城市规划/设计的目标。 知上脱离。\""
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：D\nPDF 定位：乱一些的区域里人们更乐于助人 \"He found a strong correlation between messier blocks and prosocial behavior... Pedestrians at active sites were nearly five times more likely to offer assistance than at inactive ones.\"·第E段\nPDF 解析：\"他发现更杂乱的街区与亲社会行为之间存在强 \"messier/active\"=不那么整洁；\"offer 相关在活跃\"地点的行人提供帮助的可能性 assistance\"=更乐于助人。 几乎是\"不活跃\"地点的五倍。\""
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：C\nPDF 定位：刚感到惊叹的人会更不重物质 \"the feeling of awe' can make people.. less materialistic.\"·第D段\nPDF 解析：直接对应。 \"\"敬畏\"之感会让人更不物质化。\""
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：D\nPDF 定位：\"People often confuse successful \"好看\"的地方不一定最让人愉快 architecture with whether an area looks pleasant..Some of the happiest blocks in New York City.. are \"kind of ugly and messy.\"·第E段\nPDF 解析：\"人们常把成功的建筑与\"看起来是否悦目\"混为 说明审美+体验，驳斥\"好看=最宜人\"，与题 千一致。 一谈..纽约一些最幸福的街区挺丑且凌乱\""
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：A\nPDF 定位：某一栋建筑缺乏视觉刺激 \"the long, blank facade of the Whole Foods Market building.. Passing the monolithic Whole Foods Market, people's state of arousal plummeted.-第B段\nPDF 解析：\"blankfacade\"+\"唤醒下降\"显示该建筑末能提 \"整整一整块空白的立面....经过这家如巨石般的 供足够视觉刺激。 超市时，人们的唤醒水平骤降。\""
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2239,7 +2309,32 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. summary completion (Questions 24-26)",
+        "mode": "group",
+        "questionRange": {
+          "start": 24,
+          "end": 26
+        },
+        "text": "题目 24\n答案：facade\nPDF 定位：对通勤者和员工产生强烈冲击 *From the outside, the facade jolts city 大楼的 dwellers... while energizing employees.. ·第F段\nPDF 解析：概要里的\"The sight of the building's \"从外观上看，立面会使城市居民为之一，并 _has a striking impact\" 与 \"facade jolts/energizing* 给员工注入能量。\" 精准对应。\n\n题目 25\n答案：escalators\nPDF 定位：塔内的 载着员工经过大型水景 \"Inside, workers travel upon diagonal escalators, up a threestory water sculpture...第F段\nPDF 解析：与 carry employees up past a large water \"在塔内，员工乘着斜置自动扶梯，沿三层高的 sculpture\"-致；须用原词escalators. 水幕雕塑上行.\n\n题目 26\n答案：atrium\nPDF 定位：充满光线的。 *.hrough the tower's historic atrium, flooded with light.\" -第F段\nPDF 解析：\"，与原文\"atrium... .穿过这座塔历史性的中庭，充满了光线 概要给出\"light-filled flooded with light*-致。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "题目 24\n答案：facade\nPDF 定位：对通勤者和员工产生强烈冲击 *From the outside, the facade jolts city 大楼的 dwellers... while energizing employees.. ·第F段\nPDF 解析：概要里的\"The sight of the building's \"从外观上看，立面会使城市居民为之一，并 _has a striking impact\" 与 \"facade jolts/energizing* 给员工注入能量。\" 精准对应。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 25,
+            "text": "题目 25\n答案：escalators\nPDF 定位：塔内的 载着员工经过大型水景 \"Inside, workers travel upon diagonal escalators, up a threestory water sculpture...第F段\nPDF 解析：与 carry employees up past a large water \"在塔内，员工乘着斜置自动扶梯，沿三层高的 sculpture\"-致；须用原词escalators. 水幕雕塑上行."
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 26,
+            "text": "题目 26\n答案：atrium\nPDF 定位：充满光线的。 *.hrough the tower's historic atrium, flooded with light.\" -第F段\nPDF 解析：\"，与原文\"atrium... .穿过这座塔历史性的中庭，充满了光线 概要给出\"light-filled flooded with light*-致。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

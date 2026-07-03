@@ -1,0 +1,135 @@
+(function registerReadingExplanationData(global) {
+  'use strict';
+  if (!global.__READING_EXPLANATION_DATA__ || typeof global.__READING_EXPLANATION_DATA__.register !== "function") {
+    throw new Error("reading_explanation_registry_missing");
+  }
+  global.__READING_EXPLANATION_DATA__.register("p3-low-83", {
+  "schemaVersion": "ReadingExplanationV1",
+  "examId": "p3-low-83",
+  "meta": {
+    "examId": "p3-low-83",
+    "title": "1018纸笔 Looking for inspiration 寻找灵感",
+    "category": "P3",
+    "sourceDoc": "173. P3(1018纸笔 ) - Looking for inspiration 寻找灵感.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "1018纸笔 Looking for inspiration 寻找灵感",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionExplanations": [
+    {
+      "sectionTitle": "1. matching (Questions 27-32)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 27,
+          "text": "题目 27\n答案：D\nPDF 定位：创造性强的人对大脑需要处理的大量信息 *Our senses are continuously feeding a mass of data..Peterson calls this process latent 更易接纳。 inhibition and argues that people who have less of it.. can juggle more of the data, and so may be open to more ideas.\" (第 5 F段)\nPDF 解析：题干中的\"receptive to immense amounts of \"我们的感官不断把大量数据输入大脑.被得森 称这一过程为潜抑制，并认为潜抑制较低而且智 information*与 juggle more of the data / open to more ideas\"完全对应，明确由 商较高的人，能处理更多数据，因此更易对更多 想法散开。\" Peterson提出。",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 28,
+          "text": "题目 28\n答案：F\nPDF 定位：**Creative synthesis requires a new pattern, 创造力需要许多脑区同时处于活跃状态。 to put the brain in a state where many areas are simultaneously active,'says Claxton.\" (第8段）\nPDF 解析：克拉克斯顿说：\"创造性的综合需要一种新的模 式，让大脑处于许多区域同时活跃的状态。\" the same time\"与引文\"many areas... simultaneously active\"同义。",
+          "questionId": "q2"
+        },
+        {
+          "questionNumber": 29,
+          "text": "题目 29\n答案：B\nPDF 定位：有创造力的人涉猎并精通广泛主题。 *the creative personality tends to place a high value on aesthetic qualities and have broad interests, providing lots of resources to draw on and knowledge to recombine into novel/ solutions.\"（第3段）\nPDF 解析：\"有创造力的个性往往兴速广泛，这为他们提供 *engage in, and are well informed about, a 大量可借鉴的资源，并具备可重组的知识以形 wide range of subjects\"对应broad interests 成新解。\" + knowledge to recombine\"。",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 30,
+          "text": "题目 30\n答案：C\nPDF 定位：有创造力的人可能存在性情不稳定。 *Jamison.. found that established artists disorders.\"(第4段)\nPDF 解析：\"不稳定人格\"在文中以\"情绪障碍/双相障碍\"等 \"贾米森发现，成名艺术家更可能患有情绪 障碍。\" 心理问题表述，故匹配Jamison。",
+          "questionId": "q4"
+        },
+        {
+          "questionNumber": 31,
+          "text": "题目 31\n答案：B\nPDF 定位：有创造力的人会被内在目标强烈驱动去实现。 *They are also highly self-motivated, perhaps even altte obsessive, when it comes to realising their ambitions.\" (第 3f段)\nPDF 解析：\"在实现其抱负时，他们也高度自我驱动，基至 *driven to achieve the goals they set 有点执念.\" themselves**self-motivated. realising their ambitions\"。 仍为 Runco。",
+          "questionId": "q5"
+        },
+        {
+          "questionNumber": 32,
+          "text": "题目 32\n答案：G\nPDF 定位：有创造力的人需要他人的支持。 *to be really creative you need strong social networks and trusting relationships... one vital characteristic. is that they have at least one other person in their life who\nPDF 解析：\"真正具有创造力需要强大的社交网络与信任关 直接指出创造力与社会支持/关系的需要，匹配 John-Steiner. 系..--个关键特征是：他们生命中至少有一位 不认为他们完全演了的人。\"",
+          "questionId": "q6"
+        }
+      ],
+      "questionRange": {
+        "start": 27,
+        "end": 32
+      },
+      "text": "题目 27\n答案：D\nPDF 定位：创造性强的人对大脑需要处理的大量信息 *Our senses are continuously feeding a mass of data..Peterson calls this process latent 更易接纳。 inhibition and argues that people who have less of it.. can juggle more of the data, and so may be open to more ideas.\" (第 5 F段)\nPDF 解析：题干中的\"receptive to immense amounts of \"我们的感官不断把大量数据输入大脑.被得森 称这一过程为潜抑制，并认为潜抑制较低而且智 information*与 juggle more of the data / open to more ideas\"完全对应，明确由 商较高的人，能处理更多数据，因此更易对更多 想法散开。\" Peterson提出。\n\n题目 28\n答案：F\nPDF 定位：**Creative synthesis requires a new pattern, 创造力需要许多脑区同时处于活跃状态。 to put the brain in a state where many areas are simultaneously active,'says Claxton.\" (第8段）\nPDF 解析：克拉克斯顿说：\"创造性的综合需要一种新的模 式，让大脑处于许多区域同时活跃的状态。\" the same time\"与引文\"many areas... simultaneously active\"同义。\n\n题目 29\n答案：B\nPDF 定位：有创造力的人涉猎并精通广泛主题。 *the creative personality tends to place a high value on aesthetic qualities and have broad interests, providing lots of resources to draw on and knowledge to recombine into novel/ solutions.\"（第3段）\nPDF 解析：\"有创造力的个性往往兴速广泛，这为他们提供 *engage in, and are well informed about, a 大量可借鉴的资源，并具备可重组的知识以形 wide range of subjects\"对应broad interests 成新解。\" + knowledge to recombine\"。\n\n题目 30\n答案：C\nPDF 定位：有创造力的人可能存在性情不稳定。 *Jamison.. found that established artists disorders.\"(第4段)\nPDF 解析：\"不稳定人格\"在文中以\"情绪障碍/双相障碍\"等 \"贾米森发现，成名艺术家更可能患有情绪 障碍。\" 心理问题表述，故匹配Jamison。\n\n题目 31\n答案：B\nPDF 定位：有创造力的人会被内在目标强烈驱动去实现。 *They are also highly self-motivated, perhaps even altte obsessive, when it comes to realising their ambitions.\" (第 3f段)\nPDF 解析：\"在实现其抱负时，他们也高度自我驱动，基至 *driven to achieve the goals they set 有点执念.\" themselves**self-motivated. realising their ambitions\"。 仍为 Runco。\n\n题目 32\n答案：G\nPDF 定位：有创造力的人需要他人的支持。 *to be really creative you need strong social networks and trusting relationships... one vital characteristic. is that they have at least one other person in their life who\nPDF 解析：\"真正具有创造力需要强大的社交网络与信任关 直接指出创造力与社会支持/关系的需要，匹配 John-Steiner. 系..--个关键特征是：他们生命中至少有一位 不认为他们完全演了的人。\""
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 33-36)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 33,
+          "text": "题目 33\n答案：scalp electrodes\nPDF 定位/解析：doesn't think they are completely mad* (第10段）",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 34,
+          "text": "题目 34\n答案：inspiration / elaboration\nPDF 定位：创造力包含两个阶段：与。 *Creativity.. has two stages inspiration and elaboration.\"(第6段）\nPDF 解析：\"创造力有两个阶段：灵感与展开/细化。 依次填入两个名调即可。",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 35,
+          "text": "题目 35\n答案：alpha waves\nPDF 定位：*The dominant activity was alpha waves, 第一阶段大脑多处不活跃，只有。 例外。 which is the same.. as in some stages of dreaming or rest. (第6段\nPDF 解析：\"主要活动是α波，类似于做梦或休息时的大 脂活动。* 的解释。",
+          "questionId": "q9"
+        },
+        {
+          "questionNumber": 36,
+          "text": "题目 36\n答案：difference\nPDF 定位：最有创造性的作品来自在两阶段之间脑活动变化 *it was the people who showed the biggest 最大的人， difference in brain activity between the two stages who produced the most creative storylines.(第7段）\nPDF 解析：\"在两阶段间脑活动差异最大的那些人，写出了 空格直接对应\"biggest difference\"。 最有创造性的情节，\"",
+          "questionId": "q10"
+        }
+      ],
+      "questionRange": {
+        "start": 33,
+        "end": 36
+      },
+      "text": "题目 33\n答案：scalp electrodes\nPDF 定位/解析：doesn't think they are completely mad* (第10段）\n\n题目 34\n答案：inspiration / elaboration\nPDF 定位：创造力包含两个阶段：与。 *Creativity.. has two stages inspiration and elaboration.\"(第6段）\nPDF 解析：\"创造力有两个阶段：灵感与展开/细化。 依次填入两个名调即可。\n\n题目 35\n答案：alpha waves\nPDF 定位：*The dominant activity was alpha waves, 第一阶段大脑多处不活跃，只有。 例外。 which is the same.. as in some stages of dreaming or rest. (第6段\nPDF 解析：\"主要活动是α波，类似于做梦或休息时的大 脂活动。* 的解释。\n\n题目 36\n答案：difference\nPDF 定位：最有创造性的作品来自在两阶段之间脑活动变化 *it was the people who showed the biggest 最大的人， difference in brain activity between the two stages who produced the most creative storylines.(第7段）\nPDF 解析：\"在两阶段间脑活动差异最大的那些人，写出了 空格直接对应\"biggest difference\"。 最有创造性的情节，\""
+    },
+    {
+      "sectionTitle": "3. true false not given (Questions 37-40)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 37,
+          "text": "题目 37\n答案：FALSE\nPDF 定位：高智商者比一般智商者更可能有创造力。 \"Creative people are intelligent.. but only averagely or just above... n general, having beyond a certain level IQ does not help boost creativity.\"(第2段）\nPDF 解析：\"有创造力的人在智商上通常仅为平均或略高； 题干断言\"越高越有创造力\"；原文明确说\"更高 总体而言，超过某一水平的高IQ并不会提升 IQ不增加创造力\"。与原文相矛盾，故FALSE。 创造力。\"",
+          "questionId": "q11"
+        },
+        {
+          "questionNumber": 38,
+          "text": "题目 38\n答案：NOT GIVEN\nPDF 定位：社会倾向于高度重视审美技能。 tends to place a high value on aesthetic qualities.\"（第3段）\nPDF 解析：\"有创造力的个性倾向于重视审美品质。 文中说的是创意者本人重视审美，并未谈\"社会 如何看待/评价\"审美技能；缺少所问信息，判 NOT GIVEN。",
+          "questionId": "q12"
+        },
+        {
+          "questionNumber": 39,
+          "text": "题目 39\n答案：TRUE\nPDF 定位：e BuaeyJoy Kedoyood e aq kew aJayi 拥有创造性人格可能有不利之处。 creative personality-. established artists are significantly more likely to have mood disorders\"(第4段\nPDF 解析：原文直接指出存在\"代价\"，并给出情绪障碍为 \"为创造性人格可能要付出代价..成名艺术家更 例，支持题干，故TRUE。 可能有情绪障碍。\"",
+          "questionId": "q13"
+        },
+        {
+          "questionNumber": 40,
+          "text": "题目 40\n答案：NOT GIVEN\nPDF 定位：Brain studies..show. active areas are 在任何形式的创造力中，语言技能都比空间知 觉更重要。 determined by the specialist knowledge being used. Imagery, spatial awareness, language and so onwhatever the skil, it is localised..\" (第8段); \"Creative synthesis.. many areas are simultaneously active. (第8段)\nPDF 解析：\"脑研究表明：活跃区域取决于所用专门技能； 原文说明不同技能对应不同脑区，且强调\"无论 表象、空间知觉、语言等-无论是嘟种技能， 哪种技能/多区同时活跃\"，并未比较\"语言\"与 都会在相应脑区被激活；.创造性的综合需要许 \"空间知觉\"的重要性高低，也未作普遍性的先后 级别判断；因此信息缺失，为NOTGIVEN。 多区域同时活跃。\"",
+          "questionId": "q14"
+        }
+      ],
+      "questionRange": {
+        "start": 37,
+        "end": 40
+      },
+      "text": "题目 37\n答案：FALSE\nPDF 定位：高智商者比一般智商者更可能有创造力。 \"Creative people are intelligent.. but only averagely or just above... n general, having beyond a certain level IQ does not help boost creativity.\"(第2段）\nPDF 解析：\"有创造力的人在智商上通常仅为平均或略高； 题干断言\"越高越有创造力\"；原文明确说\"更高 总体而言，超过某一水平的高IQ并不会提升 IQ不增加创造力\"。与原文相矛盾，故FALSE。 创造力。\"\n\n题目 38\n答案：NOT GIVEN\nPDF 定位：社会倾向于高度重视审美技能。 tends to place a high value on aesthetic qualities.\"（第3段）\nPDF 解析：\"有创造力的个性倾向于重视审美品质。 文中说的是创意者本人重视审美，并未谈\"社会 如何看待/评价\"审美技能；缺少所问信息，判 NOT GIVEN。\n\n题目 39\n答案：TRUE\nPDF 定位：e BuaeyJoy Kedoyood e aq kew aJayi 拥有创造性人格可能有不利之处。 creative personality-. established artists are significantly more likely to have mood disorders\"(第4段\nPDF 解析：原文直接指出存在\"代价\"，并给出情绪障碍为 \"为创造性人格可能要付出代价..成名艺术家更 例，支持题干，故TRUE。 可能有情绪障碍。\"\n\n题目 40\n答案：NOT GIVEN\nPDF 定位：Brain studies..show. active areas are 在任何形式的创造力中，语言技能都比空间知 觉更重要。 determined by the specialist knowledge being used. Imagery, spatial awareness, language and so onwhatever the skil, it is localised..\" (第8段); \"Creative synthesis.. many areas are simultaneously active. (第8段)\nPDF 解析：\"脑研究表明：活跃区域取决于所用专门技能； 原文说明不同技能对应不同脑区，且强调\"无论 表象、空间知觉、语言等-无论是嘟种技能， 哪种技能/多区同时活跃\"，并未比较\"语言\"与 都会在相应脑区被激活；.创造性的综合需要许 \"空间知觉\"的重要性高低，也未作普遍性的先后 级别判断；因此信息缺失，为NOTGIVEN。 多区域同时活跃。\""
+    }
+  ]
+}
+  );
+})(typeof window !== "undefined" ? window : globalThis);

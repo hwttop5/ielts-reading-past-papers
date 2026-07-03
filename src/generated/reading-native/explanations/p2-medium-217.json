@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-medium-217",
+  "meta": {
+    "examId": "p2-medium-217",
+    "title": "A mechanical friend for children 【】",
+    "category": "P2",
+    "sourceDoc": "217. P2 - A mechanical friend for children 孩子的机器人朋友.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "A mechanical friend for children 孩子的机器人朋友【次】",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. short answer (Questions 14-18)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 18
+      },
+      "text": "题目 14\n答案：d\nPDF 定位：第D段:\"While hugging of QRIO increased, 比较孩子对不同机器人的反应 hugging of Robby decreased throughout the study.\nPDF 解析：在研究期间，拥抱QRIO的行为增加，而拥抱 题干关键词是comparison/different Robby的行为减少。 robots。第D段把QRIOvsRobby放在同一 句里对比（拥抱趋势相反），并补充\"caretaking behaviours.. toward QRIO but seldom toward Robby\"，属于明确的\"不同机器人反 应对比\"。\n\n题目 15\n答案：f\nPDF 定位：推测机器人将来可能用哪些方式交流/沟通 第F段: \"A robotic tutor could react on the spot to social cues and approximate social skills like facial expression and eye gaze...*\nPDF 解析：机器人导师可以当场对社会线索作出反应，并近 题干是speculation（推测、展望末来)。第F段 似实现如面部表情、眼神等社交技.. 读\"could.../hope.../become...\"：机器人未来 可通过facialexpression/eyegaze等社交信 号与人互动，本质是\"沟通方式的推测\"。\n\n题目 16\n答案：d\nPDF 定位：措述孩子身体接触/处理机器人方式的变化 第D段: \"At first, the toddlers would touch the robot on its face, but later on they would touch it only on its hands and arms...\nPDF 解析：起初幼儿会摸机器人的脸，但后来他们只摸它的 题干关键词是changes/physically handled， 第D段直接给出\"先摸脸→后来只摸手臂\"，并 手和膊.. 且前文还有\"helpedQRIO standup...\"，都属 于身体接触方式的变化。\n\n题目 17\n答案：a\nPDF 定位：第A段:\"This observation is in sharp 比较人与动物的连接Vs人与机器人的连接 contrast to ... bonding ..between humans and their pets.*\nPDF 解析：这一现象与人类和宠物之间常见的长期互动与情 题干要robotsvsanimals的比较，第A 感联结形成鲜明对比。 段先说机器人难以维持长期兴趣（10-hour barrier)，案接着用contrast对比人和宠物的 长期bonding，完全匹配。\n\n题目 18\n答案：c\nPDF 定位：说明某个机器人是如何被编程/控制的 第C 段: \"The researchers sent instructions to the robot about every two minutes ..\"\nPDF 解析：研究者大约每两分钟就给机器人发送指令.. 题干关键词programmed/accountofthe way。第C段描述具体控制方式：研究者频 繁发送指令、不同阶段命令其表现\"limited/ predictable\"或\"full range of behaviors\", 这 是最直接的\"编程/控制过程叙述\"。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：d\nPDF 定位：第D段:\"While hugging of QRIO increased, 比较孩子对不同机器人的反应 hugging of Robby decreased throughout the study.\nPDF 解析：在研究期间，拥抱QRIO的行为增加，而拥抱 题干关键词是comparison/different Robby的行为减少。 robots。第D段把QRIOvsRobby放在同一 句里对比（拥抱趋势相反），并补充\"caretaking behaviours.. toward QRIO but seldom toward Robby\"，属于明确的\"不同机器人反 应对比\"。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：f\nPDF 定位：推测机器人将来可能用哪些方式交流/沟通 第F段: \"A robotic tutor could react on the spot to social cues and approximate social skills like facial expression and eye gaze...*\nPDF 解析：机器人导师可以当场对社会线索作出反应，并近 题干是speculation（推测、展望末来)。第F段 似实现如面部表情、眼神等社交技.. 读\"could.../hope.../become...\"：机器人未来 可通过facialexpression/eyegaze等社交信 号与人互动，本质是\"沟通方式的推测\"。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：d\nPDF 定位：措述孩子身体接触/处理机器人方式的变化 第D段: \"At first, the toddlers would touch the robot on its face, but later on they would touch it only on its hands and arms...\nPDF 解析：起初幼儿会摸机器人的脸，但后来他们只摸它的 题干关键词是changes/physically handled， 第D段直接给出\"先摸脸→后来只摸手臂\"，并 手和膊.. 且前文还有\"helpedQRIO standup...\"，都属 于身体接触方式的变化。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：a\nPDF 定位：第A段:\"This observation is in sharp 比较人与动物的连接Vs人与机器人的连接 contrast to ... bonding ..between humans and their pets.*\nPDF 解析：这一现象与人类和宠物之间常见的长期互动与情 题干要robotsvsanimals的比较，第A 感联结形成鲜明对比。 段先说机器人难以维持长期兴趣（10-hour barrier)，案接着用contrast对比人和宠物的 长期bonding，完全匹配。"
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：c\nPDF 定位：说明某个机器人是如何被编程/控制的 第C 段: \"The researchers sent instructions to the robot about every two minutes ..\"\nPDF 解析：研究者大约每两分钟就给机器人发送指令.. 题干关键词programmed/accountofthe way。第C段描述具体控制方式：研究者频 繁发送指令、不同阶段命令其表现\"limited/ predictable\"或\"full range of behaviors\", 这 是最直接的\"编程/控制过程叙述\"。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. short answer (Questions 19-23)",
+      "mode": "group",
+      "questionRange": {
+        "start": 19,
+        "end": 23
+      },
+      "text": "题目 19\n答案：b\nPDF 定位：未来机器人不仅要会思考，还要展示情感 第F段 (Movellan): *.. endow machines with something similar to emotion, not just traditional forms of inteligence.*\nPDF 解析：..赋予机器某种类似情感的东西，而不只是传 \"not only think..but also show feelings* 统意义上的智能。 对应emotion。这句话明确把未来目标从 \"intelligence\"扩展到\"emotion\"\n\n题目 20\n答案：c\nPDF 定位：尚不确定人与机器人更多接触是否有益 第G段 (Arkin): .. can give us insight into whether this is a good thing or a bad thing for society.*\nPDF 解析：.能让我们理解这对社会究竟是好事还是坏事。 题干核心是uncertain whetherbeneficial Arkin说需要研究才能判断\"good orbad\"，并 强调我们尚不了解后果，完全对应\"不确定\"。\n\n题目 21\n答案：a\nPDF 定位：第B段 (Tanaka): *Children of toddler 很小的孩子还没有形成关于机器人的看法 age were chosen because they have no preconceived notions of robots.*\nPDF 解析：选择幼儿是因为他们对机器人没有先入为主 题于\"have not yet developed ideas\"=原文 的观念。 nopreconceivednotions。这句明确归因并标 注according to Tanaka\",\n\n题目 22\n答案：d\nPDF 定位：机器人需要行为多样，人们才更能与其建立联系 第G段 (Powers): *.. limited range of robot behaviors ... s nowhere near as important .. as .. a broad repertoire of behaviors.\nPDF 解析：有限的机器人行为范图远不如能从广泛行为库中 题于\"wide variety of actions\"= broad repertoirePowers强调关键不在\"limited 作出恰当回应重要。 range\", 而在*broad repertoire + appropriateresponses\"，对应\"多样行动才能 让人更能共处/理解\"。\n\n题目 23\n答案：a\nPDF 定位：在学校使用机器人辅助可能有很多好处 第F段 (Tanaka): */t could have great potential in educational settings, assisting teachers and enriching the classroom environment.\"\nPDF 解析：它在教育场景中潜力巨大，可帮助教师并丰富 题干\"many benefits in schools\"对应 great 课堂环境。 potential / assisting teachers / enriching: 且该句明确为Tanaka所说。",
+      "items": [
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：b\nPDF 定位：未来机器人不仅要会思考，还要展示情感 第F段 (Movellan): *.. endow machines with something similar to emotion, not just traditional forms of inteligence.*\nPDF 解析：..赋予机器某种类似情感的东西，而不只是传 \"not only think..but also show feelings* 统意义上的智能。 对应emotion。这句话明确把未来目标从 \"intelligence\"扩展到\"emotion\""
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：c\nPDF 定位：尚不确定人与机器人更多接触是否有益 第G段 (Arkin): .. can give us insight into whether this is a good thing or a bad thing for society.*\nPDF 解析：.能让我们理解这对社会究竟是好事还是坏事。 题干核心是uncertain whetherbeneficial Arkin说需要研究才能判断\"good orbad\"，并 强调我们尚不了解后果，完全对应\"不确定\"。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：a\nPDF 定位：第B段 (Tanaka): *Children of toddler 很小的孩子还没有形成关于机器人的看法 age were chosen because they have no preconceived notions of robots.*\nPDF 解析：选择幼儿是因为他们对机器人没有先入为主 题于\"have not yet developed ideas\"=原文 的观念。 nopreconceivednotions。这句明确归因并标 注according to Tanaka\","
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：d\nPDF 定位：机器人需要行为多样，人们才更能与其建立联系 第G段 (Powers): *.. limited range of robot behaviors ... s nowhere near as important .. as .. a broad repertoire of behaviors.\nPDF 解析：有限的机器人行为范图远不如能从广泛行为库中 题于\"wide variety of actions\"= broad repertoirePowers强调关键不在\"limited 作出恰当回应重要。 range\", 而在*broad repertoire + appropriateresponses\"，对应\"多样行动才能 让人更能共处/理解\"。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：a\nPDF 定位：在学校使用机器人辅助可能有很多好处 第F段 (Tanaka): */t could have great potential in educational settings, assisting teachers and enriching the classroom environment.\"\nPDF 解析：它在教育场景中潜力巨大，可帮助教师并丰富 题干\"many benefits in schools\"对应 great 课堂环境。 potential / assisting teachers / enriching: 且该句明确为Tanaka所说。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. sentence completion (Questions 24-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：storytellers\nPDF 定位：直到最近，最撞长吸引人注意力的机器人是扮 第A段: *The most successful robots so far 演..的机器人 have been storytellers...*\nPDF 解析：到目前为止最成功的机器人是讲故事的机器 且要求一个词，原文复数storytellers完全 匹配语法。\n\n题目 25\n答案：peer\nPDF 定位：孩子们把QRIO当作朋友或一个...，而不 第E段：..treated it moreas a peerthan a plaything.\" 是玩具\nPDF 解析：...更把它当作同伴，而不是玩物/玩具。 空格前是\"a\"，后面是\"ratherthan..toy\"，原 文对比结构peervsplaything，且答案必须来 自原文并为一个词：peer。\n\n题目 26\n答案：affection\nPDF 定位：第G段: \"Ronald Arkin was not surprised by Arkin预期孩子会对QRIO表现出.... the affection demonstrated by the toddlers toward the robot.\"\nPDF 解析：Ronald Arkin对幼儿向机器人表现出的喜爱/亲 题干\"show-towards\"对应原文\"affection 眠并不惊诉。 ...toward\"。因此填affection，且为一个词。",
+      "items": [
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：storytellers\nPDF 定位：直到最近，最撞长吸引人注意力的机器人是扮 第A段: *The most successful robots so far 演..的机器人 have been storytellers...*\nPDF 解析：到目前为止最成功的机器人是讲故事的机器 且要求一个词，原文复数storytellers完全 匹配语法。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：peer\nPDF 定位：孩子们把QRIO当作朋友或一个...，而不 第E段：..treated it moreas a peerthan a plaything.\" 是玩具\nPDF 解析：...更把它当作同伴，而不是玩物/玩具。 空格前是\"a\"，后面是\"ratherthan..toy\"，原 文对比结构peervsplaything，且答案必须来 自原文并为一个词：peer。"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：affection\nPDF 定位：第G段: \"Ronald Arkin was not surprised by Arkin预期孩子会对QRIO表现出.... the affection demonstrated by the toddlers toward the robot.\"\nPDF 解析：Ronald Arkin对幼儿向机器人表现出的喜爱/亲 题干\"show-towards\"对应原文\"affection 眠并不惊诉。 ...toward\"。因此填affection，且为一个词。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：d\nPDF 定位：第D段:\"While hugging of QRIO increased, 比较孩子对不同机器人的反应 hugging of Robby decreased throughout the study.\nPDF 解析：在研究期间，拥抱QRIO的行为增加，而拥抱 题干关键词是comparison/different Robby的行为减少。 robots。第D段把QRIOvsRobby放在同一 句里对比（拥抱趋势相反），并补充\"caretaking behaviours.. toward QRIO but seldom toward Robby\"，属于明确的\"不同机器人反 应对比\"。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：f\nPDF 定位：推测机器人将来可能用哪些方式交流/沟通 第F段: \"A robotic tutor could react on the spot to social cues and approximate social skills like facial expression and eye gaze...*\nPDF 解析：机器人导师可以当场对社会线索作出反应，并近 题干是speculation（推测、展望末来)。第F段 似实现如面部表情、眼神等社交技.. 读\"could.../hope.../become...\"：机器人未来 可通过facialexpression/eyegaze等社交信 号与人互动，本质是\"沟通方式的推测\"。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：d\nPDF 定位：措述孩子身体接触/处理机器人方式的变化 第D段: \"At first, the toddlers would touch the robot on its face, but later on they would touch it only on its hands and arms...\nPDF 解析：起初幼儿会摸机器人的脸，但后来他们只摸它的 题干关键词是changes/physically handled， 第D段直接给出\"先摸脸→后来只摸手臂\"，并 手和膊.. 且前文还有\"helpedQRIO standup...\"，都属 于身体接触方式的变化。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：a\nPDF 定位：第A段:\"This observation is in sharp 比较人与动物的连接Vs人与机器人的连接 contrast to ... bonding ..between humans and their pets.*\nPDF 解析：这一现象与人类和宠物之间常见的长期互动与情 题干要robotsvsanimals的比较，第A 感联结形成鲜明对比。 段先说机器人难以维持长期兴趣（10-hour barrier)，案接着用contrast对比人和宠物的 长期bonding，完全匹配。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：c\nPDF 定位：说明某个机器人是如何被编程/控制的 第C 段: \"The researchers sent instructions to the robot about every two minutes ..\"\nPDF 解析：研究者大约每两分钟就给机器人发送指令.. 题干关键词programmed/accountofthe way。第C段描述具体控制方式：研究者频 繁发送指令、不同阶段命令其表现\"limited/ predictable\"或\"full range of behaviors\", 这 是最直接的\"编程/控制过程叙述\"。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：b\nPDF 定位：未来机器人不仅要会思考，还要展示情感 第F段 (Movellan): *.. endow machines with something similar to emotion, not just traditional forms of inteligence.*\nPDF 解析：..赋予机器某种类似情感的东西，而不只是传 \"not only think..but also show feelings* 统意义上的智能。 对应emotion。这句话明确把未来目标从 \"intelligence\"扩展到\"emotion\""
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：c\nPDF 定位：尚不确定人与机器人更多接触是否有益 第G段 (Arkin): .. can give us insight into whether this is a good thing or a bad thing for society.*\nPDF 解析：.能让我们理解这对社会究竟是好事还是坏事。 题干核心是uncertain whetherbeneficial Arkin说需要研究才能判断\"good orbad\"，并 强调我们尚不了解后果，完全对应\"不确定\"。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：a\nPDF 定位：第B段 (Tanaka): *Children of toddler 很小的孩子还没有形成关于机器人的看法 age were chosen because they have no preconceived notions of robots.*\nPDF 解析：选择幼儿是因为他们对机器人没有先入为主 题于\"have not yet developed ideas\"=原文 的观念。 nopreconceivednotions。这句明确归因并标 注according to Tanaka\","
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：d\nPDF 定位：机器人需要行为多样，人们才更能与其建立联系 第G段 (Powers): *.. limited range of robot behaviors ... s nowhere near as important .. as .. a broad repertoire of behaviors.\nPDF 解析：有限的机器人行为范图远不如能从广泛行为库中 题于\"wide variety of actions\"= broad repertoirePowers强调关键不在\"limited 作出恰当回应重要。 range\", 而在*broad repertoire + appropriateresponses\"，对应\"多样行动才能 让人更能共处/理解\"。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：a\nPDF 定位：在学校使用机器人辅助可能有很多好处 第F段 (Tanaka): */t could have great potential in educational settings, assisting teachers and enriching the classroom environment.\"\nPDF 解析：它在教育场景中潜力巨大，可帮助教师并丰富 题干\"many benefits in schools\"对应 great 课堂环境。 potential / assisting teachers / enriching: 且该句明确为Tanaka所说。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：storytellers\nPDF 定位：直到最近，最撞长吸引人注意力的机器人是扮 第A段: *The most successful robots so far 演..的机器人 have been storytellers...*\nPDF 解析：到目前为止最成功的机器人是讲故事的机器 且要求一个词，原文复数storytellers完全 匹配语法。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：peer\nPDF 定位：孩子们把QRIO当作朋友或一个...，而不 第E段：..treated it moreas a peerthan a plaything.\" 是玩具\nPDF 解析：...更把它当作同伴，而不是玩物/玩具。 空格前是\"a\"，后面是\"ratherthan..toy\"，原 文对比结构peervsplaything，且答案必须来 自原文并为一个词：peer。"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：affection\nPDF 定位：第G段: \"Ronald Arkin was not surprised by Arkin预期孩子会对QRIO表现出.... the affection demonstrated by the toddlers toward the robot.\"\nPDF 解析：Ronald Arkin对幼儿向机器人表现出的喜爱/亲 题干\"show-towards\"对应原文\"affection 眠并不惊诉。 ...toward\"。因此填affection，且为一个词。"
+    }
+  }
+}

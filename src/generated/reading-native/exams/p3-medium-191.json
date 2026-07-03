@@ -3338,33 +3338,78 @@
       ],
       "contentNodes": [],
       "explanationSection": {
-        "sectionTitle": "1. 单选题（Questions 28–31：Choose A–D）",
-        "mode": "per_question",
+        "sectionTitle": "1. short answer (Questions 28-40)",
+        "mode": "group",
         "questionRange": {
           "start": 28,
-          "end": 31
+          "end": 40
         },
-        "text": "答案：D（Introduction of the background of this passage. 介绍本文背景）\n解析：Paragraph A 通过詹姆斯・保罗・吉因儿子接触电子游戏、发现游戏潜在价值的故事，引出 “电子游戏益处” 这一核心议题，并非单纯介绍人物（A）、游戏（B）或游戏类型（C），核心是 “铺垫全文背景”，因此选 D。\n答案：C（Even though there is a certain proportion of violence in most video games, scientists and psychologists see their benefits to children’s intellectual abilities. 尽管多数游戏含有一定比例的暴力元素，但科学家和心理学家看到了其对儿童智力能力的益处）\n解析：Paragraph B 先描述 “家长和媒体认为游戏暴力、浪费时间”，随后转折 “89% 的游戏含暴力内容，但科学家发现游戏能培养孩子高阶思维、让孩子更聪明”，与选项 C 完全一致。A（游戏普遍被认为有害）、D（家长视游戏为腐蚀大脑的浪费时间事物）仅为段落前半部分内容，非核心观点；B（多数暴力游戏是青少年犯罪的直接原因）与原文 “被归咎于”“有一定比例暴力” 不符，因此选 C。\n答案：C（Some surgeons have better skills because they play more video games. 部分外科医生技能更精湛，因为他们玩更多电子游戏）\n解析：定位 Paragraph D 中 “there have even been studies with adults showing that experience with video games is related to better surgical skills. Jacob Benjamin... found a direct link between skill at video gaming and skill at keyhole or laparoscopic surgery”，明确提到 “游戏经验与手术技能相关，部分医生因玩游戏技能更优”，与选项 C 一致。A（部分学校用游戏教高阶思维）、B（游戏全方位提升大脑能力）表述过于绝对；D（熟练飞行员喜欢玩游戏）与原文 “从小玩游戏长大” 不符，因此选 C。\n答案：D（Video games help increase the speed of players’ reactions effectively. 电子游戏能有效提高玩家的反应速度）\n解析：定位 Paragraph I 中 “the action-game players were up to 25% faster at reaching a conclusion and answered just as many questions correctly as their strategy-game-playing peers”，“动作游戏组决策速度快 25% 且正确率不变”，即 “游戏有效提升反应速度”，与选项 D 一致。A（玩家需充分利用有限资源）是 Paragraph F 内容，B（数学好的玩家最终会赢）是 Paragraph G 内容，C（策略游戏玩家决策速度更快）与实验结果矛盾，因此选 D。",
+        "text": "题目 28\n答案：D\nPDF 定位/解析：段落A先用JamesPaulGee和儿子玩PajamaSam的小故事引出\"成熟版\"电子游戏可能带来的启示，其实是在铺垫后文对\"电\n\n题目 29\n答案：C\nPDF 定位/解析：段落B前半句交代家长和媒体把游戏视作\"暴力、浪费时间\"，随后转折指出\"尽管70%的热门游戏含有一定攻击内容，许多科学 家和心理学家却发现它们对孩子智力有益\"。正对应选项C\"虽然大多数游戏含有一定暴力元素，科学家和心理学家看到了其益 处\"。\n\n题目 30\n答案：C\nPDF 定位/解析：段落D倒数第二句\"evenbeen studieswithadults showing that experiencewithvideogames is relatedtobetter surgical skills. Jacob Benjamin ... found a direct link between skill at video gaming and skill at keyhole or laparoscopic surgery.\" 明 确说明\"某些外科医生由于玩游戏而技能更好\"，对应选项C。其他选项：A并未提到学校；B太宽泛；D\"飞行员喜欢玩游戏\"属于 推测，并非原文表述。\n\n题目 31\n答案：D\nPDF 定位/解析：段落I介绍Bavelier等人的实验：50小时动作类UnrealTournament训练后，\"action-gameplayerswereupto25%fasterat reachingaconclusionandansweredjustasmanyquestionscorrectly\"。即\"反应速度显著提升且正确率不变\"，对应\"视频游 戏有效提高玩家反应速度\"，选D。\n\n题目 32\n答案：NOT GIVEN\nPDF 定位/解析：文中仅说\"89%的热门游戏含暴力内容\"，未说明\"正因为暴力所以流行\"。因果关系在文中没有出现。\n\n题目 33\n答案：NOT GIVEN\nPDF 定位/解析：虽然多处谈到游戏的教育潜力，但全文没有任何句子直接表态\"学校把游戏引入课堂会是好主意\"。\n\n题目 34\n答案：NOT GIVEN\nPDF 定位/解析：段落C提到\"游戏会产生多巴胺的奖励激增（surgesof dopamine)\"，但既未谈\"成瘾者\"，也未说\"多巴胺水平大量增加\"，因此信 息缺失。\n\n题目 35\n答案：FALSE\nPDF 定位/解析：段落I明言\"动作游戏组的正确率与策略游戏组一样（answeredjustasmanyquestionscorrectly)\"，并未\"减少错误率\"或\"更 少错误\"，所以陈述与原文矛盾。\n\n题目 36\n答案：C\nPDF 定位/解析：段落c首句引用ShawnGreen:\"Videogameschangeyourbrain...thesamewayaslearningtoread,playingthepiano..\" 强调游戏和日常技能一样会改变大脑结构。\n\n题目 37\n答案：D\nPDF 定位/解析：段落 F \"According to researchers at the University of Rochester led by Daphne Bavelier ... playing action games primes the braintomakequickdecisions\"-压力场景下大脑能迅速决策。\n\n题目 38\n答案：B\nPDF 定位/解析：重要\"。\n\n题目 39\n答案：E\nPDF 定位/解析：段落F中部：Steven Johnson 认为\"gamersmust deal with immediate problems whilekeeping their long-termgoals on the horizon\"-同时兼顾当下与长远。\n\n题目 40\n答案：A\nPDF 定位/解析：段落H无引用具体学者，作者总结：\"videoand computergamesalsohelpchildrengainself-confidence...indirectlyteach",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 28,
-            "text": "（1）题目 28：What is the main purpose of paragraph A?（第一段的主要目的是？）\n答案：D（Introduction of the background of this passage. 介绍本文背景）\n解析：Paragraph A 通过詹姆斯・保罗・吉因儿子接触电子游戏、发现游戏潜在价值的故事，引出 “电子游戏益处” 这一核心议题，并非单纯介绍人物（A）、游戏（B）或游戏类型（C），核心是 “铺垫全文背景”，因此选 D。"
+            "text": "题目 28\n答案：D\nPDF 定位/解析：段落A先用JamesPaulGee和儿子玩PajamaSam的小故事引出\"成熟版\"电子游戏可能带来的启示，其实是在铺垫后文对\"电"
           },
           {
             "questionId": "q2",
             "questionNumber": 29,
-            "text": "（2）题目 29：What does the author want to express in the second paragraph?（作者在第二段想表达什么？）\n答案：C（Even though there is a certain proportion of violence in most video games, scientists and psychologists see their benefits to children’s intellectual abilities. 尽管多数游戏含有一定比例的暴力元素，但科学家和心理学家看到了其对儿童智力能力的益处）\n解析：Paragraph B 先描述 “家长和媒体认为游戏暴力、浪费时间”，随后转折 “89% 的游戏含暴力内容，但科学家发现游戏能培养孩子高阶思维、让孩子更聪明”，与选项 C 完全一致。A（游戏普遍被认为有害）、D（家长视游戏为腐蚀大脑的浪费时间事物）仅为段落前半部分内容，非核心观点；B（多数暴力游戏是青少年犯罪的直接原因）与原文 “被归咎于”“有一定比例暴力” 不符，因此选 C。"
+            "text": "题目 29\n答案：C\nPDF 定位/解析：段落B前半句交代家长和媒体把游戏视作\"暴力、浪费时间\"，随后转折指出\"尽管70%的热门游戏含有一定攻击内容，许多科学 家和心理学家却发现它们对孩子智力有益\"。正对应选项C\"虽然大多数游戏含有一定暴力元素，科学家和心理学家看到了其益 处\"。"
           },
           {
             "questionId": "q3",
             "questionNumber": 30,
-            "text": "（3）题目 30：What is correctly mentioned in paragraph D?（第四段中正确提及的内容是？）\n答案：C（Some surgeons have better skills because they play more video games. 部分外科医生技能更精湛，因为他们玩更多电子游戏）\n解析：定位 Paragraph D 中 “there have even been studies with adults showing that experience with video games is related to better surgical skills. Jacob Benjamin... found a direct link between skill at video gaming and skill at keyhole or laparoscopic surgery”，明确提到 “游戏经验与手术技能相关，部分医生因玩游戏技能更优”，与选项 C 一致。A（部分学校用游戏教高阶思维）、B（游戏全方位提升大脑能力）表述过于绝对；D（熟练飞行员喜欢玩游戏）与原文 “从小玩游戏长大” 不符，因此选 C。"
+            "text": "题目 30\n答案：C\nPDF 定位/解析：段落D倒数第二句\"evenbeen studieswithadults showing that experiencewithvideogames is relatedtobetter surgical skills. Jacob Benjamin ... found a direct link between skill at video gaming and skill at keyhole or laparoscopic surgery.\" 明 确说明\"某些外科医生由于玩游戏而技能更好\"，对应选项C。其他选项：A并未提到学校；B太宽泛；D\"飞行员喜欢玩游戏\"属于 推测，并非原文表述。"
           },
           {
             "questionId": "q4",
             "questionNumber": 31,
-            "text": "（4）题目 31：What is the finding of the experiment the three researchers conducted in the last paragraph?（最后一段中三位研究者的实验发现是？）\n答案：D（Video games help increase the speed of players’ reactions effectively. 电子游戏能有效提高玩家的反应速度）\n解析：定位 Paragraph I 中 “the action-game players were up to 25% faster at reaching a conclusion and answered just as many questions correctly as their strategy-game-playing peers”，“动作游戏组决策速度快 25% 且正确率不变”，即 “游戏有效提升反应速度”，与选项 D 一致。A（玩家需充分利用有限资源）是 Paragraph F 内容，B（数学好的玩家最终会赢）是 Paragraph G 内容，C（策略游戏玩家决策速度更快）与实验结果矛盾，因此选 D。"
+            "text": "题目 31\n答案：D\nPDF 定位/解析：段落I介绍Bavelier等人的实验：50小时动作类UnrealTournament训练后，\"action-gameplayerswereupto25%fasterat reachingaconclusionandansweredjustasmanyquestionscorrectly\"。即\"反应速度显著提升且正确率不变\"，对应\"视频游 戏有效提高玩家反应速度\"，选D。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：NOT GIVEN\nPDF 定位/解析：文中仅说\"89%的热门游戏含暴力内容\"，未说明\"正因为暴力所以流行\"。因果关系在文中没有出现。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：NOT GIVEN\nPDF 定位/解析：虽然多处谈到游戏的教育潜力，但全文没有任何句子直接表态\"学校把游戏引入课堂会是好主意\"。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：NOT GIVEN\nPDF 定位/解析：段落C提到\"游戏会产生多巴胺的奖励激增（surgesof dopamine)\"，但既未谈\"成瘾者\"，也未说\"多巴胺水平大量增加\"，因此信 息缺失。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：FALSE\nPDF 定位/解析：段落I明言\"动作游戏组的正确率与策略游戏组一样（answeredjustasmanyquestionscorrectly)\"，并未\"减少错误率\"或\"更 少错误\"，所以陈述与原文矛盾。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：C\nPDF 定位/解析：段落c首句引用ShawnGreen:\"Videogameschangeyourbrain...thesamewayaslearningtoread,playingthepiano..\" 强调游戏和日常技能一样会改变大脑结构。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：D\nPDF 定位/解析：段落 F \"According to researchers at the University of Rochester led by Daphne Bavelier ... playing action games primes the braintomakequickdecisions\"-压力场景下大脑能迅速决策。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：B\nPDF 定位/解析：重要\"。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：E\nPDF 定位/解析：段落F中部：Steven Johnson 认为\"gamersmust deal with immediate problems whilekeeping their long-termgoals on the horizon\"-同时兼顾当下与长远。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：A\nPDF 定位/解析：段落H无引用具体学者，作者总结：\"videoand computergamesalsohelpchildrengainself-confidence...indirectlyteach"
           }
         ]
       }

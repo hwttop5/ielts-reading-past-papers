@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-low-41",
+  "meta": {
+    "examId": "p2-low-41",
+    "title": "The Myth of the Eight-hour Sleep",
+    "category": "P2",
+    "sourceDoc": "135. P2 - The Myth of the Eight-hour Sleep 八小时睡眠.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The Myth of the Eight-hour Sleep 八小时睡眠",
+    "ocrPages": [
+      6,
+      7
+    ],
+    "pdfPageCount": 7,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. matching (Questions 14-18)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 18
+      },
+      "text": "题目 14\n答案：vii\nPDF 定位：vii (Scientific evidence that divided sleep is 为A段选择标题 a natural phenomenon)\nPDF 解析：A段讲Wehr的实验：在黑屋中形成\"两段式睡 \"by the fourth week the subjects had 眠\"。这是直接的科学实证，对应vii。 settled into a very distinct sleeping pattern... slept for four hours... then... a second four-hour sleep.\"\n\n题目 15\n答案：v\nPDF 定位：v (An analysis of old documents to discover 为B段选择标题 sleep patterns)\nPDF 解析：*Ekirch's research found more than 500 B段核心是通过历史文献找到两段睡的证据， references...in diaries, court records, 正是\"分析旧文献以发现睡眠模式\"。 medical books and literature...*\n\n题目 16\n答案：i\nPDF 定位：i (Historical reasons why interrupted sleep 为C段选择标题 became uncommon)\nPDF 解析：\"Ekirch attributes the initial shift to C段解释为什么两段睡消失：照明改善、咖啡 improvements in street and home 馆、工业化、时间效率观等历史原因。 lighting... coffee houses emerged... the Industrial Revolution intensified that attitude...\n\n题目 17\n答案：vi\nPDF 定位：vi (Biological and environmental factors 为D段选择标题 preventing people from falling asleep again)\nPDF 解析：\"natural preference for divided sleep... D段把生理偏好（自然倾向于分段睡）+环境因 difficulties caused by extended exposure 素（人造光）与夜间醒后难再入睡联系，完全 对应vi。 to artificial light... sleep maintenance insomnia... trouble getting back to sleep.\"\n\n题目 18\n答案：iii\nPDF 定位：ili (Potential health issues related to sleep) 为E段选择标题\nPDF 解析：\"the idea that we must sleep for an E段强调健康/医疗层面的问题与危害，因 extended period could be damaging... 此选ii。 likely to affect waking life... Over 30% of medical problems... stem directly or indirectly from sleep.",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：vii\nPDF 定位：vii (Scientific evidence that divided sleep is 为A段选择标题 a natural phenomenon)\nPDF 解析：A段讲Wehr的实验：在黑屋中形成\"两段式睡 \"by the fourth week the subjects had 眠\"。这是直接的科学实证，对应vii。 settled into a very distinct sleeping pattern... slept for four hours... then... a second four-hour sleep.\""
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：v\nPDF 定位：v (An analysis of old documents to discover 为B段选择标题 sleep patterns)\nPDF 解析：*Ekirch's research found more than 500 B段核心是通过历史文献找到两段睡的证据， references...in diaries, court records, 正是\"分析旧文献以发现睡眠模式\"。 medical books and literature...*"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：i\nPDF 定位：i (Historical reasons why interrupted sleep 为C段选择标题 became uncommon)\nPDF 解析：\"Ekirch attributes the initial shift to C段解释为什么两段睡消失：照明改善、咖啡 improvements in street and home 馆、工业化、时间效率观等历史原因。 lighting... coffee houses emerged... the Industrial Revolution intensified that attitude..."
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：vi\nPDF 定位：vi (Biological and environmental factors 为D段选择标题 preventing people from falling asleep again)\nPDF 解析：\"natural preference for divided sleep... D段把生理偏好（自然倾向于分段睡）+环境因 difficulties caused by extended exposure 素（人造光）与夜间醒后难再入睡联系，完全 对应vi。 to artificial light... sleep maintenance insomnia... trouble getting back to sleep.\""
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：iii\nPDF 定位：ili (Potential health issues related to sleep) 为E段选择标题\nPDF 解析：\"the idea that we must sleep for an E段强调健康/医疗层面的问题与危害，因 extended period could be damaging... 此选ii。 likely to affect waking life... Over 30% of medical problems... stem directly or indirectly from sleep."
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. matching (Questions 19-23)",
+      "mode": "group",
+      "questionRange": {
+        "start": 19,
+        "end": 23
+      },
+      "text": "题目 19\n答案：C\nPDF 定位：C (Craig Koslofsky)\nPDF 解析：\"Associations with night before the 17th Koslofsky解释欧洲的两段睡成因：人们害怕夜 century were not good... streets... at night 晚的治安，因此日落后早睡，随后夜间醒来形 成分段睡。 were often populated by thieves or worse... consequently scared many people.\" (B段)\n\n题目 20\n答案：E\nPDF 定位：E (Russell Foster)\nPDF 解析：\"Sleep has been ignored in medical training, Foster明确批评医学教育对睡眠重视不够，隐含 要求医生需要加强学习与训练。 and there are very few centres where sleep is studied... He feels this needs to change. (E段)\n\n题目 21\n答案：B\nPDF 定位：B (Roger Ekirch)\nPDF 解析：直接描述了夜间醒来进行活动/思考，与题干完 \"During the waking period, people could be 全一致。 quite active... got up and moved around... read or wrote... used the time... to analyse their dreams.\" (B段)\n\n题目 22\n答案：B\nPDF 定位：B (Roger Ekirch)\nPDF 解析：\"Ekirch attributes the initial shift to Ekirch将照明改进等技术/社会变化与睡眠从分段 improvements in street and home lighting... 转向整段联系；晚睡+夜生活使中夜觉间醒现象消 Coffee houses... Industrial Revolution 退，故选B。 intensified that attitude.\" (C 段)\n\n题目 23\n答案：D\nPDF 定位：D (Gregg Jacobs)\nPDF 解析：Jacobs指出该观念会引发焦虑并妨碍睡眠，属 \"the idea that we must sleep for an extended 心理危害。 period could be damaging if it makes people who wake up in the night anxious...\" (E段)",
+      "items": [
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：C\nPDF 定位：C (Craig Koslofsky)\nPDF 解析：\"Associations with night before the 17th Koslofsky解释欧洲的两段睡成因：人们害怕夜 century were not good... streets... at night 晚的治安，因此日落后早睡，随后夜间醒来形 成分段睡。 were often populated by thieves or worse... consequently scared many people.\" (B段)"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：E\nPDF 定位：E (Russell Foster)\nPDF 解析：\"Sleep has been ignored in medical training, Foster明确批评医学教育对睡眠重视不够，隐含 要求医生需要加强学习与训练。 and there are very few centres where sleep is studied... He feels this needs to change. (E段)"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：B\nPDF 定位：B (Roger Ekirch)\nPDF 解析：直接描述了夜间醒来进行活动/思考，与题干完 \"During the waking period, people could be 全一致。 quite active... got up and moved around... read or wrote... used the time... to analyse their dreams.\" (B段)"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：B\nPDF 定位：B (Roger Ekirch)\nPDF 解析：\"Ekirch attributes the initial shift to Ekirch将照明改进等技术/社会变化与睡眠从分段 improvements in street and home lighting... 转向整段联系；晚睡+夜生活使中夜觉间醒现象消 Coffee houses... Industrial Revolution 退，故选B。 intensified that attitude.\" (C 段)"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：D\nPDF 定位：D (Gregg Jacobs)\nPDF 解析：Jacobs指出该观念会引发焦虑并妨碍睡眠，属 \"the idea that we must sleep for an extended 心理危害。 period could be damaging if it makes people who wake up in the night anxious...\" (E段)"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. summary completion (Questions 24-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：sunset\nPDF 定位：sunset\nPDF 解析：\"a first sleep which began not long following 空格需要\"在...之后不久\"的时间点；原文对应 sunset.\" (B段) sunset.\n\n题目 25\n答案：dreams\nPDF 定位：dreams\nPDF 解析：\"people used the time... to think about and 原文直给\"分析他们的dreams\"。 attempt to analyse their dreams.\" (B段)\n\n题目 26\n答案：thieves\nPDF 定位：thieves\nPDF 解析：空格需表示让人害怕的对象；原文为thieves。 streets... at night were often populated by thieves or worse.\" (B段/引 Koslofsky)",
+      "items": [
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：sunset\nPDF 定位：sunset\nPDF 解析：\"a first sleep which began not long following 空格需要\"在...之后不久\"的时间点；原文对应 sunset.\" (B段) sunset."
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：dreams\nPDF 定位：dreams\nPDF 解析：\"people used the time... to think about and 原文直给\"分析他们的dreams\"。 attempt to analyse their dreams.\" (B段)"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：thieves\nPDF 定位：thieves\nPDF 解析：空格需表示让人害怕的对象；原文为thieves。 streets... at night were often populated by thieves or worse.\" (B段/引 Koslofsky)"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：vii\nPDF 定位：vii (Scientific evidence that divided sleep is 为A段选择标题 a natural phenomenon)\nPDF 解析：A段讲Wehr的实验：在黑屋中形成\"两段式睡 \"by the fourth week the subjects had 眠\"。这是直接的科学实证，对应vii。 settled into a very distinct sleeping pattern... slept for four hours... then... a second four-hour sleep.\""
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：v\nPDF 定位：v (An analysis of old documents to discover 为B段选择标题 sleep patterns)\nPDF 解析：*Ekirch's research found more than 500 B段核心是通过历史文献找到两段睡的证据， references...in diaries, court records, 正是\"分析旧文献以发现睡眠模式\"。 medical books and literature...*"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：i\nPDF 定位：i (Historical reasons why interrupted sleep 为C段选择标题 became uncommon)\nPDF 解析：\"Ekirch attributes the initial shift to C段解释为什么两段睡消失：照明改善、咖啡 improvements in street and home 馆、工业化、时间效率观等历史原因。 lighting... coffee houses emerged... the Industrial Revolution intensified that attitude..."
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：vi\nPDF 定位：vi (Biological and environmental factors 为D段选择标题 preventing people from falling asleep again)\nPDF 解析：\"natural preference for divided sleep... D段把生理偏好（自然倾向于分段睡）+环境因 difficulties caused by extended exposure 素（人造光）与夜间醒后难再入睡联系，完全 对应vi。 to artificial light... sleep maintenance insomnia... trouble getting back to sleep.\""
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：iii\nPDF 定位：ili (Potential health issues related to sleep) 为E段选择标题\nPDF 解析：\"the idea that we must sleep for an E段强调健康/医疗层面的问题与危害，因 extended period could be damaging... 此选ii。 likely to affect waking life... Over 30% of medical problems... stem directly or indirectly from sleep."
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：C\nPDF 定位：C (Craig Koslofsky)\nPDF 解析：\"Associations with night before the 17th Koslofsky解释欧洲的两段睡成因：人们害怕夜 century were not good... streets... at night 晚的治安，因此日落后早睡，随后夜间醒来形 成分段睡。 were often populated by thieves or worse... consequently scared many people.\" (B段)"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：E\nPDF 定位：E (Russell Foster)\nPDF 解析：\"Sleep has been ignored in medical training, Foster明确批评医学教育对睡眠重视不够，隐含 要求医生需要加强学习与训练。 and there are very few centres where sleep is studied... He feels this needs to change. (E段)"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：B\nPDF 定位：B (Roger Ekirch)\nPDF 解析：直接描述了夜间醒来进行活动/思考，与题干完 \"During the waking period, people could be 全一致。 quite active... got up and moved around... read or wrote... used the time... to analyse their dreams.\" (B段)"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：B\nPDF 定位：B (Roger Ekirch)\nPDF 解析：\"Ekirch attributes the initial shift to Ekirch将照明改进等技术/社会变化与睡眠从分段 improvements in street and home lighting... 转向整段联系；晚睡+夜生活使中夜觉间醒现象消 Coffee houses... Industrial Revolution 退，故选B。 intensified that attitude.\" (C 段)"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：D\nPDF 定位：D (Gregg Jacobs)\nPDF 解析：Jacobs指出该观念会引发焦虑并妨碍睡眠，属 \"the idea that we must sleep for an extended 心理危害。 period could be damaging if it makes people who wake up in the night anxious...\" (E段)"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：sunset\nPDF 定位：sunset\nPDF 解析：\"a first sleep which began not long following 空格需要\"在...之后不久\"的时间点；原文对应 sunset.\" (B段) sunset."
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：dreams\nPDF 定位：dreams\nPDF 解析：\"people used the time... to think about and 原文直给\"分析他们的dreams\"。 attempt to analyse their dreams.\" (B段)"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：thieves\nPDF 定位：thieves\nPDF 解析：空格需表示让人害怕的对象；原文为thieves。 streets... at night were often populated by thieves or worse.\" (B段/引 Koslofsky)"
+    }
+  }
+}

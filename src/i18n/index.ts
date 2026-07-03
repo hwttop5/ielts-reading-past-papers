@@ -221,6 +221,9 @@ const translations: Record<Locale, Record<string, string>> = {
     'practice.export': '导出数据',
     'practice.importSuccess': '导入成功',
     'practice.importFailed': '导入失败',
+    'practice.deleteRecord': '删除记录',
+    'practice.deleteRecordConfirm': '确认删除这条练习记录？此操作不可恢复。',
+    'practice.recordDeleted': '记录已删除',
 
     // 设置页面
     'settings.title': '系统设置',
@@ -370,6 +373,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.scoreResult': '成绩: {score}/{total} (正确率: {accuracy}%)',
     'practiceMode.submitSuccessToast': '提交成功 · 成绩 {score}/{total} · 正确率 {accuracy}%',
     'practiceMode.submitResultBanner': '已提交！正确数：{correct}/{total}，正确率：{accuracy}%',
+    'practiceMode.explanationUnavailable': '解析暂缺：当前题目还没有可用的详细解析，请以正确答案和原文为准。',
     'practiceMode.fullscreen': '全屏',
     'practiceMode.exitFullscreen': '退出全屏',
     'practiceMode.loading': '题目加载中...',
@@ -635,6 +639,9 @@ const translations: Record<Locale, Record<string, string>> = {
     'practice.export': 'Export Data',
     'practice.importSuccess': 'Import successful',
     'practice.importFailed': 'Import failed',
+    'practice.deleteRecord': 'Delete record',
+    'practice.deleteRecordConfirm': 'Delete this practice record? This cannot be undone.',
+    'practice.recordDeleted': 'Record deleted',
 
     // Settings
     'settings.title': 'Settings',
@@ -784,6 +791,7 @@ const translations: Record<Locale, Record<string, string>> = {
     'practiceMode.scoreResult': 'Score: {score}/{total} (Accuracy: {accuracy}%)',
     'practiceMode.submitSuccessToast': 'Submitted · Score {score}/{total} · {accuracy}% accuracy',
     'practiceMode.submitResultBanner': 'Submitted! Correct: {correct}/{total} · Accuracy: {accuracy}%',
+    'practiceMode.explanationUnavailable': 'Explanation unavailable: this question does not have a detailed explanation yet. Use the correct answer and passage as reference.',
     'practiceMode.fullscreen': 'Fullscreen',
     'practiceMode.exitFullscreen': 'Exit Fullscreen',
     'practiceMode.loading': 'Loading question...',

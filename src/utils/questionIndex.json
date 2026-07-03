@@ -988,7 +988,8 @@
     "pdfPath": "/ReadingPractice/PDF/103. P2 - Biomimicry 仿生学.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-06",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-06",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1002,7 +1003,8 @@
     "pdfPath": "/ReadingPractice/PDF/105. P2 - How the Petri dish supports scientific advances 培养皿.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-08",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-08",
+    "hasExplanation": true,
     "totalQuestions": 16
   },
   {
@@ -1046,7 +1048,8 @@
     "pdfPath": "/ReadingPractice/PDF/110. P2 - Should space be explored by robots or by humans 人机太空探索.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-14",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-14",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1060,7 +1063,8 @@
     "pdfPath": "/ReadingPractice/PDF/112. P2 - The Importance of Law 法律的意义.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-16",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-16",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1074,7 +1078,8 @@
     "pdfPath": "/ReadingPractice/PDF/113. P2 - Herbal Medicines 新西兰草药.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-17",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-17",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1088,7 +1093,8 @@
     "pdfPath": "/ReadingPractice/PDF/115. P2 - Mind Music 脑海中的音乐(心灵音乐).pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-19",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-19",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1102,7 +1108,8 @@
     "pdfPath": "/ReadingPractice/PDF/117. P2 - Stress Less 工作压力.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-21",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-21",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1116,7 +1123,8 @@
     "pdfPath": "/ReadingPractice/PDF/119. P2 - The Constant Evolution of the Humble Tomato 番茄的演化.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-23",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-23",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1172,7 +1180,8 @@
     "pdfPath": "/ReadingPractice/PDF/133. P2 - How to be Happy 如何获得幸福.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-39",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-39",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1186,7 +1195,8 @@
     "pdfPath": "/ReadingPractice/PDF/135. P2 - The Myth of the Eight-hour Sleep 八小时睡眠.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-41",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-41",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1200,7 +1210,8 @@
     "pdfPath": "/ReadingPractice/PDF/142. P2 - Born to Trade 交易的本能.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-49",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-49",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1214,7 +1225,8 @@
     "pdfPath": "/ReadingPractice/PDF/143. P2 - Jellyfish – The Dominant Species 水母·海洋中的优势物种.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-50",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-50",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1228,7 +1240,8 @@
     "pdfPath": "/ReadingPractice/PDF/51. P2 - The dingo debate 澳洲野犬_澳洲野狗.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-051",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-051",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1242,7 +1255,8 @@
     "pdfPath": "/ReadingPractice/PDF/144. P2 - The gender gap in New Zealand’s high school examination results 新西兰考试成绩的性别差异.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-51",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-51",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1271,7 +1285,8 @@
     "pdfPath": "/ReadingPractice/PDF/150. P2 - Insect Decision-Making 昆虫决策.pdf",
     "launchMode": "unified",
     "dataKey": "p2-medium-58",
-    "hasExplanation": false,
+    "explanationKey": "p2-medium-58",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1285,7 +1300,8 @@
     "pdfPath": "/ReadingPractice/PDF/154. P2 - The purpose of facial expressions 面部表情.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-62",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-62",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1299,7 +1315,8 @@
     "pdfPath": "/ReadingPractice/PDF/156. P2 - New filter promises clean water for millions 新型泥土净水器.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-64",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-64",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1313,7 +1330,8 @@
     "pdfPath": "/ReadingPractice/PDF/157. P2 - Boring Buildings 无聊建筑.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-65",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-65",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1327,7 +1345,8 @@
     "pdfPath": "/ReadingPractice/PDF/164. P2 - The Power of Smell 嗅觉的力量.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-73",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-73",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1341,7 +1360,8 @@
     "pdfPath": "/ReadingPractice/PDF/166. P2 - Lean Production Innovation 精益生产.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-75",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-75",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1355,7 +1375,8 @@
     "pdfPath": "/ReadingPractice/PDF/168. P2 - Mammoth Kill 猛犸象的灭绝.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-77",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-77",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1384,7 +1405,8 @@
     "pdfPath": "/ReadingPractice/PDF/177. P2（1025纸笔）[Pretest]  - Speaking of Nothing 闲聊的意义.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-87",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-87",
+    "hasExplanation": true,
     "totalQuestions": 16
   },
   {
@@ -1398,7 +1420,8 @@
     "pdfPath": "/ReadingPractice/PDF/180. P2 - Australia’s camouflaged creatures 澳洲伪装生物.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-91",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-91",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1412,7 +1435,8 @@
     "pdfPath": "/ReadingPractice/PDF/182. P2 - Antarctic research 南极考察.pdf",
     "launchMode": "unified",
     "dataKey": "p2-medium-93",
-    "hasExplanation": false,
+    "explanationKey": "p2-medium-93",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1426,7 +1450,8 @@
     "pdfPath": "/ReadingPractice/PDF/183. P2 - The importance of being playful 玩耍的重要性.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-94",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-94",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1440,7 +1465,8 @@
     "pdfPath": "/ReadingPractice/PDF/185. [Pretest] P2 - Why Do We Need Sleep 睡眠的目的.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-96",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-96",
+    "hasExplanation": true,
     "totalQuestions": 16
   },
   {
@@ -1469,7 +1495,8 @@
     "pdfPath": "/ReadingPractice/PDF/191. P2 - The economic effect of climate 气候对经济的影响.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-103",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-103",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1483,7 +1510,8 @@
     "pdfPath": "/ReadingPractice/PDF/192. P2(1115纸笔) - Should we stop eating meat 是否应该吃素.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-104",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-104",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1887,7 +1915,8 @@
     "pdfPath": "/ReadingPractice/PDF/59. P2 - Why do we need the arts_ 艺术的意义.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-148",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-148",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1901,7 +1930,8 @@
     "pdfPath": "/ReadingPractice/PDF/192. P2(1115纸笔) - Should we stop eating meat 是否应该吃素.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-192",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-192",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1915,7 +1945,8 @@
     "pdfPath": "/ReadingPractice/PDF/201. P2 - Multi-tasking and the brain 大脑与多任务处理.pdf",
     "launchMode": "unified",
     "dataKey": "p2-high-201",
-    "hasExplanation": false,
+    "explanationKey": "p2-high-201",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1929,7 +1960,8 @@
     "pdfPath": "/ReadingPractice/PDF/209. P2 - Decision Fatigue 决策疲劳.pdf",
     "launchMode": "unified",
     "dataKey": "p2-medium-209",
-    "hasExplanation": false,
+    "explanationKey": "p2-medium-209",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1943,7 +1975,8 @@
     "pdfPath": "/ReadingPractice/PDF/213. P2 - Growing more for less 卫星农业.pdf",
     "launchMode": "unified",
     "dataKey": "p2-medium-213",
-    "hasExplanation": false,
+    "explanationKey": "p2-medium-213",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1957,7 +1990,8 @@
     "pdfPath": "/ReadingPractice/PDF/217. P2 - A mechanical friend for children 孩子的机器人朋友.pdf",
     "launchMode": "unified",
     "dataKey": "p2-medium-217",
-    "hasExplanation": false,
+    "explanationKey": "p2-medium-217",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -1971,7 +2005,8 @@
     "pdfPath": "/ReadingPractice/PDF/222. P2 - Ideal Homes 理想居所.pdf",
     "launchMode": "unified",
     "dataKey": "p2-low-222",
-    "hasExplanation": false,
+    "explanationKey": "p2-low-222",
+    "hasExplanation": true,
     "totalQuestions": 13
   },
   {
@@ -2045,7 +2080,8 @@
     "pdfPath": "/ReadingPractice/PDF/109. P3 - Humanities and the health professional 人文医学.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-12",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-12",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2074,7 +2110,8 @@
     "pdfPath": "/ReadingPractice/PDF/114. P3 - Unlocking the mystery of dreams 梦的解析.pdf",
     "launchMode": "unified",
     "dataKey": "p3-medium-18",
-    "hasExplanation": false,
+    "explanationKey": "p3-medium-18",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2103,7 +2140,8 @@
     "pdfPath": "/ReadingPractice/PDF/123. P3 - Images and Places 风景与印记.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-28",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-28",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2147,7 +2185,8 @@
     "pdfPath": "/ReadingPractice/PDF/132. P3 - Research into the effects of different teaching styles 教学风格研究.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-38",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-38",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2206,7 +2245,8 @@
     "pdfPath": "/ReadingPractice/PDF/147. P3 - Movement Underwater 水下运动.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-54",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-54",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2235,7 +2275,8 @@
     "pdfPath": "/ReadingPractice/PDF/149. P3 - Learning to be bilingual 双语学习.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-56",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-56",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2294,7 +2335,8 @@
     "pdfPath": "/ReadingPractice/PDF/165. P3 - The Placebo Effect5 安慰剂效应.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-74",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-74",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2308,7 +2350,8 @@
     "pdfPath": "/ReadingPractice/PDF/167. P3 - Sign, Baby, Sign! 美国手语.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-76",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-76",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2322,8 +2365,8 @@
     "pdfPath": "/ReadingPractice/PDF/78. P3 (仅原文无题) - Music Language We All Speak 音乐语言.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-078",
-    "hasExplanation": false,
-    "totalQuestions": 26
+    "totalQuestions": 26,
+    "hasExplanation": false
   },
   {
     "id": "p3-low-78",
@@ -2351,7 +2394,8 @@
     "pdfPath": "/ReadingPractice/PDF/173. P3(1018纸笔 ) - Looking for inspiration 寻找灵感.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-83",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-83",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2365,7 +2409,8 @@
     "pdfPath": "/ReadingPractice/PDF/175. P3 - Music soothes and awes 音乐疗愈.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-85",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-85",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2379,7 +2424,8 @@
     "pdfPath": "/ReadingPractice/PDF/178. P3（1025纸笔）[Pretest]  - Translating a key to international understanding 翻译的艺术.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-88",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-88",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2408,7 +2454,8 @@
     "pdfPath": "/ReadingPractice/PDF/184. P3 - The strange world of sight 奇异的视觉世界.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-95",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-95",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2422,7 +2469,8 @@
     "pdfPath": "/ReadingPractice/PDF/186. P3 - Saving languages 拯救濒危语言.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-97",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-97",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2436,7 +2484,8 @@
     "pdfPath": "/ReadingPractice/PDF/187. P3 - Petrol power an eco-revolution 交通的革命.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-98",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-98",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2450,7 +2499,8 @@
     "pdfPath": "/ReadingPractice/PDF/189. P3 - Mirror 镜子研究.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-100",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-100",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2629,7 +2679,8 @@
     "pdfPath": "/ReadingPractice/PDF/71. P3 - Jean Piaget (1896–1980) 让·皮亚杰.pdf",
     "launchMode": "unified",
     "dataKey": "p3-medium-162",
-    "hasExplanation": false,
+    "explanationKey": "p3-medium-162",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -2733,8 +2784,8 @@
     "pdfPath": "/ReadingPractice/PDF/78. P3 (仅原文无题) - Music Language We All Speak 音乐语言.pdf",
     "launchMode": "unified",
     "dataKey": "p3-medium-169",
-    "hasExplanation": false,
-    "totalQuestions": 14
+    "totalQuestions": 14,
+    "hasExplanation": false
   },
   {
     "id": "p3-high-170",
@@ -2957,7 +3008,8 @@
     "pdfPath": "/ReadingPractice/PDF/93. P3 - The Robbers Cave Study (山洞)群体行为实验.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-186",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-186",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3061,7 +3113,8 @@
     "pdfPath": "/ReadingPractice/PDF/197. P3 - Australia’s Megafauna Controversy 巨兽灭绝.pdf",
     "launchMode": "unified",
     "dataKey": "p3-medium-197",
-    "hasExplanation": false,
+    "explanationKey": "p3-medium-197",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3075,7 +3128,8 @@
     "pdfPath": "/ReadingPractice/PDF/198. P3 - Child’s Play in Medieval England 中世纪的游戏.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-198",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-198",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3089,7 +3143,8 @@
     "pdfPath": "/ReadingPractice/PDF/204. P3 - When people are ‘deaf’ to music 失乐症.pdf",
     "launchMode": "unified",
     "dataKey": "p3-high-204",
-    "hasExplanation": false,
+    "explanationKey": "p3-high-204",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3103,7 +3158,8 @@
     "pdfPath": "/ReadingPractice/PDF/206. P3 - 200 Years of Australian Landscapes at the Royal Academy in London 澳洲风景展.pdf",
     "launchMode": "unified",
     "dataKey": "p3-high-206",
-    "hasExplanation": false,
+    "explanationKey": "p3-high-206",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3117,7 +3173,8 @@
     "pdfPath": "/ReadingPractice/PDF/212. P3 - Children’s literature studies today 儿童文学.pdf",
     "launchMode": "unified",
     "dataKey": "p3-high-212",
-    "hasExplanation": false,
+    "explanationKey": "p3-high-212",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3131,7 +3188,8 @@
     "pdfPath": "/ReadingPractice/PDF/218. P3 - The Causes of Linguistic Change 语音的演变.pdf",
     "launchMode": "unified",
     "dataKey": "p3-high-218",
-    "hasExplanation": false,
+    "explanationKey": "p3-high-218",
+    "hasExplanation": true,
     "totalQuestions": 14
   },
   {
@@ -3145,7 +3203,8 @@
     "pdfPath": "/ReadingPractice/PDF/219. P3 - The origin of language 语言的起源.pdf",
     "launchMode": "unified",
     "dataKey": "p3-low-219",
-    "hasExplanation": false,
+    "explanationKey": "p3-low-219",
+    "hasExplanation": true,
     "totalQuestions": 12
   },
   {

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-low-51",
+  "meta": {
+    "examId": "p2-low-51",
+    "title": "The gender gap in New Zealand’s high school examination results",
+    "category": "P2",
+    "sourceDoc": "144. P2 - The gender gap in New Zealand’s high school examination results 新西兰考试成绩的性别差异.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The gender gap in New Zealand’s high school examination results 新西兰考试成绩的性别差异",
+    "ocrPages": [
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. summary completion (Questions 14-16)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 16
+      },
+      "text": "题目 14\n答案：pass rates\nPDF 解析页 OCR：语句清单翻译：\n\n题目 15\n答案：decade\nPDF 解析页 OCR：A全男校会让男生在NCEA里得分更低。\n\n题目 16\n答案：Australia\nPDF 解析页 OCR：C好老师/好教学比\"是否单性别/混合班\"更重要。 D过去数学习得好并不那么重要。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：pass rates\nPDF 解析页 OCR：语句清单翻译："
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：decade\nPDF 解析页 OCR：A全男校会让男生在NCEA里得分更低。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：Australia\nPDF 解析页 OCR：C好老师/好教学比\"是否单性别/混合班\"更重要。 D过去数学习得好并不那么重要。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. table completion (Questions 17-20)",
+      "mode": "group",
+      "questionRange": {
+        "start": 17,
+        "end": 20
+      },
+      "text": "题目 17\n答案：C\nPDF 解析页 OCR：E男生与女生的成绩差异只在某些学科明显。\n\n题目 18\n答案：B\nPDF 解析页 OCR：F年纪更大的男生比年纪更小的男生更有学习动力。\n\n题目 19\n答案：D\nPDF 解析页 OCR：GNCEA的读写要求比旧考试体系更高。\n\n题目 20\n答案：E\nPDF 定位：精准定位 答案\nPDF 解析：详细解释",
+      "items": [
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：C\nPDF 解析页 OCR：E男生与女生的成绩差异只在某些学科明显。"
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：B\nPDF 解析页 OCR：F年纪更大的男生比年纪更小的男生更有学习动力。"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：D\nPDF 解析页 OCR：GNCEA的读写要求比旧考试体系更高。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：E\nPDF 定位：精准定位 答案\nPDF 解析：详细解释"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. matching (Questions 21-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 21,
+        "end": 26
+      },
+      "text": "题目 21\n答案：H\nPDF 定位：B 段末: \"believe there is still resistance within the Education Ministry towards doing anything about the problem.*\nPDF 解析：她认为教育部对采取行动仍有阻力/不情愿，对应H。\n\n题目 22\n答案：E\nPDF 定位：C 段中部: \"In most parts of the curriculum... there isn't really a gender gap. But literacy is a different matter.\"\nPDF 解析：明说多数学科（如数学）无明显性别差异，唯独读写不同→差异只在部 分学科显现。\n\n题目 23\n答案：G\nPDF 定位：D 段末:\"the written content of NCEA papers is more demanding than the previous system... even in statistics and accounting.\"\nPDF 解析：将NCEA的书面（读写）要求与旧体系相比更高，正合G。\n\n题目 24\n答案：C\nPDF 定位：F 段后半:*it became clear that the difference was... to do with the quality of instruction.\"\nPDF 解析：他发现成败取决于教学质量，而非是否分班（单性别/混合），对应C。\n\n题目 25\n答案：F\nPDF 定位：G 段: \"Year 1... boys are simply not mature enough... By 17, boys are catching up... winning the top prizes.\nPDF 解析：强调年纪小不成熟、动力不足；年纪大（17岁）后赶上并摘奖→年长男生 更有动力/更上进。\n\n题目 26\n答案：B\nPDF 定位：H段末:\"easier in a boys' school, where activities cannot be \"captured by girls'.\"\nPDF 解析：其观点是男校更容易提升男生表现，因为活动不会被女生\"占据'→男生在 混校里受不利影响。",
+      "items": [
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：H\nPDF 定位：B 段末: \"believe there is still resistance within the Education Ministry towards doing anything about the problem.*\nPDF 解析：她认为教育部对采取行动仍有阻力/不情愿，对应H。"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：E\nPDF 定位：C 段中部: \"In most parts of the curriculum... there isn't really a gender gap. But literacy is a different matter.\"\nPDF 解析：明说多数学科（如数学）无明显性别差异，唯独读写不同→差异只在部 分学科显现。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：G\nPDF 定位：D 段末:\"the written content of NCEA papers is more demanding than the previous system... even in statistics and accounting.\"\nPDF 解析：将NCEA的书面（读写）要求与旧体系相比更高，正合G。"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：C\nPDF 定位：F 段后半:*it became clear that the difference was... to do with the quality of instruction.\"\nPDF 解析：他发现成败取决于教学质量，而非是否分班（单性别/混合），对应C。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：F\nPDF 定位：G 段: \"Year 1... boys are simply not mature enough... By 17, boys are catching up... winning the top prizes.\nPDF 解析：强调年纪小不成熟、动力不足；年纪大（17岁）后赶上并摘奖→年长男生 更有动力/更上进。"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：B\nPDF 定位：H段末:\"easier in a boys' school, where activities cannot be \"captured by girls'.\"\nPDF 解析：其观点是男校更容易提升男生表现，因为活动不会被女生\"占据'→男生在 混校里受不利影响。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：pass rates\nPDF 解析页 OCR：语句清单翻译："
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：decade\nPDF 解析页 OCR：A全男校会让男生在NCEA里得分更低。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：Australia\nPDF 解析页 OCR：C好老师/好教学比\"是否单性别/混合班\"更重要。 D过去数学习得好并不那么重要。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：C\nPDF 解析页 OCR：E男生与女生的成绩差异只在某些学科明显。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：B\nPDF 解析页 OCR：F年纪更大的男生比年纪更小的男生更有学习动力。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：D\nPDF 解析页 OCR：GNCEA的读写要求比旧考试体系更高。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：E\nPDF 定位：精准定位 答案\nPDF 解析：详细解释"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：H\nPDF 定位：B 段末: \"believe there is still resistance within the Education Ministry towards doing anything about the problem.*\nPDF 解析：她认为教育部对采取行动仍有阻力/不情愿，对应H。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：E\nPDF 定位：C 段中部: \"In most parts of the curriculum... there isn't really a gender gap. But literacy is a different matter.\"\nPDF 解析：明说多数学科（如数学）无明显性别差异，唯独读写不同→差异只在部 分学科显现。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：G\nPDF 定位：D 段末:\"the written content of NCEA papers is more demanding than the previous system... even in statistics and accounting.\"\nPDF 解析：将NCEA的书面（读写）要求与旧体系相比更高，正合G。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：C\nPDF 定位：F 段后半:*it became clear that the difference was... to do with the quality of instruction.\"\nPDF 解析：他发现成败取决于教学质量，而非是否分班（单性别/混合），对应C。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：F\nPDF 定位：G 段: \"Year 1... boys are simply not mature enough... By 17, boys are catching up... winning the top prizes.\nPDF 解析：强调年纪小不成熟、动力不足；年纪大（17岁）后赶上并摘奖→年长男生 更有动力/更上进。"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：B\nPDF 定位：H段末:\"easier in a boys' school, where activities cannot be \"captured by girls'.\"\nPDF 解析：其观点是男校更容易提升男生表现，因为活动不会被女生\"占据'→男生在 混校里受不利影响。"
+    }
+  }
+}

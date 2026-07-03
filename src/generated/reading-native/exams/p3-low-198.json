@@ -7,7 +7,7 @@
     "frequency": "low",
     "originalTitle": "Child’s Play in Medieval England 中世纪的游戏"
   },
-  "explanationKey": null,
+  "explanationKey": "p3-low-198",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1693,7 +1693,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. single choice (Questions 27-31)",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 31
+        },
+        "text": "题目 27\n答案：d\nPDF 定位：中世纪英格兰儿童游戏的经济证据 D 段末尾:*.by 1300 it appears there was a toy industry in England. ..dolls ... commercially manufactured, imported and, in 1582, taxed at a halfpenny each.*\nPDF 解析：\"确实，到1300年时，英格兰似乎已经出现了 题干中的economicevidence指\"经济层面的证 玩具产业。.娃娃是商业化制造的、进口的， 据\"。D段不仅说到toyindustry(玩具产业)， 并且在1582年被以每个半便士的税额征税。\" 还提到玩具被商业化生产、进口并征税，这些 都是非常明确的经济活动证据。因此可直接证明 \"儿童玩要\"在当时已经形成产业和税收。其它段 虽有玩具、游戏，但没有出现产业、税收等经济 信息。故选D。\n\n题目 28\n答案：g\nPDF 定位：儿童自己制作玩具的一个例子 G 段末尾: *..children playing with tops in March, looking for fruit in summer and making footballs by filling pigs bladders with dried peas in autumn.\"\nPDF 解析：\"..孩子们三月玩陀螺，夏天寻找水果，秋天则 题干间\"如何自己做玩具\"的例子。G段这句描述 把猪膀胱里装上干豌豆做成足球来玩。\" 孩子们把猪膀胱塞入干豌豆亲手做成footballs， 明显是用身边材料自制玩具，而不是购买现成玩 具。D段开头那句sand castles（堆沙堡）更偏 向自创游戏场景，而不是\"做出一个玩具\"；命题 人把\"makingfootballs\"视作最典型的\"created their own toys\"。故选 G。\n\n题目 29\n答案：e\nPDF 定位：一个得到大人认可的、带有战争色彩的游戏例子 E 段末尾: \"Boys in the later Middle Ages shot arrows with bows, and archery is an example of a sport encouraged by adults, who wanted boys to grow up to play their part in what was, for most men, a warrior society.\"\nPDF 解析：\"中世纪后期的男孩会用弓箭射箭，而射箭就是 题干关键调：warlikeplay（类似战争的游戏）+ approvedbygrown-ups(得到成人认可)。E段 一种受到成人鼓励的运动，成人希望男孩长大后 明确说男孩用弓箭射箭，射箭是一种被成年人 在这个对大多数男人来说都是战士社会的世界里 \"encouraged（鼓励）\"的运动，而且原因是社会 发挥自己的作用。\" 是\"warriorsociety（战士社会）\"，这一活动带 有明显的军事/战争色彩，又由成人提倡，完全 对应题干。F段虽然是\"打仗\"，但那是孩子自 发的、甚至造成死亡，需要国王下令制止，并非 \"approved by grown-ups\"。故选 E。\n\n题目 30\n答案：f\nPDF 定位：在儿童游戏中反映出的政治事件 F 段: *In 1400, six months after King Richard II had been overthrown by Henry IV, the children of London gathered together and chose themselves kings. .. and made war upon each other.. The new king had to order their parents and masters to stop them.\"\nPDF 解析：\"在1400年，也就是理查二世国王被亨利四世 先发生的是真实历史上的王位更选（RichardII 推翻后的六个月，伦敦的孩子们聚在一起，自封 被HenryIV推翻)，紧接着孩子们玩\"自立为 王、互相打仗\"的游戏，这显然是对现实政治 为国王....并被此开战....新国王不得不命令他们 的父母和老师制止这种行为。\" 事件的一种\"mirror(映射/模仿)\"。题干中的a political event mirrored in children's play 正是 指这种现象。所以答案是F。其他段虽提到战争 或节日，但没有和具体政治事件挂钩。\n\n题目 31\n答案：b\nPDF 定位：B段开头: *Forty years ago, the French 关于中世纪生活的学术争论的起源 historian Philippe Aries argued, in Centuries of Childhood, that childhood in the Middle Ages did not exist in its modern sense.\" 结 尾: \"More recent historians have disputed this, . arguing that childhood, by its very nature, must always have been much the same.\"\nPDF 解析：题干问\"学术争论的起源\"，即：谁首先提出有争 \"四十年前，法国历史学家菲利普·阿里耶斯在 《童年的世纪》一书中提出：中世纪并不存在我们 议的观点。B段正是在介绍：Philippe Aries在 今天意义上的童年。..后来的一些历史学家对 《童年的世纪》中提出\"中世纪没有现代意义上的 童年\"，后来历史学家才\"disputedthis（对此提 这一观点提出了质疑，..认为童年按其本性而 出异议》\"。因此这就是关于\"中世纪童年是否存 言一直都差不多。\" 在\"的学术争论的源头。其他段只是在讨论论证 和证据，不再是起点。故选B，",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：d\nPDF 定位：中世纪英格兰儿童游戏的经济证据 D 段末尾:*.by 1300 it appears there was a toy industry in England. ..dolls ... commercially manufactured, imported and, in 1582, taxed at a halfpenny each.*\nPDF 解析：\"确实，到1300年时，英格兰似乎已经出现了 题干中的economicevidence指\"经济层面的证 玩具产业。.娃娃是商业化制造的、进口的， 据\"。D段不仅说到toyindustry(玩具产业)， 并且在1582年被以每个半便士的税额征税。\" 还提到玩具被商业化生产、进口并征税，这些 都是非常明确的经济活动证据。因此可直接证明 \"儿童玩要\"在当时已经形成产业和税收。其它段 虽有玩具、游戏，但没有出现产业、税收等经济 信息。故选D。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：g\nPDF 定位：儿童自己制作玩具的一个例子 G 段末尾: *..children playing with tops in March, looking for fruit in summer and making footballs by filling pigs bladders with dried peas in autumn.\"\nPDF 解析：\"..孩子们三月玩陀螺，夏天寻找水果，秋天则 题干间\"如何自己做玩具\"的例子。G段这句描述 把猪膀胱里装上干豌豆做成足球来玩。\" 孩子们把猪膀胱塞入干豌豆亲手做成footballs， 明显是用身边材料自制玩具，而不是购买现成玩 具。D段开头那句sand castles（堆沙堡）更偏 向自创游戏场景，而不是\"做出一个玩具\"；命题 人把\"makingfootballs\"视作最典型的\"created their own toys\"。故选 G。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：e\nPDF 定位：一个得到大人认可的、带有战争色彩的游戏例子 E 段末尾: \"Boys in the later Middle Ages shot arrows with bows, and archery is an example of a sport encouraged by adults, who wanted boys to grow up to play their part in what was, for most men, a warrior society.\"\nPDF 解析：\"中世纪后期的男孩会用弓箭射箭，而射箭就是 题干关键调：warlikeplay（类似战争的游戏）+ approvedbygrown-ups(得到成人认可)。E段 一种受到成人鼓励的运动，成人希望男孩长大后 明确说男孩用弓箭射箭，射箭是一种被成年人 在这个对大多数男人来说都是战士社会的世界里 \"encouraged（鼓励）\"的运动，而且原因是社会 发挥自己的作用。\" 是\"warriorsociety（战士社会）\"，这一活动带 有明显的军事/战争色彩，又由成人提倡，完全 对应题干。F段虽然是\"打仗\"，但那是孩子自 发的、甚至造成死亡，需要国王下令制止，并非 \"approved by grown-ups\"。故选 E。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：f\nPDF 定位：在儿童游戏中反映出的政治事件 F 段: *In 1400, six months after King Richard II had been overthrown by Henry IV, the children of London gathered together and chose themselves kings. .. and made war upon each other.. The new king had to order their parents and masters to stop them.\"\nPDF 解析：\"在1400年，也就是理查二世国王被亨利四世 先发生的是真实历史上的王位更选（RichardII 推翻后的六个月，伦敦的孩子们聚在一起，自封 被HenryIV推翻)，紧接着孩子们玩\"自立为 王、互相打仗\"的游戏，这显然是对现实政治 为国王....并被此开战....新国王不得不命令他们 的父母和老师制止这种行为。\" 事件的一种\"mirror(映射/模仿)\"。题干中的a political event mirrored in children's play 正是 指这种现象。所以答案是F。其他段虽提到战争 或节日，但没有和具体政治事件挂钩。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：b\nPDF 定位：B段开头: *Forty years ago, the French 关于中世纪生活的学术争论的起源 historian Philippe Aries argued, in Centuries of Childhood, that childhood in the Middle Ages did not exist in its modern sense.\" 结 尾: \"More recent historians have disputed this, . arguing that childhood, by its very nature, must always have been much the same.\"\nPDF 解析：题干问\"学术争论的起源\"，即：谁首先提出有争 \"四十年前，法国历史学家菲利普·阿里耶斯在 《童年的世纪》一书中提出：中世纪并不存在我们 议的观点。B段正是在介绍：Philippe Aries在 今天意义上的童年。..后来的一些历史学家对 《童年的世纪》中提出\"中世纪没有现代意义上的 童年\"，后来历史学家才\"disputedthis（对此提 这一观点提出了质疑，..认为童年按其本性而 出异议》\"。因此这就是关于\"中世纪童年是否存 言一直都差不多。\" 在\"的学术争论的源头。其他段只是在讨论论证 和证据，不再是起点。故选B，"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2081,7 +2116,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. short answer (Questions 32-35)",
+        "mode": "group",
+        "questionRange": {
+          "start": 32,
+          "end": 35
+        },
+        "text": "题目 32\n答案：i\nPDF 定位：1400年 *In 1400, six months after King Richard II had been overthrown by Henry IV, the children of London gathered together and chose themselves kings. Adam of Usk tells us they congregated 'in thousands ... and made war upon each other... \" (F)\nPDF 解析：\"在1400年，理查二世被亨利四世推翻六个月 孩子自封国王、分帮结派打仗，是典型的帮派式 后，伦敦的孩子们聚在一起，自封国王。亚当· 斗殿/群体战争游戏，对应列表中|\"children's gang warfare\". 阿夫·阿斯克记载，他们\"成千上万地聚在一起， 互相打仗.\n\n题目 33\n答案：j\nPDF 定位：1518年 \"In 1518, the poet Alexander Barclay records children playing with tops in March, looking for fruit in summer and making footballs by filling pigs' bladders with dried peas in autumn.\" (G)\nPDF 解析：\"在1518年，诗人亚历山大·巴克莱记载，孩子 这里按春夏秋依次描写孩子活动，是对一年 四季活动的概括，故对应J\"adescriptionof 们三月玩陀螺，夏天找水果，秋天把装了干豌豆 的猪膀胱做成足球。\" seasonalactivities（对季节性活动的描述）\"。\n\n题目 34\n答案：f\nPDF 定位：1582年 \"Girls had dolls, known before the 17th century as 'poppets' or puppets, commercially manufactured, imported and, in 1582, taxed at a halfpenny each. (D)\nPDF 解析：\"女孩有洋娃娃，在17世纪以前被称为 题目选项F是\"dollstaxed inEngland（洋娃娃 'poppets'或puppets，这些玩偶被商业化生产 被征税)\"，与1582年这一税收记录完全吻合。 和进口，并在1582年每个征收半便士的税。\"\n\n题目 35\n答案：c\nPDF 定位：1908年 *The ringing chorus of Sir Henry Newbolt's celebrated cricket poem \"Vitai Lampada' (1908) sums up views about play in 19th- and early 20th-century Britain.\" (A)\nPDF 解析：\"亨利·纽博尔特爵士那首著名的板球诗《Vitai 这是1908年发表的诗歌，而且用来总结人们 对\"play\"的价值观，对应选项C\"poemabout Lampada》（1908）覆结了19世纪和20世纪 早期英国人对游戏的看法。\" value of games\"",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：i\nPDF 定位：1400年 *In 1400, six months after King Richard II had been overthrown by Henry IV, the children of London gathered together and chose themselves kings. Adam of Usk tells us they congregated 'in thousands ... and made war upon each other... \" (F)\nPDF 解析：\"在1400年，理查二世被亨利四世推翻六个月 孩子自封国王、分帮结派打仗，是典型的帮派式 后，伦敦的孩子们聚在一起，自封国王。亚当· 斗殿/群体战争游戏，对应列表中|\"children's gang warfare\". 阿夫·阿斯克记载，他们\"成千上万地聚在一起， 互相打仗."
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：j\nPDF 定位：1518年 \"In 1518, the poet Alexander Barclay records children playing with tops in March, looking for fruit in summer and making footballs by filling pigs' bladders with dried peas in autumn.\" (G)\nPDF 解析：\"在1518年，诗人亚历山大·巴克莱记载，孩子 这里按春夏秋依次描写孩子活动，是对一年 四季活动的概括，故对应J\"adescriptionof 们三月玩陀螺，夏天找水果，秋天把装了干豌豆 的猪膀胱做成足球。\" seasonalactivities（对季节性活动的描述）\"。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：f\nPDF 定位：1582年 \"Girls had dolls, known before the 17th century as 'poppets' or puppets, commercially manufactured, imported and, in 1582, taxed at a halfpenny each. (D)\nPDF 解析：\"女孩有洋娃娃，在17世纪以前被称为 题目选项F是\"dollstaxed inEngland（洋娃娃 'poppets'或puppets，这些玩偶被商业化生产 被征税)\"，与1582年这一税收记录完全吻合。 和进口，并在1582年每个征收半便士的税。\""
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：c\nPDF 定位：1908年 *The ringing chorus of Sir Henry Newbolt's celebrated cricket poem \"Vitai Lampada' (1908) sums up views about play in 19th- and early 20th-century Britain.\" (A)\nPDF 解析：\"亨利·纽博尔特爵士那首著名的板球诗《Vitai 这是1908年发表的诗歌，而且用来总结人们 对\"play\"的价值观，对应选项C\"poemabout Lampada》（1908）覆结了19世纪和20世纪 早期英国人对游戏的看法。\" value of games\""
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2762,7 +2827,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. yes no not given (Questions 36-40)",
+        "mode": "group",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "题目 36\n答案：no\nPDF 定位：*These questions can be answered from 对中世纪成人对儿童游戏的态度，人们知之 基少。 a rich body of evidence including actual toys.We know not only how medieval\nPDF 解析：文章明确说有\"大量证据\"\"我们知道长辈是怎样 \"这些问题可以通过大量的证据来回答，包括当 时的玩具.我们不仅知道中世纪英格兰的孩子 想的\"，因此关于成人态度的信息很多，而不是 们是怎样玩要的，还知道他们的长辈在这个问题 \"知之甚少\"，与题干相反，所以为FALSE，\n\n题目 37\n答案：not given\nPDF 定位：1300年之前，大多数玩具都是进口到英格兰的。 相关处：\"Indeed, by 1300 it appears there was a toy industry in England.\"; 以及 \"Girls\nPDF 解析：\"的确，到1300年时，英格兰似乎已经有玩具 文中只说\"到1300年时有玩具产业\"，说明在 产业。\"；\"女孩有洋娃娃.这玩偶被商业化生 英格兰本土生产玩具：并在很后面的1582年提\n\n题目 38\n答案：yes\nPDF 定位：中世纪的孩子以他们自己的方式庆祝季节变换。 *Children shared in the adult round of religious festivals, but had their own observances as well, semidetached from their elders.\" (G); 以及 *In the 1200s... in spring a child \"follows the ploughman; in autumn he accompanies the grape-\nPDF 解析：\"孩子们参加成人举行的一系列宗教节日，但他 这些句子说明：孩子除了参加成人的宗教节日 外，还有自己的一套季节性活动（春、夏、秋各 们也有自己的一套庆祝方式，在某种程度上与 不相同)，即\"以自己的方式庆祝或感受季节\"， 长辈相分离。；\"在13世纪.春天孩子跟在 农夫后面；秋天他跟着采葡萄的人....在1518 与题干完全一致，因此为TRUE。 年..孩子们三月玩陀螺，夏天找水果，秋天 做足球。\n\n题目 39\n答案：not given\nPDF 定位：中世纪的孩子在特殊节日会给父母做礼物。 -(全文无相关信息)\nPDF 解析：文章提到孩子玩玩具、参加节日、做足球等，但 从未提到他们为父母制作礼物，所以无法判断对 错，应为NOTGIVEN。\n\n题目 40\n答案：yes\nPDF 定位：中世纪的父母和孩子的行为方式与今天大体 *it is clear from this evidence that the 相同。 relationship between adults and children in medieval society was, in major respects, a modern one.\"; \".. We can answer Aries's thesis, then, with a resounding \"No! Childhood has always been much the same.\" (H)\nPDF 解析：\"从这些证据可以清楚看出，中世纪社会中成 这里直接说两代人的关系\"在主要方面是现代式 人与儿童之间的关系在主要方面与现代是一样 的\"，童年\"一直差不多\"，也就是父母与孩子的 的。\"；\"因此，我们可以用一个响亮的\"不\"来回 互动和今天很相似；题干说\"behavedmuchas theydotoday\"，含义相符，因此是TRUE。 应阿里耶斯的论断：童年一直以来都差不多，",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：no\nPDF 定位：*These questions can be answered from 对中世纪成人对儿童游戏的态度，人们知之 基少。 a rich body of evidence including actual toys.We know not only how medieval\nPDF 解析：文章明确说有\"大量证据\"\"我们知道长辈是怎样 \"这些问题可以通过大量的证据来回答，包括当 时的玩具.我们不仅知道中世纪英格兰的孩子 想的\"，因此关于成人态度的信息很多，而不是 们是怎样玩要的，还知道他们的长辈在这个问题 \"知之甚少\"，与题干相反，所以为FALSE，"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：not given\nPDF 定位：1300年之前，大多数玩具都是进口到英格兰的。 相关处：\"Indeed, by 1300 it appears there was a toy industry in England.\"; 以及 \"Girls\nPDF 解析：\"的确，到1300年时，英格兰似乎已经有玩具 文中只说\"到1300年时有玩具产业\"，说明在 产业。\"；\"女孩有洋娃娃.这玩偶被商业化生 英格兰本土生产玩具：并在很后面的1582年提"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：yes\nPDF 定位：中世纪的孩子以他们自己的方式庆祝季节变换。 *Children shared in the adult round of religious festivals, but had their own observances as well, semidetached from their elders.\" (G); 以及 *In the 1200s... in spring a child \"follows the ploughman; in autumn he accompanies the grape-\nPDF 解析：\"孩子们参加成人举行的一系列宗教节日，但他 这些句子说明：孩子除了参加成人的宗教节日 外，还有自己的一套季节性活动（春、夏、秋各 们也有自己的一套庆祝方式，在某种程度上与 不相同)，即\"以自己的方式庆祝或感受季节\"， 长辈相分离。；\"在13世纪.春天孩子跟在 农夫后面；秋天他跟着采葡萄的人....在1518 与题干完全一致，因此为TRUE。 年..孩子们三月玩陀螺，夏天找水果，秋天 做足球。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：not given\nPDF 定位：中世纪的孩子在特殊节日会给父母做礼物。 -(全文无相关信息)\nPDF 解析：文章提到孩子玩玩具、参加节日、做足球等，但 从未提到他们为父母制作礼物，所以无法判断对 错，应为NOTGIVEN。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：yes\nPDF 定位：中世纪的父母和孩子的行为方式与今天大体 *it is clear from this evidence that the 相同。 relationship between adults and children in medieval society was, in major respects, a modern one.\"; \".. We can answer Aries's thesis, then, with a resounding \"No! Childhood has always been much the same.\" (H)\nPDF 解析：\"从这些证据可以清楚看出，中世纪社会中成 这里直接说两代人的关系\"在主要方面是现代式 人与儿童之间的关系在主要方面与现代是一样 的\"，童年\"一直差不多\"，也就是父母与孩子的 的。\"；\"因此，我们可以用一个响亮的\"不\"来回 互动和今天很相似；题干说\"behavedmuchas theydotoday\"，含义相符，因此是TRUE。 应阿里耶斯的论断：童年一直以来都差不多，"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

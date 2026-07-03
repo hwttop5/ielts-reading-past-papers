@@ -7,7 +7,7 @@
     "frequency": "high",
     "originalTitle": "When people are ‘deaf’ to music 失乐症【高】"
   },
-  "explanationKey": null,
+  "explanationKey": "p3-high-204",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1219,7 +1219,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. single choice (Questions 27-31)",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 31
+        },
+        "text": "题目 27\n答案：d\nPDF 定位：作者在第1段告诉我们：对音乐\"音盲\"（失乐症 第1段: \"It is not simply that people with amusia）的人有什么特点？ tone deafness (or 'amusia') are unable to sing in tune, they are also unable to discriminate between tones or recognize familiar melodies.\"\nPDF 解析：这类人不只是唱不准音，他们还无法分辨音高差 D对：定位句列出多项能力缺失（唱准、分辨 音、识别旋律）=\"several inabilities\"。A错： 异或识别熟悉的旋律。 第1段明确说先天性失乐症\"notassociated with... hearing problems\"。B/C 错：文中没 有说\"有人能演奏得很好/能唱出熟悉旋律\"，反 而说\"无法识别熟恶旋律\"。\n\n题目 28\n答案：b\nPDF 定位：作者在第2段在做什么？ 第2段: *An amusic ..cannot tell the difference between intervals smaller than a half ste..\"; \"when listening to melodies.. do not notice a problem.\"; \"As would be expected, amusics perform significanty worse..\nPDF 解析：失乐症者分不清半音以内的音程；旋律里有一 这一段主要在汇总/概述研究发现（他们能分 个音跑调也常察觉不到；唱歌、打节拍表现明 辨大跨度音高但分不清细微音程；对跑调不 显更差。 敏感；节奏/唱歌更差)，属于summarising findings。A错：没有在列举\"导致失乐症的因 索/原因\"。C错：没有强调\"处于劣势/被社会 歧视\"，只是描述实验表现。D错：不是\"比较 喝歌能力和感官\"，而是在陈述研究结果。\n\n题目 29\n答案：a\nPDF 定位：第 3段: *People with brain damage in areas 作者对\"语言能力\"和\"音乐能力\"的关系怎么说？ critical to language are often still able to sing, despite being unable to communicate through speech.\"\nPDF 解析：语言关键脑区受损、无法用言语交流的人，往往 A对：原文就是\"不能说话/不能通过语言交 流，但仍能唱\"。这用来支撑\"语言和音乐能力相 仍然能唱歌。 对独立\"，B错：第3段明确说二者 \"independent\"，并非\"失乐症通常也有语言间 题\"。C错：文中只是说会说中文等声调语言的 失乐症者不觉得分辨语调困难，并没说\"他们很 少有失乐症\"。D错：相反，文中说他们常能\n\n题目 30\n答案：c\nPDF 定位：第3段:\"Amusics are also successful most 第3段提到：大多数失乐症者能够.... of the time at detecting the mood of a melody..\nPDF 解析：失乐症者多数时候仍能判断旋律的情绪/氛围。 C对：\"detecting themood\"能分辨旋律情 绪（悲伤/快乐等)。A错：文中从未说他们能学 会唱准音，反而多处强调对音高细微差异不敏 感。B错：第1段说他们无法\"recognize 突。D错：他们对音高差异识别有缺陷，不支持 \"能听出歌手跑调\"。\n\n题目 31\n答案：b\nPDF 定位：第4段:\"Recent work has been focused on 作者在第4段做什么？ locating the part of the brain that is responsible foramusia.\"；以及后文对新研究 与脑扫描结果的描述\nPDF 解析：近期研究聚焦于定位导致失乐症的大脑区域，并 B对：这段是\"研究进展/路径\"：先考虑颜叶/ 呈现新发现(并非只在听党皮层)。 听觉皮层→再转向更高级加工→新研究指出缺 陷在听觉皮层之外，并给出脑扫描证据。A错： 反而说缺陷\"不在auditorycortex\"。C错：没 有\"证明就在题叶\"，只是曾被考虑、后来推翻/ 修正。D错：并非解释研究困难，而是在报告发 现。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：d\nPDF 定位：作者在第1段告诉我们：对音乐\"音盲\"（失乐症 第1段: \"It is not simply that people with amusia）的人有什么特点？ tone deafness (or 'amusia') are unable to sing in tune, they are also unable to discriminate between tones or recognize familiar melodies.\"\nPDF 解析：这类人不只是唱不准音，他们还无法分辨音高差 D对：定位句列出多项能力缺失（唱准、分辨 音、识别旋律）=\"several inabilities\"。A错： 异或识别熟悉的旋律。 第1段明确说先天性失乐症\"notassociated with... hearing problems\"。B/C 错：文中没 有说\"有人能演奏得很好/能唱出熟悉旋律\"，反 而说\"无法识别熟恶旋律\"。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：b\nPDF 定位：作者在第2段在做什么？ 第2段: *An amusic ..cannot tell the difference between intervals smaller than a half ste..\"; \"when listening to melodies.. do not notice a problem.\"; \"As would be expected, amusics perform significanty worse..\nPDF 解析：失乐症者分不清半音以内的音程；旋律里有一 这一段主要在汇总/概述研究发现（他们能分 个音跑调也常察觉不到；唱歌、打节拍表现明 辨大跨度音高但分不清细微音程；对跑调不 显更差。 敏感；节奏/唱歌更差)，属于summarising findings。A错：没有在列举\"导致失乐症的因 索/原因\"。C错：没有强调\"处于劣势/被社会 歧视\"，只是描述实验表现。D错：不是\"比较 喝歌能力和感官\"，而是在陈述研究结果。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：a\nPDF 定位：第 3段: *People with brain damage in areas 作者对\"语言能力\"和\"音乐能力\"的关系怎么说？ critical to language are often still able to sing, despite being unable to communicate through speech.\"\nPDF 解析：语言关键脑区受损、无法用言语交流的人，往往 A对：原文就是\"不能说话/不能通过语言交 流，但仍能唱\"。这用来支撑\"语言和音乐能力相 仍然能唱歌。 对独立\"，B错：第3段明确说二者 \"independent\"，并非\"失乐症通常也有语言间 题\"。C错：文中只是说会说中文等声调语言的 失乐症者不觉得分辨语调困难，并没说\"他们很 少有失乐症\"。D错：相反，文中说他们常能"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：c\nPDF 定位：第3段:\"Amusics are also successful most 第3段提到：大多数失乐症者能够.... of the time at detecting the mood of a melody..\nPDF 解析：失乐症者多数时候仍能判断旋律的情绪/氛围。 C对：\"detecting themood\"能分辨旋律情 绪（悲伤/快乐等)。A错：文中从未说他们能学 会唱准音，反而多处强调对音高细微差异不敏 感。B错：第1段说他们无法\"recognize 突。D错：他们对音高差异识别有缺陷，不支持 \"能听出歌手跑调\"。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：b\nPDF 定位：第4段:\"Recent work has been focused on 作者在第4段做什么？ locating the part of the brain that is responsible foramusia.\"；以及后文对新研究 与脑扫描结果的描述\nPDF 解析：近期研究聚焦于定位导致失乐症的大脑区域，并 B对：这段是\"研究进展/路径\"：先考虑颜叶/ 呈现新发现(并非只在听党皮层)。 听觉皮层→再转向更高级加工→新研究指出缺 陷在听觉皮层之外，并给出脑扫描证据。A错： 反而说缺陷\"不在auditorycortex\"。C错：没 有\"证明就在题叶\"，只是曾被考虑、后来推翻/ 修正。D错：并非解释研究困难，而是在报告发 现。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2041,7 +2076,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. yes no not given (Questions 32-36)",
+        "mode": "group",
+        "questionRange": {
+          "start": 32,
+          "end": 36
+        },
+        "text": "题目 32\n答案：no\nPDF 定位：第5段:\".it would appear that amusia is Peretz的研究认为失乐症是一种\"障碍\"，这一 观点很有说服力。 some sort of disorder. As a student of neurobiology, however, I am skeptical.\"\nPDF 解析：看起来像某种障碍：但作为神经生物学学生，我 题干说\"convincing（有说服力)，而作者明 持怀疑态度。 确\"skeptical（怀疑）\"。=观点不被作者认同 →NO.\n\n题目 33\n答案：not given\nPDF 定位：有音乐能力的人比没有音乐能力的人更快乐。 -(全文未谈更快乐/幸福感比较\"）\nPDF 解析：文中讨论的是能力差异、脑机制、以及\"是否算 障碍/是否不利\"，没有出现\"更快乐/幸福\"相关 论断或数据→NOTGIVEN，\n\n题目 34\n答案：yes\nPDF 定位：把失乐症当作一种真正的障碍是不恰当的， 第7段： \"Comparing this disorder'to learning disorders... seems to be going too\nPDF 解析：把这种\"障碍\"和学习障碍相提并论似乎过头了； 作者核心立场：对\"障碍/残疾\"标签保持保留， 在宣布它是残疾之前，还需要更多研究。 认为下结论为时过早、基至\"toofar\"。这与题\n\n题目 35\n答案：not given\nPDF 定位：失乐症者经常字迹很差。 第7段: \"..no more a disability than having poor fashion sense or bad handwriting.*\nPDF 解析：这并不比审美差或字迹差更算\"残疾\"。 这里\"bad handwriting\"只是类比，用来说明 \"即便某种能力较弱也不必算残疾\"，并没有说失 乐症者\"经常字迹差\"。缺乏频率与因果陈述→ NOT GIVEN,\n\n题目 36\n答案：e\nPDF 定位：far.\"; \"Before amusia can be declared a\nPDF 解析：干\"inappropriate（不恰当）\"方向一致→YES",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：no\nPDF 定位：第5段:\".it would appear that amusia is Peretz的研究认为失乐症是一种\"障碍\"，这一 观点很有说服力。 some sort of disorder. As a student of neurobiology, however, I am skeptical.\"\nPDF 解析：看起来像某种障碍：但作为神经生物学学生，我 题干说\"convincing（有说服力)，而作者明 持怀疑态度。 确\"skeptical（怀疑）\"。=观点不被作者认同 →NO."
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：not given\nPDF 定位：有音乐能力的人比没有音乐能力的人更快乐。 -(全文未谈更快乐/幸福感比较\"）\nPDF 解析：文中讨论的是能力差异、脑机制、以及\"是否算 障碍/是否不利\"，没有出现\"更快乐/幸福\"相关 论断或数据→NOTGIVEN，"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：yes\nPDF 定位：把失乐症当作一种真正的障碍是不恰当的， 第7段： \"Comparing this disorder'to learning disorders... seems to be going too\nPDF 解析：把这种\"障碍\"和学习障碍相提并论似乎过头了； 作者核心立场：对\"障碍/残疾\"标签保持保留， 在宣布它是残疾之前，还需要更多研究。 认为下结论为时过早、基至\"toofar\"。这与题"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：not given\nPDF 定位：失乐症者经常字迹很差。 第7段: \"..no more a disability than having poor fashion sense or bad handwriting.*\nPDF 解析：这并不比审美差或字迹差更算\"残疾\"。 这里\"bad handwriting\"只是类比，用来说明 \"即便某种能力较弱也不必算残疾\"，并没有说失 乐症者\"经常字迹差\"。缺乏频率与因果陈述→ NOT GIVEN,"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：e\nPDF 定位：far.\"; \"Before amusia can be declared a\nPDF 解析：干\"inappropriate（不恰当）\"方向一致→YES"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2616,7 +2686,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. yes no not given (Questions 32-36)",
+        "mode": "group",
+        "questionRange": {
+          "start": 32,
+          "end": 36
+        },
+        "text": "题目 32\n答案：no\nPDF 定位：第5段:\".it would appear that amusia is Peretz的研究认为失乐症是一种\"障碍\"，这一 观点很有说服力。 some sort of disorder. As a student of neurobiology, however, I am skeptical.\"\nPDF 解析：看起来像某种障碍：但作为神经生物学学生，我 题干说\"convincing（有说服力)，而作者明 持怀疑态度。 确\"skeptical（怀疑）\"。=观点不被作者认同 →NO.\n\n题目 33\n答案：not given\nPDF 定位：有音乐能力的人比没有音乐能力的人更快乐。 -(全文未谈更快乐/幸福感比较\"）\nPDF 解析：文中讨论的是能力差异、脑机制、以及\"是否算 障碍/是否不利\"，没有出现\"更快乐/幸福\"相关 论断或数据→NOTGIVEN，\n\n题目 34\n答案：yes\nPDF 定位：把失乐症当作一种真正的障碍是不恰当的， 第7段： \"Comparing this disorder'to learning disorders... seems to be going too\nPDF 解析：把这种\"障碍\"和学习障碍相提并论似乎过头了； 作者核心立场：对\"障碍/残疾\"标签保持保留， 在宣布它是残疾之前，还需要更多研究。 认为下结论为时过早、基至\"toofar\"。这与题\n\n题目 35\n答案：not given\nPDF 定位：失乐症者经常字迹很差。 第7段: \"..no more a disability than having poor fashion sense or bad handwriting.*\nPDF 解析：这并不比审美差或字迹差更算\"残疾\"。 这里\"bad handwriting\"只是类比，用来说明 \"即便某种能力较弱也不必算残疾\"，并没有说失 乐症者\"经常字迹差\"。缺乏频率与因果陈述→ NOT GIVEN,\n\n题目 36\n答案：e\nPDF 定位：far.\"; \"Before amusia can be declared a\nPDF 解析：干\"inappropriate（不恰当）\"方向一致→YES",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：no\nPDF 定位：第5段:\".it would appear that amusia is Peretz的研究认为失乐症是一种\"障碍\"，这一 观点很有说服力。 some sort of disorder. As a student of neurobiology, however, I am skeptical.\"\nPDF 解析：看起来像某种障碍：但作为神经生物学学生，我 题干说\"convincing（有说服力)，而作者明 持怀疑态度。 确\"skeptical（怀疑）\"。=观点不被作者认同 →NO."
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：not given\nPDF 定位：有音乐能力的人比没有音乐能力的人更快乐。 -(全文未谈更快乐/幸福感比较\"）\nPDF 解析：文中讨论的是能力差异、脑机制、以及\"是否算 障碍/是否不利\"，没有出现\"更快乐/幸福\"相关 论断或数据→NOTGIVEN，"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：yes\nPDF 定位：把失乐症当作一种真正的障碍是不恰当的， 第7段： \"Comparing this disorder'to learning disorders... seems to be going too\nPDF 解析：把这种\"障碍\"和学习障碍相提并论似乎过头了； 作者核心立场：对\"障碍/残疾\"标签保持保留， 在宣布它是残疾之前，还需要更多研究。 认为下结论为时过早、基至\"toofar\"。这与题"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：not given\nPDF 定位：失乐症者经常字迹很差。 第7段: \"..no more a disability than having poor fashion sense or bad handwriting.*\nPDF 解析：这并不比审美差或字迹差更算\"残疾\"。 这里\"bad handwriting\"只是类比，用来说明 \"即便某种能力较弱也不必算残疾\"，并没有说失 乐症者\"经常字迹差\"。缺乏频率与因果陈述→ NOT GIVEN,"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：e\nPDF 定位：far.\"; \"Before amusia can be declared a\nPDF 解析：干\"inappropriate（不恰当）\"方向一致→YES"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

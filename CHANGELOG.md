@@ -1,5 +1,35 @@
 # 版本说明 / Changelog
 
+## v2.0.8 - 2026-07-04
+
+### 中文说明
+
+#### 1. 补齐 P2/P3 PDF 答案解析
+
+将结构化 P2 与 P3 阅读练习的答案解析统一改为从源 PDF 答案解析页 OCR 回填，补齐 P2 全量解析与 P3 大多数缺失解析，并新增覆盖校验命令，确保解析来源、题号映射和 `questionMap` 覆盖可自动验证。
+
+#### 2. 明确处理无解析源 PDF
+
+对源 PDF 本身没有按题号答案解析表的 P3 条目保留“解析暂缺”提示，不再用无来源内容伪装成解析；同时修复合并题号与少数 OCR 漏读行，保证可用 PDF 解析能显示到对应题目区域。
+
+#### 3. 支持单条练习历史删除
+
+练习历史每条记录新增删除按钮，删除时写入同步 tombstone，避免登录同步重新带回已删除记录；同步快照、复盘入口和评分流程补充回归覆盖。
+
+### English Notes
+
+#### 1. Completed P2/P3 PDF-Sourced Explanations
+
+Backfilled structured P2 and most P3 reading explanations from the source PDF answer-analysis pages via OCR, and added coverage validation so explanation sources, question mapping, and `questionMap` coverage are checked automatically.
+
+#### 2. Handled PDFs Without Answer-Analysis Tables
+
+Items whose source PDFs do not contain per-question answer-analysis tables now show a clear unavailable-explanation message instead of synthetic explanation content, while combined question labels and a few OCR-missed rows were repaired.
+
+#### 3. Added Single Practice-Record Deletion
+
+Practice history records can now be deleted individually, with sync tombstones preserved so deleted records are not restored after login sync; regression coverage was added for sync snapshots, review entry behavior, and scoring.
+
 ## v2.0.7 - 2026-06-03
 
 ### 中文说明

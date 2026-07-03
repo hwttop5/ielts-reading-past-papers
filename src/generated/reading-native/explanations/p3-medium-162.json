@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p3-medium-162",
+  "meta": {
+    "examId": "p3-medium-162",
+    "title": "Jean Piaget (1896–1980)",
+    "category": "P3",
+    "sourceDoc": "71. P3 - Jean Piaget (1896–1980) 让·皮亚杰.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Jean Piaget (1896–1980) 让·皮亚杰",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. short answer (Questions 27-40)",
+      "mode": "group",
+      "questionRange": {
+        "start": 27,
+        "end": 40
+      },
+      "text": "题目 27\n答案：C\nPDF 定位：段2:\"Itwasashiftcomparabletothewaymodern anthropology displaced stories of primitive tribes... One might say that Piaget was the first to take children's thinking seriously.\"\nPDF 解析：作者用\"现代人类学的转变\"来作比，说明皮亚杰的观点同样标志着 教育观念的重大转折。\n\n题目 28\n答案：A\nPDF 定位：段 5:\"Classifying them as \"true'or\"false'misses the point...\"\nPDF 解析：对话显示儿童说话是否准确并非关键，关键在于其思维过程，因此 选\"事实准确性并不重要\"。\n\n题目 29\n答案：D\nPDF 定位：段6:*each time we tryto teach them something too quickly, we keep them from inventing it themselves.\"\nPDF 解析：皮亚杰反对立即纠正，以保护孩子自行解释世界的信心。\n\n题目 30\n答案：C\nPDF 定位：段7:\"Einstein was intrigued...going faster can takemore time...runs so contrary to common sense.\"\nPDF 解析：即便看似荒诞的想法（\"越快越耗时\"）也值得兴趣与研究，说明看 似非理性也可能有价值。\n\n题目 31\n答案：A\nPDF 定位：全文综合，尤其段3、8-10\nPDF 解析：文章不仅谈教育，还提到心理学、AI、信息加工等多领域影响，故 为\"概述皮亚杰对多门科学领域的贡献\"。\n\n题目 32\n答案：logical\nPDF 定位：段1:\"thoughtprocesses thathad their ownkindof order and their own special logic.\"\nPDF 解析：皮亚杰认为儿童思维比表面看上去更\"有逻辑\"。\n\n题目 33\n答案：theories\nPDF 定位：段3:\"little scientists who are constantly creating and testing theirownhypotheses...\"\"；段6亦有\"If theirtheoriesare always greeted...\"\nPDF 解析：孩子反复验证的是自己的\"理论\"。\n\n题目 34\n答案：psychology\nPDF 定位：段3末句：\"his influenceonpsychologymaybelonger lasting.\"\nPDF 解析：影响最大的学科领域被明确指出是\"心理学\"。\n\n题目 35\n答案：brain\nPDF 定位：段10:\"challenged by the currentfashion of viewing knowledge as an intrinsic property of the brain.\"\nPDF 解析：质疑声音将知识归因于\"大脑\"，与皮亚杰形成对比。\n\n题目 36\n答案：teachers\nPDF 定位：段 8:\"every teacher in training still memorises Piaget's successive stages...\nPDF 解析：皮亚杰原理仍广泛用于教师的职业发展。\n\n题目 37\n答案：NOT GIVEN\nPDF 定位：段4只描述他在巴黎\"注意到\"错误，并未评价方法是否\"创新\"。\nPDF 解析：文中未说明这些技术是否\"创新\"，信息缺失。\n\n题目 38\n答案：NO\nPDF 定位：段 6:\"piaget was not an educator and never laid down rules about how to intervene...\"\nPDF 解析：作者明确说皮亚杰没有给出成人应如何授课的明确指导。\n\n题目 39\n答案：YES\nPDF 定位：段8-9:\"His real interestwas epistemology... explored multiple ways of knowing.\"\nPDF 解析：文章肯定他对认识论的重大贡献。\n\n题目 40\n答案：YES\nPDF 定位：段10末句：\"newdiscoveriesdonotsignificantlyreducethe gap, but only increase the mystery.\"\nPDF 解析：作者认为关于知识本质仍有许多未知。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 27,
+          "text": "题目 27\n答案：C\nPDF 定位：段2:\"Itwasashiftcomparabletothewaymodern anthropology displaced stories of primitive tribes... One might say that Piaget was the first to take children's thinking seriously.\"\nPDF 解析：作者用\"现代人类学的转变\"来作比，说明皮亚杰的观点同样标志着 教育观念的重大转折。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 28,
+          "text": "题目 28\n答案：A\nPDF 定位：段 5:\"Classifying them as \"true'or\"false'misses the point...\"\nPDF 解析：对话显示儿童说话是否准确并非关键，关键在于其思维过程，因此 选\"事实准确性并不重要\"。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 29,
+          "text": "题目 29\n答案：D\nPDF 定位：段6:*each time we tryto teach them something too quickly, we keep them from inventing it themselves.\"\nPDF 解析：皮亚杰反对立即纠正，以保护孩子自行解释世界的信心。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 30,
+          "text": "题目 30\n答案：C\nPDF 定位：段7:\"Einstein was intrigued...going faster can takemore time...runs so contrary to common sense.\"\nPDF 解析：即便看似荒诞的想法（\"越快越耗时\"）也值得兴趣与研究，说明看 似非理性也可能有价值。"
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 31,
+          "text": "题目 31\n答案：A\nPDF 定位：全文综合，尤其段3、8-10\nPDF 解析：文章不仅谈教育，还提到心理学、AI、信息加工等多领域影响，故 为\"概述皮亚杰对多门科学领域的贡献\"。"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 32,
+          "text": "题目 32\n答案：logical\nPDF 定位：段1:\"thoughtprocesses thathad their ownkindof order and their own special logic.\"\nPDF 解析：皮亚杰认为儿童思维比表面看上去更\"有逻辑\"。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 33,
+          "text": "题目 33\n答案：theories\nPDF 定位：段3:\"little scientists who are constantly creating and testing theirownhypotheses...\"\"；段6亦有\"If theirtheoriesare always greeted...\"\nPDF 解析：孩子反复验证的是自己的\"理论\"。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 34,
+          "text": "题目 34\n答案：psychology\nPDF 定位：段3末句：\"his influenceonpsychologymaybelonger lasting.\"\nPDF 解析：影响最大的学科领域被明确指出是\"心理学\"。"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 35,
+          "text": "题目 35\n答案：brain\nPDF 定位：段10:\"challenged by the currentfashion of viewing knowledge as an intrinsic property of the brain.\"\nPDF 解析：质疑声音将知识归因于\"大脑\"，与皮亚杰形成对比。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 36,
+          "text": "题目 36\n答案：teachers\nPDF 定位：段 8:\"every teacher in training still memorises Piaget's successive stages...\nPDF 解析：皮亚杰原理仍广泛用于教师的职业发展。"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 37,
+          "text": "题目 37\n答案：NOT GIVEN\nPDF 定位：段4只描述他在巴黎\"注意到\"错误，并未评价方法是否\"创新\"。\nPDF 解析：文中未说明这些技术是否\"创新\"，信息缺失。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 38,
+          "text": "题目 38\n答案：NO\nPDF 定位：段 6:\"piaget was not an educator and never laid down rules about how to intervene...\"\nPDF 解析：作者明确说皮亚杰没有给出成人应如何授课的明确指导。"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 39,
+          "text": "题目 39\n答案：YES\nPDF 定位：段8-9:\"His real interestwas epistemology... explored multiple ways of knowing.\"\nPDF 解析：文章肯定他对认识论的重大贡献。"
+        },
+        {
+          "questionId": "q14",
+          "questionNumber": 40,
+          "text": "题目 40\n答案：YES\nPDF 定位：段10末句：\"newdiscoveriesdonotsignificantlyreducethe gap, but only increase the mystery.\"\nPDF 解析：作者认为关于知识本质仍有许多未知。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 27,
+      "text": "题目 27\n答案：C\nPDF 定位：段2:\"Itwasashiftcomparabletothewaymodern anthropology displaced stories of primitive tribes... One might say that Piaget was the first to take children's thinking seriously.\"\nPDF 解析：作者用\"现代人类学的转变\"来作比，说明皮亚杰的观点同样标志着 教育观念的重大转折。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 28,
+      "text": "题目 28\n答案：A\nPDF 定位：段 5:\"Classifying them as \"true'or\"false'misses the point...\"\nPDF 解析：对话显示儿童说话是否准确并非关键，关键在于其思维过程，因此 选\"事实准确性并不重要\"。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 29,
+      "text": "题目 29\n答案：D\nPDF 定位：段6:*each time we tryto teach them something too quickly, we keep them from inventing it themselves.\"\nPDF 解析：皮亚杰反对立即纠正，以保护孩子自行解释世界的信心。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 30,
+      "text": "题目 30\n答案：C\nPDF 定位：段7:\"Einstein was intrigued...going faster can takemore time...runs so contrary to common sense.\"\nPDF 解析：即便看似荒诞的想法（\"越快越耗时\"）也值得兴趣与研究，说明看 似非理性也可能有价值。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 31,
+      "text": "题目 31\n答案：A\nPDF 定位：全文综合，尤其段3、8-10\nPDF 解析：文章不仅谈教育，还提到心理学、AI、信息加工等多领域影响，故 为\"概述皮亚杰对多门科学领域的贡献\"。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 32,
+      "text": "题目 32\n答案：logical\nPDF 定位：段1:\"thoughtprocesses thathad their ownkindof order and their own special logic.\"\nPDF 解析：皮亚杰认为儿童思维比表面看上去更\"有逻辑\"。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 33,
+      "text": "题目 33\n答案：theories\nPDF 定位：段3:\"little scientists who are constantly creating and testing theirownhypotheses...\"\"；段6亦有\"If theirtheoriesare always greeted...\"\nPDF 解析：孩子反复验证的是自己的\"理论\"。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 34,
+      "text": "题目 34\n答案：psychology\nPDF 定位：段3末句：\"his influenceonpsychologymaybelonger lasting.\"\nPDF 解析：影响最大的学科领域被明确指出是\"心理学\"。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 35,
+      "text": "题目 35\n答案：brain\nPDF 定位：段10:\"challenged by the currentfashion of viewing knowledge as an intrinsic property of the brain.\"\nPDF 解析：质疑声音将知识归因于\"大脑\"，与皮亚杰形成对比。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 36,
+      "text": "题目 36\n答案：teachers\nPDF 定位：段 8:\"every teacher in training still memorises Piaget's successive stages...\nPDF 解析：皮亚杰原理仍广泛用于教师的职业发展。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 37,
+      "text": "题目 37\n答案：NOT GIVEN\nPDF 定位：段4只描述他在巴黎\"注意到\"错误，并未评价方法是否\"创新\"。\nPDF 解析：文中未说明这些技术是否\"创新\"，信息缺失。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 38,
+      "text": "题目 38\n答案：NO\nPDF 定位：段 6:\"piaget was not an educator and never laid down rules about how to intervene...\"\nPDF 解析：作者明确说皮亚杰没有给出成人应如何授课的明确指导。"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 39,
+      "text": "题目 39\n答案：YES\nPDF 定位：段8-9:\"His real interestwas epistemology... explored multiple ways of knowing.\"\nPDF 解析：文章肯定他对认识论的重大贡献。"
+    },
+    "q14": {
+      "questionId": "q14",
+      "questionNumber": 40,
+      "text": "题目 40\n答案：YES\nPDF 定位：段10末句：\"newdiscoveriesdonotsignificantlyreducethe gap, but only increase the mystery.\"\nPDF 解析：作者认为关于知识本质仍有许多未知。"
+    }
+  }
+}

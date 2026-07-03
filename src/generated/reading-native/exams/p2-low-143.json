@@ -1944,43 +1944,43 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 段落匹配（Questions 14–19：Which paragraph contains the following information?）",
+        "sectionTitle": "1. table completion (Questions 14-19)",
         "mode": "group",
         "questionRange": {
           "start": 14,
           "end": 19
         },
-        "text": "答案：C\n解析：定位 Paragraph C 中 “Humans have always transferred a variety of species from one region to another”，明确提到 “人类历史上一直迁移物种”，与题干对应，因此答案为 C。\n答案：E\n解析：定位 Paragraph E 中 “when the invading jellyfish underwent a population explosion in the space of just six years, the entire marine ecosystem was transformed”，明确提到 “六年内生态系统剧变”，与题干对应，因此答案为 E。\n答案：H\n解析：定位 Paragraph H 中 “plant native plants... learn to identify invasive species... regularly cleaning clothing, boots, boats...”，详细列举个人可采取的限制措施，与题干对应，因此答案为 H。\n答案：F\n解析：定位 Paragraph F 中 “The impact of the water hyacinth on native water plants is largely unstudied, as is unfortunately the case for most ecosystems invaded by new plant species”，明确提到 “水葫芦影响研究缺失”，与题干对应，因此答案为 F。\n答案：G\n解析：定位 Paragraph G 中 “ordinary people outside the scientific community have a very limited understanding of the threat posed by invasive species”，明确提到 “公众认知有限”，与题干对应，因此答案为 G。\n答案：D\n解析：定位 Paragraph D 中 “Some scientists have even argued that in these cases the introduction enhances the diversity of animal and plant life in that specific area”，明确提到 “部分引入物种增加区域生物多样性”，与题干对应，因此答案为 D。",
+        "text": "题目 14\n答案：C\nPDF 定位/解析：\"Humanshavealwaystransferredavarietyofspeciesfromoneregiontoanother..\"标明跨历史时期不断迁移物种。\n\n题目 15\n答案：E\nPDF 定位/解析：*..underwent a population explosion in the space of just six years, theentiremarine ecosystemwas transformed..\"说明生 态系统极短时间被破坏。\n\n题目 16\n答案：H\nPDF 定位/解析：\"Oneway is for peopletoplantnative plants...Regularly cleaning clothing,boots,boats... canremove insects and plant parts..\" 提出限制扩散的做法。\n\n题目 17\n答案：F\nPDF 定位/解析：\" The impact of the water hyacinth on native water plants is largely unstudied...\" 指缺乏研究。\n\n题目 18\n答案：G\nPDF 定位/解析：*..ordinary people outside the scientific community havea very limited understanding of the threat posed by invasive species...\" 提到公众认知不足。\n\n题目 19\n答案：D\nPDF 定位/解析：*..some scientists have even argued that in these cases the introduction enhances the diversity of animal and plant life in that specificarea.\"示意外来种可带来益处。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 14,
-            "text": "（1）题目 14：a suggestion that people have moved numerous species across the globe throughout history（提及人类历史上不断在全球迁移物种）\n答案：C\n解析：定位 Paragraph C 中 “Humans have always transferred a variety of species from one region to another”，明确提到 “人类历史上一直迁移物种”，与题干对应，因此答案为 C。"
+            "text": "题目 14\n答案：C\nPDF 定位/解析：\"Humanshavealwaystransferredavarietyofspeciesfromoneregiontoanother..\"标明跨历史时期不断迁移物种。"
           },
           {
             "questionId": "q2",
             "questionNumber": 15,
-            "text": "（2）题目 15：an example of how an ecosystem can be damaged very rapidly（生态系统快速受损的例子）\n答案：E\n解析：定位 Paragraph E 中 “when the invading jellyfish underwent a population explosion in the space of just six years, the entire marine ecosystem was transformed”，明确提到 “六年内生态系统剧变”，与题干对应，因此答案为 E。"
+            "text": "题目 15\n答案：E\nPDF 定位/解析：*..underwent a population explosion in the space of just six years, theentiremarine ecosystemwas transformed..\"说明生 态系统极短时间被破坏。"
           },
           {
             "questionId": "q3",
             "questionNumber": 16,
-            "text": "（3）题目 16：a description of what can be done to restrict the spread of invasive species（限制入侵物种扩散的措施描述）\n答案：H\n解析：定位 Paragraph H 中 “plant native plants... learn to identify invasive species... regularly cleaning clothing, boots, boats...”，详细列举个人可采取的限制措施，与题干对应，因此答案为 H。"
+            "text": "题目 16\n答案：H\nPDF 定位/解析：\"Oneway is for peopletoplantnative plants...Regularly cleaning clothing,boots,boats... canremove insects and plant parts..\" 提出限制扩散的做法。"
           },
           {
             "questionId": "q4",
             "questionNumber": 17,
-            "text": "（4）题目 17：a reference to the lack of research on the effects of some invasive species（提及对部分入侵物种影响的研究缺失）\n答案：F\n解析：定位 Paragraph F 中 “The impact of the water hyacinth on native water plants is largely unstudied, as is unfortunately the case for most ecosystems invaded by new plant species”，明确提到 “水葫芦影响研究缺失”，与题干对应，因此答案为 F。"
+            "text": "题目 17\n答案：F\nPDF 定位/解析：\" The impact of the water hyacinth on native water plants is largely unstudied...\" 指缺乏研究。"
           },
           {
             "questionId": "q5",
             "questionNumber": 18,
-            "text": "（5）题目 18：a mention of a current lack of public awareness of the problem of invasive species（提及当前公众对入侵物种问题的认知不足）\n答案：G\n解析：定位 Paragraph G 中 “ordinary people outside the scientific community have a very limited understanding of the threat posed by invasive species”，明确提到 “公众认知有限”，与题干对应，因此答案为 G。"
+            "text": "题目 18\n答案：G\nPDF 定位/解析：*..ordinary people outside the scientific community havea very limited understanding of the threat posed by invasive species...\" 提到公众认知不足。"
           },
           {
             "questionId": "q6",
             "questionNumber": 19,
-            "text": "（6）题目 19：an indication that an introduced species may benefit a specific ecosystem（提及引入物种可能对特定生态系统有益）\n答案：D\n解析：定位 Paragraph D 中 “Some scientists have even argued that in these cases the introduction enhances the diversity of animal and plant life in that specific area”，明确提到 “部分引入物种增加区域生物多样性”，与题干对应，因此答案为 D。"
+            "text": "题目 19\n答案：D\nPDF 定位/解析：*..some scientists have even argued that in these cases the introduction enhances the diversity of animal and plant life in that specificarea.\"示意外来种可带来益处。"
           }
         ]
       }
@@ -2272,7 +2272,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. multi choice (Questions 20-21)",
+        "mode": "group",
+        "questionRange": {
+          "start": 20,
+          "end": 21
+        },
+        "text": "题目 20\n答案：D\nPDF 定位/解析：段C:\"Other invasive species includepets suchas snakes orturtleswhichare intentionallysetfree into thewild.\"故意放生。\n\n题目 21\n答案：E\nPDF 定位/解析：段C：\"Inaddition,，climatechangehasenabledsomeinvasiveplantspeciestocolonisenewareas.\"-全球变暖扩张分布。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：D\nPDF 定位/解析：段C:\"Other invasive species includepets suchas snakes orturtleswhichare intentionallysetfree into thewild.\"故意放生。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：E\nPDF 定位/解析：段C：\"Inaddition,，climatechangehasenabledsomeinvasiveplantspeciestocolonisenewareas.\"-全球变暖扩张分布。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2561,7 +2581,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. multi choice (Questions 22-23)",
+        "mode": "group",
+        "questionRange": {
+          "start": 22,
+          "end": 23
+        },
+        "text": "题目 22\n答案：B\nPDF 定位/解析：段F：..importedittoahorticulturalexhibitioninNewOrleansin1884.\"（19世纪末带到北美)。\n\n题目 23\n答案：D\nPDF 定位/解析：段F：..blocking cooling pipes for power plants,occasionally leading tomassiveblackouts.\"-近期造成实际问题。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：B\nPDF 定位/解析：段F：..importedittoahorticulturalexhibitioninNewOrleansin1884.\"（19世纪末带到北美)。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：D\nPDF 定位/解析：段F：..blocking cooling pipes for power plants,occasionally leading tomassiveblackouts.\"-近期造成实际问题。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-4",
@@ -2799,28 +2839,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "4. 句子填空（Questions 24–26：ONE WORD ONLY）",
+        "sectionTitle": "4. sentence completion (Questions 24-26)",
         "mode": "group",
         "questionRange": {
           "start": 24,
           "end": 26
         },
-        "text": "题目翻译：葛藤降低了美国东南部部分地区的_\\___\\__。\n答案：biodiversity（生物多样性）\n解析：定位 Paragraph B 中 “invasive species threaten biodiversity... kudzu... replace a habitat that had a wide range of plants with a monoculture”，明确提到葛藤导致 “生物多样性降低”，因此答案为 “biodiversity”。\n题目翻译：部分引入物种若局限在小范围且不破坏周边生态系统的_\\___\\__，威胁程度较低。\n答案：equilibrium（平衡）\n解析：定位 Paragraph D 中 “without upsetting the ecological equilibrium of the area”，明确提到 “不破坏生态平衡”，因此答案为 “equilibrium”。\n题目翻译：黑海入侵水母的影响比工厂排放的_\\___\\__更大。\n答案：waste（废物）\n解析：定位 Paragraph E 中 “The Black Sea has levels of industrial waste... The jellyfish had a more serious impact... than the heavily polluted water”，明确提到 “工业废物”，因此答案为 “waste”。",
+        "text": "题目 24\n答案：biodiversity\nPDF 定位/解析：段B:..invasive species threaten biodiversity in many habitats... kudzu... replace a habitat that had a wide range of plants...\" Kudzu把多样性降低为单一群落。\n\n题目 25\n答案：equilibrium\nPDF 定位/解析：段D:..without upsetting the ecological equilibrium of the area.\"与题干\"do notdisturb the ... of the surrounding ecosystem\"完全对应。\n\n题目 26\n答案：waste\nPDF 定位/解析：段E:The Black Sea has levels of industrialwaste ... The jellyfish had a more serious impact... than the heavily polluted water.\"这 里\"industrialwastefromfactories\"与题干呼应。",
         "items": [
           {
             "questionId": "q11",
             "questionNumber": 24,
-            "text": "（1）题目 24：Kudzu has reduced the \\___\\___ of certain areas in the south-east of the USA.\n题目翻译：葛藤降低了美国东南部部分地区的_\\___\\__。\n答案：biodiversity（生物多样性）\n解析：定位 Paragraph B 中 “invasive species threaten biodiversity... kudzu... replace a habitat that had a wide range of plants with a monoculture”，明确提到葛藤导致 “生物多样性降低”，因此答案为 “biodiversity”。"
+            "text": "题目 24\n答案：biodiversity\nPDF 定位/解析：段B:..invasive species threaten biodiversity in many habitats... kudzu... replace a habitat that had a wide range of plants...\" Kudzu把多样性降低为单一群落。"
           },
           {
             "questionId": "q12",
             "questionNumber": 25,
-            "text": "（2）题目 25：Some introduced species present a low level of threat if they remain within a small area and do not disturb the \\___\\___ of the surrounding ecosystem.\n题目翻译：部分引入物种若局限在小范围且不破坏周边生态系统的_\\___\\__，威胁程度较低。\n答案：equilibrium（平衡）\n解析：定位 Paragraph D 中 “without upsetting the ecological equilibrium of the area”，明确提到 “不破坏生态平衡”，因此答案为 “equilibrium”。"
+            "text": "题目 25\n答案：equilibrium\nPDF 定位/解析：段D:..without upsetting the ecological equilibrium of the area.\"与题干\"do notdisturb the ... of the surrounding ecosystem\"完全对应。"
           },
           {
             "questionId": "q13",
             "questionNumber": 26,
-            "text": "（3）题目 26：The effect of invasive jellyfish in the Black Sea was greater than that \\___\\___ from factories.\n题目翻译：黑海入侵水母的影响比工厂排放的_\\___\\__更大。\n答案：waste（废物）\n解析：定位 Paragraph E 中 “The Black Sea has levels of industrial waste... The jellyfish had a more serious impact... than the heavily polluted water”，明确提到 “工业废物”，因此答案为 “waste”。"
+            "text": "题目 26\n答案：waste\nPDF 定位/解析：段E:The Black Sea has levels of industrialwaste ... The jellyfish had a more serious impact... than the heavily polluted water.\"这 里\"industrialwastefromfactories\"与题干呼应。"
           }
         ]
       }

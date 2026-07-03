@@ -1,6 +1,7 @@
 import { setActivePinia, createPinia } from 'pinia'
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
 import { usePracticeStore, type PracticeRecordInput } from './practiceStore'
+import { SYNC_META_STORAGE_KEY } from '@/sync/localSyncMetadata'
 
 describe('Practice Store', () => {
   let backingStore: Record<string, string>
@@ -138,5 +139,43 @@ describe('Practice Store', () => {
         id: expect.stringContaining('range:')
       })
     ])
+  })
+
+  it('deletes one record and exports its tombstone in sync state', () => {
+    backingStore.ielts_practice = JSON.stringify([
+      {
+        id: 'record-1',
+        questionId: 'p1-high-05',
+        questionTitle: 'Katherine Mansfield',
+        time: 1710000000000,
+        duration: 90,
+        correctAnswers: 7,
+        totalQuestions: 13,
+        accuracy: 54,
+        score: 7,
+        category: 'P1'
+      },
+      {
+        id: 'record-2',
+        questionId: 'p2-high-03',
+        questionTitle: 'Second',
+        time: 1710000001000,
+        duration: 80,
+        correctAnswers: 8,
+        totalQuestions: 13,
+        accuracy: 62,
+        score: 8,
+        category: 'P2'
+      }
+    ])
+
+    const store = usePracticeStore()
+    store.load()
+    store.deleteRecord('record-1')
+
+    expect(store.records.map((record) => record.id)).toEqual(['record-2'])
+    expect(JSON.parse(backingStore.ielts_practice).map((record: { id: string }) => record.id)).toEqual(['record-2'])
+    expect(JSON.parse(backingStore[SYNC_META_STORAGE_KEY]).practice.deletedRecordIds).toEqual(['record-1'])
+    expect(store.getSyncState().deletedRecordIds).toEqual(['record-1'])
   })
 })

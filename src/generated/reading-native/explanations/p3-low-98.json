@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p3-low-98",
+  "meta": {
+    "examId": "p3-low-98",
+    "title": "Petrol power an eco-revolution",
+    "category": "P3",
+    "sourceDoc": "187. P3 - Petrol power an eco-revolution 交通的革命.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Petrol power an eco-revolution 交通的革命",
+    "ocrPages": [
+      5,
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. single choice (Questions 27-30)",
+      "mode": "group",
+      "questionRange": {
+        "start": 27,
+        "end": 30
+      },
+      "text": "题目 27\n答案：A\nPDF 定位：DeSmet的居民为什么面临摸饯的危险？ \"Over three metres of snow... immobilising the railways and cutting off the settlers... (第1段\nPDF 解析：大雪使铁路瘫痪，与A\"火车无法正常运行\"同义。 B\"收成被毁\"文中未提；C\"道路尚未修建\"无据； D\"农民不愿卖粮\"无据。\n\n题目 28\n答案：C\nPDF 定位：过去自给农民遇到的是什么问题？ \"the \"lean season' the period of greatest scarcity before new crops became available.\"（第1段）\nPDF 解析：关键词\"在新作物上市前最缺乏的时期\"=有一段 时间获取食物受限，对应C。A\"无法储存\"未述； B\"运输费高导致食物贵\"并非自给农民的核心痛 点；D\"食物不能长途公路运输\"不符原文（后文恰 谈到铁路/轮船可长距运输)。\n\n题目 29\n答案：B\nPDF 定位：\"Since then, petroleum-derived fuels have 作者说用煤来驱动铁路与轮船怎样？ largelydisplaced coal because of their higher energy density,cleaner combustion andgreater ease of extraction...\"（第2段）\nPDF 解析：由于能量密度更高等原因，石油取代煤→说明煤 效率更低，对应B。A\"让城市有更多新鲜蔬菜选 择\"未在谈\"煤\"的段落中出现；C与原文相反（煤 运输出现后农民不再事事自给)；D\"比石油更环 保\"相反。\n\n题目 30\n答案：A\nPDF 定位：\"The topic that dominated discussions 提到1898年城市规划会议是为了... was... horse manure... Unable to think of any solution... concluded that urban living wasinherentlyunsustainable.\"（第4段） + \"trains, cars and trucks... regarded as a significant improvement on what had gone before.\"(第7段）\nPDF 解析：当时认为\"马粪问题无解\"，但随后机动车出现被 视为巨大改进--用来说明一个后来被现代技术 解决的问题。B\"糟糕决策\"并非重点；C\"误解城 市问题\"非主旨；D\"忽视公共健康\"恰好相反，他 们很关注。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 27,
+          "text": "题目 27\n答案：A\nPDF 定位：DeSmet的居民为什么面临摸饯的危险？ \"Over three metres of snow... immobilising the railways and cutting off the settlers... (第1段\nPDF 解析：大雪使铁路瘫痪，与A\"火车无法正常运行\"同义。 B\"收成被毁\"文中未提；C\"道路尚未修建\"无据； D\"农民不愿卖粮\"无据。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 28,
+          "text": "题目 28\n答案：C\nPDF 定位：过去自给农民遇到的是什么问题？ \"the \"lean season' the period of greatest scarcity before new crops became available.\"（第1段）\nPDF 解析：关键词\"在新作物上市前最缺乏的时期\"=有一段 时间获取食物受限，对应C。A\"无法储存\"未述； B\"运输费高导致食物贵\"并非自给农民的核心痛 点；D\"食物不能长途公路运输\"不符原文（后文恰 谈到铁路/轮船可长距运输)。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 29,
+          "text": "题目 29\n答案：B\nPDF 定位：\"Since then, petroleum-derived fuels have 作者说用煤来驱动铁路与轮船怎样？ largelydisplaced coal because of their higher energy density,cleaner combustion andgreater ease of extraction...\"（第2段）\nPDF 解析：由于能量密度更高等原因，石油取代煤→说明煤 效率更低，对应B。A\"让城市有更多新鲜蔬菜选 择\"未在谈\"煤\"的段落中出现；C与原文相反（煤 运输出现后农民不再事事自给)；D\"比石油更环 保\"相反。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 30,
+          "text": "题目 30\n答案：A\nPDF 定位：\"The topic that dominated discussions 提到1898年城市规划会议是为了... was... horse manure... Unable to think of any solution... concluded that urban living wasinherentlyunsustainable.\"（第4段） + \"trains, cars and trucks... regarded as a significant improvement on what had gone before.\"(第7段）\nPDF 解析：当时认为\"马粪问题无解\"，但随后机动车出现被 视为巨大改进--用来说明一个后来被现代技术 解决的问题。B\"糟糕决策\"并非重点；C\"误解城 市问题\"非主旨；D\"忽视公共健康\"恰好相反，他 们很关注。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 31-35)",
+      "mode": "group",
+      "questionRange": {
+        "start": 31,
+        "end": 35
+      },
+      "text": "题目 31\n答案：H\nPDF 定位：城市里，大量马粪导致街道上出现\nPDF 解析：\"apartfrom theiroverpowering stench\"（第6段） stench=恶臭→Hunpleasant smells。\n\n题目 32\n答案：J\nPDF 定位：并且与 的传播有关\nPDF 解析：\"manure piles were prime breeding grounds for 这些是疾病→Jdiseases。 house flies... With flies came outbreaks of typhoid, cholera and diphtheria.\"（第6段）\n\n题目 33\n答案：B\nPDF 定位：有时马甚至会让行人遭受\nPDF 解析：\"Workhorses sometimes panicked... and kicked or 踢咬路人=伤害→Binjuries。 bitbystanders.\"（第6段）\n\n题目 34\n答案：E\nPDF 定位：在乡村也有问题：为了供给城市役马，造成 受损\nPDF 解析：\"additional land had to be cleared... water had to 对整片区域的环境产生负面影响→E be diverted... with considerable negative effects on environment. thewholearea.\"（第6段）\n\n题目 35\n答案：C\nPDF 定位：因为需要提供 给城市役马\nPDF 解析：燕麦、干草=食物→Cfood。 \"To supply the workhorses with oats and hay ...\" (第6段)",
+      "items": [
+        {
+          "questionId": "q5",
+          "questionNumber": 31,
+          "text": "题目 31\n答案：H\nPDF 定位：城市里，大量马粪导致街道上出现\nPDF 解析：\"apartfrom theiroverpowering stench\"（第6段） stench=恶臭→Hunpleasant smells。"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 32,
+          "text": "题目 32\n答案：J\nPDF 定位：并且与 的传播有关\nPDF 解析：\"manure piles were prime breeding grounds for 这些是疾病→Jdiseases。 house flies... With flies came outbreaks of typhoid, cholera and diphtheria.\"（第6段）"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 33,
+          "text": "题目 33\n答案：B\nPDF 定位：有时马甚至会让行人遭受\nPDF 解析：\"Workhorses sometimes panicked... and kicked or 踢咬路人=伤害→Binjuries。 bitbystanders.\"（第6段）"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 34,
+          "text": "题目 34\n答案：E\nPDF 定位：在乡村也有问题：为了供给城市役马，造成 受损\nPDF 解析：\"additional land had to be cleared... water had to 对整片区域的环境产生负面影响→E be diverted... with considerable negative effects on environment. thewholearea.\"（第6段）"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 35,
+          "text": "题目 35\n答案：C\nPDF 定位：因为需要提供 给城市役马\nPDF 解析：燕麦、干草=食物→Cfood。 \"To supply the workhorses with oats and hay ...\" (第6段)"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. yes no not given (Questions 36-40)",
+      "mode": "group",
+      "questionRange": {
+        "start": 36,
+        "end": 40
+      },
+      "text": "题目 36\n答案：NO\nPDF 定位：土地贫瘩的农民没有从现代交通中获益。\nPDF 解析：\"Before they were available, poor soils.. 现代交通让贫土壤也能种更合适的作物并外销 much environmental damage... It could →他们是受益的，题干与文意相反，选NO。 be argued that modern transportation ... allowed more suitable crops to be grown in the poorer soils in Europe before being sold elsewhere.\"(第7段)\n\n题目 37\n答案：YES\nPDF 定位：1830-1960年间，法国农业格局变化伴随 正面影响。\nPDF 解析：\"France benefited from an expansion of its 关键词benefited/increase instandardsof forest area by one third... in the context of... living→正面影响，选YES。 a dramatic increase in standards of living.\" (第8段)\n\n题目 38\n答案：NOT GIVEN\nPDF 定位：世界水资源需要更公平的分配。\nPDF 解析：\"*Improvements in logistics... allowed 文中陈述\"物流改进实现了从水多到水少的调 production and export of food from places 配并避免枯竭\"，但未评价\"是否需要更公平 的分配\"（价值判断\"needed/fairer\"）。信息缺 where water was abundant to regions where 失→NG。 it was scarce, thus preventing the depletion ofwaterresources there.\"(第9段)\n\n题目 39\n答案：NO\nPDF 定位：住乡村比住城市对环境伤害更小。\nPDF 解析：引用 Glaeser:\"living ina concrete jungle is 作者观点恰相反：城市更环保→题干与文意相 反，选NO。 actually far more ecologically friendly...If you love nature, stay away from it.\"（第9段)\n\n题目 40\n答案：YES\nPDF 定位：现代交通发展可能给世界带来积极影响。\nPDF 解析：明确\"可能被论证为使世界更富裕、更清洁、更 \"It could be argued that modern transportation technologies have been a 可持续\"→可能有积极影响，选YES。 major contributor to a wealthier, cleaner and more sustainable world.\"(第9段)",
+      "items": [
+        {
+          "questionId": "q10",
+          "questionNumber": 36,
+          "text": "题目 36\n答案：NO\nPDF 定位：土地贫瘩的农民没有从现代交通中获益。\nPDF 解析：\"Before they were available, poor soils.. 现代交通让贫土壤也能种更合适的作物并外销 much environmental damage... It could →他们是受益的，题干与文意相反，选NO。 be argued that modern transportation ... allowed more suitable crops to be grown in the poorer soils in Europe before being sold elsewhere.\"(第7段)"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 37,
+          "text": "题目 37\n答案：YES\nPDF 定位：1830-1960年间，法国农业格局变化伴随 正面影响。\nPDF 解析：\"France benefited from an expansion of its 关键词benefited/increase instandardsof forest area by one third... in the context of... living→正面影响，选YES。 a dramatic increase in standards of living.\" (第8段)"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 38,
+          "text": "题目 38\n答案：NOT GIVEN\nPDF 定位：世界水资源需要更公平的分配。\nPDF 解析：\"*Improvements in logistics... allowed 文中陈述\"物流改进实现了从水多到水少的调 production and export of food from places 配并避免枯竭\"，但未评价\"是否需要更公平 的分配\"（价值判断\"needed/fairer\"）。信息缺 where water was abundant to regions where 失→NG。 it was scarce, thus preventing the depletion ofwaterresources there.\"(第9段)"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 39,
+          "text": "题目 39\n答案：NO\nPDF 定位：住乡村比住城市对环境伤害更小。\nPDF 解析：引用 Glaeser:\"living ina concrete jungle is 作者观点恰相反：城市更环保→题干与文意相 反，选NO。 actually far more ecologically friendly...If you love nature, stay away from it.\"（第9段)"
+        },
+        {
+          "questionId": "q14",
+          "questionNumber": 40,
+          "text": "题目 40\n答案：YES\nPDF 定位：现代交通发展可能给世界带来积极影响。\nPDF 解析：明确\"可能被论证为使世界更富裕、更清洁、更 \"It could be argued that modern transportation technologies have been a 可持续\"→可能有积极影响，选YES。 major contributor to a wealthier, cleaner and more sustainable world.\"(第9段)"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 27,
+      "text": "题目 27\n答案：A\nPDF 定位：DeSmet的居民为什么面临摸饯的危险？ \"Over three metres of snow... immobilising the railways and cutting off the settlers... (第1段\nPDF 解析：大雪使铁路瘫痪，与A\"火车无法正常运行\"同义。 B\"收成被毁\"文中未提；C\"道路尚未修建\"无据； D\"农民不愿卖粮\"无据。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 28,
+      "text": "题目 28\n答案：C\nPDF 定位：过去自给农民遇到的是什么问题？ \"the \"lean season' the period of greatest scarcity before new crops became available.\"（第1段）\nPDF 解析：关键词\"在新作物上市前最缺乏的时期\"=有一段 时间获取食物受限，对应C。A\"无法储存\"未述； B\"运输费高导致食物贵\"并非自给农民的核心痛 点；D\"食物不能长途公路运输\"不符原文（后文恰 谈到铁路/轮船可长距运输)。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 29,
+      "text": "题目 29\n答案：B\nPDF 定位：\"Since then, petroleum-derived fuels have 作者说用煤来驱动铁路与轮船怎样？ largelydisplaced coal because of their higher energy density,cleaner combustion andgreater ease of extraction...\"（第2段）\nPDF 解析：由于能量密度更高等原因，石油取代煤→说明煤 效率更低，对应B。A\"让城市有更多新鲜蔬菜选 择\"未在谈\"煤\"的段落中出现；C与原文相反（煤 运输出现后农民不再事事自给)；D\"比石油更环 保\"相反。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 30,
+      "text": "题目 30\n答案：A\nPDF 定位：\"The topic that dominated discussions 提到1898年城市规划会议是为了... was... horse manure... Unable to think of any solution... concluded that urban living wasinherentlyunsustainable.\"（第4段） + \"trains, cars and trucks... regarded as a significant improvement on what had gone before.\"(第7段）\nPDF 解析：当时认为\"马粪问题无解\"，但随后机动车出现被 视为巨大改进--用来说明一个后来被现代技术 解决的问题。B\"糟糕决策\"并非重点；C\"误解城 市问题\"非主旨；D\"忽视公共健康\"恰好相反，他 们很关注。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 31,
+      "text": "题目 31\n答案：H\nPDF 定位：城市里，大量马粪导致街道上出现\nPDF 解析：\"apartfrom theiroverpowering stench\"（第6段） stench=恶臭→Hunpleasant smells。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 32,
+      "text": "题目 32\n答案：J\nPDF 定位：并且与 的传播有关\nPDF 解析：\"manure piles were prime breeding grounds for 这些是疾病→Jdiseases。 house flies... With flies came outbreaks of typhoid, cholera and diphtheria.\"（第6段）"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 33,
+      "text": "题目 33\n答案：B\nPDF 定位：有时马甚至会让行人遭受\nPDF 解析：\"Workhorses sometimes panicked... and kicked or 踢咬路人=伤害→Binjuries。 bitbystanders.\"（第6段）"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 34,
+      "text": "题目 34\n答案：E\nPDF 定位：在乡村也有问题：为了供给城市役马，造成 受损\nPDF 解析：\"additional land had to be cleared... water had to 对整片区域的环境产生负面影响→E be diverted... with considerable negative effects on environment. thewholearea.\"（第6段）"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 35,
+      "text": "题目 35\n答案：C\nPDF 定位：因为需要提供 给城市役马\nPDF 解析：燕麦、干草=食物→Cfood。 \"To supply the workhorses with oats and hay ...\" (第6段)"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 36,
+      "text": "题目 36\n答案：NO\nPDF 定位：土地贫瘩的农民没有从现代交通中获益。\nPDF 解析：\"Before they were available, poor soils.. 现代交通让贫土壤也能种更合适的作物并外销 much environmental damage... It could →他们是受益的，题干与文意相反，选NO。 be argued that modern transportation ... allowed more suitable crops to be grown in the poorer soils in Europe before being sold elsewhere.\"(第7段)"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 37,
+      "text": "题目 37\n答案：YES\nPDF 定位：1830-1960年间，法国农业格局变化伴随 正面影响。\nPDF 解析：\"France benefited from an expansion of its 关键词benefited/increase instandardsof forest area by one third... in the context of... living→正面影响，选YES。 a dramatic increase in standards of living.\" (第8段)"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 38,
+      "text": "题目 38\n答案：NOT GIVEN\nPDF 定位：世界水资源需要更公平的分配。\nPDF 解析：\"*Improvements in logistics... allowed 文中陈述\"物流改进实现了从水多到水少的调 production and export of food from places 配并避免枯竭\"，但未评价\"是否需要更公平 的分配\"（价值判断\"needed/fairer\"）。信息缺 where water was abundant to regions where 失→NG。 it was scarce, thus preventing the depletion ofwaterresources there.\"(第9段)"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 39,
+      "text": "题目 39\n答案：NO\nPDF 定位：住乡村比住城市对环境伤害更小。\nPDF 解析：引用 Glaeser:\"living ina concrete jungle is 作者观点恰相反：城市更环保→题干与文意相 反，选NO。 actually far more ecologically friendly...If you love nature, stay away from it.\"（第9段)"
+    },
+    "q14": {
+      "questionId": "q14",
+      "questionNumber": 40,
+      "text": "题目 40\n答案：YES\nPDF 定位：现代交通发展可能给世界带来积极影响。\nPDF 解析：明确\"可能被论证为使世界更富裕、更清洁、更 \"It could be argued that modern transportation technologies have been a 可持续\"→可能有积极影响，选YES。 major contributor to a wealthier, cleaner and more sustainable world.\"(第9段)"
+    }
+  }
+}

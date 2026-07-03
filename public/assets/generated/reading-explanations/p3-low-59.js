@@ -10,69 +10,55 @@
     "examId": "p3-low-59",
     "title": "Inside the mind of a fan 观赛心境",
     "category": "P3",
-    "sourceDoc": "P3 解析+1202高频_副本.md",
-    "noteType": "总结",
-    "matchedTitle": "Inside the mind of a fan 观赛心境"
+    "sourceDoc": "151. P3 - Inside the mind of a fan 观赛心境.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Inside the mind of a fan 观赛心境",
+    "ocrPages": [
+      5,
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
   },
   "passageNotes": [
     {
-      "label": "Paragraph A",
-      "text": "大约在诗人荷马发明史诗的同时，古希腊人开始了一个节日，男人们在其中进行大约200米长的单项赛跑。获胜者获得一根野橄榄枝。希腊人称这个庆祝活动为奥林匹克。虽然古老的短跑得以保留，但今天的奥林匹克远不止于此。实际上，奥运会似乎在庆祝以人体形式体现的进步梦想。奥运会令人着迷是毋庸置疑的。在2004年雅典奥运会期间，34亿人，即世界一半的人口，在电视上观看了比赛。当然，作为一名观众是一种令人激动的体验，但为什么呢？"
-    },
-    {
-      "label": "Paragraph B",
-      "text": "1996年，三位意大利神经科学家贾科莫里佐拉蒂、莱昂纳多福加西和维托里奥加莱塞检查了猴子的前运动皮层。他们发现，在这些灵长类动物的大脑内部，有一组细胞存储运动动作的词汇，就像有运动的语法一样。例如，想想高尔夫挥杆。对于那些只在电视上看过大师赛的人来说，打高尔夫球似乎很容易。然而，对于新手来说，用一根不平衡的金属棍挥出平滑弧线的技巧实际上是不可能的。这是因为大多数新手用他们的意识挥杆。另一方面，对于专家来说，完美的平衡击球是第二天性。运动动作已被记忆，嵌入了他的前运动皮层的神经元中。他以完美的自动驾驶般的宁静击球。"
-    },
-    {
-      "label": "Paragraph C",
-      "text": "除了解释为什么某些运动员似乎拥有几乎令人难以置信的技能水平外，前运动皮层中的这些神经元还有一个更惊人的特性，这导致科学家们给它们起了个崇高的名字镜像神经元。他们指出，镜像神经元的主要功能特征是，当猴子执行特定动作时，以及令人惊讶的是，当它看到另一个个体执行类似动作时，它们都会变得活跃。人类拥有一个更复杂的镜像神经元系统。这些奇特的细胞在大脑内部反映了外部世界，使我们能够内化另一个人的动作。不过，为了被激活，这些细胞需要目标导向运动。如果我们盯着一张照片，一张跑步者中途的固定图像，我们的镜像神经元完全沉默。只有当跑步者活跃时，跑步、移动或冲刺，它们才会激活。"
-    },
-    {
-      "label": "Paragraph D",
-      "text": "这些电生理学研究表明的是，当我们观看高尔夫球手或跑步者行动时，我们自己前运动皮层中的镜像神经元会亮起来，就好像我们是那个正在比赛的人一样。神经镜像现象最早是在1954年发现的，当时两位法国生理学家加斯陶特和贝尔特发现人类的大脑以两种不同的波长振动，阿尔法波和μ波。μ波系统涉及神经镜像。当我们身体静止时它很活跃，而当我们做一些活跃的事情时，它就会消失。当我们观看别人活动时，μ波信号也是安静的。这些结果是镜像神经元的影响。"
-    },
-    {
-      "label": "Paragraph E",
-      "text": "里佐拉蒂、福加西和加莱塞将镜像神经元的想法称为直接匹配假设。他们认为，只有当我们将自己的视觉表征映射到同一动作的运动表征上时，我们才能理解体育明星的运动。观看奥林匹克运动员会导致观察者的运动系统产生共鸣。但镜像神经元不仅仅是我们对体育态度的神经基础。事实证明，观看伟大的高尔夫球手会让我们成为更好的高尔夫球手，观看伟大的短跑运动员会让我们跑得更快。从婴儿时期语言的习得到学习面部表情，模仿是有意识的一个重要组成部分。最好的运动员是那些拥有能够想象胜利动作的前运动皮层，以及使这些动作成为现实的身体属性的人。"
-    },
-    {
-      "label": "Paragraph F",
-      "text": "但是，我们中有多少人经常看体育比赛是为了成为更好的运动员呢？相反，我们看体育是为了那种感觉，那种人类戏剧。这种感觉也源于镜像神经元。通过让观众分享胜利的动作，它们也让我们分享其中的感受。这是因为它们直接连接到杏仁核，这是涉及情感的主要大脑区域之一。在奥运会期间，整个国家的镜像神经元在电学上将是相同的，他们的运动员让观众在仅仅一两秒钟内感受到同样的事情。观看体育比赛将人们聚集在一起。我们大多数人永远不会在四分钟内跑完一英里，也不会击出本垒打。我们的慰藉来自观看。当我们聚集在电视机周围时，我们都感觉到，哪怕只是片刻，把某件事做得完美是什么感觉。"
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
     }
   ],
   "questionExplanations": [
     {
-      "sectionTitle": "1. 段落信息配对（Questions 27-32）",
+      "sectionTitle": "1. table completion (Questions 27-32)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 27,
-          "text": "(1) 题目 27：an explanation of why watching sport may be emotionally satisfying\n题目翻译：解释为什么观看体育比赛可能在情感上令人满足\n答案：F\n解析：定位 Paragraph F。该段说明我们看体育是为了那种感觉（feeling），这种感觉源于镜像神经元，它们直接连接到杏仁核（amygdala，涉及情感的主要大脑区域之一）。这解释了观看体育赛事情感满足的生理基础。",
+          "text": "题目 27\n答案：F\nPDF 定位：为什么观看体育比赛在情感上令人满足\nPDF 解析：第F段：\"Rather, we watch sport for the feeling,the 题干中的emotionallysatisfying对应文中的feeling、 human drama... This feeling also derives from emotion、amygdala。强调观看带来的共享情绪体验。 mirror neurons.. This is because they are directly 其它段落虽提到观看，但未直接把\"情感满足\"与生理机 connected to the amygdala, one of the main brain 制(否仁核）对应。 regions involved in emotion.\"→\"相反，我们观看体 育是为了那种感觉、人性的戏剧性....这种感觉也源自 镜像神经元....因为它们与查仁核（主要情绪脑区之一） 直接相连。\"",
           "questionId": "q1"
         },
         {
           "questionNumber": 28,
-          "text": "(2) 题目 28：an explanation of why beginners find sporting tasks difficult\n题目翻译：解释为什么初学者觉得体育任务困难\n答案：B\n解析：定位 Paragraph B。该段解释新手打高尔夫球时不可能挥出平滑弧线，因为他们过于用意识挥杆（swing with their consciousness），而不是依靠嵌入神经元的肌肉记忆。这解释了初学者困难的原因。",
+          "text": "题目 28\n答案：B\nPDF 定位：解释为什么初学者觉得体育动作很难\nPDF 解析：第B段：\"This is because most novices swing with 关键词beginners=novices；\"靠意识/不自动化\"导 their consciousness, using an area of the brain 致困难。第B段还以高尔夫举例，凸显\"几乎不可能 nexttothepremotorcortex.\"→\"这是因为大多数新 (virtually impossible)\"。 手是靠意识'去挥杆，使用的是前运动皮层旁边的大脑 区域。\"\"",
           "questionId": "q2"
         },
         {
           "questionNumber": 29,
-          "text": "(3) 题目 29：a factor that needs to combine with mirroring to attain sporting excellence\n题目翻译：一个需要与镜像结合以达到体育卓越的因素\n答案：E\n解析：定位 Paragraph E。该段末尾指出最好的运动员同时拥有两个要素：能够想象动作的前运动皮层，以及使这些动作成为现实的身体属性（physical properties）。身体属性即是那个需要结合的因素。",
+          "text": "题目 29\n答案：E\nPDF 定位：达到体育卓越时，需与\"镜像\"结合的一个因素\nPDF 解析：题干暗含\"光有模仿/镜像还不够\"，还需\"physical 第E段：\"The best athletes are thosewith a properties（身体素质/条件）\"。本句以togetherwith premotor cortex capable of imagining the movements of victory, together with the physical 明确\"组合要素\"。 properties to make those movements real.\"→\"最 优秀的运动员既要有能想象胜利动作的前运动皮层，还 需要将这些动作变为现实的身体条件。",
           "questionId": "q3"
         },
         {
           "questionNumber": 30,
-          "text": "(4) 题目 30：a comparison of human and animal mirror neurons\n题目翻译：人类和动物镜像神经元的比较\n答案：C\n解析：定位 Paragraph C。提到猴子的镜像神经元系统后，紧接着说明人类拥有更复杂的镜像神经元系统（even more elaborate mirror neuron system），直接对比了人类的系统。",
+          "text": "题目 30\n答案：C\nPDF 定位：人类与动物镜像神经元的比较\nPDF 解析：与前文猴子研究作对比，明确\"人类更精细\"，构成 第C段：\"Humans havean evenmore elaborate 直接比较。 mirrorneuronsystem.\"→\"人类拥有更为精细/复杂 的镜像神经元系统。\"",
           "questionId": "q4"
         },
         {
           "questionNumber": 31,
-          "text": "(5) 题目 31：the first discovery of brain activity related to mirror neurons\n题目翻译：首次发现与镜像神经元相关的大脑活动\n答案：D\n解析：定位 Paragraph D。提到1954年两位法国生理学家加斯陶特和贝尔特首次发现了神经镜像现象（人类大脑以两种不同波长振动，其中μ波系统涉及神经镜像）。这是相关大脑活动的首次发现。",
+          "text": "题目 31\n答案：D\nPDF 定位：与镜像神经相关的大脑活动的首次发现\nPDF 解析：第D段: \"This phenomenon of neural mirroring was 出现明确时间标记firstdiscovered in1954与研究者 first discovered in 1954, when two French 姓名，直接对应\"首次发现\"。 physiologists, Gastaut and Bert, found that the brains of humans vibrate with two distinct 首次在1954年被发现，当时两位法国生理学家 Gastaut和Bert发现人脑以α和μ两种不同波长振 动。\"",
           "questionId": "q5"
         },
         {
           "questionNumber": 32,
-          "text": "(6) 题目 32：a claim linking observation to improvement in performance\n题目翻译：一项将观察与表现提升联系起来的主张\n答案：E\n解析：定位 Paragraph E。该段明确指出观看伟大的高尔夫球手会让我们成为更好的高尔夫球手，观看伟大的短跑运动员会让我们跑得更快，明确主张通过观察可以提升表现。",
+          "text": "题目 32\n答案：E\nPDF 定位：通过观察与表现提升之间的联系性主张\nPDF 解析：第E段：\"watchinga great golfer makes us better 这句是把\"观察\"与\"表现提升\"直接相连的明确论断。 golfers, and watching a great sprinter actually 其它段落未有如此直白的效应陈述。 makesusrunfaster.\"→\"观看优秀高尔夫选手会让我 们打得更好；看顶尖短跑选手实际上能让我们跑得更 快。\"",
           "questionId": "q6"
         }
       ],
@@ -80,25 +66,25 @@
         "start": 27,
         "end": 32
       },
-      "text": "答案：F\n解析：定位 Paragraph F。该段说明我们看体育是为了那种感觉（feeling），这种感觉源于镜像神经元，它们直接连接到杏仁核（涉及情感的主要大脑区域之一）。这解释了观看体育赛事情感满足的生理基础。\n答案：B\n解析：定位 Paragraph B。该段解释新手打高尔夫球时不可能挥出平滑弧线，因为他们过于用意识挥杆，而不是依靠嵌入神经元的肌肉记忆。这解释了初学者困难的原因。\n答案：E\n解析：定位 Paragraph E。该段末尾指出最好的运动员同时拥有两个要素：能够想象动作的前运动皮层，以及使这些动作成为现实的身体属性（physical properties）。身体属性是那个需要结合的因素。\n答案：C\n解析：定位 Paragraph C。提到猴子的镜像神经元系统后，紧接着说明人类拥有更复杂的镜像神经元系统，直接对比了人类的系统。\n答案：D\n解析：定位 Paragraph D。1954年两位法国生理学家加斯陶特和贝尔特首次发现了神经镜像现象（μ波系统涉及神经镜像）。这是相关大脑活动的首次发现。\n答案：E\n解析：定位 Paragraph E。该段明确指出观看伟大的高尔夫球手会让我们成为更好的高尔夫球手，观看伟大的短跑运动员会让我们跑得更快，明确主张通过观察可以提升表现。"
+      "text": "题目 27\n答案：F\nPDF 定位：为什么观看体育比赛在情感上令人满足\nPDF 解析：第F段：\"Rather, we watch sport for the feeling,the 题干中的emotionallysatisfying对应文中的feeling、 human drama... This feeling also derives from emotion、amygdala。强调观看带来的共享情绪体验。 mirror neurons.. This is because they are directly 其它段落虽提到观看，但未直接把\"情感满足\"与生理机 connected to the amygdala, one of the main brain 制(否仁核）对应。 regions involved in emotion.\"→\"相反，我们观看体 育是为了那种感觉、人性的戏剧性....这种感觉也源自 镜像神经元....因为它们与查仁核（主要情绪脑区之一） 直接相连。\"\n\n题目 28\n答案：B\nPDF 定位：解释为什么初学者觉得体育动作很难\nPDF 解析：第B段：\"This is because most novices swing with 关键词beginners=novices；\"靠意识/不自动化\"导 their consciousness, using an area of the brain 致困难。第B段还以高尔夫举例，凸显\"几乎不可能 nexttothepremotorcortex.\"→\"这是因为大多数新 (virtually impossible)\"。 手是靠意识'去挥杆，使用的是前运动皮层旁边的大脑 区域。\"\"\n\n题目 29\n答案：E\nPDF 定位：达到体育卓越时，需与\"镜像\"结合的一个因素\nPDF 解析：题干暗含\"光有模仿/镜像还不够\"，还需\"physical 第E段：\"The best athletes are thosewith a properties（身体素质/条件）\"。本句以togetherwith premotor cortex capable of imagining the movements of victory, together with the physical 明确\"组合要素\"。 properties to make those movements real.\"→\"最 优秀的运动员既要有能想象胜利动作的前运动皮层，还 需要将这些动作变为现实的身体条件。\n\n题目 30\n答案：C\nPDF 定位：人类与动物镜像神经元的比较\nPDF 解析：与前文猴子研究作对比，明确\"人类更精细\"，构成 第C段：\"Humans havean evenmore elaborate 直接比较。 mirrorneuronsystem.\"→\"人类拥有更为精细/复杂 的镜像神经元系统。\"\n\n题目 31\n答案：D\nPDF 定位：与镜像神经相关的大脑活动的首次发现\nPDF 解析：第D段: \"This phenomenon of neural mirroring was 出现明确时间标记firstdiscovered in1954与研究者 first discovered in 1954, when two French 姓名，直接对应\"首次发现\"。 physiologists, Gastaut and Bert, found that the brains of humans vibrate with two distinct 首次在1954年被发现，当时两位法国生理学家 Gastaut和Bert发现人脑以α和μ两种不同波长振 动。\"\n\n题目 32\n答案：E\nPDF 定位：通过观察与表现提升之间的联系性主张\nPDF 解析：第E段：\"watchinga great golfer makes us better 这句是把\"观察\"与\"表现提升\"直接相连的明确论断。 golfers, and watching a great sprinter actually 其它段落未有如此直白的效应陈述。 makesusrunfaster.\"→\"观看优秀高尔夫选手会让我 们打得更好；看顶尖短跑选手实际上能让我们跑得更 快。\""
     },
     {
-      "sectionTitle": "2. 单选题（Questions 33-35）",
+      "sectionTitle": "2. single choice (Questions 33-35)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 33,
-          "text": "(1) 题目 33：The writer uses the term 'grammar of movement' to mean\n题目翻译：作者使用运动语法一词意指\n答案：C（a pattern of connected cells）\n解析：定位 Paragraph B。作者将前运动皮层中的细胞网络比喻为存储运动动作词汇，如同运动的语法，比喻的是一组连接细胞的模式，对应选项 C。",
+          "text": "题目 33\n答案：C\nPDF 定位：\"运动的语法（grammarofmovement) 第B段:\"...groups of cells that'store vocabularies of motor actions' just as there are grammars of 指什么 movement. These networks of cells are the bodily 'sentences'weuseeveryday...\"→..存储运动动作词 汇\"的一组细胞，**就像存在\"运动的语法\"*一样。这些细胞网 络就是我们每天使用的身体句子\nPDF 解析：\"语法/词汇/句子\"是隐喻，指细胞网络的结构化组织，对应 选项Capatternofconnectedcells。排除：A\"技能水平\" (概念层级不对)；B\"关于运动的词语系统\"（误把隐喻当字面 语言系统)；D\"某种高尔夫挥杆类型\"（缩小指代范围)。",
           "questionId": "q7"
         },
         {
           "questionNumber": 34,
-          "text": "(2) 题目 34：The writer states that expert players perform their actions\n题目翻译：作者指出专家球员执行他们的动作时……\n答案：A（without conscious thought）\n解析：定位 Paragraph B。该段说明专家的动作是第二天性，他以完美的自动驾驶般的宁静击球，意味着无需有意识思考，对应选项 A。",
+          "text": "题目 34\n答案：A\nPDF 定位：作者认为专家的动作是如何完成的 第B段:\"To the expert... a perfectly balanced stroke is second nature... the motor action has become memorized... He hits the ball with the tranquility of his 是第二天性动作已经被内化记忆.他在自动驾驶般的宁静 中击球。\"\nPDF 解析：\"secondnature/autopilot\"=无需有意识思考，对应A withoutconsciousthought。排除：B\"逐段计划\"（与自动 化相反)；C\"无需规律练习\"(文中未提，且不合理)；D\"思考 他人动作\"(与自身自动化冲突)。",
           "questionId": "q8"
         },
         {
           "questionNumber": 35,
-          "text": "(3) 题目 35：The writer states that the most common motive for watching sport is to\n题目翻译：作者指出观看体育比赛最常见的动机是……\n答案：C（experience strong positive emotions）\n解析：定位 Paragraph F。该段开头明确说我们看体育是为了那种感觉（the feeling）和人类戏剧（human drama），强调情感体验，对应选项 C。",
+          "text": "题目 35\n答案：C\nPDF 定位：观看体育最常见的动机是 第F段:\"Rather, we watch sport for the feeling, the human drama. ... By letting spectators share in the motions of victory, they also allow us to share in its feelings...connected to the amygdala ...→*相反，我们 看体育是为了感觉、人性的戏剧性。..让观众分享胜利的动 作，也让我们分享其情感与否仁核相连.\nPDF 解析：核心动机是体验强烈的积极情绪，对应C。排除：A\"提升 个人表现\"（文中承认可提升，但\"最常见动机\"被否定为\"相 反，我们是为了感觉\")；B\"与不同国籍的人建立联系\"（虽有 \"brings people together\"，但作者明确说\"相反，是为了感 觉\")；D\"了解技能本质\"(非主因)。",
           "questionId": "q9"
         }
       ],
@@ -106,35 +92,35 @@
         "start": 33,
         "end": 35
       },
-      "text": "答案：C（a pattern of connected cells）\n解析：定位 Paragraph B。作者将前运动皮层中的细胞网络比喻为存储运动动作词汇，如同运动的语法，比喻的是一组连接细胞的模式，对应选项 C。\n答案：A（without conscious thought）\n解析：定位 Paragraph B。该段说明专家的动作是第二天性，他以完美的自动驾驶般的宁静击球，意味着无需有意识思考，对应选项 A。\n答案：C（experience strong positive emotions）\n解析：定位 Paragraph F。该段开头明确说我们看体育是为了那种感觉和人类戏剧，强调情感体验，对应选项 C。"
+      "text": "题目 33\n答案：C\nPDF 定位：\"运动的语法（grammarofmovement) 第B段:\"...groups of cells that'store vocabularies of motor actions' just as there are grammars of 指什么 movement. These networks of cells are the bodily 'sentences'weuseeveryday...\"→..存储运动动作词 汇\"的一组细胞，**就像存在\"运动的语法\"*一样。这些细胞网 络就是我们每天使用的身体句子\nPDF 解析：\"语法/词汇/句子\"是隐喻，指细胞网络的结构化组织，对应 选项Capatternofconnectedcells。排除：A\"技能水平\" (概念层级不对)；B\"关于运动的词语系统\"（误把隐喻当字面 语言系统)；D\"某种高尔夫挥杆类型\"（缩小指代范围)。\n\n题目 34\n答案：A\nPDF 定位：作者认为专家的动作是如何完成的 第B段:\"To the expert... a perfectly balanced stroke is second nature... the motor action has become memorized... He hits the ball with the tranquility of his 是第二天性动作已经被内化记忆.他在自动驾驶般的宁静 中击球。\"\nPDF 解析：\"secondnature/autopilot\"=无需有意识思考，对应A withoutconsciousthought。排除：B\"逐段计划\"（与自动 化相反)；C\"无需规律练习\"(文中未提，且不合理)；D\"思考 他人动作\"(与自身自动化冲突)。\n\n题目 35\n答案：C\nPDF 定位：观看体育最常见的动机是 第F段:\"Rather, we watch sport for the feeling, the human drama. ... By letting spectators share in the motions of victory, they also allow us to share in its feelings...connected to the amygdala ...→*相反，我们 看体育是为了感觉、人性的戏剧性。..让观众分享胜利的动 作，也让我们分享其情感与否仁核相连.\nPDF 解析：核心动机是体验强烈的积极情绪，对应C。排除：A\"提升 个人表现\"（文中承认可提升，但\"最常见动机\"被否定为\"相 反，我们是为了感觉\")；B\"与不同国籍的人建立联系\"（虽有 \"brings people together\"，但作者明确说\"相反，是为了感 觉\")；D\"了解技能本质\"(非主因)。"
     },
     {
-      "sectionTitle": "3. 判断题（Questions 36-40）",
+      "sectionTitle": "3. yes no not given (Questions 36-40)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 36,
-          "text": "(1) 题目 36：Inexpert sports players are too aware of what they are doing.\n题目翻译：非专家/新手体育运动员太过于意识到他们在做什么。\n答案：YES\n解析：定位 Paragraph B。该段说明大多数新手用他们的意识挥杆，与题目表述一致，因此答案为 YES。",
+          "text": "题目 36\n答案：YES\nPDF 定位：不熟练的运动者过分关注自己在做什么。 第B段：:\"This is because most novices swing with their consciousness, using an area of the brain next tothepremotorcortex.\"→\"这是因为**大多数新手靠 \"意识\"**去挥杆，使用的是前运动皮层旁的大脑区域。\"\nPDF 解析：tooaware与\"用意识在挥杆\"同义，说明注意力过强、未 自动化，故YES。",
           "questionId": "q10"
         },
         {
           "questionNumber": 37,
-          "text": "(2) 题目 37：Monkeys have a more complex mirror neuron system than humans.\n题目翻译：猴子拥有比人类更复杂的镜像神经元系统。\n答案：NO\n解析：定位 Paragraph C。原文说人类拥有更复杂的镜像神经元系统（even more elaborate mirror neuron system），题目说猴子更复杂与原文矛盾，因此答案为 NO。",
+          "text": "题目 37\n答案：NO\nPDF 定位：第C 段：\"Humans have an even more elaborate 猴子的镜像神经元系统比人类更复杂。 mirrorneuronsystem.\"→\"人类拥有更为精细的镜像神 经元系统。\"\nPDF 解析：文意与题干相反（人类比猴子更复杂)，故NO。",
           "questionId": "q11"
         },
         {
           "questionNumber": 38,
-          "text": "(3) 题目 38：Looking at a photograph can activate mirror neurons.\n题目翻译：看照片可以激活镜像神经元。\n答案：NO\n解析：定位 Paragraph C。原文说如果我们盯着一张照片，一张固定图像，我们的镜像神经元完全沉默。题目说可以激活，与原文矛盾，因此答案为 NO。",
+          "text": "题目 38\n答案：NO\nPDF 定位：第C段:\"f we are staring at a photograph, . our 看照片会激活镜像神经元。 mirror neurons are totally silent.\"→\"如果我们町着一 张照片...我们的镜像神经元完全沉默。\nPDF 解析：明确说\"照片不激活\"，与题干相反，故NO。",
           "questionId": "q12"
         },
         {
           "questionNumber": 39,
-          "text": "(4) 题目 39：Gastaut and Bert were both researchers and sports players.\n题目翻译：加斯陶特和贝尔特既是研究人员又是体育运动员。\n答案：NOT GIVEN\n解析：定位 Paragraph D。原文提到他们是法国生理学家，但全文未提及他们是否也是体育运动员，无相关信息，因此答案为 NOT GIVEN。",
+          "text": "题目 39\n答案：NOT GIVEN\nPDF 定位：第D段：\"two French physiologists, Gastaut and Gastaut和Bert既是研究者也是运动员。 Bert..→两位法国生理学家Gastaut和Bert.\nPDF 解析：文中仅说明二人为\"生理学家/研究者\"，并未提及二人是 否为运动员，信息缺失，故NOTGIVEN。",
           "questionId": "q13"
         },
         {
           "questionNumber": 40,
-          "text": "(5) 题目 40：The mu system is at rest when we are engaged in an activity.\n题目翻译：当我们从事活动时，μ波系统处于静止状态。\n答案：YES\n解析：定位 Paragraph D。原文说μ波系统在我们身体静止时很活跃，而当我们做一些活跃的事情时，它就会消失。因此当我们活动时，μ波系统确实是静止/不活跃的，与题干一致，因此答案为 YES。",
+          "text": "题目 40\n答案：YES\nPDF 定位：第D段:\"The mu system is involved in neural 从事活动时，μ(mu）系统处于静息状态。 mirroring. It is active when our bodies are still, and disappears whenever we do something active ... The mu signal is also quiet when we watch someone elsebeingactive...\"→\"μ系统在神经镜像中发挥作用。 身体静止时活跃，一旦我们进行活动就消失..当观看他人\nPDF 解析：题干atrest（静息/安静）\"与文中\"disappears/quiet\" 同义；我们在进行活动时μ不活跃，故YES。",
           "questionId": "q14"
         }
       ],
@@ -142,9 +128,9 @@
         "start": 36,
         "end": 40
       },
-      "text": "答案：YES\n解析：定位 Paragraph B。该段说明大多数新手用他们的意识挥杆，与题目表述一致，因此答案为 YES。\n答案：NO\n解析：定位 Paragraph C。原文说人类拥有更复杂的镜像神经元系统，题目说猴子更复杂与原文矛盾，因此答案为 NO。\n答案：NO\n解析：定位 Paragraph C。原文说如果我们盯着一张照片，我们的镜像神经元完全沉默。题目说可以激活，与原文矛盾，因此答案为 NO。\n答案：NOT GIVEN\n解析：定位 Paragraph D。原文提到他们是法国生理学家，但全文未提及他们是否也是体育运动员，无相关信息，因此答案为 NOT GIVEN。\n答案：YES\n解析：定位 Paragraph D。原文说μ波系统在我们身体静止时很活跃，而当我们做一些活跃的事情时，它就会消失。因此当我们活动时，μ波系统确实是静止/不活跃的，与题干一致，因此答案为 YES。"
+      "text": "题目 36\n答案：YES\nPDF 定位：不熟练的运动者过分关注自己在做什么。 第B段：:\"This is because most novices swing with their consciousness, using an area of the brain next tothepremotorcortex.\"→\"这是因为**大多数新手靠 \"意识\"**去挥杆，使用的是前运动皮层旁的大脑区域。\"\nPDF 解析：tooaware与\"用意识在挥杆\"同义，说明注意力过强、未 自动化，故YES。\n\n题目 37\n答案：NO\nPDF 定位：第C 段：\"Humans have an even more elaborate 猴子的镜像神经元系统比人类更复杂。 mirrorneuronsystem.\"→\"人类拥有更为精细的镜像神 经元系统。\"\nPDF 解析：文意与题干相反（人类比猴子更复杂)，故NO。\n\n题目 38\n答案：NO\nPDF 定位：第C段:\"f we are staring at a photograph, . our 看照片会激活镜像神经元。 mirror neurons are totally silent.\"→\"如果我们町着一 张照片...我们的镜像神经元完全沉默。\nPDF 解析：明确说\"照片不激活\"，与题干相反，故NO。\n\n题目 39\n答案：NOT GIVEN\nPDF 定位：第D段：\"two French physiologists, Gastaut and Gastaut和Bert既是研究者也是运动员。 Bert..→两位法国生理学家Gastaut和Bert.\nPDF 解析：文中仅说明二人为\"生理学家/研究者\"，并未提及二人是 否为运动员，信息缺失，故NOTGIVEN。\n\n题目 40\n答案：YES\nPDF 定位：第D段:\"The mu system is involved in neural 从事活动时，μ(mu）系统处于静息状态。 mirroring. It is active when our bodies are still, and disappears whenever we do something active ... The mu signal is also quiet when we watch someone elsebeingactive...\"→\"μ系统在神经镜像中发挥作用。 身体静止时活跃，一旦我们进行活动就消失..当观看他人\nPDF 解析：题干atrest（静息/安静）\"与文中\"disappears/quiet\" 同义；我们在进行活动时μ不活跃，故YES。"
     }
   ]
 }
   );
-})(typeof window !== 'undefined' ? window : globalThis);
+})(typeof window !== "undefined" ? window : globalThis);

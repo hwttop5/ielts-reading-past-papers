@@ -1,0 +1,131 @@
+(function registerReadingExplanationData(global) {
+  'use strict';
+  if (!global.__READING_EXPLANATION_DATA__ || typeof global.__READING_EXPLANATION_DATA__.register !== "function") {
+    throw new Error("reading_explanation_registry_missing");
+  }
+  global.__READING_EXPLANATION_DATA__.register("p2-medium-58", {
+  "schemaVersion": "ReadingExplanationV1",
+  "examId": "p2-medium-58",
+  "meta": {
+    "examId": "p2-medium-58",
+    "title": "Insect Decision-Making 昆虫决策",
+    "category": "P2",
+    "sourceDoc": "150. P2 - Insect Decision-Making 昆虫决策.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Insect Decision-Making 昆虫决策",
+    "ocrPages": [
+      6,
+      7
+    ],
+    "pdfPageCount": 7,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionExplanations": [
+    {
+      "sectionTitle": "1. matching (Questions 14-19)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 14,
+          "text": "题目 14\n答案：vii\nPDF 定位：\"为第A段选择合适标题：决策者人数如何影响决策\"\nPDF 解析：A段讲康多塞\"陪审团定理\"，核心就是人数个→正确 \"Moreover, the probability of a correct decision increases with the size of the jury.\"→\"此外，陪审 率个，与vi完全同义替换。其余标题均涉\"昆虫/虚拟/ 团人数越多，作出正确决定的概率越高。\" 紧追性\"等，不符本段\"人类群体决策\"主题。",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 15,
+          "text": "题目 15\n答案：iii\nPDF 定位：\"为第B段选择合适标题：某些昆虫用来表示发现 的信号\"\nPDF 解析：关键词signal/indicate在文中体现为\"waggledance *..reported back using a characteristic body 指示发现\"，与Ⅲ精确匹配。 movement known as a 'waggle dance' to indicate to the other bees the suitable places they have located. The longer the dance, the better the site.\"→\"..用一种称为\"摆尾舞的典型体态向同伴指 示它们找到的合适地点。舞越长，地点越好。\"",
+          "questionId": "q2"
+        },
+        {
+          "questionNumber": 16,
+          "text": "题目 16\n答案：vi\nPDF 定位：\"为第C段选择合适标题：用虚拟情境研究昆虫行为\"\nPDF 解析：*Dr List and his colleagues used a computer computer-generatedmodel=虚拟场景/仿真模型， generated model of the decision-making 正对标题vi。 模拟决策过程。\"",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 17,
+          "text": "题目 17\n答案：i\nPDF 定位：\"为第D段选择合适标题：人造模仿物对昆虫的影响\"\nPDF 解析：Jose Halloy... used robotic cockroaches to robotic（人造）个体作为模仿/仿效者改变群体选择， subvert the behaviour of living cockroaches.. 对应\"man-made imitations\"的效果。 Halloy was able to persuade the living cockroaches to choose an inappropriate shelter \"哈洛伊用机器人蟑螂干预真蟑螂.基至让它们改选先 前拒绝的栖身处。\"",
+          "questionId": "q4"
+        },
+        {
+          "questionNumber": 18,
+          "text": "题目 18\n答案：iv\nPDF 定位：\"为第E段选择合适标题：紧追性如何影响寻找新 家的过程\"\nPDF 解析：\"if the ants' existing nest becomes suddenly 本段反复强调受威胁（紧迫）→侦察→迁移速度，正是 threatened, the insects choose certain ants to \"紧迫性影响过程\"。 act as scouts to find a new nest. How quickly they accomplish the transfer ... depends ...on how quickly the migration can be achieved.\" →\"若 旧巢突然受威胁，便选出侦察兵找新巢；迁徒多快完成 直接影响整体转移速度。\"",
+          "questionId": "q5"
+        },
+        {
+          "questionNumber": 19,
+          "text": "题目 19\n答案：ii\nPDF 定位：\"为第F段选择合适标题：需要指引/带路的额外个体\"\nPDF 解析：\"Once the suitable new nest is identified, the lead/showtheway/leaders=\"充当向导\"，与 chosen ants begin to lead others ... show \"instruct additional insect guides\"对应。F段强调 the way ... In this way, moving processes are 让更多个体跟上是执行集体决策的关键。 accomplishedfaster... I ...suggests...the importance of recruiting dynamic leaders... to getotherstofollow.\"→\"一旦确认新巢，被挑选的蚂",
+          "questionId": "q6"
+        }
+      ],
+      "questionRange": {
+        "start": 14,
+        "end": 19
+      },
+      "text": "题目 14\n答案：vii\nPDF 定位：\"为第A段选择合适标题：决策者人数如何影响决策\"\nPDF 解析：A段讲康多塞\"陪审团定理\"，核心就是人数个→正确 \"Moreover, the probability of a correct decision increases with the size of the jury.\"→\"此外，陪审 率个，与vi完全同义替换。其余标题均涉\"昆虫/虚拟/ 团人数越多，作出正确决定的概率越高。\" 紧追性\"等，不符本段\"人类群体决策\"主题。\n\n题目 15\n答案：iii\nPDF 定位：\"为第B段选择合适标题：某些昆虫用来表示发现 的信号\"\nPDF 解析：关键词signal/indicate在文中体现为\"waggledance *..reported back using a characteristic body 指示发现\"，与Ⅲ精确匹配。 movement known as a 'waggle dance' to indicate to the other bees the suitable places they have located. The longer the dance, the better the site.\"→\"..用一种称为\"摆尾舞的典型体态向同伴指 示它们找到的合适地点。舞越长，地点越好。\"\n\n题目 16\n答案：vi\nPDF 定位：\"为第C段选择合适标题：用虚拟情境研究昆虫行为\"\nPDF 解析：*Dr List and his colleagues used a computer computer-generatedmodel=虚拟场景/仿真模型， generated model of the decision-making 正对标题vi。 模拟决策过程。\"\n\n题目 17\n答案：i\nPDF 定位：\"为第D段选择合适标题：人造模仿物对昆虫的影响\"\nPDF 解析：Jose Halloy... used robotic cockroaches to robotic（人造）个体作为模仿/仿效者改变群体选择， subvert the behaviour of living cockroaches.. 对应\"man-made imitations\"的效果。 Halloy was able to persuade the living cockroaches to choose an inappropriate shelter \"哈洛伊用机器人蟑螂干预真蟑螂.基至让它们改选先 前拒绝的栖身处。\"\n\n题目 18\n答案：iv\nPDF 定位：\"为第E段选择合适标题：紧追性如何影响寻找新 家的过程\"\nPDF 解析：\"if the ants' existing nest becomes suddenly 本段反复强调受威胁（紧迫）→侦察→迁移速度，正是 threatened, the insects choose certain ants to \"紧迫性影响过程\"。 act as scouts to find a new nest. How quickly they accomplish the transfer ... depends ...on how quickly the migration can be achieved.\" →\"若 旧巢突然受威胁，便选出侦察兵找新巢；迁徒多快完成 直接影响整体转移速度。\"\n\n题目 19\n答案：ii\nPDF 定位：\"为第F段选择合适标题：需要指引/带路的额外个体\"\nPDF 解析：\"Once the suitable new nest is identified, the lead/showtheway/leaders=\"充当向导\"，与 chosen ants begin to lead others ... show \"instruct additional insect guides\"对应。F段强调 the way ... In this way, moving processes are 让更多个体跟上是执行集体决策的关键。 accomplishedfaster... I ...suggests...the importance of recruiting dynamic leaders... to getotherstofollow.\"→\"一旦确认新巢，被挑选的蚂"
+    },
+    {
+      "sectionTitle": "2. matching (Questions 20-23)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 20,
+          "text": "题目 20\n答案：C\nPDF 定位：\"某些成员能影响其余群体改变先前决定。\"\nPDF 解析：\"被少数机器人说服\"=少数成员影响多数并推翻 \"Halloy was able to persuade the living cockroaches to choose an inappropriate 旧选择，与题干完全对应， shelter - even one which they had 不合适的栖身处-基至是它们之前拒绝过的。\"",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：B\nPDF 定位：\"对拟议选择进行个体核验对成功很重要。\"\nPDF 解析：\"independence in confirming=个体核验\"，明 \"the ability... depends on both the bees interdependence in communicating ... and 确对应题意。该发现出自List团队的模型实验。 their independence in confirming this information for themselves.\"（第C 段末）→ \"成功既依赖相互依存的沟通，也依赖各自独 立的确认。\"",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 22,
+          "text": "题目 22\n答案：A\nPDF 定位：\"参与决策的个体越多，决策越好。\"\nPDF 解析：\"the probability of a correct decision 康多塞定理的直接表述=题干同义改写。 increases with the size of the jury.\" (第A 段）→\"陷审团越大，正确率越高。\"",
+          "questionId": "q9"
+        },
+        {
+          "questionNumber": 23,
+          "text": "题目 23\n答案：B\nPDF 定位：\"在需要细微区分时，某些昆虫的决策过程仍 表现优异。\"\nPDF 解析：*The decision is remarkably reliable, with \"smalldifferences=细微区分\"，与题干高度同 the bees choosing the best site even when 义；结论来自List团队的蜜蜂研究。 there are only small differences between a/ternative sites.\"（第B段）→\"即便多个地点 差别很小，蜜蜂仍能可靠选出最佳。\"",
+          "questionId": "q10"
+        }
+      ],
+      "questionRange": {
+        "start": 20,
+        "end": 23
+      },
+      "text": "题目 20\n答案：C\nPDF 定位：\"某些成员能影响其余群体改变先前决定。\"\nPDF 解析：\"被少数机器人说服\"=少数成员影响多数并推翻 \"Halloy was able to persuade the living cockroaches to choose an inappropriate 旧选择，与题干完全对应， shelter - even one which they had 不合适的栖身处-基至是它们之前拒绝过的。\"\n\n题目 21\n答案：B\nPDF 定位：\"对拟议选择进行个体核验对成功很重要。\"\nPDF 解析：\"independence in confirming=个体核验\"，明 \"the ability... depends on both the bees interdependence in communicating ... and 确对应题意。该发现出自List团队的模型实验。 their independence in confirming this information for themselves.\"（第C 段末）→ \"成功既依赖相互依存的沟通，也依赖各自独 立的确认。\"\n\n题目 22\n答案：A\nPDF 定位：\"参与决策的个体越多，决策越好。\"\nPDF 解析：\"the probability of a correct decision 康多塞定理的直接表述=题干同义改写。 increases with the size of the jury.\" (第A 段）→\"陷审团越大，正确率越高。\"\n\n题目 23\n答案：B\nPDF 定位：\"在需要细微区分时，某些昆虫的决策过程仍 表现优异。\"\nPDF 解析：*The decision is remarkably reliable, with \"smalldifferences=细微区分\"，与题干高度同 the bees choosing the best site even when 义；结论来自List团队的蜜蜂研究。 there are only small differences between a/ternative sites.\"（第B段）→\"即便多个地点 差别很小，蜜蜂仍能可靠选出最佳。\""
+    },
+    {
+      "sectionTitle": "3. summary completion (Questions 24-26)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 24,
+          "text": "题目 24\n答案：threatened\nPDF 定位：\"if the ants'existing nest becomes suddenly \"当它们的家已被 threatened...\"（第E段）→\"如果旧巢突然受到威胁.\nPDF 解析：与题干\"homehasbeen..\"时态搭配；文中无\"destroyed/ damaged\"等更强调，故以threatened为准。",
+          "questionId": "q11"
+        },
+        {
+          "questionNumber": 25,
+          "text": "题目 25\n答案：scouts\nPDF 定位：\"这些被称为。 的个体\" \"the insects choose certain ants to act as scouts to findanewnest.\"（第E段）→\"选择一些蚂蚁充当侦察兵 寻找新巢。\"\nPDF 解析：直接同形词填空；唯一恰当名词。",
+          "questionId": "q12"
+        },
+        {
+          "questionNumber": 26,
+          "text": "题目 26\n答案：leaders\nPDF 定位：\"需要有活跃的。 \"the importance of recruiting dynamic leaders ... the 来成功执行决策\" most important thing ... is to get others to follow. (第 F段》→\"强调招募充满活力的领袖的重要性...关键是让 他人跟随。\"\nPDF 解析：*dynamic leaders\"与题干\"active_ \"精准同义；语义与 执行/动员相契合，",
+          "questionId": "q13"
+        }
+      ],
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：threatened\nPDF 定位：\"if the ants'existing nest becomes suddenly \"当它们的家已被 threatened...\"（第E段）→\"如果旧巢突然受到威胁.\nPDF 解析：与题干\"homehasbeen..\"时态搭配；文中无\"destroyed/ damaged\"等更强调，故以threatened为准。\n\n题目 25\n答案：scouts\nPDF 定位：\"这些被称为。 的个体\" \"the insects choose certain ants to act as scouts to findanewnest.\"（第E段）→\"选择一些蚂蚁充当侦察兵 寻找新巢。\"\nPDF 解析：直接同形词填空；唯一恰当名词。\n\n题目 26\n答案：leaders\nPDF 定位：\"需要有活跃的。 \"the importance of recruiting dynamic leaders ... the 来成功执行决策\" most important thing ... is to get others to follow. (第 F段》→\"强调招募充满活力的领袖的重要性...关键是让 他人跟随。\"\nPDF 解析：*dynamic leaders\"与题干\"active_ \"精准同义；语义与 执行/动员相契合，"
+    }
+  ]
+}
+  );
+})(typeof window !== "undefined" ? window : globalThis);

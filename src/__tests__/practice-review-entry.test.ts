@@ -4,13 +4,32 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { ref } from 'vue'
 import PracticeView from '@/views/Practice.vue'
 import HomeView from '@/views/Home.vue'
+import { usePracticeStore, type PracticeRecord } from '@/store/practiceStore'
 
-const pushMock = vi.fn()
+const mocks = vi.hoisted(() => ({
+  pushMock: vi.fn(),
+  messageSuccessMock: vi.fn()
+}))
+
+const pushMock = mocks.pushMock
+const messageSuccessMock = mocks.messageSuccessMock
 
 vi.mock('vue-router', () => ({
   useRouter: () => ({
-    push: pushMock
+    push: mocks.pushMock
   })
+}))
+
+vi.mock('ant-design-vue', () => ({
+  message: {
+    success: mocks.messageSuccessMock,
+    info: vi.fn(),
+    error: vi.fn()
+  }
+}))
+
+vi.mock('virtual:pwa-register', () => ({
+  registerSW: vi.fn(() => vi.fn())
 }))
 
 function reviewableRecord(overrides: Record<string, unknown> = {}) {
@@ -41,6 +60,7 @@ describe('practice review entry points', () => {
     setActivePinia(createPinia())
     backingStore = {}
     pushMock.mockReset()
+    messageSuccessMock.mockReset()
 
     vi.spyOn(Storage.prototype, 'getItem').mockImplementation((key) => backingStore[key] ?? null)
     vi.spyOn(Storage.prototype, 'setItem').mockImplementation((key, value) => {
@@ -53,20 +73,23 @@ describe('practice review entry points', () => {
 
   afterEach(() => {
     vi.restoreAllMocks()
+    vi.unstubAllGlobals()
   })
 
   it('opens review mode from the practice history list', async () => {
-    backingStore.ielts_practice = JSON.stringify([reviewableRecord()])
+    const pinia = createPinia()
 
     const wrapper = mount(PracticeView, {
       global: {
-        plugins: [createPinia()],
+        plugins: [pinia],
         provide: {
           t: (key: string) => key,
           currentLang: ref<'zh' | 'en'>('en')
         }
       }
     })
+    const store = usePracticeStore()
+    store.records = [reviewableRecord() as PracticeRecord]
 
     await wrapper.vm.$nextTick()
     await wrapper.find('.timeline-item.reviewable').trigger('click')
@@ -81,18 +104,56 @@ describe('practice review entry points', () => {
     })
   })
 
-  it('opens review mode from the home latest practice cards', async () => {
-    backingStore.ielts_practice = JSON.stringify([reviewableRecord({ id: 'record-2', questionId: 'p2-high-03', resultSnapshot: { metadata: { examId: 'p2-high-03' } } })])
+  it('deletes one practice history record without opening review mode', async () => {
+    const confirmMock = vi.fn(() => true)
+    vi.stubGlobal('confirm', confirmMock)
+    const pinia = createPinia()
 
-    const wrapper = mount(HomeView, {
+    const wrapper = mount(PracticeView, {
       global: {
-        plugins: [createPinia()],
+        plugins: [pinia],
         provide: {
           t: (key: string) => key,
           currentLang: ref<'zh' | 'en'>('en')
         }
       }
     })
+    const store = usePracticeStore()
+    store.records = [
+      reviewableRecord() as PracticeRecord,
+      reviewableRecord({
+        id: 'record-2',
+        questionId: 'p2-high-03',
+        questionTitle: 'Second record',
+        resultSnapshot: { metadata: { examId: 'p2-high-03' } }
+      }) as PracticeRecord
+    ]
+
+    await wrapper.vm.$nextTick()
+    await wrapper.find('.record-delete-button').trigger('click')
+    await wrapper.vm.$nextTick()
+
+    expect(confirmMock).toHaveBeenCalledWith('practice.deleteRecordConfirm')
+    expect(pushMock).not.toHaveBeenCalled()
+    expect(messageSuccessMock).toHaveBeenCalledWith('practice.recordDeleted')
+    expect(JSON.parse(backingStore.ielts_practice).map((record: { id: string }) => record.id)).toEqual(['record-2'])
+    expect(JSON.parse(backingStore.ielts_sync_meta).practice.deletedRecordIds).toEqual(['record-1'])
+  })
+
+  it('opens review mode from the home latest practice cards', async () => {
+    const pinia = createPinia()
+
+    const wrapper = mount(HomeView, {
+      global: {
+        plugins: [pinia],
+        provide: {
+          t: (key: string) => key,
+          currentLang: ref<'zh' | 'en'>('en')
+        }
+      }
+    })
+    const store = usePracticeStore()
+    store.records = [reviewableRecord({ id: 'record-2', questionId: 'p2-high-03', resultSnapshot: { metadata: { examId: 'p2-high-03' } } }) as PracticeRecord]
 
     await wrapper.vm.$nextTick()
     await wrapper.find('.practice-card.reviewable').trigger('click')

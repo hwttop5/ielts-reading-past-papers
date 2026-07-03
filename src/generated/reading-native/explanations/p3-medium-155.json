@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p3-medium-155",
+  "meta": {
+    "examId": "p3-medium-155",
+    "title": "Does class size matter",
+    "category": "P3",
+    "sourceDoc": "65. P3 - Does class size matter 课堂规模.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Does class size matter 课堂规模",
+    "ocrPages": [
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. table completion (Questions 27-31)",
+      "mode": "group",
+      "questionRange": {
+        "start": 27,
+        "end": 31
+      },
+      "text": "题目 27\n答案：D\nPDF 定位：对某个项目研究方法的详细批评 第D段:\"Eric Hanushek of Stanford, however, criticises some of STAR's key conclusions... He argues that STAR does not prove that gains persist.. Nor does he accept that the benefits accumulate...\"; 以及\"Hanushek...asserts that STAR failed to ensure good randomisation of teacher and student assignments.\"\nPDF 解析：D段集中罗列Hanushek对STAR方法与结论的系统质疑： 长期效应、累积效应、随机化充分性等，属于\"方法论的详 细批评\"。\n\n题目 28\n答案：F\nPDF 定位：对多个班额缩减项目数据的比较 第F段:..analysts...found the results accord with those from STAR.\nPDF 解析：F段把SAGE的一年级结果与STAR对比（\"相符/一致\")，属于 跨项目数据比较。\n\n题目 29\n答案：A\nPDF 定位：公众对\"缩小班额\"议题的关注度 第A段:..class-size reduction in the U.S. has lately gone from being a subject of primary academic interest to a policy juggernaut with over twenty states aiming at decreasing class sizes.\"\nPDF 解析：政策层面的高关注与热度。\n\n题目 30\n答案：C\nPDF 定位：为保证项目有效性而采取的具体措施 第C段:\"Students... were randomly assigned to one of three kinds of classes... To ensure that teaching quality did not differ, teachers were randomly assigned ... Few teachers received any special training... and there were no new curricular materials.\"\nPDF 解析：随机分配学生与教师、控制教师培训与教材变动，都是典型的内 生变量控制/效度保护措施。\n\n题目 31\n答案：D\nPDF 定位：项目进行中班级构成变化的原因 第D段:\"too many children moved from regular to small classes, probablybecause schoolpersonnelcaved in to parent demands.\"\nPDF 解析：明确给出\"因家长要求，校方妥协\"，导致学生从常规班转入小 班，解释了构成变化的原因。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 27,
+          "text": "题目 27\n答案：D\nPDF 定位：对某个项目研究方法的详细批评 第D段:\"Eric Hanushek of Stanford, however, criticises some of STAR's key conclusions... He argues that STAR does not prove that gains persist.. Nor does he accept that the benefits accumulate...\"; 以及\"Hanushek...asserts that STAR failed to ensure good randomisation of teacher and student assignments.\"\nPDF 解析：D段集中罗列Hanushek对STAR方法与结论的系统质疑： 长期效应、累积效应、随机化充分性等，属于\"方法论的详 细批评\"。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 28,
+          "text": "题目 28\n答案：F\nPDF 定位：对多个班额缩减项目数据的比较 第F段:..analysts...found the results accord with those from STAR.\nPDF 解析：F段把SAGE的一年级结果与STAR对比（\"相符/一致\")，属于 跨项目数据比较。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 29,
+          "text": "题目 29\n答案：A\nPDF 定位：公众对\"缩小班额\"议题的关注度 第A段:..class-size reduction in the U.S. has lately gone from being a subject of primary academic interest to a policy juggernaut with over twenty states aiming at decreasing class sizes.\"\nPDF 解析：政策层面的高关注与热度。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 30,
+          "text": "题目 30\n答案：C\nPDF 定位：为保证项目有效性而采取的具体措施 第C段:\"Students... were randomly assigned to one of three kinds of classes... To ensure that teaching quality did not differ, teachers were randomly assigned ... Few teachers received any special training... and there were no new curricular materials.\"\nPDF 解析：随机分配学生与教师、控制教师培训与教材变动，都是典型的内 生变量控制/效度保护措施。"
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 31,
+          "text": "题目 31\n答案：D\nPDF 定位：项目进行中班级构成变化的原因 第D段:\"too many children moved from regular to small classes, probablybecause schoolpersonnelcaved in to parent demands.\"\nPDF 解析：明确给出\"因家长要求，校方妥协\"，导致学生从常规班转入小 班，解释了构成变化的原因。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. matching (Questions 32-40)",
+      "mode": "group",
+      "questionRange": {
+        "start": 32,
+        "end": 40
+      },
+      "text": "题目 32\n答案：A\nPDF 定位：每个班的学生构成听凭随机 第C段 (STAR): \"Students... were randomly assigned to one of three kinds of classes.\"\nPDF 解析：\"随机分配\"=\"leftto chance\"。对应STAR。\n\n题目 33\n答案：A\nPDF 定位：第D段(STAR结果)：..outperforming... by the first grade 宣称有长期成绩提升 and that this advantage persisted even after students returned to larger classes.\"\nPDF 解析：\"persistedevenafter\"=返回大班后仍保持优势，属长期改进 之主张/发现。\n\n题目 34\n答案：B\nPDF 定位：各社会群体结果相似 第E段(California)：..a statistically significant achievement advantage... the effect did not vary for students of different backgrounds.\"\nPDF 解析：明说不同背景学生效果无差异，即\"相似结果\"。\n\n题目 35\n答案：C\nPDF 定位：该项目是更大研究的前期/预备 第F段(SAGE)：\"SAGE was a five-year pilot study to do some of the groundwork for a major project.\"\nPDF 解析：\"pilot study\"\"groundwork\"=预备/前期性质。\n\n题目 36\n答案：A\nPDF 定位：涉及多种班级类型 第C段（STAR)：三类班：小班；常规班；常规班+全职助教。\nPDF 解析：明确\"several different class types\"。\n\n题目 37\n答案：C\nPDF 定位：选取了特定群体学校参与 第F段 (SAGE):..targeting schools at which 30% of the students were below poverty level...\nPDF 解析：SAGE有定向筛选（贫困比例≥30%)，属\"特殊群体\"。\n\n题目 38\n答案：A\nPDF 定位：项目中使用了课堂助教 第C段 (STAR):*..a regular-size class with both a teacher and a full-time teacher's aide.\"\nPDF 解析：助教（teacher'saide）是STAR的实验类型之一\n\n题目 39\n答案：B\nPDF 定位：第E段(California)：\"This is exacerbating the disparity.. 项目导致既有问题加剧 more affluent areas can attract the best teachers... some of the extra teachers... recruited from the poorer schools.\"\nPDF 解析：\"exacerbatingthedisparity\"=加剧资源不平等，属负面外部性。\n\n题目 40\n答案：A\nPDF 定位：样本中的特定群体被识别为获益者 第D段 (STAR):..the effect was stronger for black and Hispanic minority groups...\nPDF 解析：指明少数族裔收益更大=\"特定群体被识别为获益\"。",
+      "items": [
+        {
+          "questionId": "q6",
+          "questionNumber": 32,
+          "text": "题目 32\n答案：A\nPDF 定位：每个班的学生构成听凭随机 第C段 (STAR): \"Students... were randomly assigned to one of three kinds of classes.\"\nPDF 解析：\"随机分配\"=\"leftto chance\"。对应STAR。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 33,
+          "text": "题目 33\n答案：A\nPDF 定位：第D段(STAR结果)：..outperforming... by the first grade 宣称有长期成绩提升 and that this advantage persisted even after students returned to larger classes.\"\nPDF 解析：\"persistedevenafter\"=返回大班后仍保持优势，属长期改进 之主张/发现。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 34,
+          "text": "题目 34\n答案：B\nPDF 定位：各社会群体结果相似 第E段(California)：..a statistically significant achievement advantage... the effect did not vary for students of different backgrounds.\"\nPDF 解析：明说不同背景学生效果无差异，即\"相似结果\"。"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 35,
+          "text": "题目 35\n答案：C\nPDF 定位：该项目是更大研究的前期/预备 第F段(SAGE)：\"SAGE was a five-year pilot study to do some of the groundwork for a major project.\"\nPDF 解析：\"pilot study\"\"groundwork\"=预备/前期性质。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 36,
+          "text": "题目 36\n答案：A\nPDF 定位：涉及多种班级类型 第C段（STAR)：三类班：小班；常规班；常规班+全职助教。\nPDF 解析：明确\"several different class types\"。"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 37,
+          "text": "题目 37\n答案：C\nPDF 定位：选取了特定群体学校参与 第F段 (SAGE):..targeting schools at which 30% of the students were below poverty level...\nPDF 解析：SAGE有定向筛选（贫困比例≥30%)，属\"特殊群体\"。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 38,
+          "text": "题目 38\n答案：A\nPDF 定位：项目中使用了课堂助教 第C段 (STAR):*..a regular-size class with both a teacher and a full-time teacher's aide.\"\nPDF 解析：助教（teacher'saide）是STAR的实验类型之一"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 39,
+          "text": "题目 39\n答案：B\nPDF 定位：第E段(California)：\"This is exacerbating the disparity.. 项目导致既有问题加剧 more affluent areas can attract the best teachers... some of the extra teachers... recruited from the poorer schools.\"\nPDF 解析：\"exacerbatingthedisparity\"=加剧资源不平等，属负面外部性。"
+        },
+        {
+          "questionId": "q14",
+          "questionNumber": 40,
+          "text": "题目 40\n答案：A\nPDF 定位：样本中的特定群体被识别为获益者 第D段 (STAR):..the effect was stronger for black and Hispanic minority groups...\nPDF 解析：指明少数族裔收益更大=\"特定群体被识别为获益\"。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 27,
+      "text": "题目 27\n答案：D\nPDF 定位：对某个项目研究方法的详细批评 第D段:\"Eric Hanushek of Stanford, however, criticises some of STAR's key conclusions... He argues that STAR does not prove that gains persist.. Nor does he accept that the benefits accumulate...\"; 以及\"Hanushek...asserts that STAR failed to ensure good randomisation of teacher and student assignments.\"\nPDF 解析：D段集中罗列Hanushek对STAR方法与结论的系统质疑： 长期效应、累积效应、随机化充分性等，属于\"方法论的详 细批评\"。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 28,
+      "text": "题目 28\n答案：F\nPDF 定位：对多个班额缩减项目数据的比较 第F段:..analysts...found the results accord with those from STAR.\nPDF 解析：F段把SAGE的一年级结果与STAR对比（\"相符/一致\")，属于 跨项目数据比较。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 29,
+      "text": "题目 29\n答案：A\nPDF 定位：公众对\"缩小班额\"议题的关注度 第A段:..class-size reduction in the U.S. has lately gone from being a subject of primary academic interest to a policy juggernaut with over twenty states aiming at decreasing class sizes.\"\nPDF 解析：政策层面的高关注与热度。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 30,
+      "text": "题目 30\n答案：C\nPDF 定位：为保证项目有效性而采取的具体措施 第C段:\"Students... were randomly assigned to one of three kinds of classes... To ensure that teaching quality did not differ, teachers were randomly assigned ... Few teachers received any special training... and there were no new curricular materials.\"\nPDF 解析：随机分配学生与教师、控制教师培训与教材变动，都是典型的内 生变量控制/效度保护措施。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 31,
+      "text": "题目 31\n答案：D\nPDF 定位：项目进行中班级构成变化的原因 第D段:\"too many children moved from regular to small classes, probablybecause schoolpersonnelcaved in to parent demands.\"\nPDF 解析：明确给出\"因家长要求，校方妥协\"，导致学生从常规班转入小 班，解释了构成变化的原因。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 32,
+      "text": "题目 32\n答案：A\nPDF 定位：每个班的学生构成听凭随机 第C段 (STAR): \"Students... were randomly assigned to one of three kinds of classes.\"\nPDF 解析：\"随机分配\"=\"leftto chance\"。对应STAR。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 33,
+      "text": "题目 33\n答案：A\nPDF 定位：第D段(STAR结果)：..outperforming... by the first grade 宣称有长期成绩提升 and that this advantage persisted even after students returned to larger classes.\"\nPDF 解析：\"persistedevenafter\"=返回大班后仍保持优势，属长期改进 之主张/发现。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 34,
+      "text": "题目 34\n答案：B\nPDF 定位：各社会群体结果相似 第E段(California)：..a statistically significant achievement advantage... the effect did not vary for students of different backgrounds.\"\nPDF 解析：明说不同背景学生效果无差异，即\"相似结果\"。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 35,
+      "text": "题目 35\n答案：C\nPDF 定位：该项目是更大研究的前期/预备 第F段(SAGE)：\"SAGE was a five-year pilot study to do some of the groundwork for a major project.\"\nPDF 解析：\"pilot study\"\"groundwork\"=预备/前期性质。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 36,
+      "text": "题目 36\n答案：A\nPDF 定位：涉及多种班级类型 第C段（STAR)：三类班：小班；常规班；常规班+全职助教。\nPDF 解析：明确\"several different class types\"。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 37,
+      "text": "题目 37\n答案：C\nPDF 定位：选取了特定群体学校参与 第F段 (SAGE):..targeting schools at which 30% of the students were below poverty level...\nPDF 解析：SAGE有定向筛选（贫困比例≥30%)，属\"特殊群体\"。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 38,
+      "text": "题目 38\n答案：A\nPDF 定位：项目中使用了课堂助教 第C段 (STAR):*..a regular-size class with both a teacher and a full-time teacher's aide.\"\nPDF 解析：助教（teacher'saide）是STAR的实验类型之一"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 39,
+      "text": "题目 39\n答案：B\nPDF 定位：第E段(California)：\"This is exacerbating the disparity.. 项目导致既有问题加剧 more affluent areas can attract the best teachers... some of the extra teachers... recruited from the poorer schools.\"\nPDF 解析：\"exacerbatingthedisparity\"=加剧资源不平等，属负面外部性。"
+    },
+    "q14": {
+      "questionId": "q14",
+      "questionNumber": 40,
+      "text": "题目 40\n答案：A\nPDF 定位：样本中的特定群体被识别为获益者 第D段 (STAR):..the effect was stronger for black and Hispanic minority groups...\nPDF 解析：指明少数族裔收益更大=\"特定群体被识别为获益\"。"
+    }
+  }
+}

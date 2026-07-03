@@ -11,7 +11,7 @@
     "questionIntroHtml": "<h3>Questions</h3>",
     "originalTitle": "Lean Production Innovation 精益生产"
   },
-  "explanationKey": null,
+  "explanationKey": "p2-low-75",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -795,7 +795,52 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. matching (Questions 14-20)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 20
+        },
+        "text": "题目 14\n答案：ii\nPDF 定位：历史背景 The historical context\nPDF 解析：\"After the First world War..After the Second \"第一次世界大战之后-第二次世界大战之后. 全段按时间线讲从手工业→大生产→精益生产的 World War._ Eji Toyoda and Taichi Ohno 丰田英二与大野耐开创了精益生产理念 演进，是典型的历史背景铺垫。 pioneered the concept of lean production..\n\n题目 15\n答案：iv\nPDF 定位：The pros and cons of different production 不同生产体系的优缺点 systems\nPDF 解析：The craftproduce... cost too much.. mass \"手工业生产.成本过高：大规模生产让员 本段系统对比手工业、流水化大生产与精益的长 短处，故选iv。 工感到乏味沮丧。相比之下，精益生产结合两者 producer..boring and dispiriting. By contrast, 优点. the lean production system combines the advantages of craft and mass..\n\n题目 16\n答案：vii\nPDF 定位：术语来源 The origin of the term\nPDF 解析：\"之所以称为\"\"精益\"\"，是因为与大生产相比， *Lean production is so called because, 直接解释\"lean\"名称的由来。 compared withmass production, it uses lessof 它在各方面都用得更少. everything..*\n\n题目 17\n答案：viii\nPDF 定位：A crucial difference in levels of quality 质量水平的关键差异\nPDF 解析：\"Mass producers set alimited goal for \"大生产把目标限定为\"够用即可.而精益生产不 核心对比是质量/标准上的差异，故选Vi。 愿在这些方面降低标准 themselves: good enough.. Lean producers... are unilling to compromise standards..\n\n题目 18\n答案：x\nPDF 定位：Interdependent strategies for contrlling 控制成本的相互依毅策略\nPDF 解析：*Although cost reduction is the primary \"虽然降成本是首要目标.必须同时实现三个中 讲为降成本而设的三项互相依赖的目标（量的调 节、质量保证、尊重人性)，与×完全对应， 间目标.而且三者不能被此割裂。 objective... it must meet three other intermediate objectives.. It should be emphasised that none of these three objectives can be achieved separately.\"\n\n题目 19\n答案：vi\nPDF 定位：Procedures for controling supply 供应控制流程\nPDF 解析：..后工序按需从前工序取料； 全段是JIT的拉动式补给与库存消除，属于\"供应 \"连续流依赖准时化 控制流程\"。 intime. employees go to the preceding 前工序只补足被取走的数量.. process to withdraw the necessary quantity.. Kjuoaonpod snssaood Bupaoaud a\n\n题目 20\n答案：iii\nPDF 定位：质量控制流程 Procedures for controlling quality\nPDF 解析：讲\"自需化（Autonomation)\"的质控机制与停线 \"自化/自需化质控即自动检出异常质量控 *Autonomation is the automatic checking for abnormalities...quality control must coexist 制与JIT并行.-设备带停机装置；工人可-键 系统，故为质量控制流程。 with just-intime. machines have been fitted with stopping devices. worker pushes a button to stop the whole line.",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：ii\nPDF 定位：历史背景 The historical context\nPDF 解析：\"After the First world War..After the Second \"第一次世界大战之后-第二次世界大战之后. 全段按时间线讲从手工业→大生产→精益生产的 World War._ Eji Toyoda and Taichi Ohno 丰田英二与大野耐开创了精益生产理念 演进，是典型的历史背景铺垫。 pioneered the concept of lean production.."
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：iv\nPDF 定位：The pros and cons of different production 不同生产体系的优缺点 systems\nPDF 解析：The craftproduce... cost too much.. mass \"手工业生产.成本过高：大规模生产让员 本段系统对比手工业、流水化大生产与精益的长 短处，故选iv。 工感到乏味沮丧。相比之下，精益生产结合两者 producer..boring and dispiriting. By contrast, 优点. the lean production system combines the advantages of craft and mass.."
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：vii\nPDF 定位：术语来源 The origin of the term\nPDF 解析：\"之所以称为\"\"精益\"\"，是因为与大生产相比， *Lean production is so called because, 直接解释\"lean\"名称的由来。 compared withmass production, it uses lessof 它在各方面都用得更少. everything..*"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：viii\nPDF 定位：A crucial difference in levels of quality 质量水平的关键差异\nPDF 解析：\"Mass producers set alimited goal for \"大生产把目标限定为\"够用即可.而精益生产不 核心对比是质量/标准上的差异，故选Vi。 愿在这些方面降低标准 themselves: good enough.. Lean producers... are unilling to compromise standards.."
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：x\nPDF 定位：Interdependent strategies for contrlling 控制成本的相互依毅策略\nPDF 解析：*Although cost reduction is the primary \"虽然降成本是首要目标.必须同时实现三个中 讲为降成本而设的三项互相依赖的目标（量的调 节、质量保证、尊重人性)，与×完全对应， 间目标.而且三者不能被此割裂。 objective... it must meet three other intermediate objectives.. It should be emphasised that none of these three objectives can be achieved separately.\""
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：vi\nPDF 定位：Procedures for controling supply 供应控制流程\nPDF 解析：..后工序按需从前工序取料； 全段是JIT的拉动式补给与库存消除，属于\"供应 \"连续流依赖准时化 控制流程\"。 intime. employees go to the preceding 前工序只补足被取走的数量.. process to withdraw the necessary quantity.. Kjuoaonpod snssaood Bupaoaud a"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：iii\nPDF 定位：质量控制流程 Procedures for controlling quality\nPDF 解析：讲\"自需化（Autonomation)\"的质控机制与停线 \"自化/自需化质控即自动检出异常质量控 *Autonomation is the automatic checking for abnormalities...quality control must coexist 制与JIT并行.-设备带停机装置；工人可-键 系统，故为质量控制流程。 with just-intime. machines have been fitted with stopping devices. worker pushes a button to stop the whole line."
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1240,7 +1285,47 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. sentence completion (Questions 21-26)",
+        "mode": "group",
+        "questionRange": {
+          "start": 21,
+          "end": 26
+        },
+        "text": "题目 21\n答案：craft production\nPDF 定位：\"少量不寻常的汽车仍采用， 方法生产。\" \"A present-day example of this method is the customised production of a few exotic sports cars. (B 段)\nPDF 解析：\"这一方法在当代的例子是：少量异域跑车的定 *this method\" 指代.上文的 craft production (手 制化生产。\" 工业生产)。故填 craft production。\n\n题目 22\n答案：multi-skilled\nPDF 定位：\"companies appoint teams of multi-silled \"精益生产要求员工具备， 的素质。\" workers to all levels of the organisation\" (B F段)\nPDF 解析：空格主语是\"staffwhoare-\"， \"公司在各层级都配备多技能员工团队。\" 与原文形容词 multi-skilled 完全对应。\n\n题目 23\n答案：manufacturing space\nPDF 定位：\"精益生产雇用更少的人，并使用更少的， \"uses less of everything.. half the 设备和时间。\" manufacturing space, half the investment in tools, and half the engineering hours..\" (C F段)\nPDF 解析：\"在各方面用得更少- .制造空间减半，工具 (设备）/engineeringhours（时间）\"，故缺项应 投入减半，工程工时减半. 为 manufacturing space,\n\n题目 24\n答案：just-in-time\nPDF 定位：\"如果实施一种称为， 的流程，便不需要 If just-intime is fully realised... superfluous 仓储设施。\" inventories are completely eliminated.. making stores or warehouses unnecessary.\" (F F)\nPDF 解析：直接对应原文；连字符计为一个词，满足\"s3 .多余库存被彻底消除，从 \"若准时化完全实现. 而不再需要仓库。\" 个单词\"。\n\n题目 25\n答案：defects / abnormalities\nPDF 定位：\"\"自像化（Autonomation)'是一种用于发现生产 \"Autonomation is the automatic checking for abnormalities...[and] prevent the multiplication 线上产品任何， 的流程。\" of defects in machines or product lines.* (G 段)\nPDF 解析：题干限定\"in the products on a production \"自谢化即自动检出异常.并防止机器或产线缺 line,，与原文defects.. i... roduct 陷的扩散。\" lines\"搭配最自然，故填defects（而非 \"abnormalities\")。\n\n题目 26\n答案：lights\nPDF 定位：\"the worker pushes a button to stop the whole \"在丰田工厂，为了显示必须停产的位置，手工产 line, and lights, which are hung so high... 线上方悬挂着， indicate the position of the problem.\" (G 段)\nPDF 解析：\"工人按键可停线：悬挂在高处的灯指示问题 直接对应原文lights。 位置。\"",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：craft production\nPDF 定位：\"少量不寻常的汽车仍采用， 方法生产。\" \"A present-day example of this method is the customised production of a few exotic sports cars. (B 段)\nPDF 解析：\"这一方法在当代的例子是：少量异域跑车的定 *this method\" 指代.上文的 craft production (手 制化生产。\" 工业生产)。故填 craft production。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：multi-skilled\nPDF 定位：\"companies appoint teams of multi-silled \"精益生产要求员工具备， 的素质。\" workers to all levels of the organisation\" (B F段)\nPDF 解析：空格主语是\"staffwhoare-\"， \"公司在各层级都配备多技能员工团队。\" 与原文形容词 multi-skilled 完全对应。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：manufacturing space\nPDF 定位：\"精益生产雇用更少的人，并使用更少的， \"uses less of everything.. half the 设备和时间。\" manufacturing space, half the investment in tools, and half the engineering hours..\" (C F段)\nPDF 解析：\"在各方面用得更少- .制造空间减半，工具 (设备）/engineeringhours（时间）\"，故缺项应 投入减半，工程工时减半. 为 manufacturing space,"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "题目 24\n答案：just-in-time\nPDF 定位：\"如果实施一种称为， 的流程，便不需要 If just-intime is fully realised... superfluous 仓储设施。\" inventories are completely eliminated.. making stores or warehouses unnecessary.\" (F F)\nPDF 解析：直接对应原文；连字符计为一个词，满足\"s3 .多余库存被彻底消除，从 \"若准时化完全实现. 而不再需要仓库。\" 个单词\"。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 25,
+            "text": "题目 25\n答案：defects / abnormalities\nPDF 定位：\"\"自像化（Autonomation)'是一种用于发现生产 \"Autonomation is the automatic checking for abnormalities...[and] prevent the multiplication 线上产品任何， 的流程。\" of defects in machines or product lines.* (G 段)\nPDF 解析：题干限定\"in the products on a production \"自谢化即自动检出异常.并防止机器或产线缺 line,，与原文defects.. i... roduct 陷的扩散。\" lines\"搭配最自然，故填defects（而非 \"abnormalities\")。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 26,
+            "text": "题目 26\n答案：lights\nPDF 定位：\"the worker pushes a button to stop the whole \"在丰田工厂，为了显示必须停产的位置，手工产 line, and lights, which are hung so high... 线上方悬挂着， indicate the position of the problem.\" (G 段)\nPDF 解析：\"工人按键可停线：悬挂在高处的灯指示问题 直接对应原文lights。 位置。\""
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

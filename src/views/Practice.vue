@@ -89,7 +89,18 @@
           <div class="timeline-content">
             <div class="record-header">
               <div class="record-title">{{ item.questionTitle }}</div>
-              <div class="record-time">{{ format(item.time) }}</div>
+              <div class="record-header-actions">
+                <div class="record-time">{{ format(item.time) }}</div>
+                <button
+                  class="record-delete-button"
+                  type="button"
+                  :title="t('practice.deleteRecord')"
+                  :aria-label="t('practice.deleteRecord')"
+                  @click.stop="deleteRecord(item)"
+                >
+                  <span class="material-icons">delete_outline</span>
+                </button>
+              </div>
             </div>
 
             <div class="record-meta">
@@ -254,6 +265,15 @@ const clear = () => {
     achievementStore.check()
     message.success(t('practice.recordsCleared'))
   }
+}
+
+const deleteRecord = (record: PracticeRecord) => {
+  if (!confirm(t('practice.deleteRecordConfirm'))) {
+    return
+  }
+  store.deleteRecord(record.id)
+  achievementStore.check()
+  message.success(t('practice.recordDeleted'))
 }
 
 const format = (ts: number) => {
@@ -632,6 +652,37 @@ const handleImport = async (event: Event) => {
   font-size: 13px;
   color: var(--text-tertiary);
   flex-shrink: 0;
+}
+
+.record-header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.record-delete-button {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.record-delete-button .material-icons {
+  font-size: 18px;
+}
+
+.record-delete-button:hover {
+  border-color: var(--danger-color);
+  background: var(--danger-soft);
+  color: var(--danger-color);
 }
 
 .record-meta {

@@ -736,7 +736,47 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. matching (Questions 14-19)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 19
+        },
+        "text": "题目 14\n答案：iv\nPDF 定位：铁路系统的遗存/遗迹 1) *Known as Gleisdreieck, meaning 'triangle of rails, it was formed by the intersection of different railway lines built in the mid-nineteenth century that entered Berlin from the south.\" 2) *Tracks, sheds and warehouses belonging to three old railway stations Dresdner Bahnhof ... Potsdamer Bahnhof... and Anhalter Bahnhof ... are situated on a raised area .\nPDF 解析：1)此地名为Gleisdreieck（意为\"轨道三角\"）， A段主旨就是旧铁路遗存（铁轨/旧站/附属建 由多条铁路交汇而成。\"2）\"这里保留着铁轨、车 筑)，与iv完全对应。 棚和仓库，属三座旧火车站，坐落在抬高的 平台上\n\n题目 15\n答案：viii\nPDF 定位：1) *As the railway infrastructure gradually 该区城被荒废的原因 ceased to be used, the whole area .. run down and abandoned, to the point of being closeness of the wall... contributed to the fact that Gleisdreieck was for decades no- man's-land.*\nPDF 解析：1）\"随着铁路设施逐浙停用，整片区域破败并被 段内连给数因：停用→破败→垃圾场→柏林墙 遗弃，1945年后甚至成了垃圾场。\"2)\"柏林墙 导致无人区；正是\"为何被荒废\"，故选vii. 的存在又使此地数十年成为无人区。\"\n\n题目 16\n答案：i\nPDF 定位：1) \"the proposal of converting Gleisdreieck 改造项目的目标 into a large urban park that would integrate the different urban zones which converged the development of .. amenities... integrating different generations and social groups in a sustainable way .. 3) .. the need to reconcile these goals with the conservation of railway heritage also emerged.\"\nPDF 解析：1）\"提出把此地改造为大型城市公园，以连接在 逐条罗列目标：连通片区、设施与社会融合、兼 此汇合的不同城市片区，\"2)\"有必要推进公共设 顾遗产保护；对应1。 施建设，使其能融合不同年龄与社会群体并实现 可持续。\"3）\"同时需要在这些目标与铁路遗产保 护之间求得平衡。\"\n\n题目 17\n答案：vii\nPDF 定位：1) *planned around a large central meadow, 穿越场地的方式 intersected from east to west by a concrete footpath, and from north to south by a pair of railway lines.\" 2) \"The concrete footpath ... bridges the four-metre difference in ground level by means of a stairway.\"\nPDF 解析：1）\"整体围绕一片中央草地布局；东西向被一条 强调\"怎么穿越场地\"：步道横穿、铁轨纵贯、 混凝土步道，南北向被两条铁轨所贯穿。\"2）\"该 樱梯跨高差-与vi完全吻合。 步道通过楼梯来跨越4米高差。\n\n题目 18\n答案：iii\nPDF 定位：1) \"Being south-facing, this functions as a 建成后的功能与配套设施 big sunny terrace, full of benches... 2) To the east of the meadow there is .. a dense forest .. and ... frames... hold two swings.\" 3) \"The edges of the park are finished with . a nursery, sports fields, concave surfaces for skateboards, stages for dancing, community gardens, ..\nPDF 解析：全段罗列已建成的设施与功能，正对。 1）\"因朝南，这里形成一处阳光露台，摆满了 长椅。\"2)\"草地东侧是一片较密的树林，并有 金属架悬挂的秋千。\"3)\"公园的边缘设置了托 儿所、运动场、滑板凹面、舞台、社区花园等 功能空间。\"\n\n题目 19\n答案：v\nPDF 定位：对完成项目的积极评价 1) *it was opened to the public in September 2011.\" 2) \"The heart of Berlin now has a new green lung, in which ... corners fit neatly into a robust general order.\" 3) \"the park has been able to conserve ... the spirit of the non-place that preceded it.*\nPDF 解析：1)\"项目于2011年9月向公众开放。\"2)\"柏林中 明显的肯定语气与成效总结=积极评价，对应V。 心如今拥有一处新的绿色之肺，不同角落和谐契 合于一个强健的整体秩序。\"3)\"公园也保留了自 然占据时期的某种精神。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：iv\nPDF 定位：铁路系统的遗存/遗迹 1) *Known as Gleisdreieck, meaning 'triangle of rails, it was formed by the intersection of different railway lines built in the mid-nineteenth century that entered Berlin from the south.\" 2) *Tracks, sheds and warehouses belonging to three old railway stations Dresdner Bahnhof ... Potsdamer Bahnhof... and Anhalter Bahnhof ... are situated on a raised area .\nPDF 解析：1)此地名为Gleisdreieck（意为\"轨道三角\"）， A段主旨就是旧铁路遗存（铁轨/旧站/附属建 由多条铁路交汇而成。\"2）\"这里保留着铁轨、车 筑)，与iv完全对应。 棚和仓库，属三座旧火车站，坐落在抬高的 平台上"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：viii\nPDF 定位：1) *As the railway infrastructure gradually 该区城被荒废的原因 ceased to be used, the whole area .. run down and abandoned, to the point of being closeness of the wall... contributed to the fact that Gleisdreieck was for decades no- man's-land.*\nPDF 解析：1）\"随着铁路设施逐浙停用，整片区域破败并被 段内连给数因：停用→破败→垃圾场→柏林墙 遗弃，1945年后甚至成了垃圾场。\"2)\"柏林墙 导致无人区；正是\"为何被荒废\"，故选vii. 的存在又使此地数十年成为无人区。\""
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：i\nPDF 定位：1) \"the proposal of converting Gleisdreieck 改造项目的目标 into a large urban park that would integrate the different urban zones which converged the development of .. amenities... integrating different generations and social groups in a sustainable way .. 3) .. the need to reconcile these goals with the conservation of railway heritage also emerged.\"\nPDF 解析：1）\"提出把此地改造为大型城市公园，以连接在 逐条罗列目标：连通片区、设施与社会融合、兼 此汇合的不同城市片区，\"2)\"有必要推进公共设 顾遗产保护；对应1。 施建设，使其能融合不同年龄与社会群体并实现 可持续。\"3）\"同时需要在这些目标与铁路遗产保 护之间求得平衡。\""
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：vii\nPDF 定位：1) *planned around a large central meadow, 穿越场地的方式 intersected from east to west by a concrete footpath, and from north to south by a pair of railway lines.\" 2) \"The concrete footpath ... bridges the four-metre difference in ground level by means of a stairway.\"\nPDF 解析：1）\"整体围绕一片中央草地布局；东西向被一条 强调\"怎么穿越场地\"：步道横穿、铁轨纵贯、 混凝土步道，南北向被两条铁轨所贯穿。\"2）\"该 樱梯跨高差-与vi完全吻合。 步道通过楼梯来跨越4米高差。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：iii\nPDF 定位：1) \"Being south-facing, this functions as a 建成后的功能与配套设施 big sunny terrace, full of benches... 2) To the east of the meadow there is .. a dense forest .. and ... frames... hold two swings.\" 3) \"The edges of the park are finished with . a nursery, sports fields, concave surfaces for skateboards, stages for dancing, community gardens, ..\nPDF 解析：全段罗列已建成的设施与功能，正对。 1）\"因朝南，这里形成一处阳光露台，摆满了 长椅。\"2)\"草地东侧是一片较密的树林，并有 金属架悬挂的秋千。\"3)\"公园的边缘设置了托 儿所、运动场、滑板凹面、舞台、社区花园等 功能空间。\""
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：v\nPDF 定位：对完成项目的积极评价 1) *it was opened to the public in September 2011.\" 2) \"The heart of Berlin now has a new green lung, in which ... corners fit neatly into a robust general order.\" 3) \"the park has been able to conserve ... the spirit of the non-place that preceded it.*\nPDF 解析：1)\"项目于2011年9月向公众开放。\"2)\"柏林中 明显的肯定语气与成效总结=积极评价，对应V。 心如今拥有一处新的绿色之肺，不同角落和谐契 合于一个强健的整体秩序。\"3)\"公园也保留了自 然占据时期的某种精神。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1117,7 +1157,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. multi choice (Questions 20-21)",
+        "mode": "group",
+        "questionRange": {
+          "start": 20,
+          "end": 21
+        },
+        "text": "题目 20\n答案：B\nPDF 定位：\"Shortly before the fall of the Berlin Wall, the German Museum of Technology was established there, attractinglarge numbers of visitors and giving visibility to the site.\"\nPDF 解析：B具体旅游吸引物：博物馆带来人流与关注，是促 \"柏林墙倒塌前不久，这里建成了德国技术博物 馆，吸引了大量游客，并让该地被看见。\" 成选址的现实条件。排除A：仅说自然绿洲，未言 \"稀有物种\"。排除D：文中是旧铁路遗存，非\"由 主要铁路网络服务\"。排除E：未提\"易于改造的建 筑\"。\n\n题目 21\n答案：C\nPDF 定位：\"the unification of the formerly divided city gave the zone more centrality, at which point it became imperative to identify a purpose for it.\"\nPDF 解析：C位于统一后的城市中心：地段变得\"更具中心 \"城市重新统一使该区域更居中、更重要，于是必 性\"，说明其区位优势是选址原因之一。 须为其确定用途。\"",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：B\nPDF 定位：\"Shortly before the fall of the Berlin Wall, the German Museum of Technology was established there, attractinglarge numbers of visitors and giving visibility to the site.\"\nPDF 解析：B具体旅游吸引物：博物馆带来人流与关注，是促 \"柏林墙倒塌前不久，这里建成了德国技术博物 馆，吸引了大量游客，并让该地被看见。\" 成选址的现实条件。排除A：仅说自然绿洲，未言 \"稀有物种\"。排除D：文中是旧铁路遗存，非\"由 主要铁路网络服务\"。排除E：未提\"易于改造的建 筑\"。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：C\nPDF 定位：\"the unification of the formerly divided city gave the zone more centrality, at which point it became imperative to identify a purpose for it.\"\nPDF 解析：C位于统一后的城市中心：地段变得\"更具中心 \"城市重新统一使该区域更居中、更重要，于是必 性\"，说明其区位优势是选址原因之一。 须为其确定用途。\""
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -1498,7 +1558,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. multi choice (Questions 22-23)",
+        "mode": "group",
+        "questionRange": {
+          "start": 22,
+          "end": 23
+        },
+        "text": "题目 22\n答案：A\nPDF 定位：\"stimulate the development of ... amenities that would be capable of integrating different generations and social groups in a sustainable way\"\nPDF 解析：\"推进公共服务设施，使其能够融合不同年龄与社 直接对应A让不同年龄的人们走到一起。 会群体，并且可持续地运作。\"\n\n题目 23\n答案：D\nPDF 定位：\"the need to reconcile these goals with the conservation of railway heritage also emerged.\"\nPDF 解析：\"还出现了需要在上述目标与铁路遗产保护之间取 明确涉及遗产/工业遗存保护，对应D。排除B：未 提出\"促进旅游\"作为官方目标；排除C：未谈\"交 得平衡的要求。\" 通联通提升\"；排除E：未提\"为城市创收\"。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：A\nPDF 定位：\"stimulate the development of ... amenities that would be capable of integrating different generations and social groups in a sustainable way\"\nPDF 解析：\"推进公共服务设施，使其能够融合不同年龄与社 直接对应A让不同年龄的人们走到一起。 会群体，并且可持续地运作。\""
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：D\nPDF 定位：\"the need to reconcile these goals with the conservation of railway heritage also emerged.\"\nPDF 解析：\"还出现了需要在上述目标与铁路遗产保护之间取 明确涉及遗产/工业遗存保护，对应D。排除B：未 提出\"促进旅游\"作为官方目标；排除C：未谈\"交 得平衡的要求。\" 通联通提升\"；排除E：未提\"为城市创收\"。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-4",
@@ -1706,28 +1786,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "4. 摘要填空（Questions 24–26）",
+        "sectionTitle": "4. summary completion (Questions 24-26)",
         "mode": "group",
         "questionRange": {
           "start": 24,
           "end": 26
         },
-        "text": "答案：meadow\n解析：D段提到项目是围绕“a large central meadow, intersected...”规划的。\n答案：museum\n解析：D段描述这列火车从“its parking shed to the German Museum of Technology.”行驶。\n答案：edges\n解析：E段末尾说：“The edges of the park are finished with ... sports fields ... community gardens ...”。",
+        "text": "题目 24\n答案：meadow\nPDF 定位：\"planned around a large central meadow, intersected ... by a concrete footpath, and ... by a pair of railway lines.\"\nPDF 解析：\"整个项目围绕一片中央草地布局；其间有步道 摘要首句\"在新公园中央有一片...\"与原文 \"large central meadow\"一-对应。 与铁轨穿越。\"\n\n题目 25\n答案：museum\nPDF 定位：Once a month, a train ... travels ...from its parking shed to the German Museum of Technology.\"\nPDF 解析：\"每月有一列慢车从停车棚行驶到德国技术博 题干\"betweenitsbaseanda\"要求1词； 物馆\"。\" 用museum（专有名词可简化为普通名词)。\n\n题目 26\n答案：edges\nPDF 定位：The edges of the park are finished with ... sports fields ... community gardens ...\nPDF 解析：摘要末句\"环绕场地的分布着各类运动休闲 \"公园的边缘布置了运动场、社区花园等功能 空间。\" 区\"，与原文\"Theedgesofthepark...sports fields..\"完全吻合；注意用复数。",
         "items": [
           {
             "questionId": "q11",
             "questionNumber": 24,
-            "text": "(1) 题目 24：In the middle of the new park is a 24 \\___\\___, where there is a path for pedestrians and two railway lines. （在新公园的中间是一片草地，那里有一条人行道和两条铁路线。）\n答案：meadow\n解析：D段提到项目是围绕“a large central meadow, intersected...”规划的。"
+            "text": "题目 24\n答案：meadow\nPDF 定位：\"planned around a large central meadow, intersected ... by a concrete footpath, and ... by a pair of railway lines.\"\nPDF 解析：\"整个项目围绕一片中央草地布局；其间有步道 摘要首句\"在新公园中央有一片...\"与原文 \"large central meadow\"一-对应。 与铁轨穿越。\""
           },
           {
             "questionId": "q12",
             "questionNumber": 25,
-            "text": "(2) 题目 25：A slow train uses these lines to make a regular journey between its base and a 25 \\___\\___. （一列慢车使用这些线路，在它的基地和一个博物馆之间进行定期旅行。）\n答案：museum\n解析：D段描述这列火车从“its parking shed to the German Museum of Technology.”行驶。"
+            "text": "题目 25\n答案：museum\nPDF 定位：Once a month, a train ... travels ...from its parking shed to the German Museum of Technology.\"\nPDF 解析：\"每月有一列慢车从停车棚行驶到德国技术博 题干\"betweenitsbaseanda\"要求1词； 物馆\"。\" 用museum（专有名词可简化为普通名词)。"
           },
           {
             "questionId": "q13",
             "questionNumber": 26,
-            "text": "(3) 题目 26：A range of sports and leisure areas are situated around the 26 \\___\\___ of the site. （一系列体育和休闲区位于场地的边缘。）\n答案：edges\n解析：E段末尾说：“The edges of the park are finished with ... sports fields ... community gardens ...”。"
+            "text": "题目 26\n答案：edges\nPDF 定位：The edges of the park are finished with ... sports fields ... community gardens ...\nPDF 解析：摘要末句\"环绕场地的分布着各类运动休闲 \"公园的边缘布置了运动场、社区花园等功能 空间。\" 区\"，与原文\"Theedgesofthepark...sports fields..\"完全吻合；注意用复数。"
           }
         ]
       }

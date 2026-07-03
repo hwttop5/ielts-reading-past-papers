@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-high-19",
+  "meta": {
+    "examId": "p2-high-19",
+    "title": "Mind Music ()",
+    "category": "P2",
+    "sourceDoc": "115. P2 - Mind Music 脑海中的音乐(心灵音乐).pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Mind Music 脑海中的音乐(心灵音乐)",
+    "ocrPages": [
+      5,
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-17)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 17
+      },
+      "text": "题目 14\n答案：G\nPDF 定位：\"描述耳虫歌曲共有的特征\"\nPDF 解析：题干翻译抓点：characteristicscommonto=共有特 *Songs with earworm potential appear to share 征。同义改写：share certain featurescommon certain features: a repeating pattern of ups and downs in pitch, and irregular musical intervals.\" characteristics；具体特征=音高起伏的重复模式+不 (第G段) 规则音程。完全正面回答\"共同特征\"。\n\n题目 15\n答案：A\nPDF 定位：\"对研究耳虫现象的正当性/理由\"\nPDF 解析：\"Some neuroscientists and cognitive psychologists 题干翻译抓点：a justification forresearch=为什么 are studying earworms to explore the mysteries 要研究。同义改写：toexplore...(为了探索..)=研究的 of memory and the part of the brain that is beyond 目的/正当性；即借耳虫研究记忆与非意识控制的脑区。 our conscious control.\"（第A段）\n\n题目 16\n答案：F\nPDF 定位：\"已知与未知歌曲时大脑反应的描述\"\nPDF 解析：*Deliberately imagining music and actually 题干翻译抓点：brain's reaction toknown/unknown listening activate many of the same neurological songs。同义改写：familiarknown；unfamiliar台 networks... For familiar music: right frontal & unknown；不同条件下激活的脑区不同，构成\"反应差 异\"的直接证据。 superior temporal + supplementary motor area; for unfamiliarmusic: left frontal...\"（第F段）\n\n题目 17\n答案：H\nPDF 定位：\"拟进行的研究细节：不同年龄组的耳虫出现频 率/差异\"\nPDF 解析：题干翻译抓点：proposedresearch=拟开展； Drs Stewart and Halpern... recruit... for a study looking at whether people at different stages of frequency with which... in different age groups = 不 life experience earworms differently.\"(第H段） 同年龄段的出现频率/差异。同义改写：different stages of life different age groups; experience differently发生频率/比例有差异。本段还提到将反 向测试铃声黏性，但年龄变量对应此句。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：G\nPDF 定位：\"描述耳虫歌曲共有的特征\"\nPDF 解析：题干翻译抓点：characteristicscommonto=共有特 *Songs with earworm potential appear to share 征。同义改写：share certain featurescommon certain features: a repeating pattern of ups and downs in pitch, and irregular musical intervals.\" characteristics；具体特征=音高起伏的重复模式+不 (第G段) 规则音程。完全正面回答\"共同特征\"。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：A\nPDF 定位：\"对研究耳虫现象的正当性/理由\"\nPDF 解析：\"Some neuroscientists and cognitive psychologists 题干翻译抓点：a justification forresearch=为什么 are studying earworms to explore the mysteries 要研究。同义改写：toexplore...(为了探索..)=研究的 of memory and the part of the brain that is beyond 目的/正当性；即借耳虫研究记忆与非意识控制的脑区。 our conscious control.\"（第A段）"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：F\nPDF 定位：\"已知与未知歌曲时大脑反应的描述\"\nPDF 解析：*Deliberately imagining music and actually 题干翻译抓点：brain's reaction toknown/unknown listening activate many of the same neurological songs。同义改写：familiarknown；unfamiliar台 networks... For familiar music: right frontal & unknown；不同条件下激活的脑区不同，构成\"反应差 异\"的直接证据。 superior temporal + supplementary motor area; for unfamiliarmusic: left frontal...\"（第F段）"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：H\nPDF 定位：\"拟进行的研究细节：不同年龄组的耳虫出现频 率/差异\"\nPDF 解析：题干翻译抓点：proposedresearch=拟开展； Drs Stewart and Halpern... recruit... for a study looking at whether people at different stages of frequency with which... in different age groups = 不 life experience earworms differently.\"(第H段） 同年龄段的出现频率/差异。同义改写：different stages of life different age groups; experience differently发生频率/比例有差异。本段还提到将反 向测试铃声黏性，但年龄变量对应此句。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 18-21)",
+      "mode": "group",
+      "questionRange": {
+        "start": 18,
+        "end": 21
+      },
+      "text": "题目 18\n答案：wrist\nPDF 定位：\"用监测器记录节奏，戴在他们的*\nPDF 解析：...a device attached to their wrist recorded 同义改写：monitorontheir **上\" device theirmovements.\"（第B段） attachedtotheirwrist。词性与数形吻合。\n\n题目 19\n答案：emotions\nPDF 定位：\"更常有耳虫者的大脑在处理**\nPDF 解析：...more gray matter in areas associated 同义改写：dealwithdifferently **方面不同\" processingemotions（加工情绪）。名词复数 with processing emotions.\"（第B段) emotions.\n\n题目 20\n答案：entertained\nPDF 定位：\"当不专注任务时，耳虫让大脑被*\"\nPDF 解析：语法：被动结构isentertained与原句keep \"earworms... keep the mind entertained while it is otherwise unoccupied.\"（第C 段） themindentertained对应；语义=被\"娱乐/ 打发\"。\n\n题目 21\n答案：challenging\nPDF 定位：\"耳虫发生的减少与任务**多么 相关\"\nPDF 解析：\"the more challenging the activity, the less 同义改写：\"reduction...directly related to **呈正 likely...to hear themusic.\" (第C段) howchallenging thetaskwas\"难度越 大，耳虫越少；用形容词\"challenging\"填空最 贴合原句结构。",
+      "items": [
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：wrist\nPDF 定位：\"用监测器记录节奏，戴在他们的*\nPDF 解析：...a device attached to their wrist recorded 同义改写：monitorontheir **上\" device theirmovements.\"（第B段） attachedtotheirwrist。词性与数形吻合。"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：emotions\nPDF 定位：\"更常有耳虫者的大脑在处理**\nPDF 解析：...more gray matter in areas associated 同义改写：dealwithdifferently **方面不同\" processingemotions（加工情绪）。名词复数 with processing emotions.\"（第B段) emotions."
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：entertained\nPDF 定位：\"当不专注任务时，耳虫让大脑被*\"\nPDF 解析：语法：被动结构isentertained与原句keep \"earworms... keep the mind entertained while it is otherwise unoccupied.\"（第C 段） themindentertained对应；语义=被\"娱乐/ 打发\"。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：challenging\nPDF 定位：\"耳虫发生的减少与任务**多么 相关\"\nPDF 解析：\"the more challenging the activity, the less 同义改写：\"reduction...directly related to **呈正 likely...to hear themusic.\" (第C段) howchallenging thetaskwas\"难度越 大，耳虫越少；用形容词\"challenging\"填空最 贴合原句结构。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. matching (Questions 22-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 22,
+        "end": 26
+      },
+      "text": "题目 22\n答案：D\nPDF 定位：\"有些音乐人有意创作特别上头/易记的音乐\"\nPDF 解析：同义改写：intentionallymemorable塞满 ..how producers pump pop songs full of aural \"hooks', ... designed to target the brain \"hooks\"以精准打击大脑、增强记忆与期待。 Seabrook作为作者总结制作人做法。 and leave it wanting more.\"(第G段)\n\n题目 23\n答案：A\nPDF 定位：\"人们无法完全调控自己的思维\"\nPDF 解析：\"The idea that we have full control over 直陈\"完全控制是幻觉\"=不能彻底调节思维。与题 our thought processes is an illusion, says 千一一对应。 psychologist Lauren Stewart...\"（第A段)\n\n题目 24\n答案：B\nPDF 定位：\"我们在不自知的情况下也能记住/内化歌曲\"\nPDF 解析：*Even tunes you may have heard but didn't 同义改写：without knowing we've heard them pay attention to can worm their way into your 分没注意也进入潜意识；随后还提未发表研究佐 证。 subconscious.\"（第D段）\n\n题目 25\n答案：C\nPDF 定位：\"想音乐与听音乐对大脑效应相似\"\nPDF 解析：*Imagining music and actually listening... 想象=imagining；相同网络被激活=相似效应。 activate many of the same neurological networks.\"（第F段）\n\n题目 26\n答案：B\nPDF 定位：\"当只反复短片段时，耳虫更顽固/持久\"\nPDF 解析：\"Some earworms are just fragments...the 同义改写：shortsection constantlyreplayed mind... loops back... That could make an fragment + loops back; more persistent earworm even more entrenched, Dr Hyman moreentrenched。来源明确为Hyman。 says.\"(第E段)",
+      "items": [
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：D\nPDF 定位：\"有些音乐人有意创作特别上头/易记的音乐\"\nPDF 解析：同义改写：intentionallymemorable塞满 ..how producers pump pop songs full of aural \"hooks', ... designed to target the brain \"hooks\"以精准打击大脑、增强记忆与期待。 Seabrook作为作者总结制作人做法。 and leave it wanting more.\"(第G段)"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：A\nPDF 定位：\"人们无法完全调控自己的思维\"\nPDF 解析：\"The idea that we have full control over 直陈\"完全控制是幻觉\"=不能彻底调节思维。与题 our thought processes is an illusion, says 千一一对应。 psychologist Lauren Stewart...\"（第A段)"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：B\nPDF 定位：\"我们在不自知的情况下也能记住/内化歌曲\"\nPDF 解析：*Even tunes you may have heard but didn't 同义改写：without knowing we've heard them pay attention to can worm their way into your 分没注意也进入潜意识；随后还提未发表研究佐 证。 subconscious.\"（第D段）"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：C\nPDF 定位：\"想音乐与听音乐对大脑效应相似\"\nPDF 解析：*Imagining music and actually listening... 想象=imagining；相同网络被激活=相似效应。 activate many of the same neurological networks.\"（第F段）"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：B\nPDF 定位：\"当只反复短片段时，耳虫更顽固/持久\"\nPDF 解析：\"Some earworms are just fragments...the 同义改写：shortsection constantlyreplayed mind... loops back... That could make an fragment + loops back; more persistent earworm even more entrenched, Dr Hyman moreentrenched。来源明确为Hyman。 says.\"(第E段)"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：G\nPDF 定位：\"描述耳虫歌曲共有的特征\"\nPDF 解析：题干翻译抓点：characteristicscommonto=共有特 *Songs with earworm potential appear to share 征。同义改写：share certain featurescommon certain features: a repeating pattern of ups and downs in pitch, and irregular musical intervals.\" characteristics；具体特征=音高起伏的重复模式+不 (第G段) 规则音程。完全正面回答\"共同特征\"。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：A\nPDF 定位：\"对研究耳虫现象的正当性/理由\"\nPDF 解析：\"Some neuroscientists and cognitive psychologists 题干翻译抓点：a justification forresearch=为什么 are studying earworms to explore the mysteries 要研究。同义改写：toexplore...(为了探索..)=研究的 of memory and the part of the brain that is beyond 目的/正当性；即借耳虫研究记忆与非意识控制的脑区。 our conscious control.\"（第A段）"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：F\nPDF 定位：\"已知与未知歌曲时大脑反应的描述\"\nPDF 解析：*Deliberately imagining music and actually 题干翻译抓点：brain's reaction toknown/unknown listening activate many of the same neurological songs。同义改写：familiarknown；unfamiliar台 networks... For familiar music: right frontal & unknown；不同条件下激活的脑区不同，构成\"反应差 异\"的直接证据。 superior temporal + supplementary motor area; for unfamiliarmusic: left frontal...\"（第F段）"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：H\nPDF 定位：\"拟进行的研究细节：不同年龄组的耳虫出现频 率/差异\"\nPDF 解析：题干翻译抓点：proposedresearch=拟开展； Drs Stewart and Halpern... recruit... for a study looking at whether people at different stages of frequency with which... in different age groups = 不 life experience earworms differently.\"(第H段） 同年龄段的出现频率/差异。同义改写：different stages of life different age groups; experience differently发生频率/比例有差异。本段还提到将反 向测试铃声黏性，但年龄变量对应此句。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：wrist\nPDF 定位：\"用监测器记录节奏，戴在他们的*\nPDF 解析：...a device attached to their wrist recorded 同义改写：monitorontheir **上\" device theirmovements.\"（第B段） attachedtotheirwrist。词性与数形吻合。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：emotions\nPDF 定位：\"更常有耳虫者的大脑在处理**\nPDF 解析：...more gray matter in areas associated 同义改写：dealwithdifferently **方面不同\" processingemotions（加工情绪）。名词复数 with processing emotions.\"（第B段) emotions."
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：entertained\nPDF 定位：\"当不专注任务时，耳虫让大脑被*\"\nPDF 解析：语法：被动结构isentertained与原句keep \"earworms... keep the mind entertained while it is otherwise unoccupied.\"（第C 段） themindentertained对应；语义=被\"娱乐/ 打发\"。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：challenging\nPDF 定位：\"耳虫发生的减少与任务**多么 相关\"\nPDF 解析：\"the more challenging the activity, the less 同义改写：\"reduction...directly related to **呈正 likely...to hear themusic.\" (第C段) howchallenging thetaskwas\"难度越 大，耳虫越少；用形容词\"challenging\"填空最 贴合原句结构。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：D\nPDF 定位：\"有些音乐人有意创作特别上头/易记的音乐\"\nPDF 解析：同义改写：intentionallymemorable塞满 ..how producers pump pop songs full of aural \"hooks', ... designed to target the brain \"hooks\"以精准打击大脑、增强记忆与期待。 Seabrook作为作者总结制作人做法。 and leave it wanting more.\"(第G段)"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：A\nPDF 定位：\"人们无法完全调控自己的思维\"\nPDF 解析：\"The idea that we have full control over 直陈\"完全控制是幻觉\"=不能彻底调节思维。与题 our thought processes is an illusion, says 千一一对应。 psychologist Lauren Stewart...\"（第A段)"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：B\nPDF 定位：\"我们在不自知的情况下也能记住/内化歌曲\"\nPDF 解析：*Even tunes you may have heard but didn't 同义改写：without knowing we've heard them pay attention to can worm their way into your 分没注意也进入潜意识；随后还提未发表研究佐 证。 subconscious.\"（第D段）"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：C\nPDF 定位：\"想音乐与听音乐对大脑效应相似\"\nPDF 解析：*Imagining music and actually listening... 想象=imagining；相同网络被激活=相似效应。 activate many of the same neurological networks.\"（第F段）"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：B\nPDF 定位：\"当只反复短片段时，耳虫更顽固/持久\"\nPDF 解析：\"Some earworms are just fragments...the 同义改写：shortsection constantlyreplayed mind... loops back... That could make an fragment + loops back; more persistent earworm even more entrenched, Dr Hyman moreentrenched。来源明确为Hyman。 says.\"(第E段)"
+    }
+  }
+}

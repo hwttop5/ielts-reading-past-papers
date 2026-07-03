@@ -236,7 +236,7 @@
                         <p>{{ formatAnswer(entry.correctAnswer) || 'N/A' }}</p>
                       </div>
                     </div>
-                    <div v-if="entry.explanation" class="review-explanation">
+                    <div class="review-explanation" :class="{ unavailable: entry.explanationUnavailable }">
                       <span class="review-kicker">Explanation</span>
                       <p>{{ entry.explanation }}</p>
                     </div>
@@ -564,7 +564,8 @@ const reviewEntries = computed(() => {
       userAnswer: answerEntry?.userAnswer || '',
       correctAnswer: answerEntry?.correctAnswer || '',
       isCorrect: answerEntry?.isCorrect ?? null,
-      explanation: explanationEntry?.text || ''
+      explanation: explanationEntry?.text || t('practiceMode.explanationUnavailable'),
+      explanationUnavailable: !explanationEntry?.text
     }
   })
 })
@@ -1620,6 +1621,7 @@ onErrorCaptured((error) => {
 .review-answer-grid p, .review-explanation p { margin: 8px 0 0; line-height: 1.7; white-space: pre-wrap; word-break: break-word; }
 .review-kicker { display: inline-flex; font-size: 11px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--primary-color); }
 .review-explanation { margin-top: 14px; padding: 14px; border-radius: 14px; background: var(--bg-tertiary); }
+.review-explanation.unavailable { color: var(--text-secondary); }
 .selection-toolbar {
   position: fixed; z-index: 9999; display: flex; gap: 4px; padding: 6px 8px; border-radius: 12px;
   border: 1px solid var(--border-color); background: var(--bg-primary); box-shadow: 0 18px 34px rgba(0,0,0,0.18);

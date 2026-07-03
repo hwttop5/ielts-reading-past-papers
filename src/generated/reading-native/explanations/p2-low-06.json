@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-low-06",
+  "meta": {
+    "examId": "p2-low-06",
+    "title": "Biomimicry",
+    "category": "P2",
+    "sourceDoc": "103. P2 - Biomimicry 仿生学.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Biomimicry 仿生学",
+    "ocrPages": [
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-18)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 18
+      },
+      "text": "题目 14\n答案：G\nPDF 定位：\"photosynthesis ... lants can manage it with humbling ease..But.. it is very complex.\"(第G段）\nPDF 解析：先说光合作用看似容易，紧接着指出其实\"verycomplex\"，符合\"看似简单却并不 简单的自然过程\"。\n\n题目 15\n答案：E\nPDF 定位：*..to avoid a battering, his wave energy generator will lie flat against the (第E段) ocean floor.\"\nPDF 解析：这款仿巨藻的发电装置在极端海况下可\"躺平\"自保，正是\"能在恶劣条件下自我 保护的发明\"。\n\n题目 16\n答案：C\nPDF 定位：\"The llusion that we are independent of nature has been shattered by the spectre of global warming and the looming end to fossil fuel supplies.\" (第C段)\nPDF 解析：句中给出了人类再也无法自称摆脱自然的两大原因一 气候变暖与化石燃料枯竭。\n\n题目 17\n答案：B\nPDF 定位：*..African tribes that found edible plants by observing the dining habits of chimpanzees.\" (第B段)\nPDF 解析：提到黑猩猩（动物）如何影响人类的饮食选择。\n\n题目 18\n答案：C\nPDF 定位：\"Nature has learnt to fly, live in the depths of the ocean and craft miracle materials... What better models could there be?\"(第 C 段)\nPDF 解析：逐条列举自然值得模仿的\"具体理由\"，呼应题干。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：G\nPDF 定位：\"photosynthesis ... lants can manage it with humbling ease..But.. it is very complex.\"(第G段）\nPDF 解析：先说光合作用看似容易，紧接着指出其实\"verycomplex\"，符合\"看似简单却并不 简单的自然过程\"。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：E\nPDF 定位：*..to avoid a battering, his wave energy generator will lie flat against the (第E段) ocean floor.\"\nPDF 解析：这款仿巨藻的发电装置在极端海况下可\"躺平\"自保，正是\"能在恶劣条件下自我 保护的发明\"。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：C\nPDF 定位：\"The llusion that we are independent of nature has been shattered by the spectre of global warming and the looming end to fossil fuel supplies.\" (第C段)\nPDF 解析：句中给出了人类再也无法自称摆脱自然的两大原因一 气候变暖与化石燃料枯竭。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：B\nPDF 定位：*..African tribes that found edible plants by observing the dining habits of chimpanzees.\" (第B段)\nPDF 解析：提到黑猩猩（动物）如何影响人类的饮食选择。"
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：C\nPDF 定位：\"Nature has learnt to fly, live in the depths of the ocean and craft miracle materials... What better models could there be?\"(第 C 段)\nPDF 解析：逐条列举自然值得模仿的\"具体理由\"，呼应题干。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. matching (Questions 19-23)",
+      "mode": "group",
+      "questionRange": {
+        "start": 19,
+        "end": 23
+      },
+      "text": "题目 19\n答案：C\nPDF 定位：\"The trouble with conventional designs ... they're made to stand rigidly against the power of the ocean ... never strong enough to surviveout there.\"（第E段）\nPDF 解析：说明当设计尝试\"抗拒\"自然力量时常常失败。\n\n题目 20\n答案：E\nPDF 定位：*\"In a laboratory these variables can be optimised ... We don't have to cope with drought or frost.\"(第G段)\nPDF 解析：指出现代科学可控制环境条件，这是自然不具备的优势。\n\n题目 21\n答案：B\nPDF 定位：\"According to Benyus, our ancestors were practised in the art of biomimicry.\"（第B段）\nPDF 解析：直言人类\"几千年前就开始模仿自然\"。\n\n题目 22\n答案：D\nPDF 定位：\"We ran out of funds. So we looked for ways to make a building without traditional air-conditioning.(第F 段)\nPDF 解析：资金短缺触发了其仿白蚁巢的创新制冷设计。\n\n题目 23\n答案：B\nPDF 定位：\"when we broke free from ... hunting and gathering ... we fooled ourselves into believing that we didn't need other organisms at all.\"(第B段)\nPDF 解析：将人类开始农业种植（自给自足）视为远离自然的转折点。",
+      "items": [
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：C\nPDF 定位：\"The trouble with conventional designs ... they're made to stand rigidly against the power of the ocean ... never strong enough to surviveout there.\"（第E段）\nPDF 解析：说明当设计尝试\"抗拒\"自然力量时常常失败。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：E\nPDF 定位：*\"In a laboratory these variables can be optimised ... We don't have to cope with drought or frost.\"(第G段)\nPDF 解析：指出现代科学可控制环境条件，这是自然不具备的优势。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：B\nPDF 定位：\"According to Benyus, our ancestors were practised in the art of biomimicry.\"（第B段）\nPDF 解析：直言人类\"几千年前就开始模仿自然\"。"
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：D\nPDF 定位：\"We ran out of funds. So we looked for ways to make a building without traditional air-conditioning.(第F 段)\nPDF 解析：资金短缺触发了其仿白蚁巢的创新制冷设计。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：B\nPDF 定位：\"when we broke free from ... hunting and gathering ... we fooled ourselves into believing that we didn't need other organisms at all.\"(第B段)\nPDF 解析：将人类开始农业种植（自给自足）视为远离自然的转折点。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. summary completion (Questions 24-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：mound\nPDF 定位：*...he saw a large mound created by termites...\nPDF 解析：Pearce的写字楼比作白蚁的\"mound\"。\n\n题目 25\n答案：water\nPDF 定位：*...air entering at the base of the mound was mixed with water drawn from subterranean levels...\nPDF 解析：白蚁利用水进行蒸发冷却。\n\n题目 26\n答案：fans\nPDF 定位：...in his building massive fans were employed at the base of the structure to lower the temperature...*\nPDF 解析：Pearce用风扇取代白蚁的水来产生冷却效果。",
+      "items": [
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：mound\nPDF 定位：*...he saw a large mound created by termites...\nPDF 解析：Pearce的写字楼比作白蚁的\"mound\"。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：water\nPDF 定位：*...air entering at the base of the mound was mixed with water drawn from subterranean levels...\nPDF 解析：白蚁利用水进行蒸发冷却。"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：fans\nPDF 定位：...in his building massive fans were employed at the base of the structure to lower the temperature...*\nPDF 解析：Pearce用风扇取代白蚁的水来产生冷却效果。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：G\nPDF 定位：\"photosynthesis ... lants can manage it with humbling ease..But.. it is very complex.\"(第G段）\nPDF 解析：先说光合作用看似容易，紧接着指出其实\"verycomplex\"，符合\"看似简单却并不 简单的自然过程\"。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：E\nPDF 定位：*..to avoid a battering, his wave energy generator will lie flat against the (第E段) ocean floor.\"\nPDF 解析：这款仿巨藻的发电装置在极端海况下可\"躺平\"自保，正是\"能在恶劣条件下自我 保护的发明\"。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：C\nPDF 定位：\"The llusion that we are independent of nature has been shattered by the spectre of global warming and the looming end to fossil fuel supplies.\" (第C段)\nPDF 解析：句中给出了人类再也无法自称摆脱自然的两大原因一 气候变暖与化石燃料枯竭。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：B\nPDF 定位：*..African tribes that found edible plants by observing the dining habits of chimpanzees.\" (第B段)\nPDF 解析：提到黑猩猩（动物）如何影响人类的饮食选择。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：C\nPDF 定位：\"Nature has learnt to fly, live in the depths of the ocean and craft miracle materials... What better models could there be?\"(第 C 段)\nPDF 解析：逐条列举自然值得模仿的\"具体理由\"，呼应题干。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：C\nPDF 定位：\"The trouble with conventional designs ... they're made to stand rigidly against the power of the ocean ... never strong enough to surviveout there.\"（第E段）\nPDF 解析：说明当设计尝试\"抗拒\"自然力量时常常失败。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：E\nPDF 定位：*\"In a laboratory these variables can be optimised ... We don't have to cope with drought or frost.\"(第G段)\nPDF 解析：指出现代科学可控制环境条件，这是自然不具备的优势。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：B\nPDF 定位：\"According to Benyus, our ancestors were practised in the art of biomimicry.\"（第B段）\nPDF 解析：直言人类\"几千年前就开始模仿自然\"。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：D\nPDF 定位：\"We ran out of funds. So we looked for ways to make a building without traditional air-conditioning.(第F 段)\nPDF 解析：资金短缺触发了其仿白蚁巢的创新制冷设计。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：B\nPDF 定位：\"when we broke free from ... hunting and gathering ... we fooled ourselves into believing that we didn't need other organisms at all.\"(第B段)\nPDF 解析：将人类开始农业种植（自给自足）视为远离自然的转折点。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：mound\nPDF 定位：*...he saw a large mound created by termites...\nPDF 解析：Pearce的写字楼比作白蚁的\"mound\"。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：water\nPDF 定位：*...air entering at the base of the mound was mixed with water drawn from subterranean levels...\nPDF 解析：白蚁利用水进行蒸发冷却。"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：fans\nPDF 定位：...in his building massive fans were employed at the base of the structure to lower the temperature...*\nPDF 解析：Pearce用风扇取代白蚁的水来产生冷却效果。"
+    }
+  }
+}

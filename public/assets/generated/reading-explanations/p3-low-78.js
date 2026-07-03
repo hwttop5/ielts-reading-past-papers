@@ -10,67 +10,46 @@
     "examId": "p3-low-78",
     "title": "The Costs of Brand Loyalty 品牌忠诚的代价",
     "category": "P3",
-    "sourceDoc": "P3 解析+1202高频_副本.md",
-    "noteType": "翻译",
-    "matchedTitle": "The Costs of Brand Loyalty 品牌忠诚的代价【高】"
+    "sourceDoc": "169. P3 - The Costs of Brand Loyalty 品牌忠诚的代价.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The Costs of Brand Loyalty 品牌忠诚的代价",
+    "ocrPages": [
+      6,
+      7,
+      8
+    ],
+    "pdfPageCount": 8,
+    "fallbackQuestionCount": 0
   },
   "passageNotes": [
     {
-      "label": "第一段",
-      "text": "如果一个伦敦人突然想吃巨大的非洲蜗牛，他去布里克斯顿熙熙攘攘的市场是个不错的选择，那里是许多来自非洲的人的家园。像布里克斯顿市场这样迎合移民的市场证明了一个事实：人们常常保留着对他们从小吃到大的食物类型的非常强烈的偏好。只要问问那些涌向纽约格林威治村“茶与同情”餐厅的英国侨民就知道了，他们去那里是为了买几罐马麦酱——一种基于酵母的酱料，其美味让其他国籍的人（甚至他们自己的许多同胞）感到困惑。"
-    },
-    {
-      "label": "第二段",
-      "text": "过去的研究表明，人们往往愿意为一个受青睐的品牌支付比看似完全相同的替代品多得多的钱。原因并不总是显而易见的。然而，有充分的证据支持这样一种理论：某些食物偏好是在童年时期形成的。儿童有一种害怕新食物的倾向，这种倾向只有在反复接触并被鼓励食用某种特定食物时才能克服。证据显示，儿童对新食物的本能警惕可以追溯到人类必须觅食的时代，那时学会哪些食物是安全可食用的非常重要。在现代世界，人们经常表达对某个品牌的强烈喜爱，即使他们在盲测中无法将该品牌与竞争对手的品牌区分开来，而且许多研究发现，单靠广告无法解释品牌忠诚度的强度。"
-    },
-    {
-      "label": "第三段",
-      "text": "蒂尔堡大学和芝加哥大学的经济学家进行的一项新研究追踪了38,000个美国家庭两年来的消费模式，并证实了这样一个理论：这种品牌忠诚度是广泛、深刻且持久的。尽管同样的品牌到处都有，但在消费上存在明显的地域模式。但研究对象中有16%是移民：他们在一个州长大，然后搬到了另一个州。这些移民在他们的新家拥有与其他所有人相同的选择（就所提供的商品和价格而言），但尽管他们也消费当地人喜爱的产品，他们购买的数量却少于长期居民。移民与本地出生者之间的这种购买差距相当顽固：虽然一个人在新州生活的时间越长，这种差距就会消失，但其幅度减半仍需20年。即使50年后，这种差距仍然大到足以在数据中显示出来。这可能意味着成为第一个进入市场的品牌的好处可能比假设的要持久得多。"
-    },
-    {
-      "label": "第四段",
-      "text": "耶鲁大学的大卫·阿特金确定了当地食物偏好的一些重要影响。他在最近的一篇论文中建议，人们对知名品牌忠诚的影响可能也会导致经济学家重新思考他们计算贸易收益的方式。这是因为向贸易开放与移民在某些方面非常相似，因为它改变了一个人可以获得的食物的构成和价格。特别是，贸易可能导致当地食物变得相对更昂贵。阿特金的数据显示了许多经济学家没有考虑到的事情：当一种传统食物不得不与进口食物竞争时，它可能不再是人们可以选择食用的最便宜的食物。阿特金决定在发展中国家的背景下研究这种情况。"
-    },
-    {
-      "label": "第五段",
-      "text": "为了说明他的观点，阿特金使用了关于印度人食物选择的详细数据。印度是一个很好的选择，因为它涵盖了大量不同的气候带，种植着不同的特产作物。尽管属于同一个国家，但内部贸易壁垒的普遍存在意味着其各地区最好被认为是仅对贸易部分开放的。阿特金的数据显示，一个地区专门生产的食物在该地区反而更便宜。"
-    },
-    {
-      "label": "第六段",
-      "text": "然而，近年来印度内部贸易有了一些开放，这揭示出，对于花在食物上的每一卢比，人们摄入的卡路里在当地喜爱的食物价格上涨的地区下降得最多。理论上，当食物种类有更多选择时，人们应该调整他们的饮食习惯并购买最便宜的选择，以便增加他们的卡路里摄入量。然而，实际上，饮食习惯意味着消费者继续购买他们熟悉和喜欢的东西，即使这些食物已经变得相对昂贵。阿特金计算出，如果废除印度所有的内部贸易壁垒，印度普通家庭将不得不产生3.3%的收入增长才能维持他们的卡路里摄入量。"
-    },
-    {
-      "label": "第七段",
-      "text": "在营养不良发生率很高的发展中国家，如撒哈拉以南非洲，继续食用喜爱食物的习惯可能会对发展产生严重影响。有明确证据表明，儿童时期的营养短缺会影响他们成年后的工作和赚钱能力，并且还会对他们的长期健康产生不利影响。"
-    },
-    {
-      "label": "第八段",
-      "text": "因此，由于贸易开放而可能发生的营养下降是令人严重关切的，因为整整一代在儿童时期营养不良的人将在其余生继续遭受不可逆转的后果，这可能会因为缺乏高质量的劳动力而阻碍他们国家的发展。"
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
     }
   ],
   "questionExplanations": [
     {
-      "sectionTitle": "1. 单选题（Questions 27–30）",
-      "mode": "per_question",
+      "sectionTitle": "1. single choice (Questions 27-30)",
+      "mode": "group",
       "items": [
         {
           "questionNumber": 27,
-          "text": "(1) 题目 27：In the first paragraph, the writer's purpose is to （在第一段，作者的目的是）\n答案：D (illustrate the way adults enjoy eating food from their childhood.)\n解析：定位第1段。作者通过布里克斯顿市场的非洲人和纽约的英国人仍然寻找家乡食物（Marmite等）的例子，旨在说明人们“retain very strong preferences for the kinds of food they grew up eating”（保留着对从小吃到大食物的强烈偏好），即选项 D。",
+          "text": "题目 27\n答案：D\nPDF 定位：在第一段中，作者的目的是什么？A展示伦敦是 多元文化社会；B指出人们从市场里长大吃的食 物；C举英国食物多样性的例子：D说明成年人 如何偏爱童年食物。\nPDF 解析：主题是\"长大后仍爱童年味道\"。D\"illustrate... 第1段：\"..people often retain very strong preferences for the kinds of food they grew the way adults enjoy eating food from their childhood\"与\"retain..preferences...grew up up eating... expatriate Britons ...for pots of eating\"同义。A多元文化只是背景；B把\"市 Marmite..\"/\"人们往往保留对自己从小吃的食 场\"当核心，偏离中心；C不是在列举英国食物 物的强烈偏好..（在纽约的）英国侨民蜂拥而至 的\"广泛种类\"。 只为买Marmite。\"",
           "questionId": "q1"
         },
         {
           "questionNumber": 28,
-          "text": "(2) 题目 28：Economists from the universities of Tilburg and Chicago found that people who have migrated from one American state to another （蒂尔堡大学和芝加哥大学的经济学家发现，从美国一个州搬到另一个州的人）\n答案：C (bought only some of the brands which were popular in their new state.)\n解析：定位第3段。原文提到：“although they consumed local favourites, they bought fewer than longtime residents” （尽管他们也消费当地人喜爱的产品，但他们购买的数量少于长期居民）。这意味着他们只购买了部分当地流行品牌，对应选项 C。",
+          "text": "题目 28\n答案：C\nPDF 定位：蒂尔堡与芝加哥大学经济学家发现，从一个州迁 到另一个州的人：A比当地老住户更穷；B会回 老家买爱吃的品牌；C只购买新州里流行品牌中 的一部分；D对价格上涨更敏感。\nPDF 解析：第3段：..although they consumed local 句子表明移民买得更少→对应\"只买部分/买不 favourites they bought fewer than longtime 全\"。C最贴切。A贫富未提；B没说回原州采 residents.\"/\"尽管他们也消费当地热门品牌， 购；D未提对涨价的特别敏感性。 购买量低于长期居民。\"",
           "questionId": "q2"
         },
         {
           "questionNumber": 29,
-          "text": "(3) 题目 29：Atkin's research shows that （阿特金的研究表明）\n答案：D (economists fail to understand all the effects of increased trade.)\n解析：定位第4段。原文提到：“Atkin's data show something many economists do not take into account” （阿特金的数据显示了许多经济学家没有考虑到的事情）。这说明经济学家未能理解贸易增加的所有影响，对应选项 D。",
+          "text": "题目 29\n答案：D\nPDF 定位：阿特金的研究表明：A贸易让爱吃的食物难以 找到；B贸易导致迁移增加；C进口食品质量 更高；D经济学家未充分理解贸易增加的所 有影响。\nPDF 解析：第4段：..mayalsoleadeconomists to 明确指出现有计算忽略因素=→D。A/B/C文中均 无此断言：A说的是\"相对更贵\"，非\"难找\"；B rethink the way they calculate the benefits resulting from trade... many economists do 未提迁移增加；C未比较质量优劣。 nottakeintoaccount...\"/\"可能促使经济学 家重新思考如何计算贸易收益....许多经济学家 没有考虑到",
           "questionId": "q3"
         },
         {
           "questionNumber": 30,
-          "text": "(4) 题目 30：The writer thinks Atkin was wise to choose India for his study because （作者认为阿特金选择印度进行研究是明智的，因为）\n答案：A (trade barriers create food shortages between regions.)\n解析：定位第5段。原文解释印度是个好选择是因为“prevalence of internal barriers to trade means that its regions are best thought of as being only partially open to trade” （内部贸易壁垒的普遍存在……）。虽然原文未直接说“food shortages”，但强调了贸易壁垒导致地区间市场隔离（各产各的，价格不同），这为研究贸易开放的影响提供了理想的隔离环境（case study）。注：本题选项A的“food shortages”是对原文“only partially open”导致资源无法自由流通的推断，或者是对原文“different specialised crops are grown”导致某地缺乏非本地作物的概括。",
+          "text": "题目 30\n答案：D\nPDF 定位：作者认为阿特金选择印度很明智，因为：A贸易 壁垒造成地区食物短缺；B印度食品对比发达国 家更便宜；C文化差异导致食物喜好广泛；D多 样气候导致地区作物类型差异。\nPDF 解析：直接对应D。A文中说\"内部壁垒→部分开放\"， 第5段：\"India... covers a large number of climatic zones where different specialised 未言\"短缺\"；B没有跨国价格比较；C文中依据 cropsaregrown.\"／\"印度涵盖大量气候带，各 是气候/作物而非文化偏好。 地种植不同的特色作物。\"",
           "questionId": "q4"
         }
       ],
@@ -78,35 +57,35 @@
         "start": 27,
         "end": 30
       },
-      "text": "答案：D (illustrate the way adults enjoy eating food from their childhood.)\n解析：定位第1段。作者通过布里克斯顿市场的非洲人和纽约的英国人仍然寻找家乡食物（Marmite等）的例子，旨在说明人们“retain very strong preferences for the kinds of food they grew up eating”（保留着对从小吃到大食物的强烈偏好），即选项 D。\n答案：C (bought only some of the brands which were popular in their new state.)\n解析：定位第3段。原文提到：“although they consumed local favourites, they bought fewer than longtime residents” （尽管他们也消费当地人喜爱的产品，但他们购买的数量少于长期居民）。这意味着他们只购买了部分当地流行品牌，对应选项 C。\n答案：D (economists fail to understand all the effects of increased trade.)\n解析：定位第4段。原文提到：“Atkin's data show something many economists do not take into account” （阿特金的数据显示了许多经济学家没有考虑到的事情）。这说明经济学家未能理解贸易增加的所有影响，对应选项 D。\n答案：A (trade barriers create food shortages between regions.)\n解析：定位第5段。原文解释印度是个好选择是因为“prevalence of internal barriers to trade means that its regions are best thought of as being only partially open to trade” （内部贸易壁垒的普遍存在……）。虽然原文未直接说“food shortages”，但强调了贸易壁垒导致地区间市场隔离（各产各的，价格不同），这为研究贸易开放的影响提供了理想的隔离环境（case study）。注：本题选项A的“food shortages”是对原文“only partially open”导致资源无法自由流通的推断，或者是对原文“different specialised crops are grown”导致某地缺乏非本地作物的概括。"
+      "text": "题目 27\n答案：D\nPDF 定位：在第一段中，作者的目的是什么？A展示伦敦是 多元文化社会；B指出人们从市场里长大吃的食 物；C举英国食物多样性的例子：D说明成年人 如何偏爱童年食物。\nPDF 解析：主题是\"长大后仍爱童年味道\"。D\"illustrate... 第1段：\"..people often retain very strong preferences for the kinds of food they grew the way adults enjoy eating food from their childhood\"与\"retain..preferences...grew up up eating... expatriate Britons ...for pots of eating\"同义。A多元文化只是背景；B把\"市 Marmite..\"/\"人们往往保留对自己从小吃的食 场\"当核心，偏离中心；C不是在列举英国食物 物的强烈偏好..（在纽约的）英国侨民蜂拥而至 的\"广泛种类\"。 只为买Marmite。\"\n\n题目 28\n答案：C\nPDF 定位：蒂尔堡与芝加哥大学经济学家发现，从一个州迁 到另一个州的人：A比当地老住户更穷；B会回 老家买爱吃的品牌；C只购买新州里流行品牌中 的一部分；D对价格上涨更敏感。\nPDF 解析：第3段：..although they consumed local 句子表明移民买得更少→对应\"只买部分/买不 favourites they bought fewer than longtime 全\"。C最贴切。A贫富未提；B没说回原州采 residents.\"/\"尽管他们也消费当地热门品牌， 购；D未提对涨价的特别敏感性。 购买量低于长期居民。\"\n\n题目 29\n答案：D\nPDF 定位：阿特金的研究表明：A贸易让爱吃的食物难以 找到；B贸易导致迁移增加；C进口食品质量 更高；D经济学家未充分理解贸易增加的所 有影响。\nPDF 解析：第4段：..mayalsoleadeconomists to 明确指出现有计算忽略因素=→D。A/B/C文中均 无此断言：A说的是\"相对更贵\"，非\"难找\"；B rethink the way they calculate the benefits resulting from trade... many economists do 未提迁移增加；C未比较质量优劣。 nottakeintoaccount...\"/\"可能促使经济学 家重新思考如何计算贸易收益....许多经济学家 没有考虑到\n\n题目 30\n答案：D\nPDF 定位：作者认为阿特金选择印度很明智，因为：A贸易 壁垒造成地区食物短缺；B印度食品对比发达国 家更便宜；C文化差异导致食物喜好广泛；D多 样气候导致地区作物类型差异。\nPDF 解析：直接对应D。A文中说\"内部壁垒→部分开放\"， 第5段：\"India... covers a large number of climatic zones where different specialised 未言\"短缺\"；B没有跨国价格比较；C文中依据 cropsaregrown.\"／\"印度涵盖大量气候带，各 是气候/作物而非文化偏好。 地种植不同的特色作物。\""
     },
     {
-      "sectionTitle": "2. 判断题（Questions 31–35）",
-      "mode": "per_question",
+      "sectionTitle": "2. yes no not given (Questions 31-35)",
+      "mode": "group",
       "items": [
         {
           "questionNumber": 31,
-          "text": "(1) 题目 31：The Tilburg and Chicago study shows that brand loyalty is greater in some states of the United States than in others. （蒂尔堡和芝加哥的研究表明，美国某些州的品牌忠诚度高于其他州。）\n答案：NOT GIVEN\n解析：定位第3段。研究确实追踪了跨州移民，但并未比较“不同州的品牌忠诚度高低”，只是说品牌忠诚度普遍存在。",
+          "text": "题目 31\n答案：NOT GIVEN\nPDF 定位：蒂尔堡和芝加哥的研究表明：在美国一些州的品 牌忠诚度比其他州更强。\nPDF 解析：A new study ... tracks the consumption 文中只说存在\"地方性模式\"(localpatterns)， patterns of 38,ooo US households... and 并未给出\"哪个州更强\"的强弱对比或排名信 息；题干要求跨州比较，原文未提供，故NOT confirms .. brand loyalty is widespread, deep GIVEN。 and long-lasting. There were clear local patterns in consumption, although the same brands were available everywhere.\" →\"一项新研究....证实品牌忠诚普遍、深入且持 久。消费确有地方性模式，尽管各地都能买到同 样的品牌。\"",
           "questionId": "q5"
         },
         {
           "questionNumber": 32,
-          "text": "(2) 题目 32：The study shows that the differences in shopping habits between migrants and native residents increased in the first 20 years. （研究表明，移民与本地居民在购物习惯上的差异在头20年里增加了。）\n答案：NO\n解析：定位第3段。原文提到差异是“faded”（减弱/消失）的，尽管“took 20 years to halve”（需要20年才能减半），但总体趋势是减小而非增加。",
+          "text": "题目 32\n答案：NO\nPDF 定位：研究显示：移民与本地居民的购物差异在前20 年里扩大。\nPDF 解析：This gap ... was quite stubborn: although 原文明确说差距在变小（20年\"减半\"），与题干 it faded the longer a person lived in their \"增加/扩大\"相反，因此NO。 new state, it still took 20 years to halve in magnitude.\"→\"这种差距....相当顽固：随着 在新州居住时间的增长，这一差距会减小，但也 需要20年才缩小到一半。\"",
           "questionId": "q6"
         },
         {
           "questionNumber": 33,
-          "text": "(3) 题目 33：First brands to enter a new market only hold their advantage if they are supported by advertising. （首先进入新市场的品牌只有在广告支持下才能保持优势。）\n答案：NO\n解析：定位第2段末尾和第3段末尾。第2段说“advertising alone cannot explain the strength of brand loyalty”（单靠广告无法解释品牌忠诚度）；第3段末尾说先发优势“could last longer than might be assumed”（可能持续得比假设的更久），并未将此归因于广告。",
+          "text": "题目 33\n答案：NO\nPDF 定位：率先进入新市场的品牌只有在有广告支持时才能 保持优势。\nPDF 解析：题干断言\"只有在广告支持下\"才能保持优势；原 *In the modern world ... many studies have 文一方面否定\"广告单独解释一切\"，另一方面直 found that advertising alone cannot explain 接指出\"先入优势本身可能长期存在\"。这与题干 the strength of brand loyalty. .. This could mean that the benefits of being the first 的必要条件相矛盾，故NO。 brand into a market could last longer than mightbeassumed.\"→\"在现代社会...许多 研究发现，仅靠广告并不能解释品牌忠诚的强 度....这可能意味着先进入市场的品牌，其优势 会比想象中更持久。\"",
           "questionId": "q7"
         },
         {
           "questionNumber": 34,
-          "text": "(4) 题目 34：Atkin originally chose India as a case study because trade within the country was unrestricted. （阿特金最初选择印度作为案例研究是因为该国内部贸易不受限制。）\n答案：NO\n解析：定位第5段。原文明确说是因为“prevalence of internal barriers to trade”（内部贸易壁垒的普遍存在），即贸易是受限的，而非不受限制。",
+          "text": "题目 34\n答案：NO\nPDF 定位：阿特金最初选择印度作为案例，是因为国内贸易 不受限制。\nPDF 解析：选择印度的理由是\"气候多样+存在内部贸易壁 \"India is a good choice because it covers a large number of climatic zones ... the 垒（部分开放）\"，与题干的\"贸易不受限制\"相 prevalence of internal barriers to trade 反，因此NO。 means that its regions are best thought of as being only partially open to trade.\" →\"印 度之所以适合作为案例，因为气候带众多...同 时国内贸易壁垒普遍存在，各地区只能算是部 分开放。\"",
           "questionId": "q8"
         },
         {
           "questionNumber": 35,
-          "text": "(5) 题目 35：In India, if a region focuses on certain foods, the cost of those foods remains comparatively low. （在印度，如果一个地区专注于某些食物，这些食物的成本保持相对较低。）\n答案：YES\n解析：定位第5段末尾。原文提到：“foods a region specialises in producing are instead cheaper in that region” （一个地区专门生产的食物在该地区反而更便宜）。",
+          "text": "题目 35\n答案：YES\nPDF 定位：在印度，如果一个地区专注/特化于某些食物， 这些食物的成本相对更低。\nPDF 解析：*Atkin's data show that the foods a region 题干与原文陈述一致：specialisesin=专注/特 specialises in producing are instead 化；cheaper=成本/价格更低，故YES。 cheaperinthatregion.\"→\"阿特金的数据 表明：某地区专门生产的食物在该地区反而 更便宜。\"",
           "questionId": "q9"
         }
       ],
@@ -114,35 +93,35 @@
         "start": 31,
         "end": 35
       },
-      "text": "答案：NOT GIVEN\n解析：定位第3段。研究确实追踪了跨州移民，但并未比较“不同州的品牌忠诚度高低”，只是说品牌忠诚度普遍存在。\n答案：NO\n解析：定位第3段。原文提到差异是“faded”（减弱/消失）的，尽管“took 20 years to halve”（需要20年才能减半），但总体趋势是减小而非增加。\n答案：NO\n解析：定位第2段末尾和第3段末尾。第2段说“advertising alone cannot explain the strength of brand loyalty”（单靠广告无法解释品牌忠诚度）；第3段末尾说先发优势“could last longer than might be assumed”（可能持续得比假设的更久），并未将此归因于广告。\n答案：NO\n解析：定位第5段。原文明确说是因为“prevalence of internal barriers to trade”（内部贸易壁垒的普遍存在），即贸易是受限的，而非不受限制。\n答案：YES\n解析：定位第5段末尾。原文提到：“foods a region specialises in producing are instead cheaper in that region” （一个地区专门生产的食物在该地区反而更便宜）。"
+      "text": "题目 31\n答案：NOT GIVEN\nPDF 定位：蒂尔堡和芝加哥的研究表明：在美国一些州的品 牌忠诚度比其他州更强。\nPDF 解析：A new study ... tracks the consumption 文中只说存在\"地方性模式\"(localpatterns)， patterns of 38,ooo US households... and 并未给出\"哪个州更强\"的强弱对比或排名信 息；题干要求跨州比较，原文未提供，故NOT confirms .. brand loyalty is widespread, deep GIVEN。 and long-lasting. There were clear local patterns in consumption, although the same brands were available everywhere.\" →\"一项新研究....证实品牌忠诚普遍、深入且持 久。消费确有地方性模式，尽管各地都能买到同 样的品牌。\"\n\n题目 32\n答案：NO\nPDF 定位：研究显示：移民与本地居民的购物差异在前20 年里扩大。\nPDF 解析：This gap ... was quite stubborn: although 原文明确说差距在变小（20年\"减半\"），与题干 it faded the longer a person lived in their \"增加/扩大\"相反，因此NO。 new state, it still took 20 years to halve in magnitude.\"→\"这种差距....相当顽固：随着 在新州居住时间的增长，这一差距会减小，但也 需要20年才缩小到一半。\"\n\n题目 33\n答案：NO\nPDF 定位：率先进入新市场的品牌只有在有广告支持时才能 保持优势。\nPDF 解析：题干断言\"只有在广告支持下\"才能保持优势；原 *In the modern world ... many studies have 文一方面否定\"广告单独解释一切\"，另一方面直 found that advertising alone cannot explain 接指出\"先入优势本身可能长期存在\"。这与题干 the strength of brand loyalty. .. This could mean that the benefits of being the first 的必要条件相矛盾，故NO。 brand into a market could last longer than mightbeassumed.\"→\"在现代社会...许多 研究发现，仅靠广告并不能解释品牌忠诚的强 度....这可能意味着先进入市场的品牌，其优势 会比想象中更持久。\"\n\n题目 34\n答案：NO\nPDF 定位：阿特金最初选择印度作为案例，是因为国内贸易 不受限制。\nPDF 解析：选择印度的理由是\"气候多样+存在内部贸易壁 \"India is a good choice because it covers a large number of climatic zones ... the 垒（部分开放）\"，与题干的\"贸易不受限制\"相 prevalence of internal barriers to trade 反，因此NO。 means that its regions are best thought of as being only partially open to trade.\" →\"印 度之所以适合作为案例，因为气候带众多...同 时国内贸易壁垒普遍存在，各地区只能算是部 分开放。\"\n\n题目 35\n答案：YES\nPDF 定位：在印度，如果一个地区专注/特化于某些食物， 这些食物的成本相对更低。\nPDF 解析：*Atkin's data show that the foods a region 题干与原文陈述一致：specialisesin=专注/特 specialises in producing are instead 化；cheaper=成本/价格更低，故YES。 cheaperinthatregion.\"→\"阿特金的数据 表明：某地区专门生产的食物在该地区反而 更便宜。\""
     },
     {
-      "sectionTitle": "3. 摘要填空（Questions 36–40）",
+      "sectionTitle": "3. summary completion (Questions 36-40)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 36,
-          "text": "(1) 题目 36：Data show that a wider 36 \\___\\___ of foods... （数据显示，更广泛的36 \\___\\___食物……）\n答案：B range\n解析：定位第6段。原文提到：\"when there is a greater choice of types of food\"（当有更多种类的食物选择时）。\"Greater choice\" 对应 \"wider range\"。",
+          "text": "题目 36\n答案：B\nPDF 定位：更广的食物种类并不一定带来....\nPDF 解析：第6段：\"when there is a greater choice of \"greater choice of types\"\"wider range\"。 typesoffood..\"\"/\"当有更多类型的食物可选",
           "questionId": "q10"
         },
         {
           "questionNumber": 37,
-          "text": "(2) 题目 37：...does not necessarily result in a corresponding 37 \\___\\___ in the amount of calories in people's diets. （……并不一定导致人们饮食中卡路里数量的相应37 \\___\\___。）\n答案：F increase\n解析：定位第6段。原文提到人们的卡路里摄入量“declined”（下降），而不是理论上应该发生的“boost their calorie intake”（增加卡路里摄入）。因此，更广泛的选择并未导致“increase”。",
+          "text": "题目 37\n答案：F\nPDF 定位：...并不一定带来热量摄入的增加。\nPDF 解析：第6段：\"people's intake of calories declined 句子以\"并不必然带来增加\"为逻辑；与 most.. \"declined\"呼应，正确词为increase（用于否 定结构)。",
           "questionId": "q11"
         },
         {
           "questionNumber": 38,
-          "text": "(3) 题目 38：This is because people's 38 \\___\\___ on continuing to eat the foods they grew up eating... （这是因为人们对继续吃他们从小吃到大的食物的38 \\___\\___……）\n答案：I insistence\n解析：定位第6段。原文提到：\"consumers keep buying the things they know and like\"（消费者坚持购买他们熟悉和喜欢的东西）。\"Keep buying\" 对应 \"insistence\"（坚持）。",
+          "text": "题目 38\n答案：I\nPDF 定位：因为人们坚持吃从小吃的食物.\nPDF 解析：第6段：\"food habitsmeanthat consumers \"keep buying...they know and like\"=对既有 keep buying the things they know and like 味的坚持，最贴\"insistence\"。（Eincentive=激 励、Ddislike=不喜欢均不符） even though ... more expensive.",
           "questionId": "q12"
         },
         {
           "questionNumber": 39,
-          "text": "(4) 题目 39：This is especially true in countries where adequate 39 \\___\\___ is already a problem... （这在充足的39 \\___\\___已经成为问题的国家尤其如此……）\n答案：A nutrition\n解析：定位第7段。原文提到：\"high prevalence of undernutrition\"（营养不良的高发率）。\"Undernutrition\" 即 \"nutrition\" 是个问题。",
+          "text": "题目 39\n答案：A\nPDF 定位：在营养本就不足的国家尤其如此.\nPDF 解析：\"undernutrition\"直指nutrition。 第7段：\"In developing countries where there is a high prevalence of undernutrition ...\" / \"在营养不良普遍的国家.",
           "questionId": "q13"
         },
         {
           "questionNumber": 40,
-          "text": "(5) 题目 40：...and could result in a whole section of society being unable to contribute fully to their country's 40 \\___\\___ in the future. （……并可能导致整个社会阶层在未来无法为国家的40 \\___\\___做出充分贡献。）\n答案：C progress / development\n解析：定位第7段和第8段。原文提到这会影响他们“ability to work and earn”（工作和赚钱的能力），并最终“hinder the development of their country”（阻碍国家的发展）。\"Development\" 对应选项 C \"progress\"。",
+          "text": "题目 40\n答案：C\nPDF 定位：可能使一部分人无法为国家未来的发展/进步作 出充分贡献。\nPDF 解析：第7-8段：\"shortfalls...affect their ability to \"development\"与progress同域同义；句子 work and earn as adults...detrimental effects 语义为\"影响国家未来发展\"，故C最契合。H production=产量、G independence=独立性均 on their long-term health.\"; ..hinder the development of their country due to a lack of 不合语境。 a quality workforce.\"",
           "questionId": "q14"
         }
       ],
@@ -150,7 +129,7 @@
         "start": 36,
         "end": 40
       },
-      "text": "答案：B range\n解析：定位第6段。原文提到：\"when there is a greater choice of types of food\"（当有更多种类的食物选择时）。\"Greater choice\" 对应 \"wider range\"。\n答案：F increase\n解析：定位第6段。原文提到人们的卡路里摄入量“declined”（下降），而不是理论上应该发生的“boost their calorie intake”（增加卡路里摄入）。因此，更广泛的选择并未导致“increase”。\n答案：I insistence\n解析：定位第6段。原文提到：\"consumers keep buying the things they know and like\"（消费者坚持购买他们熟悉和喜欢的东西）。\"Keep buying\" 对应 \"insistence\"（坚持）。\n答案：A nutrition\n解析：定位第7段。原文提到：\"high prevalence of undernutrition\"（营养不良的高发率）。\"Undernutrition\" 即 \"nutrition\" 是个问题。\n答案：C progress / development\n解析：定位第7段和第8段。原文提到这会影响他们“ability to work and earn”（工作和赚钱的能力），并最终“hinder the development of their country”（阻碍国家的发展）。\"Development\" 对应选项 C \"progress\"。"
+      "text": "题目 36\n答案：B\nPDF 定位：更广的食物种类并不一定带来....\nPDF 解析：第6段：\"when there is a greater choice of \"greater choice of types\"\"wider range\"。 typesoffood..\"\"/\"当有更多类型的食物可选\n\n题目 37\n答案：F\nPDF 定位：...并不一定带来热量摄入的增加。\nPDF 解析：第6段：\"people's intake of calories declined 句子以\"并不必然带来增加\"为逻辑；与 most.. \"declined\"呼应，正确词为increase（用于否 定结构)。\n\n题目 38\n答案：I\nPDF 定位：因为人们坚持吃从小吃的食物.\nPDF 解析：第6段：\"food habitsmeanthat consumers \"keep buying...they know and like\"=对既有 keep buying the things they know and like 味的坚持，最贴\"insistence\"。（Eincentive=激 励、Ddislike=不喜欢均不符） even though ... more expensive.\n\n题目 39\n答案：A\nPDF 定位：在营养本就不足的国家尤其如此.\nPDF 解析：\"undernutrition\"直指nutrition。 第7段：\"In developing countries where there is a high prevalence of undernutrition ...\" / \"在营养不良普遍的国家.\n\n题目 40\n答案：C\nPDF 定位：可能使一部分人无法为国家未来的发展/进步作 出充分贡献。\nPDF 解析：第7-8段：\"shortfalls...affect their ability to \"development\"与progress同域同义；句子 work and earn as adults...detrimental effects 语义为\"影响国家未来发展\"，故C最契合。H production=产量、G independence=独立性均 on their long-term health.\"; ..hinder the development of their country due to a lack of 不合语境。 a quality workforce.\""
     }
   ]
 }

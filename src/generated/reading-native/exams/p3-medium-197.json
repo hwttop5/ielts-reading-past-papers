@@ -7,7 +7,7 @@
     "frequency": "medium",
     "originalTitle": "Australia’s Megafauna Controversy 巨兽灭绝【次】"
   },
-  "explanationKey": null,
+  "explanationKey": "p3-medium-197",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -785,7 +785,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. yes no not given (Questions 27-30)",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 30
+        },
+        "text": "题目 27\n答案：yes\nPDF 定位：Field 和 Wroe 认为，Cuddie Springs 遗址的发 第2段:*.this dusty claypan holds..flaked 现表明，人类与巨型动物曾在这一地区同时生活。 stone and seedgrinding tools, and side by side with these clear signals of human culture are the bones of a dozen or more species of megafauna. Drs Judith Field and Stephen Wroe...claim that it provides unequivocal evidence of a long overlap of humans and megafauna...\nPDF 解析：\"...这片布满粉尘的黏土平地保存着大量石片 题干说的是：Field和Wroe主张Cuddie 和磨籽石等明显属于人类文化的遗物，而与之并 Springs的发现证明人类和巨型动物同时生活 列的，是十余种巨型动物的骨骼。 ..Field 和 在这里。作者确实这样转述了他们的观点一 *clear signals of human culture\" 和 \"bones of.. Wroe声称，这一遗址提供了人类与巨型动物长 megafauna\"并列， 再加上\"evidence of a long 期共存的无可争辨的证据。\" overlap\"。题干只是在复述他们argue/claim\" 的内客，没有评价对错，因此与作者说法一致 →YES.\n\n题目 28\n答案：not given\nPDF 定位：无直接定位句。第2段只说：\"..concludethat Field和Wroe认为，小型巨型动物物种很可能熬 过了上一次冰期。 aridity leading up to the last lce Age brought about their eventual demise.\"\nPDF 解析：...并得出结论：在上一次冰期来临前逐渐加剧 文中只说Field和Wroe认为干旱导致巨型动物灭 的干早最终导致了它们的灭绝。\" 绝，没有提到\"较小体型的巨型动物是否幸存\"。 paans saoads eunejeBaw Jajes, L thelast IceAge(小型物种熬过冰期)\"，这是 新信息，文中既没肯定也没否定，所以是NOT GIVEN。\n\n题目 29\n答案：no\nPDF 定位：作者认为，在Cuddie Springs距今地表以下1.7 第3段: \"There is no disputing the close 米范围内的土层年代测定不可靠， association of bones and stones at Cuddie Springs, as both are found 1 to 1.7 metres below the modern surface. The dating of these layers is accurate: ages for the sediments were obtained through radiocarbon dating of charcoal fragments and luminescence dating of sand grains..\nPDF 解析：\"毫无疑问，在CuddieSprings，骨骼和石器关 题干说\"the writers believe..is unreliable (作者 认为不可靠)\"，而原文明确说\"Thedating..is 系密切，因为两者都出现在距今地表1至1.7米 处。这些地层的年代测定是准确的：沉积物的年 accurate（是准确的)\"，与题干陈述正好相反， 因此答案为NO。注意这里问的是作者对\"年代 代是通过木炭碎片的放射性碳定年和砂粒的发光 定年得出的. 测定\"的态度，而不是对Field&Wroe结论整 体的态度。\n\n题目 30\n答案：yes\nPDF 定位：在Cuddie Springs发现的一些人工制品保存得足 第3段: Intriguingly, some of the stone tools show surface features indicating their use for 够好，可以看出它们的用途。 processing plants, and a few even have well- preserved blood and hair residues suggesting they were used in butchering animals.*\nPDF 解析：题干里的 \"preserved well enough to reveal \"有趣的是，一些石制工具表面留下的痕遗表明， 它们曾被用来加工植物；还有少数工具上保存得 theirfunction（保存得足以看出功能）\"对应文 surface features indicating their use...well- 很完好的血迹和毛发残留，暗示它们曾被用来 率杀动物，\" preserved blood and hair residues suggesting theywereused..\"。工具上的疲迹和残留物很 好地保留下来，使考古学家能判断它们是用来 加工植物和宰杀动物的，因此陈述与原文一致， 选YES。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：yes\nPDF 定位：Field 和 Wroe 认为，Cuddie Springs 遗址的发 第2段:*.this dusty claypan holds..flaked 现表明，人类与巨型动物曾在这一地区同时生活。 stone and seedgrinding tools, and side by side with these clear signals of human culture are the bones of a dozen or more species of megafauna. Drs Judith Field and Stephen Wroe...claim that it provides unequivocal evidence of a long overlap of humans and megafauna...\nPDF 解析：\"...这片布满粉尘的黏土平地保存着大量石片 题干说的是：Field和Wroe主张Cuddie 和磨籽石等明显属于人类文化的遗物，而与之并 Springs的发现证明人类和巨型动物同时生活 列的，是十余种巨型动物的骨骼。 ..Field 和 在这里。作者确实这样转述了他们的观点一 *clear signals of human culture\" 和 \"bones of.. Wroe声称，这一遗址提供了人类与巨型动物长 megafauna\"并列， 再加上\"evidence of a long 期共存的无可争辨的证据。\" overlap\"。题干只是在复述他们argue/claim\" 的内客，没有评价对错，因此与作者说法一致 →YES."
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：not given\nPDF 定位：无直接定位句。第2段只说：\"..concludethat Field和Wroe认为，小型巨型动物物种很可能熬 过了上一次冰期。 aridity leading up to the last lce Age brought about their eventual demise.\"\nPDF 解析：...并得出结论：在上一次冰期来临前逐渐加剧 文中只说Field和Wroe认为干旱导致巨型动物灭 的干早最终导致了它们的灭绝。\" 绝，没有提到\"较小体型的巨型动物是否幸存\"。 paans saoads eunejeBaw Jajes, L thelast IceAge(小型物种熬过冰期)\"，这是 新信息，文中既没肯定也没否定，所以是NOT GIVEN。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：no\nPDF 定位：作者认为，在Cuddie Springs距今地表以下1.7 第3段: \"There is no disputing the close 米范围内的土层年代测定不可靠， association of bones and stones at Cuddie Springs, as both are found 1 to 1.7 metres below the modern surface. The dating of these layers is accurate: ages for the sediments were obtained through radiocarbon dating of charcoal fragments and luminescence dating of sand grains..\nPDF 解析：\"毫无疑问，在CuddieSprings，骨骼和石器关 题干说\"the writers believe..is unreliable (作者 认为不可靠)\"，而原文明确说\"Thedating..is 系密切，因为两者都出现在距今地表1至1.7米 处。这些地层的年代测定是准确的：沉积物的年 accurate（是准确的)\"，与题干陈述正好相反， 因此答案为NO。注意这里问的是作者对\"年代 代是通过木炭碎片的放射性碳定年和砂粒的发光 定年得出的. 测定\"的态度，而不是对Field&Wroe结论整 体的态度。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：yes\nPDF 定位：在Cuddie Springs发现的一些人工制品保存得足 第3段: Intriguingly, some of the stone tools show surface features indicating their use for 够好，可以看出它们的用途。 processing plants, and a few even have well- preserved blood and hair residues suggesting they were used in butchering animals.*\nPDF 解析：题干里的 \"preserved well enough to reveal \"有趣的是，一些石制工具表面留下的痕遗表明， 它们曾被用来加工植物；还有少数工具上保存得 theirfunction（保存得足以看出功能）\"对应文 surface features indicating their use...well- 很完好的血迹和毛发残留，暗示它们曾被用来 率杀动物，\" preserved blood and hair residues suggesting theywereused..\"。工具上的疲迹和残留物很 好地保留下来，使考古学家能判断它们是用来 加工植物和宰杀动物的，因此陈述与原文一致， 选YES。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1168,7 +1198,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. summary completion (Questions 31-35)",
+        "mode": "group",
+        "questionRange": {
+          "start": 31,
+          "end": 35
+        },
+        "text": "题目 31\n答案：b\nPDF 定位：\"作者对Field和Wroe解释的一个反对意见是， 第 4段: °...we estimate there are more than 3 在Cuddie Springs发现了大量的木炭、31和其 tonnes of charcoal and more than 300 tonnes of stone buried there, approximately 20 million 他器物. artefacts.*\nPDF 解析：\"我们估计，这里埋藏着超过3吨木炭和300多 31空格与\"charcoal,31... and artefacts构成 并列三项，对应原文\"charcoaland..stone.. 吨石块，大约2000万件器物。 artefacts\"。选项中只有stone与此完全对应。 其他如seeds/sand/fossil bones都没与炭 一起出现过，因此排除。\n\n题目 32\n答案：f\nPDF 定位：第4段：\"This plethora of tools is hard to \"如果这一地区在一段时间内被32覆盖，就不可 能出现如此多的器物。\" reconcile with a site that was only available for occupation when the lake was dry.\nPDF 解析：\"如此多的工具，很难与这样一个事实相吻合：这 逻辑是：如果湖里有水（lakenotdry)，人类就不 能长期居住、留下大量器物。所以summary写 个地点只有在湖床干渴时才适合人类居住\" 成：大量器物不可能出现在被water覆盖了很长 时间的地区，与原文\"onlyavailable..when the lakewasdry\"是反向改写，对应Fwater。\n\n题目 33\n答案：d\nPDF 定位：\"还完全缺乏人造结构，比如用来33的那些。\" 第4段: *Furthermore, no cultural features such as oven pits have been discovered.*\nPDF 解析：\"此外，并没有发现诸如炉灶坑之类的文化遗迹。\" \"ovenpits\"是用来做饭、烹饪的灶坑，因此 空格应是\"cooking\"，题干用\"man-made structures..for instance those used for 33\" 来 概括\"oven pits\"，其他选项如storage/seeds 都不对应\"oven pits\"的用途。\n\n题目 34\n答案：c\nPDF 定位：\"而且虽然最高层沉积物里的某些材料有36,000 第4段: \"Second, sand in the two upper levels 年历史，同一层中的34却要年轻得多。\" is considerably younger than charcoal from the same levels.*\nPDF 解析：\"其次，上面两层中的砂明显比同一层的木炭年 空格处要填的就是\"在同一层中更年轻的东 轻得多。\" 西\"，原文明确是\"sand\"，对应选项C。这 里考察的是同层中不同物质年代不一致，成为 \"inconsistencies\"的一部分。\n\n题目 35\n答案：g\nPDF 定位：\"反对该地区曾有人类居住的进一步证据，是在仅 第4段: \"Also of interest is the fact that a deep 相距不远的地方缺少工具和35，\" drillcore made a mere 60 metres from the site recovered no stone artefacts or fossil bones whatsoever.\"\nPDF 解析：\"还有一点很有意思：在距离遗址仅60米处钻取 题干提到\"absence of tools and 35 just a short 的一根深钻岩芯中，完全没有发现石制器物或任 distance away\"，与原文\"no stone artefacts or fossil bones..60 metres from the site\"完全对 何化石骨略。\" 应：tools=stoneartefacts，另一个缺失的是 fossil bones。因此答案为G。选项Edeepdrill core是\"取样手段\"，不是\"被缺少的东西\"，不 能填在\"tools and..\"后面。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：b\nPDF 定位：\"作者对Field和Wroe解释的一个反对意见是， 第 4段: °...we estimate there are more than 3 在Cuddie Springs发现了大量的木炭、31和其 tonnes of charcoal and more than 300 tonnes of stone buried there, approximately 20 million 他器物. artefacts.*\nPDF 解析：\"我们估计，这里埋藏着超过3吨木炭和300多 31空格与\"charcoal,31... and artefacts构成 并列三项，对应原文\"charcoaland..stone.. 吨石块，大约2000万件器物。 artefacts\"。选项中只有stone与此完全对应。 其他如seeds/sand/fossil bones都没与炭 一起出现过，因此排除。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：f\nPDF 定位：第4段：\"This plethora of tools is hard to \"如果这一地区在一段时间内被32覆盖，就不可 能出现如此多的器物。\" reconcile with a site that was only available for occupation when the lake was dry.\nPDF 解析：\"如此多的工具，很难与这样一个事实相吻合：这 逻辑是：如果湖里有水（lakenotdry)，人类就不 能长期居住、留下大量器物。所以summary写 个地点只有在湖床干渴时才适合人类居住\" 成：大量器物不可能出现在被water覆盖了很长 时间的地区，与原文\"onlyavailable..when the lakewasdry\"是反向改写，对应Fwater。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：d\nPDF 定位：\"还完全缺乏人造结构，比如用来33的那些。\" 第4段: *Furthermore, no cultural features such as oven pits have been discovered.*\nPDF 解析：\"此外，并没有发现诸如炉灶坑之类的文化遗迹。\" \"ovenpits\"是用来做饭、烹饪的灶坑，因此 空格应是\"cooking\"，题干用\"man-made structures..for instance those used for 33\" 来 概括\"oven pits\"，其他选项如storage/seeds 都不对应\"oven pits\"的用途。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：c\nPDF 定位：\"而且虽然最高层沉积物里的某些材料有36,000 第4段: \"Second, sand in the two upper levels 年历史，同一层中的34却要年轻得多。\" is considerably younger than charcoal from the same levels.*\nPDF 解析：\"其次，上面两层中的砂明显比同一层的木炭年 空格处要填的就是\"在同一层中更年轻的东 轻得多。\" 西\"，原文明确是\"sand\"，对应选项C。这 里考察的是同层中不同物质年代不一致，成为 \"inconsistencies\"的一部分。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：g\nPDF 定位：\"反对该地区曾有人类居住的进一步证据，是在仅 第4段: \"Also of interest is the fact that a deep 相距不远的地方缺少工具和35，\" drillcore made a mere 60 metres from the site recovered no stone artefacts or fossil bones whatsoever.\"\nPDF 解析：\"还有一点很有意思：在距离遗址仅60米处钻取 题干提到\"absence of tools and 35 just a short 的一根深钻岩芯中，完全没有发现石制器物或任 distance away\"，与原文\"no stone artefacts or fossil bones..60 metres from the site\"完全对 何化石骨略。\" 应：tools=stoneartefacts，另一个缺失的是 fossil bones。因此答案为G。选项Edeepdrill core是\"取样手段\"，不是\"被缺少的东西\"，不 能填在\"tools and..\"后面。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -1979,7 +2044,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. single choice (Questions 36-40)",
+        "mode": "group",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "题目 36\n答案：a\nPDF 定位：第4段(末尾)：These points suggest strongly that the sediments have been moved about and some of the old charcoal has been redeposited in younger layers.\"\nPDF 解析：\"这些事实强烈表明，沉积层曾被扰动、被重新 A: *different layers of sediment have been 搬动过，一些古老的木炭被重新沉积在较年轻 mixed overtime\"正是对上句的概括-沉积层 的地层中。\" 被移动、重新沉积，等于不同地层被混在一起。 B说sandevidence应被忽略，原文并没有说 \"不该使用沙子的证据；相反，沙子的年代反而 是重要证据。C说要等技术进步再重测，是在说 未来计划，而原文只是顺带提到\"boneshave not yet been dated..developments make thisapossibility\"，主旨不是\"需要重检整个 地区\"。D说木炭不能定年，但文中前面刚说过 用radiocarbondating定年，所以D明显错 误。故选A。\n\n题目 37\n答案：b\nPDF 定位：第 5段: \"Flood events more likely explain the accumulation of megafauna remains, and could have mixed old bones with fresh deposits.\nPDF 解析：这里的自然现象是floodevents。B选 \"洪水事件更有可能解释巨型动物遗酸为何在此 聚集，并且可能把古老的骨骼与新的沉积物混 项 \"Floods could have disturbed the 在一起。\" archaeological evidence（洪水可能扰乱了考古 证据)\"正是\"混合旧骨与新沉积物\"的释义。A 说洪水导致巨型动物死亡，原文并没有把\"死亡 原因\"归因于洪水，只说解释\"积累的位置\"。C/D 说的是bushfires的影响，而原文bushfires只 是说把木炭冲刷进渠道，并没有说因此\"阻止人 类定居\"或\"毁坏大部分证据\"。因此选择B。\n\n题目 38\n答案：d\nPDF 定位：第5段: \"European graziers also disturbed the site in 1876 by constructing a well.. we speculate that the graziers made sure it was protected... by lining the surface with small stones collected from further afield, including prehistoric quarries.\"\nPDF 解析：\"欧洲牧民在1876年修并取水时也破坏了这一 D: *They brought stones there from another area(他们从别处把石头运到这里）\"正好对应 地点....我们推测，为了保护并面不被牛蹄踩坏， 他们用从更远处采来的小石块（包括史前采石场 \"stones collected from further afield\", A 说 的石头）铺在地表。\" 他们饲养的牛骨可能被误认成巨型动物骨略，文 中完全没有提到。B说他们发现土壤太潮湿不适 合耕种，原文提到的是waterlogged soil但用来 解释\"牛蹄把石头和牛骨压得更深\"，不是农耕问 题。C说他们让牛自由活动，与\"为了保护并面 而铺石头\"不符，因此都排除。\n\n题目 39\n答案：b\nPDF 定位：第6段: \"Using a mathematical model, it was found that a group of 10 people kiling only one juvenile Diprotodon each year would be sufficient to bring about the extinction of that species within 1,000 years.\nPDF 解析：\"通过一个数学模型发现：如果一群10个人每年 该句说明：即使每年被杀的数量很少，长期累积 只猎杀一只幼年的Diprotodon，在1,000年之 仍可导致灭绝。B\"Megafauna could have died 内就足以使该物种灭绝。\" out as a result of small numbers being killed yearafter year（巨型动物可能是因为每年只有 少量个体被猎杀、长期积累最终灭绝的)\"是对 这句话的直接概括。A提到\"快速气候变化\"，而 作者在这一段恰恰是用模型来说明人类捕猎即 可导致灭绝，用来反驳\"气候变化\"单因说。C 说\"当时人类数量可能太少，不足以导致灭绝\"， 与模型结论相反。D讨论\"古代动物与现代动 物灭绝不可类比\"，文中也没有提到，所以正确 答案为B。\n\n题目 40\n答案：d\nPDF 定位：第4段(开头和中段)：\"But is the case proposed by Field and Wroe clear-cut? We carried out a reanalysis..hat brings into question their conclusions.. our analysis revealed a number of inconsistencies.*\nPDF 解析：\"但是，Field和Wroe提出的论证真的如此一 作者并不是说Field和Wroe挖得不够深(B)、 目了然吗？我们对Cuddie Springs的科学数据 技术不行（C)，而是强调：他们的数据中存在 多处\"不一致\"，从而使结论不可靠。D：\"Their 做了重新分析，这些分析使他们的结论受到质 conclusions were based on inconsistent data 疑...我们的分析揭示出了许多不一致之处。 (他们的结论建立在前后不一致的数据之上)\"正 好点中这条批评。A说\"methodswerenotwell thoughtout(方法没想清楚)\"太宽泛，文中并",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：a\nPDF 定位：第4段(末尾)：These points suggest strongly that the sediments have been moved about and some of the old charcoal has been redeposited in younger layers.\"\nPDF 解析：\"这些事实强烈表明，沉积层曾被扰动、被重新 A: *different layers of sediment have been 搬动过，一些古老的木炭被重新沉积在较年轻 mixed overtime\"正是对上句的概括-沉积层 的地层中。\" 被移动、重新沉积，等于不同地层被混在一起。 B说sandevidence应被忽略，原文并没有说 \"不该使用沙子的证据；相反，沙子的年代反而 是重要证据。C说要等技术进步再重测，是在说 未来计划，而原文只是顺带提到\"boneshave not yet been dated..developments make thisapossibility\"，主旨不是\"需要重检整个 地区\"。D说木炭不能定年，但文中前面刚说过 用radiocarbondating定年，所以D明显错 误。故选A。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：b\nPDF 定位：第 5段: \"Flood events more likely explain the accumulation of megafauna remains, and could have mixed old bones with fresh deposits.\nPDF 解析：这里的自然现象是floodevents。B选 \"洪水事件更有可能解释巨型动物遗酸为何在此 聚集，并且可能把古老的骨骼与新的沉积物混 项 \"Floods could have disturbed the 在一起。\" archaeological evidence（洪水可能扰乱了考古 证据)\"正是\"混合旧骨与新沉积物\"的释义。A 说洪水导致巨型动物死亡，原文并没有把\"死亡 原因\"归因于洪水，只说解释\"积累的位置\"。C/D 说的是bushfires的影响，而原文bushfires只 是说把木炭冲刷进渠道，并没有说因此\"阻止人 类定居\"或\"毁坏大部分证据\"。因此选择B。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：d\nPDF 定位：第5段: \"European graziers also disturbed the site in 1876 by constructing a well.. we speculate that the graziers made sure it was protected... by lining the surface with small stones collected from further afield, including prehistoric quarries.\"\nPDF 解析：\"欧洲牧民在1876年修并取水时也破坏了这一 D: *They brought stones there from another area(他们从别处把石头运到这里）\"正好对应 地点....我们推测，为了保护并面不被牛蹄踩坏， 他们用从更远处采来的小石块（包括史前采石场 \"stones collected from further afield\", A 说 的石头）铺在地表。\" 他们饲养的牛骨可能被误认成巨型动物骨略，文 中完全没有提到。B说他们发现土壤太潮湿不适 合耕种，原文提到的是waterlogged soil但用来 解释\"牛蹄把石头和牛骨压得更深\"，不是农耕问 题。C说他们让牛自由活动，与\"为了保护并面 而铺石头\"不符，因此都排除。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：b\nPDF 定位：第6段: \"Using a mathematical model, it was found that a group of 10 people kiling only one juvenile Diprotodon each year would be sufficient to bring about the extinction of that species within 1,000 years.\nPDF 解析：\"通过一个数学模型发现：如果一群10个人每年 该句说明：即使每年被杀的数量很少，长期累积 只猎杀一只幼年的Diprotodon，在1,000年之 仍可导致灭绝。B\"Megafauna could have died 内就足以使该物种灭绝。\" out as a result of small numbers being killed yearafter year（巨型动物可能是因为每年只有 少量个体被猎杀、长期积累最终灭绝的)\"是对 这句话的直接概括。A提到\"快速气候变化\"，而 作者在这一段恰恰是用模型来说明人类捕猎即 可导致灭绝，用来反驳\"气候变化\"单因说。C 说\"当时人类数量可能太少，不足以导致灭绝\"， 与模型结论相反。D讨论\"古代动物与现代动 物灭绝不可类比\"，文中也没有提到，所以正确 答案为B。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：d\nPDF 定位：第4段(开头和中段)：\"But is the case proposed by Field and Wroe clear-cut? We carried out a reanalysis..hat brings into question their conclusions.. our analysis revealed a number of inconsistencies.*\nPDF 解析：\"但是，Field和Wroe提出的论证真的如此一 作者并不是说Field和Wroe挖得不够深(B)、 目了然吗？我们对Cuddie Springs的科学数据 技术不行（C)，而是强调：他们的数据中存在 多处\"不一致\"，从而使结论不可靠。D：\"Their 做了重新分析，这些分析使他们的结论受到质 conclusions were based on inconsistent data 疑...我们的分析揭示出了许多不一致之处。 (他们的结论建立在前后不一致的数据之上)\"正 好点中这条批评。A说\"methodswerenotwell thoughtout(方法没想清楚)\"太宽泛，文中并"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

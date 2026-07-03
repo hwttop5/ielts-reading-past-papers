@@ -11,7 +11,7 @@
     "questionIntroHtml": "<h3>Questions</h3>",
     "originalTitle": "The Importance of Law 法律的意义"
   },
-  "explanationKey": null,
+  "explanationKey": "p2-high-16",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -714,7 +714,47 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. matching (Questions 14-19)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 19
+        },
+        "text": "题目 14\n答案：iv\nPDF 定位：iv \"The law influences all of us virtually all the time... It governs almost all aspects of our behaviour... from the embryo onwards... at the bottom of the ocean and in space.\"（第A段开头)\nPDF 解析：全段用大量生活场景展示法律无处不在、贯穿一生，对应\"Thelaw applies throughout our lives\"。\n\n题目 15\n答案：vii\nPDF 定位：Today... it is becoming easier for people to take an interest in law, vii and for the general population to help actually shape the law in manycountries.\"（第B段中部）\nPDF 解析：主题是公众识字率提高、法律渗透社会并让大众更能影响法律，对应\"The public's increasing ability to influence the law\"。\n\n题目 16\n答案：i\nPDF 定位：\"In our rapidly developing world, all sorts of skills and knowledge are valuable... IT skills... But legal understanding is just as vital and as universally needed.\" (第C 段)\nPDF 解析：本段把IT/计算机等专业能力与法律理解并列比较，强调不同专业能力的价 值，匹配\"Different areas of professional expertise\"。\n\n题目 17\n答案：viii\nPDF 定位：\"The number of laws has never been greater... about 35 new Acts...thousands of new rules...output...more than doubled... (第 D段开头与数据）\nPDF 解析：以大量数据说明法律数量的增长，对应\"Growthinlaws\"。\n\n题目 18\n答案：vi\nPDF 定位：vi \"However... lawyers are not universally admired. Anti-lawyer jokes havea long history...（第E段开头）\nPDF 解析：讨论社会上对律师的负面观感，对应\"Anegativeregardforlawyers\"。\n\n题目 19\n答案：ii\nPDF 定位：\"But, in general, it is no more just to say that lawyers are bad...\" 以 及后文给出多条反驳理由。(第F段)\nPDF 解析：全段在为律师辩护：很多从事公共法律、并非逐利；公众误解等，正是 \"Reasons why it is unfair to criticise lawyers\"。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：iv\nPDF 定位：iv \"The law influences all of us virtually all the time... It governs almost all aspects of our behaviour... from the embryo onwards... at the bottom of the ocean and in space.\"（第A段开头)\nPDF 解析：全段用大量生活场景展示法律无处不在、贯穿一生，对应\"Thelaw applies throughout our lives\"。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：vii\nPDF 定位：Today... it is becoming easier for people to take an interest in law, vii and for the general population to help actually shape the law in manycountries.\"（第B段中部）\nPDF 解析：主题是公众识字率提高、法律渗透社会并让大众更能影响法律，对应\"The public's increasing ability to influence the law\"。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：i\nPDF 定位：\"In our rapidly developing world, all sorts of skills and knowledge are valuable... IT skills... But legal understanding is just as vital and as universally needed.\" (第C 段)\nPDF 解析：本段把IT/计算机等专业能力与法律理解并列比较，强调不同专业能力的价 值，匹配\"Different areas of professional expertise\"。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：viii\nPDF 定位：\"The number of laws has never been greater... about 35 new Acts...thousands of new rules...output...more than doubled... (第 D段开头与数据）\nPDF 解析：以大量数据说明法律数量的增长，对应\"Growthinlaws\"。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：vi\nPDF 定位：vi \"However... lawyers are not universally admired. Anti-lawyer jokes havea long history...（第E段开头）\nPDF 解析：讨论社会上对律师的负面观感，对应\"Anegativeregardforlawyers\"。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：ii\nPDF 定位：\"But, in general, it is no more just to say that lawyers are bad...\" 以 及后文给出多条反驳理由。(第F段)\nPDF 解析：全段在为律师辩护：很多从事公共法律、并非逐利；公众误解等，正是 \"Reasons why it is unfair to criticise lawyers\"。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1003,7 +1043,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. multi choice (Questions 20-21)",
+        "mode": "group",
+        "questionRange": {
+          "start": 20,
+          "end": 21
+        },
+        "text": "题目 20\n答案：C\nPDF 定位：C: \"But legal understanding is just as vital and as universally needed.\" (第 C段】D：与上一句联读前文\"Without[IT]knowledge,many parts of understanding is just as vital..\"\nPDF 解析：C直接表述法律知识与计算机技能同样重要。D由\"IT知识缺失→社会停摆\"与\"法 律理解同样至关重要\"并列推出：没有法律专家（法律理解）社会也难以有效运转。 其余选项文中未提出（A/E未要求学校或医院配法务；B未谈\"商业法最抢手\")。\n\n题目 21\n答案：D\nPDF 定位：C: \"But legal understanding is just as vital and as universally needed.\" (第 C段】D：与上一句联读前文\"Without[IT]knowledge,many parts of understanding is just as vital..\"\nPDF 解析：C直接表述法律知识与计算机技能同样重要。D由\"IT知识缺失→社会停摆\"与\"法 律理解同样至关重要\"并列推出：没有法律专家（法律理解）社会也难以有效运转。 其余选项文中未提出（A/E未要求学校或医院配法务；B未谈\"商业法最抢手\")。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：C\nPDF 定位：C: \"But legal understanding is just as vital and as universally needed.\" (第 C段】D：与上一句联读前文\"Without[IT]knowledge,many parts of understanding is just as vital..\"\nPDF 解析：C直接表述法律知识与计算机技能同样重要。D由\"IT知识缺失→社会停摆\"与\"法 律理解同样至关重要\"并列推出：没有法律专家（法律理解）社会也难以有效运转。 其余选项文中未提出（A/E未要求学校或医院配法务；B未谈\"商业法最抢手\")。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：D\nPDF 定位：C: \"But legal understanding is just as vital and as universally needed.\" (第 C段】D：与上一句联读前文\"Without[IT]knowledge,many parts of understanding is just as vital..\"\nPDF 解析：C直接表述法律知识与计算机技能同样重要。D由\"IT知识缺失→社会停摆\"与\"法 律理解同样至关重要\"并列推出：没有法律专家（法律理解）社会也难以有效运转。 其余选项文中未提出（A/E未要求学校或医院配法务；B未谈\"商业法最抢手\")。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -1270,7 +1330,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. summary completion (Questions 22-26)",
+        "mode": "group",
+        "questionRange": {
+          "start": 22,
+          "end": 26
+        },
+        "text": "题目 22\n答案：truth\nPDF 定位：\"professionals whose concerns put personal reward above truth ... (第F段首句)\nPDF 解析：题干\"isoflittleinteresttolawyers\"对应原文\"把个人回报置于真理/真 实之上\"。\n\n题目 23\n答案：journalists\nPDF 定位：\"just as there are some scientists, journalists and others in that category.(第F段）\nPDF 解析：概括\"some or scientific experts\"，与\"scientific experts\"并列的职 业是journalists。\n\n题目 24\n答案：nurses\nPDF 定位：..than it is to make the same accusation in respect of nurses or IT consultants.\"（第F段）\nPDF 解析：类比\"指责律师=指责IT人员或护士\"。\n\n题目 25\n答案：dedication\nPDF 定位：\"the quality of the service... relies on considerable professional dedication.\"（第F段）\nPDF 解析：to theirwork\"对应\"需要奉献/投入\"。 题干\"requires them to have,\n\n题目 26\n答案：documents\nPDF 定位：\"much legal work... is primarily concerned with drafting documents.\" (第F段）\nPDF 解析：律师大量时间用于撰写文件。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：truth\nPDF 定位：\"professionals whose concerns put personal reward above truth ... (第F段首句)\nPDF 解析：题干\"isoflittleinteresttolawyers\"对应原文\"把个人回报置于真理/真 实之上\"。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：journalists\nPDF 定位：\"just as there are some scientists, journalists and others in that category.(第F段）\nPDF 解析：概括\"some or scientific experts\"，与\"scientific experts\"并列的职 业是journalists。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "题目 24\n答案：nurses\nPDF 定位：..than it is to make the same accusation in respect of nurses or IT consultants.\"（第F段）\nPDF 解析：类比\"指责律师=指责IT人员或护士\"。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 25,
+            "text": "题目 25\n答案：dedication\nPDF 定位：\"the quality of the service... relies on considerable professional dedication.\"（第F段）\nPDF 解析：to theirwork\"对应\"需要奉献/投入\"。 题干\"requires them to have,"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 26,
+            "text": "题目 26\n答案：documents\nPDF 定位：\"much legal work... is primarily concerned with drafting documents.\" (第F段）\nPDF 解析：律师大量时间用于撰写文件。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

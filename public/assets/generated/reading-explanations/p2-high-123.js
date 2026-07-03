@@ -10,78 +10,59 @@
     "examId": "p2-high-123",
     "title": "Bird Migration 鸟类迁徙",
     "category": "P2",
-    "sourceDoc": "P2 33-59之_副本.md",
-    "noteType": "总结",
-    "matchedTitle": "Bird Migration 鸟类迁徙【高】"
+    "sourceDoc": "36. P2 - Bird Migration 鸟类迁徙.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Bird Migration 鸟类迁徙",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
   },
   "passageNotes": [
     {
-      "label": "Paragraph A",
-      "text": "鸟类拥有诸多独特生理结构，使其能完成惊人的耐力迁徙：轻质空心骨骼、兼顾升力与推力的复杂羽毛、远超人类的导航系统、高效保温设计（血液循环集中在温暖防水羽毛下，适应极端气候）。鸟类呼吸系统需在高空持续飞行中高效运作，其肺部氧气提取系统效率远超其他动物。夏季繁殖季后期食物充足时，鸟类体内会积累大量脂肪，为长途迁徙提供能量。"
-    },
-    {
-      "label": "Paragraph B",
-      "text": "鸟类迁徙的根本原因是冬季食物短缺时寻找充足食物，这对在北半球温带和北极地区繁殖的鸟类尤为重要 —— 这些地区短暂生长季内食物丰富，但许多鸟类虽能耐受低温，却无法在食物匮乏时生存，因此必须迁徙。尽管如此，仍有诸多耐人寻味的问题待解。"
-    },
-    {
-      "label": "Paragraph C",
-      "text": "一个令人困惑的现象是，许多鸟类迁徙距离远超寻找食物和适宜天气的必要范围。例如，英国雨燕本可在赤道非洲过冬，却选择再飞行数千英里前往南非开普省；北极燕鸥和极地附近繁殖的滩涂滨鸟也有超长迁徙 —— 繁殖地越靠北的物种，越冬地越靠南，北极燕鸥每年往返需 2.5 万英里。更奇怪的是，它们在前往南半球越冬地的途中，会飞越两个半球内看似适宜的栖息地，人类尚无法完全理解鸟类选择特定越冬地的原因，只能惊叹其迁徙壮举。"
-    },
-    {
-      "label": "Paragraph D",
-      "text": "最大谜团之一是幼鸟如何在无亲鸟引导的情况下找到传统越冬地。极少有成鸟带领幼鸟迁徙，幼鸟甚至可能不认识亲鸟。布谷鸟便是典型案例：它将卵产在其他鸟类巢中，从不与幼鸟见面，但幼鸟被义亲抚养长大后，仍能独自飞往热带越冬地，次年再返回北欧寻找同类交配。这暗示幼鸟从亲鸟处继承了内置路线图、方向识别能力及同类外形认知，但目前无人知晓其实现机制。"
-    },
-    {
-      "label": "Paragraph E",
-      "text": "越来越多证据表明，鸟类通过太阳和星辰位置确定方向，还能感知地球磁场（可能因脑部存在微量磁铁矿晶体）。但精准导航还需感知位置和时间（尤其迷路时），实验显示，鸟类被带至数千英里外陌生陆地后，仍能快速返回巢址。这种非凡能力源于对多种复杂信号的整合，包括天生的夜空地图和地球磁场引力。鸟类如何使用这些 “工具” 仍未知，但可确定的是，它们的感官感知远超人类。多数小型鸟类夜间迁徙，通过日落位置导航，同时还能感知日落产生的偏振光，校准罗盘。夜间迁徙还具备其他优势：避开日间捕食者、降低在温暖日照下长时间飞行导致的脱水风险，且夜间空气凉爽、湍流少，利于持续稳定飞行。"
-    },
-    {
-      "label": "Paragraph F",
-      "text": "然而，所有迁徙都伴随巨大风险，安全抵达的关键技能之一是 “适时出发”—— 这需要精准天气预报和利用顺风。鸟类擅长这两项技能，实验室测试显示，部分鸟类能感知房间地板与天花板间微小的气压差异，还能在天气变化显现前做出反应。例如，以草地为食的凤头麦鸡，在寒潮来临时会从荷兰西迁至不列颠群岛、法国和西班牙（地面结冰会导致它们挨饿），而在融雪前又会返回荷兰，其归期与预示天气好转的气压变化相关。"
-    },
-    {
-      "label": "Paragraph G",
-      "text": "曾有一只威尔士曼岛剪水鹱被带至美国放飞，竟比宣布其放飞的信件早一天返回彭布罗克郡海岸附近的斯科霍姆岛巢穴；相反，每年秋季都有少量北美鸟类被快速西风带吹过大西洋，不仅安全抵达欧洲，环志证据显示，部分鸟类次年春季还能返回北美（可能在非洲温暖地区与欧洲迁徙鸟类共同越冬）。"
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
     }
   ],
   "questionExplanations": [
     {
-      "sectionTitle": "1. 段落标题匹配（Questions 14–20：Choose the correct heading）",
+      "sectionTitle": "1. matching (Questions 14-20)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 14,
-          "text": "（1）题目 14：Paragraph A\n答案：iv（Physical characteristics that allow birds to migrate，使鸟类能够迁徙的生理特征）\n解析：Paragraph A 详细列举鸟类的 “轻质骨骼、特殊羽毛、高效呼吸、脂肪积累” 等生理结构，核心是 “支持迁徙的生理特征”，与标题 iv 一致，因此选 iv。",
+          "text": "题目 14\n答案：iv\nPDF 定位：岛类得以迁徒的身体特征\nPDF 解析：\"轻巧的中空骨略...精密的导航系统..保温的 A段在集中罗列\"鸟为什么能飞、能长途飞\"的硬 第A段: \"lightweight, hollow bones - a 件条件（骨络、导航、保温、呼吸系统等），主题 结构设计 finelytuned navigation system ..heat 是迁徒能力的身体基础，对应i。 conserving design ..*",
           "questionId": "q1"
         },
         {
           "questionNumber": 15,
-          "text": "（2）题目 15：Paragraph B\n答案：v（The main reason why birds migrate，鸟类迁徙的主要原因）\n解析：Paragraph B 开篇即指出 “鸟类迁徙的根本原因是冬季寻找充足食物”，核心是 “迁徙的主要原因”，与标题 v 一致，因此选 v。",
+          "text": "题目 15\n答案：v\nPDF 定位：鸟类迁徒的主要原因\nPDF 解析：\"大多数解释都围统着食物。\" 第B段：\"Most of the explanationrevolves B段开头点题：迁链主要是为追逐季节性食物 around food* 资源（丰涛就去利用，医乏/严寒就离开)，所 以造 iv。",
           "questionId": "q2"
         },
         {
           "questionNumber": 16,
-          "text": "（3）题目 16：Paragraph C\n答案：ii（The unexplained rejection of closer feeding grounds，无法解释的对更近觅食地的排斥）\n解析：Paragraph C 强调 “鸟类迁徙远超必要距离，飞越适宜栖息地却不停留”，核心是 “无法解释为何排斥近觅食地”，与标题 ii 一致，因此选 ii。",
+          "text": "题目 16\n答案：ii\nPDF 定位：对更近觅食地/栖息地的\"莫名放弃\"\nPDF 解析：C段提出诞团：它们明明可以在\"看似合适\"的区 第 C骏: \"many birds journey much further \"许多岛迁提得运远超过所必需的距高 域停下，却仍继续飞向更运处（\"overfly areas than would be necessary .. of seemingly suitable habitat\")，这正是\"不 选择更近地点的未解现象\"，对应×",
           "questionId": "q3"
         },
         {
           "questionNumber": 17,
-          "text": "（4）题目 17：Paragraph D\n答案：x（Mysterious migration despite lack of teaching，无教导却能完成的神秘迁徙）\n解析：Paragraph D 以布谷鸟为例，描述 “幼鸟无亲鸟引导仍能精准迁徙”，核心是 “无教导的神秘迁徙”，与标题 x 一致，因此选 x。",
+          "text": "题目 17\n答案：x\nPDF 定位：缺乏教导仍能成功迁德\nPDF 解析：第D段: \"how do young birds migrate .. \"幼岛没有亲鸟帮助，如何完成漫长迁德？\" D段的焦点是\"幼岛没被带飞/没被救，也能迁赞 without parental assistance?\" 成功\"，并用杜酶幼岛独自去祖先越冬地作例子， 国此选vi.",
           "questionId": "q4"
         },
         {
           "questionNumber": 18,
-          "text": "（5）题目 18：Paragraph E\n答案：vii（Research findings on how birds migrate，关于鸟类如何迁徙的研究发现）\n解析：Paragraph E 呈现 “鸟类通过太阳星辰、地球磁场导航” 等研究证据，核心是 “迁徙机制的研究发现”，与标题 vii 一致，因此选 vii。",
+          "text": "题目 18\n答案：vii\nPDF 定位：关于岛类如何解路的研究发现\nPDF 解析：第ER: \"birds use the sun and stars...; \"岛用太阳和星量...以及地球磁场。 E段全是\"研究证据/实验发现\"：太阳星辰、础 *the Earth's magnetic field.* 场、偏报光、送路仍能返回等，属于\"如何找到 路的研究结论\"，选V。",
           "questionId": "q5"
         },
         {
           "questionNumber": 19,
-          "text": "（6）题目 19：Paragraph F\n答案：i（The best moment to migrate，最佳迁徙时机）\n解析：Paragraph F 围绕 “适时出发的重要性（结合天气预报、利用顺风）” 展开，核心是 “最佳迁徙时机”，与标题 i 一致，因此选 i。",
+          "text": "题目 19\n答案：i\nPDF 定位：选择最佳迁徒时机\nPDF 解析：F段强调\"安全到达的关键技能之一是择时\"，并 第F段: \"setting off at the right time.* \"在合适的时间出发，\" 提到天气预报、利用有利风等，完全对应1。",
           "questionId": "q6"
         },
         {
           "questionNumber": 20,
-          "text": "（7）题目 20：Paragraph G\n答案：viii（Successful migration despite the trouble of wind，尽管有风干扰仍成功迁徙）\n解析：Paragraph G 列举 “剪水鹱逆风返回、北美鸟类被风吹至欧洲仍能返程”，核心是 “有风干扰仍成功迁徙”，与标题 viii 一致，因此选 viii。",
+          "text": "题目 20\n答案：viii\nPDF 定位：迁键中尽管有风的麻烦仍可成功\nPDF 解析：第G段: \"birds get swept off course by \"岛会被强气疏流欧高航.：\"被西风带过大 G段先说风会把岛欧编导致死亡（风险），但也举 syr ssouoe unoq, _\" sassew Jje uo.s 西.能安全到. 例说有益岛被强西风吹到欧洲仍能生存，基至次 Atianti . arrive safely... 年飞回（成功)。这就是\"有风的困难下仍可能成 功\"，所以选ix（不是vi，因为没讲\"大型岛如 何利用风\"的机制。",
           "questionId": "q7"
         }
       ],
@@ -89,40 +70,51 @@
         "start": 14,
         "end": 20
       },
-      "text": "答案：iv（Physical characteristics that allow birds to migrate，使鸟类能够迁徙的生理特征）\n解析：Paragraph A 详细列举鸟类的 “轻质骨骼、特殊羽毛、高效呼吸、脂肪积累” 等生理结构，核心是 “支持迁徙的生理特征”，与标题 iv 一致，因此选 iv。\n答案：v（The main reason why birds migrate，鸟类迁徙的主要原因）\n解析：Paragraph B 开篇即指出 “鸟类迁徙的根本原因是冬季寻找充足食物”，核心是 “迁徙的主要原因”，与标题 v 一致，因此选 v。\n答案：ii（The unexplained rejection of closer feeding grounds，无法解释的对更近觅食地的排斥）\n解析：Paragraph C 强调 “鸟类迁徙远超必要距离，飞越适宜栖息地却不停留”，核心是 “无法解释为何排斥近觅食地”，与标题 ii 一致，因此选 ii。\n答案：x（Mysterious migration despite lack of teaching，无教导却能完成的神秘迁徙）\n解析：Paragraph D 以布谷鸟为例，描述 “幼鸟无亲鸟引导仍能精准迁徙”，核心是 “无教导的神秘迁徙”，与标题 x 一致，因此选 x。\n答案：vii（Research findings on how birds migrate，关于鸟类如何迁徙的研究发现）\n解析：Paragraph E 呈现 “鸟类通过太阳星辰、地球磁场导航” 等研究证据，核心是 “迁徙机制的研究发现”，与标题 vii 一致，因此选 vii。\n答案：i（The best moment to migrate，最佳迁徙时机）\n解析：Paragraph F 围绕 “适时出发的重要性（结合天气预报、利用顺风）” 展开，核心是 “最佳迁徙时机”，与标题 i 一致，因此选 i。\n答案：viii（Successful migration despite the trouble of wind，尽管有风干扰仍成功迁徙）\n解析：Paragraph G 列举 “剪水鹱逆风返回、北美鸟类被风吹至欧洲仍能返程”，核心是 “有风干扰仍成功迁徙”，与标题 viii 一致，因此选 viii。"
+      "text": "题目 14\n答案：iv\nPDF 定位：岛类得以迁徒的身体特征\nPDF 解析：\"轻巧的中空骨略...精密的导航系统..保温的 A段在集中罗列\"鸟为什么能飞、能长途飞\"的硬 第A段: \"lightweight, hollow bones - a 件条件（骨络、导航、保温、呼吸系统等），主题 结构设计 finelytuned navigation system ..heat 是迁徒能力的身体基础，对应i。 conserving design ..*\n\n题目 15\n答案：v\nPDF 定位：鸟类迁徒的主要原因\nPDF 解析：\"大多数解释都围统着食物。\" 第B段：\"Most of the explanationrevolves B段开头点题：迁链主要是为追逐季节性食物 around food* 资源（丰涛就去利用，医乏/严寒就离开)，所 以造 iv。\n\n题目 16\n答案：ii\nPDF 定位：对更近觅食地/栖息地的\"莫名放弃\"\nPDF 解析：C段提出诞团：它们明明可以在\"看似合适\"的区 第 C骏: \"many birds journey much further \"许多岛迁提得运远超过所必需的距高 域停下，却仍继续飞向更运处（\"overfly areas than would be necessary .. of seemingly suitable habitat\")，这正是\"不 选择更近地点的未解现象\"，对应×\n\n题目 17\n答案：x\nPDF 定位：缺乏教导仍能成功迁德\nPDF 解析：第D段: \"how do young birds migrate .. \"幼岛没有亲鸟帮助，如何完成漫长迁德？\" D段的焦点是\"幼岛没被带飞/没被救，也能迁赞 without parental assistance?\" 成功\"，并用杜酶幼岛独自去祖先越冬地作例子， 国此选vi.\n\n题目 18\n答案：vii\nPDF 定位：关于岛类如何解路的研究发现\nPDF 解析：第ER: \"birds use the sun and stars...; \"岛用太阳和星量...以及地球磁场。 E段全是\"研究证据/实验发现\"：太阳星辰、础 *the Earth's magnetic field.* 场、偏报光、送路仍能返回等，属于\"如何找到 路的研究结论\"，选V。\n\n题目 19\n答案：i\nPDF 定位：选择最佳迁徒时机\nPDF 解析：F段强调\"安全到达的关键技能之一是择时\"，并 第F段: \"setting off at the right time.* \"在合适的时间出发，\" 提到天气预报、利用有利风等，完全对应1。\n\n题目 20\n答案：viii\nPDF 定位：迁键中尽管有风的麻烦仍可成功\nPDF 解析：第G段: \"birds get swept off course by \"岛会被强气疏流欧高航.：\"被西风带过大 G段先说风会把岛欧编导致死亡（风险），但也举 syr ssouoe unoq, _\" sassew Jje uo.s 西.能安全到. 例说有益岛被强西风吹到欧洲仍能生存，基至次 Atianti . arrive safely... 年飞回（成功)。这就是\"有风的困难下仍可能成 功\"，所以选ix（不是vi，因为没讲\"大型岛如 何利用风\"的机制。"
     },
     {
-      "sectionTitle": "2. 多选题（Questions 21–22：Choose TWO letters）",
-      "mode": "per_question",
-      "items": [],
+      "sectionTitle": "2. multi choice (Questions 21-22)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：A\nPDF 定位：许多岛类迁徒的距高比\"必要距离\"更长，\nPDF 解析：原文几乎同义改写：muchfurther than would 第C段: \"many birds jourmey much further \"许多岛迁链得远运超过.所必需的距离。\" than would be necessary .. be necessary=\"比需要的更远\"，所以A 正确。",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 22,
+          "text": "题目 22\n答案：C\nPDF 定位：如果夜间迁徒，岛类需要更少的水(不易脱水)。\nPDF 解析：第E段: \"the risk of dehydration .. is 题干把机制换成结果表达：夜间飞行减少在\"温 \"脱水的风险降低了 reduced* 暖日照天空中长时间飞行\"的脱水风险→实际上 水分流失更少/对水的需求更低，所以C正确。 B/D/E原文均未支持，且D、E与文意相反（风会 欧偏；还举例说明被吹到欧洲的北美岛也能活)。",
+          "questionId": "q9"
+        }
+      ],
       "questionRange": {
         "start": 21,
         "end": 22
       },
-      "text": "题目：Which TWO of the following statements are true of bird migration?（以下哪两项关于鸟类迁徙的表述正确？）\n答案：A、C\n选项 A：Birds often fly further than they need to.（鸟类迁徙距离常远超必要范围）\n解析：定位 Paragraph C 中 “many birds journey much further than would be necessary just to find food and good weather”，明确提到鸟类迁徙距离远超寻找食物和天气的必要范围，A 符合。\n- 选项 C：Birds flying at night need less water.（夜间飞行的鸟类对水的需求更低）\n解析：定位 Paragraph E 中 “Travelling at night... the danger of dehydration due to flying for long periods in warm, sunlit skies is reduced”，“脱水风险降低” 意味着对水的需求更少，C 符合。\n- 排除 B：Paragraph D 指出 “极少有成鸟带领幼鸟迁徙”，且未提及 “家庭群体安全”；排除 D：文中仅说鸟类 “感官感知远超人类”，未特指 “视力更锐利”；排除 E：Paragraph G 显示 “被风吹过大西洋的不止岸鸟”，且未提及 “岸鸟抗风”，E 错误。"
+      "text": "题目 21\n答案：A\nPDF 定位：许多岛类迁徒的距高比\"必要距离\"更长，\nPDF 解析：原文几乎同义改写：muchfurther than would 第C段: \"many birds jourmey much further \"许多岛迁链得远运超过.所必需的距离。\" than would be necessary .. be necessary=\"比需要的更远\"，所以A 正确。\n\n题目 22\n答案：C\nPDF 定位：如果夜间迁徒，岛类需要更少的水(不易脱水)。\nPDF 解析：第E段: \"the risk of dehydration .. is 题干把机制换成结果表达：夜间飞行减少在\"温 \"脱水的风险降低了 reduced* 暖日照天空中长时间飞行\"的脱水风险→实际上 水分流失更少/对水的需求更低，所以C正确。 B/D/E原文均未支持，且D、E与文意相反（风会 欧偏；还举例说明被吹到欧洲的北美岛也能活)。"
     },
     {
-      "sectionTitle": "3. 句子填空（Questions 23–26：NO MORE THAN TWO WORDS）",
+      "sectionTitle": "3. sentence completion (Questions 23-26)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 23,
-          "text": "（1）题目 23：It is a great mystery that young birds like cuckoos can find their wintering grounds without \\___\\___\\___\\_.\n题目翻译：像布谷鸟这样的幼鸟能在没有_\\___\\___\\___的情况下找到越冬地，这是一个巨大谜团。\n答案：parental guidance（亲鸟引导）\n解析：定位 Paragraph D 中 “how young birds know how to find the traditional wintering areas without parental guidance”，明确提到幼鸟无 “亲鸟引导” 仍能找到越冬地，因此答案为 “parental guidance”。",
+          "text": "题目 23\n答案：parental guidance\nPDF 定位：杜鹏能够迁徒，尽管缺乏 的引导。 第D段：\"without parental assistance\"\nPDF 解析：\"没有亲鸟的帮助。\" 题干把assistance（帮助）换成guidance（引 导)，但核心信息一致：缺乏\"亲代/父母\"的带 领，所以填parental。",
           "questionId": "q10"
         },
         {
           "questionNumber": 24,
-          "text": "（2）题目 24：Evidence shows birds can tell directions like a \\___\\___\\____ by observing the sun and the stars.\n题目翻译：证据表明，鸟类可通过观察太阳和星辰辨别方向，如同使用_\\___\\___\\___。\n答案：compass（指南针）\n解析：定位 Paragraph E 中 “birds use the positions of the sun and stars to obtain compass directions”，“obtain compass directions” 对应 “tell directions like a compass”，因此答案为 “compass”。",
+          "text": "题目 24\n答案：compass\nPDF 定位：第E段： \"the danger of meeting predators ... 夜间迁徙对鸟有利， 因为它们可以避免与 接触。 is reduced.\"\nPDF 解析：\"遇到捕食者的危险降低了。\" \"avoid contact with...\"对应原文\"meeting predators\"（遇到捕食者）。因此填predators。",
           "questionId": "q11"
         },
         {
           "questionNumber": 25,
-          "text": "（3）题目 25：One advantage for birds flying at night is that they can avoid contact with \\___\\___\\___\\_.\n题目翻译：鸟类夜间飞行的一个优势是能避免接触_\\___\\___\\___。\n答案：(daytime) predators（日间捕食者）\n解析：定位 Paragraph E 中 “Traveling at night provides other benefits. Daytime predators are avoided”，明确提到夜间飞行可避开 “日间捕食者”，因此答案为 “(daytime) predators”（括号内词汇可省略，仅填 “predators” 也符合要求）。",
+          "text": "题目 25\n答案：daytime predators\nPDF 定位：有些鸟能在没有 第F段: \"before there is any visible sign of 线索的情况下预判 天气变化。 them.\"\nPDF 解析：\"在出现任何可见迹象之前。\" 题干\"clues\"对应原文\"sign\"；\"without visibleclues\"=\"在没有任何可见迹象前就能反 应/预判\"，因此填visible。",
           "questionId": "q12"
         },
         {
           "questionNumber": 26,
-          "text": "（4）题目 26：Laboratory tests show that birds can detect weather without \\___\\___\\____ signs.\n题目翻译：实验室测试显示，鸟类能在没有_\\___\\___\\___迹象的情况下感知天气变化。\n答案：visible（可见的）\n解析：定位 Paragraph F 中 “Often birds react to weather changes before there is any visible sign of them”，“before there is any visible sign” 对应 “without visible signs”，因此答案为 “visible”。",
+          "text": "题目 26\n答案：visible\nPDF 定位：过去，人们认为鸟在黑暗中飞行时会 第G段：\"hopelessly lost.\"\nPDF 解析：\"彻底迷失方向。\" 题干是对旧观点的概括：过去以为黑暗中没有 参照点会\"遂路\"，原文直接给出lost，所以 填lost,",
           "questionId": "q13"
         }
       ],
@@ -130,7 +122,7 @@
         "start": 23,
         "end": 26
       },
-      "text": "题目翻译：像布谷鸟这样的幼鸟能在没有_\\___\\___\\___的情况下找到越冬地，这是一个巨大谜团。\n答案：parental guidance（亲鸟引导）\n解析：定位 Paragraph D 中 “how young birds know how to find the traditional wintering areas without parental guidance”，明确提到幼鸟无 “亲鸟引导” 仍能找到越冬地，因此答案为 “parental guidance”。\n题目翻译：证据表明，鸟类可通过观察太阳和星辰辨别方向，如同使用_\\___\\___\\___。\n答案：compass（指南针）\n解析：定位 Paragraph E 中 “birds use the positions of the sun and stars to obtain compass directions”，“obtain compass directions” 对应 “tell directions like a compass”，因此答案为 “compass”。\n题目翻译：鸟类夜间飞行的一个优势是能避免接触_\\___\\___\\___。\n答案：(daytime) predators（日间捕食者）\n解析：定位 Paragraph E 中 “Traveling at night provides other benefits. Daytime predators are avoided”，明确提到夜间飞行可避开 “日间捕食者”，因此答案为 “(daytime) predators”（括号内词汇可省略，仅填 “predators” 也符合要求）。\n题目翻译：实验室测试显示，鸟类能在没有_\\___\\___\\___迹象的情况下感知天气变化。\n答案：visible（可见的）\n解析：定位 Paragraph F 中 “Often birds react to weather changes before there is any visible sign of them”，“before there is any visible sign” 对应 “without visible signs”，因此答案为 “visible”。"
+      "text": "题目 23\n答案：parental guidance\nPDF 定位：杜鹏能够迁徒，尽管缺乏 的引导。 第D段：\"without parental assistance\"\nPDF 解析：\"没有亲鸟的帮助。\" 题干把assistance（帮助）换成guidance（引 导)，但核心信息一致：缺乏\"亲代/父母\"的带 领，所以填parental。\n\n题目 24\n答案：compass\nPDF 定位：第E段： \"the danger of meeting predators ... 夜间迁徙对鸟有利， 因为它们可以避免与 接触。 is reduced.\"\nPDF 解析：\"遇到捕食者的危险降低了。\" \"avoid contact with...\"对应原文\"meeting predators\"（遇到捕食者）。因此填predators。\n\n题目 25\n答案：daytime predators\nPDF 定位：有些鸟能在没有 第F段: \"before there is any visible sign of 线索的情况下预判 天气变化。 them.\"\nPDF 解析：\"在出现任何可见迹象之前。\" 题干\"clues\"对应原文\"sign\"；\"without visibleclues\"=\"在没有任何可见迹象前就能反 应/预判\"，因此填visible。\n\n题目 26\n答案：visible\nPDF 定位：过去，人们认为鸟在黑暗中飞行时会 第G段：\"hopelessly lost.\"\nPDF 解析：\"彻底迷失方向。\" 题干是对旧观点的概括：过去以为黑暗中没有 参照点会\"遂路\"，原文直接给出lost，所以 填lost,"
     }
   ]
 }

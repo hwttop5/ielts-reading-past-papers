@@ -11,7 +11,7 @@
     "questionIntroHtml": "<h3>Questions</h3>",
     "originalTitle": "How the Petri dish supports scientific advances 培养皿"
   },
-  "explanationKey": null,
+  "explanationKey": "p2-low-08",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1651,7 +1651,62 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. table completion (Questions 14-29)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 29
+        },
+        "text": "题目 14\n答案：D\nPDF 定位：\"use ...Petri dishes every day to grow mouse liver and human liver cells\"...\"\"to study howthe liver canregenerate itself.\"(D段)\nPDF 解析：\"bothhumanandnon-human cellsofa specifictype\"=同时用人类 与小鼠这种非人的肝细胞做实验；且是同一种类型（livercells)。其余 段未出现同时使用人/非人同类型细胞的描述。\n\n题目 15\n答案：F\nPDF 定位：\"this work could translate into understanding far more about Alzheimer's,Parkinson's and schizophrenia.\"（F段)\nPDF 解析：\"possibilities for improved research into various medical conditions\"=未来可更好理解多种医学疾病（阿尔茨海默、帕金森、精 神分裂)。其他段虽谈研究，但未直接指向多种疾病研究前景。\n\n题目 16\n答案：A\nPDF 定位：deserve celebrating; they are stll at the forefront of scientific discovery.\"（A段）\nPDF 解析：\"contrastingviews\"=先给出低估的看法（只是浅盘），转折表示应被赞 颂且仍在前沿-形成对比观点。\n\n题目 17\n答案：C\nPDF 定位：\"Now, we grow cells in the Petri dish, and we don't use glass any more,butplastic.\"(C段)\nPDF 解析：\"achange... inthematerialused\"=Vallier明确指出材料从玻璃 改为塑料。\n\n题目 18\n答案：F\nPDF 定位：\"You keep an eye on it and you check it every day. You change the media this day or that day to help it grow better.\" (F 段)\nPDF 解析：\"monitor...onaregularbasis\"=每天检查、持续观察并调整培养基， 符合\"定期监测进展\"。\n\n题目 19\n答案：B\nPDF 定位：\"development ofglass scientific instruments,from microscope experimentalmethod!\"（B段)\nPDF 解析：\"importance of a material for different types of laboratory equipment\"=说明玻璃对不同器材（显微镜镜头、烧杯等）的关键性。\n\n题目 27\n答案：dimensions\nPDF 定位：\"want the cells to develop in three ...dimensions\"(E段)\nPDF 解析：使神经元在三维中生长。\n\n题目 28\n答案：structure\nPDF 定位：\"this new method gives you a structure that looks a lot more like ... a developing brain.\"(E段)\nPDF 解析：结果得到一个类似发育中大脑的结构。\n\n题目 29\n答案：species\nPDF 定位：\"how neurons are made and how that differs in humans\nPDF 解析：技术有助于比较不同物种的神经元产生差异。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：D\nPDF 定位：\"use ...Petri dishes every day to grow mouse liver and human liver cells\"...\"\"to study howthe liver canregenerate itself.\"(D段)\nPDF 解析：\"bothhumanandnon-human cellsofa specifictype\"=同时用人类 与小鼠这种非人的肝细胞做实验；且是同一种类型（livercells)。其余 段未出现同时使用人/非人同类型细胞的描述。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：F\nPDF 定位：\"this work could translate into understanding far more about Alzheimer's,Parkinson's and schizophrenia.\"（F段)\nPDF 解析：\"possibilities for improved research into various medical conditions\"=未来可更好理解多种医学疾病（阿尔茨海默、帕金森、精 神分裂)。其他段虽谈研究，但未直接指向多种疾病研究前景。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：A\nPDF 定位：deserve celebrating; they are stll at the forefront of scientific discovery.\"（A段）\nPDF 解析：\"contrastingviews\"=先给出低估的看法（只是浅盘），转折表示应被赞 颂且仍在前沿-形成对比观点。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：C\nPDF 定位：\"Now, we grow cells in the Petri dish, and we don't use glass any more,butplastic.\"(C段)\nPDF 解析：\"achange... inthematerialused\"=Vallier明确指出材料从玻璃 改为塑料。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：F\nPDF 定位：\"You keep an eye on it and you check it every day. You change the media this day or that day to help it grow better.\" (F 段)\nPDF 解析：\"monitor...onaregularbasis\"=每天检查、持续观察并调整培养基， 符合\"定期监测进展\"。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：B\nPDF 定位：\"development ofglass scientific instruments,from microscope experimentalmethod!\"（B段)\nPDF 解析：\"importance of a material for different types of laboratory equipment\"=说明玻璃对不同器材（显微镜镜头、烧杯等）的关键性。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：dimensions\nPDF 定位：\"want the cells to develop in three ...dimensions\"(E段)\nPDF 解析：使神经元在三维中生长。"
+          },
+          {
+            "questionId": "q15",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：structure\nPDF 定位：\"this new method gives you a structure that looks a lot more like ... a developing brain.\"(E段)\nPDF 解析：结果得到一个类似发育中大脑的结构。"
+          },
+          {
+            "questionId": "q16",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：species\nPDF 定位：\"how neurons are made and how that differs in humans\nPDF 解析：技术有助于比较不同物种的神经元产生差异。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2201,7 +2256,47 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. matching (Questions 20-25)",
+        "mode": "group",
+        "questionRange": {
+          "start": 20,
+          "end": 25
+        },
+        "text": "题目 20\n答案：C\nPDF 定位：\"You can divide regeneration into different phases ... realise damage →activate the response→proliferate ...becomefunctional cells.\"(D段)\nPDF 解析：题干\"go through a series of activities in a particular order\"=Huch把再生过程拆成阶段顺序。其他人未谈按序 列的细胞反应。\n\n题目 21\n答案：A\nPDF 定位：\"without glass, the Renaissance and the scientific revolution would never have happened ... 'Glass allowed the growth of the experimental method!\" (B段)\nPDF 解析：\"one technological development formed the basis of all modernscientificresearch\"=玻璃技术奠定了实验方法→ 现代科学研究之基。\n\n题目 22\n答案：D\nPDF 定位：\"the dish has been specially treated to stop cells sticking ... grow in three dimensions ... gives you a structure that looks more like an actual developing brain.\"(E段)\nPDF 解析：\"A modification to the Petri dish ... provide more accurateinformation\"=特殊处理使细胞三维生长，得到更 接近真实大脑的结构→信息更准确。\n\n题目 23\n答案：B\nPDF 定位：\"We can't look inside a patient's liver ... so we are reproducing those diseases in our dishes.\"(C 段)\nPDF 解析：\"observe medical conditions that are normally impossibletoobserve\"=体内无法直接看见，通过培养血 复现疾病来观察。\n\n题目 24\n答案：A\nPDF 定位：\"Don't trust what you are being told: see it for yourself.\"（B段）\nPDF 解析：\"Visual evidence is very important for reliable information\"=强调亲眼观察（视觉证据）是可靠知识 的关键。\n\n题目 25\n答案：B\nPDF 定位：\"allow the cells to become neurons,cardiac cells, liver cells,and so on.\"(c段)\nPDF 解析：\"help produce a range of new cells of many different kinds\"=干细胞在培养血里被诱导为多种细胞类型。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：C\nPDF 定位：\"You can divide regeneration into different phases ... realise damage →activate the response→proliferate ...becomefunctional cells.\"(D段)\nPDF 解析：题干\"go through a series of activities in a particular order\"=Huch把再生过程拆成阶段顺序。其他人未谈按序 列的细胞反应。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：A\nPDF 定位：\"without glass, the Renaissance and the scientific revolution would never have happened ... 'Glass allowed the growth of the experimental method!\" (B段)\nPDF 解析：\"one technological development formed the basis of all modernscientificresearch\"=玻璃技术奠定了实验方法→ 现代科学研究之基。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：D\nPDF 定位：\"the dish has been specially treated to stop cells sticking ... grow in three dimensions ... gives you a structure that looks more like an actual developing brain.\"(E段)\nPDF 解析：\"A modification to the Petri dish ... provide more accurateinformation\"=特殊处理使细胞三维生长，得到更 接近真实大脑的结构→信息更准确。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：B\nPDF 定位：\"We can't look inside a patient's liver ... so we are reproducing those diseases in our dishes.\"(C 段)\nPDF 解析：\"observe medical conditions that are normally impossibletoobserve\"=体内无法直接看见，通过培养血 复现疾病来观察。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "题目 24\n答案：A\nPDF 定位：\"Don't trust what you are being told: see it for yourself.\"（B段）\nPDF 解析：\"Visual evidence is very important for reliable information\"=强调亲眼观察（视觉证据）是可靠知识 的关键。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 25,
+            "text": "题目 25\n答案：B\nPDF 定位：\"allow the cells to become neurons,cardiac cells, liver cells,and so on.\"(c段)\nPDF 解析：\"help produce a range of new cells of many different kinds\"=干细胞在培养血里被诱导为多种细胞类型。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2453,7 +2548,62 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. table completion (Questions 14-29)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 29
+        },
+        "text": "题目 14\n答案：D\nPDF 定位：\"use ...Petri dishes every day to grow mouse liver and human liver cells\"...\"\"to study howthe liver canregenerate itself.\"(D段)\nPDF 解析：\"bothhumanandnon-human cellsofa specifictype\"=同时用人类 与小鼠这种非人的肝细胞做实验；且是同一种类型（livercells)。其余 段未出现同时使用人/非人同类型细胞的描述。\n\n题目 15\n答案：F\nPDF 定位：\"this work could translate into understanding far more about Alzheimer's,Parkinson's and schizophrenia.\"（F段)\nPDF 解析：\"possibilities for improved research into various medical conditions\"=未来可更好理解多种医学疾病（阿尔茨海默、帕金森、精 神分裂)。其他段虽谈研究，但未直接指向多种疾病研究前景。\n\n题目 16\n答案：A\nPDF 定位：deserve celebrating; they are stll at the forefront of scientific discovery.\"（A段）\nPDF 解析：\"contrastingviews\"=先给出低估的看法（只是浅盘），转折表示应被赞 颂且仍在前沿-形成对比观点。\n\n题目 17\n答案：C\nPDF 定位：\"Now, we grow cells in the Petri dish, and we don't use glass any more,butplastic.\"(C段)\nPDF 解析：\"achange... inthematerialused\"=Vallier明确指出材料从玻璃 改为塑料。\n\n题目 18\n答案：F\nPDF 定位：\"You keep an eye on it and you check it every day. You change the media this day or that day to help it grow better.\" (F 段)\nPDF 解析：\"monitor...onaregularbasis\"=每天检查、持续观察并调整培养基， 符合\"定期监测进展\"。\n\n题目 19\n答案：B\nPDF 定位：\"development ofglass scientific instruments,from microscope experimentalmethod!\"（B段)\nPDF 解析：\"importance of a material for different types of laboratory equipment\"=说明玻璃对不同器材（显微镜镜头、烧杯等）的关键性。\n\n题目 27\n答案：dimensions\nPDF 定位：\"want the cells to develop in three ...dimensions\"(E段)\nPDF 解析：使神经元在三维中生长。\n\n题目 28\n答案：structure\nPDF 定位：\"this new method gives you a structure that looks a lot more like ... a developing brain.\"(E段)\nPDF 解析：结果得到一个类似发育中大脑的结构。\n\n题目 29\n答案：species\nPDF 定位：\"how neurons are made and how that differs in humans\nPDF 解析：技术有助于比较不同物种的神经元产生差异。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：D\nPDF 定位：\"use ...Petri dishes every day to grow mouse liver and human liver cells\"...\"\"to study howthe liver canregenerate itself.\"(D段)\nPDF 解析：\"bothhumanandnon-human cellsofa specifictype\"=同时用人类 与小鼠这种非人的肝细胞做实验；且是同一种类型（livercells)。其余 段未出现同时使用人/非人同类型细胞的描述。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：F\nPDF 定位：\"this work could translate into understanding far more about Alzheimer's,Parkinson's and schizophrenia.\"（F段)\nPDF 解析：\"possibilities for improved research into various medical conditions\"=未来可更好理解多种医学疾病（阿尔茨海默、帕金森、精 神分裂)。其他段虽谈研究，但未直接指向多种疾病研究前景。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：A\nPDF 定位：deserve celebrating; they are stll at the forefront of scientific discovery.\"（A段）\nPDF 解析：\"contrastingviews\"=先给出低估的看法（只是浅盘），转折表示应被赞 颂且仍在前沿-形成对比观点。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：C\nPDF 定位：\"Now, we grow cells in the Petri dish, and we don't use glass any more,butplastic.\"(C段)\nPDF 解析：\"achange... inthematerialused\"=Vallier明确指出材料从玻璃 改为塑料。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：F\nPDF 定位：\"You keep an eye on it and you check it every day. You change the media this day or that day to help it grow better.\" (F 段)\nPDF 解析：\"monitor...onaregularbasis\"=每天检查、持续观察并调整培养基， 符合\"定期监测进展\"。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：B\nPDF 定位：\"development ofglass scientific instruments,from microscope experimentalmethod!\"（B段)\nPDF 解析：\"importance of a material for different types of laboratory equipment\"=说明玻璃对不同器材（显微镜镜头、烧杯等）的关键性。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：dimensions\nPDF 定位：\"want the cells to develop in three ...dimensions\"(E段)\nPDF 解析：使神经元在三维中生长。"
+          },
+          {
+            "questionId": "q15",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：structure\nPDF 定位：\"this new method gives you a structure that looks a lot more like ... a developing brain.\"(E段)\nPDF 解析：结果得到一个类似发育中大脑的结构。"
+          },
+          {
+            "questionId": "q16",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：species\nPDF 定位：\"how neurons are made and how that differs in humans\nPDF 解析：技术有助于比较不同物种的神经元产生差异。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

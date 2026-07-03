@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p3-low-74",
+  "meta": {
+    "examId": "p3-low-74",
+    "title": "The Placebo Effect5",
+    "category": "P3",
+    "sourceDoc": "165. P3 - The Placebo Effect5 安慰剂效应.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The Placebo Effect5 安慰剂效应",
+    "ocrPages": [
+      6,
+      7
+    ],
+    "pdfPageCount": 7,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. short answer (Questions 27-31)",
+      "mode": "group",
+      "questionRange": {
+        "start": 27,
+        "end": 31
+      },
+      "text": "题目 27\n答案：D\nPDF 定位：与一位替代疗法从业者的预约-应至少持续到 \"each session with your patients should 一个最短时长 take at least half an hour.\" (第1段)\nPDF 解析：\"每一次与病人的会诊至少应持续半小时。\" *ought to last a minimum length of time\" 与 \"atleasthalf an hour\"完全同义。排除：A（易 懂）谈的是解释；C（花费更少）原文无；E（需要 一系列产品）未提。\n\n题目 28\n答案：A\nPDF 定位：替代疗法从业者对其治疗的解释-应该容 \"Describe your treatment in familiar words, 易理解 but embroidered with a hint of mysticism... (第1段)\nPDF 解析：\"familiarwords=易懂的词\"。虽然有\"神秘色 \"用熟悉的词语来描述你的疗法，但可点缓一些 神秘色彩 彩\"，但主谓核心是\"用熟悉的词语\"。排除：E （需要不同产品）说的是解释方式而非用具；F (严重的)无关。\n\n题目 29\n答案：H\nPDF 定位：如果替代疗法从业者真心相信自己的疗法，他们 And a very good living if you are sufficiently convincing or, better still, really believe in 应当能获得高收入 your therapy.\"(第2段）\nPDF 解析：\"averygood living=高收入\"；条件就是 \"如果你足够有说服力，或者更好地说，真心相 信你的疗法，你就能谋得非常体面的生计。\" \"believe in your therapy\"。排除：B(无治疗也 会好转）说的是病情，不是从业者收入；D时 长）已用于27。\n\n题目 30\n答案：B\nPDF 定位：常常，病人的疾病-无需治疗也会好转 \"Many illnesses get better on their own, so if you are lucky ... you'll get the credit.* (第2段)\nPDF 解析：\"can improve without treatment=会自行好 \"许多疾病会自行好转，因此若你时机合适便会 转\"。排除：F(严重）文中未给严重性判断。 被归功于你。\"\n\n题目 31\n答案：G\nPDF 定位：传统医生意识到安慰剂效应，并且他们-应该 \"a paradoxical force that conventional medicine recognizes but remains oddly 给予其更高的认可 ambivalent about: the placebo effect.\" (第 2 段); \"the placebo is a powerful part of all medical care .. hough its role is often neglected and misunderstood.\" (第3段)\nPDF 解析：\"应给予更高认可\"=对\"矛盾/忽视\"态度的应然 \"传统医学承认安慰剂效应，但态度矛盾。\"；\"安 慰剂是所有医疗中有力的一部分，但其作用常被 纠偏。排除：C（更省钱）未提；E（需要多种产 忽视与误解。\" 品）与解释不符。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 27,
+          "text": "题目 27\n答案：D\nPDF 定位：与一位替代疗法从业者的预约-应至少持续到 \"each session with your patients should 一个最短时长 take at least half an hour.\" (第1段)\nPDF 解析：\"每一次与病人的会诊至少应持续半小时。\" *ought to last a minimum length of time\" 与 \"atleasthalf an hour\"完全同义。排除：A（易 懂）谈的是解释；C（花费更少）原文无；E（需要 一系列产品）未提。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 28,
+          "text": "题目 28\n答案：A\nPDF 定位：替代疗法从业者对其治疗的解释-应该容 \"Describe your treatment in familiar words, 易理解 but embroidered with a hint of mysticism... (第1段)\nPDF 解析：\"familiarwords=易懂的词\"。虽然有\"神秘色 \"用熟悉的词语来描述你的疗法，但可点缓一些 神秘色彩 彩\"，但主谓核心是\"用熟悉的词语\"。排除：E （需要不同产品）说的是解释方式而非用具；F (严重的)无关。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 29,
+          "text": "题目 29\n答案：H\nPDF 定位：如果替代疗法从业者真心相信自己的疗法，他们 And a very good living if you are sufficiently convincing or, better still, really believe in 应当能获得高收入 your therapy.\"(第2段）\nPDF 解析：\"averygood living=高收入\"；条件就是 \"如果你足够有说服力，或者更好地说，真心相 信你的疗法，你就能谋得非常体面的生计。\" \"believe in your therapy\"。排除：B(无治疗也 会好转）说的是病情，不是从业者收入；D时 长）已用于27。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 30,
+          "text": "题目 30\n答案：B\nPDF 定位：常常，病人的疾病-无需治疗也会好转 \"Many illnesses get better on their own, so if you are lucky ... you'll get the credit.* (第2段)\nPDF 解析：\"can improve without treatment=会自行好 \"许多疾病会自行好转，因此若你时机合适便会 转\"。排除：F(严重）文中未给严重性判断。 被归功于你。\""
+        },
+        {
+          "questionId": "q5",
+          "questionNumber": 31,
+          "text": "题目 31\n答案：G\nPDF 定位：传统医生意识到安慰剂效应，并且他们-应该 \"a paradoxical force that conventional medicine recognizes but remains oddly 给予其更高的认可 ambivalent about: the placebo effect.\" (第 2 段); \"the placebo is a powerful part of all medical care .. hough its role is often neglected and misunderstood.\" (第3段)\nPDF 解析：\"应给予更高认可\"=对\"矛盾/忽视\"态度的应然 \"传统医学承认安慰剂效应，但态度矛盾。\"；\"安 慰剂是所有医疗中有力的一部分，但其作用常被 纠偏。排除：C（更省钱）未提；E（需要多种产 忽视与误解。\" 品）与解释不符。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. single choice (Questions 32-34)",
+      "mode": "group",
+      "questionRange": {
+        "start": 32,
+        "end": 34
+      },
+      "text": "题目 32\n答案：D\nPDF 定位：第三段作者认为安慰剂效应在替代疗法与主流医 学中都占有重要地位。\nPDF 解析：同义改写：apowerfulpartofallmedicalcare \"/n fact, the placebo is a powerful part of all medical care, orthodox or otherwise, though →\"在两类医学中都很重要/占据显著地位\"。排 its role is often neglected and misunderstood.\" →\"事实上，安慰剂是所有医疗（无论是正统还是 丸（dummypill)\"，未说\"效果最佳\"；B\"新型治 非正统）中的重要组成部分，只是它的作用常被 疗\"-并非\"新\"；C\"有些病人更信任\"-文本 忽视与误解。\" 未比较人群信任度。\n\n题目 33\n答案：A\nPDF 定位：文中提到\"惯怒\"和\"悲伤\"是为了表明个体情绪能 改变我们的生理状态。\nPDF 解析：\"our state of mind can influence our 同义改写：stateofmind→personalfeelings； influence our physiology → alter our physical physiology: anger opens the superficial blood condition。排除：B\"某些行为无法解释\"-原 vessels of the face; sadness pumps the tear glands.\"→\"我们的心理状态会影响生理：惯怒 文在给出明确生理机制例子；C\"人人都会像情绪 一样经历安慰剂\"-未谈普遍性；D\"难以控制 会让面部浅表血管扩张；悲伤会刺激泪腺分泌。\" 某些生理反应\"重点不在\"难控制\"，而在\"心 理影响生理\"。\n\n题目 34\n答案：D\nPDF 定位：关于疼痛控制的研究之所以最受关注，是因为疼 痛是最常见的就诊主诉（且便于实验研究)。\nPDF 解析：同义改写：commonestcomplaints（医学语境 \"Most of the scant research to date has 二\"最常见主诉/常见症状\"）选项D\"患者常常 focused on the control of pain, because it's oneofthecommonestcomplaintsandlends 反映疼痛\"。注意这里不是\"爱抱怨\"，而是\"以 itselftoexperimentalstudy.\"→\"到目前为止 疼痛为主诉\"。排除：A\"研究很少\"是背景，不 是原因；B\"发现内啡肽止痛\"与C\"止痛相关物 虽研究不多，但大多集中在镇痛，因为疼痛是最 常见的就诊主诉，而且便于实验研究。\" 质可能参与安慰剂\"都属研究内容/机制（后文",
+      "items": [
+        {
+          "questionId": "q6",
+          "questionNumber": 32,
+          "text": "题目 32\n答案：D\nPDF 定位：第三段作者认为安慰剂效应在替代疗法与主流医 学中都占有重要地位。\nPDF 解析：同义改写：apowerfulpartofallmedicalcare \"/n fact, the placebo is a powerful part of all medical care, orthodox or otherwise, though →\"在两类医学中都很重要/占据显著地位\"。排 its role is often neglected and misunderstood.\" →\"事实上，安慰剂是所有医疗（无论是正统还是 丸（dummypill)\"，未说\"效果最佳\"；B\"新型治 非正统）中的重要组成部分，只是它的作用常被 疗\"-并非\"新\"；C\"有些病人更信任\"-文本 忽视与误解。\" 未比较人群信任度。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 33,
+          "text": "题目 33\n答案：A\nPDF 定位：文中提到\"惯怒\"和\"悲伤\"是为了表明个体情绪能 改变我们的生理状态。\nPDF 解析：\"our state of mind can influence our 同义改写：stateofmind→personalfeelings； influence our physiology → alter our physical physiology: anger opens the superficial blood condition。排除：B\"某些行为无法解释\"-原 vessels of the face; sadness pumps the tear glands.\"→\"我们的心理状态会影响生理：惯怒 文在给出明确生理机制例子；C\"人人都会像情绪 一样经历安慰剂\"-未谈普遍性；D\"难以控制 会让面部浅表血管扩张；悲伤会刺激泪腺分泌。\" 某些生理反应\"重点不在\"难控制\"，而在\"心 理影响生理\"。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 34,
+          "text": "题目 34\n答案：D\nPDF 定位：关于疼痛控制的研究之所以最受关注，是因为疼 痛是最常见的就诊主诉（且便于实验研究)。\nPDF 解析：同义改写：commonestcomplaints（医学语境 \"Most of the scant research to date has 二\"最常见主诉/常见症状\"）选项D\"患者常常 focused on the control of pain, because it's oneofthecommonestcomplaintsandlends 反映疼痛\"。注意这里不是\"爱抱怨\"，而是\"以 itselftoexperimentalstudy.\"→\"到目前为止 疼痛为主诉\"。排除：A\"研究很少\"是背景，不 是原因；B\"发现内啡肽止痛\"与C\"止痛相关物 虽研究不多，但大多集中在镇痛，因为疼痛是最 常见的就诊主诉，而且便于实验研究。\" 质可能参与安慰剂\"都属研究内容/机制（后文"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. yes no not given (Questions 35-40)",
+      "mode": "group",
+      "questionRange": {
+        "start": 35,
+        "end": 40
+      },
+      "text": "题目 35\n答案：NO\nPDF 定位：科学家已经有足够信息理解安慰剂效应如何在人 \"exactly how placebos work their medical 身上启动。 magic is stll largely unknown.\" (第4段)\nPDF 解析：题干断言\"已足够了解\"；原文说\"仍未知\"， \"安慰剂究竟如何发挥神奇疗效仍在很大程度 上来知.\" 故NO.\n\n题目 36\n答案：NOT GIVEN\nPDF 定位：全文无 因实验结果，某些止痛药已被下架/撤市。\nPDF 解析：文中仅谈到对止痛机制的研究与实验（如生理盐 水/纳洛酮)，未提\"撤药\"或\"\"下架\"，故NG。\n\n题目 37\n答案：YES\nPDF 定位：个人偏好会影响不同品牌头痛药的效果。 \"Even branding can make a difference: if Aspro or Tylenol are what you like to take for a headache, their chemically identical generic equivalents may be less effective.\" (第6段)\nPDF 解析：\"连品牌都能产生差异：如果你偏好用Aspro或 \"what you like （个人偏好）→ may be less Tylenol治头痛，化学成分相同的普通版可能 effective（影响效果）\"，与题干一致，故YES。 效果更差。\"\n\n题目 38\n答案：YES\nPDF 定位：氧丙嗪刚推出时，医生们对它看法多样。 *.. a doctor in Kansas categorised his colleagues according to whether they were keen, openly sceptical, or let's-try-and see ..the more enthusiastic the doctor, the better the drug performed.* (第7段)\nPDF 解析：\"堪萨斯一位医生按同事对药物的态度分为：热 多种态度=\"看法不一\"，对应题干，故YES。 表、公开怀疑、或观望尝试...医生越热情，药 物表现越佳，\"\n\n题目 39\n答案：NOT GIVEN\nPDF 定位：Ernst的研究显著影响了医生对待病人的行为。 \"A recent survey by Ernst on doctors\" bedside manners turned up one consistent finding: physicians who adopt a warm, friendly, reassuring manner are more effective ...\" (第7段）\nPDF 解析：\"Ernst的一项调查得出一个一致发现：采用温暖 文中仅陈述\"调查发现\"，未说该研究导致医生行 友好、给予安慰的医生更有效 为改变或\"产生巨大影响\"，因果与程度均未给 出，故NG。\n\n题目 40\n答案：YES\nPDF 定位：替代疗法从业者的工作方式很可能触发安慰 what alternative treatment is all about.. 剂效应。 complementary practitioners are generally best at mobilising the placebo effect. (第8段)\nPDF 解析：\"温暖、友好、让人安心正是替代疗法的核心. 直接等价\"likely to trigger=best at 替代/补充医学从业者通常最撞长调动安剂 mobilising\",故YES。 效应。\"",
+      "items": [
+        {
+          "questionId": "q9",
+          "questionNumber": 35,
+          "text": "题目 35\n答案：NO\nPDF 定位：科学家已经有足够信息理解安慰剂效应如何在人 \"exactly how placebos work their medical 身上启动。 magic is stll largely unknown.\" (第4段)\nPDF 解析：题干断言\"已足够了解\"；原文说\"仍未知\"， \"安慰剂究竟如何发挥神奇疗效仍在很大程度 上来知.\" 故NO."
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 36,
+          "text": "题目 36\n答案：NOT GIVEN\nPDF 定位：全文无 因实验结果，某些止痛药已被下架/撤市。\nPDF 解析：文中仅谈到对止痛机制的研究与实验（如生理盐 水/纳洛酮)，未提\"撤药\"或\"\"下架\"，故NG。"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 37,
+          "text": "题目 37\n答案：YES\nPDF 定位：个人偏好会影响不同品牌头痛药的效果。 \"Even branding can make a difference: if Aspro or Tylenol are what you like to take for a headache, their chemically identical generic equivalents may be less effective.\" (第6段)\nPDF 解析：\"连品牌都能产生差异：如果你偏好用Aspro或 \"what you like （个人偏好）→ may be less Tylenol治头痛，化学成分相同的普通版可能 effective（影响效果）\"，与题干一致，故YES。 效果更差。\""
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 38,
+          "text": "题目 38\n答案：YES\nPDF 定位：氧丙嗪刚推出时，医生们对它看法多样。 *.. a doctor in Kansas categorised his colleagues according to whether they were keen, openly sceptical, or let's-try-and see ..the more enthusiastic the doctor, the better the drug performed.* (第7段)\nPDF 解析：\"堪萨斯一位医生按同事对药物的态度分为：热 多种态度=\"看法不一\"，对应题干，故YES。 表、公开怀疑、或观望尝试...医生越热情，药 物表现越佳，\""
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 39,
+          "text": "题目 39\n答案：NOT GIVEN\nPDF 定位：Ernst的研究显著影响了医生对待病人的行为。 \"A recent survey by Ernst on doctors\" bedside manners turned up one consistent finding: physicians who adopt a warm, friendly, reassuring manner are more effective ...\" (第7段）\nPDF 解析：\"Ernst的一项调查得出一个一致发现：采用温暖 文中仅陈述\"调查发现\"，未说该研究导致医生行 友好、给予安慰的医生更有效 为改变或\"产生巨大影响\"，因果与程度均未给 出，故NG。"
+        },
+        {
+          "questionId": "q14",
+          "questionNumber": 40,
+          "text": "题目 40\n答案：YES\nPDF 定位：替代疗法从业者的工作方式很可能触发安慰 what alternative treatment is all about.. 剂效应。 complementary practitioners are generally best at mobilising the placebo effect. (第8段)\nPDF 解析：\"温暖、友好、让人安心正是替代疗法的核心. 直接等价\"likely to trigger=best at 替代/补充医学从业者通常最撞长调动安剂 mobilising\",故YES。 效应。\""
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 27,
+      "text": "题目 27\n答案：D\nPDF 定位：与一位替代疗法从业者的预约-应至少持续到 \"each session with your patients should 一个最短时长 take at least half an hour.\" (第1段)\nPDF 解析：\"每一次与病人的会诊至少应持续半小时。\" *ought to last a minimum length of time\" 与 \"atleasthalf an hour\"完全同义。排除：A（易 懂）谈的是解释；C（花费更少）原文无；E（需要 一系列产品）未提。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 28,
+      "text": "题目 28\n答案：A\nPDF 定位：替代疗法从业者对其治疗的解释-应该容 \"Describe your treatment in familiar words, 易理解 but embroidered with a hint of mysticism... (第1段)\nPDF 解析：\"familiarwords=易懂的词\"。虽然有\"神秘色 \"用熟悉的词语来描述你的疗法，但可点缓一些 神秘色彩 彩\"，但主谓核心是\"用熟悉的词语\"。排除：E （需要不同产品）说的是解释方式而非用具；F (严重的)无关。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 29,
+      "text": "题目 29\n答案：H\nPDF 定位：如果替代疗法从业者真心相信自己的疗法，他们 And a very good living if you are sufficiently convincing or, better still, really believe in 应当能获得高收入 your therapy.\"(第2段）\nPDF 解析：\"averygood living=高收入\"；条件就是 \"如果你足够有说服力，或者更好地说，真心相 信你的疗法，你就能谋得非常体面的生计。\" \"believe in your therapy\"。排除：B(无治疗也 会好转）说的是病情，不是从业者收入；D时 长）已用于27。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 30,
+      "text": "题目 30\n答案：B\nPDF 定位：常常，病人的疾病-无需治疗也会好转 \"Many illnesses get better on their own, so if you are lucky ... you'll get the credit.* (第2段)\nPDF 解析：\"can improve without treatment=会自行好 \"许多疾病会自行好转，因此若你时机合适便会 转\"。排除：F(严重）文中未给严重性判断。 被归功于你。\""
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 31,
+      "text": "题目 31\n答案：G\nPDF 定位：传统医生意识到安慰剂效应，并且他们-应该 \"a paradoxical force that conventional medicine recognizes but remains oddly 给予其更高的认可 ambivalent about: the placebo effect.\" (第 2 段); \"the placebo is a powerful part of all medical care .. hough its role is often neglected and misunderstood.\" (第3段)\nPDF 解析：\"应给予更高认可\"=对\"矛盾/忽视\"态度的应然 \"传统医学承认安慰剂效应，但态度矛盾。\"；\"安 慰剂是所有医疗中有力的一部分，但其作用常被 纠偏。排除：C（更省钱）未提；E（需要多种产 忽视与误解。\" 品）与解释不符。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 32,
+      "text": "题目 32\n答案：D\nPDF 定位：第三段作者认为安慰剂效应在替代疗法与主流医 学中都占有重要地位。\nPDF 解析：同义改写：apowerfulpartofallmedicalcare \"/n fact, the placebo is a powerful part of all medical care, orthodox or otherwise, though →\"在两类医学中都很重要/占据显著地位\"。排 its role is often neglected and misunderstood.\" →\"事实上，安慰剂是所有医疗（无论是正统还是 丸（dummypill)\"，未说\"效果最佳\"；B\"新型治 非正统）中的重要组成部分，只是它的作用常被 疗\"-并非\"新\"；C\"有些病人更信任\"-文本 忽视与误解。\" 未比较人群信任度。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 33,
+      "text": "题目 33\n答案：A\nPDF 定位：文中提到\"惯怒\"和\"悲伤\"是为了表明个体情绪能 改变我们的生理状态。\nPDF 解析：\"our state of mind can influence our 同义改写：stateofmind→personalfeelings； influence our physiology → alter our physical physiology: anger opens the superficial blood condition。排除：B\"某些行为无法解释\"-原 vessels of the face; sadness pumps the tear glands.\"→\"我们的心理状态会影响生理：惯怒 文在给出明确生理机制例子；C\"人人都会像情绪 一样经历安慰剂\"-未谈普遍性；D\"难以控制 会让面部浅表血管扩张；悲伤会刺激泪腺分泌。\" 某些生理反应\"重点不在\"难控制\"，而在\"心 理影响生理\"。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 34,
+      "text": "题目 34\n答案：D\nPDF 定位：关于疼痛控制的研究之所以最受关注，是因为疼 痛是最常见的就诊主诉（且便于实验研究)。\nPDF 解析：同义改写：commonestcomplaints（医学语境 \"Most of the scant research to date has 二\"最常见主诉/常见症状\"）选项D\"患者常常 focused on the control of pain, because it's oneofthecommonestcomplaintsandlends 反映疼痛\"。注意这里不是\"爱抱怨\"，而是\"以 itselftoexperimentalstudy.\"→\"到目前为止 疼痛为主诉\"。排除：A\"研究很少\"是背景，不 是原因；B\"发现内啡肽止痛\"与C\"止痛相关物 虽研究不多，但大多集中在镇痛，因为疼痛是最 常见的就诊主诉，而且便于实验研究。\" 质可能参与安慰剂\"都属研究内容/机制（后文"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 35,
+      "text": "题目 35\n答案：NO\nPDF 定位：科学家已经有足够信息理解安慰剂效应如何在人 \"exactly how placebos work their medical 身上启动。 magic is stll largely unknown.\" (第4段)\nPDF 解析：题干断言\"已足够了解\"；原文说\"仍未知\"， \"安慰剂究竟如何发挥神奇疗效仍在很大程度 上来知.\" 故NO."
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 36,
+      "text": "题目 36\n答案：NOT GIVEN\nPDF 定位：全文无 因实验结果，某些止痛药已被下架/撤市。\nPDF 解析：文中仅谈到对止痛机制的研究与实验（如生理盐 水/纳洛酮)，未提\"撤药\"或\"\"下架\"，故NG。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 37,
+      "text": "题目 37\n答案：YES\nPDF 定位：个人偏好会影响不同品牌头痛药的效果。 \"Even branding can make a difference: if Aspro or Tylenol are what you like to take for a headache, their chemically identical generic equivalents may be less effective.\" (第6段)\nPDF 解析：\"连品牌都能产生差异：如果你偏好用Aspro或 \"what you like （个人偏好）→ may be less Tylenol治头痛，化学成分相同的普通版可能 effective（影响效果）\"，与题干一致，故YES。 效果更差。\""
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 38,
+      "text": "题目 38\n答案：YES\nPDF 定位：氧丙嗪刚推出时，医生们对它看法多样。 *.. a doctor in Kansas categorised his colleagues according to whether they were keen, openly sceptical, or let's-try-and see ..the more enthusiastic the doctor, the better the drug performed.* (第7段)\nPDF 解析：\"堪萨斯一位医生按同事对药物的态度分为：热 多种态度=\"看法不一\"，对应题干，故YES。 表、公开怀疑、或观望尝试...医生越热情，药 物表现越佳，\""
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 39,
+      "text": "题目 39\n答案：NOT GIVEN\nPDF 定位：Ernst的研究显著影响了医生对待病人的行为。 \"A recent survey by Ernst on doctors\" bedside manners turned up one consistent finding: physicians who adopt a warm, friendly, reassuring manner are more effective ...\" (第7段）\nPDF 解析：\"Ernst的一项调查得出一个一致发现：采用温暖 文中仅陈述\"调查发现\"，未说该研究导致医生行 友好、给予安慰的医生更有效 为改变或\"产生巨大影响\"，因果与程度均未给 出，故NG。"
+    },
+    "q14": {
+      "questionId": "q14",
+      "questionNumber": 40,
+      "text": "题目 40\n答案：YES\nPDF 定位：替代疗法从业者的工作方式很可能触发安慰 what alternative treatment is all about.. 剂效应。 complementary practitioners are generally best at mobilising the placebo effect. (第8段)\nPDF 解析：\"温暖、友好、让人安心正是替代疗法的核心. 直接等价\"likely to trigger=best at 替代/补充医学从业者通常最撞长调动安剂 mobilising\",故YES。 效应。\""
+    }
+  }
+}

@@ -1,0 +1,130 @@
+(function registerReadingExplanationData(global) {
+  'use strict';
+  if (!global.__READING_EXPLANATION_DATA__ || typeof global.__READING_EXPLANATION_DATA__.register !== "function") {
+    throw new Error("reading_explanation_registry_missing");
+  }
+  global.__READING_EXPLANATION_DATA__.register("p2-low-73", {
+  "schemaVersion": "ReadingExplanationV1",
+  "examId": "p2-low-73",
+  "meta": {
+    "examId": "p2-low-73",
+    "title": "The Power of Smell 嗅觉的力量",
+    "category": "P2",
+    "sourceDoc": "164. P2 - The Power of Smell 嗅觉的力量.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The Power of Smell 嗅觉的力量",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionExplanations": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-19)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 14,
+          "text": "题目 14\n答案：D\nPDF 定位：人类能分解两种极其相似的物质的一个发现 D 段: \"We are also exceptionally gifted at telling smells apart, even in the case of two molecules whose only difference is that their structures are mirror images of one another.*\nPDF 解析：我们也非常撞长把气味彼此区分开来，即使是两 \"tell. apart (分辨)\"=distinguish;\"two 种唯一差别是彼此为镜像的分子。 molecules..mirror images\"\"两种极其相似 的物质\"。其他段未谈\"镜像分子\"的对比，故 锁定D。",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 15,
+          "text": "题目 15\n答案：B\nPDF 定位：按喷觉敏感度对物种进行分类 B 段: *he suggested that mammals can be classed into two broad groups: macrosmatic ... while we .. are microsmatic...\nPDF 解析：他提出哺乳动物可分为两大类：噢觉灵敏的 并以喉觉敏感度为标准（macrosmaticvs (macrosmatic）与膜觉弱的(microsmatic)。 microsmatic)。",
+          "questionId": "q2"
+        },
+        {
+          "questionNumber": 16,
+          "text": "题目 16\n答案：F\nPDF 定位：嗅觉对人们做出选择的能力产生负面影响的实例 F段: \"when men were subjected to a novel smell.. hey performed significantly worse than normal.. making their decisions emotional rather than rational.\nPDF 解析：\"performedworse\"=能力受负面影响；主题是 当男性在任务中暴露于新奇气味（好或坏）时， \"决策任务（choices/decision-making)\"。其他 表现显著变差，决策更感性而非理性。 段虽谈气味影响，但未涉及\"变差/负面\"，",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 17,
+          "text": "题目 17\n答案：C\nPDF 定位：证明人类能感知极微量物质的研究 C 段: \"we can detect certain chemicals..to less than one part per bilion... few drops... in an Olympicsized pool.\nPDF 解析：我们可检测到十亿分之一以下稀释度的化学物， 明确是\"study found we can detect.. ess 堪比在奥运泳池里几滴气味。 than1ppb\"，与\"tiny quantity（极微量）\"同义。",
+          "questionId": "q4"
+        },
+        {
+          "questionNumber": 18,
+          "text": "题目 18\n答案：A\nPDF 定位：关于唤觉研究长期被低估的观察 A 段: \"Noses have certainly never been at the forefront of sensory research, and were pushed aside unti recenty..\";以及引语：\"a lot of prejudice that people are not that influenced by olfactory stimul..\nPDF 解析：\"undervalued/被低估\"对应\"not at the 嗅觉从未处于研究前沿，直到近年一直被边续 化；并且长期存在\"人类不太受喉觉刺激影响\" forefront/pushed aside/偏见\"。 的偏见。",
+          "questionId": "q5"
+        },
+        {
+          "questionNumber": 19,
+          "text": "题目 19\n答案：E\nPDF 定位：用气味促使人们购买某物的例子 E段: \"estate agents .. advocate the smell of baking bread or brewing coffee to promote the sale of a house.*\nPDF 解析：房产中介常用新鲜面包或咖啡的味道来促进 \"prompt people to buy\"\"promote the 卖房。 sale\"；E段还举夜店与清洁例，但\"购买/交易\" 对应卖房情境。",
+          "questionId": "q6"
+        }
+      ],
+      "questionRange": {
+        "start": 14,
+        "end": 19
+      },
+      "text": "题目 14\n答案：D\nPDF 定位：人类能分解两种极其相似的物质的一个发现 D 段: \"We are also exceptionally gifted at telling smells apart, even in the case of two molecules whose only difference is that their structures are mirror images of one another.*\nPDF 解析：我们也非常撞长把气味彼此区分开来，即使是两 \"tell. apart (分辨)\"=distinguish;\"two 种唯一差别是彼此为镜像的分子。 molecules..mirror images\"\"两种极其相似 的物质\"。其他段未谈\"镜像分子\"的对比，故 锁定D。\n\n题目 15\n答案：B\nPDF 定位：按喷觉敏感度对物种进行分类 B 段: *he suggested that mammals can be classed into two broad groups: macrosmatic ... while we .. are microsmatic...\nPDF 解析：他提出哺乳动物可分为两大类：噢觉灵敏的 并以喉觉敏感度为标准（macrosmaticvs (macrosmatic）与膜觉弱的(microsmatic)。 microsmatic)。\n\n题目 16\n答案：F\nPDF 定位：嗅觉对人们做出选择的能力产生负面影响的实例 F段: \"when men were subjected to a novel smell.. hey performed significantly worse than normal.. making their decisions emotional rather than rational.\nPDF 解析：\"performedworse\"=能力受负面影响；主题是 当男性在任务中暴露于新奇气味（好或坏）时， \"决策任务（choices/decision-making)\"。其他 表现显著变差，决策更感性而非理性。 段虽谈气味影响，但未涉及\"变差/负面\"，\n\n题目 17\n答案：C\nPDF 定位：证明人类能感知极微量物质的研究 C 段: \"we can detect certain chemicals..to less than one part per bilion... few drops... in an Olympicsized pool.\nPDF 解析：我们可检测到十亿分之一以下稀释度的化学物， 明确是\"study found we can detect.. ess 堪比在奥运泳池里几滴气味。 than1ppb\"，与\"tiny quantity（极微量）\"同义。\n\n题目 18\n答案：A\nPDF 定位：关于唤觉研究长期被低估的观察 A 段: \"Noses have certainly never been at the forefront of sensory research, and were pushed aside unti recenty..\";以及引语：\"a lot of prejudice that people are not that influenced by olfactory stimul..\nPDF 解析：\"undervalued/被低估\"对应\"not at the 嗅觉从未处于研究前沿，直到近年一直被边续 化；并且长期存在\"人类不太受喉觉刺激影响\" forefront/pushed aside/偏见\"。 的偏见。\n\n题目 19\n答案：E\nPDF 定位：用气味促使人们购买某物的例子 E段: \"estate agents .. advocate the smell of baking bread or brewing coffee to promote the sale of a house.*\nPDF 解析：房产中介常用新鲜面包或咖啡的味道来促进 \"prompt people to buy\"\"promote the 卖房。 sale\"；E段还举夜店与清洁例，但\"购买/交易\" 对应卖房情境。"
+    },
+    {
+      "sectionTitle": "2. matching (Questions 20-23)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 20,
+          "text": "题目 20\n答案：E\nPDF 定位：微弱气味能促使人做家务 E段: \"the hint of aroma ... itrus-scented cleaner was enough to persuade students... to clean up after themselves.*\nPDF 解析：一丝柑橘清洁剂的气味就足以让学生自觉打扫。 准对应。",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：C\nPDF 定位：人类比其他物种更撞长解释/处理气味 C 段: \"the human nose and brain are unusually well connected.. linking to many good abillty to process incoming scents.\"\nPDF 解析：题干中的\"better equipped to interpret\"对应 人类鼻与脑连接异常发达，受体组连按更多脑 区，因而更善于处理进入的气味。 *well connected → good ability to process。 非 A/D/E/F/B。",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 22,
+          "text": "题目 22\n答案：F\nPDF 定位：嗅觉与情感相关，而非大脑的理性部分 F 段: \"stimulated brain areas connected with emotion, making their decisions emotional rather than rational.*\nPDF 解析：气味激活情感相关脑区，使决策偏情感面 直击题干对立\"emotionalvs rational\"， 非理性。",
+          "questionId": "q9"
+        },
+        {
+          "questionNumber": 23,
+          "text": "题目 23\n答案：B\nPDF 定位：人类不需要复杂的嗅觉能力 B 段: *we .. are microsmatic we have small olfactory organs that we only rely on to a small extent.*\nPDF 解析：人类属嘎觉较弱的\"microsmatic\"，只在小范围 \"do not require a sophisticated abilty\"≥\"rely 依赖嗅觉。 ..to a small extent/器官小。",
+          "questionId": "q10"
+        }
+      ],
+      "questionRange": {
+        "start": 20,
+        "end": 23
+      },
+      "text": "题目 20\n答案：E\nPDF 定位：微弱气味能促使人做家务 E段: \"the hint of aroma ... itrus-scented cleaner was enough to persuade students... to clean up after themselves.*\nPDF 解析：一丝柑橘清洁剂的气味就足以让学生自觉打扫。 准对应。\n\n题目 21\n答案：C\nPDF 定位：人类比其他物种更撞长解释/处理气味 C 段: \"the human nose and brain are unusually well connected.. linking to many good abillty to process incoming scents.\"\nPDF 解析：题干中的\"better equipped to interpret\"对应 人类鼻与脑连接异常发达，受体组连按更多脑 区，因而更善于处理进入的气味。 *well connected → good ability to process。 非 A/D/E/F/B。\n\n题目 22\n答案：F\nPDF 定位：嗅觉与情感相关，而非大脑的理性部分 F 段: \"stimulated brain areas connected with emotion, making their decisions emotional rather than rational.*\nPDF 解析：气味激活情感相关脑区，使决策偏情感面 直击题干对立\"emotionalvs rational\"， 非理性。\n\n题目 23\n答案：B\nPDF 定位：人类不需要复杂的嗅觉能力 B 段: *we .. are microsmatic we have small olfactory organs that we only rely on to a small extent.*\nPDF 解析：人类属嘎觉较弱的\"microsmatic\"，只在小范围 \"do not require a sophisticated abilty\"≥\"rely 依赖嗅觉。 ..to a small extent/器官小。"
+    },
+    {
+      "sectionTitle": "3. sentence completion (Questions 24-26)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 24,
+          "text": "题目 24\n答案：amygdala\nPDF 定位：G 段: *\"there are certain brain areas (大脑中）处理情感与嗅觉的部分是- dedicated to both emotion and olfaction, such as the amygdala.\"\nPDF 解析：存在既负责情感又负责喂觉的脑区，例如 题干限定\"一词\"；专名小写作答。 杏仁核。",
+          "questionId": "q11"
+        },
+        {
+          "questionNumber": 25,
+          "text": "题目 25\n答案：unpleasant\nPDF 定位：*气味会与记忆形成尤为强烈的联结。 G 段: *the link .. is stronger if the smell is unpleasant rather than pleasant.*\nPDF 解析：若气味是不愉快的，记忆联结更强。 比较级触发词\"ratherthanpleasant\"提示答案 取\"unpleasant\",",
+          "questionId": "q12"
+        },
+        {
+          "questionNumber": 26,
+          "text": "题目 26\n答案：childhood\nPDF 定位：在所有感官中，喷觉尤其能唤起对* G 段: this explains why smells often 的记忆。 transport us back to our childhood.*\nPDF 解析：填\"childhood\"（不可填\"our childhood 这解释了为何气味常把我们带回童年。 memories\"，因题干已含\"memories of... 结构)。",
+          "questionId": "q13"
+        }
+      ],
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：amygdala\nPDF 定位：G 段: *\"there are certain brain areas (大脑中）处理情感与嗅觉的部分是- dedicated to both emotion and olfaction, such as the amygdala.\"\nPDF 解析：存在既负责情感又负责喂觉的脑区，例如 题干限定\"一词\"；专名小写作答。 杏仁核。\n\n题目 25\n答案：unpleasant\nPDF 定位：*气味会与记忆形成尤为强烈的联结。 G 段: *the link .. is stronger if the smell is unpleasant rather than pleasant.*\nPDF 解析：若气味是不愉快的，记忆联结更强。 比较级触发词\"ratherthanpleasant\"提示答案 取\"unpleasant\",\n\n题目 26\n答案：childhood\nPDF 定位：在所有感官中，喷觉尤其能唤起对* G 段: this explains why smells often 的记忆。 transport us back to our childhood.*\nPDF 解析：填\"childhood\"（不可填\"our childhood 这解释了为何气味常把我们带回童年。 memories\"，因题干已含\"memories of... 结构)。"
+    }
+  ]
+}
+  );
+})(typeof window !== "undefined" ? window : globalThis);

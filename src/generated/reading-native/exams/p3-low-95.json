@@ -11,7 +11,7 @@
     "questionIntroHtml": "",
     "originalTitle": "The strange world of sight 奇异的视觉世界"
   },
-  "explanationKey": null,
+  "explanationKey": "p3-low-95",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1114,7 +1114,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. single choice (Questions 27-30)",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 30
+        },
+        "text": "题目 27\n答案：D\nPDF 定位：作者为何在第一段提到洛克与牛顿？ 第1段: *Two of the great British men... were both aware that objects are not coloured... light is not coloured either... This is still not generally recognised even now, 400 years later.\"\nPDF 解析：证据链：先引17世纪权威→立刻接\"400年后仍 \"两位大师早已意识到物体与光并无颜色；即使 四百年后的今天仍未被普遍认识。\" 未被普遍认识\"→说明观点早就存在。同义： were aware =早已知道；not generally recognised=并非新观点。排除：A\"多学科\"未 提；B焦点不是物理学变迁；C不是\"求你认真\" 的权威诉求。陷阱：看到名人就选C(权威论证) 易错，此处功能=\"溯源并非新说\"。\n\n题目 28\n答案：C\nPDF 定位：为什么弗洛伊德的\"无意识\"被嘲笑？ 第2段: *..was initially treated with derision because it undermined the notion of humans as preeminently rational being..*\nPDF 解析：证据链：derision（期笑）+because（因果）直 \"之所以遭嘲笑，是因为它动掘了'人以理性为先\" 的既定人性观。\" 接给理由。同义：undermined=devalued/削 弱；accepted concept of humanity=既定人 性观。排除：A\"太复杂\"无据；B\"批评社会行 为\"非文本；D\"以为在开玩笑\"=对作者意图的 测，原文无。陷阱：把\"mocked\"机械等同 \"joke\" (D)。\n\n题目 29\n答案：C\nPDF 定位：讲S先生起不来说明什么？ 第3段: ..prone to such confusions, e.g. mistaking seeing his clock for remembering it, and so failing to get up...\"; \"Perceptions have a vividness that is rare for memories...\nPDF 解析：\"他会把看到阔钟误以为是记得闹钟，因此没起 证据链：案例=把知觉当记忆→后句解释\"通常 床；知觉的鲜活是区分它与记忆的线索。\" 能分开\"，侧证这种混淆不常见但会发生。排 除：A\"多数人的记忆很真实\"非主旨；B\"梦与 醒\"未提；D\"过去知识有价值\"与案例无关。陷 阱：把\"vividness\"误读成\"记忆更真实\"，其实 是\"知觉更鲜活\"。\n\n题目 30\n答案：A\nPDF 定位：全文主旨是什么？ 贯穿：第2段\"unconscious inferences based on... lues... and knowledge of the world*; 第3段\"perception of the present depends on knowledgefrom the past\"；第6段\"half the brain is occupied with seeing\"; 第78段 \"illusions/expectations\",\nPDF 解析：证据链：多处强调\"知觉=感官输入+既有知识/ 记忆+大量大脑加工\"，并以错觉作证。同义： much more than data collected by the eyes = 不仅是眼睛数据。排除：B仅是个案；C并未批 判科学\"不重视视觉\"；D与第8段\"人常看成自 已预期的\"相反。陷阱：被MikeMay个案带偏选 B.",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：D\nPDF 定位：作者为何在第一段提到洛克与牛顿？ 第1段: *Two of the great British men... were both aware that objects are not coloured... light is not coloured either... This is still not generally recognised even now, 400 years later.\"\nPDF 解析：证据链：先引17世纪权威→立刻接\"400年后仍 \"两位大师早已意识到物体与光并无颜色；即使 四百年后的今天仍未被普遍认识。\" 未被普遍认识\"→说明观点早就存在。同义： were aware =早已知道；not generally recognised=并非新观点。排除：A\"多学科\"未 提；B焦点不是物理学变迁；C不是\"求你认真\" 的权威诉求。陷阱：看到名人就选C(权威论证) 易错，此处功能=\"溯源并非新说\"。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：C\nPDF 定位：为什么弗洛伊德的\"无意识\"被嘲笑？ 第2段: *..was initially treated with derision because it undermined the notion of humans as preeminently rational being..*\nPDF 解析：证据链：derision（期笑）+because（因果）直 \"之所以遭嘲笑，是因为它动掘了'人以理性为先\" 的既定人性观。\" 接给理由。同义：undermined=devalued/削 弱；accepted concept of humanity=既定人 性观。排除：A\"太复杂\"无据；B\"批评社会行 为\"非文本；D\"以为在开玩笑\"=对作者意图的 测，原文无。陷阱：把\"mocked\"机械等同 \"joke\" (D)。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：C\nPDF 定位：讲S先生起不来说明什么？ 第3段: ..prone to such confusions, e.g. mistaking seeing his clock for remembering it, and so failing to get up...\"; \"Perceptions have a vividness that is rare for memories...\nPDF 解析：\"他会把看到阔钟误以为是记得闹钟，因此没起 证据链：案例=把知觉当记忆→后句解释\"通常 床；知觉的鲜活是区分它与记忆的线索。\" 能分开\"，侧证这种混淆不常见但会发生。排 除：A\"多数人的记忆很真实\"非主旨；B\"梦与 醒\"未提；D\"过去知识有价值\"与案例无关。陷 阱：把\"vividness\"误读成\"记忆更真实\"，其实 是\"知觉更鲜活\"。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：A\nPDF 定位：全文主旨是什么？ 贯穿：第2段\"unconscious inferences based on... lues... and knowledge of the world*; 第3段\"perception of the present depends on knowledgefrom the past\"；第6段\"half the brain is occupied with seeing\"; 第78段 \"illusions/expectations\",\nPDF 解析：证据链：多处强调\"知觉=感官输入+既有知识/ 记忆+大量大脑加工\"，并以错觉作证。同义： much more than data collected by the eyes = 不仅是眼睛数据。排除：B仅是个案；C并未批 判科学\"不重视视觉\"；D与第8段\"人常看成自 已预期的\"相反。陷阱：被MikeMay个案带偏选 B."
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2176,7 +2206,47 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. yes no not given (Questions 31-36)",
+        "mode": "group",
+        "questionRange": {
+          "start": 31,
+          "end": 36
+        },
+        "text": "题目 31\n答案：NO\nPDF 定位：布拉德福德术后依靠\"别人告诉他的\"记忆来 第4段:*It was his touch memories that 帮助看见。 enabled him to perceive them with his eyes.\"\nPDF 解析：证据链：原文=\"触觉体验记忆\"，题干=\"他人告 \"是他的触觉记忆让他用眼睛把那些东西看 诉的回忆\"→直接矛盾。同义：touch 出来。\" memories#told about，陷阱：把\"memory\"笼 统等同\"别人告诉过\"。\n\n题目 32\n答案：NOT GIVEN\nPDF 定位：成年后才开始\"看\"的人，最终能像别人一样看。 第 5 段: *his sight has gradually improved as he learns to see... some consequences... less happy... shut his eyes while skiing.\nPDF 解析：\"他在学习看中逐步改善；但也出现不利后果， 证据链：只说\"逐渐改善\"，未承诺\"终会与常人 相同\"或给时间界限。陷阱：把\"improved/ 如滑雪时要闭眼。\" learnsto see\"推断成\"最终完全恢复\"=越界推 理。\n\n题目 33\n答案：YES\nPDF 定位：成年后恢复视力的人在某些活动上更难。 第5段: \"He had been a champion blind skier, but following the operation, he would have to shut his eyes while sking.\nPDF 解析：证据链：同一活动\"术前能、术后反而要闭眼\" \"他原是盲人滑雪冠军，但手术后滑雪时反而 要闭眼。\" 更难。与题干一致→YES。\n\n题目 34\n答案：NO\nPDF 定位：视觉只涉及眼睛和一个特定脑区。 第6段: *Seeing used to be thought... only in the eyes...but now it seems that half the brain is occupied with seeing.*\nPDF 解析：\"过去以为主要在眼睛；但如今看起来半个大脑 area\"反向。陷阱：抓到\"也参与\"就想选 都在忙着\"看\"\"。\" YES，忽略题干的限定词one。\n\n题目 35\n答案：NOT GIVEN\nPDF 定位：第8段：..not seeing a hollow face as 假面实验对训练复视者特别有用。 hollow is the most revealing experiment on perception.\"\nPDF 解析：\"这是最揭示知觉本质的实验。\" 证据链：强调\"揭示机理\"，未谈\"训练复视者的 功效/用途\"，信息缺失→NG。\n\n题目 36\n答案：YES\nPDF 定位：视力完好的人在某些情境下也会误判。 第8段：\"..even people with no visual impairment see what they expect to see, and often miss things as they really are.\"\nPDF 解析：\"即便无视力缺陷的人，也会按预期去看，常常 证据链：无视力缺陷完好；expect/miss在特 定情境（预期/错觉）下误判。与题干一致 错过事物本来面目。\" →YES。",
+        "items": [
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：NO\nPDF 定位：布拉德福德术后依靠\"别人告诉他的\"记忆来 第4段:*It was his touch memories that 帮助看见。 enabled him to perceive them with his eyes.\"\nPDF 解析：证据链：原文=\"触觉体验记忆\"，题干=\"他人告 \"是他的触觉记忆让他用眼睛把那些东西看 诉的回忆\"→直接矛盾。同义：touch 出来。\" memories#told about，陷阱：把\"memory\"笼 统等同\"别人告诉过\"。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：NOT GIVEN\nPDF 定位：成年后才开始\"看\"的人，最终能像别人一样看。 第 5 段: *his sight has gradually improved as he learns to see... some consequences... less happy... shut his eyes while skiing.\nPDF 解析：\"他在学习看中逐步改善；但也出现不利后果， 证据链：只说\"逐渐改善\"，未承诺\"终会与常人 相同\"或给时间界限。陷阱：把\"improved/ 如滑雪时要闭眼。\" learnsto see\"推断成\"最终完全恢复\"=越界推 理。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：YES\nPDF 定位：成年后恢复视力的人在某些活动上更难。 第5段: \"He had been a champion blind skier, but following the operation, he would have to shut his eyes while sking.\nPDF 解析：证据链：同一活动\"术前能、术后反而要闭眼\" \"他原是盲人滑雪冠军，但手术后滑雪时反而 要闭眼。\" 更难。与题干一致→YES。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：NO\nPDF 定位：视觉只涉及眼睛和一个特定脑区。 第6段: *Seeing used to be thought... only in the eyes...but now it seems that half the brain is occupied with seeing.*\nPDF 解析：\"过去以为主要在眼睛；但如今看起来半个大脑 area\"反向。陷阱：抓到\"也参与\"就想选 都在忙着\"看\"\"。\" YES，忽略题干的限定词one。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：NOT GIVEN\nPDF 定位：第8段：..not seeing a hollow face as 假面实验对训练复视者特别有用。 hollow is the most revealing experiment on perception.\"\nPDF 解析：\"这是最揭示知觉本质的实验。\" 证据链：强调\"揭示机理\"，未谈\"训练复视者的 功效/用途\"，信息缺失→NG。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：YES\nPDF 定位：视力完好的人在某些情境下也会误判。 第8段：\"..even people with no visual impairment see what they expect to see, and often miss things as they really are.\"\nPDF 解析：\"即便无视力缺陷的人，也会按预期去看，常常 证据链：无视力缺陷完好；expect/miss在特 定情境（预期/错觉）下误判。与题干一致 错过事物本来面目。\" →YES。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2595,7 +2665,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. summary completion (Questions 37-40)",
+        "mode": "group",
+        "questionRange": {
+          "start": 37,
+          "end": 40
+        },
+        "text": "题目 37\n答案：G\nPDF 定位：\"仍在看一个凸起形状的面具\" 第8段: \"the back of the mask will be seen as convex, though we know it must be concave.*\nPDF 解析：\"面具背面会被看成凸的，尽管我们知道它 证据链：正面\"鼻子外凸\"→翻面后应凹，却被看 成convex。排除：Dround\"圆\"不对应；H 应是凹的。\" hollow*空/凹*与\"被看成凸\"相反。\n\n题目 38\n答案：F\nPDF 定位：\"他们相信\"\"在正常地向外凸出\" 第8段: \"From the front it is a convex shape with the nose sticking out.*\nPDF 解析：证据链：面部最典型\"stick out\"的是nose，排 \"从正面看是鼻子突出形成的凸形。\" 除：E sight/B brain/C view皆非\"五官部件\"。\n\n题目 39\n答案：I\nPDF 定位：\"尝试做一个背面朝外的\"-\"也会出现同 第8段: \"It is.. mpossible to sketch the back 样问题\" of a hollow mask to look...hollow.\nPDF 解析：\"几乎不可能把这种背面画成看上去是凹的。\" 同义：sketch=drawing（图画/素描）。排除： A back已在句内；Hhollow是\"应有形状\"，不 是\"产物/动作\"\"。\n\n题目 40\n答案：J\nPDF 定位：\"因为他们有一种\"：脸部特征应向外凸出\" 第8段末： \"people.. see what they expect to see.\"\nPDF 解析：\"人们会按自己预期去看。\" 同义：expectation=preconception (先入之 见/成见)。排除：Bbrain/E sight/Cview替非 \"心理先验\"；D round与语义不符。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：G\nPDF 定位：\"仍在看一个凸起形状的面具\" 第8段: \"the back of the mask will be seen as convex, though we know it must be concave.*\nPDF 解析：\"面具背面会被看成凸的，尽管我们知道它 证据链：正面\"鼻子外凸\"→翻面后应凹，却被看 成convex。排除：Dround\"圆\"不对应；H 应是凹的。\" hollow*空/凹*与\"被看成凸\"相反。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：F\nPDF 定位：\"他们相信\"\"在正常地向外凸出\" 第8段: \"From the front it is a convex shape with the nose sticking out.*\nPDF 解析：证据链：面部最典型\"stick out\"的是nose，排 \"从正面看是鼻子突出形成的凸形。\" 除：E sight/B brain/C view皆非\"五官部件\"。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：I\nPDF 定位：\"尝试做一个背面朝外的\"-\"也会出现同 第8段: \"It is.. mpossible to sketch the back 样问题\" of a hollow mask to look...hollow.\nPDF 解析：\"几乎不可能把这种背面画成看上去是凹的。\" 同义：sketch=drawing（图画/素描）。排除： A back已在句内；Hhollow是\"应有形状\"，不 是\"产物/动作\"\"。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：J\nPDF 定位：\"因为他们有一种\"：脸部特征应向外凸出\" 第8段末： \"people.. see what they expect to see.\"\nPDF 解析：\"人们会按自己预期去看。\" 同义：expectation=preconception (先入之 见/成见)。排除：Bbrain/E sight/Cview替非 \"心理先验\"；D round与语义不符。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

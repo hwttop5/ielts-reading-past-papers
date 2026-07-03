@@ -10,68 +10,134 @@
     "examId": "p2-high-09",
     "title": "Early Approaches to Organisational Design 组织设计",
     "category": "P2",
-    "sourceDoc": "P2 33-59之_副本.md",
-    "noteType": "翻译",
-    "matchedTitle": "Early Approaches to Organisational Design 组织设计"
+    "sourceDoc": "106. P2 - Early Approaches to Organisational Design 组织设计.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Early Approaches to Organisational Design 组织设计",
+    "ocrPages": [
+      7,
+      8
+    ],
+    "pdfPageCount": 8,
+    "fallbackQuestionCount": 0
   },
   "passageNotes": [
     {
-      "label": "段落 1",
-      "text": "古典与新古典组织结构理论的回顾\n为特定情况确定“最佳”类型的组织结构，长期以来一直是各类组织管理者的重要任务。所有结构都有其优缺点，管理者面临着为不断变化的环境设计最合适结构的挑战。\n古典方法\n早期的管理学者试图用一套原则来处理组织设计，这些原则将使组织结构在大多数情况下高效运作，而不受外部条件和内部目标的影响。社会学家马克斯·韦伯以及管理学者弗雷德里克·泰勒和亨利·法约尔是这种所谓古典方法的主要贡献者。他们认为，最有效的组织拥有一个合法化、正式化和等级化的结构，称为“官僚制”。组织的成员受对组织的责任感以及一套理性的规章制度的指导。根据韦伯的说法，这类组织的特点是任务专业化、择优任命和非个人化的氛围。\n今天，“官僚制”这个词有时带有负面含义。然而，早期的管理学者称赞官僚制作为一种组织设计的合理性、决策规则、清晰的指挥链，以及基于能力和经验而非偏袒或心血来潮的人员晋升。韦伯还认为，明确规定的权力和责任使绩效更容易评估和奖励。\n对古典方法的批评\n韦伯、泰勒和法约尔是在类似于这种官僚模型的组织既现代又高效的时代发展他们的理论的。然而，后来变得明显的是，如果该理论被教条地应用，官僚结构的一些主要优点可能会变成缺点。例如，反对偏袒的保障措施可能会因为过度遵守规则而变得僵化，导致管理者和下属都变得非人性化。\n古典方法受到了两个主要角度的批评。首先，该理论可能没有现实基础。像韦伯和其他人描述的那样的组织是否真的存在过？其次，它声称根据官僚原则设计和管理的组织将享有预期的好处。但批评者认为，世界不再符合韦伯模型中的假设（如果曾经符合过的话），因此官僚制可能不会产生有益的结果。\n早期的人际关系研究者和行为科学家试图处理古典官僚模型的主要不足之处：对人的因素的忽视。他们认为，一个工业组织有两个目标：经济效益和员工满意度。他们还写道，通过允许下属更多地参与决策，可以改进官僚结构。因为这些研究者试图改进而非拒绝古典模型，他们有时被称为新古典理论家，其中包括道格拉斯·麦格雷戈、克里斯·阿吉里斯和伦西斯·利克特。\n新古典方法\n麦格雷戈认为，官僚组织特有的垂直劳动分工源于对工人的消极和错误假设，他称之为X理论。管理者假设下层员工缺乏抱负，需要命令才能有效工作。僵化的正式等级制度旨在维持管理者对下属的权力。决策在管理高层进行，而决策则由下层人员执行。麦格雷戈认为，基于Y理论假设的组织则利用其成员的潜力。Y理论假设大多数人认为工作是令人满意的，愿意为组织目标做出承诺，并寻求责任。成员比在官僚组织中拥有更多的独立性，并鼓励下层参与决策。\n阿吉里斯关心的是，在官僚组织中，管理者几乎拥有控制下属工作的全部责任。他认为，管理上的支配使下属变得被动和依赖，并降低了他们的责任感和自我控制感。阿吉里斯主张采用一种替代性的组织设计，该设计承认人的需求和感受，并增加工人的满意度。像麦格雷戈一样，他赞成给予下属更多的独立性和决策权，以创造一个更非正式的组织文化。\n对新古典方法的批评\n利克特分享了麦格雷戈和阿吉里斯的观点。在他的研究中，他发现鼓励下属的管理者比传统的权威型管理者更能激励他们。利克特基于这些发现建立了他可能的四种系统模型。在系统1中，权力和权威严格按照古典的管理下属关系进行分配：管理者向下层成员下达命令。相比之下，在系统4组织中，决策和解决问题的小组中有广泛的参与。每个小组中的一些个体也属于其他工作小组，以确保它们之间的沟通。系统4代表了利克特对理想组织的看法。\n新古典的组织设计方法弥补了传统古典模型的局限，但也受到了批评。首先，新古典主义者与古典主义者一样，都认为存在一种设计组织的最佳方式。他们忽略了可能影响组织设计的环境、技术和其他变量，并过分强调心理和行为变量。其次，X理论和Y理论过分简化了人类动机，并忽略了个体差异。并非每个人都受到工作的非金钱方面的激励，也并非所有工作都是令人满意的。最后，协调工作小组以实现组织目标可能比新古典主义者建议的要困难得多，特别是当下层员工的目标与上层管理者的目标不一致时。"
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
     }
   ],
   "questionExplanations": [
     {
-      "sectionTitle": "1. 多选题（Questions 14 and 15）",
-      "mode": "per_question",
-      "items": [],
-      "text": "题目：According to the writer, which TWO of the following are characteristics of the classical approach to organisational design? （根据作者，以下哪两项是古典组织设计方法的特征？）\n答案 14：A （员工有明确的等级顺序）\n解析：第二段描述古典方法为“a legalised, formal and hierarchical structure”（一个合法化、正式化和等级化的结构），以及“clear chain of command”（清晰的指挥链），这都指向了“a marked ranking order for employees”。\n答案 15：D （一个中立的工作环境）\n解析：第二段末句提到，根据韦伯，这类组织的特点是“an impersonal climate”（非个人化的氛围），这与“a neutral working environment”相对应。"
+      "sectionTitle": "1. multi choice (Questions 14-15)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 14,
+          "text": "题目 14\n答案：A\nPDF 定位：第2段：..a legalised, formal and hierarchical structure called a \"bureaucracy.\"；同段又说\"clearchain of command\"\nPDF 解析：hierarchical/clearchainof command→有明显的等级序列(markedranking order)。排除B\"重视每个人工作\"文中从未出现；C\"年长者晋升\"与原文 \"promotion...basedonabilityandexperience（按能力经验）\"不等同；E\"更多福利\" 未提。",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 15,
+          "text": "题目 15\n答案：D\nPDF 定位：第2段末句：\"..characterisedby...an impersonal climate.\nPDF 解析：impersonalclimate→中性/非个人化的工作环境（neutralworking environment)。排除见上。",
+          "questionId": "q2"
+        }
+      ],
+      "questionRange": {
+        "start": 14,
+        "end": 15
+      },
+      "text": "题目 14\n答案：A\nPDF 定位：第2段：..a legalised, formal and hierarchical structure called a \"bureaucracy.\"；同段又说\"clearchain of command\"\nPDF 解析：hierarchical/clearchainof command→有明显的等级序列(markedranking order)。排除B\"重视每个人工作\"文中从未出现；C\"年长者晋升\"与原文 \"promotion...basedonabilityandexperience（按能力经验）\"不等同；E\"更多福利\" 未提。\n\n题目 15\n答案：D\nPDF 定位：第2段末句：\"..characterisedby...an impersonal climate.\nPDF 解析：impersonalclimate→中性/非个人化的工作环境（neutralworking environment)。排除见上。"
     },
     {
-      "sectionTitle": "2. 多选题（Questions 16 and 17）",
-      "mode": "per_question",
-      "items": [],
-      "text": "题目：According to the writer, which TWO of the following are criticisms of the classical approach to organisational design? （根据作者，以下哪两项是对古典组织设计方法的批评？）\n答案 16：B （某些做法如果执行得过于严格，会变得负面）\n解析：第四段指出，如果理论被“applied dogmatically”（教条地应用）或“adhering excessively to rules”（过度遵守规则），优点就可能变成缺点。\n答案 17：E （过去预期的积极成果在今天不太可能出现）\n解析：第五段批评道，“the world no longer fits the assumptions in Weber's model... so a bureaucracy might not yield beneficial results.”，即世界已变，过去模型基于的假设不再适用，因此无法产生预期的好处。"
+      "sectionTitle": "2. multi choice (Questions 16-17)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 16,
+          "text": "题目 16\n答案：B\nPDF 定位：第4段:...advantages...could become disadvantages if the theory were applied dogmaticall...adhering excessively to rules....\nPDF 解析：applieddogmatically/excessively→实施过于僵化严格会变负面对应B。排除 A\"制定太多指南\"未提；C\"经理与员工无法合作\"未提；D虽貌似接近，但文中更强 调\"僵化执行\"的问题与\"世界变了\"，最贴合B、E。",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 17,
+          "text": "题目 17\n答案：E\nPDF 定位：第5段:..the world no longer fits the assumptions in Weber's model..so a bureaucracy might not yield beneficial results.\"\nPDF 解析：过去假定能产生正面效果，但如今未必→预期的积极结果在今天不太可能对应E。",
+          "questionId": "q4"
+        }
+      ],
+      "questionRange": {
+        "start": 16,
+        "end": 17
+      },
+      "text": "题目 16\n答案：B\nPDF 定位：第4段:...advantages...could become disadvantages if the theory were applied dogmaticall...adhering excessively to rules....\nPDF 解析：applieddogmatically/excessively→实施过于僵化严格会变负面对应B。排除 A\"制定太多指南\"未提；C\"经理与员工无法合作\"未提；D虽貌似接近，但文中更强 调\"僵化执行\"的问题与\"世界变了\"，最贴合B、E。\n\n题目 17\n答案：E\nPDF 定位：第5段:..the world no longer fits the assumptions in Weber's model..so a bureaucracy might not yield beneficial results.\"\nPDF 解析：过去假定能产生正面效果，但如今未必→预期的积极结果在今天不太可能对应E。"
     },
     {
-      "sectionTitle": "3. 多选题（Questions 18 and 19）",
-      "mode": "per_question",
-      "items": [],
-      "text": "题目：According to the writer, which TWO of the following are aims of the neoclassical approach to organisational design? （根据作者，以下哪两项是新古典组织设计方法的目标？）\n答案 18：A （确保工人被作为个体对待）\n解析：新古典方法旨在弥补古典方法“neglect of the human element”（忽视人的因素）的缺陷，并关注“employee satisfaction”（员工满意度）和“acknowledged human needs and feelings”（承认人的需求和感受），这些都体现了将员工作为个体对待的目标。\n答案 19：D （允许工人在工作场所发生的事情上有更大的发言权）\n解析：第六段和第七段都反复强调新古典方法鼓励“more subordinate participation in decision-making”（下属更多参与决策），即让员工有更大的发言权。"
+      "sectionTitle": "3. multi choice (Questions 18-19)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 18,
+          "text": "题目 18\n答案：A\nPDF 定位：第6段（承上古典缺陷）：..neglectofthehumanelement...twoobjectives: economic effectiveness and employee satisfaction.\"; 第8段: Argyris \"... acknowledged human needs and feelings...\nPDF 解析：把员工当\"人\"、关注个体需要/感受→A。",
+          "questionId": "q5"
+        },
+        {
+          "questionNumber": 19,
+          "text": "题目 19\n答案：D\nPDF 定位：第6段末:..improved by permitting more subordinate participation in decision-making.\"; 第7段 (McGregor, Theory Y): ..lower-level participation in decision-making is encouraged.\"\nPDF 解析：中\"更非正式文化\"相反；C\"改变生产方法\"未提；E\"晋升程序标准化\"是古典对\"规 则/任人唯贤\"的偏好，非新古典目标。",
+          "questionId": "q6"
+        }
+      ],
+      "questionRange": {
+        "start": 18,
+        "end": 19
+      },
+      "text": "题目 18\n答案：A\nPDF 定位：第6段（承上古典缺陷）：..neglectofthehumanelement...twoobjectives: economic effectiveness and employee satisfaction.\"; 第8段: Argyris \"... acknowledged human needs and feelings...\nPDF 解析：把员工当\"人\"、关注个体需要/感受→A。\n\n题目 19\n答案：D\nPDF 定位：第6段末:..improved by permitting more subordinate participation in decision-making.\"; 第7段 (McGregor, Theory Y): ..lower-level participation in decision-making is encouraged.\"\nPDF 解析：中\"更非正式文化\"相反；C\"改变生产方法\"未提；E\"晋升程序标准化\"是古典对\"规 则/任人唯贤\"的偏好，非新古典目标。"
     },
     {
-      "sectionTitle": "4. 多选题（Questions 20 and 21）",
-      "mode": "per_question",
-      "items": [],
-      "text": "题目：According to the writer, which TWO of the following are criticisms of the neoclassical approach to organisational design? （根据作者，以下哪两项是对新古典组织设计方法的批评？）\n答案 20：C （工作场所环境的影响被忽略了）\n解析：第十一段批评新古典主义者“overlook environmental, technological, and other variables...”（忽略环境、技术等变量），即忽略了工作场所的周边环境因素。\n答案 21：E （它假设所有人都为乐趣而非经济收益而工作）\n解析：第十一段批评X和Y理论过度简化人类动机，并指出“Not everyone is motivated by the non-monetary aspects of work...”（并非每个人都受非金钱方面激励），这正是对“假设人人都为乐趣工作”的批评。"
+      "sectionTitle": "4. multi choice (Questions 20-21)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 20,
+          "text": "题目 20\n答案：C\nPDF 定位：第11段首句：\"They overlook environmental,technological,and other variables... and overemphasise psychological..\nPDF 解析：忽视环境/技术等情境因素→忽视工作环境影响→C。B与原文\"过度强调心理行为 变量\"相反。",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：E\nPDF 定位：第11段中段:\"Theories X and Y oversimplify human motivation... Not everyone is motivated by the non-monetary aspects of work, nor is all work satisfying.\"\nPDF 解析：把人都当成为了兴趣（非金钱）而工作→假定人人享受工作而非为经济收益→E。排",
+          "questionId": "q8"
+        }
+      ],
+      "questionRange": {
+        "start": 20,
+        "end": 21
+      },
+      "text": "题目 20\n答案：C\nPDF 定位：第11段首句：\"They overlook environmental,technological,and other variables... and overemphasise psychological..\nPDF 解析：忽视环境/技术等情境因素→忽视工作环境影响→C。B与原文\"过度强调心理行为 变量\"相反。\n\n题目 21\n答案：E\nPDF 定位：第11段中段:\"Theories X and Y oversimplify human motivation... Not everyone is motivated by the non-monetary aspects of work, nor is all work satisfying.\"\nPDF 解析：把人都当成为了兴趣（非金钱）而工作→假定人人享受工作而非为经济收益→E。排"
     },
     {
-      "sectionTitle": "5. 人物观点配对（Questions 22–26）",
+      "sectionTitle": "5. matching (Questions 22-26)",
       "mode": "group",
       "items": [
         {
           "questionNumber": 22,
-          "text": "(1) 题目 22：The classical approach relied upon managers having incorrect views about workers. （古典方法依赖于管理者对工人持有不正确的看法。）\n答案：B (Douglas McGregor)\n解析：第七段，McGregor的X理论指出，古典方法的垂直分工源于对工人的“negative and false assumptions”（消极和错误的假设）。",
+          "text": "题目 22\n答案：B\nPDF 定位：第7段: ..vertical division... derived from negative and false\nPDF 解析：认为古典建立在管理者对员工的错误假设之上。",
           "questionId": "q9"
         },
         {
           "questionNumber": 23,
-          "text": "(2) 题目 23：In the best organisational model, there is shared decision-making and interaction between teams at work. （在最佳组织模型中，工作团队之间存在共享决策和互动。）\n答案：D (Rensis Likert)\n解析：第十段，Likert的理想模型System 4的特点是“extensive participation in decision-making and problem-solving groups”以及团队间的沟通机制。",
+          "text": "题目 23\n答案：D\nPDF 定位：第10 段:System 4 \"extensive participation in decision-making and problem-solving groups... some individuals... belong to other work groups to ensure communication between them.\"\nPDF 解析：描述共享决策+团队间互动的理想组织模型。",
           "questionId": "q10"
         },
         {
           "questionNumber": 24,
-          "text": "(3) 题目 24：In an efficient organisation, workers develop expertise in particular areas. （在一个高效的组织中，工人在特定领域发展专长。）\n答案：A (Max Weber)\n解析：第二段，根据Weber，高效组织的特点是“the specialisation of tasks”（任务专业化）。",
+          "text": "题目 24\n答案：A\nPDF 定位/解析：第2段：..characterised by the specialisation of tasks...",
           "questionId": "q11"
         },
         {
           "questionNumber": 25,
-          "text": "(4) 题目 25：An organisation must take into account the emotional demands of people. （一个组织必须考虑到人的情感需求。）\n答案：C (Chris Argyris)\n解析：第八段，Argyris主张一种“acknowledged human needs and feelings”（承认人的需求和感受）的组织设计。",
+          "text": "题目 25\n答案：C\nPDF 定位：第8段:..acknowledged human needs and feelings, and increased workers' satisfaction.\"\nPDF 解析：主张组织要考虑人的情感/需要。",
           "questionId": "q12"
         },
         {
           "questionNumber": 26,
-          "text": "(5) 题目 26：The classical approach allowed workers' skills to be assessed in a straightforward way. （古典方法使得工人的技能能够以一种直接的方式被评估。）\n答案：A (Max Weber)\n解析：第三段，Weber认为“clearly specified authority and responsibility made performance easier to evaluate and reward.”（明确的权责使绩效评估和奖励更容易）。",
+          "text": "题目 26\n答案：A\nPDF 定位：performance easier to evaluate and reward.\nPDF 解析：古典的清晰权责/规则使对员工能力与绩效的评估更直接。",
           "questionId": "q13"
         }
       ],
@@ -79,7 +145,7 @@
         "start": 22,
         "end": 26
       },
-      "text": "答案：B (Douglas McGregor)\n解析：第七段，McGregor的X理论指出，古典方法的垂直分工源于对工人的“negative and false assumptions”（消极和错误的假设）。\n答案：D (Rensis Likert)\n解析：第十段，Likert的理想模型System 4的特点是“extensive participation in decision-making and problem-solving groups”以及团队间的沟通机制。\n答案：A (Max Weber)\n解析：第二段，根据Weber，高效组织的特点是“the specialisation of tasks”（任务专业化）。\n答案：C (Chris Argyris)\n解析：第八段，Argyris主张一种“acknowledged human needs and feelings”（承认人的需求和感受）的组织设计。\n答案：A (Max Weber)\n解析：第三段，Weber认为“clearly specified authority and responsibility made performance easier to evaluate and reward.”（明确的权责使绩效评估和奖励更容易）。"
+      "text": "题目 22\n答案：B\nPDF 定位：第7段: ..vertical division... derived from negative and false\nPDF 解析：认为古典建立在管理者对员工的错误假设之上。\n\n题目 23\n答案：D\nPDF 定位：第10 段:System 4 \"extensive participation in decision-making and problem-solving groups... some individuals... belong to other work groups to ensure communication between them.\"\nPDF 解析：描述共享决策+团队间互动的理想组织模型。\n\n题目 24\n答案：A\nPDF 定位/解析：第2段：..characterised by the specialisation of tasks...\n\n题目 25\n答案：C\nPDF 定位：第8段:..acknowledged human needs and feelings, and increased workers' satisfaction.\"\nPDF 解析：主张组织要考虑人的情感/需要。\n\n题目 26\n答案：A\nPDF 定位：performance easier to evaluate and reward.\nPDF 解析：古典的清晰权责/规则使对员工能力与绩效的评估更直接。"
     }
   ]
 }

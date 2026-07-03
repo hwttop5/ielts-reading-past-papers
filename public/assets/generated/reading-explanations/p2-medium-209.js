@@ -1,0 +1,131 @@
+(function registerReadingExplanationData(global) {
+  'use strict';
+  if (!global.__READING_EXPLANATION_DATA__ || typeof global.__READING_EXPLANATION_DATA__.register !== "function") {
+    throw new Error("reading_explanation_registry_missing");
+  }
+  global.__READING_EXPLANATION_DATA__.register("p2-medium-209", {
+  "schemaVersion": "ReadingExplanationV1",
+  "examId": "p2-medium-209",
+  "meta": {
+    "examId": "p2-medium-209",
+    "title": "Decision Fatigue 决策疲劳",
+    "category": "P2",
+    "sourceDoc": "209. P2 - Decision Fatigue 决策疲劳.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Decision Fatigue 决策疲劳",
+    "ocrPages": [
+      5,
+      6
+    ],
+    "pdfPageCount": 6,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionExplanations": [
+    {
+      "sectionTitle": "1. short answer (Questions 14-19)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 14,
+          "text": "题目 14\n答案：e\nPDF 定位：E段，中部。关键词：lemonade,sugar，diet 产生了不同的影响。 sweetener, tasted similar but did not contain glucose, no effect.\nPDF 解析：原文: *The sugary lemonade provided a lemonade\"和 \"sugarless sweeteners\", burst of glucose ... the sugarless sweeteners \"tasted similar\"；\"不同的影响\"对应前者 tasted similar but did not contain the restored willpower, 后者had no effect。 这 glucose. Again and again, the sugar restored willpower, but the artificial sweetener had no 点只在E段出现，所以答案是E。 effect\"-糖柠檬水提供了-阵葡剪籍；无 糖甜味剂尝起来相似，却不含葡萄糖。一次又 一次地，糖恢复了意志力，而人造甜味剂没有 任何效果。",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 15,
+          "text": "题目 15\n答案：b\nPDF 定位：B段，后半部分。关键调：sadmovie,resist 导致在其他活动中缺乏坚持。 the urge to cry, gave up more quickly.\nPDF 解析：原文: \"When they tried to resist the urge 题干里的\"控制情绪(controlling emotions)* \"观看令人难过的东西\"\"导致其他活动缺乏毅力\" to cry during a sad movie, aftenwards they gave up more quickly on tasks requiring self- 都与这句话一一对应：抑制哭泣=控制情绪；sad discipline, such as working on a geometry movie=令人难过的东西；之后做几何题时更快 puzzle.\"-当他们在看伤感电影时努力克制哭 放弃=缺乏坚持。因此选B。 泣的冲动，之后在需要自律的任务（例如做几何 题）上更快放弃。",
+          "questionId": "q2"
+        },
+        {
+          "questionNumber": 16,
+          "text": "题目 16\n答案：g\nPDF 定位：G段，中后部。关键词：good choices,not 东西很重要， rested and their glucose is low, not to do it on an empty stomach.\nPDF 解析：原文：\"Even the wisest people won't make 题干问\"为什么重要\"，答案就是：血糖低会影购 good choices when they're not rested and 决策质量，所以要先吃点东西，这个因果解释正 their glucose is low. If a decision must be 是G段这两句，因此选G。 made late in the afternoon or in the evening, they know not to do it on an empty stomach. 即便是最有智慧的人，在没有休息好且血 糖偏低的时候也做不出好决定..如果必须在 下午晚些时候或晚上作决定，他们知道不能空 腹去做。",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 17,
+          "text": "题目 17\n答案：f\nPDF 定位：F段开头，关键词：reservations aboutthe 糖的作用。 glucose connection, didn't see how this process could be caused simply by variations in glucose levels.\nPDF 解析：原文: \"However, some brain researchers had was not initially convinced*=\"had reservations /didn't see how..\"，而被点名的 reservations about the glucose connection. 研究者只有 Todd Heatherton，且只在F段出 \"Todd Heatherton... believed in ego depletion 现，因此答案为F。 but didn't see how this process could be caused simply by variations in glucose levels.\"然而，-些脑科学研究者对葡萄糖 的关联持保留态度。\"ToddHeatherton..相信 自我耗竭，但他不认为这个过程可以仅仅由血糖 水平的变化来解释。\"",
+          "questionId": "q4"
+        },
+        {
+          "questionNumber": 18,
+          "text": "题目 18\n答案：c\nPDF 定位：C段前半+中部。关键词：visited a tailor, 它是以研究者自己生活中 的经历为蓝本。 couldn't tell the choices apart, Levav put the experience to use in an experiment.\nPDF 解析：原文1: \"He visited a tailor to have a suit 先讲Levav自己在裁缝店被选项\"搞晕\"的个人 made for his wedding... when he got through 经历，然后说他\"把这次经历用在实验中\"，就是 the third pile of fabric samples, Levav recalls, 题于 *mirrored an experience.. in his personal couldn't tell the choices apart anymore... life\"的意思。所以答案是C。 Whatdo you recommend?\"\"-他去裁缝店 做结婚礼服.看到第三叠面料样本时，他回 忆说\"我已经分不清这些选择了..你推荐嘟 个?\"原文2:\"Levav put the experience to use in an experiment conducted at German cardealerships..\"-Levav将这次经历运用 到一项在德国汽车经销商处进行的实验中。",
+          "questionId": "q5"
+        },
+        {
+          "questionNumber": 19,
+          "text": "题目 19\n答案：d\nPDF 定位：D段开头。关键词：sweetsnacks，featured 来利用\"决策疲劳\"。 prominently at cash registers, willpower reduced after shopping, vulnerable.\nPDF 解析：原文：*Similarly,sweet snacks arefeatured 这里清楚地描述了\"商品的位置（收银台)\"+ prominently at cash registers at most supermarkets, With their wilpower reduced 容易购买零食(被利用)\"。这正是题干要求的 after shopping, people are especially location of products in a shop... used to take wulnerable to sweet drinks and snacks.\" advantage of decision fatigue\",因此选 D。 同样，在大多数超市里，甜食被显眼地摆在收银 台旁。购物后人们的意志力下降，对甜饮料和零 食特别睿易\"沦陷\"。",
+          "questionId": "q6"
+        }
+      ],
+      "questionRange": {
+        "start": 14,
+        "end": 19
+      },
+      "text": "题目 14\n答案：e\nPDF 定位：E段，中部。关键词：lemonade,sugar，diet 产生了不同的影响。 sweetener, tasted similar but did not contain glucose, no effect.\nPDF 解析：原文: *The sugary lemonade provided a lemonade\"和 \"sugarless sweeteners\", burst of glucose ... the sugarless sweeteners \"tasted similar\"；\"不同的影响\"对应前者 tasted similar but did not contain the restored willpower, 后者had no effect。 这 glucose. Again and again, the sugar restored willpower, but the artificial sweetener had no 点只在E段出现，所以答案是E。 effect\"-糖柠檬水提供了-阵葡剪籍；无 糖甜味剂尝起来相似，却不含葡萄糖。一次又 一次地，糖恢复了意志力，而人造甜味剂没有 任何效果。\n\n题目 15\n答案：b\nPDF 定位：B段，后半部分。关键调：sadmovie,resist 导致在其他活动中缺乏坚持。 the urge to cry, gave up more quickly.\nPDF 解析：原文: \"When they tried to resist the urge 题干里的\"控制情绪(controlling emotions)* \"观看令人难过的东西\"\"导致其他活动缺乏毅力\" to cry during a sad movie, aftenwards they gave up more quickly on tasks requiring self- 都与这句话一一对应：抑制哭泣=控制情绪；sad discipline, such as working on a geometry movie=令人难过的东西；之后做几何题时更快 puzzle.\"-当他们在看伤感电影时努力克制哭 放弃=缺乏坚持。因此选B。 泣的冲动，之后在需要自律的任务（例如做几何 题）上更快放弃。\n\n题目 16\n答案：g\nPDF 定位：G段，中后部。关键词：good choices,not 东西很重要， rested and their glucose is low, not to do it on an empty stomach.\nPDF 解析：原文：\"Even the wisest people won't make 题干问\"为什么重要\"，答案就是：血糖低会影购 good choices when they're not rested and 决策质量，所以要先吃点东西，这个因果解释正 their glucose is low. If a decision must be 是G段这两句，因此选G。 made late in the afternoon or in the evening, they know not to do it on an empty stomach. 即便是最有智慧的人，在没有休息好且血 糖偏低的时候也做不出好决定..如果必须在 下午晚些时候或晚上作决定，他们知道不能空 腹去做。\n\n题目 17\n答案：f\nPDF 定位：F段开头，关键词：reservations aboutthe 糖的作用。 glucose connection, didn't see how this process could be caused simply by variations in glucose levels.\nPDF 解析：原文: \"However, some brain researchers had was not initially convinced*=\"had reservations /didn't see how..\"，而被点名的 reservations about the glucose connection. 研究者只有 Todd Heatherton，且只在F段出 \"Todd Heatherton... believed in ego depletion 现，因此答案为F。 but didn't see how this process could be caused simply by variations in glucose levels.\"然而，-些脑科学研究者对葡萄糖 的关联持保留态度。\"ToddHeatherton..相信 自我耗竭，但他不认为这个过程可以仅仅由血糖 水平的变化来解释。\"\n\n题目 18\n答案：c\nPDF 定位：C段前半+中部。关键词：visited a tailor, 它是以研究者自己生活中 的经历为蓝本。 couldn't tell the choices apart, Levav put the experience to use in an experiment.\nPDF 解析：原文1: \"He visited a tailor to have a suit 先讲Levav自己在裁缝店被选项\"搞晕\"的个人 made for his wedding... when he got through 经历，然后说他\"把这次经历用在实验中\"，就是 the third pile of fabric samples, Levav recalls, 题于 *mirrored an experience.. in his personal couldn't tell the choices apart anymore... life\"的意思。所以答案是C。 Whatdo you recommend?\"\"-他去裁缝店 做结婚礼服.看到第三叠面料样本时，他回 忆说\"我已经分不清这些选择了..你推荐嘟 个?\"原文2:\"Levav put the experience to use in an experiment conducted at German cardealerships..\"-Levav将这次经历运用 到一项在德国汽车经销商处进行的实验中。\n\n题目 19\n答案：d\nPDF 定位：D段开头。关键词：sweetsnacks，featured 来利用\"决策疲劳\"。 prominently at cash registers, willpower reduced after shopping, vulnerable.\nPDF 解析：原文：*Similarly,sweet snacks arefeatured 这里清楚地描述了\"商品的位置（收银台)\"+ prominently at cash registers at most supermarkets, With their wilpower reduced 容易购买零食(被利用)\"。这正是题干要求的 after shopping, people are especially location of products in a shop... used to take wulnerable to sweet drinks and snacks.\" advantage of decision fatigue\",因此选 D。 同样，在大多数超市里，甜食被显眼地摆在收银 台旁。购物后人们的意志力下降，对甜饮料和零 食特别睿易\"沦陷\"。"
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 20-22)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 20,
+          "text": "题目 20\n答案：rational\nPDF 定位：Even when people attempt to be 20 A段第1句。关键词：Nomatterhow rationa/ they experience decision fatigue'.-即使 people try to be. 人们试图保持20 如果连着做很多决 定，仍然会经历\"决策疲劳\"。\nPDF 解析：原文: \"No matter how rational people try to be, they can't make decision after decision to be\"，唯一可填的描述是rational。词形也 保持原样，故答索为rational。 without paying a biological price.\"-无论人 们多么努力想保持理性，他们都不可能连续不断 地做决定而不付出生理代价。",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：tired\nPDF 定位：They are not aware of how 21 they A段第2句。关键词：not conscious of being 他们没有意识到自己到庭有多21 tired. are...\nPDF 解析：原文: \"People are not conscious of being 摘要中\"not aware of\"=原文\"not conscious of\"，后面缺的调就是tired。而且必须是一个 tired, but nevertheless they are low on 词，所以填tired。 energy\"-人们并没有意识到自己已经疫意， 但事实上他们的能量已所剩无几。",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 22,
+          "text": "题目 22\n答案：shortcuts\nPDF 定位：After making many decisions in one day, the A段中后部。关键词：it looks forshortcuts. brain seeks 22 , in order to conserve energy.--天之内做很多决定之后，大脑会 寻求22 来节省能量。\nPDF 解析：原文: \".. the harder it becomes for the brain, 摘要里的\"seeks ..in order to conserve and eventually it looks for shortcuts: either to act impulsively.. or the uttimate energy saver\"的概括。名调只能填shortcuts（注意原 文也是复数)，因此答案为shortcuts。 saver:do nothing.\"-对大脑来说做决定会 越来越吃力，最终它会寻找捷径：要么冲动行 事..要么采取终极省力方式：什么也不做。",
+          "questionId": "q9"
+        }
+      ],
+      "questionRange": {
+        "start": 20,
+        "end": 22
+      },
+      "text": "题目 20\n答案：rational\nPDF 定位：Even when people attempt to be 20 A段第1句。关键词：Nomatterhow rationa/ they experience decision fatigue'.-即使 people try to be. 人们试图保持20 如果连着做很多决 定，仍然会经历\"决策疲劳\"。\nPDF 解析：原文: \"No matter how rational people try to be, they can't make decision after decision to be\"，唯一可填的描述是rational。词形也 保持原样，故答索为rational。 without paying a biological price.\"-无论人 们多么努力想保持理性，他们都不可能连续不断 地做决定而不付出生理代价。\n\n题目 21\n答案：tired\nPDF 定位：They are not aware of how 21 they A段第2句。关键词：not conscious of being 他们没有意识到自己到庭有多21 tired. are...\nPDF 解析：原文: \"People are not conscious of being 摘要中\"not aware of\"=原文\"not conscious of\"，后面缺的调就是tired。而且必须是一个 tired, but nevertheless they are low on 词，所以填tired。 energy\"-人们并没有意识到自己已经疫意， 但事实上他们的能量已所剩无几。\n\n题目 22\n答案：shortcuts\nPDF 定位：After making many decisions in one day, the A段中后部。关键词：it looks forshortcuts. brain seeks 22 , in order to conserve energy.--天之内做很多决定之后，大脑会 寻求22 来节省能量。\nPDF 解析：原文: \".. the harder it becomes for the brain, 摘要里的\"seeks ..in order to conserve and eventually it looks for shortcuts: either to act impulsively.. or the uttimate energy saver\"的概括。名调只能填shortcuts（注意原 文也是复数)，因此答案为shortcuts。 saver:do nothing.\"-对大脑来说做决定会 越来越吃力，最终它会寻找捷径：要么冲动行 事..要么采取终极省力方式：什么也不做。"
+    },
+    {
+      "sectionTitle": "3. short answer (Questions 23-26)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 23,
+          "text": "题目 23\n答案：a\nPDF 定位：B段开头。关键词：finite storeofmental stamina for exerting self-control.\nPDF 解析：原文: \"His research demonstrated that there \"finite store\"就是\"有限的能量/储备\"，完全 对应题干\"the energy.islimited\"。这段明确 is a finite store of mental stamina for exerting self-control\"-他的研究表明，人类用于自 是讲社会心理学家RoyF.Baumeister的研究， 我控制的精神耐力储备是有限的。 因此选A。",
+          "questionId": "q10"
+        },
+        {
+          "questionNumber": 24,
+          "text": "题目 24\n答案：a\nPDF 定位：D段中部，关键词：tastelesslow-fatdairy 了积极作用。 beverage, no pleasure, similar improvements in self-control.\nPDF 解析：原文： \"However, the experiment also \"tasteless.. no pleasure\" = \"unpleasant\"; included a control group who drank a \"produced similar improvements in self- control\" = had a positive effect on tasteless low-fat dairy beverage, It provided them with no pleasure, yet it produced willpower\"。这个实验仍然是Baumeister团队 similar improvements in self-control.\"-实 做的，所以研究者为A。 验中还包含一个对照组，他们喝的是无味的低脂 奶制饮料。它并不带来愉悦感，却同样提高了自 我控制力。",
+          "questionId": "q11"
+        },
+        {
+          "questionNumber": 25,
+          "text": "题目 25\n答案：c\nPDF 定位：F段中后部，关键词：suppress theirlaughter, 应发生了变化。 inducing ego depletion, again shown pictures of food, brain scans revealed more activity.. a decrease in the amygdala.\nPDF 解析：原文: \"Next, these dieters watched a 先\"强追自己憨笑*=exert self-control；之后 再看图片时，大脑成像发生变化=\"responses comedy video while forcing themselves to suppress their laughterthereby draining to images changed。 这段是 Todd mental energy and inducing ego depletion. Heatherton的团队做的实验，所以答案为C。 When they were again shown pictures of food, further brain scans revealed more activity in the brain's reward centre and a decrease in the amygdala .. he food's appeal.. registered more strongly while impulse controlweakened.\"-接着，这些 节食者在观看喜剧视频时强追自己慰笑，从而消 耗了心理能量并诱发自我耗竭。当他们再次看到 食物图片时，后续的脑成像显示：大脑奖励中 心活动增强，面帮助控制冲动的查仁核活动降 低...换句话说，食物的吸引力更强了，而冲动 控制变弱。",
+          "questionId": "q12"
+        },
+        {
+          "questionNumber": 26,
+          "text": "题目 26\n答案：b\nPDF 定位：C段后半部分。关键词：manipulatingthe 消费者的利益。 order, customers would end up paying more.\nPDF 解析：原文: *By manipulating the order of the car sequence of options presented*=order buyers choices, the researchers found that of the car buyers' choices\"; *used to the customers would end up paying more.\"- consumers' disadvantage\"=\"customers would end up payingmore（多花钱）\"，这项研 通过调整汽车买家作出选择的顺序，研究者发 现，顾客最终会付出更多钱。 究是Jonathan Levav 做的，因此选B。",
+          "questionId": "q13"
+        }
+      ],
+      "questionRange": {
+        "start": 23,
+        "end": 26
+      },
+      "text": "题目 23\n答案：a\nPDF 定位：B段开头。关键词：finite storeofmental stamina for exerting self-control.\nPDF 解析：原文: \"His research demonstrated that there \"finite store\"就是\"有限的能量/储备\"，完全 对应题干\"the energy.islimited\"。这段明确 is a finite store of mental stamina for exerting self-control\"-他的研究表明，人类用于自 是讲社会心理学家RoyF.Baumeister的研究， 我控制的精神耐力储备是有限的。 因此选A。\n\n题目 24\n答案：a\nPDF 定位：D段中部，关键词：tastelesslow-fatdairy 了积极作用。 beverage, no pleasure, similar improvements in self-control.\nPDF 解析：原文： \"However, the experiment also \"tasteless.. no pleasure\" = \"unpleasant\"; included a control group who drank a \"produced similar improvements in self- control\" = had a positive effect on tasteless low-fat dairy beverage, It provided them with no pleasure, yet it produced willpower\"。这个实验仍然是Baumeister团队 similar improvements in self-control.\"-实 做的，所以研究者为A。 验中还包含一个对照组，他们喝的是无味的低脂 奶制饮料。它并不带来愉悦感，却同样提高了自 我控制力。\n\n题目 25\n答案：c\nPDF 定位：F段中后部，关键词：suppress theirlaughter, 应发生了变化。 inducing ego depletion, again shown pictures of food, brain scans revealed more activity.. a decrease in the amygdala.\nPDF 解析：原文: \"Next, these dieters watched a 先\"强追自己憨笑*=exert self-control；之后 再看图片时，大脑成像发生变化=\"responses comedy video while forcing themselves to suppress their laughterthereby draining to images changed。 这段是 Todd mental energy and inducing ego depletion. Heatherton的团队做的实验，所以答案为C。 When they were again shown pictures of food, further brain scans revealed more activity in the brain's reward centre and a decrease in the amygdala .. he food's appeal.. registered more strongly while impulse controlweakened.\"-接着，这些 节食者在观看喜剧视频时强追自己慰笑，从而消 耗了心理能量并诱发自我耗竭。当他们再次看到 食物图片时，后续的脑成像显示：大脑奖励中 心活动增强，面帮助控制冲动的查仁核活动降 低...换句话说，食物的吸引力更强了，而冲动 控制变弱。\n\n题目 26\n答案：b\nPDF 定位：C段后半部分。关键词：manipulatingthe 消费者的利益。 order, customers would end up paying more.\nPDF 解析：原文: *By manipulating the order of the car sequence of options presented*=order buyers choices, the researchers found that of the car buyers' choices\"; *used to the customers would end up paying more.\"- consumers' disadvantage\"=\"customers would end up payingmore（多花钱）\"，这项研 通过调整汽车买家作出选择的顺序，研究者发 现，顾客最终会付出更多钱。 究是Jonathan Levav 做的，因此选B。"
+    }
+  ]
+}
+  );
+})(typeof window !== "undefined" ? window : globalThis);

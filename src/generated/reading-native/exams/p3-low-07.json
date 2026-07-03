@@ -1608,43 +1608,43 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 段落信息配对（Questions 27–32）",
+        "sectionTitle": "1. table completion (Questions 27-32)",
         "mode": "group",
         "questionRange": {
           "start": 27,
           "end": 32
         },
-        "text": "答案：A\n解析：A段末尾明确指出，“拥有最优秀人才的公司表现最好”的观点“既有缺陷，又是有害的”。\n答案：E\n解析：E段中部描述了埃里克森的研究，指出卓越表现需要“around ten years of nearly daily, deliberate practice for about four hours a day”。\n答案：B\n解析：B段开头就说“in every field, from sports to computer programming to music, there are people who are better than the rest”，证明了明星员工的存在。\n答案：F\n解析：F段对比了“performance goals”（绩效目标）和“learning goals”（学习目标）两种评估框架，并说明了它们如何导致员工在面对挫折时产生截然不同的反应（无助 vs. 努力）。\n答案：C\n解析：C段前半部分指出，由于表现会随时间变化，在“a single point in time”（单一时间点）进行的任何测量都会有误差和不精确性。\n答案：B\n解析：B段用音乐领域的例子量化了不同个体的贡献程度：“16 individuals have produced about 50 per cent... while another 235 composers have produced the remaining half.”。",
+        "text": "题目 27\n答案：A\nPDF 定位：A末: \"this idea, that talent is a fixed, identifiable characteristic and that those firms with the best people do the best is both flawed and harmful.\nPDF 解析：明确反对\"雇最有才的人→公司表现最佳\"的观点。\n\n题目 28\n答案：E\nPDF 定位：E段中部: exceptional performance doesn't happen without around ten years of nearly daily, deliberate practice for about four hours a day, by people who, with the assistance of their coaches, have access to the best techniques.\"\nPDF 解析：说明个人需要长期、几乎每天的刻意练习（还有教练协助）来提升表现。\n\n题目 29\n答案：B\nPDF 定位：B段开头:\"in every field, from sports to computer programing to music, there are people who are better than the rest.\"\nPDF 解析：证明各领域都存在杰出人才（star/exceptionaltalent)。\n\n题目 30\n答案：F\nPDF 定位：F段开头与中部：\"see performance results as an opportunity for an assessment... results in lower performance and poor motivation... 'performance goals... more prone to helpless behaviour... \"learning goals.. strive for higher performance.\"\nPDF 解析：不同的评估/目标框架（绩效目标Vs学习目标）→员工动机与反应不同。\n\n题目 31\n答案：C\nPDF 定位：C段前半:\"if performance naturally varies, any measurement taken at a single point in time... will have error and imprecision.\nPDF 解析：明说评估的时间点会影响准确性（单次测量易出错)。\n\n题目 32\n答案：B\nPDF 定位：B段例子:\"in music, 16 individuals have produced about 50 per cent... while another 235 composers have produced the remaining half.\"\nPDF 解析：给出不同个体贡献占比（16人占一半，235人占一半），正是\"贡献程度\"的量化。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "(1) 题目 27：disagreement with the view that employing talented people enables companies to achieve top performance （不同意“雇用有才华的人能使公司取得最佳业绩”的观点）\n答案：A\n解析：A段末尾明确指出，“拥有最优秀人才的公司表现最好”的观点“既有缺陷，又是有害的”。"
+            "text": "题目 27\n答案：A\nPDF 定位：A末: \"this idea, that talent is a fixed, identifiable characteristic and that those firms with the best people do the best is both flawed and harmful.\nPDF 解析：明确反对\"雇最有才的人→公司表现最佳\"的观点。"
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "(2) 题目 28：a description of what individuals have to do on a regular basis to improve their performance （描述个人为提高表现需要定期做什么）\n答案：E\n解析：E段中部描述了埃里克森的研究，指出卓越表现需要“around ten years of nearly daily, deliberate practice for about four hours a day”。"
+            "text": "题目 28\n答案：E\nPDF 定位：E段中部: exceptional performance doesn't happen without around ten years of nearly daily, deliberate practice for about four hours a day, by people who, with the assistance of their coaches, have access to the best techniques.\"\nPDF 解析：说明个人需要长期、几乎每天的刻意练习（还有教练协助）来提升表现。"
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "(3) 题目 29：the evidence that exceptional talent exists in all areas of life （证明杰出人才存在于生活各个领域的证据）\n答案：B\n解析：B段开头就说“in every field, from sports to computer programming to music, there are people who are better than the rest”，证明了明星员工的存在。"
+            "text": "题目 29\n答案：B\nPDF 定位：B段开头:\"in every field, from sports to computer programing to music, there are people who are better than the rest.\"\nPDF 解析：证明各领域都存在杰出人才（star/exceptionaltalent)。"
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "(4) 题目 30：how different ways of evaluating achievement at work can cause different reactions in employees （不同的工作成就评估方式如何导致员工的不同反应）\n答案：F\n解析：F段对比了“performance goals”（绩效目标）和“learning goals”（学习目标）两种评估框架，并说明了它们如何导致员工在面对挫折时产生截然不同的反应（无助 vs. 努力）。"
+            "text": "题目 30\n答案：F\nPDF 定位：F段开头与中部：\"see performance results as an opportunity for an assessment... results in lower performance and poor motivation... 'performance goals... more prone to helpless behaviour... \"learning goals.. strive for higher performance.\"\nPDF 解析：不同的评估/目标框架（绩效目标Vs学习目标）→员工动机与反应不同。"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "(5) 题目 31：the belief that the time when an assessment is carried out affects its accuracy （认为评估进行的时间会影响其准确性的信念）\n答案：C\n解析：C段前半部分指出，由于表现会随时间变化，在“a single point in time”（单一时间点）进行的任何测量都会有误差和不精确性。"
+            "text": "题目 31\n答案：C\nPDF 定位：C段前半:\"if performance naturally varies, any measurement taken at a single point in time... will have error and imprecision.\nPDF 解析：明说评估的时间点会影响准确性（单次测量易出错)。"
           },
           {
             "questionId": "q6",
             "questionNumber": 32,
-            "text": "(6) 题目 32：the extent to which different talented individuals have contributed to their particular area of achievement （不同才华的个人对其特定成就领域的贡献程度）\n答案：B\n解析：B段用音乐领域的例子量化了不同个体的贡献程度：“16 individuals have produced about 50 per cent... while another 235 composers have produced the remaining half.”。"
+            "text": "题目 32\n答案：B\nPDF 定位：B段例子:\"in music, 16 individuals have produced about 50 per cent... while another 235 composers have produced the remaining half.\"\nPDF 解析：给出不同个体贡献占比（16人占一半，235人占一半），正是\"贡献程度\"的量化。"
           }
         ]
       }
@@ -1898,28 +1898,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "2. 简答题（Questions 33–35）",
+        "sectionTitle": "2. sentence completion (Questions 33-35)",
         "mode": "group",
         "questionRange": {
           "start": 33,
           "end": 35
         },
-        "text": "答案：16\n解析：B段的例子中，那批贡献了50%音乐的“16 individuals”就是被认定为“star”或“exceptionally talented”的作曲家。\n答案：Bach\n解析：C段举例说，“for Bach to be considered a great musician, standards of music needed to change...”，暗示他最初未被广泛认可。\n答案：coaches\n解析：E段提到，卓越表现的达成需要“with the assistance of their coaches”。",
+        "text": "题目 33\n答案：16\nPDF 定位：B段:\"16 individuals have produced about 50 per cent of the Western classical music...\nPDF 解析：问\"有多少位被认定为特别有才华的西方古典作曲家?\"此处的16人就是那批\"star\" 作曲家。填数字16。\n\n题目 34\n答案：Bach\nPDF 定位：C段后半：\"for Bach to be considered a great musician, standards of music needed to change...\nPDF 解析：说明巴赫需要后来评价标准改变才被认为伟大→早期认可度低。\n\n题目 35\n答案：coaches\nPDF 定位：E段: \"with the assistance of their coaches, have access to the best techniques.\"\nPDF 解析：问\"谁能帮助每天练习的人提高表现?\"coaches（教练)。",
         "items": [
           {
             "questionId": "q7",
             "questionNumber": 33,
-            "text": "(1) 题目 33：How many Western classical composers are identified as exceptionally talented? （有多少位西方古典作曲家被认定为特别有才华？）\n答案：16\n解析：B段的例子中，那批贡献了50%音乐的“16 individuals”就是被认定为“star”或“exceptionally talented”的作曲家。"
+            "text": "题目 33\n答案：16\nPDF 定位：B段:\"16 individuals have produced about 50 per cent of the Western classical music...\nPDF 解析：问\"有多少位被认定为特别有才华的西方古典作曲家?\"此处的16人就是那批\"star\" 作曲家。填数字16。"
           },
           {
             "questionId": "q8",
             "questionNumber": 34,
-            "text": "(2) 题目 34：Which composer initially received little recognition for his work? （哪位作曲家最初其作品认可度不高？）\n答案：Bach\n解析：C段举例说，“for Bach to be considered a great musician, standards of music needed to change...”，暗示他最初未被广泛认可。"
+            "text": "题目 34\n答案：Bach\nPDF 定位：C段后半：\"for Bach to be considered a great musician, standards of music needed to change...\nPDF 解析：说明巴赫需要后来评价标准改变才被认为伟大→早期认可度低。"
           },
           {
             "questionId": "q9",
             "questionNumber": 35,
-            "text": "(3) 题目 35：Who can help improve the performance of people practising daily? （谁能帮助每天练习的人提高表现？）\n答案：coaches\n解析：E段提到，卓越表现的达成需要“with the assistance of their coaches”。"
+            "text": "题目 35\n答案：coaches\nPDF 定位：E段: \"with the assistance of their coaches, have access to the best techniques.\"\nPDF 解析：问\"谁能帮助每天练习的人提高表现?\"coaches（教练)。"
           }
         ]
       }
@@ -2733,38 +2733,38 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "3. 判断题（Questions 36–40）",
-        "mode": "per_question",
+        "sectionTitle": "3. true false not given (Questions 36-40)",
+        "mode": "group",
         "questionRange": {
           "start": 36,
           "end": 40
         },
-        "text": "答案：FALSE\n解析：A段中部说，招聘决策主要受“skills and abilities”（技能和能力）影响，而非“aptitude and attitude”（资质和态度，更接近品格）。\n答案：NOT GIVEN\n解析：文中只说各领域都有明星，以及在体育领域识别人才也会出错，但并未比较不同体育领域的人才比例。\n答案：FALSE\n解析：D段说，即使是最好的预测指标（智力测量），也只与表现“correlate only loosely”（松散相关），超过80%的差异无法解释，因此并非“准确预测”。\n答案：TRUE\n解析：D段后半部分举了迈克尔·乔丹和一些橄榄球四分卫早期不被看好的例子，证明了有才华者被忽视的情况确实存在。\n答案：NOT GIVEN\n解析：文章完全没有讨论新成立组织与员工动机之间的关系。",
+        "text": "题目 36\n答案：FALSE\nPDF 定位：A段中部:\"Most recruitment decisions are influenced by the skills and abilities... rather than their aptitude and attitude.\"\nPDF 解析：题干说\"公司通常依据品格招聘\"；原文说主要依据技能与能力，而非态度/资 质→相矛盾。\n\n题目 37\n答案：NOT GIVEN\nPDF 解析：文中没有说\"某些体育领域比其他领域有更高比例的天赋\"。只说各领域都有明星， 及识别失误的例子。\n\n题目 38\n答案：FALSE\nPDF 定位：D段前半：\"best predictors... measures of intelligence. But even these correlate only loosely with performance... more than 80% of the variation... unexplained.\"\nPDF 解析：题干称智力测量准确预测工作表现；原文说相关性很弱→错误。\n\n题目 39\n答案：TRUE\nPDF 定位：D段后半：迈克尔·乔丹被高中教练淘汰；多位四分卫早期不被看好。\nPDF 解析：明确存在被忽视的天才运动员→正确。\n\n题目 40\n答案：NOT GIVEN\nPDF 解析：文章未谈\"新成立组织员工具有最高动机\"。动机讨论集中在Dweck的目标框架， 而非公司成立时间。",
         "items": [
           {
             "questionId": "q10",
             "questionNumber": 36,
-            "text": "(1) 题目 36：Companies usually hire people on the basis of their character. （公司通常依据品格招聘员工。）\n答案：FALSE\n解析：A段中部说，招聘决策主要受“skills and abilities”（技能和能力）影响，而非“aptitude and attitude”（资质和态度，更接近品格）。"
+            "text": "题目 36\n答案：FALSE\nPDF 定位：A段中部:\"Most recruitment decisions are influenced by the skills and abilities... rather than their aptitude and attitude.\"\nPDF 解析：题干说\"公司通常依据品格招聘\"；原文说主要依据技能与能力，而非态度/资 质→相矛盾。"
           },
           {
             "questionId": "q11",
             "questionNumber": 37,
-            "text": "(2) 题目 37：There are some areas of sport that have a greater proportion of talent than others. （某些体育领域比其他领域拥有更高比例的人才。）\n答案：NOT GIVEN\n解析：文中只说各领域都有明星，以及在体育领域识别人才也会出错，但并未比较不同体育领域的人才比例。"
+            "text": "题目 37\n答案：NOT GIVEN\nPDF 解析：文中没有说\"某些体育领域比其他领域有更高比例的天赋\"。只说各领域都有明星， 及识别失误的例子。"
           },
           {
             "questionId": "q12",
             "questionNumber": 38,
-            "text": "(3) 题目 38：Measures of intelligence accurately predict performance at work. （智力测量能准确预测工作表现。）\n答案：FALSE\n解析：D段说，即使是最好的预测指标（智力测量），也只与表现“correlate only loosely”（松散相关），超过80%的差异无法解释，因此并非“准确预测”。"
+            "text": "题目 38\n答案：FALSE\nPDF 定位：D段前半：\"best predictors... measures of intelligence. But even these correlate only loosely with performance... more than 80% of the variation... unexplained.\"\nPDF 解析：题干称智力测量准确预测工作表现；原文说相关性很弱→错误。"
           },
           {
             "questionId": "q13",
             "questionNumber": 39,
-            "text": "(4) 题目 39：There are cases in which talented sportspeople have been overlooked. （存在有才华的运动员被忽视的情况。）\n答案：TRUE\n解析：D段后半部分举了迈克尔·乔丹和一些橄榄球四分卫早期不被看好的例子，证明了有才华者被忽视的情况确实存在。"
+            "text": "题目 39\n答案：TRUE\nPDF 定位：D段后半：迈克尔·乔丹被高中教练淘汰；多位四分卫早期不被看好。\nPDF 解析：明确存在被忽视的天才运动员→正确。"
           },
           {
             "questionId": "q14",
             "questionNumber": 40,
-            "text": "(5) 题目 40：Newly formed organisations have the most highly motivated staff. （新成立的组织拥有最有动力的员工。）\n答案：NOT GIVEN\n解析：文章完全没有讨论新成立组织与员工动机之间的关系。"
+            "text": "题目 40\n答案：NOT GIVEN\nPDF 解析：文章未谈\"新成立组织员工具有最高动机\"。动机讨论集中在Dweck的目标框架， 而非公司成立时间。"
           }
         ]
       }

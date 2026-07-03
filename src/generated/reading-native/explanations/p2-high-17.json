@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-high-17",
+  "meta": {
+    "examId": "p2-high-17",
+    "title": "Herbal Medicines",
+    "category": "P2",
+    "sourceDoc": "113. P2 - Herbal Medicines 新西兰草药.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Herbal Medicines 新西兰草药",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-17)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 17
+      },
+      "text": "题目 14\n答案：D\nPDF 定位：*Natural health products are big sellers in pharmacies, and global pharmaceutical companies are buying up natural supplement brands or developing their own.\"（第D段）\nPDF 解析：\"global pharmaceutical companies...buying up/developing their own\"直接表 明大型公司对草药产品的关注与投入。\n\n题目 15\n答案：A\nPDF 定位：\"Take arnica, for example, a popular pharmaceutical herb used to treat bruises and joint problems.\"（第A段)\nPDF 解析：题干要\"某一种草药的用途举例\"，A段以arnica为例，给出两种用途（淤青、 关节问题)。\n\n题目 16\n答案：E\nPDF 定位：\"more regulation would be prohibitively expensive for all but the largest manufacturers a change, cautions Clair, that would probably put some localcompaniesoutof business.\"（第E段)\nPDF 解析：\"除最大厂商外都负担不起\"\"让本地公司倒闭\"=对小公司承担不起更严管制的警告。\n\n题目 17\n答案：D\nPDF 定位：robust clinical trials show that herbal medicine is generally safe..'lt doesn't do everything,' he says, but there's a lot it does do'...\" (第D段， Rasmussen)\nPDF 解析：专家Rasmussen同时强调有效性（alotitdoesdo）与局限性（doesn'tdo everything)，与题干完全对应。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：D\nPDF 定位：*Natural health products are big sellers in pharmacies, and global pharmaceutical companies are buying up natural supplement brands or developing their own.\"（第D段）\nPDF 解析：\"global pharmaceutical companies...buying up/developing their own\"直接表 明大型公司对草药产品的关注与投入。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：A\nPDF 定位：\"Take arnica, for example, a popular pharmaceutical herb used to treat bruises and joint problems.\"（第A段)\nPDF 解析：题干要\"某一种草药的用途举例\"，A段以arnica为例，给出两种用途（淤青、 关节问题)。"
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：E\nPDF 定位：\"more regulation would be prohibitively expensive for all but the largest manufacturers a change, cautions Clair, that would probably put some localcompaniesoutof business.\"（第E段)\nPDF 解析：\"除最大厂商外都负担不起\"\"让本地公司倒闭\"=对小公司承担不起更严管制的警告。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：D\nPDF 定位：robust clinical trials show that herbal medicine is generally safe..'lt doesn't do everything,' he says, but there's a lot it does do'...\" (第D段， Rasmussen)\nPDF 解析：专家Rasmussen同时强调有效性（alotitdoesdo）与局限性（doesn'tdo everything)，与题干完全对应。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 18-21)",
+      "mode": "group",
+      "questionRange": {
+        "start": 18,
+        "end": 21
+      },
+      "text": "题目 18\n答案：pain\nPDF 定位：\"the forest was well stocked with edible plants... taken for the relief of pain aswell\"（第B段）\nPDF 解析：Maori人使用植物\"缓解疼痛\"，与\"helpdealwith..\"完美呼应。\n\n题目 19\n答案：book\nPDF 定位：\"in his book published in 1891, herbalist James Neil described manuka and koromiko...\"（第B段）\nPDF 解析：题干\"a-byJamesNeilshowedthat...\"，与book对应；该书展示了部分欧洲 医生认可本土药用价值。\n\n题目 20\n答案：law\nPDF 定位：in 1908 the government passed a controversial law that had the effect of restricting traditional herbal practice...\" (第C 段)\nPDF 解析：\"made more difficult because of a new_ \"指1908年的新法律。\n\n题目 21\n答案：course\nPDF 定位：it became possible to complete a course in herbal medicine at several polytechnics...\"（第C段）\nPDF 解析：1980年代多所院校开始开设课程，与题干一致。",
+      "items": [
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：pain\nPDF 定位：\"the forest was well stocked with edible plants... taken for the relief of pain aswell\"（第B段）\nPDF 解析：Maori人使用植物\"缓解疼痛\"，与\"helpdealwith..\"完美呼应。"
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：book\nPDF 定位：\"in his book published in 1891, herbalist James Neil described manuka and koromiko...\"（第B段）\nPDF 解析：题干\"a-byJamesNeilshowedthat...\"，与book对应；该书展示了部分欧洲 医生认可本土药用价值。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：law\nPDF 定位：in 1908 the government passed a controversial law that had the effect of restricting traditional herbal practice...\" (第C 段)\nPDF 解析：\"made more difficult because of a new_ \"指1908年的新法律。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：course\nPDF 定位：it became possible to complete a course in herbal medicine at several polytechnics...\"（第C段）\nPDF 解析：1980年代多所院校开始开设课程，与题干一致。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. matching (Questions 22-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 22,
+        "end": 26
+      },
+      "text": "题目 22\n答案：A\nPDF 定位：\"consumers shouldn't be able to go to their local supermarket and buy St John's Wort... should require a prescription...\" (第 E段)\nPDF 解析：强调购买地点/途径应受限（超市不应随便买，需处方)），与题干\"应有限制 你在哪买某些草药\"吻合。\n\n题目 23\n答案：B\nPDF 定位：\"the initiative was stopped... the government abruptly halted funding... It was an unjustified move, according to agronomist Malcolm Douglas...\"（第A段)\nPDF 解析：直陈政府无正当理由停止支持某项目。\n\n题目 24\n答案：D\nPDF 定位：More than 4oo,ooo tonnes... are traded... The great majority... harvested from the wild, so they each have an impact on their local ecosystem.\"（第E段）\nPDF 解析：指出行业对原产地生态环境的影响。\n\n题目 25\n答案：A\nPDF 定位：\"there is huge potential for New Zealand to develop a herb industry based on the excellent growing conditions and expertise there, accordingto Phil Rasmussen.\"（第A段）\nPDF 解析：强调新西兰具备自然条件与人力专长来发展商业化种植。\n\n题目 26\n答案：C\nPDF 定位：\"such assurance is expensive but necessary if you want to export herbal remedies to the rest of the world.\" (第 D 段)\nPDF 解析：明确说明尽管昂贵，国际认证/规范是必要的。",
+      "items": [
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：A\nPDF 定位：\"consumers shouldn't be able to go to their local supermarket and buy St John's Wort... should require a prescription...\" (第 E段)\nPDF 解析：强调购买地点/途径应受限（超市不应随便买，需处方)），与题干\"应有限制 你在哪买某些草药\"吻合。"
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：B\nPDF 定位：\"the initiative was stopped... the government abruptly halted funding... It was an unjustified move, according to agronomist Malcolm Douglas...\"（第A段)\nPDF 解析：直陈政府无正当理由停止支持某项目。"
+        },
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：D\nPDF 定位：More than 4oo,ooo tonnes... are traded... The great majority... harvested from the wild, so they each have an impact on their local ecosystem.\"（第E段）\nPDF 解析：指出行业对原产地生态环境的影响。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：A\nPDF 定位：\"there is huge potential for New Zealand to develop a herb industry based on the excellent growing conditions and expertise there, accordingto Phil Rasmussen.\"（第A段）\nPDF 解析：强调新西兰具备自然条件与人力专长来发展商业化种植。"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：C\nPDF 定位：\"such assurance is expensive but necessary if you want to export herbal remedies to the rest of the world.\" (第 D 段)\nPDF 解析：明确说明尽管昂贵，国际认证/规范是必要的。"
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：D\nPDF 定位：*Natural health products are big sellers in pharmacies, and global pharmaceutical companies are buying up natural supplement brands or developing their own.\"（第D段）\nPDF 解析：\"global pharmaceutical companies...buying up/developing their own\"直接表 明大型公司对草药产品的关注与投入。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：A\nPDF 定位：\"Take arnica, for example, a popular pharmaceutical herb used to treat bruises and joint problems.\"（第A段)\nPDF 解析：题干要\"某一种草药的用途举例\"，A段以arnica为例，给出两种用途（淤青、 关节问题)。"
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：E\nPDF 定位：\"more regulation would be prohibitively expensive for all but the largest manufacturers a change, cautions Clair, that would probably put some localcompaniesoutof business.\"（第E段)\nPDF 解析：\"除最大厂商外都负担不起\"\"让本地公司倒闭\"=对小公司承担不起更严管制的警告。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：D\nPDF 定位：robust clinical trials show that herbal medicine is generally safe..'lt doesn't do everything,' he says, but there's a lot it does do'...\" (第D段， Rasmussen)\nPDF 解析：专家Rasmussen同时强调有效性（alotitdoesdo）与局限性（doesn'tdo everything)，与题干完全对应。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：pain\nPDF 定位：\"the forest was well stocked with edible plants... taken for the relief of pain aswell\"（第B段）\nPDF 解析：Maori人使用植物\"缓解疼痛\"，与\"helpdealwith..\"完美呼应。"
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：book\nPDF 定位：\"in his book published in 1891, herbalist James Neil described manuka and koromiko...\"（第B段）\nPDF 解析：题干\"a-byJamesNeilshowedthat...\"，与book对应；该书展示了部分欧洲 医生认可本土药用价值。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：law\nPDF 定位：in 1908 the government passed a controversial law that had the effect of restricting traditional herbal practice...\" (第C 段)\nPDF 解析：\"made more difficult because of a new_ \"指1908年的新法律。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：course\nPDF 定位：it became possible to complete a course in herbal medicine at several polytechnics...\"（第C段）\nPDF 解析：1980年代多所院校开始开设课程，与题干一致。"
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：A\nPDF 定位：\"consumers shouldn't be able to go to their local supermarket and buy St John's Wort... should require a prescription...\" (第 E段)\nPDF 解析：强调购买地点/途径应受限（超市不应随便买，需处方)），与题干\"应有限制 你在哪买某些草药\"吻合。"
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：B\nPDF 定位：\"the initiative was stopped... the government abruptly halted funding... It was an unjustified move, according to agronomist Malcolm Douglas...\"（第A段)\nPDF 解析：直陈政府无正当理由停止支持某项目。"
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：D\nPDF 定位：More than 4oo,ooo tonnes... are traded... The great majority... harvested from the wild, so they each have an impact on their local ecosystem.\"（第E段）\nPDF 解析：指出行业对原产地生态环境的影响。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：A\nPDF 定位：\"there is huge potential for New Zealand to develop a herb industry based on the excellent growing conditions and expertise there, accordingto Phil Rasmussen.\"（第A段）\nPDF 解析：强调新西兰具备自然条件与人力专长来发展商业化种植。"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：C\nPDF 定位：\"such assurance is expensive but necessary if you want to export herbal remedies to the rest of the world.\" (第 D 段)\nPDF 解析：明确说明尽管昂贵，国际认证/规范是必要的。"
+    }
+  }
+}

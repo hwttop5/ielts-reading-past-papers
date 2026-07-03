@@ -11,7 +11,7 @@
     "questionIntroHtml": "",
     "originalTitle": "Learning to be bilingual 双语学习"
   },
-  "explanationKey": null,
+  "explanationKey": "p3-low-56",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1547,7 +1547,47 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. single choice (Questions 27-32)",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 32
+        },
+        "text": "题目 27\n答案：B\nPDF 定位：作者对\"父母说不同语言的家庭\"有什么看法？\nPDF 解析：第1段：\"They understand that the family setting 句意：父母意识到他们在家庭语境中的角色至关重要， they create is central to this, and seek ways to 并主动寻找方法→对应realisetheimportanceof ensure their children thrive bilingually.\" theirrole。A\"不断研究\"文中无\"constantly\"；C\"重 孩子超过自己\"未提；D\"最容易采用OPOL\"未提。\n\n题目 28\n答案：C\nPDF 定位：作者用\"receivedwisdom（共识/成见）\"说明 了什么？\nPDF 解析：第1段: \"this received wisdom is just that: a myth... \"receivedwisdom\"=被普遍接受的观点；作者说它是 \"myth（神话/误解）\"，即OPOL的一个广为接受的原则 the myth that mixing languages should always be avoided.\" 是错的→C。A\"成功取决于父母所讲语言\"、B\"若不一 致OPOL就失败\"、D\"缺乏研究\"均非该句主旨。\n\n题目 29\n答案：A\nPDF 定位：参与研究的母亲做了什么？\nPDF 解析：因为孩子接触英文更多，母亲特意开辟额外时间与空 第2段: \"This made English the primary language... For this reason, the mothers were careful to 间学日语，本质是弥补（compensate）孩子接触不平 衡→A。B\"更重视\"无直接对比证据；C用学习来增加 carve out additional space for more sustained Japanese... time... exclusively with their mother. 相处时间\"动机并非\"多陪伴\"，而是\"保证日语输入\"； D\"反对伴侣对孩子说日语\"未提。\n\n题目 30\n答案：D\nPDF 定位：这些孩子怎样使用语言？\nPDF 解析：孩子把语言当作安抚/抗拒的策略工具，超出\"通常与语 第2段：\"theyadopted a broaderbehavioural repertoire... switching to Japanese...to appease 言相关的行为范围\"→以非常规方式使用语言，对应D。 Mum... refusing to communicate in Japanese... as A\"只和妈妈用日语\"不符；B\"理解更好\"未提；C\"争论 单语儿童不重要的事\"无据。 defiance.\"\n\n题目 31\n答案：A\nPDF 定位：关于纠正双语儿童的错误，作者建议什么？\nPDF 解析：第3段：\"parents feelit's problematic tokeep 当造成负面情绪时，家长倾向避免不断纠正，并把重心 correcting... particularly when children show 放在有效交流→A。B与文意相反；C\"OPOL下不需要 annoyance... The parents believe it is more 纠正\"过度概括；D\"父母若会双语就更少纠正\"文中仅说 important to have a meaningful conversation.\" \"能听懂混说\"，并非因\"双语身份\"而减少纠正。\n\n题目 32\n答案：C\nPDF 定位：\"icecream\"例子说明什么?\nPDF 解析：第4段：\"described them as'aisukurimuzu'.. with 孩子把两种语言元素创新组合，发明了新形式→C。 Japanese pronunciation but in English plural form. A\"更不困感\"、B\"故意考父母\"、D\"难分辨是哪种语言\" The child had created something in between. 皆不是作者要点。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：B\nPDF 定位：作者对\"父母说不同语言的家庭\"有什么看法？\nPDF 解析：第1段：\"They understand that the family setting 句意：父母意识到他们在家庭语境中的角色至关重要， they create is central to this, and seek ways to 并主动寻找方法→对应realisetheimportanceof ensure their children thrive bilingually.\" theirrole。A\"不断研究\"文中无\"constantly\"；C\"重 孩子超过自己\"未提；D\"最容易采用OPOL\"未提。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：C\nPDF 定位：作者用\"receivedwisdom（共识/成见）\"说明 了什么？\nPDF 解析：第1段: \"this received wisdom is just that: a myth... \"receivedwisdom\"=被普遍接受的观点；作者说它是 \"myth（神话/误解）\"，即OPOL的一个广为接受的原则 the myth that mixing languages should always be avoided.\" 是错的→C。A\"成功取决于父母所讲语言\"、B\"若不一 致OPOL就失败\"、D\"缺乏研究\"均非该句主旨。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：A\nPDF 定位：参与研究的母亲做了什么？\nPDF 解析：因为孩子接触英文更多，母亲特意开辟额外时间与空 第2段: \"This made English the primary language... For this reason, the mothers were careful to 间学日语，本质是弥补（compensate）孩子接触不平 衡→A。B\"更重视\"无直接对比证据；C用学习来增加 carve out additional space for more sustained Japanese... time... exclusively with their mother. 相处时间\"动机并非\"多陪伴\"，而是\"保证日语输入\"； D\"反对伴侣对孩子说日语\"未提。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：D\nPDF 定位：这些孩子怎样使用语言？\nPDF 解析：孩子把语言当作安抚/抗拒的策略工具，超出\"通常与语 第2段：\"theyadopted a broaderbehavioural repertoire... switching to Japanese...to appease 言相关的行为范围\"→以非常规方式使用语言，对应D。 Mum... refusing to communicate in Japanese... as A\"只和妈妈用日语\"不符；B\"理解更好\"未提；C\"争论 单语儿童不重要的事\"无据。 defiance.\""
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：A\nPDF 定位：关于纠正双语儿童的错误，作者建议什么？\nPDF 解析：第3段：\"parents feelit's problematic tokeep 当造成负面情绪时，家长倾向避免不断纠正，并把重心 correcting... particularly when children show 放在有效交流→A。B与文意相反；C\"OPOL下不需要 annoyance... The parents believe it is more 纠正\"过度概括；D\"父母若会双语就更少纠正\"文中仅说 important to have a meaningful conversation.\" \"能听懂混说\"，并非因\"双语身份\"而减少纠正。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：C\nPDF 定位：\"icecream\"例子说明什么?\nPDF 解析：第4段：\"described them as'aisukurimuzu'.. with 孩子把两种语言元素创新组合，发明了新形式→C。 Japanese pronunciation but in English plural form. A\"更不困感\"、B\"故意考父母\"、D\"难分辨是哪种语言\" The child had created something in between. 皆不是作者要点。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1954,7 +1994,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. summary completion (Questions 33-36)",
+        "mode": "group",
+        "questionRange": {
+          "start": 33,
+          "end": 36
+        },
+        "text": "题目 33\n答案：H\nPDF 定位：面对弟弟的拒绝... 第5段：\"Following firm rejections by her brother..\"\nPDF 解析：与原文rejections同义替换为refusal。\n\n题目 34\n答案：C\nPDF 定位：她用所有沟通的策略.. 第5段：\"the girl drew on her communicative repertoire to convince him.\"\nPDF 解析：\"repertoire\"=可调动的策略/手段集合。\n\n题目 35\n答案：A\nPDF 定位：她以更温和的语言表达她的请求... 第5段：\"shifted from an authoritative demand to a softer.. appeal. She rephrased the question using various polite forms.\"\nPDF 解析：\"rephrasedthequestion/appeal\"即更礼貌地表达请求。\n\n题目 36\n答案：E\nPDF 定位：提醒他作为哥哥对她的责任... 第5段:\"honorific titles... a relationship of dependence... and an assumed obligation to care on the part of the brother.\"\nPDF 解析：\"obligation to care\"=照顾的责任。",
+        "items": [
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：H\nPDF 定位：面对弟弟的拒绝... 第5段：\"Following firm rejections by her brother..\"\nPDF 解析：与原文rejections同义替换为refusal。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：C\nPDF 定位：她用所有沟通的策略.. 第5段：\"the girl drew on her communicative repertoire to convince him.\"\nPDF 解析：\"repertoire\"=可调动的策略/手段集合。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：A\nPDF 定位：她以更温和的语言表达她的请求... 第5段：\"shifted from an authoritative demand to a softer.. appeal. She rephrased the question using various polite forms.\"\nPDF 解析：\"rephrasedthequestion/appeal\"即更礼貌地表达请求。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：E\nPDF 定位：提醒他作为哥哥对她的责任... 第5段:\"honorific titles... a relationship of dependence... and an assumed obligation to care on the part of the brother.\"\nPDF 解析：\"obligation to care\"=照顾的责任。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2712,7 +2782,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. yes no not given (Questions 37-40)",
+        "mode": "group",
+        "questionRange": {
+          "start": 37,
+          "end": 40
+        },
+        "text": "题目 37\n答案：YES\nPDF 定位：即便只会一种语言的人也懂得根据情境调整沟 通方式。\nPDF 解析：明确指出\"无论是否双语都会根据情境做合适选 第6段：\"Whether bilingual or not,we all constantly select from our repertoire... You 择\"→YES。 would use polite language... facial expression... body language..\n\n题目 38\n答案：NOT GIVEN\nPDF 定位：在OPOL家庭长大的孩子，长大后也会用同样方法 教育自己的孩子。\nPDF 解析：通篇未讨论下一代育儿选择，无从判断作者观点 NG。\n\n题目 39\n答案：NO\nPDF 定位：许多父母喜欢OPOL的原因是它鼓励必要时切 换语言。\nPDF 解析：第8段：\"The popularity of OPOL... rests on the 作者给出的偏好理由是\"简单、强调一致性\"，与题干 simplicity of its message, which is that it should \"鼓励切换\"相反→NO。 be applied consistently.\"\n\n题目 40\n答案：NOT GIVEN\nPDF 定位：混合用语的双语儿童最终会偏好其中一种语言。\nPDF 解析：文中未提\"最终偏好\"之结论；第9段谈\"严格执法会 抑制创造力\"，与偏好无关→NG。",
+        "items": [
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：YES\nPDF 定位：即便只会一种语言的人也懂得根据情境调整沟 通方式。\nPDF 解析：明确指出\"无论是否双语都会根据情境做合适选 第6段：\"Whether bilingual or not,we all constantly select from our repertoire... You 择\"→YES。 would use polite language... facial expression... body language.."
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：NOT GIVEN\nPDF 定位：在OPOL家庭长大的孩子，长大后也会用同样方法 教育自己的孩子。\nPDF 解析：通篇未讨论下一代育儿选择，无从判断作者观点 NG。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：NO\nPDF 定位：许多父母喜欢OPOL的原因是它鼓励必要时切 换语言。\nPDF 解析：第8段：\"The popularity of OPOL... rests on the 作者给出的偏好理由是\"简单、强调一致性\"，与题干 simplicity of its message, which is that it should \"鼓励切换\"相反→NO。 be applied consistently.\""
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：NOT GIVEN\nPDF 定位：混合用语的双语儿童最终会偏好其中一种语言。\nPDF 解析：文中未提\"最终偏好\"之结论；第9段谈\"严格执法会 抑制创造力\"，与偏好无关→NG。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

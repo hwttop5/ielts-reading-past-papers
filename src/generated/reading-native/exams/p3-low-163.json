@@ -748,43 +748,43 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 段落标题匹配（Questions 27–32：Choose the correct heading）",
+        "sectionTitle": "1. matching (Questions 27-32)",
         "mode": "group",
         "questionRange": {
           "start": 27,
           "end": 32
         },
-        "text": "答案：iv（Setting the limits of acceleration，设定加速度极限）\n解析：Paragraph B 围绕 “NASA 研究人类加速度承受极限、斯滕格尔规定设施加速度上限” 展开，核心是 “设定加速度安全极限”，与标题 iv 一致，因此选 iv。\n答案：viii（A different ride every time，每次体验不同）\n解析：Paragraph C 强调 “新一代旋转杯自由旋转，每次体验因乘客体重和位置不同而变化”，核心是 “体验独特性”，与标题 viii 一致，因此选 viii。\n答案：ii（Research can’t guarantee safety，研究无法保证安全）\n解析：Paragraph D 指出 “混乱型设施可能触发共振、承受意外压力，设计无法确保安全”，核心是 “安全无法保证”，与标题 ii 一致，因此选 ii。\n答案：iii（Unexplained symptoms，无法解释的症状）\n解析：Paragraph E 描述 “志愿者旋转后出现延迟头痛等症状，原因未明”，核心是 “无法解释的症状”，与标题 iii 一致，因此选 iii。\n答案：i（Less is more，少即是多）\n解析：Paragraph F 主张 “用一系列小加速度替代大加速度，低力度更愉悦”，核心是 “小加速度更有效”，与标题 i 一致，因此选 i。\n答案：vi（Gentle surprises，温和的惊喜）\n解析：Paragraph G 强调 “乐趣源于微小加速度变化等温和意外”，核心是 “温和惊喜”，与标题 vi 一致，因此选 vi。",
+        "text": "题目 27\n答案：iv\nPDF 定位/解析：iv设定加速度极限 迪士尼请WalterStengel设计巨型环形过山车，他先去NASA查人类可承受的最大g值，并规定垂直方向最多6g、 且只持续一瞬，还限制加速度爬升速率一整段都在讲\"把安全上限定出来\"。\n\n题目 28\n答案：viii\nPDF 定位/解析：新一代waltzer（茶杯）\"自由旋转\"，速度由乘客的体重和坐姿决定，因此\"你永远不会两次坐到同样的体验\"。 vili每次都是不同的体验\n\n题目 29\n答案：ii\nPDF 定位/解析：ii研究不能保证安全 虽有\"复杂计算\"，但设计师永远无法百分百确定不会出问题；自由旋转系统可能触发共振，出现无法预测的危险。\n\n题目 30\n答案：iii\nPDF 定位/解析：把受试者在三个轴同时旋转后，他们不仅当场想吐，还出现两天后才冒出的头痛等症状，\"这些效应尚未被理解\"。 ii无法解释的症状\n\n题目 31\n答案：i\nPDF 定位/解析：i适度即乐趣 Stengel主张用一连串较小的加速度而非单次大冲击来提高乐趣；荷兰实验也表明，\"当力值较低时，翻滚其实很愉快\"。\n\n题目 32\n答案：vi\nPDF 定位/解析：乐趣来自\"出其不意的小变化\"，例如Coriolis幻觉一一轻微由负g转正g的\"滚动\"带来愉快感觉，是温和而 vi温和的惊喜 又惊喜的刺激。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "（1）题目 27：Paragraph B\n答案：iv（Setting the limits of acceleration，设定加速度极限）\n解析：Paragraph B 围绕 “NASA 研究人类加速度承受极限、斯滕格尔规定设施加速度上限” 展开，核心是 “设定加速度安全极限”，与标题 iv 一致，因此选 iv。"
+            "text": "题目 27\n答案：iv\nPDF 定位/解析：iv设定加速度极限 迪士尼请WalterStengel设计巨型环形过山车，他先去NASA查人类可承受的最大g值，并规定垂直方向最多6g、 且只持续一瞬，还限制加速度爬升速率一整段都在讲\"把安全上限定出来\"。"
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "（2）题目 28：Paragraph C\n答案：viii（A different ride every time，每次体验不同）\n解析：Paragraph C 强调 “新一代旋转杯自由旋转，每次体验因乘客体重和位置不同而变化”，核心是 “体验独特性”，与标题 viii 一致，因此选 viii。"
+            "text": "题目 28\n答案：viii\nPDF 定位/解析：新一代waltzer（茶杯）\"自由旋转\"，速度由乘客的体重和坐姿决定，因此\"你永远不会两次坐到同样的体验\"。 vili每次都是不同的体验"
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "（3）题目 29：Paragraph D\n答案：ii（Research can’t guarantee safety，研究无法保证安全）\n解析：Paragraph D 指出 “混乱型设施可能触发共振、承受意外压力，设计无法确保安全”，核心是 “安全无法保证”，与标题 ii 一致，因此选 ii。"
+            "text": "题目 29\n答案：ii\nPDF 定位/解析：ii研究不能保证安全 虽有\"复杂计算\"，但设计师永远无法百分百确定不会出问题；自由旋转系统可能触发共振，出现无法预测的危险。"
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "（4）题目 30：Paragraph E\n答案：iii（Unexplained symptoms，无法解释的症状）\n解析：Paragraph E 描述 “志愿者旋转后出现延迟头痛等症状，原因未明”，核心是 “无法解释的症状”，与标题 iii 一致，因此选 iii。"
+            "text": "题目 30\n答案：iii\nPDF 定位/解析：把受试者在三个轴同时旋转后，他们不仅当场想吐，还出现两天后才冒出的头痛等症状，\"这些效应尚未被理解\"。 ii无法解释的症状"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "（5）题目 31：Paragraph F\n答案：i（Less is more，少即是多）\n解析：Paragraph F 主张 “用一系列小加速度替代大加速度，低力度更愉悦”，核心是 “小加速度更有效”，与标题 i 一致，因此选 i。"
+            "text": "题目 31\n答案：i\nPDF 定位/解析：i适度即乐趣 Stengel主张用一连串较小的加速度而非单次大冲击来提高乐趣；荷兰实验也表明，\"当力值较低时，翻滚其实很愉快\"。"
           },
           {
             "questionId": "q6",
             "questionNumber": 32,
-            "text": "（6）题目 32：Paragraph G\n答案：vi（Gentle surprises，温和的惊喜）\n解析：Paragraph G 强调 “乐趣源于微小加速度变化等温和意外”，核心是 “温和惊喜”，与标题 vi 一致，因此选 vi。"
+            "text": "题目 32\n答案：vi\nPDF 定位/解析：乐趣来自\"出其不意的小变化\"，例如Coriolis幻觉一一轻微由负g转正g的\"滚动\"带来愉快感觉，是温和而 vi温和的惊喜 又惊喜的刺激。"
           }
         ]
       }
@@ -1163,38 +1163,38 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "2. 句子填空（Questions 33–37：NO MORE THAN THREE WORDS AND/OR A NUMBER）",
+        "sectionTitle": "2. short answer (Questions 33-37)",
         "mode": "group",
         "questionRange": {
           "start": 33,
           "end": 37
         },
-        "text": "答案：weight and position（体重和位置）\n解析：定位 Paragraph C 中 “the latest generation of waltzer cars spin freely, at a rate determined by the weight and position of the people in them”，明确提到 “体重和位置”，因此答案为 “weight and position”。\n答案：resonance frequency（共振频率）\n解析：定位 Paragraph D 中 “if you drive a revolving waltzer car at its resonance frequency it could speed up uncontrollably”，明确提到 “共振频率”，因此答案为 “resonance frequency”。\n答案：three axes（三个轴）\n解析：定位 Paragraph E 中 “if the pilots were turned on all three axes simultaneously, they became so nauseous they almost blacked out”，明确提到 “三个轴”，因此答案为 “three axes”。\n答案：headaches（头痛）\n解析：定位 Paragraph E 中 “they also developed headaches and other problems about two days later”，明确提到 “头痛”，因此答案为 “headaches”。\n答案：Coriolis illusion（科里奥利错觉）\n解析：定位 Paragraph G 中 “particularly when an effect called the Coriolis illusion comes into play. This is an agreeable tumbling feeling”，明确提到 “科里奥利错觉”，因此答案为 “Coriolis illusion”。",
+        "text": "题目 33\n答案：weight and position\nPDF 定位/解析：产生多样体验\"，正是这两个因素。\n\n题目 34\n答案：resonance frequency\nPDF 定位：D段：若在共振频率下驱动，\"车厢会失控加速\"。题干提到\"若达到其一\nPDF 解析：，混乱型设施可能剧烈加速\"。\n\n题目 35\n答案：three axes\nPDF 定位/解析：E段：受试者若在allthreeaxes同时旋转就会呕吐。\n\n题目 36\n答案：headaches\nPDF 定位/解析：E段：两天后出现headaches等延迟反应。\n\n题目 37\n答案：Coriolis illusion\nPDF 定位/解析：G段：Coriolisillusion造成\"令人愉快的翻滚感\"，题干对应。",
         "items": [
           {
             "questionId": "q7",
             "questionNumber": 33,
-            "text": "（1）题目 33：Some attractions, such as the new type of waltzers, depend on both the \\___\\___ of their passengers in order to create a variety of ride experiences.（部分设施如新型旋转杯，依赖乘客的_\\___\\__创造多样体验。）\n答案：weight and position（体重和位置）\n解析：定位 Paragraph C 中 “the latest generation of waltzer cars spin freely, at a rate determined by the weight and position of the people in them”，明确提到 “体重和位置”，因此答案为 “weight and position”。"
+            "text": "题目 33\n答案：weight and position\nPDF 定位/解析：产生多样体验\"，正是这两个因素。"
           },
           {
             "questionId": "q8",
             "questionNumber": 34,
-            "text": "（2）题目 34：Designers need to be aware that a “chaotic” ride could accelerate at a violent rate if it reaches its .（设计师需注意，若达到，混乱型设施可能剧烈加速。）\n答案：resonance frequency（共振频率）\n解析：定位 Paragraph D 中 “if you drive a revolving waltzer car at its resonance frequency it could speed up uncontrollably”，明确提到 “共振频率”，因此答案为 “resonance frequency”。"
+            "text": "题目 34\n答案：resonance frequency\nPDF 定位：D段：若在共振频率下驱动，\"车厢会失控加速\"。题干提到\"若达到其一\nPDF 解析：，混乱型设施可能剧烈加速\"。"
           },
           {
             "questionId": "q9",
             "questionNumber": 35,
-            "text": "（3）题目 35：Research has shown that people will begin to feel ill if they are subjected to movement on all \\___\\___ at the same time.（研究显示，若在所有_\\___\\__同时运动，人会感到不适。）\n答案：three axes（三个轴）\n解析：定位 Paragraph E 中 “if the pilots were turned on all three axes simultaneously, they became so nauseous they almost blacked out”，明确提到 “三个轴”，因此答案为 “three axes”。"
+            "text": "题目 35\n答案：three axes\nPDF 定位/解析：E段：受试者若在allthreeaxes同时旋转就会呕吐。"
           },
           {
             "questionId": "q10",
             "questionNumber": 36,
-            "text": "（4）题目 36：Volunteers in Stengel’s rotation tests suffered delayed reactions such as \\___\\___.（斯滕格尔旋转实验的志愿者出现如_\\___\\__的延迟反应。）\n答案：headaches（头痛）\n解析：定位 Paragraph E 中 “they also developed headaches and other problems about two days later”，明确提到 “头痛”，因此答案为 “headaches”。"
+            "text": "题目 36\n答案：headaches\nPDF 定位/解析：E段：两天后出现headaches等延迟反应。"
           },
           {
             "questionId": "q11",
             "questionNumber": 37,
-            "text": "（5）题目 37：A phenomenon known as the \\___\\___ produced a pleasurable sensation in test subjects.（名为_\\___\\__的现象给受试者带来愉悦感。）\n答案：Coriolis illusion（科里奥利错觉）\n解析：定位 Paragraph G 中 “particularly when an effect called the Coriolis illusion comes into play. This is an agreeable tumbling feeling”，明确提到 “科里奥利错觉”，因此答案为 “Coriolis illusion”。"
+            "text": "题目 37\n答案：Coriolis illusion\nPDF 定位/解析：G段：Coriolisillusion造成\"令人愉快的翻滚感\"，题干对应。"
           }
         ]
       }
@@ -1816,28 +1816,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "3. 判断题（Questions 38–40：YES/NO/NOT GIVEN）",
-        "mode": "per_question",
+        "sectionTitle": "3. yes no not given (Questions 38-40)",
+        "mode": "group",
         "questionRange": {
           "start": 38,
           "end": 40
         },
-        "text": "答案：YES（正确）\n解析：定位 Paragraph E 中 “No one even knows what the safe limits of rotational force are, let alone its effect on the human body”，明确提到 “旋转力安全极限未知”，与题干描述一致，因此判定为 YES。\n答案：NOT GIVEN（未提及）\n解析：全文未比较 “儿童与成人对游乐场的喜爱程度”，仅用 “儿童荡秋千” 作共振例子，无相关信息，因此判定为 NOT GIVEN。\n答案：YES（正确）\n解析：定位 Paragraph F 中 “designers could formulate profiles even for existing attractions that would lead to higher amusement value”，明确提到 “优化现有设施的加速度曲线以提升乐趣”，与题干描述一致，因此判定为 YES。",
+        "text": "题目 38\n答案：YES\nPDF 定位/解析：E段开头：\"甚至没人知道旋转力的安全极限\"，说明对可承受加速度仍有很多未知。\n\n题目 39\n答案：NOT GIVEN\nPDF 定位/解析：全文未比较儿童与成人对游乐场的喜爱，只用\"荡秋干\"作共振类比，没有提及谁更喜欢。\n\n题目 40\n答案：YES\nPDF 定位/解析：F段：专家认为\"即便是现有项目也能通过重新设计加速度序列来提升乐趣\"，说明可以改进现有设施。",
         "items": [
           {
             "questionId": "q12",
             "questionNumber": 38,
-            "text": "（1）题目 38：There is still a lot to be learnt about the rates of acceleration that people can withstand.（关于人类可承受的加速度，仍有很多要学习）\n答案：YES（正确）\n解析：定位 Paragraph E 中 “No one even knows what the safe limits of rotational force are, let alone its effect on the human body”，明确提到 “旋转力安全极限未知”，与题干描述一致，因此判定为 YES。"
+            "text": "题目 38\n答案：YES\nPDF 定位/解析：E段开头：\"甚至没人知道旋转力的安全极限\"，说明对可承受加速度仍有很多未知。"
           },
           {
             "questionId": "q13",
             "questionNumber": 39,
-            "text": "（2）题目 39：Children enjoy funfairs more than adults.（儿童比成人更喜欢游乐场）\n答案：NOT GIVEN（未提及）\n解析：全文未比较 “儿童与成人对游乐场的喜爱程度”，仅用 “儿童荡秋千” 作共振例子，无相关信息，因此判定为 NOT GIVEN。"
+            "text": "题目 39\n答案：NOT GIVEN\nPDF 定位/解析：全文未比较儿童与成人对游乐场的喜爱，只用\"荡秋干\"作共振类比，没有提及谁更喜欢。"
           },
           {
             "questionId": "q14",
             "questionNumber": 40,
-            "text": "（3）题目 40：Current rides could probably be adapted to become more enjoyable.（现有设施可能通过改造变得更有趣）\n答案：YES（正确）\n解析：定位 Paragraph F 中 “designers could formulate profiles even for existing attractions that would lead to higher amusement value”，明确提到 “优化现有设施的加速度曲线以提升乐趣”，与题干描述一致，因此判定为 YES。"
+            "text": "题目 40\n答案：YES\nPDF 定位/解析：F段：专家认为\"即便是现有项目也能通过重新设计加速度序列来提升乐趣\"，说明可以改进现有设施。"
           }
         ]
       }

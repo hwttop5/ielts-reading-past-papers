@@ -1251,43 +1251,43 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 判断题（Questions 27–32）",
+        "sectionTitle": "1. yes no not given (Questions 27-32)",
         "mode": "group",
         "questionRange": {
           "start": 27,
           "end": 32
         },
-        "text": "题目翻译：作者对花时间在塔斯马尼亚的想法发生了改变。\n答案：YES\n解析：定位 Paragraph A 中 \"As an eighteen-year-old... moving to the 'mainland' could not happen soon enough. Now, ten years later, I look forward to going home.\" 作者从18岁时迫不及待想离开塔斯马尼亚，到十年后期待回家，明确表达了态度的转变，与题干一致，因此判定为 YES。\n题目翻译：安德鲁・贝恩认为MONA对霍巴特的影响是立竿见影的。\n答案：YES\n解析：定位 Paragraph B 中 Andrew Bain 的引文 \"In a virtual blink, Hobart's cultural landscape has been transformed\"，其中 \"In a virtual blink\"（几乎在一眨眼的工夫）明确表达了影响是迅速发生的，与题干 \"immediate\"（立即的）一致，因此判定为 YES。\n题目翻译：其他因素对霍巴特的转型的贡献与MONA一样多。\n答案：NO\n解析：定位 Paragraph B 末尾 \"MONA is said to have been solely instrumental in the reinvention of Hobart as a cultural hub\"，\"solely instrumental\" 意为 MONA 是唯一关键因素，这与题干中“其他因素也有同等贡献”矛盾，因此判定为 NO。\n题目翻译：塔斯马尼亚旅游业理事会与MONA馆长密切合作。\n答案：NOT GIVEN\n解析：Paragraph C 提到了旅游业理事会秘书长 Luke Martin 对 MONA 受欢迎程度的评论，但全文没有提及理事会与 MONA 馆长之间是否存在合作关系，无相关信息，因此判定为 NOT GIVEN。\n题目翻译：许多当地居民写信给《水星报》表达对游客在霍巴特停留时长的担忧。\n答案：NOT GIVEN\n解析：Paragraph C 提到《水星报》报道了人们对游客停留时长的担忧（\"concern about how long people are staying in Tasmania\"），但文中并未提及当地居民是否在写给该报表达担忧，无相关信息，因此判定为 NOT GIVEN。\n题目翻译：游客现在将MONA视为在塔斯马尼亚进行更长旅行的起点。\n答案：NO\n解析：定位 Paragraph C 中 \"Rather than spending a week in the state... people are making short stays in Hobart only to visit the gallery\"，实际情况是游客只短暂停留在霍巴特看画廊，而不是把 MONA 作为更长行程的起点。同时段落提到 \"The next challenge for the state is how to entice holiday-makers to stay longer\"，说明这还是一个未解决的挑战，与题干矛盾，因此判定为 NO。",
+        "text": "题目 27\n答案：YES\nPDF 定位：作者对在塔斯马尼亚停留的看法发生了改变。\nPDF 解析：As an eighteen-year-old ... moving to the 先\"急着离开\"到\"期盼回去\"，态度反转=改变 'mainland' could not happen soon enough. 主意，故YES。 Now, ten years later, I look forward to goinghome.（第1段）→\"18岁时我巴不得立 刻去\"大陆\"。而今十年后，我反而盼望回家。\"\n\n题目 28\n答案：YES\nPDF 定位：AndrewBain认为MONA对霍巴特的影响是立 竿见影的。\nPDF 解析：\"inavirtualblink\"=瞬间/立即，与题干一 Andrew Bain .. wrote, \"ln a virtual blink, 致，YES。 Hobart's cultural landscape has been transformed ...If Hobart's makeover has an origin,it's the opening of MONA.*\"(第2段) →\"Bain写道：\"几乎一泛眼，霍巴特的文化景 观就被改变了...其源头就是MONA开馆。\"\n\n题目 29\n答案：NO\nPDF 定位：其他因素对霍巴特的变化与MONA一样重要。\nPDF 解析：\"solelyinstrumental\"单独/最关键；否定\"其 \"MONA is said to have been solely instrumental in the reinvention of Hobart as 他因素同样重要\"。与题干相反，NO。 aculturalhub.\"（第2段）→\"据说霍巴特重塑 为文化枢纽主要就靠MONA。\"\n\n题目 30\n答案：NOT GIVEN\nPDF 定位：塔斯马尼亚旅游业委员会与MONA的馆长密 切合作。\nPDF 解析：\"Tourism Industry Council of Tasmania's 仅说该委员会的观点与计划，并无\"与MONA chief executive, Luke Martin, claimed that 馆长密切合作\"的信息；信息缺失，NOT MONA was ... underpinning the tourism GIVEN。 industry..\"（第3段)；\"According toMartin, possibilities for packaging up MONA with visits to other galleries ... are being investigated.\"（第4段）\n\n题目 31\n答案：NOT GIVEN\nPDF 定位：很多当地居民写信给《TheMercury》表达对游 客停留时长的担忧。\nPDF 解析：\"As reported in Hobart's local paper, The 文中只说\"被该报报道有担忧\"，未说\"很多居民 写信到报社\"。既未肯定也未否定，NOTGIVEN Mercury, there is concern about how long (不是NO)。 people are staying in Tasmania.（第3段）→ \"正如霍巴特地方报纸《水星报》报道的，人们 对停留时长有担忧。\"\n\n题目 32\n答案：NO\nPDF 定位：游客如今把MONA作为在塔州进行更长旅行 的起点。\nPDF 解析：现实恰是\"短停只看馆\"，并非\"以MONA开启 ..people are making short stays in Hobart 更长行程\"，故NO。 only to visit the gallery. The next challenge ... is how to entice holiday-makers to stay longer, and to venture further afield.\" (第 3 段）→\"游客常短暂停留只为看馆。接下来的挑 战是如何让他们待更久并走得更远。\"",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "(1) 题目 27：The writer changed her mind about spending time in Tasmania.\n题目翻译：作者对花时间在塔斯马尼亚的想法发生了改变。\n答案：YES\n解析：定位 Paragraph A 中 \"As an eighteen-year-old... moving to the 'mainland' could not happen soon enough. Now, ten years later, I look forward to going home.\" 作者从18岁时迫不及待想离开塔斯马尼亚，到十年后期待回家，明确表达了态度的转变，与题干一致，因此判定为 YES。"
+            "text": "题目 27\n答案：YES\nPDF 定位：作者对在塔斯马尼亚停留的看法发生了改变。\nPDF 解析：As an eighteen-year-old ... moving to the 先\"急着离开\"到\"期盼回去\"，态度反转=改变 'mainland' could not happen soon enough. 主意，故YES。 Now, ten years later, I look forward to goinghome.（第1段）→\"18岁时我巴不得立 刻去\"大陆\"。而今十年后，我反而盼望回家。\""
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "(2) 题目 28：Andrew Bain believes that the effect MONA had on Hobart was immediate.\n题目翻译：安德鲁・贝恩认为MONA对霍巴特的影响是立竿见影的。\n答案：YES\n解析：定位 Paragraph B 中 Andrew Bain 的引文 \"In a virtual blink, Hobart's cultural landscape has been transformed\"，其中 \"In a virtual blink\"（几乎在一眨眼的工夫）明确表达了影响是迅速发生的，与题干 \"immediate\"（立即的）一致，因此判定为 YES。"
+            "text": "题目 28\n答案：YES\nPDF 定位：AndrewBain认为MONA对霍巴特的影响是立 竿见影的。\nPDF 解析：\"inavirtualblink\"=瞬间/立即，与题干一 Andrew Bain .. wrote, \"ln a virtual blink, 致，YES。 Hobart's cultural landscape has been transformed ...If Hobart's makeover has an origin,it's the opening of MONA.*\"(第2段) →\"Bain写道：\"几乎一泛眼，霍巴特的文化景 观就被改变了...其源头就是MONA开馆。\""
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "(3) 题目 29：Other factors have contributed as much as MONA to Hobart's transformation.\n题目翻译：其他因素对霍巴特的转型的贡献与MONA一样多。\n答案：NO\n解析：定位 Paragraph B 末尾 \"MONA is said to have been solely instrumental in the reinvention of Hobart as a cultural hub\"，\"solely instrumental\" 意为 MONA 是唯一关键因素，这与题干中“其他因素也有同等贡献”矛盾，因此判定为 NO。"
+            "text": "题目 29\n答案：NO\nPDF 定位：其他因素对霍巴特的变化与MONA一样重要。\nPDF 解析：\"solelyinstrumental\"单独/最关键；否定\"其 \"MONA is said to have been solely instrumental in the reinvention of Hobart as 他因素同样重要\"。与题干相反，NO。 aculturalhub.\"（第2段）→\"据说霍巴特重塑 为文化枢纽主要就靠MONA。\""
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "(4) 题目 30：The Tourism Industry Council of Tasmania works closely with the director of MONA.\n题目翻译：塔斯马尼亚旅游业理事会与MONA馆长密切合作。\n答案：NOT GIVEN\n解析：Paragraph C 提到了旅游业理事会秘书长 Luke Martin 对 MONA 受欢迎程度的评论，但全文没有提及理事会与 MONA 馆长之间是否存在合作关系，无相关信息，因此判定为 NOT GIVEN。"
+            "text": "题目 30\n答案：NOT GIVEN\nPDF 定位：塔斯马尼亚旅游业委员会与MONA的馆长密 切合作。\nPDF 解析：\"Tourism Industry Council of Tasmania's 仅说该委员会的观点与计划，并无\"与MONA chief executive, Luke Martin, claimed that 馆长密切合作\"的信息；信息缺失，NOT MONA was ... underpinning the tourism GIVEN。 industry..\"（第3段)；\"According toMartin, possibilities for packaging up MONA with visits to other galleries ... are being investigated.\"（第4段）"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "(5) 题目 31：Many local residents are writing to The Mercury expressing concern about the length of tourists' stays in Hobart.\n题目翻译：许多当地居民写信给《水星报》表达对游客在霍巴特停留时长的担忧。\n答案：NOT GIVEN\n解析：Paragraph C 提到《水星报》报道了人们对游客停留时长的担忧（\"concern about how long people are staying in Tasmania\"），但文中并未提及当地居民是否在写给该报表达担忧，无相关信息，因此判定为 NOT GIVEN。"
+            "text": "题目 31\n答案：NOT GIVEN\nPDF 定位：很多当地居民写信给《TheMercury》表达对游 客停留时长的担忧。\nPDF 解析：\"As reported in Hobart's local paper, The 文中只说\"被该报报道有担忧\"，未说\"很多居民 写信到报社\"。既未肯定也未否定，NOTGIVEN Mercury, there is concern about how long (不是NO)。 people are staying in Tasmania.（第3段）→ \"正如霍巴特地方报纸《水星报》报道的，人们 对停留时长有担忧。\""
           },
           {
             "questionId": "q6",
             "questionNumber": 32,
-            "text": "(6) 题目 32：Tourists now regard MONA as a starting point for longer trips in Tasmania.\n题目翻译：游客现在将MONA视为在塔斯马尼亚进行更长旅行的起点。\n答案：NO\n解析：定位 Paragraph C 中 \"Rather than spending a week in the state... people are making short stays in Hobart only to visit the gallery\"，实际情况是游客只短暂停留在霍巴特看画廊，而不是把 MONA 作为更长行程的起点。同时段落提到 \"The next challenge for the state is how to entice holiday-makers to stay longer\"，说明这还是一个未解决的挑战，与题干矛盾，因此判定为 NO。"
+            "text": "题目 32\n答案：NO\nPDF 定位：游客如今把MONA作为在塔州进行更长旅行 的起点。\nPDF 解析：现实恰是\"短停只看馆\"，并非\"以MONA开启 ..people are making short stays in Hobart 更长行程\"，故NO。 only to visit the gallery. The next challenge ... is how to entice holiday-makers to stay longer, and to venture further afield.\" (第 3 段）→\"游客常短暂停留只为看馆。接下来的挑 战是如何让他们待更久并走得更远。\""
           }
         ]
       }
@@ -2300,38 +2300,38 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "2. 单选题（Questions 33–37）",
+        "sectionTitle": "2. single choice (Questions 33-37)",
         "mode": "group",
         "questionRange": {
           "start": 33,
           "end": 37
         },
-        "text": "题目翻译：卢克・马丁计划通过以下方式促进塔斯马尼亚旅游业：\n答案：B （combining trips to MONA with visits to other galleries.）\n解析：定位 Paragraph D 中 \"packaging up MONA with visits to other galleries\"，Luke Martin 正在考虑将 MONA 与其他画廊参观打包组合成旅游路线，与选项 B（结合MONA和其他画廊之旅）一致，因此选择 B。\n题目翻译：根据作者，MONA特别引人注目的是什么？\n答案：A （the man who founded the gallery）\n解析：定位 Paragraph E 中 \"MONA's 'wow factor' comes from the notoriety of David Walsh, the museum's millionaire founder, and his choice of unusual artworks\"。作者认为 MONA 最吸引人的是创始人大卫・沃尔什的名声和他的选择，因此选择 A（画廊的创始人）。\n题目翻译：为什么游客在画廊停留很长时间？\n答案：D （The gallery has a physical effect on visitors.）\n解析：定位 Paragraph F 中 \"the gallery engages all of the senses, and visitors often pause to experience the effect each artwork has on them\"。画廊调动了感官，游客停下来体验每件作品的影响，这与选项 D（画廊对参观者产生生理效果）一致，因此选择 D。\n题目翻译：作者说MONA的参观者是什么样的？\n答案：B （A wide variety of people are interested in MONA.）\n解析：定位 Paragraph F 中 \"People from all kinds of socioeconomic backgrounds are curious about what lies within\"。来自各种社会经济背景的人都对 MONA 感兴趣，不仅仅是普通画廊常客，这与选项 B（各种各样的人都感兴趣）一致，因此选择 B。\n题目翻译：作者为什么提到MONA的硬币？\n答案：D （to express admiration for the way that the exhibits are presented.）\n解析：定位 Paragraph G 中 Walsh 将古董（古老硬币）与 20-21 世纪的作品并置，作者认为这种策展策略产生了有趣的结果——让人更强烈地感受到古人是伟大的当代艺术家。这是对手法（exhibit presentation）的赞赏，因此选择 D。",
+        "text": "题目 33\n答案：B\nPDF 定位：第3段末-第4段开头：\"AccordingtoMartin， LukeMartin计划通过什么方式来促进塔斯马尼 亚的旅游业？ possibilities for packaging up MONA with visits to other galleries around Tasmania are being investigated. .. In addition to this, there are up totwenty otherexisting quality galleries inthe state.Sothereismoretosee than just MONA.\"\nPDF 解析：同义改写：\"packagingupMONAwithvisitsto \"据马丁所说，正在探讨把参观MONA和塔斯马 尼亚其他画廊组合打包成行程的可能性。.此 othergalleries\"=把参观MONA和其他画廊一起 外，这个州还有多达二十家高质量的现有画廊。 打包成旅游产品，就对应选项Bcombiningtrips to MONA with visits to other galleries。**排 所以来看这里的，绝不只有MONA一处可看。\" 除：**A强调\"更多聚焦MONA\"，而原文强调的 是\"notjustMONA\"；C说做与画廊无关的活动， 原文恰恰是\"othergalleries\"；D说改进宣传信息 质量，原文完全没提宣传资料，只说行程组合。\n\n题目 34\n答案：A\nPDF 定位：根据作者所说，MONA最特别、有趣的地方 第 6 段前半： *Going to a gallery with such 是什么？ confronting artworks with your parents is an interesting experience; I was pleasantly surprised by my parents' openness to the exhibitions. .. This is because the gallery engages allof the senses, and visitors often pause to experience the effect each artwork has on them.\"\nPDF 解析：关键：题干有\"according to thewriter/ \"和父母一起去参观一个展出如此具有冲击力作品 的画廊，是一段很有趣的经历；父母对这些展品 especially interesting\"，所以要看作者用第一人 的开放态度让我很惊喜。..这是因为，这座画离 称的地方，即第6段。\"interesting experience\" 调动了所有的感官，参观者经常会停下来，去体 接着解释的就是：画廖如何让参观者停下来，感 验每一件作品对自己的影响。\" 受每件作品对自己的effect\"。这就是Cvisitors' responses to the gallery spaces-参观者在 这个空间里被作品触动、产生各种反应，A：E 段确实讲Walsh，但作者并没说\"我觉得这个人 特别有意思\"，而是说建筑如何体现他的vision； 重点不在\"这个人\"，而在\"人们在馆里的体验\"， B: 仅句]*stting .. on the edge of the Denwent River\"，是地理背景，没有任何\"interesting\"的 评价。D：文章一开始就说\"the buildingis rather nondescript，与striking（显眼的）相反，说明 外观并不\"特别抢眼\"。\n\n题目 35\n答案：D\nPDF 定位：为什么参观者会在画廊里待很长时间？ 第6段中部：\"My father.. happily spent almost five hours at MONA; the urge to linger is a common feeling here. This is because the gallery engages all of the senses, and visitors often pause to experience the effect each artwork has on them.*\nPDF 解析：\"我父亲平时参观画廊总是匆匆而过，可他在 同义改写：画庵\"engages all of the senses\"， MONA却心满意足地待了将近五个小时；在这里， 作品对参观者有\"effect\"，让人\"urgetolinger\" (恐不住想多待)，即画鹿对参观者有很强的感官/ 人们都有一种想多停留一会儿的冲动，这是非常 身体上的影响。这对应 D the gallery has a 普遍的感觉。这是因为，这座画庵调动了人们所 physical effect on visitors(画酶对参观者有身 有的感官，参观者经常会停下来，去体验每一件 作品对自己的影响。\" 体/感官上的作用)。A：没说作品\"数量很多\"， B：作者只是举\"我和父母\"这一家，没说大家都 \"成群结队的家庭\"来，也不是原因。C：文中没有 说作品\"难以理解\"，反而是直接、直白地探索 human condition；停留久是因为\"感官体验强 烈\"，不是\"看不懂\"。\n\n题目 36\n答案：B\nPDF 定位：作者对MONA的参观者有什么评价？ 第 6 段后半： *This raises the question of who is actually visiting MONA and it's definitely not just the normal gallery-goers, People from all kinds of socioeconomic backgrounds are curious about what lies within the subterranean maze of MONA. Conservative minds are being opened, which is a good thing anywhere.\"\nPDF 解析：同义改写：\"not just the normal gallery-goers\"+ \"这就引出了一个问题：究竟是谁在参观MONA \"people from all kinds of socioeconomic -显然绝不仅仅是那些平时常逛画廊的普通参 观者。来自各种社会经济背景的人都对这座地下 backgrounds\"=来的人种类很多、非常多元，刚 迷宫般的MONA里究竟有什么感到好奇。许多 好对应 B a wide variety of people are 保守的头脑正在被打开，而这种事在任何地方都 interestedin MONA。A：并无\"老年人比年轻人 是好事， 待得久\"的年龄对比。C：没有说\"多数参观者是 年轻人\"，只说\"各种背景\"；反而提到 \"conservative minds\"（不少保守的人)，隐含有不 少原本不常看展的人。D：题干说\"代表一般画廊 爱好者\"，而原文正好说\"definitelynot justthe normal gallery-goers\"-恰恰不是典型的画廊发 烧友群体。\n\n题目 37\n答案：D\nPDF 定位：作者为什么要特别提到MONA里的那些硬币？ 第 7 段: \"Walsh's antiquities collection is superb, but he knew that old coins would compete for attention against new works that are more challenging in scale and subject matter, hence the device of setting antiquities among twentieth- and twenty-first-century works. For me, one of the intriguing outcomes of this strategy was an intensified feeling that the\nPDF 解析：\"沃尔什的古董收藏非常出色，但他知道，那些古 考点：题干间\"Whydoes the writermention thecoinsatMONA?\"-作者提到硬币，是为了 钱币会在观众注意力上和那些在体量与题材上更 说明一种策展/陈列方式。原文：硬币本身会和新 具挑战性的当代作品相互竞争，于是他采用了一 种布展手法：把古董摆放在20世纪和21世纪作 作品抢注意力，因此Walsh想出\"把古物放在现代 品之间。对我来说，这种策略带来的一个有趣结 作品之间\"的办法；作者说这是一个\"strategy\"， 果是：这种布展方式进一步强化了这样的感觉- 让她感觉那些古代匠人像当时的\"当代艺术家\"。 这些钱币和古物的制作者，普是他们那个时代最 所以她是在赞叹这种\"展品呈现方式\"的巧妙。对 伟大的当代艺术家。\"",
         "items": [
           {
             "questionId": "q7",
             "questionNumber": 33,
-            "text": "(1) 题目 33：Luke Martin plans to promote tourism in Tasmania by\n题目翻译：卢克・马丁计划通过以下方式促进塔斯马尼亚旅游业：\n答案：B （combining trips to MONA with visits to other galleries.）\n解析：定位 Paragraph D 中 \"packaging up MONA with visits to other galleries\"，Luke Martin 正在考虑将 MONA 与其他画廊参观打包组合成旅游路线，与选项 B（结合MONA和其他画廊之旅）一致，因此选择 B。"
+            "text": "题目 33\n答案：B\nPDF 定位：第3段末-第4段开头：\"AccordingtoMartin， LukeMartin计划通过什么方式来促进塔斯马尼 亚的旅游业？ possibilities for packaging up MONA with visits to other galleries around Tasmania are being investigated. .. In addition to this, there are up totwenty otherexisting quality galleries inthe state.Sothereismoretosee than just MONA.\"\nPDF 解析：同义改写：\"packagingupMONAwithvisitsto \"据马丁所说，正在探讨把参观MONA和塔斯马 尼亚其他画廊组合打包成行程的可能性。.此 othergalleries\"=把参观MONA和其他画廊一起 外，这个州还有多达二十家高质量的现有画廊。 打包成旅游产品，就对应选项Bcombiningtrips to MONA with visits to other galleries。**排 所以来看这里的，绝不只有MONA一处可看。\" 除：**A强调\"更多聚焦MONA\"，而原文强调的 是\"notjustMONA\"；C说做与画廊无关的活动， 原文恰恰是\"othergalleries\"；D说改进宣传信息 质量，原文完全没提宣传资料，只说行程组合。"
           },
           {
             "questionId": "q8",
             "questionNumber": 34,
-            "text": "(2) 题目 34：According to the writer, what is especially interesting about MONA?\n题目翻译：根据作者，MONA特别引人注目的是什么？\n答案：A （the man who founded the gallery）\n解析：定位 Paragraph E 中 \"MONA's 'wow factor' comes from the notoriety of David Walsh, the museum's millionaire founder, and his choice of unusual artworks\"。作者认为 MONA 最吸引人的是创始人大卫・沃尔什的名声和他的选择，因此选择 A（画廊的创始人）。"
+            "text": "题目 34\n答案：A\nPDF 定位：根据作者所说，MONA最特别、有趣的地方 第 6 段前半： *Going to a gallery with such 是什么？ confronting artworks with your parents is an interesting experience; I was pleasantly surprised by my parents' openness to the exhibitions. .. This is because the gallery engages allof the senses, and visitors often pause to experience the effect each artwork has on them.\"\nPDF 解析：关键：题干有\"according to thewriter/ \"和父母一起去参观一个展出如此具有冲击力作品 的画廊，是一段很有趣的经历；父母对这些展品 especially interesting\"，所以要看作者用第一人 的开放态度让我很惊喜。..这是因为，这座画离 称的地方，即第6段。\"interesting experience\" 调动了所有的感官，参观者经常会停下来，去体 接着解释的就是：画廖如何让参观者停下来，感 验每一件作品对自己的影响。\" 受每件作品对自己的effect\"。这就是Cvisitors' responses to the gallery spaces-参观者在 这个空间里被作品触动、产生各种反应，A：E 段确实讲Walsh，但作者并没说\"我觉得这个人 特别有意思\"，而是说建筑如何体现他的vision； 重点不在\"这个人\"，而在\"人们在馆里的体验\"， B: 仅句]*stting .. on the edge of the Denwent River\"，是地理背景，没有任何\"interesting\"的 评价。D：文章一开始就说\"the buildingis rather nondescript，与striking（显眼的）相反，说明 外观并不\"特别抢眼\"。"
           },
           {
             "questionId": "q9",
             "questionNumber": 35,
-            "text": "(3) 题目 35：Why do visitors spend a long time at the gallery?\n题目翻译：为什么游客在画廊停留很长时间？\n答案：D （The gallery has a physical effect on visitors.）\n解析：定位 Paragraph F 中 \"the gallery engages all of the senses, and visitors often pause to experience the effect each artwork has on them\"。画廊调动了感官，游客停下来体验每件作品的影响，这与选项 D（画廊对参观者产生生理效果）一致，因此选择 D。"
+            "text": "题目 35\n答案：D\nPDF 定位：为什么参观者会在画廊里待很长时间？ 第6段中部：\"My father.. happily spent almost five hours at MONA; the urge to linger is a common feeling here. This is because the gallery engages all of the senses, and visitors often pause to experience the effect each artwork has on them.*\nPDF 解析：\"我父亲平时参观画廊总是匆匆而过，可他在 同义改写：画庵\"engages all of the senses\"， MONA却心满意足地待了将近五个小时；在这里， 作品对参观者有\"effect\"，让人\"urgetolinger\" (恐不住想多待)，即画鹿对参观者有很强的感官/ 人们都有一种想多停留一会儿的冲动，这是非常 身体上的影响。这对应 D the gallery has a 普遍的感觉。这是因为，这座画庵调动了人们所 physical effect on visitors(画酶对参观者有身 有的感官，参观者经常会停下来，去体验每一件 作品对自己的影响。\" 体/感官上的作用)。A：没说作品\"数量很多\"， B：作者只是举\"我和父母\"这一家，没说大家都 \"成群结队的家庭\"来，也不是原因。C：文中没有 说作品\"难以理解\"，反而是直接、直白地探索 human condition；停留久是因为\"感官体验强 烈\"，不是\"看不懂\"。"
           },
           {
             "questionId": "q10",
             "questionNumber": 36,
-            "text": "(4) 题目 36：What does the writer say about the visitors to MONA?\n题目翻译：作者说MONA的参观者是什么样的？\n答案：B （A wide variety of people are interested in MONA.）\n解析：定位 Paragraph F 中 \"People from all kinds of socioeconomic backgrounds are curious about what lies within\"。来自各种社会经济背景的人都对 MONA 感兴趣，不仅仅是普通画廊常客，这与选项 B（各种各样的人都感兴趣）一致，因此选择 B。"
+            "text": "题目 36\n答案：B\nPDF 定位：作者对MONA的参观者有什么评价？ 第 6 段后半： *This raises the question of who is actually visiting MONA and it's definitely not just the normal gallery-goers, People from all kinds of socioeconomic backgrounds are curious about what lies within the subterranean maze of MONA. Conservative minds are being opened, which is a good thing anywhere.\"\nPDF 解析：同义改写：\"not just the normal gallery-goers\"+ \"这就引出了一个问题：究竟是谁在参观MONA \"people from all kinds of socioeconomic -显然绝不仅仅是那些平时常逛画廊的普通参 观者。来自各种社会经济背景的人都对这座地下 backgrounds\"=来的人种类很多、非常多元，刚 迷宫般的MONA里究竟有什么感到好奇。许多 好对应 B a wide variety of people are 保守的头脑正在被打开，而这种事在任何地方都 interestedin MONA。A：并无\"老年人比年轻人 是好事， 待得久\"的年龄对比。C：没有说\"多数参观者是 年轻人\"，只说\"各种背景\"；反而提到 \"conservative minds\"（不少保守的人)，隐含有不 少原本不常看展的人。D：题干说\"代表一般画廊 爱好者\"，而原文正好说\"definitelynot justthe normal gallery-goers\"-恰恰不是典型的画廊发 烧友群体。"
           },
           {
             "questionId": "q11",
             "questionNumber": 37,
-            "text": "(5) 题目 37：Why does the writer mention the coins at MONA?\n题目翻译：作者为什么提到MONA的硬币？\n答案：D （to express admiration for the way that the exhibits are presented.）\n解析：定位 Paragraph G 中 Walsh 将古董（古老硬币）与 20-21 世纪的作品并置，作者认为这种策展策略产生了有趣的结果——让人更强烈地感受到古人是伟大的当代艺术家。这是对手法（exhibit presentation）的赞赏，因此选择 D。"
+            "text": "题目 37\n答案：D\nPDF 定位：作者为什么要特别提到MONA里的那些硬币？ 第 7 段: \"Walsh's antiquities collection is superb, but he knew that old coins would compete for attention against new works that are more challenging in scale and subject matter, hence the device of setting antiquities among twentieth- and twenty-first-century works. For me, one of the intriguing outcomes of this strategy was an intensified feeling that the\nPDF 解析：\"沃尔什的古董收藏非常出色，但他知道，那些古 考点：题干间\"Whydoes the writermention thecoinsatMONA?\"-作者提到硬币，是为了 钱币会在观众注意力上和那些在体量与题材上更 说明一种策展/陈列方式。原文：硬币本身会和新 具挑战性的当代作品相互竞争，于是他采用了一 种布展手法：把古董摆放在20世纪和21世纪作 作品抢注意力，因此Walsh想出\"把古物放在现代 品之间。对我来说，这种策略带来的一个有趣结 作品之间\"的办法；作者说这是一个\"strategy\"， 果是：这种布展方式进一步强化了这样的感觉- 让她感觉那些古代匠人像当时的\"当代艺术家\"。 这些钱币和古物的制作者，普是他们那个时代最 所以她是在赞叹这种\"展品呈现方式\"的巧妙。对 伟大的当代艺术家。\""
           }
         ]
       }
@@ -2799,28 +2799,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "3. 摘要填空（Questions 38–40）",
+        "sectionTitle": "3. summary completion (Questions 38-40)",
         "mode": "group",
         "questionRange": {
           "start": 38,
           "end": 40
         },
-        "text": "题目翻译：虽然MONA可能缺少古根海姆的38 \\___\\___效果……\n答案：C （visual）\n解析：定位 Paragraph H 中 MONA 不像古根海姆那样有 \"shimmering metal surfaces\"（闪亮的金属表面）那般震撼，这种震撼是视觉上的。\"Visual effect\" 对应选项 C（visual），表示 MONA 缺少古根海姆那种视觉上的冲击力。\n题目翻译：……对于MONA来说，有一个主要的39 \\___\\___需要处理……\n答案：A （challenge）\n解析：定位 Paragraph H 中 Walsh 解释 FJN 设计 MONA 时解决了一个问题：\"how to do a project of that scale underground\"（如何在地下完成如此规模的项目）。这是一个需要解决的挑战。\"Challenge\" 对应选项 A。\n题目翻译：大卫・沃尔什的40 \\___\\___将如何在塔斯马尼亚被继续拓展还有待观察。\n答案：D （contribution）\n解析：定位 Paragraph H 末尾 \"how Tasmania will build on David Walsh's input to its cultural landscape\"，\"input\" 即投入/贡献，对应选项 D（contribution）。",
+        "text": "题目 38\n答案：C\nPDF 定位：（与毕尔巴鄂古根海姆相比，MONA可能缺少那 种）视觉效果\nPDF 解析：\"\"wow\"spectacularimpact\"指视觉冲击，对应 ..the architectural \"wow'factor of the Guggenheim was the most famous component C visual。 ...whereas ... MONA does not have the same 效果最出名，而MONA并没有同样炫目的冲击。\" (第8段)\n\n题目 39\n答案：A\nPDF 定位：MONA需要处理的一个重大挑战(地下建馆）\nPDF 解析：*..Katsalidis solved a problem when he \"solvedaproblem\"本质是挑战/难题→A designed MONA, in an underground location.\" challenge。 →\"建筑师在地下选址的条件下解决了一个难题。\" (第8段)\n\n题目 40\n答案：D\nPDF 定位：如何扩展DavidWalsh的贡献\nPDF 解析：*..MONA has initiated something very \"input\"=贡献，对应Dcontribution。 important for Tasmania ... Now the question is how Tasmania will build on David Walsh's input ..\"→\"问题在于塔州将如何在DavidWalsh的投 入/贡献之上继续建设。\"(第8段)",
         "items": [
           {
             "questionId": "q12",
             "questionNumber": 38,
-            "text": "(1) 题目 38：While MONA may lack the 38 \\___\\___ effect of the Guggenheim...\n题目翻译：虽然MONA可能缺少古根海姆的38 \\___\\___效果……\n答案：C （visual）\n解析：定位 Paragraph H 中 MONA 不像古根海姆那样有 \"shimmering metal surfaces\"（闪亮的金属表面）那般震撼，这种震撼是视觉上的。\"Visual effect\" 对应选项 C（visual），表示 MONA 缺少古根海姆那种视觉上的冲击力。"
+            "text": "题目 38\n答案：C\nPDF 定位：（与毕尔巴鄂古根海姆相比，MONA可能缺少那 种）视觉效果\nPDF 解析：\"\"wow\"spectacularimpact\"指视觉冲击，对应 ..the architectural \"wow'factor of the Guggenheim was the most famous component C visual。 ...whereas ... MONA does not have the same 效果最出名，而MONA并没有同样炫目的冲击。\" (第8段)"
           },
           {
             "questionId": "q13",
             "questionNumber": 39,
-            "text": "(2) 题目 39：...with MONA there was a major 39 \\___\\___ that needed to be dealt with...\n题目翻译：……对于MONA来说，有一个主要的39 \\___\\___需要处理……\n答案：A （challenge）\n解析：定位 Paragraph H 中 Walsh 解释 FJN 设计 MONA 时解决了一个问题：\"how to do a project of that scale underground\"（如何在地下完成如此规模的项目）。这是一个需要解决的挑战。\"Challenge\" 对应选项 A。"
+            "text": "题目 39\n答案：A\nPDF 定位：MONA需要处理的一个重大挑战(地下建馆）\nPDF 解析：*..Katsalidis solved a problem when he \"solvedaproblem\"本质是挑战/难题→A designed MONA, in an underground location.\" challenge。 →\"建筑师在地下选址的条件下解决了一个难题。\" (第8段)"
           },
           {
             "questionId": "q14",
             "questionNumber": 40,
-            "text": "(3) 题目 40：It remains to be seen how the 40 \\___\\___ of David Walsh will be expanded upon in Tasmania.\n题目翻译：大卫・沃尔什的40 \\___\\___将如何在塔斯马尼亚被继续拓展还有待观察。\n答案：D （contribution）\n解析：定位 Paragraph H 末尾 \"how Tasmania will build on David Walsh's input to its cultural landscape\"，\"input\" 即投入/贡献，对应选项 D（contribution）。"
+            "text": "题目 40\n答案：D\nPDF 定位：如何扩展DavidWalsh的贡献\nPDF 解析：*..MONA has initiated something very \"input\"=贡献，对应Dcontribution。 important for Tasmania ... Now the question is how Tasmania will build on David Walsh's input ..\"→\"问题在于塔州将如何在DavidWalsh的投 入/贡献之上继续建设。\"(第8段)"
           }
         ]
       }

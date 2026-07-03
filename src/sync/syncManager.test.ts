@@ -279,4 +279,45 @@ describe('sync manager', () => {
     expect(latestCall?.[1].snapshot.practice.records).toEqual([])
     expect(latestCall?.[1].snapshot.practice.clearedAt).toEqual(expect.any(Number))
   })
+
+  it('exports deleted practice record tombstones in the next snapshot', async () => {
+    vi.mocked(getCurrentSession).mockResolvedValue({
+      user: { id: 'user-1', email: 'user@example.com', createdAt: 1710000000000 },
+      csrfToken: 'csrf-token'
+    })
+    vi.mocked(pullSyncSnapshot).mockResolvedValue({ revision: 0, snapshot: baseSnapshot() })
+    vi.mocked(pushSyncSnapshot).mockImplementation(async (_csrf, payload) => ({
+      revision: 1,
+      snapshot: payload.snapshot,
+      mergedAt: Date.now(),
+      clientRevision: payload.baseRevision ?? 0,
+      serverRevision: 1,
+      clientWasStale: false
+    }))
+
+    installSyncManager()
+    loadLocalStores()
+    await useAuthStore().bootstrapSession()
+    await flushPromises()
+
+    const practiceStore = usePracticeStore()
+    practiceStore.add({
+      id: 'record-to-delete',
+      time: 1710000001000,
+      questionId: 'p1-high-05',
+      questionTitle: 'Question',
+      category: 'P1',
+      duration: 60,
+      correctAnswers: 7,
+      totalQuestions: 10,
+      accuracy: 70,
+      score: 7
+    })
+    practiceStore.deleteRecord('record-to-delete')
+    await syncNow()
+
+    const latestCall = vi.mocked(pushSyncSnapshot).mock.calls.at(-1)
+    expect(latestCall?.[1].snapshot.practice.records).toEqual([])
+    expect(latestCall?.[1].snapshot.practice.deletedRecordIds).toContain('record-to-delete')
+  })
 })

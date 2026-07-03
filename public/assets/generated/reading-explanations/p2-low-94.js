@@ -1,0 +1,131 @@
+(function registerReadingExplanationData(global) {
+  'use strict';
+  if (!global.__READING_EXPLANATION_DATA__ || typeof global.__READING_EXPLANATION_DATA__.register !== "function") {
+    throw new Error("reading_explanation_registry_missing");
+  }
+  global.__READING_EXPLANATION_DATA__.register("p2-low-94", {
+  "schemaVersion": "ReadingExplanationV1",
+  "examId": "p2-low-94",
+  "meta": {
+    "examId": "p2-low-94",
+    "title": "The importance of being playful 玩耍的重要性",
+    "category": "P2",
+    "sourceDoc": "183. P2 - The importance of being playful 玩耍的重要性.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The importance of being playful 玩耍的重要性",
+    "ocrPages": [
+      6,
+      7
+    ],
+    "pdfPageCount": 7,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionExplanations": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-18)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 14,
+          "text": "题目 14\n答案：B\nPDF 解析页 OCR：题型：研究者配对 研究者列表：",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 15,
+          "text": "题目 15\n答案：A\nPDF 解析页 OCR：A Anthony Pellegrini",
+          "questionId": "q2"
+        },
+        {
+          "questionNumber": 16,
+          "text": "题目 16\n答案：G\nPDF 解析页 OCR：B JaakPanksepp",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 17,
+          "text": "题目 17\n答案：C\nPDF 解析页 OCR：C Stephen Siviy",
+          "questionId": "q4"
+        },
+        {
+          "questionNumber": 18,
+          "text": "题目 18\n答案：A\nPDF 定位：题干翻译\nPDF 解析：定位句&翻译 详细解释",
+          "questionId": "q5"
+        }
+      ],
+      "questionRange": {
+        "start": 14,
+        "end": 18
+      },
+      "text": "题目 14\n答案：B\nPDF 解析页 OCR：题型：研究者配对 研究者列表：\n\n题目 15\n答案：A\nPDF 解析页 OCR：A Anthony Pellegrini\n\n题目 16\n答案：G\nPDF 解析页 OCR：B JaakPanksepp\n\n题目 17\n答案：C\nPDF 解析页 OCR：C Stephen Siviy\n\n题目 18\n答案：A\nPDF 定位：题干翻译\nPDF 解析：定位句&翻译 详细解释"
+    },
+    {
+      "sectionTitle": "2. matching (Questions 19-22)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 19,
+          "text": "题目 19\n答案：A\nPDF 定位：自由游戏鼓励孩子考虑他人的意愿/需求\nPDF 解析：\"Kids learn those skills by interacting with 题干: It encourages children to take other people'swishesintoaccount（它鼓励孩子顾及他 peers... They want this thing to keep going, 人的诉求)。Pellegrini说孩子会主动迁就同伴的需 so they're willing to 'go the extra mile' to accommodate their playmates'desires.\"(段落 要以保持游戏继续→正中这一点。所以19=A。 B，Pellegrini)译：孩子是通过和同龄人互动来学 会这些社交技能的。因为他们想把游戏继续下去， 所以他们会\"多做一点\"去配合同伴的愿望。",
+          "questionId": "q6"
+        },
+        {
+          "questionNumber": 20,
+          "text": "题目 20\n答案：C\nPDF 定位：自由游戏可以缓解压力/焦虑\nPDF 解析：\"Shortly thereafter, the first rat relaxed and 题干：\"Itcanserveto relievestress（它可以减 became calm,\" says Siviy, \"suggesting that 压)\"。F段讲的是被吓到、非常焦虑的老鼠，玩要 play helped lessen its anxiety.\"(段落F, 后不再那么紧张→减轻焦虑/压力。这个观点是 StephenSiviy）译：\"很快，第一只老鼠就放松下来 Siviy的，因此20=C。 了，变得平静\"，Siviy说，\"这说明玩要有助于降低 它的焦虑。\"",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：D\nPDF 定位：自由游戏能让孩子为将来面对不可预知的情况 做好准备\nPDF 解析：\"Play is like a kaleidoscope...it is random and 题干:\"It prepares children for dealing with creative. It encourages flexibility and creativity unpredictablesituations（它让孩子为不可预测的 that may, in the future, be advantageous in 情况做好准备)\"。Bekoff明确说玩要培养的灵活性 unexpected situations or new environments.\" 会在\"unexpectedsituations（意料之外的情境）\" (段落H，MarcBekoff)译：\"玩要就像万花筒... 里派上用场→完全吻合。21=D。 它是随机而有创造性的。它会培养灵活性和创造力， 而这些在将来面对意料之外的新环境/新情境时会 变成优势。\"",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 22,
+          "text": "题目 22\n答案：A\nPDF 定位：当有成人参与时，游戏的作用会下降\nPDF 解析：\"play among peers is the most important in 题干:\"It is less useful for children when adults this regard. Studies show that children use areinvolved（有大人在时，效果没那么好）\"。 Pellegrini说最重要的是同伴游戏，还说和大人 more sophisticated language when playing with other children than when playing with adults.\" 玩时语言没那么复杂→暗示大人介入时，收益下 (段落B，Pellegrini）译：\"同伴之间的玩要在这方面 降。22=A。注意：不是B、C、D，因为这段只有 最重要。研究显示，孩子和小伙伴玩时使用的语言 Pellegrini在谈\"同伴vs成人'的对比。",
+          "questionId": "q9"
+        }
+      ],
+      "questionRange": {
+        "start": 19,
+        "end": 22
+      },
+      "text": "题目 19\n答案：A\nPDF 定位：自由游戏鼓励孩子考虑他人的意愿/需求\nPDF 解析：\"Kids learn those skills by interacting with 题干: It encourages children to take other people'swishesintoaccount（它鼓励孩子顾及他 peers... They want this thing to keep going, 人的诉求)。Pellegrini说孩子会主动迁就同伴的需 so they're willing to 'go the extra mile' to accommodate their playmates'desires.\"(段落 要以保持游戏继续→正中这一点。所以19=A。 B，Pellegrini)译：孩子是通过和同龄人互动来学 会这些社交技能的。因为他们想把游戏继续下去， 所以他们会\"多做一点\"去配合同伴的愿望。\n\n题目 20\n答案：C\nPDF 定位：自由游戏可以缓解压力/焦虑\nPDF 解析：\"Shortly thereafter, the first rat relaxed and 题干：\"Itcanserveto relievestress（它可以减 became calm,\" says Siviy, \"suggesting that 压)\"。F段讲的是被吓到、非常焦虑的老鼠，玩要 play helped lessen its anxiety.\"(段落F, 后不再那么紧张→减轻焦虑/压力。这个观点是 StephenSiviy）译：\"很快，第一只老鼠就放松下来 Siviy的，因此20=C。 了，变得平静\"，Siviy说，\"这说明玩要有助于降低 它的焦虑。\"\n\n题目 21\n答案：D\nPDF 定位：自由游戏能让孩子为将来面对不可预知的情况 做好准备\nPDF 解析：\"Play is like a kaleidoscope...it is random and 题干:\"It prepares children for dealing with creative. It encourages flexibility and creativity unpredictablesituations（它让孩子为不可预测的 that may, in the future, be advantageous in 情况做好准备)\"。Bekoff明确说玩要培养的灵活性 unexpected situations or new environments.\" 会在\"unexpectedsituations（意料之外的情境）\" (段落H，MarcBekoff)译：\"玩要就像万花筒... 里派上用场→完全吻合。21=D。 它是随机而有创造性的。它会培养灵活性和创造力， 而这些在将来面对意料之外的新环境/新情境时会 变成优势。\"\n\n题目 22\n答案：A\nPDF 定位：当有成人参与时，游戏的作用会下降\nPDF 解析：\"play among peers is the most important in 题干:\"It is less useful for children when adults this regard. Studies show that children use areinvolved（有大人在时，效果没那么好）\"。 Pellegrini说最重要的是同伴游戏，还说和大人 more sophisticated language when playing with other children than when playing with adults.\" 玩时语言没那么复杂→暗示大人介入时，收益下 (段落B，Pellegrini）译：\"同伴之间的玩要在这方面 降。22=A。注意：不是B、C、D，因为这段只有 最重要。研究显示，孩子和小伙伴玩时使用的语言 Pellegrini在谈\"同伴vs成人'的对比。"
+    },
+    {
+      "sectionTitle": "3. summary completion (Questions 23-26)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 23,
+          "text": "题目 23\n答案：brains\nPDF 定位：在研究\"游戏与社会性学习之间联系\"的实验里， 科学家检测老鼠体内蛋白质的含量，发现玩过和 没玩过的老鼠在它们的 中有显著差异。\nPDF 解析：\"Examination revealed that the brains of the 题干说：\"experiments analysing protein levels rats which had played contained much higher ... noted significant differences between rats levels of BDNF... than those of the animals which had played and those which had not.\" thathadnot.\"（段落D）译：检查结果显示，玩 段落D告诉我们差异出现在thebrainsofthe 要过的老鼠\"大脑\"里含有的BDNF（促进新神经 rats（老鼠的大脑)。所以空23=brains。不能写 \"BDNF\"，因为空问的是部位/位置，不是蛋白名。 元生长的蛋白）水平，远高于没玩要的老鼠。",
+          "questionId": "q10"
+        },
+        {
+          "questionNumber": 24,
+          "text": "题目 24\n答案：cat\nPDF 定位：气味 在另一项研究中，研究人员用带有 的物体让老鼠产生强烈不安。\nPDF 解析：\"Siviy put rats into a chamber and exposed 题干说\"objectsmellingofa 带有..气 them to a collar previously worn by a cat, 味的物体）\"。文中是\"acollarpreviouslyworn byacat（带猫味的项圈）\"。一词作答：cat。不 making them visibly anxious.\"(段落F)译： 是\"collar\"，因为题干已经把\"object\"说出来了 Siviy把老鼠放进一个箱子，让它们接触一条\"以 前给猫戴过的项圈\"，老鼠明显变得很焦虑。 (那个带味道的物体本身），我们要补的是它闻起 来像什么→猫。",
+          "questionId": "q11"
+        },
+        {
+          "questionNumber": 25,
+          "text": "题目 25\n答案：anxiety\nPDF 定位：水平 之后允许它们玩要，这些老鼠的 显著下降。\nPDF 解析：\"Shortly thereafter, the first rat relaxed and levels（某种 题干：reduction in their 水平下降)。F段直接说\"playhelpedlessen became calm... suggesting that play helped lessenitsanxiety.\"（段落F）译：\"不久之后，第 itsanxiety（玩耍降低了焦虑）\"。可量化的就 一只老鼠放松下来，变得平静.这说明玩要帮助 是\"anxiety levels（焦虑程度）\"。所以答案是 降低了它的焦虑。\" anxiety。",
+          "questionId": "q12"
+        },
+        {
+          "questionNumber": 26,
+          "text": "题目 26\n答案：ball\nPDF 定位：又一个实验：老鼠必须移动一个 才能拿 到奖励。研究发现，缺少玩要的老鼠在解决问题 方面更差。\nPDF 解析：\"The researchers taught these rats...to pull a 空格问的是movea， _ in order to reach a reward.H段明确是\"arubberball\"。在一词限 rubber ball out of the way to get a food treat. A few days later they switched the setup 制下，填ball。它体现的是解决问题的灵活性和 so the rats would have to push the same 适应性；被隔离、没玩耍的老鼠表现更差，说明 游戏训练了解决新情况的能力。 ball to get the treat... the ones which had played proved to be far more adept at solving",
+          "questionId": "q13"
+        }
+      ],
+      "questionRange": {
+        "start": 23,
+        "end": 26
+      },
+      "text": "题目 23\n答案：brains\nPDF 定位：在研究\"游戏与社会性学习之间联系\"的实验里， 科学家检测老鼠体内蛋白质的含量，发现玩过和 没玩过的老鼠在它们的 中有显著差异。\nPDF 解析：\"Examination revealed that the brains of the 题干说：\"experiments analysing protein levels rats which had played contained much higher ... noted significant differences between rats levels of BDNF... than those of the animals which had played and those which had not.\" thathadnot.\"（段落D）译：检查结果显示，玩 段落D告诉我们差异出现在thebrainsofthe 要过的老鼠\"大脑\"里含有的BDNF（促进新神经 rats（老鼠的大脑)。所以空23=brains。不能写 \"BDNF\"，因为空问的是部位/位置，不是蛋白名。 元生长的蛋白）水平，远高于没玩要的老鼠。\n\n题目 24\n答案：cat\nPDF 定位：气味 在另一项研究中，研究人员用带有 的物体让老鼠产生强烈不安。\nPDF 解析：\"Siviy put rats into a chamber and exposed 题干说\"objectsmellingofa 带有..气 them to a collar previously worn by a cat, 味的物体）\"。文中是\"acollarpreviouslyworn byacat（带猫味的项圈）\"。一词作答：cat。不 making them visibly anxious.\"(段落F)译： 是\"collar\"，因为题干已经把\"object\"说出来了 Siviy把老鼠放进一个箱子，让它们接触一条\"以 前给猫戴过的项圈\"，老鼠明显变得很焦虑。 (那个带味道的物体本身），我们要补的是它闻起 来像什么→猫。\n\n题目 25\n答案：anxiety\nPDF 定位：水平 之后允许它们玩要，这些老鼠的 显著下降。\nPDF 解析：\"Shortly thereafter, the first rat relaxed and levels（某种 题干：reduction in their 水平下降)。F段直接说\"playhelpedlessen became calm... suggesting that play helped lessenitsanxiety.\"（段落F）译：\"不久之后，第 itsanxiety（玩耍降低了焦虑）\"。可量化的就 一只老鼠放松下来，变得平静.这说明玩要帮助 是\"anxiety levels（焦虑程度）\"。所以答案是 降低了它的焦虑。\" anxiety。\n\n题目 26\n答案：ball\nPDF 定位：又一个实验：老鼠必须移动一个 才能拿 到奖励。研究发现，缺少玩要的老鼠在解决问题 方面更差。\nPDF 解析：\"The researchers taught these rats...to pull a 空格问的是movea， _ in order to reach a reward.H段明确是\"arubberball\"。在一词限 rubber ball out of the way to get a food treat. A few days later they switched the setup 制下，填ball。它体现的是解决问题的灵活性和 so the rats would have to push the same 适应性；被隔离、没玩耍的老鼠表现更差，说明 游戏训练了解决新情况的能力。 ball to get the treat... the ones which had played proved to be far more adept at solving"
+    }
+  ]
+}
+  );
+})(typeof window !== "undefined" ? window : globalThis);

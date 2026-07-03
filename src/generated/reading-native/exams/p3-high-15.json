@@ -1197,38 +1197,38 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 判断题（Questions 27–31）",
-        "mode": "per_question",
+        "sectionTitle": "1. yes no not given (Questions 27-31)",
+        "mode": "group",
         "questionRange": {
           "start": 27,
           "end": 31
         },
-        "text": "答案：YES\n解析：定位第3段（C段）。原文提到：\"Calves stay with their mothers throughout adulthood... no one has ever seen a whale switch pods\"（幼崽在整个成年期都和母亲呆在一起……从未有人见过一头鲸鱼转换豆荚）。\n答案：NO\n解析：定位第4段（D段）。原文对比指出，过客型只有几种叫声，而\"Residents have a much more extensive repertoire\"（定居型拥有更广泛的曲目）。题干说反了。\n答案：YES\n解析：定位第4段（D段）。原文提到：\"all transient societies share the same ones\"（所有过客型社会都共享相同的叫声）。\n答案：NO\n解析：定位第4段（D段）。原文提到：\"each family group has its own unique and distinctive set of calls... each resident pod sticks firmly to its own dialect\"（每个家庭组都有自己独特且与众不同的叫声集……每个定居型豆荚都坚定地坚持自己的方言）。\n答案：NOT GIVEN\n解析：第4段提到定居型（resident）的方言保持至少40年（maintained for at least 40 years），但对于过客型（transient），只说了它们共享相同的叫声，没有明确提及是否随时间保持不变（constant over time）。",
+        "text": "题目 27\n答案：YES\nPDF 定位：第C段:\"Residents live in stable groups... Calves stay with their mothers throughout adulthood, and ... no one has ever seen a whale switch pods.\"\nPDF 解析：题干\"remain with their maternal group for life\"=文中\"throughout 一致，为肯定。\n\n题目 28\n答案：NO\nPDF 定位：第D段：\"Transients have only a few such calls... Residents have a much more extensive repertoire.\"\nPDF 解析：题干说\"居民群更受限（morerestricted)\"，原文恰好相反：过客群 (transients）更少，居民群更\"广泛\"。故相反。\n\n题目 29\n答案：YES\nPDF 定位：第D段：\"Transients have only a few such calls, and all transient societies share the same ones.\"\nPDF 解析：题干\"common to all transientkillerwhales\"=原文\"all transient societiessharethesameones\"。语义一致，故是。\n\n题目 30\n答案：NO\nPDF 定位：第D段:\"Despite regular interaction... each resident pod sticks firmly to its own dialect.\nPDF 解析：题干称居民群\"sharethedialects\"，原文强调各居民群坚持各自方言， 不共享；与题干矛盾。\n\n题目 31\n答案：NOT GIVEN\nPDF 定位：全文未述\nPDF 解析：题干问\"transient方言是否随时间保持不变\"。文中仅说其呼叫\"很少、且 各群相同\"，未涉及\"随时间变化/恒定\"的信息，故未给出。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "(1) 题目 27：Resident killer whales appear to remain with their maternal group for life. （定居型虎鲸似乎终生留在其母系群体中。）\n答案：YES\n解析：定位第3段（C段）。原文提到：\"Calves stay with their mothers throughout adulthood... no one has ever seen a whale switch pods\"（幼崽在整个成年期都和母亲呆在一起……从未有人见过一头鲸鱼转换豆荚）。"
+            "text": "题目 27\n答案：YES\nPDF 定位：第C段:\"Residents live in stable groups... Calves stay with their mothers throughout adulthood, and ... no one has ever seen a whale switch pods.\"\nPDF 解析：题干\"remain with their maternal group for life\"=文中\"throughout 一致，为肯定。"
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "(2) 题目 28：Resident killer whales have a more restricted range of calls than transients. （定居型虎鲸的叫声范围比过客型更受限。）\n答案：NO\n解析：定位第4段（D段）。原文对比指出，过客型只有几种叫声，而\"Residents have a much more extensive repertoire\"（定居型拥有更广泛的曲目）。题干说反了。"
+            "text": "题目 28\n答案：NO\nPDF 定位：第D段：\"Transients have only a few such calls... Residents have a much more extensive repertoire.\"\nPDF 解析：题干说\"居民群更受限（morerestricted)\"，原文恰好相反：过客群 (transients）更少，居民群更\"广泛\"。故相反。"
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "(3) 题目 29：There is a vocabulary of sounds which is common to all transient killer whales. （有一套所有过客型虎鲸通用的声音词汇。）\n答案：YES\n解析：定位第4段（D段）。原文提到：\"all transient societies share the same ones\"（所有过客型社会都共享相同的叫声）。"
+            "text": "题目 29\n答案：YES\nPDF 定位：第D段：\"Transients have only a few such calls, and all transient societies share the same ones.\"\nPDF 解析：题干\"common to all transientkillerwhales\"=原文\"all transient societiessharethesameones\"。语义一致，故是。"
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "(4) 题目 30：Resident killer whales share the dialects of other resident communities living in the same waters. （定居型虎鲸与生活在同一水域的其他定居型群体共享方言。）\n答案：NO\n解析：定位第4段（D段）。原文提到：\"each family group has its own unique and distinctive set of calls... each resident pod sticks firmly to its own dialect\"（每个家庭组都有自己独特且与众不同的叫声集……每个定居型豆荚都坚定地坚持自己的方言）。"
+            "text": "题目 30\n答案：NO\nPDF 定位：第D段:\"Despite regular interaction... each resident pod sticks firmly to its own dialect.\nPDF 解析：题干称居民群\"sharethedialects\"，原文强调各居民群坚持各自方言， 不共享；与题干矛盾。"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "(5) 题目 31：The dialects of transient killer whales remain constant over time. （过客型虎鲸的方言随时间保持不变。）\n答案：NOT GIVEN\n解析：第4段提到定居型（resident）的方言保持至少40年（maintained for at least 40 years），但对于过客型（transient），只说了它们共享相同的叫声，没有明确提及是否随时间保持不变（constant over time）。"
+            "text": "题目 31\n答案：NOT GIVEN\nPDF 定位：全文未述\nPDF 解析：题干问\"transient方言是否随时间保持不变\"。文中仅说其呼叫\"很少、且 各群相同\"，未涉及\"随时间变化/恒定\"的信息，故未给出。"
           }
         ]
       }
@@ -1454,28 +1454,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "2. 摘要填空（Questions 32–34）",
+        "sectionTitle": "2. summary completion (Questions 32-34)",
         "mode": "group",
         "questionRange": {
           "start": 32,
           "end": 34
         },
-        "text": "答案：pods\n解析：定位第3段（C段）。原文：\"Residents live in stable groups, or 'pods'\"（定居型生活在稳定的群体，或称“豆荚”）。\n答案：physical environment\n解析：定位第5段（E段）。原文：\"Animals with different dialects share the same waters, so the variation can't be a product of physical environment\"（拥有不同方言的动物共享同一片水域，因此这种变异不可能是物理环境的产物）。\n答案：mother\n解析：定位第5段（E段）。原文：\"A calf uses the calls of its maternal pod very precisely. There is no input from the father\"（幼崽非常精确地使用其母系豆荚的叫声。没有来自父亲的输入）。\"Maternal pod\" 对应 \"group to which its mother belongs\"。",
+        "text": "题目 32\n答案：pods\nPDF 定位：第C段：\"Residents live in stable groups, or'pods..\"\nPDF 解析：\"固定家族群\"在文中专称为pods。\n\n题目 33\n答案：physical environment\nPDF 定位：第E段:..the variation can't be a product of physical environment.\"\nPDF 解析：摘要说差异\"不可能由...导致\"，与原文完全同词同义。\n\n题目 34\n答案：mother\nPDF 定位：第E段：\"A calf uses the calls of its maternal pod very precisely. There's no input from the father.\"\nPDF 解析：摘要结构\"thegrouptowhichits-belongs\"→\"小鲸只使用母 系群的方言\"，因此空格应为mother（而非maternalpod，语法上 应填\"其母亲所属的群\")。",
         "items": [
           {
             "questionId": "q6",
             "questionNumber": 32,
-            "text": "(1) 题目 32：It has been observed that resident killer whales invariably live in fixed family groups, known as 32 \\___\\___. （据观察，定居型虎鲸总是生活在固定的家庭群体中，被称为32 \\___\\___。）\n答案：pods\n解析：定位第3段（C段）。原文：\"Residents live in stable groups, or 'pods'\"（定居型生活在稳定的群体，或称“豆荚”）。"
+            "text": "题目 32\n答案：pods\nPDF 定位：第C段：\"Residents live in stable groups, or'pods..\"\nPDF 解析：\"固定家族群\"在文中专称为pods。"
           },
           {
             "questionId": "q7",
             "questionNumber": 33,
-            "text": "(2) 题目 33：...it is clear that these differences could not have emerged as a result of the whales' 33 \\___\\___. （……很明显，这些差异不可能是鲸鱼的33 \\___\\___造成的结果。）\n答案：physical environment\n解析：定位第5段（E段）。原文：\"Animals with different dialects share the same waters, so the variation can't be a product of physical environment\"（拥有不同方言的动物共享同一片水域，因此这种变异不可能是物理环境的产物）。"
+            "text": "题目 33\n答案：physical environment\nPDF 定位：第E段:..the variation can't be a product of physical environment.\"\nPDF 解析：摘要说差异\"不可能由...导致\"，与原文完全同词同义。"
           },
           {
             "questionId": "q8",
             "questionNumber": 34,
-            "text": "(3) 题目 34：...a calf communicates exclusively with the dialect of the group to which its 34 \\___\\___ belongs. （……幼崽完全使用其34 \\___\\___所属群体的方言进行交流。）\n答案：mother\n解析：定位第5段（E段）。原文：\"A calf uses the calls of its maternal pod very precisely. There is no input from the father\"（幼崽非常精确地使用其母系豆荚的叫声。没有来自父亲的输入）。\"Maternal pod\" 对应 \"group to which its mother belongs\"。"
+            "text": "题目 34\n答案：mother\nPDF 定位：第E段：\"A calf uses the calls of its maternal pod very precisely. There's no input from the father.\"\nPDF 解析：摘要结构\"thegrouptowhichits-belongs\"→\"小鲸只使用母 系群的方言\"，因此空格应为mother（而非maternalpod，语法上 应填\"其母亲所属的群\")。"
           }
         ]
       }
@@ -1896,7 +1896,32 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. multi choice (Questions 35-37)",
+        "mode": "group",
+        "questionRange": {
+          "start": 35,
+          "end": 37
+        },
+        "text": "题目 35\n答案：A\nPDF 定位：第F段：\"Apart from theiradvancedmentalabilities...\"\nPDF 解析：\"advancedmentalabilities\"=高智力/智能。\n\n题目 36\n答案：C\nPDF 定位：第F段：\"they are adept at recognising sounds: ideal for communicating in the marine environment.\"\nPDF 解析：对声音敏感、能分辨识别声音。\n\n题目 37\n答案：D\nPDF 定位：第H段:\"Female killer whales... live up to a quarter of a century after they have had their descendants.\"\nPDF 解析：说明寿命很长，尤其是绝经后仍长期存活。",
+        "items": [
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：A\nPDF 定位：第F段：\"Apart from theiradvancedmentalabilities...\"\nPDF 解析：\"advancedmentalabilities\"=高智力/智能。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：C\nPDF 定位：第F段：\"they are adept at recognising sounds: ideal for communicating in the marine environment.\"\nPDF 解析：对声音敏感、能分辨识别声音。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：D\nPDF 定位：第H段:\"Female killer whales... live up to a quarter of a century after they have had their descendants.\"\nPDF 解析：说明寿命很长，尤其是绝经后仍长期存活。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-4",
@@ -2831,28 +2856,28 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "4. 段落信息配对（Questions 38–40）",
+        "sectionTitle": "4. table completion (Questions 38-40)",
         "mode": "group",
         "questionRange": {
           "start": 38,
           "end": 40
         },
-        "text": "答案：G\n解析：定位第7段（G段）。原文：\"enabling them to share information about food hot spots\"（使它们能够分享关于食物热点的信息）。\n答案：D\n解析：定位第4段（D段）。该段详细对比了transients（过客型）和residents（定居型）在叫声（vocabulary/repertoire）上的差异。\n答案：F\n解析：定位第6段（F段）。原文列举了鲸鱼的生物属性（attributes）：\"recognising sounds\", \"live in small, stable, multi-generational societies\"，并指出这为教学和学习提供了机会，即有利于文化发展。",
+        "text": "题目 38\n答案：G\nPDF 定位：第G段：.. enabling them to share information about food hot spots.\"\nPDF 解析：传递的信息类型示例\"=食物热点位置，G段给出具体例子。\n\n题目 39\n答案：D\nPDF 定位：第D段:\"Transients have only a few such calls... Residents have a much more extensive repertoire... each resident pod sticks firmly to its own dialect.\"\nPDF 解析：同一物种内部（居民Vs过客&各居民群）沟通方式差异的明确信息。\n\n题目 40\n答案：F\nPDF 定位：第F段：\"Whales have severalbiological attributes that give them an advantage in social learning... advanced mental abilities; adept at recognising sounds .. live in small, stable, multi-generational societies....\nPDF 解析：直接罗列有利于文化发展的能力与社会结构。",
         "items": [
           {
             "questionId": "q12",
             "questionNumber": 38,
-            "text": "(1) 题目 38：an example of the kind of information passed by whales to each other （鲸鱼互相传递信息类型的一个例子）\n答案：G\n解析：定位第7段（G段）。原文：\"enabling them to share information about food hot spots\"（使它们能够分享关于食物热点的信息）。"
+            "text": "题目 38\n答案：G\nPDF 定位：第G段：.. enabling them to share information about food hot spots.\"\nPDF 解析：传递的信息类型示例\"=食物热点位置，G段给出具体例子。"
           },
           {
             "questionId": "q13",
             "questionNumber": 39,
-            "text": "(2) 题目 39：a reference to variations in communication styles between different cultures within one species （提到同一物种内不同文化之间交流风格的差异）\n答案：D\n解析：定位第4段（D段）。该段详细对比了transients（过客型）和residents（定居型）在叫声（vocabulary/repertoire）上的差异。"
+            "text": "题目 39\n答案：D\nPDF 定位：第D段:\"Transients have only a few such calls... Residents have a much more extensive repertoire... each resident pod sticks firmly to its own dialect.\"\nPDF 解析：同一物种内部（居民Vs过客&各居民群）沟通方式差异的明确信息。"
           },
           {
             "questionId": "q14",
             "questionNumber": 40,
-            "text": "(3) 题目 40：ways in which the skills of whales are favourable for the development of culture （鲸鱼的技能有利于文化发展的方式）\n答案：F\n解析：定位第6段（F段）。原文列举了鲸鱼的生物属性（attributes）：\"recognising sounds\", \"live in small, stable, multi-generational societies\"，并指出这为教学和学习提供了机会，即有利于文化发展。"
+            "text": "题目 40\n答案：F\nPDF 定位：第F段：\"Whales have severalbiological attributes that give them an advantage in social learning... advanced mental abilities; adept at recognising sounds .. live in small, stable, multi-generational societies....\nPDF 解析：直接罗列有利于文化发展的能力与社会结构。"
           }
         ]
       }

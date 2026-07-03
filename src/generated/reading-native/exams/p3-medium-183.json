@@ -2070,38 +2070,83 @@
       ],
       "contentNodes": [],
       "explanationSection": {
-        "sectionTitle": "1. 人物 - 理论匹配（Questions 27–31：A=Stroop / B=Pöppel / C=Meyer / D=Hallowell & Ratey）",
+        "sectionTitle": "1. short answer (Questions 27-40)",
         "mode": "group",
         "questionRange": {
           "start": 27,
-          "end": 31
+          "end": 40
         },
-        "text": "答案：B（Ernst Pöppel，恩斯特・珀佩尔）\n解析：定位 Paragraph 4 中 “Ernst Pöppel... believes that it is impossible to carry out two or three different tasks simultaneously with the same degree of concentration”，“无法同时高度专注多项任务” 对应 “每项任务注意力减少”，因此选 B。\n答案：C（David E. Meyer，戴维・E・迈耶）\n解析：定位 Paragraph 6 中 “David E. Meyer... Each switchover from one task to another meant re-thinking and thus involved additional neural resources... it takes the brain longer to adapt when switching rapidly back to an interrupted task”，“切换需重新思考、适应时间长” 对应 “需时间调整”，因此选 C。\n答案：A（John Ridley Stroop，约翰・里德利・斯特鲁普）\n解析：定位 Paragraph 3 中 “John Ridley Stroop reported that processing information from one task could cause interference with another... when study participants were asked to name the colour of a word... printed in a different colour – they experienced difficulty”，“一项任务（阅读）干扰另一项任务（颜色命名）” 对应 “技能使用导致另一任务困难”，因此选 A。\n答案：B（Ernst Pöppel，恩斯特・珀佩尔）\n解析：定位 Paragraph 5 中 “Ernst Pöppel... processing... actually take place in ‘three-second windows’... a person can concentrate on a conversation for three seconds, then for three seconds on a crying child, and three seconds on a computer screen”，“三秒窗口内专注单项任务” 对应 “短时间专注”，因此选 B。\n答案：D（Edward Hallowell & John Ratey，爱德华・哈洛威尔与约翰・拉蒂）\n解析：定位 Paragraph 8 中 “Edward Hallowell and John Ratey... say that multitasking can bring about a brain condition that causes sufferers to constantly seek new information while having difficulties concentrating on its content”，“导致大脑状况异常” 对应 “medical problem”，因此选 D。",
+        "text": "题目 27\n答案：B\nPDF 定位：B Ernst Poppel\nPDF 解析：*believes that it is *impossible to carry out two or 无法同度集中=若同做多事，每事获注意更少。 three different tasks simultaneously with the same degree of concentration.\"第4段\n\n题目 28\n答案：C\nPDF 定位：C David E. Meyer\nPDF 解析：频察改任务→大脑需重新加载规则，调整时间变长。 \"Each switchover from one task to another meant re- thinking. it takes the brain longer to adapt when switching rapidly back...\"-第6段\n\n题目 29\n答案：A\nPDF 定位：A John Ridley Stroop\nPDF 解析：...participants were asked to name the colour of a 读调这一自动技能干扰说颜色，体现\"一项技能阻碍另 word... they experienced difficulty...* 第3段 一任务\"。\n\n题目 30\n答案：B\nPDF 定位：B Ernst Poppel\nPDF 解析：...processing... actually take place in three-second 大脑只能在<3秒内聚焦一件事，随后换焦。 windows...\"-第5段\n\n题目 31\n答案：D\nPDF 定位：D Edward Hallowell & John Ratey\nPDF 解析：*..multitasking can bring about a brain condition 指多任务可能引发医学/脑部问题。 that causes sufferers to constantly seek new information...-第8段\n\n题目 32\n答案：B\nPDF 解析：场景段：\"startto feela headachecomingon...多任务 头痛+忙乱表现\"工作负荷压垮\"。 塞满。\"一第1段\n\n题目 33\n答案：D\nPDF 解析：\"possible dangers of divided attention for drivers, 引用原因是他们若失误代价极高→不能犯错。 air-traffic controllers...-第2段\n\n题目 34\n答案：C\nPDF 解析：\"participants were asked to name the colour 难点是说出印刷颜色名字(而非词义)。 of a word such as 'green' printed in red... they experienced difficulty\"-第3段\n\n题目 35\n答案：forehead\nPDF 定位：forehead\nPDF 解析：\"Located behind the forehead, the prefrontal 按题干\"found to the rear of the cortex..\"-第7段\n\n题目 36\n答案：mental resources\nPDF 定位：mental resources\nPDF 解析：分配资源。 .prioritise them and assign mental resources\" 一第7段\n\n题目 37\n答案：cells\nPDF 定位：cells\nPDF 解析：\"stress can also affect brain cells in another region, 题干已有\"inthehippocampus，只填cells即可。 thehippocampus..\"-第7段\n\n题目 38\n答案：new memories\nPDF 定位：new memories\nPDF 解析：*..mportant for forming new memories...第7段 储存记忆。\n\n题目 39\n答案：new skills\nPDF 定位：new skills\nPDF 解析：*..makes it difficult..to acquire new skills.第7段 学习新技能。\n\n题目 40\n答案：B\nPDF 解析：文章核心在于挑战普追观念，而非列举用途/专讲损伤/ 通篇结构：先述\"掌握multitasking是常识\"，后用多项研 究驳斥其高效性。 呼吁实验。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "（1）题目 27：Less attention will be paid to each task when more than one task is attempted at the same time.（同时尝试多项任务时，每项任务获得的注意力会减少）\n答案：B（Ernst Pöppel，恩斯特・珀佩尔）\n解析：定位 Paragraph 4 中 “Ernst Pöppel... believes that it is impossible to carry out two or three different tasks simultaneously with the same degree of concentration”，“无法同时高度专注多项任务” 对应 “每项任务注意力减少”，因此选 B。"
+            "text": "题目 27\n答案：B\nPDF 定位：B Ernst Poppel\nPDF 解析：*believes that it is *impossible to carry out two or 无法同度集中=若同做多事，每事获注意更少。 three different tasks simultaneously with the same degree of concentration.\"第4段"
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "（2）题目 28：Repeated changes of task mean that the brain will take a while to adjust.（频繁切换任务意味着大脑需时间适应）\n答案：C（David E. Meyer，戴维・E・迈耶）\n解析：定位 Paragraph 6 中 “David E. Meyer... Each switchover from one task to another meant re-thinking and thus involved additional neural resources... it takes the brain longer to adapt when switching rapidly back to an interrupted task”，“切换需重新思考、适应时间长” 对应 “需时间调整”，因此选 C。"
+            "text": "题目 28\n答案：C\nPDF 定位：C David E. Meyer\nPDF 解析：频察改任务→大脑需重新加载规则，调整时间变长。 \"Each switchover from one task to another meant re- thinking. it takes the brain longer to adapt when switching rapidly back...\"-第6段"
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "（3）题目 29：Using the skills required for one task may make performing another one more difficult.（使用一项任务所需的技能可能使另一项任务更难完成）\n答案：A（John Ridley Stroop，约翰・里德利・斯特鲁普）\n解析：定位 Paragraph 3 中 “John Ridley Stroop reported that processing information from one task could cause interference with another... when study participants were asked to name the colour of a word... printed in a different colour – they experienced difficulty”，“一项任务（阅读）干扰另一项任务（颜色命名）” 对应 “技能使用导致另一任务困难”，因此选 A。"
+            "text": "题目 29\n答案：A\nPDF 定位：A John Ridley Stroop\nPDF 解析：...participants were asked to name the colour of a 读调这一自动技能干扰说颜色，体现\"一项技能阻碍另 word... they experienced difficulty...* 第3段 一任务\"。"
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "（4）题目 30：When multitasking, the brain can only focus on single tasks for very short periods.（多任务时，大脑仅能短时间专注单项任务）\n答案：B（Ernst Pöppel，恩斯特・珀佩尔）\n解析：定位 Paragraph 5 中 “Ernst Pöppel... processing... actually take place in ‘three-second windows’... a person can concentrate on a conversation for three seconds, then for three seconds on a crying child, and three seconds on a computer screen”，“三秒窗口内专注单项任务” 对应 “短时间专注”，因此选 B。"
+            "text": "题目 30\n答案：B\nPDF 定位：B Ernst Poppel\nPDF 解析：...processing... actually take place in three-second 大脑只能在<3秒内聚焦一件事，随后换焦。 windows...\"-第5段"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "（5）题目 31：Multitasking can lead to a medical problem.（多任务可能导致健康问题）\n答案：D（Edward Hallowell & John Ratey，爱德华・哈洛威尔与约翰・拉蒂）\n解析：定位 Paragraph 8 中 “Edward Hallowell and John Ratey... say that multitasking can bring about a brain condition that causes sufferers to constantly seek new information while having difficulties concentrating on its content”，“导致大脑状况异常” 对应 “medical problem”，因此选 D。"
+            "text": "题目 31\n答案：D\nPDF 定位：D Edward Hallowell & John Ratey\nPDF 解析：*..multitasking can bring about a brain condition 指多任务可能引发医学/脑部问题。 that causes sufferers to constantly seek new information...-第8段"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：B\nPDF 解析：场景段：\"startto feela headachecomingon...多任务 头痛+忙乱表现\"工作负荷压垮\"。 塞满。\"一第1段"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：D\nPDF 解析：\"possible dangers of divided attention for drivers, 引用原因是他们若失误代价极高→不能犯错。 air-traffic controllers...-第2段"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：C\nPDF 解析：\"participants were asked to name the colour 难点是说出印刷颜色名字(而非词义)。 of a word such as 'green' printed in red... they experienced difficulty\"-第3段"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：forehead\nPDF 定位：forehead\nPDF 解析：\"Located behind the forehead, the prefrontal 按题干\"found to the rear of the cortex..\"-第7段"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：mental resources\nPDF 定位：mental resources\nPDF 解析：分配资源。 .prioritise them and assign mental resources\" 一第7段"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：cells\nPDF 定位：cells\nPDF 解析：\"stress can also affect brain cells in another region, 题干已有\"inthehippocampus，只填cells即可。 thehippocampus..\"-第7段"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：new memories\nPDF 定位：new memories\nPDF 解析：*..mportant for forming new memories...第7段 储存记忆。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：new skills\nPDF 定位：new skills\nPDF 解析：*..makes it difficult..to acquire new skills.第7段 学习新技能。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：B\nPDF 解析：文章核心在于挑战普追观念，而非列举用途/专讲损伤/ 通篇结构：先述\"掌握multitasking是常识\"，后用多项研 究驳斥其高效性。 呼吁实验。"
           }
         ]
       }

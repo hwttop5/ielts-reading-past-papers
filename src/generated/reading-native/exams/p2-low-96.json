@@ -11,7 +11,7 @@
     "questionIntroHtml": "",
     "originalTitle": "[Pretest] Why Do We Need Sleep 睡眠的目的"
   },
-  "explanationKey": null,
+  "explanationKey": "p2-low-96",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1149,7 +1149,52 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. short answer (Questions 17-23)",
+        "mode": "group",
+        "questionRange": {
+          "start": 17,
+          "end": 23
+        },
+        "text": "题目 17\n答案：D\nPDF 定位：*For instance, s/eep-deprived suspects held by the police will often confess to anything in exchange for rest.\"(第D段）\nPDF 解析：例如，被警察拘留的睡眠不足的嫌疑人常常会为 明确说到\"嫌疑人(suspects）\"在睡眠剥夺下更 了得到休息而\"承认一切\"。 容易招供，正是被指控犯罪者受影响的\"例子\"。\n\n题目 18\n答案：E\nPDF 定位：*..as shown on an EEG... / In stage two, the EEG measures electric sparks... In stage three...in stage four..\" (第E段)\nPDF 解析：连续用EEG刻画各阶段脑活动与波形差异，这是 通过脑电图（EEG）显示规律的脑活动；第二阶 \"记录不同脑活动类型\"的直接描述。 段EEG测到\"电火花\"；第三、四阶段出现大 而起伏的脑波并用\"少于一半/多于一半时间\" 加以区分。\n\n题目 19\n答案：C\nPDF 定位：...our ancient innate wake-up call is constantly triggered by something that is non-lifethreatening...\" \"Before the industrial revolution... we could... sleep in. That is no longer possible.\" (第 C 段)\nPDF 解析：我们古老的唤醒系统如今常被非致命的事务触 当代的考试焦虑、汽车报警、闹钟与固定作息= 现代社会机制对睡眠的持续干扰。 发；工业革命前可以\"睡个回笼觉\"来补救，但 现在已不可能。\n\n题目 20\n答案：D\nPDF 定位：..lack of sleep has been directly tied to obesity.. /..organs overproduce ghrelin, the hunger hormone, causing us to eat more.\"（第D段）\nPDF 解析：明确给出生理通路（ghrelin）解释睡少→更饿→ 缺觉与肥胖直接相关；器官过度分泌\"机饿激素\" 促使进食增加。 更易肥胖。\n\n题目 21\n答案：G\nPDF 定位：*The problem of sleep loss is not easily sol/ved-whether by power naps or pharmaceuticals.\"（第G段）\nPDF 解析：睡眠不足的问题并不容易通过\"小睡或药物\" 直接否定\"药片/捷径\"的有效性；后文还反对 来解决。 \"可以基本不睡\"的想法。\n\n题目 22\n答案：F\nPDF 定位：..once scientists documented the distinctive eye movements in REM, and found that virtually all dreaming takes place during this period, REM sleep was recognized as the second major phase of sleep.\"(第F段）\nPDF 解析：科学家记录到REM中的\"快速眼动\"，且几乎所 这一发现把REM从\"无足轻重的NREM变体\"提 有做梦都发生其间，于是REM被承认为第二大 升为独立主要阶段，改变了原有认识。 睡眠阶段。\n\n题目 23\n答案：A\nPDF 定位：...a 24 percent increase in heart attacks and a jump in fatal car crashes..\" / The resulting fatigue contributes to more than a million auto accidents each year.\" (第A段)\nPDF 解析：心梗增加24%，致命车祸上升；由此产生的疲 \"心梗/致命车祸\"均为\"危及生命\"的直接例证。 劳每年导致遍百万起交通事故。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：D\nPDF 定位：*For instance, s/eep-deprived suspects held by the police will often confess to anything in exchange for rest.\"(第D段）\nPDF 解析：例如，被警察拘留的睡眠不足的嫌疑人常常会为 明确说到\"嫌疑人(suspects）\"在睡眠剥夺下更 了得到休息而\"承认一切\"。 容易招供，正是被指控犯罪者受影响的\"例子\"。"
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：E\nPDF 定位：*..as shown on an EEG... / In stage two, the EEG measures electric sparks... In stage three...in stage four..\" (第E段)\nPDF 解析：连续用EEG刻画各阶段脑活动与波形差异，这是 通过脑电图（EEG）显示规律的脑活动；第二阶 \"记录不同脑活动类型\"的直接描述。 段EEG测到\"电火花\"；第三、四阶段出现大 而起伏的脑波并用\"少于一半/多于一半时间\" 加以区分。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：C\nPDF 定位：...our ancient innate wake-up call is constantly triggered by something that is non-lifethreatening...\" \"Before the industrial revolution... we could... sleep in. That is no longer possible.\" (第 C 段)\nPDF 解析：我们古老的唤醒系统如今常被非致命的事务触 当代的考试焦虑、汽车报警、闹钟与固定作息= 现代社会机制对睡眠的持续干扰。 发；工业革命前可以\"睡个回笼觉\"来补救，但 现在已不可能。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：D\nPDF 定位：..lack of sleep has been directly tied to obesity.. /..organs overproduce ghrelin, the hunger hormone, causing us to eat more.\"（第D段）\nPDF 解析：明确给出生理通路（ghrelin）解释睡少→更饿→ 缺觉与肥胖直接相关；器官过度分泌\"机饿激素\" 促使进食增加。 更易肥胖。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：G\nPDF 定位：*The problem of sleep loss is not easily sol/ved-whether by power naps or pharmaceuticals.\"（第G段）\nPDF 解析：睡眠不足的问题并不容易通过\"小睡或药物\" 直接否定\"药片/捷径\"的有效性；后文还反对 来解决。 \"可以基本不睡\"的想法。"
+          },
+          {
+            "questionId": "q6",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：F\nPDF 定位：..once scientists documented the distinctive eye movements in REM, and found that virtually all dreaming takes place during this period, REM sleep was recognized as the second major phase of sleep.\"(第F段）\nPDF 解析：科学家记录到REM中的\"快速眼动\"，且几乎所 这一发现把REM从\"无足轻重的NREM变体\"提 有做梦都发生其间，于是REM被承认为第二大 升为独立主要阶段，改变了原有认识。 睡眠阶段。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：A\nPDF 定位：...a 24 percent increase in heart attacks and a jump in fatal car crashes..\" / The resulting fatigue contributes to more than a million auto accidents each year.\" (第A段)\nPDF 解析：心梗增加24%，致命车祸上升；由此产生的疲 \"心梗/致命车祸\"均为\"危及生命\"的直接例证。 劳每年导致遍百万起交通事故。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -1530,7 +1575,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. multi choice (Questions 24-25)",
+        "mode": "group",
+        "questionRange": {
+          "start": 24,
+          "end": 25
+        },
+        "text": "题目 24\n答案：A\nPDF 定位：哪两项描述了NREM的特征？ \"As we fall into NREM sleep, our brain stays active and begins an editing process- deciding which memories to keep..\" (第 E段) / *The first of NREM's four stages... distinctive regular pattern... In stage two, the EEG measures... / In stage three... in stage four..\"(第E段)\nPDF 解析：进入NREM时，大脑保持活跃并进行\"记忆编 A对：NREM中大脑活跃、帮助皮层保存与存 辑\"；NREM有\"四个阶段\"，且各阶段的EEG表 储\"新信息=维持/支持脑功能。D对：文中逐段 现被分别描述。 用EEG特征区分阶段，等同于\"各阶段有独特 EEG模式\"。B错：NREM并非\"两部分\"，而是 \"四阶段\"，C错：大脑并非\"被动\"，而是\"保持 活跃\"。E错：激素在\"深睡阶段（3/4）产生最 多\"，不是\"NREM全程持续\"。\n\n题目 25\n答案：D\nPDF 定位：哪两项描述了NREM的特征？ \"As we fall into NREM sleep, our brain stays active and begins an editing process- deciding which memories to keep..\" (第 E段) / *The first of NREM's four stages... distinctive regular pattern... In stage two, the EEG measures... / In stage three... in stage four..\"(第E段)\nPDF 解析：进入NREM时，大脑保持活跃并进行\"记忆编 A对：NREM中大脑活跃、帮助皮层保存与存 辑\"；NREM有\"四个阶段\"，且各阶段的EEG表 储\"新信息=维持/支持脑功能。D对：文中逐段 现被分别描述。 用EEG特征区分阶段，等同于\"各阶段有独特 EEG模式\"。B错：NREM并非\"两部分\"，而是 \"四阶段\"，C错：大脑并非\"被动\"，而是\"保持 活跃\"。E错：激素在\"深睡阶段（3/4）产生最 多\"，不是\"NREM全程持续\"。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 24,
+            "text": "题目 24\n答案：A\nPDF 定位：哪两项描述了NREM的特征？ \"As we fall into NREM sleep, our brain stays active and begins an editing process- deciding which memories to keep..\" (第 E段) / *The first of NREM's four stages... distinctive regular pattern... In stage two, the EEG measures... / In stage three... in stage four..\"(第E段)\nPDF 解析：进入NREM时，大脑保持活跃并进行\"记忆编 A对：NREM中大脑活跃、帮助皮层保存与存 辑\"；NREM有\"四个阶段\"，且各阶段的EEG表 储\"新信息=维持/支持脑功能。D对：文中逐段 现被分别描述。 用EEG特征区分阶段，等同于\"各阶段有独特 EEG模式\"。B错：NREM并非\"两部分\"，而是 \"四阶段\"，C错：大脑并非\"被动\"，而是\"保持 活跃\"。E错：激素在\"深睡阶段（3/4）产生最 多\"，不是\"NREM全程持续\"。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 25,
+            "text": "题目 25\n答案：D\nPDF 定位：哪两项描述了NREM的特征？ \"As we fall into NREM sleep, our brain stays active and begins an editing process- deciding which memories to keep..\" (第 E段) / *The first of NREM's four stages... distinctive regular pattern... In stage two, the EEG measures... / In stage three... in stage four..\"(第E段)\nPDF 解析：进入NREM时，大脑保持活跃并进行\"记忆编 A对：NREM中大脑活跃、帮助皮层保存与存 辑\"；NREM有\"四个阶段\"，且各阶段的EEG表 储\"新信息=维持/支持脑功能。D对：文中逐段 现被分别描述。 用EEG特征区分阶段，等同于\"各阶段有独特 EEG模式\"。B错：NREM并非\"两部分\"，而是 \"四阶段\"，C错：大脑并非\"被动\"，而是\"保持 活跃\"。E错：激素在\"深睡阶段（3/4）产生最 多\"，不是\"NREM全程持续\"。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -1911,7 +1976,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. multi choice (Questions 26-27)",
+        "mode": "group",
+        "questionRange": {
+          "start": 26,
+          "end": 27
+        },
+        "text": "题目 26\n答案：B\nPDF 定位：哪两项描述了REM的特征？ ..documented the distinctive eye movements in REM..\" （(第F段)/\"Some sleep theorists argue that REM sleep is when we are our most intelligent, insightful, creative, and free.\"(第F段）\nPDF 解析：REM以\"特有的眼球快速运动\"识别；一些理论 家认为REM是我们最聪明、最有洞见、最具创 理特征\"。E对：强调\"创造力、洞见\"=人类创 造力的时刻。 新的来源。A错：文中未说\"REM是最长阶 段\"。C错：未提\"移除不愉快记忆\"，只说\"处 理新记忆\"。D错：REM并非NREM的一部分， 而是\"第二大阶段\"。\n\n题目 27\n答案：E\nPDF 定位：哪两项描述了REM的特征？ ..documented the distinctive eye movements in REM..\" （(第F段)/\"Some sleep theorists argue that REM sleep is when we are our most intelligent, insightful, creative, and free.\"(第F段）\nPDF 解析：REM以\"特有的眼球快速运动\"识别；一些理论 家认为REM是我们最聪明、最有洞见、最具创 理特征\"。E对：强调\"创造力、洞见\"=人类创 造力的时刻。 新的来源。A错：文中未说\"REM是最长阶 段\"。C错：未提\"移除不愉快记忆\"，只说\"处 理新记忆\"。D错：REM并非NREM的一部分， 而是\"第二大阶段\"。",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 26,
+            "text": "题目 26\n答案：B\nPDF 定位：哪两项描述了REM的特征？ ..documented the distinctive eye movements in REM..\" （(第F段)/\"Some sleep theorists argue that REM sleep is when we are our most intelligent, insightful, creative, and free.\"(第F段）\nPDF 解析：REM以\"特有的眼球快速运动\"识别；一些理论 家认为REM是我们最聪明、最有洞见、最具创 理特征\"。E对：强调\"创造力、洞见\"=人类创 造力的时刻。 新的来源。A错：文中未说\"REM是最长阶 段\"。C错：未提\"移除不愉快记忆\"，只说\"处 理新记忆\"。D错：REM并非NREM的一部分， 而是\"第二大阶段\"。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：E\nPDF 定位：哪两项描述了REM的特征？ ..documented the distinctive eye movements in REM..\" （(第F段)/\"Some sleep theorists argue that REM sleep is when we are our most intelligent, insightful, creative, and free.\"(第F段）\nPDF 解析：REM以\"特有的眼球快速运动\"识别；一些理论 家认为REM是我们最聪明、最有洞见、最具创 理特征\"。E对：强调\"创造力、洞见\"=人类创 造力的时刻。 新的来源。A错：文中未说\"REM是最长阶 段\"。C错：未提\"移除不愉快记忆\"，只说\"处 理新记忆\"。D错：REM并非NREM的一部分， 而是\"第二大阶段\"。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-4",
@@ -2228,7 +2313,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "4. sentence completion (Questions 28-32)",
+        "mode": "group",
+        "questionRange": {
+          "start": 28,
+          "end": 32
+        },
+        "text": "题目 28\n答案：fatigue\nPDF 定位：而这常是车 *The resulting fatigue contributes to more CDC称，缺觉会导致 祸因素。 than a million auto accidents each year.* (第A段)\nPDF 解析：因缺觉产生的疲劳每年导致追百万起车祸。 题干的\"car crashes factor\"与原文\"fatigue contributes to auto accidents\"精准对应，\n\n题目 29\n答案：insomnia\nPDF 定位：美国最常见的睡眠障碍是。 \"However, insomnia is by far the most prevalent of these problems. (第B段)\nPDF 解析：直接给出\"最普遍(prevalent)\"。 然而，失眠是最常见的问题。\n\n题目 30\n答案：emergency\nPDF 定位：*..can wake us in all stages of seep when it 大脑对任何类型的。 都会启动内置警报。 perceives an emergency.(第C段）\nPDF 解析：\"automatic override system=内置警报\"，关 当大脑感知到紧急情况时，在任何睡眠阶段都能 键词即emergency. 把我们唤醒。\n\n题目 31\n答案：depression\nPDF 定位：研究者称，经常睡眠不足者更易肥胖并思上如 *..have an elevated risk of developing 之类的疾病。 depression, as well as other mental and\nPDF 解析：空格要求\"如....之类的ike)\"的例子，文中点 睡少者更易患抑郁症以及其他身心疾病。 名 depression。\n\n题目 32\n答案：dreams\nPDF 定位：新记忆的加工与我们在睡眠中的 \"..the content of our approximately two 切相关。 hours of dreams each night in REM sleep is important in the processing of new memories.(第F段)\nPDF 解析：题干提示\"during sleep\"，与F段\"dreams in 我们每晚约两小时的梦内客对新记忆加工很 重要。 REM sleep\"-致。",
+        "items": [
+          {
+            "questionId": "q12",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：fatigue\nPDF 定位：而这常是车 *The resulting fatigue contributes to more CDC称，缺觉会导致 祸因素。 than a million auto accidents each year.* (第A段)\nPDF 解析：因缺觉产生的疲劳每年导致追百万起车祸。 题干的\"car crashes factor\"与原文\"fatigue contributes to auto accidents\"精准对应，"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：insomnia\nPDF 定位：美国最常见的睡眠障碍是。 \"However, insomnia is by far the most prevalent of these problems. (第B段)\nPDF 解析：直接给出\"最普遍(prevalent)\"。 然而，失眠是最常见的问题。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：emergency\nPDF 定位：*..can wake us in all stages of seep when it 大脑对任何类型的。 都会启动内置警报。 perceives an emergency.(第C段）\nPDF 解析：\"automatic override system=内置警报\"，关 当大脑感知到紧急情况时，在任何睡眠阶段都能 键词即emergency. 把我们唤醒。"
+          },
+          {
+            "questionId": "q15",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：depression\nPDF 定位：研究者称，经常睡眠不足者更易肥胖并思上如 *..have an elevated risk of developing 之类的疾病。 depression, as well as other mental and\nPDF 解析：空格要求\"如....之类的ike)\"的例子，文中点 睡少者更易患抑郁症以及其他身心疾病。 名 depression。"
+          },
+          {
+            "questionId": "q16",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：dreams\nPDF 定位：新记忆的加工与我们在睡眠中的 \"..the content of our approximately two 切相关。 hours of dreams each night in REM sleep is important in the processing of new memories.(第F段)\nPDF 解析：题干提示\"during sleep\"，与F段\"dreams in 我们每晚约两小时的梦内客对新记忆加工很 重要。 REM sleep\"-致。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

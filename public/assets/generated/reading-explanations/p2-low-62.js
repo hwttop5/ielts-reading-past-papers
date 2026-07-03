@@ -1,0 +1,131 @@
+(function registerReadingExplanationData(global) {
+  'use strict';
+  if (!global.__READING_EXPLANATION_DATA__ || typeof global.__READING_EXPLANATION_DATA__.register !== "function") {
+    throw new Error("reading_explanation_registry_missing");
+  }
+  global.__READING_EXPLANATION_DATA__.register("p2-low-62", {
+  "schemaVersion": "ReadingExplanationV1",
+  "examId": "p2-low-62",
+  "meta": {
+    "examId": "p2-low-62",
+    "title": "The purpose of facial expressions 面部表情",
+    "category": "P2",
+    "sourceDoc": "154. P2 - The purpose of facial expressions 面部表情.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "The purpose of facial expressions 面部表情",
+    "ocrPages": [
+      6,
+      7
+    ],
+    "pdfPageCount": 8,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionExplanations": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-18)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 14,
+          "text": "题目 14\n答案：E\nPDF 定位：认识到面部表情并不总能真实反映感受\nPDF 解析：\"theface can display information about 这段话直接指出\"并非百分之百可靠\"\"并非- emotions, but they admit that it is not 对应\"，而且给出\"有情无表/有表无情\"的两种情 reliable one hundredpercent of the time 形，恰答\"并不总能真实指引感受\"。 ...'There is a link... but it's not a one-to one kind of relationship ... there are many situations where emotion is experienced, yet no basic facial expression is displayed. And there are times when a facial expression appears with no corresponding emotion*.\" (第E段)",
+          "questionId": "q1"
+        },
+        {
+          "questionNumber": 15,
+          "text": "题目 15\n答案：B\nPDF 定位：说明面部表情如何影响他人的行动的例子\nPDF 解析：题干要\"影响他人行动的例子\"，本段给出靠近/ \"Expressions evolved to set off certain 远离/表达安慰等具体行为，完全对应。 behaviors in other people ... a smile may promptpeopletoapproach,a scowlmay warn them to stay away, and a look of sadness may elicit words of sympathy.\" (第B段)",
+          "questionId": "q2"
+        },
+        {
+          "questionNumber": 16,
+          "text": "题目 16\n答案：F\nPDF 定位：提到隐藏情绪的原因\nPDF 解析：两类原因：①文化规范会阻止表达；②让他人知 \"cultural rules ... can prevent this otherwise automaticprocess frombeing completed. 道情绪可能\"不舒服/不方便\"。 .. at times, it may beuncomfortable or inconvenient for us to let others know our emotions.\"（第F段）",
+          "questionId": "q3"
+        },
+        {
+          "questionNumber": 17,
+          "text": "题目 17\n答案：C\nPDF 定位：举出面部表情特别常见的时刻\nPDF 解析：expressions occur most often during pivotal 明确罗列\"问候/社会危机/安抚时刻\"等\"高频\" 时间点。 points ... during greetings, social crises, or timesofappeasement.\"（第C段）",
+          "questionId": "q4"
+        },
+        {
+          "questionNumber": 18,
+          "text": "题目 18\n答案：A\nPDF 定位：举出情绪产生时体内变化的例子\nPDF 解析：\"when an emotion occurs...creating specific 题干问\"体内变化的例子\"，本段给出心率增减、 facialexpressions and other physiological 血压升高等生理例子。 changes, such as increased or decreased heart rate or heightened blood pressure.\" (第A段)",
+          "questionId": "q5"
+        }
+      ],
+      "questionRange": {
+        "start": 14,
+        "end": 18
+      },
+      "text": "题目 14\n答案：E\nPDF 定位：认识到面部表情并不总能真实反映感受\nPDF 解析：\"theface can display information about 这段话直接指出\"并非百分之百可靠\"\"并非- emotions, but they admit that it is not 对应\"，而且给出\"有情无表/有表无情\"的两种情 reliable one hundredpercent of the time 形，恰答\"并不总能真实指引感受\"。 ...'There is a link... but it's not a one-to one kind of relationship ... there are many situations where emotion is experienced, yet no basic facial expression is displayed. And there are times when a facial expression appears with no corresponding emotion*.\" (第E段)\n\n题目 15\n答案：B\nPDF 定位：说明面部表情如何影响他人的行动的例子\nPDF 解析：题干要\"影响他人行动的例子\"，本段给出靠近/ \"Expressions evolved to set off certain 远离/表达安慰等具体行为，完全对应。 behaviors in other people ... a smile may promptpeopletoapproach,a scowlmay warn them to stay away, and a look of sadness may elicit words of sympathy.\" (第B段)\n\n题目 16\n答案：F\nPDF 定位：提到隐藏情绪的原因\nPDF 解析：两类原因：①文化规范会阻止表达；②让他人知 \"cultural rules ... can prevent this otherwise automaticprocess frombeing completed. 道情绪可能\"不舒服/不方便\"。 .. at times, it may beuncomfortable or inconvenient for us to let others know our emotions.\"（第F段）\n\n题目 17\n答案：C\nPDF 定位：举出面部表情特别常见的时刻\nPDF 解析：expressions occur most often during pivotal 明确罗列\"问候/社会危机/安抚时刻\"等\"高频\" 时间点。 points ... during greetings, social crises, or timesofappeasement.\"（第C段）\n\n题目 18\n答案：A\nPDF 定位：举出情绪产生时体内变化的例子\nPDF 解析：\"when an emotion occurs...creating specific 题干问\"体内变化的例子\"，本段给出心率增减、 facialexpressions and other physiological 血压升高等生理例子。 changes, such as increased or decreased heart rate or heightened blood pressure.\" (第A段)"
+    },
+    {
+      "sectionTitle": "2. matching (Questions 19-23)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 19,
+          "text": "题目 19\n答案：E\nPDF 定位：只叮着\"脸\"研究情绪就像用一个小部件研究一 整台大机器\nPDF 解析：\"The face is a component [of emotion], Campos用\"汽车与变速箱\"的类比强调\"脸只是 but to make it the center of study... is like 部件\"，与题干的\"用小部件研究整体\"一致。 saying the only thing you need to study in a car is thetransmission.\"(第G段)",
+          "questionId": "q6"
+        },
+        {
+          "questionNumber": 20,
+          "text": "题目 20\n答案：B\nPDF 定位：面部表情是为了引发他人的特定反应而进化的\nPDF 解析：同15题定位：Expressionsevolvedtoset Fridlund的核心观点即\"社交工具、引发行为\"， 完全对应。 off certain behaviors in other people.... (第B段)",
+          "questionId": "q7"
+        },
+        {
+          "questionNumber": 21,
+          "text": "题目 21\n答案：E\nPDF 定位：尽管一些研究者在若干点上意见不同，但他们在 重要观点上是一致的\nPDF 解析：Campos点明\"分歧之中有重要共识\"，与题 Although Fridlund disagrees with Ekman 干吻合。 on certain matters, the two basically share the opinion ... there is profound agreement that the face ... forecasts what people will do next.\"(第G段）",
+          "questionId": "q8"
+        },
+        {
+          "questionNumber": 22,
+          "text": "题目 22\n答案：D\nPDF 定位：在某些情况下，情绪与表情可以彼此独立存在\nPDF 解析：'There is a link...but it's not a one-to- Camras直言\"有情无表/有表无情\"，即可相 互独立\"。 one .. there are many situations where emotion is experienced, yet no basic facial expression is displayed. And there are times when a facial expression appears with no corresponding emotion.\"\"（第E段）",
+          "questionId": "q9"
+        },
+        {
+          "questionNumber": 23,
+          "text": "题目 23\n答案：C\nPDF 定位：不能证明面部表情与真实情绪存在联系\nPDF 解析：\"there is very little evidence supporting Russell长期质疑\"表情-情绪\"强关联，认为证据 甚少，正合题干。 such a connection ... More likely ... facial expressions tell others something about overall mood and context, rather than details about specific emotions.\"(第D段)",
+          "questionId": "q10"
+        }
+      ],
+      "questionRange": {
+        "start": 19,
+        "end": 23
+      },
+      "text": "题目 19\n答案：E\nPDF 定位：只叮着\"脸\"研究情绪就像用一个小部件研究一 整台大机器\nPDF 解析：\"The face is a component [of emotion], Campos用\"汽车与变速箱\"的类比强调\"脸只是 but to make it the center of study... is like 部件\"，与题干的\"用小部件研究整体\"一致。 saying the only thing you need to study in a car is thetransmission.\"(第G段)\n\n题目 20\n答案：B\nPDF 定位：面部表情是为了引发他人的特定反应而进化的\nPDF 解析：同15题定位：Expressionsevolvedtoset Fridlund的核心观点即\"社交工具、引发行为\"， 完全对应。 off certain behaviors in other people.... (第B段)\n\n题目 21\n答案：E\nPDF 定位：尽管一些研究者在若干点上意见不同，但他们在 重要观点上是一致的\nPDF 解析：Campos点明\"分歧之中有重要共识\"，与题 Although Fridlund disagrees with Ekman 干吻合。 on certain matters, the two basically share the opinion ... there is profound agreement that the face ... forecasts what people will do next.\"(第G段）\n\n题目 22\n答案：D\nPDF 定位：在某些情况下，情绪与表情可以彼此独立存在\nPDF 解析：'There is a link...but it's not a one-to- Camras直言\"有情无表/有表无情\"，即可相 互独立\"。 one .. there are many situations where emotion is experienced, yet no basic facial expression is displayed. And there are times when a facial expression appears with no corresponding emotion.\"\"（第E段）\n\n题目 23\n答案：C\nPDF 定位：不能证明面部表情与真实情绪存在联系\nPDF 解析：\"there is very little evidence supporting Russell长期质疑\"表情-情绪\"强关联，认为证据 甚少，正合题干。 such a connection ... More likely ... facial expressions tell others something about overall mood and context, rather than details about specific emotions.\"(第D段)"
+    },
+    {
+      "sectionTitle": "3. summary completion (Questions 24-26)",
+      "mode": "group",
+      "items": [
+        {
+          "questionNumber": 24,
+          "text": "题目 24\n答案：smile\nPDF 定位：可能是邀 在Fridlund看来，某人脸上的 \"a smilemaypromptpeople to approach.\" 请他人靠近 (第B段）\nPDF 解析：\"靠近\"=approach；与\"smile\"一一对应。",
+          "questionId": "q11"
+        },
+        {
+          "questionNumber": 25,
+          "text": "题目 25\n答案：dialog\nPDF 定位：Fridlund认为，即使独处我们仍会用表情，因为 \"Even when people are alone they are holding a dialog with another person 我们在心里与某人进行一场 internally.\"（第B段）\nPDF 解析：原文用dialog（美式拼法），按题目\"ONE WORDONLY\"应从文中原词作答。",
+          "questionId": "q12"
+        },
+        {
+          "questionNumber": 26,
+          "text": "题目 26\n答案：tools\nPDF 定位：Fridlund把面部表情视为能影响我们与他人接触 \"Fridlund thinks of facial expressions as tools for influencing social interactions.\" (第C段)\nPDF 解析：关键词就是tools。",
+          "questionId": "q13"
+        }
+      ],
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：smile\nPDF 定位：可能是邀 在Fridlund看来，某人脸上的 \"a smilemaypromptpeople to approach.\" 请他人靠近 (第B段）\nPDF 解析：\"靠近\"=approach；与\"smile\"一一对应。\n\n题目 25\n答案：dialog\nPDF 定位：Fridlund认为，即使独处我们仍会用表情，因为 \"Even when people are alone they are holding a dialog with another person 我们在心里与某人进行一场 internally.\"（第B段）\nPDF 解析：原文用dialog（美式拼法），按题目\"ONE WORDONLY\"应从文中原词作答。\n\n题目 26\n答案：tools\nPDF 定位：Fridlund把面部表情视为能影响我们与他人接触 \"Fridlund thinks of facial expressions as tools for influencing social interactions.\" (第C段)\nPDF 解析：关键词就是tools。"
+    }
+  ]
+}
+  );
+})(typeof window !== "undefined" ? window : globalThis);

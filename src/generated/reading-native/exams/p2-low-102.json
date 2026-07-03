@@ -1840,7 +1840,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. table completion (Questions 14-18)",
+        "mode": "group",
+        "questionRange": {
+          "start": 14,
+          "end": 18
+        },
+        "text": "题目 14\n答案：D\nPDF 定位：提到涉及儿童研究的引用 \"In tests, even three-year-olds have been shown to link music in a major mode to happy faces and minor modes to sad faces. (Para D)\nPDF 解析：\"在测试中，基至三岁的孩子也被证明会把大调 题干间 \"reference to studies involving 音乐和开心的脸联系在一起，把小调音乐和悲伤 children(涉及儿童的研究)\"。只有D段明确提 到对\"三岁儿童\"的测试，因此14选D， 的脸联系在一起。\"\n\n题目 15\n答案：B\nPDF 定位：\"Given that archaeologists have 提到重要文物发现 found musical instruments played by Neanderthals at least 50,000 years ago...\" (Para B)\nPDF 解析：\"鉴于考古学家发现了至少五万年前尼安德特人 题干里的\"discovery of significant artefacts (重要文物的发现)\"对应考古学家发现的尼安德 演奏过的乐器. 特人乐器，这是典型的\"artefacts\"，所以选B，\n\n题目 16\n答案：C\nPDF 定位：说明为什么音乐的某个方面一直缺乏研究的原因 *For psychologist..there's an image problem in tackling the emotionality of music... Emotion is such a slippery topic.\" ... The other problem.. is the longstanding principle.. that our response to music is an acquired one...\" (Para C)\nPDF 解析：\"对心理学家来说.在处理音乐的情感性时存在 这一段列出了两个原因：①情绪主题\"不严肃\" 一个形象问题.情绪是个很难把握的话题。. \"滑溜\"；②传统观点认为对音乐的反应是习得 另一个问题是....长期以来的原则认为，我们对 的，所以不被当作生理层面的研究对象。这正是 音乐的反应是一种习得的东西.. 题干所说\"为什么某个方面一直没被研究\"的原 因，因此16选C。\n\n题目 17\n答案：G\nPDF 定位：提到一个涉及大脑两个不同区域的意外发现 *The results have been another revelation. Chen and her colleagues found the rhythms triggered activity in parts of the brain linked to hearing, but something even more surprising was that the rhythms also triggered activity in the motor regions of the brain..\" (Para G)\nPDF 解析：\"结果又是一项新的发现。陈和她的同事发现， 这里先说听觉区被激活，再说\"更令人吃惊的是\" 这些节奏激活了与听觉相关的大脑区域，但更令 运动区也被激活，正好是\"涉及大脑两个不同区 人吃惊的是，这些节奏还激活了与运动相关的大 域的意外发现\"，所以17选G。\n\n题目 18\n答案：E\nPDF 定位：*The same change in pitch works as an 对比某些动物和人类产生的音调变化 emotional telltale in communication between some mammals, . It's also present in our speech. 'A rising inflection.. whereas a falling inflection... (Para E)\nPDF 解析：\"同样的音高变化在某些哺乳动物的交流中起到 该句把哺乳动物的音高变化和人类说话中的升降 调放在一起比较，正是\"acomparisonof tone 情感信号的作用...在人类的说话中也存在。上 升的语调而下降的语调 variations produced by certain animals and humans，因此18选E。",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 14,
+            "text": "题目 14\n答案：D\nPDF 定位：提到涉及儿童研究的引用 \"In tests, even three-year-olds have been shown to link music in a major mode to happy faces and minor modes to sad faces. (Para D)\nPDF 解析：\"在测试中，基至三岁的孩子也被证明会把大调 题干间 \"reference to studies involving 音乐和开心的脸联系在一起，把小调音乐和悲伤 children(涉及儿童的研究)\"。只有D段明确提 到对\"三岁儿童\"的测试，因此14选D， 的脸联系在一起。\""
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 15,
+            "text": "题目 15\n答案：B\nPDF 定位：\"Given that archaeologists have 提到重要文物发现 found musical instruments played by Neanderthals at least 50,000 years ago...\" (Para B)\nPDF 解析：\"鉴于考古学家发现了至少五万年前尼安德特人 题干里的\"discovery of significant artefacts (重要文物的发现)\"对应考古学家发现的尼安德 演奏过的乐器. 特人乐器，这是典型的\"artefacts\"，所以选B，"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 16,
+            "text": "题目 16\n答案：C\nPDF 定位：说明为什么音乐的某个方面一直缺乏研究的原因 *For psychologist..there's an image problem in tackling the emotionality of music... Emotion is such a slippery topic.\" ... The other problem.. is the longstanding principle.. that our response to music is an acquired one...\" (Para C)\nPDF 解析：\"对心理学家来说.在处理音乐的情感性时存在 这一段列出了两个原因：①情绪主题\"不严肃\" 一个形象问题.情绪是个很难把握的话题。. \"滑溜\"；②传统观点认为对音乐的反应是习得 另一个问题是....长期以来的原则认为，我们对 的，所以不被当作生理层面的研究对象。这正是 音乐的反应是一种习得的东西.. 题干所说\"为什么某个方面一直没被研究\"的原 因，因此16选C。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 17,
+            "text": "题目 17\n答案：G\nPDF 定位：提到一个涉及大脑两个不同区域的意外发现 *The results have been another revelation. Chen and her colleagues found the rhythms triggered activity in parts of the brain linked to hearing, but something even more surprising was that the rhythms also triggered activity in the motor regions of the brain..\" (Para G)\nPDF 解析：\"结果又是一项新的发现。陈和她的同事发现， 这里先说听觉区被激活，再说\"更令人吃惊的是\" 这些节奏激活了与听觉相关的大脑区域，但更令 运动区也被激活，正好是\"涉及大脑两个不同区 人吃惊的是，这些节奏还激活了与运动相关的大 域的意外发现\"，所以17选G。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 18,
+            "text": "题目 18\n答案：E\nPDF 定位：*The same change in pitch works as an 对比某些动物和人类产生的音调变化 emotional telltale in communication between some mammals, . It's also present in our speech. 'A rising inflection.. whereas a falling inflection... (Para E)\nPDF 解析：\"同样的音高变化在某些哺乳动物的交流中起到 该句把哺乳动物的音高变化和人类说话中的升降 调放在一起比较，正是\"acomparisonof tone 情感信号的作用...在人类的说话中也存在。上 升的语调而下降的语调 variations produced by certain animals and humans，因此18选E。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2077,7 +2112,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. summary completion (Questions 19-22)",
+        "mode": "group",
+        "questionRange": {
+          "start": 19,
+          "end": 22
+        },
+        "text": "题目 19\n答案：physical health\nPDF 定位：他们表现出良好的19 状态 \"The criteria for selecting these volunteers were that they should be in first-rate physical health but musically untrained.\" (Para G)\nPDF 解析：空格前有\"agoodstateof..\"，需要一个健康 \"筛选这些志愿者的标准是：他们必须身体健康 一流，但没有受过音乐训练。\" 状态的名词短语。原文是\"first-rate physical health\", 符合\"good state of physical health\"。不超过两词，因此答案写physical health.\n\n题目 20\n答案：brain scans\nPDF 定位：参与者在播放节奏很明显的音乐时被给予20 ..Dr Chen and colleagues... carried out brain scans on volunteers who were listening to rhythmic sounds.\" (Para G)\nPDF 解析：\"陈博士和同事.在志愿者听有节奏的声音时为 这里描述合作研究的具体做法：在听节奏音乐 时对志愿者做\"brain scans\"，与摘要中\"were 他们做脑部扫描。\" given 20 .. while music..was being played 完全对应，所以20选brainscans，\n\n题目 21\n答案：disabled\nPDF 定位：先前研究表明，这种音乐似乎对某些21 \"Her interest was sparked by studies 人有馨助 invol/ving patients with movement difficulties... they were able to improve their walking ability...\" (Para G) ; *..may cast light on why disabled patients can benefit from listening to music..* (Para H)\nPDF 解析：摘要中的\"thistypeofmusic\"指前文所说 \"她的兴超源于-些涉及行动不便患者的研究 他们能够提高行走能力.；\"这项发现也许可 强节奏音乐。相关旧研究提到这种音乐帮助 以解释为什么强障患者听音乐会受益 的是 \"patients with movement difficulties / 因此只需填一个形容词disabled，构成 \"disabled people\", 与文中\"disabled patients\"意义相同，且用词来自原文。\n\n题目 22\n答案：walking\nPDF 定位：通过聆听这种音乐，他们的22， 能力确 f music that had a strong rhythm.. was 实提升了 played to these patients, they were able to improve their walking ability, says Chen.\" (Para G)\nPDF 解析：\"如果给这些病人播故节奏很强的音乐...他们就 摘要中提到\"their... ability had definitely 能提高自己的行走能力。\" got better\",， 与原文\"improve their walking ability\"直接对应，因此答案是walking。",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 19,
+            "text": "题目 19\n答案：physical health\nPDF 定位：他们表现出良好的19 状态 \"The criteria for selecting these volunteers were that they should be in first-rate physical health but musically untrained.\" (Para G)\nPDF 解析：空格前有\"agoodstateof..\"，需要一个健康 \"筛选这些志愿者的标准是：他们必须身体健康 一流，但没有受过音乐训练。\" 状态的名词短语。原文是\"first-rate physical health\", 符合\"good state of physical health\"。不超过两词，因此答案写physical health."
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 20,
+            "text": "题目 20\n答案：brain scans\nPDF 定位：参与者在播放节奏很明显的音乐时被给予20 ..Dr Chen and colleagues... carried out brain scans on volunteers who were listening to rhythmic sounds.\" (Para G)\nPDF 解析：\"陈博士和同事.在志愿者听有节奏的声音时为 这里描述合作研究的具体做法：在听节奏音乐 时对志愿者做\"brain scans\"，与摘要中\"were 他们做脑部扫描。\" given 20 .. while music..was being played 完全对应，所以20选brainscans，"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：disabled\nPDF 定位：先前研究表明，这种音乐似乎对某些21 \"Her interest was sparked by studies 人有馨助 invol/ving patients with movement difficulties... they were able to improve their walking ability...\" (Para G) ; *..may cast light on why disabled patients can benefit from listening to music..* (Para H)\nPDF 解析：摘要中的\"thistypeofmusic\"指前文所说 \"她的兴超源于-些涉及行动不便患者的研究 他们能够提高行走能力.；\"这项发现也许可 强节奏音乐。相关旧研究提到这种音乐帮助 以解释为什么强障患者听音乐会受益 的是 \"patients with movement difficulties / 因此只需填一个形容词disabled，构成 \"disabled people\", 与文中\"disabled patients\"意义相同，且用词来自原文。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：walking\nPDF 定位：通过聆听这种音乐，他们的22， 能力确 f music that had a strong rhythm.. was 实提升了 played to these patients, they were able to improve their walking ability, says Chen.\" (Para G)\nPDF 解析：\"如果给这些病人播故节奏很强的音乐...他们就 摘要中提到\"their... ability had definitely 能提高自己的行走能力。\" got better\",， 与原文\"improve their walking ability\"直接对应，因此答案是walking。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2528,7 +2593,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. matching (Questions 23-26)",
+        "mode": "group",
+        "questionRange": {
+          "start": 23,
+          "end": 26
+        },
+        "text": "题目 23\n答案：C\nPDF 定位：*She believes the discovery.. may cast light on why disabled patients can benefit from listening to music and could also prove useful with other impairments such as those involved in sound production. 'it's been shown that people who talk with a stutter might have problems in this auditory-motor loop. (Para H, Chen)\nPDF 解析：\"她认为，这一发现也许可以解释为什么残障患者 题干说\"帮助有言语缺陷的人\"，H段明确提到 听音乐会受益-并且对其他障碍（例如与发声有 \"stutter（口吃）\"这种言语障碍，并说这种发现 关的障碍）也可能有用。\"已经有研究表明，说话口 可能对这类障碍有用，是Chen的研究，因此 吃的人在这个听觉-运动环路上可能存在问题。\"\" 23选C，\n\n题目 24\n答案：B\nPDF 定位：*Zatorre and his colleagues are investigating whether some people have more musical brains than others. \"We can see certain subtle brain features that can tell us how well somebody can do things like identify a slight change in a melody,' explains Zatorre. \"This ability could be enhanced by training..** (Para I)\nPDF 解析：\"扎托尔和同事正在研究为什么有些人的大脑更 这里说可以通过训练增强\"识别旋律细微变化\" \"音乐化\"。\"我们能看到一些细微的大脑特征，它 的能力，即识别音乐特征的能力在未来可以 们可以告诉我们某人识别旋律中细微变化的能力 提高，对应题干\"maybe possible in time to 如何。扎托尔解释说，\"这种能力可以通过训练得 improve.. ability to recognise certain musical 到增强. characteristics，所以 24选 B。\n\n题目 25\n答案：A\nPDF 定位：*According to Cook, analysis of how people respond to notes suggests a link with how our brains interpret certain sounds in everyday life... The same change in pitch works as an emotional telltale in communication between some mammals...It's also present in our speech.* (Para E, Cook)\nPDF 解析：\"根据库克的说法，对人们如何对音符作出反应的 Cook把大调、小调（音高变化）与哺乳动物交流、 分析表明，这与我们大脑解读日常生活中某些声 以及人类说话中的升降调联系起来，说明我们对 音的方式有关..同样的音高变化在一些哺乳动物 这些音乐组合的反应跟对其他声音（动物叫声、说 的交流中作为情感信号发挥作用.在人类的语言 话声）的反应相似，因此25选A。 中也存在。\"\n\n题目 26\n答案：B\nPDF 定位：..pleasurable music activates brain circuitry which has been in existence in the human brain for thousands of years, says Zatorre \"We share it with rats and other distant relatives associated with biological rewards, like food..** (Para F, Zatorre)\nPDF 解析：\"扎托尔说，令人愉悦的音乐会激活大脑中的某些 这里说\"令人愉悦的音乐\"激活的大脑回路，与老 鼠获得食物等\"奖励\"时激活的回路是同一类，正 回路，这些回路在人体大脑中已经存在了数干年。 我们和老鼠以及进化树上其他远亲共享这些回路 是题干所说\"同样的部分在动物获得积极结果时被 -它们通常与食物等生物学奖励相关。 激活\"，因此26选B。",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 23,
+            "text": "题目 23\n答案：C\nPDF 定位：*She believes the discovery.. may cast light on why disabled patients can benefit from listening to music and could also prove useful with other impairments such as those involved in sound production. 'it's been shown that people who talk with a stutter might have problems in this auditory-motor loop. (Para H, Chen)\nPDF 解析：\"她认为，这一发现也许可以解释为什么残障患者 题干说\"帮助有言语缺陷的人\"，H段明确提到 听音乐会受益-并且对其他障碍（例如与发声有 \"stutter（口吃）\"这种言语障碍，并说这种发现 关的障碍）也可能有用。\"已经有研究表明，说话口 可能对这类障碍有用，是Chen的研究，因此 吃的人在这个听觉-运动环路上可能存在问题。\"\" 23选C，"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 24,
+            "text": "题目 24\n答案：B\nPDF 定位：*Zatorre and his colleagues are investigating whether some people have more musical brains than others. \"We can see certain subtle brain features that can tell us how well somebody can do things like identify a slight change in a melody,' explains Zatorre. \"This ability could be enhanced by training..** (Para I)\nPDF 解析：\"扎托尔和同事正在研究为什么有些人的大脑更 这里说可以通过训练增强\"识别旋律细微变化\" \"音乐化\"。\"我们能看到一些细微的大脑特征，它 的能力，即识别音乐特征的能力在未来可以 们可以告诉我们某人识别旋律中细微变化的能力 提高，对应题干\"maybe possible in time to 如何。扎托尔解释说，\"这种能力可以通过训练得 improve.. ability to recognise certain musical 到增强. characteristics，所以 24选 B。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 25,
+            "text": "题目 25\n答案：A\nPDF 定位：*According to Cook, analysis of how people respond to notes suggests a link with how our brains interpret certain sounds in everyday life... The same change in pitch works as an emotional telltale in communication between some mammals...It's also present in our speech.* (Para E, Cook)\nPDF 解析：\"根据库克的说法，对人们如何对音符作出反应的 Cook把大调、小调（音高变化）与哺乳动物交流、 分析表明，这与我们大脑解读日常生活中某些声 以及人类说话中的升降调联系起来，说明我们对 音的方式有关..同样的音高变化在一些哺乳动物 这些音乐组合的反应跟对其他声音（动物叫声、说 的交流中作为情感信号发挥作用.在人类的语言 话声）的反应相似，因此25选A。 中也存在。\""
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 26,
+            "text": "题目 26\n答案：B\nPDF 定位：..pleasurable music activates brain circuitry which has been in existence in the human brain for thousands of years, says Zatorre \"We share it with rats and other distant relatives associated with biological rewards, like food..** (Para F, Zatorre)\nPDF 解析：\"扎托尔说，令人愉悦的音乐会激活大脑中的某些 这里说\"令人愉悦的音乐\"激活的大脑回路，与老 鼠获得食物等\"奖励\"时激活的回路是同一类，正 回路，这些回路在人体大脑中已经存在了数干年。 我们和老鼠以及进化树上其他远亲共享这些回路 是题干所说\"同样的部分在动物获得积极结果时被 -它们通常与食物等生物学奖励相关。 激活\"，因此26选B。"
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

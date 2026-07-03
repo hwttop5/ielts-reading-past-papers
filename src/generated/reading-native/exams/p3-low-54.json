@@ -11,7 +11,7 @@
     "questionIntroHtml": "<h3>Questions</h3>",
     "originalTitle": "Movement Underwater 水下运动"
   },
-  "explanationKey": null,
+  "explanationKey": "p3-low-54",
   "passageBlocks": [
     {
       "blockId": "passage-main",
@@ -1723,7 +1723,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "1. table completion (Questions 27-31)",
+        "mode": "group",
+        "questionRange": {
+          "start": 27,
+          "end": 31
+        },
+        "text": "题目 27\n答案：D\nPDF 定位：一种避免被攻击的策略 D 段: \"At dawn, they sink back down in an effort to escape predatorsa double journey..\"\nPDF 解析：\"拂晓时，它们又沉回深处，以線避捕食者 题干的 strategy to avoid being attacked = 这是一段相当于人类日游700公里的双 通过\"夜晚上浮觅食，天亮下潜\"来规避捕食 程旅途。\" 者的攻击。其它段：A讲迁移/求偶等动因；B 讲水的物理特性；C讲缥；G/H讲推进与鱼 鳍。故选D.\n\n题目 28\n答案：C\nPDF 定位：鱼如何能够自然地保持漂浮 C 段: \"Most fishes have swim bladders.. maintain neutral buoyancy with minimal effort.\nPDF 解析：\"keep afloat naturally\" 对应 \"maintain \"大多数鱼拥有鱼螺，以极小代价维持中性 浮力。\" neutralbuoyancy\"。C段专述鱼如何调节气 体实现自然悬浮。\n\n题目 29\n答案：G\nPDF 定位：鱼推进自身向前的物理过程 G 段: \"..creating a traveling horizontal wave... producing a forward thrust.\nPDF 解析：\"（肌肉》形成水平行进波..产生向前的推力。\" 题干的physicalprocess即\"体侧肌肉按序收 缩放松→体轴成波→对水产生反作用力→前 进\"。其它段虽提到速度/形态，但唯G段详述 推进机制。\n\n题目 30\n答案：A\nPDF 定位：不同生物从一处移动到另一处的各种原因清单 A 段: \"..the basic requirements are the samefinding food, avoiding predation, seeking a mate... migrating to an area with more favorable conditions.\"\nPDF 解析：\"基本需求相同觅食、避敌、求偶/育幼、迁 直接列举\"为何而动\"的清单式原因，完美对 移至条件更佳的区域。\" 应题干。\n\n题目 31\n答案：B\nPDF 定位：B 段: *..much more resistance to 水这种介质如何既限制又帮助运动 movement... However, with density comes much greater buoyancy.. organisms seek to make...turbulence work to their advantage...\"\nPDF 解析：\"restricts\"=阻力/黏度；\"aids\"=浮力+借势 \"水对运动的阻力更大..然面更高的密度带来 更大的浮力....生物试图让波浪/洋流/满流为 波流。B段兼述两面性。 已所用。\"",
+        "items": [
+          {
+            "questionId": "q1",
+            "questionNumber": 27,
+            "text": "题目 27\n答案：D\nPDF 定位：一种避免被攻击的策略 D 段: \"At dawn, they sink back down in an effort to escape predatorsa double journey..\"\nPDF 解析：\"拂晓时，它们又沉回深处，以線避捕食者 题干的 strategy to avoid being attacked = 这是一段相当于人类日游700公里的双 通过\"夜晚上浮觅食，天亮下潜\"来规避捕食 程旅途。\" 者的攻击。其它段：A讲迁移/求偶等动因；B 讲水的物理特性；C讲缥；G/H讲推进与鱼 鳍。故选D."
+          },
+          {
+            "questionId": "q2",
+            "questionNumber": 28,
+            "text": "题目 28\n答案：C\nPDF 定位：鱼如何能够自然地保持漂浮 C 段: \"Most fishes have swim bladders.. maintain neutral buoyancy with minimal effort.\nPDF 解析：\"keep afloat naturally\" 对应 \"maintain \"大多数鱼拥有鱼螺，以极小代价维持中性 浮力。\" neutralbuoyancy\"。C段专述鱼如何调节气 体实现自然悬浮。"
+          },
+          {
+            "questionId": "q3",
+            "questionNumber": 29,
+            "text": "题目 29\n答案：G\nPDF 定位：鱼推进自身向前的物理过程 G 段: \"..creating a traveling horizontal wave... producing a forward thrust.\nPDF 解析：\"（肌肉》形成水平行进波..产生向前的推力。\" 题干的physicalprocess即\"体侧肌肉按序收 缩放松→体轴成波→对水产生反作用力→前 进\"。其它段虽提到速度/形态，但唯G段详述 推进机制。"
+          },
+          {
+            "questionId": "q4",
+            "questionNumber": 30,
+            "text": "题目 30\n答案：A\nPDF 定位：不同生物从一处移动到另一处的各种原因清单 A 段: \"..the basic requirements are the samefinding food, avoiding predation, seeking a mate... migrating to an area with more favorable conditions.\"\nPDF 解析：\"基本需求相同觅食、避敌、求偶/育幼、迁 直接列举\"为何而动\"的清单式原因，完美对 移至条件更佳的区域。\" 应题干。"
+          },
+          {
+            "questionId": "q5",
+            "questionNumber": 31,
+            "text": "题目 31\n答案：B\nPDF 定位：B 段: *..much more resistance to 水这种介质如何既限制又帮助运动 movement... However, with density comes much greater buoyancy.. organisms seek to make...turbulence work to their advantage...\"\nPDF 解析：\"restricts\"=阻力/黏度；\"aids\"=浮力+借势 \"水对运动的阻力更大..然面更高的密度带来 更大的浮力....生物试图让波浪/洋流/满流为 波流。B段兼述两面性。 已所用。\""
+          }
+        ]
+      }
     },
     {
       "groupId": "group-2",
@@ -2212,7 +2247,37 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. table completion (Questions 32-35)",
+        "mode": "group",
+        "questionRange": {
+          "start": 32,
+          "end": 35
+        },
+        "text": "题目 32\n答案：speed\nPDF 定位：F : *Tuna, swordfish, and mackerel all 具备在长距离上保持同一速度的能力(剑鱼） specialize in fast, steady cruising.*\nPDF 解析：\"金枪鱼、剑鱼、鱼都撞长快速而稳定的 行远距高遵航。故填speed。\n\n题目 33\n答案：acceleration\nPDF 定位：快速加速(楼鱼） F : \"the barracuda.. specializes in swift acceleration.\"\nPDF 解析：\"与原文\"swift acceleration* \"楼鱼专长于迅速加速，\" 题干*Rapid 同义替换。\n\n题目 34\n答案：freshwater pike / pike\nPDF 定位：伏击后突然攻击猎物(潜伏一段时间) F FR: \"The freshwater pike, which lurks. then lunges with great rapidity...*\nPDF 解析：\"演水购鱼先潜伏。待疆物进入攻击距离便迅 题干摧述与句中\"lurks→lunges\"的伏击突 盈突装。\" 装链条完全一致。允许写成pike（单词）或 freshwater pike (两调)。\n\n题目 35\n答案：butterfly fishes\nPDF 定位：F : \"The third specialization is 迅速改变方向 maneuverability, best demonstrated by the butterfly fishes... ermit abrupt changes of track.*\nPDF 解析：\"第三种专长是机动性，蝶鱼最能体现，可突然 *rapid changes of direction\" = \"abrupt changes of track。故填物种 butterly 改变航向。\" fishes,",
+        "items": [
+          {
+            "questionId": "q6",
+            "questionNumber": 32,
+            "text": "题目 32\n答案：speed\nPDF 定位：F : *Tuna, swordfish, and mackerel all 具备在长距离上保持同一速度的能力(剑鱼） specialize in fast, steady cruising.*\nPDF 解析：\"金枪鱼、剑鱼、鱼都撞长快速而稳定的 行远距高遵航。故填speed。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：acceleration\nPDF 定位：快速加速(楼鱼） F : \"the barracuda.. specializes in swift acceleration.\"\nPDF 解析：\"与原文\"swift acceleration* \"楼鱼专长于迅速加速，\" 题干*Rapid 同义替换。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：freshwater pike / pike\nPDF 定位：伏击后突然攻击猎物(潜伏一段时间) F FR: \"The freshwater pike, which lurks. then lunges with great rapidity...*\nPDF 解析：\"演水购鱼先潜伏。待疆物进入攻击距离便迅 题干摧述与句中\"lurks→lunges\"的伏击突 盈突装。\" 装链条完全一致。允许写成pike（单词）或 freshwater pike (两调)。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：butterfly fishes\nPDF 定位：F : \"The third specialization is 迅速改变方向 maneuverability, best demonstrated by the butterfly fishes... ermit abrupt changes of track.*\nPDF 解析：\"第三种专长是机动性，蝶鱼最能体现，可突然 *rapid changes of direction\" = \"abrupt changes of track。故填物种 butterly 改变航向。\" fishes,"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2546,7 +2611,42 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "3. diagram completion (Questions 36-40)",
+        "mode": "group",
+        "questionRange": {
+          "start": 36,
+          "end": 40
+        },
+        "text": "题目 36\n答案：turbulent\nPDF 定位：E段: \"To reduce the turbulent drag.-. a 流线型、后部收窄以减少一阻力 rounded front end and tapered back end are required.\"\nPDF 解析：\"要减少瑞流阻力，需要前端圆钝、后端渐缩。\" \"narrowing towards rear（后郎收窄）\"对应 \"tapered back end\"，故为 turbulent (洲 流）阻力。\n\n题目 37\n答案：up-and-down\nPDF 定位：H段: \"up-and-down motion is controlled 控制上下运动的鳍 by the pectoral and pelvic fins..*\nPDF 解析：\"上下运动由胸和腹鳍控制。\" 图中对应侧面的胸/腹鳍。写法按题干连字符 up-anddown,\n\n题目 38\n答案：sideways\nPDF 定位：控制横向/侧向运动的鳍 H 段: *The vertically oriented dorsal and ventral fins... control sideways motion.\"\nPDF 解析：\"背鳍与腹（臀）鳍控制侧向运动。\" 与37互补；图中指向背/腹（翌直取向）鳍。\n\n题目 39\n答案：maneuverability\nPDF 定位：H 段: \"the style and arrangement of the 对鱼类的机动性很重要的鳍 other fins are crucial for maneuverability.\"\nPDF 解析：直接原词。美式拼写maneuverability；若用英 \"其他鱼鳍的样式与组合对机动性至关重要。\" 式manoeuvrability，按原文以美式为准。\n\n题目 40\n答案：form\nPDF 定位：量小横截面积以减少一阻力 E 段: *To reduce form drag, the cross- sectional area of the body should be minimal.*\nPDF 解析：\"要减少形状阻力，身体的横截面积应尽可 \"cross-sectional body area minimal → 能小。\" reduce form drag\",",
+        "items": [
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：turbulent\nPDF 定位：E段: \"To reduce the turbulent drag.-. a 流线型、后部收窄以减少一阻力 rounded front end and tapered back end are required.\"\nPDF 解析：\"要减少瑞流阻力，需要前端圆钝、后端渐缩。\" \"narrowing towards rear（后郎收窄）\"对应 \"tapered back end\"，故为 turbulent (洲 流）阻力。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：up-and-down\nPDF 定位：H段: \"up-and-down motion is controlled 控制上下运动的鳍 by the pectoral and pelvic fins..*\nPDF 解析：\"上下运动由胸和腹鳍控制。\" 图中对应侧面的胸/腹鳍。写法按题干连字符 up-anddown,"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：sideways\nPDF 定位：控制横向/侧向运动的鳍 H 段: *The vertically oriented dorsal and ventral fins... control sideways motion.\"\nPDF 解析：\"背鳍与腹（臀）鳍控制侧向运动。\" 与37互补；图中指向背/腹（翌直取向）鳍。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：maneuverability\nPDF 定位：H 段: \"the style and arrangement of the 对鱼类的机动性很重要的鳍 other fins are crucial for maneuverability.\"\nPDF 解析：直接原词。美式拼写maneuverability；若用英 \"其他鱼鳍的样式与组合对机动性至关重要。\" 式manoeuvrability，按原文以美式为准。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：form\nPDF 定位：量小横截面积以减少一阻力 E 段: *To reduce form drag, the cross- sectional area of the body should be minimal.*\nPDF 解析：\"要减少形状阻力，身体的横截面积应尽可 \"cross-sectional body area minimal → 能小。\" reduce form drag\","
+          }
+        ]
+      }
     }
   ],
   "questionItems": [

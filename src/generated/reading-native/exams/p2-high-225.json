@@ -790,38 +790,38 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 段落信息匹配（Questions 14–18）",
+        "sectionTitle": "1. matching (Questions 14-18)",
         "mode": "group",
         "questionRange": {
           "start": 14,
           "end": 18
         },
-        "text": "题目翻译：一项可能有助于对涂鸦者采取有效法律行动的建议\n答案：B\n解析：定位 Paragraph B 中 “To aid in achieving a successful prosecution, they encourage owners of properties to take photographs of any new graffiti, as there could be other related incidents occurring locally”。警方鼓励业主拍摄新涂鸦的照片以帮助成功起诉，这与“对涂鸦者采取有效法律行动”对应，因此答案为 B。\n题目翻译：解释为什么所有涂鸦实例不能以相同方式清除\n答案：C\n解析：定位 Paragraph C 中 “as no two sites are the same, there is no one treatment which will be suitable for all situations; each site must be looked at individually”。由于没有两个地点相同，没有一种处理方法适用于所有情况，这解释了为什么不能以相同方式清除所有涂鸦，因此答案为 C。\n题目翻译：涂鸦可能对社区生活产生负面影响的论点\n答案：B\n解析：定位 Paragraph B 中 “graffiti can lead to more serious forms of vandalism and, ultimately, to the deterioration of a neighborhood area, and in this way contributes to a general social decline”。涂鸦可能导致更严重的破坏行为，最终导致社区环境恶化和整体社会衰退，与题干对应，因此答案为 B。\n题目翻译：承认某些应对涂鸦的策略可能导致涂鸦增加\n答案：E\n解析：定位 Paragraph E 中 “physical obstacles such as fences, railings, doors, or gates can be introduced to discourage unauthorized access, though in some cases, these obstacles simply provide a new surface for graffiti”。物理障碍物在某些情况下只是为涂鸦提供了新的表面，即可能导致涂鸦增加，因此答案为 E。\n题目翻译：人们在清除涂鸦时面临的一些风险\n答案：D\n解析：定位 Paragraph D 中 “care must be taken with regard to protecting both passers-by and the person carrying out the graffiti removal... Chemical preparations... can range from mild to potentially dangerous chemical 'cocktails'... Mechanical systems... must also wear protective clothing to avoid being hurt by hard airborne particles”。化学和机械清除方法都存在对路人和操作人员的风险，因此答案为 D。",
+        "text": "题目 14\n答案：B\nPDF 定位：\"To aid in achieving a successful 一项可能有助于对涂鸦者提起有效法律诉讼 的建议 prosecution, they encourage owners of properties to take photographs of any new grafft ..\nPDF 解析：\"为了帮助成功起诉，警方鼓励物业所有者给任 题干关键词是effective legal action against 何新的涂鸦拍照. graffitists，对应原文里的successful prosecution(成功起诉)。这是非常直接的同义 替换。并且原文说的\"拍照就是一种建议，所以 答案在B段。\n\n题目 15\n答案：C\nPDF 定位：解释为什么所有涂鸦情况不能用同一种方式清除 \"...as no two sites are the same, there is no one treatment which willbe suitable for all situations; each site must be looked at individually.*\nPDF 解析：\"由于没有两个地点是完全一样的，因此不存在 题干说的是 allinstances of graffti cannot 一种适用于所有情况的处理方法；每个地点都必 beremoved in the same way。C段明确解 须单独考察。\" 释原因：不同地点情况不同，所以不能一刀 切。这里的 no one treatment suitable for all situations就是题干的直接对应。\n\n题目 16\n答案：B\nPDF 定位：*..graffti can lead to more serious forms of 论证涂鸦会对社区生活产生负面影响 vandalism and, ultimately, to the deterioration of a neighborhood area, and in this way contributes to a general social decline.\"\nPDF 解析：题干中的 negative effect on community life \"涂鸦会导致更严重的破坏行为，并最终导致社 区区域恶化，从而促成整体社会衰退。\" 对应原文的 deterioration of a neighborhood area和 general social decline，这是在说它伤 害社区环境和社会生活，因此答案是B段。\n\n题目 17\n答案：E\nPDF 定位：..physical obstacles such as fences, 承认某些应对涂鸦的策略可能反而导致涂鸦增加 railings, doors, or gates can be introduced to discourage unauthorized access, though in some cases, these obstacles simply provide a new surface for graffti.*\nPDF 解析：\"可以设置围栏、栏杆、门或大门等实体障碍来 题干核心是 may lead to an increase in 阻止未经授权的进入，不过在某些情况下，这些 graffiti，E段最后一句承认：本来是防止涂鸦 障碍物反而只是提供了新的涂鸦表面。\" 的障碍物，结果可能成了新的涂鸦表面。这正是 \"某些策路反而适得其反\"。\n\n题目 18\n答案：D\nPDF 定位：清除涂鸦时人们会面临的一些风险 *..care must be taken with regard to protecting both passers-by and the person carrying out the graffti removal.; .. avoid the drifting of aerial mists.; *..avoid being hurt by hard airborne particles.\"\nPDF 解析：\"必须注意保护路人和实施清除的人。\"；\"要避免 题干是 risks people face when graffiti is 空气中雾状物飘散。\"；\"以免被坚硬的空气传播 being removed，D段专门讲清除时的安全问 题：化学法会有有害化学物、漂浮雾滴；机械法 颗粒伤到。\" 会有硬颗粒飞散伤人。所以答案是D段。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 14,
-            "text": "（1）题目 14：A suggestion that might assist in bringing an effective legal action against graffitists\n题目翻译：一项可能有助于对涂鸦者采取有效法律行动的建议\n答案：B\n解析：定位 Paragraph B 中 “To aid in achieving a successful prosecution, they encourage owners of properties to take photographs of any new graffiti, as there could be other related incidents occurring locally”。警方鼓励业主拍摄新涂鸦的照片以帮助成功起诉，这与“对涂鸦者采取有效法律行动”对应，因此答案为 B。"
+            "text": "题目 14\n答案：B\nPDF 定位：\"To aid in achieving a successful 一项可能有助于对涂鸦者提起有效法律诉讼 的建议 prosecution, they encourage owners of properties to take photographs of any new grafft ..\nPDF 解析：\"为了帮助成功起诉，警方鼓励物业所有者给任 题干关键词是effective legal action against 何新的涂鸦拍照. graffitists，对应原文里的successful prosecution(成功起诉)。这是非常直接的同义 替换。并且原文说的\"拍照就是一种建议，所以 答案在B段。"
           },
           {
             "questionId": "q2",
             "questionNumber": 15,
-            "text": "（2）题目 15：An explanation why all instances of graffiti cannot be removed in the same way\n题目翻译：解释为什么所有涂鸦实例不能以相同方式清除\n答案：C\n解析：定位 Paragraph C 中 “as no two sites are the same, there is no one treatment which will be suitable for all situations; each site must be looked at individually”。由于没有两个地点相同，没有一种处理方法适用于所有情况，这解释了为什么不能以相同方式清除所有涂鸦，因此答案为 C。"
+            "text": "题目 15\n答案：C\nPDF 定位：解释为什么所有涂鸦情况不能用同一种方式清除 \"...as no two sites are the same, there is no one treatment which willbe suitable for all situations; each site must be looked at individually.*\nPDF 解析：\"由于没有两个地点是完全一样的，因此不存在 题干说的是 allinstances of graffti cannot 一种适用于所有情况的处理方法；每个地点都必 beremoved in the same way。C段明确解 须单独考察。\" 释原因：不同地点情况不同，所以不能一刀 切。这里的 no one treatment suitable for all situations就是题干的直接对应。"
           },
           {
             "questionId": "q3",
             "questionNumber": 16,
-            "text": "（3）题目 16：An argument that graffiti can have a negative effect on community life\n题目翻译：涂鸦可能对社区生活产生负面影响的论点\n答案：B\n解析：定位 Paragraph B 中 “graffiti can lead to more serious forms of vandalism and, ultimately, to the deterioration of a neighborhood area, and in this way contributes to a general social decline”。涂鸦可能导致更严重的破坏行为，最终导致社区环境恶化和整体社会衰退，与题干对应，因此答案为 B。"
+            "text": "题目 16\n答案：B\nPDF 定位：*..graffti can lead to more serious forms of 论证涂鸦会对社区生活产生负面影响 vandalism and, ultimately, to the deterioration of a neighborhood area, and in this way contributes to a general social decline.\"\nPDF 解析：题干中的 negative effect on community life \"涂鸦会导致更严重的破坏行为，并最终导致社 区区域恶化，从而促成整体社会衰退。\" 对应原文的 deterioration of a neighborhood area和 general social decline，这是在说它伤 害社区环境和社会生活，因此答案是B段。"
           },
           {
             "questionId": "q4",
             "questionNumber": 17,
-            "text": "（4）题目 17：An admission that some strategies for tackling graffiti may lead to an increase in graffiti\n题目翻译：承认某些应对涂鸦的策略可能导致涂鸦增加\n答案：E\n解析：定位 Paragraph E 中 “physical obstacles such as fences, railings, doors, or gates can be introduced to discourage unauthorized access, though in some cases, these obstacles simply provide a new surface for graffiti”。物理障碍物在某些情况下只是为涂鸦提供了新的表面，即可能导致涂鸦增加，因此答案为 E。"
+            "text": "题目 17\n答案：E\nPDF 定位：..physical obstacles such as fences, 承认某些应对涂鸦的策略可能反而导致涂鸦增加 railings, doors, or gates can be introduced to discourage unauthorized access, though in some cases, these obstacles simply provide a new surface for graffti.*\nPDF 解析：\"可以设置围栏、栏杆、门或大门等实体障碍来 题干核心是 may lead to an increase in 阻止未经授权的进入，不过在某些情况下，这些 graffiti，E段最后一句承认：本来是防止涂鸦 障碍物反而只是提供了新的涂鸦表面。\" 的障碍物，结果可能成了新的涂鸦表面。这正是 \"某些策路反而适得其反\"。"
           },
           {
             "questionId": "q5",
             "questionNumber": 18,
-            "text": "（5）题目 18：Some risks people face when graffiti is being removed\n题目翻译：人们在清除涂鸦时面临的一些风险\n答案：D\n解析：定位 Paragraph D 中 “care must be taken with regard to protecting both passers-by and the person carrying out the graffiti removal... Chemical preparations... can range from mild to potentially dangerous chemical 'cocktails'... Mechanical systems... must also wear protective clothing to avoid being hurt by hard airborne particles”。化学和机械清除方法都存在对路人和操作人员的风险，因此答案为 D。"
+            "text": "题目 18\n答案：D\nPDF 定位：清除涂鸦时人们会面临的一些风险 *..care must be taken with regard to protecting both passers-by and the person carrying out the graffti removal.; .. avoid the drifting of aerial mists.; *..avoid being hurt by hard airborne particles.\"\nPDF 解析：\"必须注意保护路人和实施清除的人。\"；\"要避免 题干是 risks people face when graffiti is 空气中雾状物飘散。\"；\"以免被坚硬的空气传播 being removed，D段专门讲清除时的安全问 题：化学法会有有害化学物、漂浮雾滴；机械法 颗粒伤到。\" 会有硬颗粒飞散伤人。所以答案是D段。"
           }
         ]
       }
@@ -1182,23 +1182,23 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "2. 多项选择（Questions 19–20）",
+        "sectionTitle": "2. multi choice (Questions 19-20)",
         "mode": "group",
         "questionRange": {
           "start": 19,
           "end": 20
         },
-        "text": "题目翻译：文章提供了关于清除涂鸦的不同方法的详细信息。作者提出了哪两个观点？\n答案：B, D\n解析：选项 B 对应 Paragraph C 中 “These trials should be carried out on a small unobtrusive area if possible”，即应在不起眼的小面积上进行清洁试验；选项 D 对应 Paragraph D 中 “take measures to minimize any run-off of potentially harmful chemicals”，即某些清洁方法可能导致局部污染。选项 A 错误，因为文中未提及化学方法昂贵；选项 C 错误，因为文中未提及酒精基化学制剂；选项 E 错误，因为文中强调应从最温和的方法开始，而非使用最强方法。",
+        "text": "题目 19\n答案：B\nPDF 定位：文章给出了关于不同涂鸦清除方法的细节。以下 *These trials should be carried out on a small unobtrusive area if possible ...* 哪两点是作者提出的？\nPDF 解析：\"如果可能的话，这些试验应在一个不起眼的小 B项 An inconspicuous part of a surface 区域进行 should be used to test a cleaning method 与原文small unobtrusive area完全对应。 inconspicuous=unobtrusive，都是\"不显眼 的\"。所以B正确。\n\n题目 20\n答案：D\nPDF 定位：同上 *..take measures to minimize any run-off of potentially harmful chemicals, and avoid the drifting of aerial mists.\"\nPDF 解析：\"要采取措施将潜在有害化学物的流出降到最低， D项 Localised pollution can result from 并避免空气中雾状物飘散。\" some cleaningmethods对应的是化学清除法 可能造成化学物流出和雾状物飘散，本质上就是 局部污染/局部环境危害。所以D正确。",
         "items": [
           {
             "questionId": "q6",
             "questionNumber": 19,
-            "text": "（1）题目 19-20：The article gives details about different methods of removing graffiti. Which TWO points are made by the writer?\n题目翻译：文章提供了关于清除涂鸦的不同方法的详细信息。作者提出了哪两个观点？\n答案：B, D\n解析：选项 B 对应 Paragraph C 中 “These trials should be carried out on a small unobtrusive area if possible”，即应在不起眼的小面积上进行清洁试验；选项 D 对应 Paragraph D 中 “take measures to minimize any run-off of potentially harmful chemicals”，即某些清洁方法可能导致局部污染。选项 A 错误，因为文中未提及化学方法昂贵；选项 C 错误，因为文中未提及酒精基化学制剂；选项 E 错误，因为文中强调应从最温和的方法开始，而非使用最强方法。"
+            "text": "题目 19\n答案：B\nPDF 定位：文章给出了关于不同涂鸦清除方法的细节。以下 *These trials should be carried out on a small unobtrusive area if possible ...* 哪两点是作者提出的？\nPDF 解析：\"如果可能的话，这些试验应在一个不起眼的小 B项 An inconspicuous part of a surface 区域进行 should be used to test a cleaning method 与原文small unobtrusive area完全对应。 inconspicuous=unobtrusive，都是\"不显眼 的\"。所以B正确。"
           },
           {
             "questionId": "q7",
             "questionNumber": 20,
-            "text": "（2）题目 19-20：The article gives details about different methods of removing graffiti. Which TWO points are made by the writer?\n题目翻译：同上\n答案：B, D\n解析：同上。"
+            "text": "题目 20\n答案：D\nPDF 定位：同上 *..take measures to minimize any run-off of potentially harmful chemicals, and avoid the drifting of aerial mists.\"\nPDF 解析：\"要采取措施将潜在有害化学物的流出降到最低， D项 Localised pollution can result from 并避免空气中雾状物飘散。\" some cleaningmethods对应的是化学清除法 可能造成化学物流出和雾状物飘散，本质上就是 局部污染/局部环境危害。所以D正确。"
           }
         ]
       }
@@ -1559,23 +1559,23 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "3. 多项选择（Questions 21–22）",
+        "sectionTitle": "3. multi choice (Questions 21-22)",
         "mode": "group",
         "questionRange": {
           "start": 21,
           "end": 22
         },
-        "text": "题目翻译：作者描述了应对反复出现的涂鸦问题的方法。提到了哪两个想法？\n答案：D, E\n解析：选项 D 对应 Paragraph E 中 “a combination of floodlighting to illuminate dark areas and surveillance systems such as closed-circuit television”，即确保表面在白天和夜晚都可见并被监控；选项 E 对应 Paragraph F 中 “apply a removable anti-graffiti barrier-coating as a form of preventive measure... leaving a thin veneer that essentially serves to isolate the graffiti from the surface”，即添加涂鸦无法渗透的覆盖层。选项 A 错误，因为文中未提及广告活动；选项 B 错误，因为文中未提及创建新建筑材料；选项 C 错误，因为文中未提及雇佣保安和增加警力巡逻。",
+        "text": "题目 21\n答案：D\nPDF 定位：作者提到了邸些应对反复出现的涂鸦问题 Possible protection measures may include a combination of floodlighting to illuminate dark areas and surveillance systems such as closed-circuit television.*\nPDF 解析：D项 Ensuring surfaces are visible and \"可能的保护措施包括结合使用泛光照明来照亮 黑暗区域，以及闭路电视等监控系统。\" monitored both day and night 对应\"照亮黑 暗区域+监控系绕\"。虽然原文没逐字写day and night，但\"照亮黑暗区域明显针对夜 间，\"surveilance\"表示持续监控，因此这是 合理对应。\n\n题目 22\n答案：E\nPDF 定位：\"Another strategy is to apply a removable anti-graffiti barrier-coating .. leaving a thin veneer that essentially serves to isolate the graffiti from the surface.*\nPDF 解析：E项 Adding a covering layer that graffiti \"另一种策路是涂上一层可移除的防涂鸦隔离涂 层.留下一层薄薄的覆盖层，其本质作用是把 cannot penetrate 对应 barrier-coating。原 涂鸦与表面隔开。\" 文意思是：表面先加一层隔离高层，涂鸦附着在 这层上，而不是直接进入原表面。虽然题目说 \"cannot penetrate\"是概括表达，但和 isolate the graffiti from the surface 是呦合的。",
         "items": [
           {
             "questionId": "q8",
             "questionNumber": 21,
-            "text": "（1）题目 21-22：The writer describes ways of combating a recurring problem of graffiti. Which TWO of these ideas are mentioned?\n题目翻译：作者描述了应对反复出现的涂鸦问题的方法。提到了哪两个想法？\n答案：D, E\n解析：选项 D 对应 Paragraph E 中 “a combination of floodlighting to illuminate dark areas and surveillance systems such as closed-circuit television”，即确保表面在白天和夜晚都可见并被监控；选项 E 对应 Paragraph F 中 “apply a removable anti-graffiti barrier-coating as a form of preventive measure... leaving a thin veneer that essentially serves to isolate the graffiti from the surface”，即添加涂鸦无法渗透的覆盖层。选项 A 错误，因为文中未提及广告活动；选项 B 错误，因为文中未提及创建新建筑材料；选项 C 错误，因为文中未提及雇佣保安和增加警力巡逻。"
+            "text": "题目 21\n答案：D\nPDF 定位：作者提到了邸些应对反复出现的涂鸦问题 Possible protection measures may include a combination of floodlighting to illuminate dark areas and surveillance systems such as closed-circuit television.*\nPDF 解析：D项 Ensuring surfaces are visible and \"可能的保护措施包括结合使用泛光照明来照亮 黑暗区域，以及闭路电视等监控系统。\" monitored both day and night 对应\"照亮黑 暗区域+监控系绕\"。虽然原文没逐字写day and night，但\"照亮黑暗区域明显针对夜 间，\"surveilance\"表示持续监控，因此这是 合理对应。"
           },
           {
             "questionId": "q9",
             "questionNumber": 22,
-            "text": "（2）题目 21-22：The writer describes ways of combating a recurring problem of graffiti. Which TWO of these ideas are mentioned?\n题目翻译：同上\n答案：D, E\n解析：同上。"
+            "text": "题目 22\n答案：E\nPDF 定位：\"Another strategy is to apply a removable anti-graffiti barrier-coating .. leaving a thin veneer that essentially serves to isolate the graffiti from the surface.*\nPDF 解析：E项 Adding a covering layer that graffiti \"另一种策路是涂上一层可移除的防涂鸦隔离涂 层.留下一层薄薄的覆盖层，其本质作用是把 cannot penetrate 对应 barrier-coating。原 涂鸦与表面隔开。\" 文意思是：表面先加一层隔离高层，涂鸦附着在 这层上，而不是直接进入原表面。虽然题目说 \"cannot penetrate\"是概括表达，但和 isolate the graffiti from the surface 是呦合的。"
           }
         ]
       }
@@ -1896,33 +1896,33 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "4. 句子填空（Questions 23–26）",
+        "sectionTitle": "4. short answer (Questions 23-26)",
         "mode": "group",
         "questionRange": {
           "start": 23,
           "end": 26
         },
-        "text": "题目翻译：研究古代涂鸦是因为它记录了那个时期文化的 ______。\n答案：social history\n解析：定位 Paragraph A 中 “it has acquired invaluable historical and archaeological significance as it provides a social history of life and events at that time”。古代涂鸦提供了当时生活和事件的社会历史（social history），因此答案为 social history。\n题目翻译：涂鸦者的独特签名，被称为 ______，可以帮助警方找到并起诉他们。\n答案：tag\n解析：定位 Paragraph B 中 “An incidence pattern can help to identify possible culprits, as can their 'tag' - the distinctive mark graffitists leave to show the graffiti is their work”。涂鸦者留下的独特标记被称为“标签”（tag），可以帮助识别肇事者，因此答案为 tag。\n题目翻译：化学和机械涂鸦清除系统的操作人员都必须有 ______。\n答案：protective clothing\n解析：定位 Paragraph D 中 “When using chemicals, it is important to wear protective clothing... Operators of mechanical systems must also wear protective clothing”。两种系统的操作人员都必须穿防护服（protective clothing），因此答案为 protective clothing。\n题目翻译：经过屏障涂层处理的表面通常可以用 ______ 清洁。\n答案：water\n解析：定位 Paragraph F 中 “it will make its removal much easier and usually only involves using water”。屏障涂层使清除变得更容易，通常只需使用水（water），因此答案为 water。",
+        "text": "题目 23\n答案：social history\nPDF 定位：古代涂鸦之所以被研究，是因为它记录了那个时 ..t provides a social history of life and events at that time.\" 期文化的一个。\nPDF 解析：\"..因为它提供了当时生活和事件的社会史 题干中的records a- of the culture of that period 对应原文 provides a social history。 答案直接取原文social history。面且符合字数 要求，不超过两词。\n\n题目 24\n答案：tag\nPDF 定位：涂鸦者独特的签名，被称为 可以帮 *An incidence pattern can help to identify possible culprits, as can their \"tag'the 助警方找到并起诉他们。 distinctive mark graffitists leave to show the graffti is their work.*\nPDF 解析：题干说 The unique signature of graffitists, \"事件发生的模式可以帮助识别可能的肇事者， 原文明确解释这个独特标记叫tag。这是原 涂鸦者的\"标签\"也可以--那是他们雷下的独特 标记，用来表明该涂鸦是他们的作品。\" 词重现。\n\n题目 25\n答案：protective clothing\nPDF 定位：使用化学和机械两种涂鸦清除系统的操作人员都 *when using chemicals, it is important to 必须有。 mechanical systems must also wear protective clothing ..\nPDF 解析：\"使用化学品时，穿防护服很重要；\"机械系 题干中的 operators of both...systems 对 统的操作人员也必须穿防护服. 应D段两处共同要求：两类操作人员部要穿 protective clothing。答案不能写 clothing或 protection，最准确完整的是原文短语。\n\n题目 26\n答案：water\nPDF 定位：经过隔离涂层处理的表面通常可以用。 *..it will make its removal much easier and 来清洁。 usually only involves using water ..\nPDF 解析：..这会让其清除容易得多，而且通常只需 F段明确说barrier-coating后，清除通常只需 要用水。\" water。答案直接来自原文。",
         "items": [
           {
             "questionId": "q10",
             "questionNumber": 23,
-            "text": "（1）题目 23：Ancient graffiti is studied because it records a ______ of the culture of that period.\n题目翻译：研究古代涂鸦是因为它记录了那个时期文化的 ______。\n答案：social history\n解析：定位 Paragraph A 中 “it has acquired invaluable historical and archaeological significance as it provides a social history of life and events at that time”。古代涂鸦提供了当时生活和事件的社会历史（social history），因此答案为 social history。"
+            "text": "题目 23\n答案：social history\nPDF 定位：古代涂鸦之所以被研究，是因为它记录了那个时 ..t provides a social history of life and events at that time.\" 期文化的一个。\nPDF 解析：\"..因为它提供了当时生活和事件的社会史 题干中的records a- of the culture of that period 对应原文 provides a social history。 答案直接取原文social history。面且符合字数 要求，不超过两词。"
           },
           {
             "questionId": "q11",
             "questionNumber": 24,
-            "text": "（2）题目 24：The unique signature of graffitists, known as a ______, can assist police in finding and prosecuting them.\n题目翻译：涂鸦者的独特签名，被称为 ______，可以帮助警方找到并起诉他们。\n答案：tag\n解析：定位 Paragraph B 中 “An incidence pattern can help to identify possible culprits, as can their 'tag' - the distinctive mark graffitists leave to show the graffiti is their work”。涂鸦者留下的独特标记被称为“标签”（tag），可以帮助识别肇事者，因此答案为 tag。"
+            "text": "题目 24\n答案：tag\nPDF 定位：涂鸦者独特的签名，被称为 可以帮 *An incidence pattern can help to identify possible culprits, as can their \"tag'the 助警方找到并起诉他们。 distinctive mark graffitists leave to show the graffti is their work.*\nPDF 解析：题干说 The unique signature of graffitists, \"事件发生的模式可以帮助识别可能的肇事者， 原文明确解释这个独特标记叫tag。这是原 涂鸦者的\"标签\"也可以--那是他们雷下的独特 标记，用来表明该涂鸦是他们的作品。\" 词重现。"
           },
           {
             "questionId": "q12",
             "questionNumber": 25,
-            "text": "（3）题目 25：Operators of both chemical and mechanical graffiti removal systems must have ______.\n题目翻译：化学和机械涂鸦清除系统的操作人员都必须有 ______。\n答案：protective clothing\n解析：定位 Paragraph D 中 “When using chemicals, it is important to wear protective clothing... Operators of mechanical systems must also wear protective clothing”。两种系统的操作人员都必须穿防护服（protective clothing），因此答案为 protective clothing。"
+            "text": "题目 25\n答案：protective clothing\nPDF 定位：使用化学和机械两种涂鸦清除系统的操作人员都 *when using chemicals, it is important to 必须有。 mechanical systems must also wear protective clothing ..\nPDF 解析：\"使用化学品时，穿防护服很重要；\"机械系 题干中的 operators of both...systems 对 统的操作人员也必须穿防护服. 应D段两处共同要求：两类操作人员部要穿 protective clothing。答案不能写 clothing或 protection，最准确完整的是原文短语。"
           },
           {
             "questionId": "q13",
             "questionNumber": 26,
-            "text": "（4）题目 26：Surfaces treated with a barrier-coating can normally be cleaned with ______.\n题目翻译：经过屏障涂层处理的表面通常可以用 ______ 清洁。\n答案：water\n解析：定位 Paragraph F 中 “it will make its removal much easier and usually only involves using water”。屏障涂层使清除变得更容易，通常只需使用水（water），因此答案为 water。"
+            "text": "题目 26\n答案：water\nPDF 定位：经过隔离涂层处理的表面通常可以用。 *..it will make its removal much easier and 来清洁。 usually only involves using water ..\nPDF 解析：..这会让其清除容易得多，而且通常只需 F段明确说barrier-coating后，清除通常只需 要用水。\" water。答案直接来自原文。"
           }
         ]
       }

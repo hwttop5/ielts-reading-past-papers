@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "ReadingExplanationDocumentV1",
+  "examId": "p2-medium-93",
+  "meta": {
+    "examId": "p2-medium-93",
+    "title": "Antarctic research",
+    "category": "P2",
+    "sourceDoc": "182. P2 - Antarctic research 南极考察.pdf",
+    "noteType": "pdf_answer_explanation_ocr",
+    "matchedTitle": "Antarctic research 南极考察",
+    "ocrPages": [
+      5
+    ],
+    "pdfPageCount": 5,
+    "fallbackQuestionCount": 0
+  },
+  "passageNotes": [
+    {
+      "label": "Source",
+      "text": "Explanations were extracted from the answer-analysis table in the source PDF by OCR. Minor OCR mistakes may remain; the official answer key is used for the answer field."
+    }
+  ],
+  "questionSections": [
+    {
+      "sectionTitle": "1. table completion (Questions 14-17)",
+      "mode": "group",
+      "questionRange": {
+        "start": 14,
+        "end": 17
+      },
+      "text": "题目 14\n答案：D\nPDF 定位：科学家所用一些设备的细节 第D段开头：\"Byusing deep-sea trawl nets, high-definition cameras and water samplers..\nPDF 解析：\"通过使用深海拖网、高清摄像机和取水器，团 题干的details ofsomeequipment与本句逐 队揭示了极深处许多生物的怪异外观。\" 一列出设备完全对应。B段虽提到\"high-tech equipment\"，但未给出设备细节，故排除。\n\n题目 15\n答案：B\nPDF 定位：第B段:..Ross Sea is subject to katabatic 对南极艰难航行条件的描述 winds... Another danger i.. ship colliding with floating ice... you can't tell how thick the ice i... prefers sailing in summer when daylight is longest.*\nPDF 解析：航行风险被多角度描述（风、浪、冰、能见度、 \"罗斯海受下沉风影响，海况恶劣；还有与浮冰 季节)。C/D/E/F段不以\"航行条件\"为核心， 相撞的危险；在黑暗中你无法判断冰层厚度...因 故排除。 此他更喜欢在夏季航行，因为此时白虽更长。\"\n\n题目 16\n答案：A\nPDF 定位：关于科研团队构成的信息 第A段:\".bringing together zoologists, oceanographers, meteorologists and other scientists from ... various universities/ institutes...\"\nPDF 解析：\"（此次航行）集合了动物学家、海洋学家、气象 composition of the scientific group =\"来自 学家及来自多家机构与大学的科学家。\" 哪些学科与机构的人\"。其余段落未系统交代\"队 伍构成\"。\n\n题目 17\n答案：F\nPDF 定位：第F段开头：\"oneof thepreciousberths . 船上一个可能不受欢迎的人的身份 was taken up by cameraman Max Quinn... Quinn's inclusion wasn't welcomed at first.\"\nPDF 解析：\"摄像师MaxQuinn占据了一个宝贵舱位； 题干的potentially unpopular与\"wasn't 开始并不受欢迎。\" welcomedat first\"完全同义。A/B/C/D/E段无 \"争议人物\"信息。",
+      "items": [
+        {
+          "questionId": "q1",
+          "questionNumber": 14,
+          "text": "题目 14\n答案：D\nPDF 定位：科学家所用一些设备的细节 第D段开头：\"Byusing deep-sea trawl nets, high-definition cameras and water samplers..\nPDF 解析：\"通过使用深海拖网、高清摄像机和取水器，团 题干的details ofsomeequipment与本句逐 队揭示了极深处许多生物的怪异外观。\" 一列出设备完全对应。B段虽提到\"high-tech equipment\"，但未给出设备细节，故排除。"
+        },
+        {
+          "questionId": "q2",
+          "questionNumber": 15,
+          "text": "题目 15\n答案：B\nPDF 定位：第B段:..Ross Sea is subject to katabatic 对南极艰难航行条件的描述 winds... Another danger i.. ship colliding with floating ice... you can't tell how thick the ice i... prefers sailing in summer when daylight is longest.*\nPDF 解析：航行风险被多角度描述（风、浪、冰、能见度、 \"罗斯海受下沉风影响，海况恶劣；还有与浮冰 季节)。C/D/E/F段不以\"航行条件\"为核心， 相撞的危险；在黑暗中你无法判断冰层厚度...因 故排除。 此他更喜欢在夏季航行，因为此时白虽更长。\""
+        },
+        {
+          "questionId": "q3",
+          "questionNumber": 16,
+          "text": "题目 16\n答案：A\nPDF 定位：关于科研团队构成的信息 第A段:\".bringing together zoologists, oceanographers, meteorologists and other scientists from ... various universities/ institutes...\"\nPDF 解析：\"（此次航行）集合了动物学家、海洋学家、气象 composition of the scientific group =\"来自 学家及来自多家机构与大学的科学家。\" 哪些学科与机构的人\"。其余段落未系统交代\"队 伍构成\"。"
+        },
+        {
+          "questionId": "q4",
+          "questionNumber": 17,
+          "text": "题目 17\n答案：F\nPDF 定位：第F段开头：\"oneof thepreciousberths . 船上一个可能不受欢迎的人的身份 was taken up by cameraman Max Quinn... Quinn's inclusion wasn't welcomed at first.\"\nPDF 解析：\"摄像师MaxQuinn占据了一个宝贵舱位； 题干的potentially unpopular与\"wasn't 开始并不受欢迎。\" welcomedat first\"完全同义。A/B/C/D/E段无 \"争议人物\"信息。"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "2. summary completion (Questions 18-23)",
+      "mode": "group",
+      "questionRange": {
+        "start": 18,
+        "end": 23
+      },
+      "text": "题目 18\n答案：starfish\nPDF 定位：\"一种宽度很特别的发现\" 第C 段: \"most impressive of all were the starfish that measured more than half a metre across*\nPDF 解析：文中用\"across（直径/宽度)\"→对应题干 \"最令我们印象深刻的是海呈，直径超过半米。\" \"unusual width\"，写作starfish（单词），符合 ONE WORD.\n\n题目 19\n答案：predators\nPDF 定位：深海巨型化的原因之一：捕食者数量少 第C段: *possible causes.. extreme cold, few predators, high levels of oxygen*\nPDF 解析：\"可能原因：极端低温、捕食者少、海水含 题干\"small number of \"=\"few\"。与 氧高。\" oxygen、temperature并列。\n\n题目 20\n答案：icebergs\nPDF 定位：海底峡谷由经过的冰山造成 第C 段末：\"icebergs have scoured out deep scars and ravines in the sea floor as they go by\"\nPDF 解析：\"冰山经过时在海底刮出深槽与峡谷。\" they go by。\n\n题目 21\n答案：glass\nPDF 定位：海鞘看起来像由玻璃制成 第D段: \"tunicates... appear to be fashioned from glass*\nPDF 解析：直给同义。 \"海鞘看起来像由玻璃做成。\"\n\n题目 22\n答案：teeth\nPDF 定位：可怕外形的鱼：掉牙+只繁殖一次 第D段: \"daggertooth.. is'monocyclic' (die after first spawning). They are also unusual for shedding their teeth*\nPDF 解析：题干把两特征并列：lossofits \"短吻刀齿鱼\"单周期'（首次产卵后死亡)，且会 + spawns only once teeth. 脱落牙齿。\"\n\n题目 23\n答案：chin\nPDF 定位：另一种鱼：下巴有像绳子的附器用于捕食 第D段: *stareater... has an appendage like a piece of cord hanging from its chin... his glows red and attracts prey*\nPDF 解析：\"length of string\"\"piece of cord\"; \"assists \"\"食星鱼\"下巴垂着像细绳的附器，发红光以 with hunting\"\"attracts prey\", 引诱猎物。\"",
+      "items": [
+        {
+          "questionId": "q5",
+          "questionNumber": 18,
+          "text": "题目 18\n答案：starfish\nPDF 定位：\"一种宽度很特别的发现\" 第C 段: \"most impressive of all were the starfish that measured more than half a metre across*\nPDF 解析：文中用\"across（直径/宽度)\"→对应题干 \"最令我们印象深刻的是海呈，直径超过半米。\" \"unusual width\"，写作starfish（单词），符合 ONE WORD."
+        },
+        {
+          "questionId": "q6",
+          "questionNumber": 19,
+          "text": "题目 19\n答案：predators\nPDF 定位：深海巨型化的原因之一：捕食者数量少 第C段: *possible causes.. extreme cold, few predators, high levels of oxygen*\nPDF 解析：\"可能原因：极端低温、捕食者少、海水含 题干\"small number of \"=\"few\"。与 氧高。\" oxygen、temperature并列。"
+        },
+        {
+          "questionId": "q7",
+          "questionNumber": 20,
+          "text": "题目 20\n答案：icebergs\nPDF 定位：海底峡谷由经过的冰山造成 第C 段末：\"icebergs have scoured out deep scars and ravines in the sea floor as they go by\"\nPDF 解析：\"冰山经过时在海底刮出深槽与峡谷。\" they go by。"
+        },
+        {
+          "questionId": "q8",
+          "questionNumber": 21,
+          "text": "题目 21\n答案：glass\nPDF 定位：海鞘看起来像由玻璃制成 第D段: \"tunicates... appear to be fashioned from glass*\nPDF 解析：直给同义。 \"海鞘看起来像由玻璃做成。\""
+        },
+        {
+          "questionId": "q9",
+          "questionNumber": 22,
+          "text": "题目 22\n答案：teeth\nPDF 定位：可怕外形的鱼：掉牙+只繁殖一次 第D段: \"daggertooth.. is'monocyclic' (die after first spawning). They are also unusual for shedding their teeth*\nPDF 解析：题干把两特征并列：lossofits \"短吻刀齿鱼\"单周期'（首次产卵后死亡)，且会 + spawns only once teeth. 脱落牙齿。\""
+        },
+        {
+          "questionId": "q10",
+          "questionNumber": 23,
+          "text": "题目 23\n答案：chin\nPDF 定位：另一种鱼：下巴有像绳子的附器用于捕食 第D段: *stareater... has an appendage like a piece of cord hanging from its chin... his glows red and attracts prey*\nPDF 解析：\"length of string\"\"piece of cord\"; \"assists \"\"食星鱼\"下巴垂着像细绳的附器，发红光以 with hunting\"\"attracts prey\", 引诱猎物。\""
+        }
+      ]
+    },
+    {
+      "sectionTitle": "3. matching (Questions 24-26)",
+      "mode": "group",
+      "questionRange": {
+        "start": 24,
+        "end": 26
+      },
+      "text": "题目 24\n答案：F\nPDF 定位：第F段末： \"\"Science, says Livingston, \"is 科学工作的本质可能会让人惊诉 intrepid, more so than people realise... not necessarily.. laboratory, but also braving the elements on deck.\"\nPDF 解析：\"利文斯顿说：\"科学比人们以为的更勇敢，不仅 与选项F完全同义。A(食物单调)、D(厨房重 是实验室里的样品，还得在甲板上迎风冒雪。\" 要）出现在E段（FredSmits)，C（夏季最佳）出 现在B段（船长），均非Livingston。\n\n题目 25\n答案：G\nPDF 定位：第A段: Hanchet: \"We could have filled the 报名远多于名额 science positions four times over...we had so many people requesting a berth.*\nPDF 解析：对应G，其余选项与他无关。 \"\"科学岗位可以招满四遍，申请上船的人太 多了。**\n\n题目 26\n答案：B\nPDF 定位：尊重被摄对象的隐私效果最好 第F段: Quinn: \"The trick is to mostly film the scientists at work.. rather than eating their breakfast. He knows when not to intrude.\"\nPDF 解析：\"童因：决跨是主要拍工作场景，而不是吃早饭 这体现\"尊重隐私→最佳结果\"，即B，A/D属 E段的后勤；C属B段船长观点。 这类私密时刻；知道何时不该打扰。\"",
+      "items": [
+        {
+          "questionId": "q11",
+          "questionNumber": 24,
+          "text": "题目 24\n答案：F\nPDF 定位：第F段末： \"\"Science, says Livingston, \"is 科学工作的本质可能会让人惊诉 intrepid, more so than people realise... not necessarily.. laboratory, but also braving the elements on deck.\"\nPDF 解析：\"利文斯顿说：\"科学比人们以为的更勇敢，不仅 与选项F完全同义。A(食物单调)、D(厨房重 是实验室里的样品，还得在甲板上迎风冒雪。\" 要）出现在E段（FredSmits)，C（夏季最佳）出 现在B段（船长），均非Livingston。"
+        },
+        {
+          "questionId": "q12",
+          "questionNumber": 25,
+          "text": "题目 25\n答案：G\nPDF 定位：第A段: Hanchet: \"We could have filled the 报名远多于名额 science positions four times over...we had so many people requesting a berth.*\nPDF 解析：对应G，其余选项与他无关。 \"\"科学岗位可以招满四遍，申请上船的人太 多了。**"
+        },
+        {
+          "questionId": "q13",
+          "questionNumber": 26,
+          "text": "题目 26\n答案：B\nPDF 定位：尊重被摄对象的隐私效果最好 第F段: Quinn: \"The trick is to mostly film the scientists at work.. rather than eating their breakfast. He knows when not to intrude.\"\nPDF 解析：\"童因：决跨是主要拍工作场景，而不是吃早饭 这体现\"尊重隐私→最佳结果\"，即B，A/D属 E段的后勤；C属B段船长观点。 这类私密时刻；知道何时不该打扰。\""
+        }
+      ]
+    }
+  ],
+  "questionMap": {
+    "q1": {
+      "questionId": "q1",
+      "questionNumber": 14,
+      "text": "题目 14\n答案：D\nPDF 定位：科学家所用一些设备的细节 第D段开头：\"Byusing deep-sea trawl nets, high-definition cameras and water samplers..\nPDF 解析：\"通过使用深海拖网、高清摄像机和取水器，团 题干的details ofsomeequipment与本句逐 队揭示了极深处许多生物的怪异外观。\" 一列出设备完全对应。B段虽提到\"high-tech equipment\"，但未给出设备细节，故排除。"
+    },
+    "q2": {
+      "questionId": "q2",
+      "questionNumber": 15,
+      "text": "题目 15\n答案：B\nPDF 定位：第B段:..Ross Sea is subject to katabatic 对南极艰难航行条件的描述 winds... Another danger i.. ship colliding with floating ice... you can't tell how thick the ice i... prefers sailing in summer when daylight is longest.*\nPDF 解析：航行风险被多角度描述（风、浪、冰、能见度、 \"罗斯海受下沉风影响，海况恶劣；还有与浮冰 季节)。C/D/E/F段不以\"航行条件\"为核心， 相撞的危险；在黑暗中你无法判断冰层厚度...因 故排除。 此他更喜欢在夏季航行，因为此时白虽更长。\""
+    },
+    "q3": {
+      "questionId": "q3",
+      "questionNumber": 16,
+      "text": "题目 16\n答案：A\nPDF 定位：关于科研团队构成的信息 第A段:\".bringing together zoologists, oceanographers, meteorologists and other scientists from ... various universities/ institutes...\"\nPDF 解析：\"（此次航行）集合了动物学家、海洋学家、气象 composition of the scientific group =\"来自 学家及来自多家机构与大学的科学家。\" 哪些学科与机构的人\"。其余段落未系统交代\"队 伍构成\"。"
+    },
+    "q4": {
+      "questionId": "q4",
+      "questionNumber": 17,
+      "text": "题目 17\n答案：F\nPDF 定位：第F段开头：\"oneof thepreciousberths . 船上一个可能不受欢迎的人的身份 was taken up by cameraman Max Quinn... Quinn's inclusion wasn't welcomed at first.\"\nPDF 解析：\"摄像师MaxQuinn占据了一个宝贵舱位； 题干的potentially unpopular与\"wasn't 开始并不受欢迎。\" welcomedat first\"完全同义。A/B/C/D/E段无 \"争议人物\"信息。"
+    },
+    "q5": {
+      "questionId": "q5",
+      "questionNumber": 18,
+      "text": "题目 18\n答案：starfish\nPDF 定位：\"一种宽度很特别的发现\" 第C 段: \"most impressive of all were the starfish that measured more than half a metre across*\nPDF 解析：文中用\"across（直径/宽度)\"→对应题干 \"最令我们印象深刻的是海呈，直径超过半米。\" \"unusual width\"，写作starfish（单词），符合 ONE WORD."
+    },
+    "q6": {
+      "questionId": "q6",
+      "questionNumber": 19,
+      "text": "题目 19\n答案：predators\nPDF 定位：深海巨型化的原因之一：捕食者数量少 第C段: *possible causes.. extreme cold, few predators, high levels of oxygen*\nPDF 解析：\"可能原因：极端低温、捕食者少、海水含 题干\"small number of \"=\"few\"。与 氧高。\" oxygen、temperature并列。"
+    },
+    "q7": {
+      "questionId": "q7",
+      "questionNumber": 20,
+      "text": "题目 20\n答案：icebergs\nPDF 定位：海底峡谷由经过的冰山造成 第C 段末：\"icebergs have scoured out deep scars and ravines in the sea floor as they go by\"\nPDF 解析：\"冰山经过时在海底刮出深槽与峡谷。\" they go by。"
+    },
+    "q8": {
+      "questionId": "q8",
+      "questionNumber": 21,
+      "text": "题目 21\n答案：glass\nPDF 定位：海鞘看起来像由玻璃制成 第D段: \"tunicates... appear to be fashioned from glass*\nPDF 解析：直给同义。 \"海鞘看起来像由玻璃做成。\""
+    },
+    "q9": {
+      "questionId": "q9",
+      "questionNumber": 22,
+      "text": "题目 22\n答案：teeth\nPDF 定位：可怕外形的鱼：掉牙+只繁殖一次 第D段: \"daggertooth.. is'monocyclic' (die after first spawning). They are also unusual for shedding their teeth*\nPDF 解析：题干把两特征并列：lossofits \"短吻刀齿鱼\"单周期'（首次产卵后死亡)，且会 + spawns only once teeth. 脱落牙齿。\""
+    },
+    "q10": {
+      "questionId": "q10",
+      "questionNumber": 23,
+      "text": "题目 23\n答案：chin\nPDF 定位：另一种鱼：下巴有像绳子的附器用于捕食 第D段: *stareater... has an appendage like a piece of cord hanging from its chin... his glows red and attracts prey*\nPDF 解析：\"length of string\"\"piece of cord\"; \"assists \"\"食星鱼\"下巴垂着像细绳的附器，发红光以 with hunting\"\"attracts prey\", 引诱猎物。\""
+    },
+    "q11": {
+      "questionId": "q11",
+      "questionNumber": 24,
+      "text": "题目 24\n答案：F\nPDF 定位：第F段末： \"\"Science, says Livingston, \"is 科学工作的本质可能会让人惊诉 intrepid, more so than people realise... not necessarily.. laboratory, but also braving the elements on deck.\"\nPDF 解析：\"利文斯顿说：\"科学比人们以为的更勇敢，不仅 与选项F完全同义。A(食物单调)、D(厨房重 是实验室里的样品，还得在甲板上迎风冒雪。\" 要）出现在E段（FredSmits)，C（夏季最佳）出 现在B段（船长），均非Livingston。"
+    },
+    "q12": {
+      "questionId": "q12",
+      "questionNumber": 25,
+      "text": "题目 25\n答案：G\nPDF 定位：第A段: Hanchet: \"We could have filled the 报名远多于名额 science positions four times over...we had so many people requesting a berth.*\nPDF 解析：对应G，其余选项与他无关。 \"\"科学岗位可以招满四遍，申请上船的人太 多了。**"
+    },
+    "q13": {
+      "questionId": "q13",
+      "questionNumber": 26,
+      "text": "题目 26\n答案：B\nPDF 定位：尊重被摄对象的隐私效果最好 第F段: Quinn: \"The trick is to mostly film the scientists at work.. rather than eating their breakfast. He knows when not to intrude.\"\nPDF 解析：\"童因：决跨是主要拍工作场景，而不是吃早饭 这体现\"尊重隐私→最佳结果\"，即B，A/D属 E段的后勤；C属B段船长观点。 这类私密时刻；知道何时不该打扰。\""
+    }
+  }
+}

@@ -3965,43 +3965,83 @@
       ],
       "contentNodes": [],
       "explanationSection": {
-        "sectionTitle": "1. 段落匹配（Questions 27–32：Which paragraph contains the following information?）",
+        "sectionTitle": "1. short answer (Questions 27-40)",
         "mode": "group",
         "questionRange": {
           "start": 27,
-          "end": 32
+          "end": 40
         },
-        "text": "答案：D\n解析：定位 Paragraph D 中 “A Martian meteorite found on Earth raised fresh doubts about the above analysis. Meteorite ALH 84001 was discovered in December 1984 in Antarctica”，明确提到 “在地球南极发现火星陨石”，与题干对应，因此答案为 D。\n答案：H\n解析：定位 Paragraph H 中 “If samples on Mars were found to use DNA-as Earthly life does-it would be extremely unlikely that such a specialised, complex molecule could have evolved independently on two planets. This would indicate a common origin for Martian and Earth life”，明确讨论 “生命同源”，与题干对应，因此答案为 H。\n答案：A\n解析：定位 Paragraph A 中 “Lowell was convinced a great network of canals had been dug to irrigate crops... Drawings and globes he made show a network of canals and oases all over the planet”，“运河网络用于灌溉作物” 即 “农业设施”，与题干对应，因此答案为 A。\n答案：G\n解析：定位 Paragraph G 中 “Researchers from the Center for Astrobiology (Spain) and the Catholic University of the North in Chile have found an oasis of micro-organisms two metres below the surface of the Atacama Desert. SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil”，“在阿塔卡马沙漠用 SOLID 探测生命，该仪器可用于类似火星的环境”，与题干对应，因此答案为 G。\n答案：E\n解析：定位 Paragraph E 中 “According to scientists’ evaluation, Mars’s climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished”，“从温暖湿润变为寒冷干燥” 即 “剧烈气候转变”，与题干对应，因此答案为 E。\n答案：F\n解析：定位 Paragraph F 中 “NASA’s recent missions have focused on another question: whether Mars had lakes or oceans of liquid water on its surface in the ancient past... the 2004 Mars Exploration Rovers were designed not to look for present or past life, but for evidence of ancient liquid water”，明确提到 “寻找古代液态水的科学任务”，与题干对应，因此答案为 F。",
+        "text": "题目 27\n答案：D\nPDF 定位：\"A Martian meteorite found on Earth raised fresh doubts...\"\nPDF 解析：段D讲到在地球上发现来自火星的陨石并进行分析，属于\"在地球上 发现的火星证据\"。\n\n题目 28\n答案：H\nPDF 定位：\"...we would face a starting conclusion: we are all Martians.\"\nPDF 解析：段H提出若火星样品也含DNA，人类与火星生命可能同源。\n\n题目 29\n答案：A\nPDF 定位：\"He suggested that each canal had fertile vegetation on either side... Drawings and globes he made show a network of canals and oases all over the planet.\"\nPDF 解析：详细描绘火星上大规模\"运河一绿洲\"农业工程。\n\n题目 30\n答案：G\nPDF 定位：\"SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil.\"\nPDF 解析：介绍西班牙/智利团队在阿塔卡马沙漠用SOLID探测生命的项目。\n\n题目 31\n答案：E\nPDF 定位：\"Mars's climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished.\"\nPDF 解析：明确说明火星经历了剧烈气候转变。\n\n题目 32\n答案：F\nPDF 定位：\"NASA's recent missions focused on ... whether Mars had lakes or oceans of liquid water ... Opportunity discovered evidence that Mars was once a wet planet.\"\nPDF 解析：段F讨论寻找火星液态水的科学尝试。\n\n题目 33\n答案：C\nPDF 定位/解析：段A：Lowell坚信运河用于\"irrigatecrops\"，两侧有肥沃植被一即认为存在类似地球的水与农业痕迹。\n\n题目 34\n答案：B\nPDF 定位/解析：段B：19世纪末起，公众通过H.G.Wells的小说及后续文学作品改变了对火星的想象。选项B概括为\"通过文学作品吸收新观点\"。\n\n题目 35\n答案：B\nPDF 定位/解析：段C：Mariner4的照片显示火星\"acrateredandbarrenlandscape,morelike...theMoonthanEarth.\"→说明火星明显不 如地球充满活力。\n\n题目 36\n答案：A\nPDF 定位/解析：段G：Parro解释SOLID可应用于\"environmentssimilartoMartiansub-soil\"，暗示其可用于火星类环境下探测生命。\n\n题目 37\n答案：NOT GIVEN\nPDF 定位/解析：段B仅说火星人使用\"highlyadvancedtechnology\"，并未提到\"在每个领域全面超越人类\"。信息不足，故选NG。\n\n题目 38\n答案：FALSE\nPDF 定位/解析：段D：\"AMartianmeteorite...raisedfreshdoubtsabouttheaboveanalysis.\"这些\"分析\"即1975年Viking未发现生命的结 论→Viking证据被质疑过。\n\n题目 39\n答案：TRUE\nPDF 定位/解析：段D：NASA发现的magnetiteonlyfoundinassociationwithcertainmicro-organisms，正与细菌相关物质吻合。\n\n题目 40\n答案：NOT GIVEN\nPDF 定位/解析：段G：Parro仅说若火星存在类似微生物，可用SOLID探测，并未提及\"等到在地球发现DNA-型生命后再送往火星\"。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 27,
-            "text": "（1）题目 27：Martian evidence found on Earth（在地球上发现的火星证据）\n答案：D\n解析：定位 Paragraph D 中 “A Martian meteorite found on Earth raised fresh doubts about the above analysis. Meteorite ALH 84001 was discovered in December 1984 in Antarctica”，明确提到 “在地球南极发现火星陨石”，与题干对应，因此答案为 D。"
+            "text": "题目 27\n答案：D\nPDF 定位：\"A Martian meteorite found on Earth raised fresh doubts...\"\nPDF 解析：段D讲到在地球上发现来自火星的陨石并进行分析，属于\"在地球上 发现的火星证据\"。"
           },
           {
             "questionId": "q2",
             "questionNumber": 28,
-            "text": "（2）题目 28：Mars and Earth may share the same origin of life（火星与地球可能有相同的生命起源）\n答案：H\n解析：定位 Paragraph H 中 “If samples on Mars were found to use DNA-as Earthly life does-it would be extremely unlikely that such a specialised, complex molecule could have evolved independently on two planets. This would indicate a common origin for Martian and Earth life”，明确讨论 “生命同源”，与题干对应，因此答案为 H。"
+            "text": "题目 28\n答案：H\nPDF 定位：\"...we would face a starting conclusion: we are all Martians.\"\nPDF 解析：段H提出若火星样品也含DNA，人类与火星生命可能同源。"
           },
           {
             "questionId": "q3",
             "questionNumber": 29,
-            "text": "（3）题目 29：Detailed depiction of large-scale agricultural constructions（对大规模农业设施的详细描绘）\n答案：A\n解析：定位 Paragraph A 中 “Lowell was convinced a great network of canals had been dug to irrigate crops... Drawings and globes he made show a network of canals and oases all over the planet”，“运河网络用于灌溉作物” 即 “农业设施”，与题干对应，因此答案为 A。"
+            "text": "题目 29\n答案：A\nPDF 定位：\"He suggested that each canal had fertile vegetation on either side... Drawings and globes he made show a network of canals and oases all over the planet.\"\nPDF 解析：详细描绘火星上大规模\"运河一绿洲\"农业工程。"
           },
           {
             "questionId": "q4",
             "questionNumber": 30,
-            "text": "（4）题目 30：A project that aims to detect life under conditions similar to those on Mars（旨在在类似火星的条件下探测生命的项目）\n答案：G\n解析：定位 Paragraph G 中 “Researchers from the Center for Astrobiology (Spain) and the Catholic University of the North in Chile have found an oasis of micro-organisms two metres below the surface of the Atacama Desert. SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil”，“在阿塔卡马沙漠用 SOLID 探测生命，该仪器可用于类似火星的环境”，与题干对应，因此答案为 G。"
+            "text": "题目 30\n答案：G\nPDF 定位：\"SOLID, a life-detection instrument, could be used in environments similar to Martian sub-soil.\"\nPDF 解析：介绍西班牙/智利团队在阿塔卡马沙漠用SOLID探测生命的项目。"
           },
           {
             "questionId": "q5",
             "questionNumber": 31,
-            "text": "（5）题目 31：Mars has undergone drastic climatic transformation（火星经历了剧烈的气候转变）\n答案：E\n解析：定位 Paragraph E 中 “According to scientists’ evaluation, Mars’s climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished”，“从温暖湿润变为寒冷干燥” 即 “剧烈气候转变”，与题干对应，因此答案为 E。"
+            "text": "题目 31\n答案：E\nPDF 定位：\"Mars's climate gradually transitioned from warm and wet to cold and dry after the magnetic field vanished.\"\nPDF 解析：明确说明火星经历了剧烈气候转变。"
           },
           {
             "questionId": "q6",
             "questionNumber": 32,
-            "text": "（6）题目 32：Scientific attempts to locate liquid water on Mars（寻找火星液态水的科学尝试）\n答案：F\n解析：定位 Paragraph F 中 “NASA’s recent missions have focused on another question: whether Mars had lakes or oceans of liquid water on its surface in the ancient past... the 2004 Mars Exploration Rovers were designed not to look for present or past life, but for evidence of ancient liquid water”，明确提到 “寻找古代液态水的科学任务”，与题干对应，因此答案为 F。"
+            "text": "题目 32\n答案：F\nPDF 定位：\"NASA's recent missions focused on ... whether Mars had lakes or oceans of liquid water ... Opportunity discovered evidence that Mars was once a wet planet.\"\nPDF 解析：段F讨论寻找火星液态水的科学尝试。"
+          },
+          {
+            "questionId": "q7",
+            "questionNumber": 33,
+            "text": "题目 33\n答案：C\nPDF 定位/解析：段A：Lowell坚信运河用于\"irrigatecrops\"，两侧有肥沃植被一即认为存在类似地球的水与农业痕迹。"
+          },
+          {
+            "questionId": "q8",
+            "questionNumber": 34,
+            "text": "题目 34\n答案：B\nPDF 定位/解析：段B：19世纪末起，公众通过H.G.Wells的小说及后续文学作品改变了对火星的想象。选项B概括为\"通过文学作品吸收新观点\"。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 35,
+            "text": "题目 35\n答案：B\nPDF 定位/解析：段C：Mariner4的照片显示火星\"acrateredandbarrenlandscape,morelike...theMoonthanEarth.\"→说明火星明显不 如地球充满活力。"
+          },
+          {
+            "questionId": "q10",
+            "questionNumber": 36,
+            "text": "题目 36\n答案：A\nPDF 定位/解析：段G：Parro解释SOLID可应用于\"environmentssimilartoMartiansub-soil\"，暗示其可用于火星类环境下探测生命。"
+          },
+          {
+            "questionId": "q11",
+            "questionNumber": 37,
+            "text": "题目 37\n答案：NOT GIVEN\nPDF 定位/解析：段B仅说火星人使用\"highlyadvancedtechnology\"，并未提到\"在每个领域全面超越人类\"。信息不足，故选NG。"
+          },
+          {
+            "questionId": "q12",
+            "questionNumber": 38,
+            "text": "题目 38\n答案：FALSE\nPDF 定位/解析：段D：\"AMartianmeteorite...raisedfreshdoubtsabouttheaboveanalysis.\"这些\"分析\"即1975年Viking未发现生命的结 论→Viking证据被质疑过。"
+          },
+          {
+            "questionId": "q13",
+            "questionNumber": 39,
+            "text": "题目 39\n答案：TRUE\nPDF 定位/解析：段D：NASA发现的magnetiteonlyfoundinassociationwithcertainmicro-organisms，正与细菌相关物质吻合。"
+          },
+          {
+            "questionId": "q14",
+            "questionNumber": 40,
+            "text": "题目 40\n答案：NOT GIVEN\nPDF 定位/解析：段G：Parro仅说若火星存在类似微生物，可用SOLID探测，并未提及\"等到在地球发现DNA-型生命后再送往火星\"。"
           }
         ]
       }

@@ -2277,48 +2277,48 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "1. 段落匹配（Questions 14–20：Which paragraph contains the following information?）",
+        "sectionTitle": "1. table completion (Questions 14-20)",
         "mode": "group",
         "questionRange": {
           "start": 14,
           "end": 20
         },
-        "text": "答案：D\n解析：定位 Paragraph D 中 “As the Roman Empire declined, and shipping declined, the need for the seawater concrete declined... You could also argue that the original structures were built so well that... they didn’t need to be replaced”，明确给出 “帝国与航运衰落”“建筑耐用无需更换” 两个观点，与题干对应，因此答案为 D。\n答案：B\n解析：定位 Paragraph B 中 “Portland cement is a compound of calcium, silicates, and hydrates (C-S-H)... Roman cement contains aluminum... and less silicon than is found in Portland cement. The resulting calcium-aluminum-silicate-hydrate (C-A-S-H) is an exceptionally stable cement”，明确列出两者成分，与题干对应，因此答案为 B。\n答案：F\n解析：定位 Paragraph F 中 “There is not enough fly ash in this world to replace half of the Portland cement being used... Many countries don’t have fly ash, so the idea is to find alternative local materials”，论证 “粉煤灰资源有限，需寻找替代材料”，与题干对应，因此答案为 F。\n答案：A\n解析：定位 Paragraph A 中 “samples taken from a concrete Roman breakwater... This particular breakwater has spent the last 2,000 years submerged in seawater... collected from the underwater site in Pozzuoli Bay near Naples in Italy”，明确提到样本来自 “防波堤” 及具体信息，与题干对应，因此答案为 A。\n答案：E\n解析：定位 Paragraph E 中 “Producing Roman concrete also left a smaller carbon footprint... manufacturing Portland cement accounts for seven percent of the carbon dioxide... making Portland cement releases carbon dioxide... The production of Roman concrete, however, was much cleaner, as less heat was needed”，对比两者 “碳足迹、二氧化碳排放、所需热量”，与题干对应，因此答案为 E。\n答案：G\n解析：定位 Paragraph G 中 “In the middle 20th century, concrete structures were designed to last 50 years... Now we design buildings to last 100 to 120 years. Yet Roman harbor installations have survived 2,000 years of chemical attack from seawater”，对比两者 “设计寿命与实际存续时间”，与题干对应，因此答案为 G。\n答案：C\n解析：定位 Paragraph C 中 “they combined volcanic ash with lime... packed... into wooden molds, which were then immersed in seawater. The seawater instantly triggered a hot chemical reaction... The lime was hydrated by the seawater... and reacted with the volcanic ash to cement the whole mixture together”，详细描述 “浸入海水→反应→固结” 步骤，与题干对应，因此答案为 C。",
+        "text": "题目 14\n答案：D\nPDF 定位：\"As the Roman Empire declined, and shipping declined, the need for the seawater concrete declined... You could also argue that the original structures were built so well that..they didn't need to be replaced.\"\"（第D段）\nPDF 解析：题干：为何罗马人减少用于海水环境的混凝土产量。D段给出两种原因 性观点：①帝国与航运衰落→需求下降；②原有构筑物太耐久→无需替 换。符合\"an opinion on why...reducedtheamount\"。\n\n题目 15\n答案：B\nPDF 定位：\"Portland cement is a compound of calcium, silicates, and hydrates (C-S-H)... Roman cement contains aluminum... and less silicon... The resulting calcium-aluminum-silicate-hydrate (C-A-S-H)...\" (第B段)\nPDF 解析：题干：列出波特兰水泥与罗马水泥的成分。B段先给出Portland成分 (calcium/silicates/hydrates），再给出Roman的差异（含aluminum、 lesssilicon、形成C-A-S-H)。是对两者成分的并列说明/清单。\n\n题目 16\n答案：F\nPDF 定位：* There is not enough fly ash in this world to replace half of the Portland cement being used... Many countries don't have fly ash, so the idea is to find alternative local materials... including the kind ofvolcanic ashthatRomans used.\"（第F段)\nPDF 解析：题干：为一种有限资源寻找替代品的论证。F段指出粉煤灰（flyash) 量不足且分布不均，因此主张寻找替代材料（如火山灰)。这正是\"an argument for finding substitutes\"。\n\n题目 17\n答案：A\nPDF 定位：\"...samples taken froma concrete Romanbreakwater... This particular breakwater has spent the last 2,ooo years submerged in seawater... collected from the underwater site in Pozzuoli Bay nearNaples inItaly.\"（第A段）\nPDF 解析：题干：科学家取得罗马混凝土样本的结构信息。A段明确样本来自防波 堤（breakwater)，且说明其地点与长期浸没海水的状态。\n\n题目 18\n答案：E\nPDF 定位：\"Producing Roman concrete also left a smaller carbon footprint... manufacturing Portland cementaccounts for sevenpercent of the carbon dioxide... making Portland cement releases carbon dioxide... The production of Roman concrete, however, was much cleaner,as lessheatwasneeded.\"（第E段）\nPDF 解析：题干：比较现代与罗马混凝土环境影响。E段直接对比\"碳足迹/CO2占 比/所需热量\"，属于环境影响的对比。\n\n题目 19\n答案：G\nPDF 定位：\"In the middle 20th century, concrete structures were designed to last 50 years... Now we design buildings to last 100 to 120 years. Yet Roman harbor installations have survived 2,ooo years of chemicalattack...\"（第G段）\nPDF 解析：题干：比较耐久性。G段把现代设计寿命（50→100-120年）与罗马港口 构筑物存续2000年直接对照。\n\n题目 20\n答案：C\nPDF 定位：..woodenmolds,which were then immersed in seawater. The seawater instantly triggered a hot chemicalreaction. The lime was hydrated by the seawater..and reacted with the volcanic ashtocementthewholemixturetogether.\"（第c段)\nPDF 解析：题干：罗马人如何利用海水制混凝土。C段按步骤描写浸入海水→放热 反应→石灰水化→与火山灰反应→固结，符合\"detailsof how\"。",
         "items": [
           {
             "questionId": "q1",
             "questionNumber": 14,
-            "text": "（1）题目 14：an opinion on why the Romans reduced the amount of concrete they made for use in seawater（关于罗马人减少海水混凝土产量的观点）\n答案：D\n解析：定位 Paragraph D 中 “As the Roman Empire declined, and shipping declined, the need for the seawater concrete declined... You could also argue that the original structures were built so well that... they didn’t need to be replaced”，明确给出 “帝国与航运衰落”“建筑耐用无需更换” 两个观点，与题干对应，因此答案为 D。"
+            "text": "题目 14\n答案：D\nPDF 定位：\"As the Roman Empire declined, and shipping declined, the need for the seawater concrete declined... You could also argue that the original structures were built so well that..they didn't need to be replaced.\"\"（第D段）\nPDF 解析：题干：为何罗马人减少用于海水环境的混凝土产量。D段给出两种原因 性观点：①帝国与航运衰落→需求下降；②原有构筑物太耐久→无需替 换。符合\"an opinion on why...reducedtheamount\"。"
           },
           {
             "questionId": "q2",
             "questionNumber": 15,
-            "text": "（2）题目 15：a list of the contents of both Portland and Roman cement（波特兰水泥与罗马水泥的成分清单）\n答案：B\n解析：定位 Paragraph B 中 “Portland cement is a compound of calcium, silicates, and hydrates (C-S-H)... Roman cement contains aluminum... and less silicon than is found in Portland cement. The resulting calcium-aluminum-silicate-hydrate (C-A-S-H) is an exceptionally stable cement”，明确列出两者成分，与题干对应，因此答案为 B。"
+            "text": "题目 15\n答案：B\nPDF 定位：\"Portland cement is a compound of calcium, silicates, and hydrates (C-S-H)... Roman cement contains aluminum... and less silicon... The resulting calcium-aluminum-silicate-hydrate (C-A-S-H)...\" (第B段)\nPDF 解析：题干：列出波特兰水泥与罗马水泥的成分。B段先给出Portland成分 (calcium/silicates/hydrates），再给出Roman的差异（含aluminum、 lesssilicon、形成C-A-S-H)。是对两者成分的并列说明/清单。"
           },
           {
             "questionId": "q3",
             "questionNumber": 16,
-            "text": "（3）题目 16：an argument for finding substitutes for a limited resource that is used in making cement（为水泥生产中一种有限资源寻找替代品的论证）\n答案：F\n解析：定位 Paragraph F 中 “There is not enough fly ash in this world to replace half of the Portland cement being used... Many countries don’t have fly ash, so the idea is to find alternative local materials”，论证 “粉煤灰资源有限，需寻找替代材料”，与题干对应，因此答案为 F。"
+            "text": "题目 16\n答案：F\nPDF 定位：* There is not enough fly ash in this world to replace half of the Portland cement being used... Many countries don't have fly ash, so the idea is to find alternative local materials... including the kind ofvolcanic ashthatRomans used.\"（第F段)\nPDF 解析：题干：为一种有限资源寻找替代品的论证。F段指出粉煤灰（flyash) 量不足且分布不均，因此主张寻找替代材料（如火山灰)。这正是\"an argument for finding substitutes\"。"
           },
           {
             "questionId": "q4",
             "questionNumber": 17,
-            "text": "（4）题目 17：information about the structure from which the scientists took their Roman concrete samples（科学家获取罗马混凝土样本的结构信息）\n答案：A\n解析：定位 Paragraph A 中 “samples taken from a concrete Roman breakwater... This particular breakwater has spent the last 2,000 years submerged in seawater... collected from the underwater site in Pozzuoli Bay near Naples in Italy”，明确提到样本来自 “防波堤” 及具体信息，与题干对应，因此答案为 A。"
+            "text": "题目 17\n答案：A\nPDF 定位：\"...samples taken froma concrete Romanbreakwater... This particular breakwater has spent the last 2,ooo years submerged in seawater... collected from the underwater site in Pozzuoli Bay nearNaples inItaly.\"（第A段）\nPDF 解析：题干：科学家取得罗马混凝土样本的结构信息。A段明确样本来自防波 堤（breakwater)，且说明其地点与长期浸没海水的状态。"
           },
           {
             "questionId": "q5",
             "questionNumber": 18,
-            "text": "（5）题目 18：a comparison of the environmental impacts of making modern and Roman concrete（现代与罗马混凝土生产的环境影响对比）\n答案：E\n解析：定位 Paragraph E 中 “Producing Roman concrete also left a smaller carbon footprint... manufacturing Portland cement accounts for seven percent of the carbon dioxide... making Portland cement releases carbon dioxide... The production of Roman concrete, however, was much cleaner, as less heat was needed”，对比两者 “碳足迹、二氧化碳排放、所需热量”，与题干对应，因此答案为 E。"
+            "text": "题目 18\n答案：E\nPDF 定位：\"Producing Roman concrete also left a smaller carbon footprint... manufacturing Portland cementaccounts for sevenpercent of the carbon dioxide... making Portland cement releases carbon dioxide... The production of Roman concrete, however, was much cleaner,as lessheatwasneeded.\"（第E段）\nPDF 解析：题干：比较现代与罗马混凝土环境影响。E段直接对比\"碳足迹/CO2占 比/所需热量\"，属于环境影响的对比。"
           },
           {
             "questionId": "q6",
             "questionNumber": 19,
-            "text": "（6）题目 19：a comparison of the durability of Roman concrete with concrete produced today（罗马与现代混凝土的耐久性对比）\n答案：G\n解析：定位 Paragraph G 中 “In the middle 20th century, concrete structures were designed to last 50 years... Now we design buildings to last 100 to 120 years. Yet Roman harbor installations have survived 2,000 years of chemical attack from seawater”，对比两者 “设计寿命与实际存续时间”，与题干对应，因此答案为 G。"
+            "text": "题目 19\n答案：G\nPDF 定位：\"In the middle 20th century, concrete structures were designed to last 50 years... Now we design buildings to last 100 to 120 years. Yet Roman harbor installations have survived 2,ooo years of chemicalattack...\"（第G段）\nPDF 解析：题干：比较耐久性。G段把现代设计寿命（50→100-120年）与罗马港口 构筑物存续2000年直接对照。"
           },
           {
             "questionId": "q7",
             "questionNumber": 20,
-            "text": "（7）题目 20：details of how the Romans used seawater to make concrete（罗马人如何利用海水制作混凝土的细节）\n答案：C\n解析：定位 Paragraph C 中 “they combined volcanic ash with lime... packed... into wooden molds, which were then immersed in seawater. The seawater instantly triggered a hot chemical reaction... The lime was hydrated by the seawater... and reacted with the volcanic ash to cement the whole mixture together”，详细描述 “浸入海水→反应→固结” 步骤，与题干对应，因此答案为 C。"
+            "text": "题目 20\n答案：C\nPDF 定位：..woodenmolds,which were then immersed in seawater. The seawater instantly triggered a hot chemicalreaction. The lime was hydrated by the seawater..and reacted with the volcanic ashtocementthewholemixturetogether.\"（第c段)\nPDF 解析：题干：罗马人如何利用海水制混凝土。C段按步骤描写浸入海水→放热 反应→石灰水化→与火山灰反应→固结，符合\"detailsof how\"。"
           }
         ]
       }
@@ -2610,7 +2610,27 @@
           ]
         }
       ],
-      "explanationSection": null
+      "explanationSection": {
+        "sectionTitle": "2. multi choice (Questions 21-22)",
+        "mode": "group",
+        "questionRange": {
+          "start": 21,
+          "end": 22
+        },
+        "text": "题目 21\n答案：A\nPDF 定位：A项依据：...instead,flyashisused,whichcausesfewer greenhousegasemissions.\"（第F段）；C项依据：\"Somemodern concrete no longer contains Portland cement; instead, fly ash is used.\"（第F段）\nPDF 解析：A真：粉煤灰导致更少温室气体排放（=对环境破坏更小)。C真：当下 已有部分混凝土使用粉煤灰。B假：罗马人用的是火山灰，非粉煤灰 (第C段)。D假：第F段说\"Manycountriesdon'thaveflyash\"。E 未提/不成立：文中并无\"粉煤灰很快取代火山灰\"的论断；相反是在探 索以火山灰等替代粉煤灰/波特兰水泥。\n\n题目 22\n答案：C\nPDF 定位：A项依据：...instead,flyashisused,whichcausesfewer greenhousegasemissions.\"（第F段）；C项依据：\"Somemodern concrete no longer contains Portland cement; instead, fly ash is used.\"（第F段）\nPDF 解析：A真：粉煤灰导致更少温室气体排放（=对环境破坏更小)。C真：当下 已有部分混凝土使用粉煤灰。B假：罗马人用的是火山灰，非粉煤灰 (第C段)。D假：第F段说\"Manycountriesdon'thaveflyash\"。E 未提/不成立：文中并无\"粉煤灰很快取代火山灰\"的论断；相反是在探 索以火山灰等替代粉煤灰/波特兰水泥。",
+        "items": [
+          {
+            "questionId": "q8",
+            "questionNumber": 21,
+            "text": "题目 21\n答案：A\nPDF 定位：A项依据：...instead,flyashisused,whichcausesfewer greenhousegasemissions.\"（第F段）；C项依据：\"Somemodern concrete no longer contains Portland cement; instead, fly ash is used.\"（第F段）\nPDF 解析：A真：粉煤灰导致更少温室气体排放（=对环境破坏更小)。C真：当下 已有部分混凝土使用粉煤灰。B假：罗马人用的是火山灰，非粉煤灰 (第C段)。D假：第F段说\"Manycountriesdon'thaveflyash\"。E 未提/不成立：文中并无\"粉煤灰很快取代火山灰\"的论断；相反是在探 索以火山灰等替代粉煤灰/波特兰水泥。"
+          },
+          {
+            "questionId": "q9",
+            "questionNumber": 22,
+            "text": "题目 22\n答案：C\nPDF 定位：A项依据：...instead,flyashisused,whichcausesfewer greenhousegasemissions.\"（第F段）；C项依据：\"Somemodern concrete no longer contains Portland cement; instead, fly ash is used.\"（第F段）\nPDF 解析：A真：粉煤灰导致更少温室气体排放（=对环境破坏更小)。C真：当下 已有部分混凝土使用粉煤灰。B假：罗马人用的是火山灰，非粉煤灰 (第C段)。D假：第F段说\"Manycountriesdon'thaveflyash\"。E 未提/不成立：文中并无\"粉煤灰很快取代火山灰\"的论断；相反是在探 索以火山灰等替代粉煤灰/波特兰水泥。"
+          }
+        ]
+      }
     },
     {
       "groupId": "group-3",
@@ -2863,33 +2883,33 @@
         }
       ],
       "explanationSection": {
-        "sectionTitle": "3. 摘要填空（Questions 23–26：ONE WORD AND/OR A NUMBER）",
+        "sectionTitle": "3. summary completion (Questions 23-26)",
         "mode": "group",
         "questionRange": {
           "start": 23,
           "end": 26
         },
-        "text": "题目翻译：这是因为制作波特兰水泥需将黏土与_\\___\\___\\_混合，并加热至 1450℃。\n答案：limestone（石灰石）\n解析：定位 Paragraph E 中 “heating a mix of limestone and clays to 1,450 degrees Celsius”，明确提到混合材料为 “石灰石与黏土”，因此答案为 “limestone”。\n题目翻译：制作罗马混凝土时，所需温度降低了_\\___\\___\\_。\n答案：third（三分之一）\n解析：定位 Paragraph E 中 “A temperature that was a third lower than that required for making Portland cement was sufficient for making Roman concrete”，明确提到温度降低 “三分之一”，因此答案为 “third”。\n题目翻译：所需热量减少意味着需燃烧的_\\___\\___\\_更少，产生的二氧化碳也更少。\n答案：fuel（燃料）\n解析：定位 Paragraph E 中 “making Portland cement releases carbon dioxide into the atmosphere from burning fuel”，明确提到燃烧 “燃料” 产生二氧化碳，热量减少则燃料消耗减少，因此答案为 “fuel”。\n题目翻译：蒙泰罗指出，在_\\___\\___\\_排放的二氧化碳中，7% 来自波特兰水泥生产。\n答案：industry（工业）\n解析：定位 Paragraph E 中 “manufacturing Portland cement accounts for seven percent of the carbon dioxide that industry puts into the air”，明确提到 “工业排放的二氧化碳”，因此答案为 “industry”。",
+        "text": "题目 23\n答案：limestone\nPDF 定位：...toheatamixof limestoneandclays to1,450°C..\"（第E段）\nPDF 解析：题干\"combineclaysand_tomakePortland cement\"与原文 \"amixoflimestoneandclays\"同义对应；注意单词作不可数。\n\n题目 24\n答案：third\nPDF 定位：\"A temperature that was a third lower than that required for makingPortland cementwas sufficient...\"（第E段)\nPDF 解析：罗马混凝土所需温度比波特兰水泥低三分之一，对应\"reduced by a third\"\n\n题目 25\n答案：fuel\nPDF 定位：\"...releases carbon dioxide... from burning fuel in order to heat..\" (第E段)\nPDF 解析：低温意味着需要燃烧的**燃料（fuel)**更少，从而减少CO2。\n\n题目 26\n答案：industry\nPDF 定位：\"...manufacturing Portland cementaccounts for seven percent of the carbon dioxide that industry puts into the air.\"(第E段)\nPDF 解析：题干\"cOzemitted by\"与原文\"industryputs into theair\" 致，用单词industry。",
         "items": [
           {
             "questionId": "q10",
             "questionNumber": 23,
-            "text": "（1）题目 23：This is because a temperature of 1,450 degrees Celsius is needed to combine clays and \\___\\___\\__ to make Portland cement.\n题目翻译：这是因为制作波特兰水泥需将黏土与_\\___\\___\\_混合，并加热至 1450℃。\n答案：limestone（石灰石）\n解析：定位 Paragraph E 中 “heating a mix of limestone and clays to 1,450 degrees Celsius”，明确提到混合材料为 “石灰石与黏土”，因此答案为 “limestone”。"
+            "text": "题目 23\n答案：limestone\nPDF 定位：...toheatamixof limestoneandclays to1,450°C..\"（第E段）\nPDF 解析：题干\"combineclaysand_tomakePortland cement\"与原文 \"amixoflimestoneandclays\"同义对应；注意单词作不可数。"
           },
           {
             "questionId": "q11",
             "questionNumber": 24,
-            "text": "（2）题目 24：This level of heat was reduced by a \\___\\___\\__ when making Roman concrete.\n题目翻译：制作罗马混凝土时，所需温度降低了_\\___\\___\\_。\n答案：third（三分之一）\n解析：定位 Paragraph E 中 “A temperature that was a third lower than that required for making Portland cement was sufficient for making Roman concrete”，明确提到温度降低 “三分之一”，因此答案为 “third”。"
+            "text": "题目 24\n答案：third\nPDF 定位：\"A temperature that was a third lower than that required for makingPortland cementwas sufficient...\"（第E段)\nPDF 解析：罗马混凝土所需温度比波特兰水泥低三分之一，对应\"reduced by a third\""
           },
           {
             "questionId": "q12",
             "questionNumber": 25,
-            "text": "（3）题目 25：Needing less heat meant less \\___\\___\\__ had to be burned and less carbon dioxide was produced.\n题目翻译：所需热量减少意味着需燃烧的_\\___\\___\\_更少，产生的二氧化碳也更少。\n答案：fuel（燃料）\n解析：定位 Paragraph E 中 “making Portland cement releases carbon dioxide into the atmosphere from burning fuel”，明确提到燃烧 “燃料” 产生二氧化碳，热量减少则燃料消耗减少，因此答案为 “fuel”。"
+            "text": "题目 25\n答案：fuel\nPDF 定位：\"...releases carbon dioxide... from burning fuel in order to heat..\" (第E段)\nPDF 解析：低温意味着需要燃烧的**燃料（fuel)**更少，从而减少CO2。"
           },
           {
             "questionId": "q13",
             "questionNumber": 26,
-            "text": "（4）题目 26：According to Monteiro, when considering the amount of carbon dioxide emitted by \\___\\___\\__, seven percent of it comes from the manufacture of Portland cement.\n题目翻译：蒙泰罗指出，在_\\___\\___\\_排放的二氧化碳中，7% 来自波特兰水泥生产。\n答案：industry（工业）\n解析：定位 Paragraph E 中 “manufacturing Portland cement accounts for seven percent of the carbon dioxide that industry puts into the air”，明确提到 “工业排放的二氧化碳”，因此答案为 “industry”。"
+            "text": "题目 26\n答案：industry\nPDF 定位：\"...manufacturing Portland cementaccounts for seven percent of the carbon dioxide that industry puts into the air.\"(第E段)\nPDF 解析：题干\"cOzemitted by\"与原文\"industryputs into theair\" 致，用单词industry。"
           }
         ]
       }
