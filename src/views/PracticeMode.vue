@@ -1,6 +1,11 @@
 <template>
-  <div class="practice-mode-page">
-    <div class="page-header">
+  <component :is="isExamInterface && !embedded ? ExamChrome : 'div'" :class="{ 'embedded-passage': embedded }" :phase="clock.phase" :remaining-seconds="clock.remainingSeconds"
+    :ready="clockReady" :question-count="session.exam?.questionOrder.length || 0" :title="displayTitle" :answered-count="answeredCount"
+    @confirm-details="clock.goToInstructions" @start="clock.start" @pause="clock.pause" @resume="clock.resume"
+    @submit="submitPractice" @back="goBack">
+  <div class="practice-mode-page" :class="{ 'exam-mode': isExamInterface }" @focusin="handleExamFocus" @click="handleExamFocus">
+    <div v-if="isExamInterface" class="exam-part-strip"><h1>{{ embedded ? `Part ${partNumber}` : 'Reading passage' }}</h1><p>Read the text below and answer questions {{ examQuestionRange }}.</p></div>
+    <div v-if="!isExamInterface" class="page-header">
       <div class="header-left">
         <button class="icon-btn" type="button" @click="goBack">
           <span class="material-icons">arrow_back</span>
@@ -8,7 +13,8 @@
         <h1 class="page-title">{{ displayTitle }}</h1>
       </div>
 
-      <div v-if="question?.launchMode === 'unified'" class="header-actions">
+      <div v-if="!embedded && question?.launchMode === 'unified'" class="header-actions">
+        <button class="state-button" type="button" @click="openExam">单篇模考 · 20 分钟</button>
         <button class="icon-btn" type="button" :title="isFullscreen ? 'Exit fullscreen' : 'Fullscreen'" @click="toggleFullscreen">
           <span class="material-icons">{{ isFullscreen ? 'fullscreen_exit' : 'fullscreen' }}</span>
         </button>
@@ -60,6 +66,7 @@
               class="practice-pane passage-pane"
               @mouseup="handleSelection('passage')"
               @keyup="handleSelection('passage')"
+              @contextmenu="handleExamContextMenu($event, 'passage')"
               @scroll="handlePaneScroll('passage')"
             >
               <div class="pane-header">
@@ -72,7 +79,7 @@
               </div>
 
               <div class="pane-content passage-content">
-                <PracticeNodeRenderer
+                <PracticeNodeRenderer :exam-style="isExamInterface" :question-display-map="session.exam?.questionDisplayMap"
                   :nodes="passageNodesForDisplay"
                   scope="passage"
                   :draft-state="session.draftState"
@@ -108,6 +115,7 @@
               class="practice-pane question-pane"
               @mouseup="handleSelection('questions')"
               @keyup="handleSelection('questions')"
+              @contextmenu="handleExamContextMenu($event, 'questions')"
               @scroll="handlePaneScroll('questions')"
             >
               <div class="pane-header">
@@ -161,10 +169,10 @@
                   v-for="(group, groupIndex) in session.exam?.questionGroups"
                   :key="group.groupId"
                   class="question-group-card"
-                  :id="`group-${group.groupId}`"
+                  :id="`${domPrefix}group-${group.groupId}`"
                   :data-question-ids="group.questionIds?.join(' ') || ''"
                 >
-                  <PracticeNodeRenderer
+                  <PracticeNodeRenderer :exam-style="isExamInterface" :question-display-map="session.exam?.questionDisplayMap"
                     v-if="group.leadNodes.length"
                     :nodes="group.leadNodes"
                     scope="questions"
@@ -185,7 +193,7 @@
                     @open:note="openExistingNoteModal"
                     @open:highlight="openExistingHighlightToolbar"
                   />
-                  <PracticeNodeRenderer
+                  <PracticeNodeRenderer :exam-style="isExamInterface" :question-display-map="session.exam?.questionDisplayMap"
                     :nodes="group.contentNodes"
                     scope="questions"
                     :draft-state="session.draftState"
@@ -210,7 +218,7 @@
                 <section v-if="session.submitted && reviewEntries.length" class="review-section">
                   <header class="review-header">
                     <h3>Result Review</h3>
-                    <p>Each card below uses the latest native Vue scoring result.</p>
+                    <p>Compare your answers with the correct answers and explanations.</p>
                   </header>
 
                   <article
@@ -263,20 +271,23 @@
             </aside>
           </div>
 
-          <div class="nav-shell">
-            <h3 class="nav-title">Question</h3>
+          <div v-if="!embedded" class="nav-shell">
+            <label v-if="isExamInterface" class="exam-review-toggle"><input type="checkbox" :checked="session.markedQuestions.includes(activeQuestionId)" :disabled="session.submitted" @change="session.toggleMarkedQuestion(activeQuestionId)" /> Review</label>
+            <h3 class="nav-title">{{ isExamInterface ? 'Passage:' : 'Question' }}</h3>
             <div class="nav-grid">
-              <div
+              <button type="button"
                 v-for="item in session.exam?.questionItems"
                 :key="item.questionId"
                 class="nav-item"
-                :class="navItemClass(item.questionId)"
+                :class="[navItemClass(item.questionId), { current: questionLabel(item.questionId) === activeQuestionNumber }]"
+                :aria-label="`Question ${item.displayNumber}`" :aria-current="questionLabel(item.questionId) === activeQuestionNumber ? 'step' : undefined"
                 @click="scrollToQuestion(item.questionId, item.anchorId)"
               >
                 <span class="nav-jump">{{ item.displayNumber }}</span>
-              </div>
+              </button>
             </div>
-            <div v-if="!session.reviewMode" class="bottom-actions">
+            <div v-if="isExamInterface" class="exam-arrows"><button aria-label="Previous question" @click="moveExamQuestion(-1)">←</button><button aria-label="Next question" @click="moveExamQuestion(1)">→</button></div>
+            <div v-if="!session.reviewMode && !isExamInterface" class="bottom-actions">
               <button class="footer-btn" type="button" @click="session.reset()">Reset</button>
               <button class="footer-btn primary" type="button" @click="submitPractice">Submit</button>
             </div>
@@ -293,12 +304,13 @@
             </button>
             <button v-if="selectionAlreadyHighlighted" class="selection-btn quiet" type="button" @click="removeSelectionHighlight">
               <span class="material-icons">delete</span>
-              Remove
+              {{ isExamInterface ? 'Clear' : 'Remove' }}
             </button>
             <button class="selection-btn" type="button" @click="openNoteModal">
               <span class="material-icons">edit_note</span>
-              Note
+              Notes
             </button>
+            <button v-if="isExamInterface" class="selection-btn" type="button" @click="clearSelections">Clear all</button>
           </div>
 
           <div
@@ -320,7 +332,7 @@
     </div>
 
     <PracticeAssistant
-      v-if="question?.launchMode === 'unified'"
+      v-if="!embedded && question?.launchMode === 'unified' && (!isExamInterface || session.submitted)"
       :question-id="question.id"
       :question-title="displayTitle"
       :question-title-localized="''"
@@ -330,13 +342,16 @@
       :lang="displayLang"
     />
   </div>
+  </component>
 </template>
 
 <script setup lang="ts">
-import { computed, inject, nextTick, onErrorCaptured, onMounted, onUnmounted, proxyRefs, ref, watch, type Ref } from 'vue'
+import { computed, inject, nextTick, onErrorCaptured, onMounted, onUnmounted, proxyRefs, provide, ref, watch, type Ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { message } from 'ant-design-vue'
 import { useI18n } from '@/i18n'
+import ExamChrome from '@/components/native-practice/ExamChrome.vue'
+import { useExamClock } from '@/composables/useExamClock'
 import PracticeAssistant from '@/components/PracticeAssistant.vue'
 import PracticeNodeRenderer from '@/components/native-practice/PracticeNodeRenderer.vue'
 import { useReadingPracticeSession } from '@/composables/useReadingPracticeSession'
@@ -346,7 +361,8 @@ import { useQuestionStore } from '@/store/questionStore'
 import { ACHIEVEMENT_UNLOCKED, eventBus, PRACTICE_UPDATED } from '@/utils/eventBus'
 import { createSelectionHighlightRecord, findMatchingHighlightRecord } from '@/utils/practiceHighlights'
 import { getPracticeHistoryReturnQuery } from '@/utils/practiceReview'
-import { formatAnswerDisplay } from '@/utils/readingPractice'
+import { formatAnswerDisplay, hydrateDraftState } from '@/utils/readingPractice'
+import type { SuitePassageHandle, SuitePassageSnapshot, SuitePassageState } from '@/types/examPassage'
 import type { AttemptContext, RecentPracticeItem } from '@/types/assistant'
 import type { HighlightScope, PracticeFontScale, PracticeHighlightRecord, PracticeRouteMode, ReadingAstNode } from '@/types/readingNative'
 
@@ -420,6 +436,10 @@ interface NoteModalState {
   record: PracticeHighlightRecord | null
 }
 
+const props = withDefaults(defineProps<{ embedded?: boolean; embeddedExamId?: string; embeddedAttemptId?: string; partNumber?: number; active?: boolean }>(), { embedded: false, partNumber: 1, active: true })
+const emit = defineEmits<{ (event: 'suite-state', state: SuitePassageState): void }>()
+const domPrefix = computed(() => props.embedded ? `suite-part-${props.partNumber}-` : '')
+provide('practice-dom-prefix', domPrefix)
 const route = useRoute()
 const router = useRouter()
 const { t } = useI18n()
@@ -432,15 +452,22 @@ questionStore.loadQuestions()
 practiceStore.load()
 achievementStore.load()
 
-const questionId = computed(() => (typeof route.query.id === 'string' ? route.query.id : ''))
+const questionId = computed(() => props.embedded ? props.embeddedExamId || '' : (typeof route.query.id === 'string' ? route.query.id : ''))
+const isExamInterface = computed(() => props.embedded || route.path === '/exam')
+const fallbackAttemptId = crypto.randomUUID()
 const routeMode = computed<PracticeRouteMode>(() => {
+  if (isExamInterface.value) return 'simulation'
   const raw = typeof route.query.mode === 'string' ? route.query.mode : 'single'
   return raw === 'review' || raw === 'simulation' ? raw : 'single'
 })
 const recordId = computed(() => (typeof route.query.recordId === 'string' ? route.query.recordId : ''))
-const suiteSessionId = computed(() => (typeof route.query.suiteSessionId === 'string' ? route.query.suiteSessionId : ''))
+const suiteSessionId = computed(() => props.embedded ? props.embeddedAttemptId || '' : (typeof route.query.suiteSessionId === 'string' ? route.query.suiteSessionId : isExamInterface.value ? fallbackAttemptId : ''))
+if (!props.embedded && isExamInterface.value && !route.query.suiteSessionId) {
+  void router.replace({ path: '/exam', query: { ...route.query, suiteSessionId: fallbackAttemptId } })
+}
 
 const sessionState = useReadingPracticeSession({
+  examInterface: isExamInterface,
   examId: questionId,
   mode: routeMode,
   recordId,
@@ -495,9 +522,50 @@ const noteModal = ref<NoteModalState>({
 })
 
 // 拖拽调整宽度相关
-const leftPaneWidth = ref(50)
+const leftPaneWidth = ref(isExamInterface.value ? 60 : 50)
 const isResizing = ref(false)
 const resizerLayoutRef = ref<HTMLElement | null>(null)
+
+const clockReady = computed(() => !props.embedded && isExamInterface.value && !!sessionState.exam.value && !sessionState.isLoading.value)
+const clock = proxyRefs(useExamClock({
+  key: computed(() => !props.embedded && isExamInterface.value ? `ielts_exam_clock::${questionId.value}::${suiteSessionId.value}` : ''),
+  enabled: clockReady,
+  onExpire: () => submitPractice()
+}))
+const examQuestionRange = computed(() => {
+  const items = sessionState.exam.value?.questionItems || []
+  return items.length ? `${items[0].displayNumber}–${items[items.length - 1].displayNumber}` : '…'
+})
+const activeQuestionId = computed(() => sessionState.exam.value?.questionItems.find(item => questionLabel(item.questionId) === activeQuestionNumber.value)?.questionId || '')
+function openExam() {
+  void router.push({ path: '/exam', query: { id: questionId.value, suiteSessionId: crypto.randomUUID() } })
+}
+function handleExamFocus(event: Event) {
+  if (!isExamInterface.value) return
+  const el = event.target instanceof Element ? event.target.closest('[data-question]') : null
+  const id = el?.getAttribute('data-question')
+  if (id) activeQuestionNumber.value = questionLabel(id)
+}
+function moveExamQuestion(direction: number) {
+  const items = sessionState.exam.value?.questionItems || []
+  const index = items.findIndex(item => item.questionId === activeQuestionId.value)
+  const item = items[Math.max(0, Math.min(items.length - 1, index + direction))]
+  if (item) void scrollToQuestion(item.questionId, item.anchorId)
+}
+watch(clockReady, ready => {
+  if (!ready || clock.phase !== 'submitted' || sessionState.submitted.value) return
+  const record = practiceStore.records.find(item => item.id === suiteSessionId.value)
+  if (record?.resultSnapshot && sessionState.exam.value) {
+    sessionState.result.value = record.resultSnapshot
+    sessionState.draftState.value = hydrateDraftState(sessionState.exam.value, record.resultSnapshot.answers)
+    sessionState.highlights.value = record.highlights || []
+    sessionState.markedQuestions.value = record.markedQuestions || []
+    sessionState.submitted.value = true
+  } else {
+    // A tab may have closed between expiry and saving the result.
+    submitPractice()
+  }
+})
 
 const passageNodes = computed(() => sessionState.exam.value?.passageBlocks.flatMap((block) => block.nodes) || [])
 
@@ -533,9 +601,18 @@ function stripDuplicatePassageArticleHeading(nodes: ReadingAstNode[], articleTit
   return nodes.filter((_, i) => i !== dupIndex)
 }
 
-const passageNodesForDisplay = computed(() =>
-  stripDuplicatePassageArticleHeading(passageNodes.value, sessionState.exam.value?.meta.title)
-)
+function annotateExamIntro(nodes: ReadingAstNode[]): ReadingAstNode[] {
+  return nodes.map(node => {
+    if (node.type !== 'element') return node
+    const text = flattenAstText(node).trim()
+    const isIntro = ['h2', 'h3', 'p'].includes(node.tag) && (/^READING PASSAGE \d+$/i.test(text) || /^You should spend about \d+ minutes on Questions/i.test(text))
+    return { ...node, attrs: { ...node.attrs, ...(isIntro ? { class: `${node.attrs.class || ''} exam-source-intro` } : {}) }, children: annotateExamIntro(node.children) }
+  })
+}
+const passageNodesForDisplay = computed(() => {
+  const nodes = stripDuplicatePassageArticleHeading(passageNodes.value, sessionState.exam.value?.meta.title)
+  return isExamInterface.value ? annotateExamIntro(nodes) : nodes
+})
 const passageHighlights = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'passage'))
 const questionHighlights = computed(() => (sessionState.highlights.value || []).filter((item) => item.scope === 'questions'))
 const answeredCount = computed(() => Object.values(sessionState.answerMap.value || {}).filter((value) => hasAnswerValue(value)).length)
@@ -626,8 +703,9 @@ function buildPracticeRecord() {
   if (!sessionState.result.value) {
     return null
   }
-  const duration = Math.max(1, Math.round((Date.now() - practiceStartedAt.value) / 1000))
+  const duration = isExamInterface.value ? clock.elapsedSeconds : Math.max(1, Math.round((Date.now() - practiceStartedAt.value) / 1000))
   return {
+    ...(isExamInterface.value ? { id: suiteSessionId.value } : {}),
     questionId: question.value?.id || sessionState.result.value.metadata.examId,
     questionTitle: displayTitle.value,
     category: String(question.value?.category || sessionState.result.value.metadata.category || ''),
@@ -648,17 +726,26 @@ function savePracticeRecord() {
   if (!record) {
     return
   }
+  if (record.id && practiceStore.records.some(item => item.id === record.id)) return
   practiceStore.add(record)
   achievementStore.check()
 }
 
 function submitPractice() {
-  const resultEntry = sessionState.submit()
+  if (sessionState.submitted.value || !sessionState.exam.value) return
+  const resultEntry = sessionState.submit({ preserveDraft: isExamInterface.value })
   if (!resultEntry) {
     return
   }
   applyAttemptContext()
-  savePracticeRecord()
+  try {
+    savePracticeRecord()
+    if (isExamInterface.value) sessionState.clearSimulationDraft()
+  } catch {
+    message.warning('Your result is available here, but could not be saved to history. Keep this tab open.')
+  } finally {
+    if (isExamInterface.value) clock.finish()
+  }
   const s = resultEntry.scoreInfo
   const toastText = t('practiceMode.submitResultBanner', {
     correct: String(s.correct),
@@ -757,7 +844,7 @@ async function scrollToQuestion(questionId: string, anchorId: string) {
   }
 
   // Update active question number for assistant quick actions
-  updateActiveQuestionNumber(questionId.replace(/^q/i, ''))
+  updateActiveQuestionNumber(questionLabel(questionId))
 
   let element: HTMLElement | null = null
   let targetPane: HTMLElement | null = questionPaneEl
@@ -765,7 +852,7 @@ async function scrollToQuestion(questionId: string, anchorId: string) {
   // Priority 1: exact anchorId match in passage pane
   if (passagePaneEl && anchorId) {
     try {
-      const escapedId = CSS.escape(anchorId)
+      const escapedId = CSS.escape(domPrefix.value + anchorId)
       element = passagePaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
       console.log('[scrollToQuestion] Priority 1 result:', { anchorId, escapedId, found: !!element })
       if (element) {
@@ -779,7 +866,7 @@ async function scrollToQuestion(questionId: string, anchorId: string) {
   // Priority 2: exact anchorId match in question pane
   if (!element && anchorId) {
     try {
-      const escapedId = CSS.escape(anchorId)
+      const escapedId = CSS.escape(domPrefix.value + anchorId)
       element = questionPaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
       console.log('[scrollToQuestion] Priority 2 result:', { anchorId, escapedId, found: !!element })
     } catch (e) {
@@ -823,7 +910,7 @@ async function scrollToQuestion(questionId: string, anchorId: string) {
     ]
     for (const candidateId of exactIds) {
       try {
-        const escapedId = CSS.escape(candidateId)
+        const escapedId = CSS.escape(domPrefix.value + candidateId)
         element = questionPaneEl.querySelector(`#${escapedId}`) as HTMLElement | null
         console.log('[scrollToQuestion] Priority 5 check:', { candidateId, found: !!element })
         if (element) break
@@ -847,6 +934,12 @@ async function scrollToQuestion(questionId: string, anchorId: string) {
     return
   }
 
+  if (isExamInterface.value) {
+    const details = element.closest('details') || element.querySelector('details')
+    if (details) details.open = true
+    const control = element.matches('input, select, textarea, [role="button"]') ? element : element.querySelector<HTMLElement>('input, select, textarea, [role="button"]')
+    control?.focus({ preventScroll: true })
+  }
   // Manual scroll calculation for precise control over which pane scrolls
   const paneRect = targetPane.getBoundingClientRect()
   const elementRect = element.getBoundingClientRect()
@@ -890,7 +983,17 @@ function closeSelectionToolbar() {
   }
 }
 
-function handleSelection(scope: HighlightScope) {
+function handleExamContextMenu(event: MouseEvent, scope: HighlightScope) {
+  if (!isExamInterface.value || sessionState.readOnly.value) return
+  event.preventDefault()
+  handleSelection(scope, true)
+  if (selectionToolbar.value.visible) {
+    selectionToolbar.value.top = Math.min(event.clientY, window.innerHeight - 160)
+    selectionToolbar.value.left = Math.max(100, Math.min(event.clientX, window.innerWidth - 120))
+  }
+}
+function handleSelection(scope: HighlightScope, fromContextMenu = false) {
+  if (isExamInterface.value && !fromContextMenu) return
   if (sessionState.reviewMode.value) {
     closeSelectionToolbar()
     return
@@ -1064,6 +1167,7 @@ function deleteNoteFromSession() {
 }
 
 function handlePaneScroll(scope: HighlightScope) {
+  if (props.embedded && !props.active) return
   sessionState.setScrollState({
     passageTop: scope === 'passage' ? passagePane.value?.scrollTop || 0 : sessionState.scrollState.value.passageTop,
     questionsTop: scope === 'questions' ? questionPane.value?.scrollTop || 0 : sessionState.scrollState.value.questionsTop
@@ -1072,6 +1176,7 @@ function handlePaneScroll(scope: HighlightScope) {
 
 function restorePaneScroll() {
   nextTick(() => {
+    if (props.embedded && !props.active) return
     if (passagePane.value) {
       passagePane.value.scrollTop = sessionState.scrollState.value.passageTop
     }
@@ -1139,15 +1244,72 @@ function handleResize(event: MouseEvent) {
 }
 
 function resetResize() {
-  leftPaneWidth.value = 50
+  leftPaneWidth.value = isExamInterface.value ? 60 : 50
 }
 
+function dismissExamSelection(event: PointerEvent | KeyboardEvent) {
+  if (!isExamInterface.value) return
+  if (event instanceof KeyboardEvent) {
+    if (event.key === 'Escape') closeSelectionToolbar()
+    return
+  }
+  if (event.button !== 0) return
+  if (event.target instanceof Element && event.target.closest('.selection-toolbar, .note-modal, .native-highlight')) return
+  closeSelectionToolbar()
+}
 onMounted(() => {
   document.addEventListener('fullscreenchange', handleFullscreenChange)
+  document.addEventListener('pointerdown', dismissExamSelection)
+  document.addEventListener('keydown', dismissExamSelection)
 })
 
 onUnmounted(() => {
+  stopResize()
   document.removeEventListener('fullscreenchange', handleFullscreenChange)
+  document.removeEventListener('pointerdown', dismissExamSelection)
+  document.removeEventListener('keydown', dismissExamSelection)
+})
+
+function getState(): SuitePassageState {
+  return {
+    ready: !!sessionState.exam.value && !sessionState.isLoading.value && !sessionState.loadError.value && !runtimeError.value,
+    error: runtimeError.value || sessionState.loadError.value || '',
+    questionItems: sessionState.exam.value?.questionItems || [],
+    answerMap: sessionState.answerMap.value,
+    markedQuestions: sessionState.markedQuestions.value,
+    activeQuestionId: activeQuestionId.value,
+    submitted: sessionState.submitted.value
+  }
+}
+function submitForSuite(): SuitePassageSnapshot | null {
+  const result = sessionState.submit({ preserveDraft: true })
+  return result ? { id: questionId.value, title: displayTitle.value, result, highlights: sessionState.highlights.value, markedQuestions: sessionState.markedQuestions.value } : null
+}
+function restoreSuiteResult(snapshot: SuitePassageSnapshot) {
+  if (!sessionState.exam.value || snapshot.id !== questionId.value) return
+  sessionState.result.value = snapshot.result
+  sessionState.draftState.value = hydrateDraftState(sessionState.exam.value, snapshot.result.answers)
+  sessionState.highlights.value = snapshot.highlights || []
+  sessionState.markedQuestions.value = snapshot.markedQuestions || []
+  sessionState.submitted.value = true
+}
+const suiteHandle: SuitePassageHandle = {
+  getState, submitForSuite, restoreSuiteResult,
+  clearSuiteDraft: sessionState.clearSimulationDraft,
+  navigateToQuestion: scrollToQuestion,
+  toggleReview: sessionState.toggleMarkedQuestion,
+  reload: sessionState.reload
+}
+defineExpose(suiteHandle)
+watch(() => [sessionState.exam.value, sessionState.isLoading.value, sessionState.loadError.value, runtimeError.value, sessionState.answerMap.value, sessionState.markedQuestions.value, activeQuestionId.value, sessionState.submitted.value], () => {
+  if (props.embedded) emit('suite-state', getState())
+}, { deep: true, immediate: true })
+watch(() => props.active, active => {
+  if (!props.embedded) return
+  closeSelectionToolbar()
+  cancelNoteModal()
+  stopResize()
+  if (active) restorePaneScroll()
 })
 
 onErrorCaptured((error) => {
@@ -1157,6 +1319,8 @@ onErrorCaptured((error) => {
 </script>
 
 <style scoped>
+.embedded-passage { height:100%; min-height:0; }
+
 .practice-mode-page { max-width: 1520px; margin: 0 auto; }
 .page-header, .header-left, .header-actions, .font-switcher, .state-actions, .pane-toolbar, .bottom-actions, .review-card-header, .review-answer-grid { display: flex; align-items: center; }
 .page-header { justify-content: space-between; gap: 12px; margin-bottom: 16px; }
@@ -1935,3 +2099,5 @@ onErrorCaptured((error) => {
   }
 }
 </style>
+
+<style scoped src="./exam-interface.css"></style>

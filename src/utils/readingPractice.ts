@@ -523,7 +523,9 @@ export function hydrateDraftState(
     if (!token) {
       return
     }
-    const matchedOption = exam.options.find((option) => compareAnswers(option.value, token))
+    const group = exam.questionGroups.find(group => group.questionIds.includes(questionId))
+    const poolIds = group ? collectPoolIds([...group.leadNodes, ...group.contentNodes]) : new Set<string>()
+    const matchedOption = exam.options.find((option) => poolIds.has(option.poolId) && compareAnswers(option.value, token))
     state.dropzoneAnswers[questionId] = {
       value: matchedOption?.value || token,
       label: matchedOption?.label || token,
@@ -537,7 +539,7 @@ export function hydrateDraftState(
 export function buildQuestionGroupMeta(exam: ReadingExamDocument): Record<string, QuestionGroupMeta> {
   const meta: Record<string, QuestionGroupMeta> = {}
   exam.questionGroups?.forEach((group) => {
-    const poolIds = Array.from(collectPoolIds(group.contentNodes))
+    const poolIds = Array.from(collectPoolIds([...group.leadNodes, ...group.contentNodes]))
     group.questionIds?.forEach((questionId) => {
       meta[questionId] = {
         questionId,

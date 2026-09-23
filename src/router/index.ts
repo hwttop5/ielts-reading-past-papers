@@ -86,6 +86,9 @@ async function applyRouteHead(to: RouteLocationNormalizedLoaded) {
 const router = createRouter({
   history: createWebHistory(),
   routes: [
+    { path: '/exam-suite', component: () => import('@/views/ExamSuite.vue'), meta: { title: 'IELTS Reading · Full mock test', robots: 'noindex,nofollow' } },
+    { path: '/exam-setup', component: () => import('@/views/ExamSuiteSetup.vue'), meta: { title: '完整阅读模考 · 组卷与记录', robots: 'noindex,nofollow' } },
+    { path: "/exam", component: PracticeMode, meta: { title: "IELTS Reading · Single-passage mock", robots: "noindex,nofollow" } },
     { 
       path: '/', 
       component: MainLayout,

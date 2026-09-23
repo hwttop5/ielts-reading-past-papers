@@ -14,7 +14,7 @@ import {
   assignDropzoneValue,
   buildPracticeSessionResult,
   buildQuestionGroupMeta,
-  clearSimulationDraft,
+  clearSimulationDraft as removeSimulationDraft,
   collectAnswers,
   createDraftSnapshot,
   createEmptyDraftState,
@@ -33,7 +33,10 @@ import {
 } from '@/utils/readingPractice'
 import { normalizePracticeHighlightRecord, sameHighlightRecord } from '@/utils/practiceHighlights'
 
+import { adaptExamMatching } from '@/utils/examMatching'
+
 interface SessionOptions {
+  examInterface?: Ref<boolean>
   examId: Ref<string>
   mode: Ref<PracticeRouteMode>
   recordId: Ref<string>
@@ -80,6 +83,28 @@ export function useReadingPracticeSession(options: SessionOptions) {
     }, {})
   })
 
+  function safelyRunStorageAction<T>(action: () => T, fallback: T): T {
+    try {
+      return action()
+    } catch {
+      return fallback
+    }
+  }
+
+  function getChoiceSelectionLimit(fieldName: string): number {
+    const choiceField = exam.value?.fields.choiceGroups.find((field) => field.name === fieldName)
+    if (!choiceField || choiceField.inputType !== 'checkbox') {
+      return Number.POSITIVE_INFINITY
+    }
+
+    const answerArrayLimit = choiceField.questionIds.reduce((largest, questionId) => {
+      const correctAnswer = exam.value?.answerKey[questionId]
+      return Array.isArray(correctAnswer) ? Math.max(largest, correctAnswer.length) : largest
+    }, 0)
+
+    return Math.max(1, choiceField.questionIds.length, answerArrayLimit)
+  }
+
   async function withTimeout<T>(promise: Promise<T>, label: string, timeoutMs = 12000): Promise<T> {
     let timeoutHandle: ReturnType<typeof setTimeout> | undefined
     try {
@@ -124,7 +149,7 @@ export function useReadingPracticeSession(options: SessionOptions) {
         throw new Error('Question data is unavailable.')
       }
 
-      exam.value = nextExam
+      exam.value = options.examInterface?.value ? adaptExamMatching(nextExam) : nextExam
       restoreSessionState()
 
       if (loadId === activeLoadId) {
@@ -192,7 +217,9 @@ export function useReadingPracticeSession(options: SessionOptions) {
     result.value = null
     submitted.value = false
     selectedOptionKey.value = ''
-    markedQuestions.value = getStoredMarkedQuestions(exam.value.examId)
+    markedQuestions.value = simulationMode.value
+      ? []
+      : safelyRunStorageAction(() => getStoredMarkedQuestions(exam.value!.examId), [])
     highlights.value = []
     scrollState.value = createEmptyScrollState()
 
@@ -211,7 +238,7 @@ export function useReadingPracticeSession(options: SessionOptions) {
     }
 
     if (simulationMode.value) {
-      const storedDraft = readSimulationDraft(routeContext.value)
+      const storedDraft = safelyRunStorageAction(() => readSimulationDraft(routeContext.value), null)
       if (storedDraft) {
         draftState.value = hydrateDraftState(exam.value, storedDraft.answers)
         markedQuestions.value = storedDraft.markedQuestions || []
@@ -222,6 +249,9 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function setTextAnswer(questionId: string, value: string) {
+    if (readOnly.value) {
+      return
+    }
     draftState.value = {
       ...draftState.value,
       textAnswers: {
@@ -232,6 +262,9 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function setTextareaAnswer(questionId: string, value: string) {
+    if (readOnly.value) {
+      return
+    }
     draftState.value = {
       ...draftState.value,
       textareaAnswers: {
@@ -242,6 +275,9 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function setSelectAnswer(questionId: string, value: string) {
+    if (readOnly.value) {
+      return
+    }
     draftState.value = {
       ...draftState.value,
       selectAnswers: {
@@ -252,13 +288,18 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function toggleChoice(payload: { fieldName: string; inputType: 'radio' | 'checkbox'; value: string; checked: boolean }) {
+    if (readOnly.value) {
+      return
+    }
     const previousValues = draftState.value.choiceGroups[payload.fieldName] || []
     let nextValues: string[] = []
     if (payload.inputType === 'radio') {
       nextValues = payload.checked ? [payload.value] : []
     } else {
+      const selectionLimit = getChoiceSelectionLimit(payload.fieldName)
+      const candidateValues = Array.from(new Set([...previousValues, payload.value]))
       nextValues = payload.checked
-        ? Array.from(new Set([...previousValues, payload.value]))
+        ? candidateValues.slice(0, selectionLimit)
         : previousValues.filter((entry) => entry !== payload.value)
     }
     draftState.value = {
@@ -279,7 +320,7 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function setDropzoneValue(questionId: string, payload: { poolId: string; value: string; label: string }) {
-    if (!exam.value) {
+    if (!exam.value || readOnly.value) {
       return
     }
     draftState.value = assignDropzoneValue(
@@ -297,7 +338,7 @@ export function useReadingPracticeSession(options: SessionOptions) {
   }
 
   function clearDropzoneValue(questionId: string) {
-    if (!exam.value) {
+    if (!exam.value || readOnly.value) {
       return
     }
     draftState.value = assignDropzoneValue(
@@ -357,9 +398,22 @@ export function useReadingPracticeSession(options: SessionOptions) {
     highlights.value = []
   }
 
-  function submit(): PracticeSessionResult | null {
+  function clearSimulationDraft() {
+    if (!simulationMode.value) {
+      return
+    }
+    safelyRunStorageAction(() => removeSimulationDraft(routeContext.value), undefined)
+  }
+
+  function submit(submitOptions: { preserveDraft?: boolean } = {}): PracticeSessionResult | null {
+    if (submitted.value && result.value) {
+      return result.value
+    }
     if (!exam.value) {
       return null
+    }
+    if (submitOptions.preserveDraft) {
+      persistDraftSnapshot()
     }
     const nextResult = buildPracticeSessionResult({
       exam: exam.value,
@@ -370,10 +424,10 @@ export function useReadingPracticeSession(options: SessionOptions) {
     })
     result.value = nextResult
     submitted.value = true
-    if (simulationMode.value) {
-      clearSimulationDraft(routeContext.value)
+    if (simulationMode.value && !submitOptions.preserveDraft) {
+      clearSimulationDraft()
     }
-    return nextResult
+    return result.value
   }
 
   function reset() {
@@ -385,23 +439,26 @@ export function useReadingPracticeSession(options: SessionOptions) {
     submitted.value = false
     selectedOptionKey.value = ''
     if (simulationMode.value) {
-      clearSimulationDraft(routeContext.value)
+      clearSimulationDraft()
     }
   }
 
   function persistDraftSnapshot() {
-    if (!exam.value || !simulationMode.value) {
+    if (!exam.value || !simulationMode.value || submitted.value) {
       return
     }
-    saveSimulationDraft(
-      routeContext.value,
-      createDraftSnapshot(
-        exam.value,
-        draftState.value,
-        markedQuestions.value,
-        highlights.value,
-        scrollState.value
-      )
+    safelyRunStorageAction(
+      () => saveSimulationDraft(
+        routeContext.value,
+        createDraftSnapshot(
+          exam.value!,
+          draftState.value,
+          markedQuestions.value,
+          highlights.value,
+          scrollState.value
+        )
+      ),
+      undefined
     )
   }
 
@@ -416,10 +473,10 @@ export function useReadingPracticeSession(options: SessionOptions) {
   watch(
     markedQuestions,
     (value) => {
-      if (!exam.value) {
+      if (!exam.value || options.mode.value !== 'single') {
         return
       }
-      saveMarkedQuestions(exam.value.examId, value)
+      safelyRunStorageAction(() => saveMarkedQuestions(exam.value!.examId, value), undefined)
     },
     { deep: true }
   )
@@ -468,11 +525,12 @@ export function useReadingPracticeSession(options: SessionOptions) {
     removeHighlight,
     clearHighlights,
     submit,
+    clearSimulationDraft,
     reset,
     reload: load,
     clearPersistedMarks() {
-      if (exam.value) {
-        removeMarkedQuestions(exam.value.examId)
+      if (exam.value && options.mode.value === 'single') {
+        safelyRunStorageAction(() => removeMarkedQuestions(exam.value!.examId), undefined)
       }
     }
   }

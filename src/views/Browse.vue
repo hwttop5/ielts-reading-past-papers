@@ -11,6 +11,7 @@
       </div>
     </div>
 
+    <div class="suite-entry"><div><strong>完整阅读模考</strong><span>三篇文章 · 40 题 · 60 分钟</span></div><button type="button" @click="router.push('/exam-setup')">组卷 / 模考记录 →</button></div>
     <div class="filter-section">
       <div class="filter-group">
         <div class="filter-item">
@@ -119,6 +120,7 @@
           </div>
 
           <div class="question-footer">
+            <button v-if="question.launchMode === 'unified'" class="view-pdf-btn" title="单篇模考 · 20 分钟" aria-label="单篇模考 · 20 分钟" @click.stop="router.push({ path: '/exam', query: { id: question.id } })"><span class="material-icons">timer</span></button>
             <button class="view-pdf-btn" @click.stop="viewPdf(question)" :title="t('browse.viewPdf')" :disabled="!question.pdfPath">
               <span class="material-icons">picture_as_pdf</span>
             </button>
@@ -1080,4 +1082,9 @@ watch(totalPages, (value) => {
     align-items: stretch;
   }
 }
+</style>
+
+<style scoped>
+.suite-entry { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding:18px 20px; margin-bottom:20px; border:1px solid var(--border-color); border-radius:10px; background:var(--bg-secondary); }
+.suite-entry strong { font-size:17px; margin-right:16px; }.suite-entry span { color:var(--text-secondary); font-size:14px; }.suite-entry button { border:1px solid var(--border-color); background:var(--bg-primary); color:var(--text-primary); padding:9px 16px; border-radius:6px; cursor:pointer; }
 </style>

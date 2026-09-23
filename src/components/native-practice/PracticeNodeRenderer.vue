@@ -8,6 +8,7 @@
           :class="{ 'native-highlight-note': Boolean(segment.note) }"
           v-bind="segmentAttrs(nodePath(index), segment)"
           @click="handleHighlightClick(segment, $event)"
+          @contextmenu.stop.prevent="handleHighlightContextMenu(segment, $event)"
         >
           {{ segment.text }}
         </mark>
@@ -16,9 +17,9 @@
     </template>
 
     <component
-      :is="node.tag"
+      :is="elementTag(node, index)"
       v-else-if="node.type === 'element'"
-      v-bind="elementAttrs(node.attrs)"
+      v-bind="elementAttrs(node, index)"
     >
       <PracticeNodeRenderer
         :nodes="elementChildNodes(node)"
@@ -30,6 +31,10 @@
         :highlights="highlights"
         :used-option-values="usedOptionValues"
         :node-path-prefix="nodePath(index)"
+        :exam-style="examStyle"
+        :question-display-map="questionDisplayMap"
+        :summary-node-path="childSummaryNodePath(node, index)"
+        :inside-choice-question="insideChoiceQuestion || isExamChoiceQuestionElement(node)"
         @update:text="(questionId, value) => emit('update:text', questionId, value)"
         @update:textarea="(questionId, value) => emit('update:textarea', questionId, value)"
         @update:select="(questionId, value) => emit('update:select', questionId, value)"
@@ -48,7 +53,7 @@
       :class="[node.inputType, { locked: readOnly }]"
       v-bind="controlAttrs(node.attrs)"
       :type="node.inputType"
-      :name="node.fieldName"
+      :name="domPrefix + node.fieldName"
       :value="node.value"
       :data-choice-value="node.value"
       :data-question="node.questionId"
@@ -67,7 +72,8 @@
       :data-nav-target="node.questionId"
       :value="draftState.textAnswers[node.questionId] || ''"
       :disabled="readOnly"
-      :placeholder="node.attrs.placeholder || ''"
+      :placeholder="controlPlaceholder(node.attrs.placeholder, node.questionId)"
+      :aria-label="controlAriaLabel(node.attrs, node.questionId)"
       @input="emit('update:text', node.questionId, eventValue($event))"
     />
 
@@ -79,7 +85,8 @@
       :data-nav-target="node.questionId"
       :value="draftState.textareaAnswers[node.questionId] || ''"
       :disabled="readOnly"
-      :placeholder="node.attrs.placeholder || ''"
+      :placeholder="controlPlaceholder(node.attrs.placeholder, node.questionId)"
+      :aria-label="controlAriaLabel(node.attrs, node.questionId)"
       @input="emit('update:textarea', node.questionId, eventValue($event))"
     ></textarea>
 
@@ -108,6 +115,10 @@
       v-bind="controlAttrs(node.attrs)"
       :data-question="node.questionId"
       :data-nav-target="node.questionId"
+      role="button"
+      :tabindex="readOnly ? -1 : 0"
+      :aria-disabled="readOnly ? 'true' : undefined"
+      :aria-label="dropzoneAriaLabel(node.questionId)"
       :class="[
         `appearance-${node.appearance}`,
         {
@@ -118,9 +129,10 @@
       @dragover.prevent
       @drop.prevent="handleDrop(node, $event)"
       @click="handleDropzoneClick(node)"
+      @keydown="handleDropzoneKeydown(node, $event)"
     >
       <span class="dropzone-main">
-        <strong v-if="node.appearance === 'paragraph' && node.paragraph" class="dropzone-prefix">
+        <strong v-if="!examStyle && node.appearance === 'paragraph' && node.paragraph" class="dropzone-prefix">
           {{ node.paragraph }}
         </strong>
         <span class="dropzone-text">
@@ -160,8 +172,9 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeUnmount } from 'vue'
+import { onBeforeUnmount, inject, ref, type Ref } from 'vue'
 import { canonicalizeAnswerToken } from '@/utils/readingPractice'
+import { isExamChoiceQuestionElement, matchExamChoiceCollapse } from '@/utils/examPresentation'
 import {
   buildHighlightSegments,
   HIGHLIGHT_NODE_PATH_ATTR,
@@ -181,6 +194,14 @@ import type {
 } from '@/types/readingNative'
 
 defineOptions({ name: 'PracticeNodeRenderer' })
+const domPrefix = inject<Ref<string>>('practice-dom-prefix', ref(''))
+function namespaceAttrs(attrs: Record<string, string>): Record<string, string> {
+  if (!domPrefix.value) return attrs
+  const result = { ...attrs }
+  for (const key of ['id', 'for', 'name']) if (result[key]) result[key] = domPrefix.value + result[key]
+  for (const key of ['aria-labelledby', 'aria-describedby']) if (result[key]) result[key] = result[key].split(/\s+/).map(id => domPrefix.value + id).join(' ')
+  return result
+}
 
 const props = defineProps<{
   nodes: ReadingAstNode[]
@@ -192,6 +213,10 @@ const props = defineProps<{
   highlights: PracticeHighlightRecord[]
   usedOptionValues: Record<string, string[]>
   nodePathPrefix?: string
+  examStyle?: boolean
+  questionDisplayMap?: Record<string, string>
+  summaryNodePath?: string
+  insideChoiceQuestion?: boolean
 }>()
 
 const emit = defineEmits<{
@@ -216,6 +241,8 @@ interface PointerDragState {
   pointerId: number
   startX: number
   startY: number
+  grabX: number
+  grabY: number
   currentX: number
   currentY: number
   dragging: boolean
@@ -259,8 +286,65 @@ function eventValue(event: Event): string {
   return String((event.target as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement)?.value || '')
 }
 
-function elementAttrs(attrs: Record<string, string>): Record<string, string> {
-  return attrs
+function questionNumber(questionId: string): string {
+  const mappedNumber = props.questionDisplayMap?.[questionId]
+  if (mappedNumber) {
+    return mappedNumber
+  }
+  const numericId = String(questionId || '').match(/\d+/)?.[0]
+  return numericId || String(questionId || '').replace(/^q(?:uestion)?[-_:]?/i, '') || '?'
+}
+
+function controlPlaceholder(existing: string | undefined, questionId: string): string {
+  return existing?.trim() ? existing : (props.examStyle ? questionNumber(questionId) : '')
+}
+
+function controlAriaLabel(attrs: Record<string, string>, questionId: string): string | undefined {
+  return props.examStyle ? `Question ${questionNumber(questionId)}` : attrs['aria-label']
+}
+
+function dropzoneAriaLabel(questionId: string): string {
+  return `Question ${questionNumber(questionId)} answer dropzone`
+}
+
+function collapsibleChoice(node: ReadingElementNode) {
+  if (!props.examStyle || props.insideChoiceQuestion) {
+    return null
+  }
+  return matchExamChoiceCollapse(node)
+}
+
+function isSummaryNode(index: number): boolean {
+  return Boolean(props.summaryNodePath && props.summaryNodePath === nodePath(index))
+}
+
+function elementTag(node: ReadingElementNode, index: number): string {
+  if (isSummaryNode(index)) {
+    return 'summary'
+  }
+  return collapsibleChoice(node) ? 'details' : node.tag
+}
+
+function elementAttrs(node: ReadingElementNode, index: number): Record<string, string | boolean> {
+  if (isSummaryNode(index)) {
+    return namespaceAttrs(node.attrs)
+  }
+  if (!collapsibleChoice(node)) {
+    return namespaceAttrs(node.attrs)
+  }
+  return {
+    ...namespaceAttrs(node.attrs),
+    class: [node.attrs.class, 'native-exam-choice'].filter(Boolean).join(' '),
+    open: props.submitted
+  }
+}
+
+function childSummaryNodePath(node: ReadingElementNode, index: number): string | undefined {
+  const match = collapsibleChoice(node)
+  if (match) {
+    return `${nodePath(index)}.${match.stemIndex}`
+  }
+  return props.summaryNodePath
 }
 
 /** MCQ 选项容器在 AST 里夹了大量仅含换行/空白的 text 节点；子节点会渲染成 #text/空 span，若父级用 CSS grid 会把每个都当成一格，导致选项错位、看似居中。 */
@@ -291,7 +375,7 @@ function elementChildNodes(node: ReadingElementNode): ReadingAstNode[] {
 
 function controlAttrs(attrs: Record<string, string>): Record<string, string> {
   const { type, value, checked, selected, draggable, ...rest } = attrs as Record<string, string>
-  return rest
+  return namespaceAttrs(rest)
 }
 
 function optionKey(poolId: string, value: string): string {
@@ -306,6 +390,9 @@ function dropzoneDisplay(node: ReadingDropzoneNode): string {
   const current = dropzoneValue(node.questionId)
   if (current) {
     return current.label || current.value
+  }
+  if (props.examStyle) {
+    return questionNumber(node.questionId)
   }
   if (node.appearance === 'paragraph') {
     return node.labelText || 'Choose heading'
@@ -358,17 +445,37 @@ function handleOptionDragStart(node: ReadingOptionChipNode, event: DragEvent) {
   }))
 }
 
-function createDragGhost(node: ReadingOptionChipNode, event: PointerEvent): HTMLElement {
+function createDragGhost(state: PointerDragState, event: PointerEvent): HTMLElement {
   const ghost = document.createElement('div')
+  const source = state.sourceElement
+  if (source) {
+    // The preview lives outside the exam container: preserve its resolved theme,
+    // typography and dimensions instead of relying on ancestor CSS selectors.
+    const style = window.getComputedStyle(source)
+    for (let i = 0; i < style.length; i++) {
+      const property = style.item(i)
+      ghost.style.setProperty(property, style.getPropertyValue(property))
+    }
+    const rect = source.getBoundingClientRect()
+    ghost.style.width = `${rect.width}px`
+    ghost.style.height = `${rect.height}px`
+  }
+  Object.assign(ghost.style, {
+    position: 'fixed', top: '0', left: '0', margin: '0',
+    boxSizing: 'border-box', minWidth: '0', minHeight: '0',
+    maxWidth: 'none', maxHeight: 'none', pointerEvents: 'none',
+    zIndex: '10000', transition: 'none', animation: 'none'
+  })
   ghost.className = 'native-option-drag-ghost'
-  ghost.textContent = node.label || node.value
+  ghost.setAttribute('aria-hidden', 'true')
+  ghost.textContent = state.node.label || state.node.value
   document.body.appendChild(ghost)
-  moveDragGhost(ghost, event.clientX, event.clientY)
+  moveDragGhost(ghost, event.clientX - state.grabX, event.clientY - state.grabY)
   return ghost
 }
 
 function moveDragGhost(ghost: HTMLElement, x: number, y: number) {
-  ghost.style.transform = `translate(${Math.round(x + 12)}px, ${Math.round(y + 12)}px)`
+  ghost.style.transform = `translate(${x}px, ${y}px)`
 }
 
 function findDropzoneAtPoint(x: number, y: number): HTMLElement | null {
@@ -494,7 +601,7 @@ function runAutoScroll() {
 
 function startPointerDrag(state: PointerDragState, event: PointerEvent) {
   state.dragging = true
-  state.ghost = createDragGhost(state.node, event)
+  state.ghost = createDragGhost(state, event)
   document.body.classList.add('native-option-dragging')
   window.getSelection()?.removeAllRanges()
   setActiveDropzone(findDropzoneCandidateAtPoint(event.clientX, event.clientY))
@@ -522,7 +629,7 @@ function handleOptionPointerMove(event: PointerEvent) {
 
   event.preventDefault()
   if (state.ghost) {
-    moveDragGhost(state.ghost, event.clientX, event.clientY)
+    moveDragGhost(state.ghost, event.clientX - state.grabX, event.clientY - state.grabY)
   }
   setActiveDropzone(findDropzoneCandidateAtPoint(event.clientX, event.clientY))
   updateAutoScroll(state)
@@ -583,17 +690,21 @@ function handleOptionPointerDown(node: ReadingOptionChipNode, event: PointerEven
     return
   }
   cleanupPointerDrag()
+  const sourceElement = event.currentTarget instanceof HTMLElement ? event.currentTarget : null
+  const sourceRect = sourceElement?.getBoundingClientRect()
   pointerDrag = {
     node,
     pointerId: event.pointerId,
     startX: event.clientX,
     startY: event.clientY,
+    grabX: event.clientX - (sourceRect?.left ?? event.clientX),
+    grabY: event.clientY - (sourceRect?.top ?? event.clientY),
     currentX: event.clientX,
     currentY: event.clientY,
     dragging: false,
     ghost: null,
     activeDropzone: null,
-    sourceElement: event.currentTarget instanceof HTMLElement ? event.currentTarget : null,
+    sourceElement,
     autoScrollPane: null,
     autoScrollStep: 0,
     autoScrollFrame: 0
@@ -643,6 +754,14 @@ function handleDropzoneClick(node: ReadingDropzoneNode) {
   })
 }
 
+function handleDropzoneKeydown(node: ReadingDropzoneNode, event: KeyboardEvent) {
+  if (event.key !== 'Enter' && event.key !== ' ') {
+    return
+  }
+  event.preventDefault()
+  handleDropzoneClick(node)
+}
+
 function segmentAttrs(path: string, segment: HighlightSegment): Record<string, string> {
   const attrs: Record<string, string> = {
     [HIGHLIGHT_NODE_PATH_ATTR]: path,
@@ -663,11 +782,24 @@ function highlightSegments(text: string, path: string): HighlightSegment[] {
 }
 
 function handleHighlightClick(segment: HighlightSegment, event: MouseEvent) {
-  if (!segment.record) {
+  if (props.examStyle || !segment.record) {
     return
   }
   event.stopPropagation()
   emit(segment.note ? 'open:note' : 'open:highlight', {
+    record: segment.record,
+    top: event.clientY + 12,
+    left: event.clientX + 12
+  })
+}
+
+function handleHighlightContextMenu(segment: HighlightSegment, event: MouseEvent) {
+  if (!props.examStyle || !segment.record) {
+    return
+  }
+  event.preventDefault()
+  event.stopPropagation()
+  emit('open:highlight', {
     record: segment.record,
     top: event.clientY + 12,
     left: event.clientX + 12
@@ -830,24 +962,4 @@ onBeforeUnmount(() => {
   user-select: none;
 }
 
-:global(.native-option-drag-ghost) {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  pointer-events: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: min(360px, 82vw);
-  min-height: 36px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  border: 1px solid color-mix(in srgb, var(--primary-color) 65%, var(--border-color));
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.22);
-  opacity: 0.94;
-  white-space: nowrap;
-}
 </style>
